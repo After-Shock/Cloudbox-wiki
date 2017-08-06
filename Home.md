@@ -5,7 +5,7 @@
 1. [[NZBGet]]
 1. [[Sonarr]]
 1. [[Radarr]]
-1. [[rTorrent/ruTorrent]]
+1. [[Portainer]]
 1. [[Plex_Autoscan]]
 1. [[Unionfs_Cleaner]]
 1. [[Plex]]
@@ -14,7 +14,6 @@
 1. [[NZBHydra]]
 1. [[Plexrequests]]
 1. [[Organizer]]
-1. [[Portainer]]
 
 ### Future Installs ###
 - [[Backup]]
