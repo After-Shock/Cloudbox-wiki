@@ -1,4 +1,17 @@
-TODO:
+
+readme:
+
+just mention
+Nginx-Proxy & Letsencrypt Companion
+or
+Nginx & Letsencrypt
+idk
+they are 2 containers
+so link them liek we thought
+
+
+
+
 
 Generate plex_autoscan config autom
 ----------------
