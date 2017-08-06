@@ -1,5 +1,6 @@
 ### First Time Install ###
 1. [[Ansible Script]]
+1. [[Rclone]]
 1. [[Plexdrive]]
 1. [[Sonarr]]
 1. [[Radarr]]
@@ -11,7 +12,6 @@
 1. [[PlexPy]]
 1. [[Jackett]]
 1. [[NZBHydra]]
-1. [[Rclone]]
 1. [[Plexrequests]]
 1. [[Organizer]]
 1. [[Portainer]]
