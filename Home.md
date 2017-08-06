@@ -13,7 +13,7 @@
 1. [[NZBHydra]]
 1. [[Rclone]]
 1. [[Plexrequests]]
-1. [[Organizer]
+1. [[Organizer]]
 1. [[Portainer]]
 
 ### Future Installs ###
