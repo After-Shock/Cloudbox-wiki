@@ -7,7 +7,7 @@
 1. [[Radarr]]
 1. [[Portainer]]
 1. [[Plex]]
-1. [[Plex_Autoscan]]
+1. [[Plex_Autoscan]] (if needed)
 1. [[Unionfs_Cleaner]]
 1. [[PlexPy]]
 1. [[Jackett]]
