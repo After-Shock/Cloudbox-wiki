@@ -33,3 +33,4 @@ https://plex.tv/claim
 
 ...
 
+sudo reboot
