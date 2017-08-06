@@ -28,5 +28,8 @@ sudo ansible-playbook cloudbox.yml --tags full
 
 
 
+to continue plex installatio...
+https://plex.tv/claim
 
+...
 
