@@ -8,13 +8,15 @@
 1. [[Radarr]]
 1. [[Portainer]]
 1. [[Plex]]
-1. [[Plex_Autoscan]] (if needed)
-1. [[Unionfs_Cleaner]] (if needed)
+1. [[Plex_Autoscan]]*
+1. [[Unionfs_Cleaner]]*
 1. [[PlexPy]]
 1. [[Jackett]]
 1. [[NZB Hydra]]
 1. [[Plexrequests]]
 1. [[Organizer]]
+
+*if needed
 
 ### Future Installs ###
 - [[Backup]]
