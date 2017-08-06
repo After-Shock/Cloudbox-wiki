@@ -12,7 +12,7 @@
 1. [[Unionfs_Cleaner]] (if needed)
 1. [[PlexPy]]
 1. [[Jackett]]
-1. [[NZBHydra]]
+1. [[NZB Hydra]]
 1. [[Plexrequests]]
 1. [[Organizer]]
 
