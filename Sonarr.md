@@ -15,4 +15,4 @@ enable remove on completed download handeling
 Add download client. 
 host: nzbget
 username and password your previously set.
-category: sonarr
+category: `sonarr` (lowercase)
