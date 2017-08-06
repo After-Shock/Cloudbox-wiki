@@ -12,6 +12,15 @@ so link them liek we thought
 
 
 
+so /opt/nginx will exist and cert keys will be backed up
+nginx-proxy
+is where the certs are stored / renewed
+and theyll be backed up
+
+
+
+
+
 
 Generate plex_autoscan config autom
 
