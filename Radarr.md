@@ -24,3 +24,7 @@ port: 80
 username and pass you set in settings.yml on install
 category sonarr.
 test it, it will fail the first time, then test again and it will succeed.
+
+
+add media
+radarr is /movies
