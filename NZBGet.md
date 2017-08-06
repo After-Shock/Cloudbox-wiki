@@ -1,0 +1,1 @@
+set user/pass on the download clients first
