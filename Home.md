@@ -1,4 +1,5 @@
 ### First Time Install ###
+1. [[Requirements]]
 1. [[Ansible Script]]
 1. [[Rclone]]
 1. [[Plexdrive]]
