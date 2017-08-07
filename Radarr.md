@@ -28,3 +28,13 @@ test it, it will fail the first time, then test again and it will succeed.
 
 add media
 radarr is /movies
+
+
+webhook
+
+disable on grab
+cat /opt/plex_autoscan/*.log | grep http
+desimaniac - Today at 7:58 PM
+yeah we could do that
+(๏̯͡๏) - Today at 7:58 PM
+Copy link replace 0.0.0.0 with plex.domain
