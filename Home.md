@@ -20,7 +20,7 @@
 1. [[Plex Requests]]
 1. [[Organizer]]
 
-*if needed
+*needed only if more than the 2 default libraries were added or if the order was reversed.
 
 ### Future Installs ###
 - [[Backup]]
