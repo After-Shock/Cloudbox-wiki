@@ -1,3 +1,10 @@
+ive noticed season packs unpack better if i send them directly to nzbget via nzbhydra vs sonarr trying to download that megapack by itself
+which reminds me, ill add a note to add nzbget info into nzbhydra
+(๏̯͡๏) - Today at 7:36 PM
+Ok
+Also note not to use black hole
+For Jacket or hydra
+
 
 readme:
 
@@ -55,6 +62,9 @@ PLEX:
 
 DONT USE /tmp as transcode location. On reboots /tmp is cleared, this causes docker to create the folder as root, causing issues for plex to start transcoding! - /tmp should NEVER be used with cloudbox unless you never plan on restarting.
 
+
+update: it saves to /home/username/transcodes now
+so its not an issue anymore
 -----------!_-------!--------!----------
 
 
