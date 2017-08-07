@@ -17,7 +17,7 @@
 1. [[PlexPy]]
 1. [[Jackett]]
 1. [[NZB Hydra]]
-1. [[Plexrequests]]
+1. [[Plex Requests]]
 1. [[Organizer]]
 
 *if needed
