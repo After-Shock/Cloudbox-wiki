@@ -23,11 +23,10 @@
 *needed only if more than the 2 default libraries were added or if the order was reversed.
 
 ### More Information ###
+- [[Updating Cloudbox]]
+- [[Backup & Restore]]
 - [[Getting a Google Drive API client ID and secret]]
 - [[Docker Tips & Shortcuts]]
-- [[Updating Cloudbox]]
-- [[Backup]]
-- [[Restore]]
 
 ### Troubleshooting ###
 - [[FAQ]]
