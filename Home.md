@@ -23,6 +23,7 @@
 *needed only if more than the 2 default libraries were added or if the order was reversed.
 
 ### Future Installs ###
+- [[Updating Cloudbox]]
 - [[Backup]]
 - [[Restore]]
 
