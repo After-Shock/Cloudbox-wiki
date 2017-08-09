@@ -2,7 +2,7 @@
 
 ## 1. Dedicated Server
 
-Get an Ubuntu 16 LTS server from a hosting company (eg. Hetzner.de).
+Get an Ubuntu 16.04 server from a hosting company (eg. Hetzner.de).
 
 
 
