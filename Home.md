@@ -3,7 +3,7 @@
 1. [[Server]]
 
 ### First Time Install ###
-1. [[Requirements]]
+1. [[Prereqs]]
 1. [[Ansible Script]]
 1. Editing settings
 1. [[Rclone]]
