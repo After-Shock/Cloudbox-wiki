@@ -1,6 +1,6 @@
 ### First Time Install ###
 1. [[Prerequisites]]
-1. [[Ansible Script]]
+1. [[Clone Cloudbox]]
 1. [[Configuring Settings]]
 1. [[Rclone]]
 1. [[Plexdrive]]
