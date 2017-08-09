@@ -9,8 +9,8 @@
 1. [[Radarr]]
 1. [[Portainer]]
 1. [[Plex]]
-1. [[Plex_Autoscan]]*
-1. [[Unionfs_Cleaner]]*
+1. [[Plex_Autoscan]]
+1. [[Unionfs_Cleaner]]
 1. [[PlexPy]]
 1. [[Jackett]]
 1. [[NZB Hydra]]
