@@ -30,6 +30,4 @@ Get an Ubuntu 16.04 server from a hosting company (eg. Hetzner.de).
 
     ![](http://i.imgur.com/cRIo3lQ.png)
 
-
-
-<a id="note1" href="#note1ref"><sup>1</sup></a> Although these folders are not meant to be changed, you may have other subfolders within Movies and TV, but will require further editing of settings <link to unionfs/plexautoscan configs>.
+    <a id="note1" href="#note1ref"><sup>1</sup></a> Although these folders are not meant to be changed, you may have other subfolders within Movies and TV, but will require further editing of settings <link to unionfs_cleaner and plex_autoscan configs editing page>.
