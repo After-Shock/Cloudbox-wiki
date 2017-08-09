@@ -21,3 +21,7 @@ Get an Ubuntu 16.04 server from a hosting company (eg. Hetzner.de).
 
     ![](http://i.imgur.com/YK5kbso.png)
 4. Save Changes.
+
+## Cloud Storage ## 
+
+Cloudbox utilizes Plexdrive to store media, unencrypted, in Google Drive, so if your using Amazon or prefer encryption, look elsewhere. We recommend creating a [G Suite Business Account](gsuite.google.com/pricing.html).
