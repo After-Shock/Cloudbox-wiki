@@ -17,7 +17,7 @@ Get an Ubuntu 16 LTS server from a hosting company (eg. Hetzner.de).
 ### Free Domain Name
 1. Go to http://www.freenom.com, create a free account, and find a domain name to register. 
 2. Services > My Domains > Manage Domain > Manage Freenom DNS.
-3. Add these records, with Target being your Server IP.
+3. Add these A Records, with Target being your server IP.
 
     ![](http://i.imgur.com/YK5kbso.png)
 4. Save Changes.
