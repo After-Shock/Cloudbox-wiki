@@ -23,6 +23,7 @@
 *needed only if more than the 2 default libraries were added or if the order was reversed.
 
 ### More Information ###
+- [[Addons]]
 - [[Updating Cloudbox]]
 - [[Backup & Restore]]
 - [[Getting a Google Drive API client ID and secret]]
