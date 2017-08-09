@@ -1,0 +1,1 @@
+"Before restoring your backup, ensure that the existing plex server is offline, otherwise it will cause issues when the new system tries to identify itself to plex as the old system, yet the old system is still up and connected to plex"
