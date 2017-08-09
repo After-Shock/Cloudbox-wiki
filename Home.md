@@ -1,7 +1,3 @@
-### Requirements ###
-1. [[Domain]]
-1. [[Server]]
-
 ### First Time Install ###
 1. [[Prerequisites]]
 1. [[Ansible Script]]
