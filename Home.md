@@ -1,7 +1,7 @@
 ### First Time Install ###
 1. [[Prerequisites]]
 1. [[Ansible Script]]
-1. Editing settings
+1. [[Configuring Settings]]
 1. [[Rclone]]
 1. [[Plexdrive]]
 1. [[NZBGet]]
