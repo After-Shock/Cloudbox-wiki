@@ -1,6 +1,9 @@
+running this script will remove all your docker containers. 
+
+
 ive noticed season packs unpack better if i send them directly to nzbget via nzbhydra vs sonarr trying to download that megapack by itself
 which reminds me, ill add a note to add nzbget info into nzbhydra
-(๏̯͡๏) - Today at 7:36 PM
+(๏̯͡๏) - Today at 7:36 PM
 Ok
 Also note not to use black hole
 For Jacket or hydra
