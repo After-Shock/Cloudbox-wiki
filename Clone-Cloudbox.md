@@ -1,4 +1,4 @@
-###  1. Run these commands to create "seed" account ### 
+###  1. Run these commands to create "seed" account, set the password when asked. ### 
 ```
 sudo useradd -m seed
 sudo usermod -aG sudo seed
