@@ -1,5 +1,23 @@
 # Prerequisites
 
-## 1. Domain Name
-1. Paid
-1. Free
+## 1. Dedicated Server
+
+Get an Ubuntu 16 LTS server from a hosting company (eg. Hetzner.de).
+
+
+
+## 2. Domain Name
+### Paid Domain Name(recommended)
+1. Get a domain name from any domain name registry (eg. Namecheap.com, Godaddy.com)
+2. Set a wildcard DNS for `*` to your server IP. 
+    Example Namecheap: Domain List > Manage > Advanced DNS > Add New Record > A Record > `*` for Host > Server IP for Value.
+
+![](http://i.imgur.com/CjjsRDi.png)
+
+### Free Domain Name
+1. Go to http://www.freenom.com, create a free account, and find a domain name to register. 
+2. Services > My Domains > Manage Domain > Manage Freenom DNS.
+3. Add these records, with Target being your Server IP.
+
+    ![](http://i.imgur.com/YK5kbso.png)
+4. Save Changes.
