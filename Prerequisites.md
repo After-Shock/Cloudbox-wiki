@@ -7,14 +7,14 @@ Get an Ubuntu 16.04 server from a hosting company (eg. Hetzner.de).
 
 
 ## 2. Domain Name
-### Paid Domain Name(recommended)
+### i. Paid Domain Name(recommended)
 1. Get a domain name from any domain name registry (eg. Namecheap.com, Godaddy.com)
 2. Set a wildcard DNS for `*` to your server IP. 
     Example Namecheap: Domain List > Manage > Advanced DNS > Add New Record > A Record > `*` for Host > Server IP for Value.
 
 ![](http://i.imgur.com/CjjsRDi.png)
 
-### Free Domain Name
+### ii. Free Domain Name
 1. Go to http://www.freenom.com, create a free account, and find a domain name to register. 
 2. Services > My Domains > Manage Domain > Manage Freenom DNS.
 3. Add these A Records, with Target being your server IP.
@@ -22,7 +22,7 @@ Get an Ubuntu 16.04 server from a hosting company (eg. Hetzner.de).
     ![](http://i.imgur.com/YK5kbso.png)
 4. Save Changes.
 
-## Cloud Storage ## 
+## 3. Cloud Storage ## 
 
 * Cloudbox stores the media unencrypted in Google Drive and utilizes Plexdrive to access it, so if your using Amazon or prefer encryption, look elsewhere. We recommend creating a [G-Suite Business](gsuite.google.com/pricing.html) account.
 
@@ -32,4 +32,4 @@ Get an Ubuntu 16.04 server from a hosting company (eg. Hetzner.de).
 
 
 
-<a id="note1" href="#note1ref"><sup>1</sup></a> This can be changed but will require editing of the /opt/unionfs_cleaner/config.json file.
+<a id="note1" href="#note1ref"><sup>1</sup></a> Although these folders are not meant to be changed, you may have other subfolders within Movies and TV, but will require further editing of settigs <link to unionfs/plexautoscan configs>.
