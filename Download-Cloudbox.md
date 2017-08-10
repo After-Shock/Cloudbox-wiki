@@ -5,6 +5,7 @@ sudo usermod -aG sudo seed
 sudo passwd seed
 su seed
 ```
+Note: The account name can be changed, but will need to be changed in the Settings.yml as well.
 
 ### 2. Clone Cloudbox project ### 
 
