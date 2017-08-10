@@ -24,7 +24,7 @@ Get an Ubuntu 16.04 server from a hosting company (eg. Hetzner.de).
 
 ## 3. Cloud Storage ## 
 
-* Cloudbox stores the media unencrypted in Google Drive and utilizes Plexdrive to access it, so if your using Amazon or prefer encryption, look elsewhere. We recommend creating a [G-Suite Business](gsuite.google.com/pricing.html) account.
+* Cloudbox stores the media unencrypted in Google Drive and utilizes Plexdrive to access it, so if your using Amazon or prefer encryption, look elsewhere. We recommend creating a [G-Suite Business](gsuite.google.com/pricing.html) account for larger storage space.
 
 * Media will be stored in `Media` folder in root, and `Movies` and `TV` folders within that. If you have media in other folders, simply move them into these folders via the Google Drive web app.<a href="#note1" id="note1ref"><sup>1</sup></a>
 
