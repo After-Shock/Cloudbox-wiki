@@ -8,7 +8,7 @@
 
 3. On the next screen, click the `+` to create a new project. Note: You will need to create one project for Rclone and one for Plexdrive. 
 
-    ![](http://i.imgur.com/65DbuhD.png)
+    ![](http://i.imgur.com/58uc6x8.png)
 
 4. Name the project (e.g. Rclone). Chose 'Yes' to agree. Click `Create`.
 
