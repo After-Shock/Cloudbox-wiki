@@ -1,14 +1,14 @@
 1. Open Google APIs Console site: https://console.developers.google.com and login with your Google account.
 
-    ![](http://i.imgur.com/nwWn8d4.png)
+    ![](http://i.imgur.com/ExfSqLe.png)
     
 2. Click `Library` on the left column, then click on `Select a project` at the top.
 
-    ![](http://i.imgur.com/Puy59n4.png)
+    ![](http://i.imgur.com/TYNDd66.png)
 
 3. On the next screen, click the `+` to create a new project. Note: You will need to create one project for Rclone and one for Plexdrive. 
 
-    ![](http://i.imgur.com/7YX4LAS.png)
+    ![](http://i.imgur.com/65DbuhD.png)
 
 4. Name the project (e.g. Rclone). Chose 'Yes' to agree. Click `Create`.
 
