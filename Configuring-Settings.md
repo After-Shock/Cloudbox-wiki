@@ -13,13 +13,13 @@
 
 - `user`: User account for Cloudbox (will be created if it doesn't exist already). Default is `seed`.
 - `passwd`: Password for user account (only needed if user account is being created).
-    - Note: Password can be alpha or alphanumeric, but not only numeric and no special characters. 
 - `domain`: Domain name for reverse proxy.
 - `email`: E-mail used for SSL certificate files.
 - `nzbget`
     - `downloads`: Path for NZBGet downloads. Default is `"/home/{{user}}/downloads/nzbget"`. 
 - `rutorrent`:
     - `passwd`: Password to be used for ruTorrent webgui
+      - Note: Password can be alpha or alphanumeric, but not only numeric and no special characters. 
     - `downloads`: Path for ruTorrent downloads. Default is `"/home/{{user}}/downloads/rutorrent"`. 
 - `plex`:
   - `tag`: Options are `public` or `plexpass`. Use `plexpass` only if you have an active [Plex Pass](https://www.plex.tv/features/plex-pass/). This can be changed later by running the installer again. Default is `public`.
