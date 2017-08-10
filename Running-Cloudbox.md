@@ -11,23 +11,23 @@ Note: Ansible v2.3.1.0 is the current stable version (v2.3.2.0 has a bug where d
 
 1. Go into cloudbox folder
 
-  ```bash
-  cd ~/cloudbox
-  ```
+    ```bash
+    cd ~/cloudbox
+    ```
 
 2. Decide on what type of Cloudbox you want: `full`,`feeder`, or `plex` .
 
 3. Run the following command, with the preferred option from #2 (`--tag "option"`). Quotes are not required.
 
     Example of a full install:
-  ```bash
-  sudo ansible-playbook cloudbox.yml --tag full
-  ```
+      ```bash
+      sudo ansible-playbook cloudbox.yml --tag full
+      ```
 4. When asked for a Plex Claim Token, go to https://plex.tv/claim and retrieve it and paste it on the at the prompt. When you paste it, you will see nothing. This is normal. Just press enter to continue. 
 
-  ![Plex Claim Token](http://i.imgur.com/SkRnay2.png)
+    ![Plex Claim Token](http://i.imgur.com/SkRnay2.png)
 
 5. You must now reboot.
-```bash
-sudo reboot
-```
+    ```bash
+    sudo reboot
+     ```
