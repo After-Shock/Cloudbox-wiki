@@ -30,7 +30,7 @@
 - `unionfs_cleaner`:
   - `max_local_gigabytes`: Max size in GB allowed for local media before is moved to the cloud. Default is `200`. 
   - `size_check_mins`: How often in minutes local media size is checked. Default is `30`.
-  - `rclone_remote`: Should not be changed.
+  - `rclone_remote`: Should not be changed. Default is `google:`.
 - `backup`:
   - `tgz_dest`: Path for local backups (.tgz). Only the two most recent copies are kept. Default is `"/home/{{user}}/Backups"`.
     - Note: Ensure the path does NOT have a trailing slash (/) or else backup will fail (i.e. `/sample/path`, not `/sample/path/`).
