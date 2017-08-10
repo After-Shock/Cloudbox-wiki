@@ -24,13 +24,14 @@
   - `tag`: Options are `public` or `plexpass`. Use `plexpass` only if you have an active [Plex Pass](https://www.plex.tv/features/plex-pass/). This can be changed later by running the installer again. Default is `public`.
   - `transcodes`: Path of temporary transcoding files. Default is `"/home/{{user}}/transcodes"`. 
     - Note: DO NOT use /tmp or /dev/shm as a transcode location. On reboots, /tmp and /dev/shm is cleared and this causes docker to recreate the folder as root, causing the plex transcoder to crash. 
-- `plex_autoscan ip`: Server IP that Plex_Autoscan will listen on. Default is `0.0.0.0`. Note: Should not be changed because containers can not communicate with host via 127.0.0.1.
+- `plex_autoscan ip`: Server IP that Plex_Autoscan will listen on. Default is `0.0.0.0`. 
+  - Note: Should not be changed because containers can not communicate with host via 127.0.0.1.
 - `rclone`:
-  - `version`: Rclone version. Should not be changed as `1.36` has been tested stable.
+  - `version`: Rclone version. Should not be changed as this is the most stable tested version. Default is `1.36`.
 - `unionfs_cleaner`:
   - `max_local_gigabytes`: Max size in GB allowed for local media before is moved to the cloud. Default is `200`. 
   - `size_check_mins`: How often in minutes local media size is checked. Default is `30`.
-  - `rclone_remote`: Should not be changed. Default is `google:`.
+  - `rclone_remote`: Should not be changed. Default is `"google:"`.
 - `backup`:
   - `tgz_dest`: Path for local backups (.tgz). Only the two most recent copies are kept. Default is `"/home/{{user}}/Backups"`.
     - Note: Ensure the path does NOT have a trailing slash (/) or else backup will fail (i.e. `/sample/path`, not `/sample/path/`).
