@@ -1,9 +1,9 @@
 ## 1. Run these commands ##
 
-```
-cd ~/cloudbox
-nano settings.yml
-```
+    ```
+    cd ~/cloudbox
+    nano settings.yml
+    ```
 
 ## 2. Change settings ## 
 
