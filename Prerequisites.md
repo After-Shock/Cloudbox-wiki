@@ -12,7 +12,7 @@ Get an Ubuntu 16.04 server from a hosting company (eg. Hetzner.de).
 2. Set a wildcard DNS for `*` to your server IP. 
     Example Namecheap: Domain List > Manage > Advanced DNS > Add New Record > A Record > `*` for Host > Server IP for Value.
 
-![](http://i.imgur.com/CjjsRDi.png)
+![](http://i.imgur.com/I7h5jSs.png)
 
 ### ii. Free Domain Name
 1. Go to http://www.freenom.com, create a free account, and find a domain name to register. 
