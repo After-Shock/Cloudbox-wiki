@@ -1,6 +1,6 @@
 ### First Time Install ###
 1. [[Prerequisites]]
-1. [[Download Cloudbox]]
+1. [[Downloading Cloudbox]]
 1. [[Configuring Settings]]
 1. [[Running Cloudbox]]
 1. [[Rclone]]
