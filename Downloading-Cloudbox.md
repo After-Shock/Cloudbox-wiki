@@ -1,5 +1,5 @@
-###  1. Create "seed" user and set the password ### 
-```
+###  1. Create user account for Cloudbox and set the password for it ### 
+```bash
 sudo useradd -m seed
 sudo usermod -aG sudo seed
 sudo passwd seed
@@ -11,7 +11,7 @@ Note: The user can be changed, but it will also require updating the user variab
 
 ### 2. Clone Cloudbox project ### 
 
-```
+```bash
 cd ~
 git clone http://github.com/l3uddz/cloudbox
 cd cloudbox
