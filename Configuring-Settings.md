@@ -14,7 +14,7 @@ nano settings.yml
 - `user`: User account for Cloudbox (will be created if it doesn't exist already). Default is `seed`.
 - `passwd`: Password for user account if user account is being created. 
 - `domain`: Domain name for reverse proxy.
-- `email`: D-mail used for SSL cert files.
+- `email`: E-mail used for SSL certificate files.
 - `nzbget`
     - `downloads`: Path for NZBGet downloads. Default is `"/home/{{user}}/downloads/nzbget"`. 
 - `rutorrent`:
