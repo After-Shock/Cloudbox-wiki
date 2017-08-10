@@ -11,5 +11,7 @@ nano settings.yml
 
 ## 3. Save settings ## 
 
-`CTRL-X` to save
+1. `CTRL-X`
+2. `y`
+3. `enter` key
 
