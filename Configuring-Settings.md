@@ -7,7 +7,7 @@ nano settings.yml
 
 ## 2. Change settings ## 
 
-![](http://i.imgur.com/BEB0kfL.png)
+![](http://i.imgur.com/3iPWpic.png)
 
 ## 3. Save settings ## 
 
