@@ -1,9 +1,9 @@
 ## 1. Editing Settings ##
 
-    ```
+  ```bash
     cd ~/cloudbox
     nano settings.yml
-    ```
+  ```
 
 ## 2. Options in Settings ## 
 
