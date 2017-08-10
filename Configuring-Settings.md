@@ -9,7 +9,7 @@ nano settings.yml
 
 ![](http://i.imgur.com/3iPWpic.png)
 
-User: User account created in 
+User: User account created in [[Download Cloudbox]].
 
 ## 3. Save settings ## 
 
