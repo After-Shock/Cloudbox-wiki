@@ -1,4 +1,4 @@
-## 1. Run these commands ##
+## 1. Viewing settings ##
 
     ```
     cd ~/cloudbox
