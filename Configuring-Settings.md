@@ -1,11 +1,11 @@
-## 1. Viewing settings ##
+## 1. Editing Settings ##
 
     ```
     cd ~/cloudbox
     nano settings.yml
     ```
 
-## 2. Change settings ## 
+## 2. Options in Settings ## 
 
  - Overview:
 
@@ -50,7 +50,7 @@
     - `present` will ensure it is always scheduled.
     - Note: When this option changed (whether to `present` or `absent`), a manual backup must be run once in order to set the backup schedule (i.e. `sudo ansible-playbook cloudbox.yml --tags backup`). In case the `absent` option is set, it will disable further backups after running the manual backup; however, you can manually remove the cron job (i.e. `sudo crontab -e`) if you did not want to run a manual backup command to do so.
 
-## 3. Save settings ## 
+## 3. Save Settings ## 
 
 - `CTRL-X`, then `y`, then `enter` key.
 
