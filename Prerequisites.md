@@ -7,7 +7,7 @@ Get an Ubuntu 16.04 server from a hosting company (eg. Hetzner.de).
 
 
 ## 2. Domain Name
-### i. Paid Domain Name(recommended)
+### i. Paid Domain Name (recommended)
 1. Get a domain name from any domain name registry (eg. Namecheap.com, Godaddy.com)
 2. Set a wildcard DNS for `*` to your server IP. 
     Example Namecheap: Domain List > Manage > Advanced DNS > Add New Record > A Record > `*` for Host > Server IP for Value.
