@@ -1,11 +1,12 @@
-###  1. Run these commands to create "seed" account, set the password when asked. ### 
+###  1. Run these commands to create "seed" user and set the password for it when asked. ### 
 ```
 sudo useradd -m seed
 sudo usermod -aG sudo seed
 sudo passwd seed
 su seed
 ```
-Note: The account name can be changed, but will need to be changed in the [[Settings.yml|Configuring Settings]] as well.
+
+Note: The user can be changed, but it will also require updating the user variable inside [[settings.yml|Configuring Settings]].
 
 
 ### 2. Clone Cloudbox project ### 
