@@ -12,7 +12,7 @@
     ![](http://i.imgur.com/qGnqJ1n.png)
 
 - `user`: User account for Cloudbox (will be created if it doesn't exist already). Default is `seed`.
-- `passwd`: Password for user account if user account is being created.
+- `passwd`: Password for user account (only needed if user account is being created).
     - Note: Password can be alpha or alphanumeric, but not only numeric and no special characters. 
 - `domain`: Domain name for reverse proxy.
 - `email`: E-mail used for SSL certificate files.
