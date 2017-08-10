@@ -19,7 +19,7 @@ Get an Ubuntu 16.04 server from a hosting company (eg. Hetzner.de).
 2. Services > My Domains > Manage Domain > Manage Freenom DNS.
 3. Add these A Records, with Target being your server IP.
 
-    ![](http://i.imgur.com/YK5kbso.png)
+    ![](http://i.imgur.com/wsK9UFU.png)
 4. Save Changes.
 
 ## 3. Cloud Storage ## 
