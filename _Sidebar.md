@@ -1,6 +1,6 @@
-### [[Home]] ###
+### - [[Home]] ###
 
-### First Time Install ###
+### - First Time Install ###
 1. [[Prerequisites]]
 1. [[Downloading Cloudbox]]
 1. [[Configuring Settings]]
@@ -21,13 +21,13 @@
 1. [[Organizer]]
 
 
-### More Information ###
+### - More Information ###
 - [[Addons]]
 - [[Updating Cloudbox]]
 - [[Backup & Restore]]
 - [[Getting a Google Drive API client ID and secret]]
 - [[Docker Tips & Shortcuts]]
 
-### Troubleshooting ###
+### - Troubleshooting ###
 - [[FAQ]]
 - [[Log Files]]
