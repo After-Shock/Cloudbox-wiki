@@ -1,13 +1,11 @@
 ## 1. Install Ansible ###
 
+Run the following command. Press `Y` when asked to confirm. 
 ```
-sudo apt-get install software-properties-common
-sudo apt-add-repository ppa:ansible/ansible
-sudo apt-get update
-sudo apt-get install ansible
+sudo apt-get install python-pip && sudo pip install ansible==2.3.1.0
 ```
+Note: Ansible v2.3.1.0 is the current stable version (v2.3.2.0 has a bug where docker_container state=stopped causes container to be removed).
 
-Note: press `Y` when asked to confirm.
 
 ## 2. Run Cloudbox
 
