@@ -9,6 +9,8 @@ nano settings.yml
 
 ![](http://i.imgur.com/3iPWpic.png)
 
+User: User account created in 
+
 ## 3. Save settings ## 
 
 1. `CTRL-X`
