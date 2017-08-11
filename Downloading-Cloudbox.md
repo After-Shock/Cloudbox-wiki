@@ -1,4 +1,4 @@
-Note: Run each command line one by one.
+**Note: Run each command line one by one.**
 
 ###  1. Create user account for Cloudbox and set the password for it ### 
 ```bash
