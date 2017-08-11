@@ -8,7 +8,7 @@ sudo passwd seed
 su seed
 ```
 
-Note: The user name SEED can be changed to something else, but it will also require updating the user variable inside [[settings.yml|Configuring Settings]] and replacing SEED in future commands.
+Note: The user name SEED can be changed to something else, but it will also require updating the user variable inside [[settings.yml|Configuring Settings]] (and other places) and replacing SEED in future commands.
 
 
 ### 2. Clone Cloudbox project ### 
