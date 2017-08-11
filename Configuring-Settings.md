@@ -13,7 +13,7 @@
 
 - `user`: User account for Cloudbox (will be created if it doesn't exist already). Default is `seed`.
 - `passwd`: Password for user account (only needed if user account is being created).
-- `domain`: _Your_ domain name.
+- `domain`: _Your_ domain name. To be used to access your Cloudbox server. If you don't have one, see [[here|Prerequisites#2-domain-name]].
 - `email`: _Your_ e-mail address. This is used to get SSL certificates.
   - Note: This requires a valid e-mail address or else the certificates will fail.
 - `nzbget`
