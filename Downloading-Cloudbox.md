@@ -1,4 +1,4 @@
-**Note: Run each command line by line. Don't just paste it all at once. **
+**Note: Run each command line by line. Don't just paste it all at once.**
 
 ###  1. Create user account SEED for Cloudbox and set the password for it ### 
 ```bash
