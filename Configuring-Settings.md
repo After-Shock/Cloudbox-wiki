@@ -13,8 +13,8 @@
 
 - `user`: User account for Cloudbox (will be created if it doesn't exist already). Default is `seed`.
 - `passwd`: Password for user account (only needed if user account is being created).
-- `domain`: _Your_ domain name for reverse proxy.
-- `email`: _Your_ e-mail used for SSL certificate files.
+- `domain`: _Your_ domain name.
+- `email`: _Your_ e-mail address. This is used to get SSL certificates.
   - Note: This requires a valid e-mail address or else the certificates will fail.
 - `nzbget`
     - `downloads`: Path for NZBGet downloads. Default is `"/home/{{user}}/downloads/nzbget"`. 
