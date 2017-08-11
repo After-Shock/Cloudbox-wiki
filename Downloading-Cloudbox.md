@@ -12,6 +12,7 @@ Note: The user can be changed, but it will also require updating the user variab
 ### 2. Clone Cloudbox project ### 
 
 ```bash
+sudo apt-get install git
 cd ~
 git clone http://github.com/l3uddz/cloudbox
 cd cloudbox
