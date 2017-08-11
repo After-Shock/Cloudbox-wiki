@@ -15,7 +15,7 @@
 - `passwd`: Password for user account (only needed if user account is being created).
 - `domain`: Domain name for reverse proxy.
 - `email`: E-mail used for SSL certificate files.
-  - Note: This requires a genuine e-mail address or else the certificates will fail.
+  - Note: This requires a valid e-mail address or else the certificates will fail.
 - `nzbget`
     - `downloads`: Path for NZBGet downloads. Default is `"/home/{{user}}/downloads/nzbget"`. 
 - `rutorrent`:
