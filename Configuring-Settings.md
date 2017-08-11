@@ -23,11 +23,13 @@
       - Note: Password can be alpha or alphanumeric, but not only numeric and no special characters. 
     - `downloads`: Path for ruTorrent downloads. Default is `"/home/{{user}}/downloads/rutorrent"`. 
 - `plex`:
-  - `tag`: Options are `public` or `plexpass`. Use `plexpass` only if you have an active [Plex Pass](https://www.plex.tv/features/plex-pass/). This can be changed later by running the installer again. Default is `public`.
+  - `tag`: Options are `public` or `plexpass`. Default is `public`.
+    - Note: Use `plexpass` only if you have an active [Plex Pass](https://www.plex.tv/features/plex-pass/). This can be changed later by running the installer again.
   - `transcodes`: Path of temporary transcoding files. Default is `"/home/{{user}}/transcodes"`. 
     - Note: DO NOT use /tmp or /dev/shm as a transcode location. On reboots, /tmp and /dev/shm is cleared and this causes docker to recreate the folder as root, causing the plex transcoder to crash. 
-- `plex_autoscan ip`: Server IP that Plex_Autoscan will listen on. Default is `0.0.0.0`. 
-  - Note: Should not be changed because containers can not communicate with host via 127.0.0.1.
+- `plex_autoscan`
+  - `ip`: Server IP that Plex_Autoscan will listen on. Default is `0.0.0.0`. 
+    - Note: Should not be changed because containers can not communicate with host via 127.0.0.1.
 - `rclone`:
   - `version`: Rclone version. Should not be changed as this is the most stable tested version. Default is `1.36`.
 - `unionfs_cleaner`:
