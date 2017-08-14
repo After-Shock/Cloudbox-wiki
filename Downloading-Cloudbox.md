@@ -14,7 +14,7 @@ Note: The user name SEED can be changed to something else, but it will also requ
 ### 2. Clone Cloudbox project ### 
 
 ```bash
-sudo apt-get install git
+sudo apt-get update && sudo apt-get install git
 cd ~
 git clone http://github.com/l3uddz/cloudbox
 cd cloudbox
