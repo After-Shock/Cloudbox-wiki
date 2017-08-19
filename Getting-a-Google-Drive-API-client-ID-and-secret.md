@@ -8,15 +8,15 @@
 
 3. On the next screen, click the `+` to create a new project. Note: You will need to create one project for Rclone and one for Plexdrive. 
 
-    ![](http://i.imgur.com/58uc6x8.png)
+    ![](http://i.imgur.com/qIuP7Y3.png)
 
 4. Name the project (e.g. Rclone). Chose 'Yes' to agree. Click `Create`.
 
-    ![](http://i.imgur.com/UsIqTK6.png)
+    ![](http://i.imgur.com/jHqyKJt.png)
 
 5. Click "Select a project" at the top and now select the project you just made. 
 
-    ![](http://i.imgur.com/afWIJUx.png)
+    ![](http://i.imgur.com/KBXwXDm.png)
 
 6. Popular APIs screen will show up. Click `Drive API`.
 
