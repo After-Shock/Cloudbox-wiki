@@ -4,7 +4,7 @@
 1. [[Prerequisites]]
 1. [[Downloading Cloudbox]]
 1. [[Configuring Settings]]
-1. [[Running Cloudbox]]
+1. [[Installing Cloudbox]]
 1. [[Rclone]]
 1. [[Plexdrive]]
 1. [[NZBGet]]
