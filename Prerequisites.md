@@ -7,6 +7,9 @@ Get an Ubuntu 16.04 server from a hosting company (eg. Hetzner.de).
 
 
 ## 2. Domain Name
+
+Cloudbox will be accessed via appname.yourdomain.com (see [[Accessing Cloudbox]]). To set this app follow the below instructions. 
+
 ### i. Paid Domain Name (recommended)
 1. Get a domain name from any domain name registry (eg. Namecheap.com, Godaddy.com)
 2. Set a wildcard DNS for `*` to your server IP. 
