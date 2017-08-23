@@ -25,7 +25,7 @@
 - [[Addons]]
 - [[Updating Cloudbox]]
 - [[Backup & Restore]]
-- [[Getting a Google Drive API client ID and secret]]
+- [[How to get a Google Drive API client ID and client secret]]
 - [[Docker Tips & Shortcuts]]
 
 ### - Troubleshooting ###
