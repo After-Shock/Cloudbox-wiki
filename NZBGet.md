@@ -1,3 +1,6 @@
+1. Access NZBGet by going to https://nzbget._yourdomain.com_.
+1. 
+
 set user/pass on the download clients first:
 
 nzbget -> settings -> security:
