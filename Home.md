@@ -20,6 +20,7 @@
 1. [[Accessing Cloudbox]]
 
 ### More Information ###
+- [[Accessing Cloudbox]]
 - [[Addons]]
 - [[Updating Cloudbox]]
 - [[Backup & Restore]]
