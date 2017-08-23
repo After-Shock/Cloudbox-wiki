@@ -8,7 +8,7 @@
 1. Paste in the "client id" and press `enter`.
 1. Paste in the "client secret" and press `enter`.
 1. Type `n` for remote/headless machine and press `enter`.
-1. Copy the link the screen shows and paste it in your browser on the host computer. Login with your Google account and click `Allow`, if asked. You will copy the `verification code` from your browser and paste it here and press `enter`.
+1. Copy the link the screen shows and paste it in your browser on the host computer. Login with your Google account and click `Allow`, if asked. You will copy the `verification code` from your browser, paste it at the prompt, and press `enter`.
 1. Type `y` to confirm it is ok and press `enter`. 
 1. Type `q` to quit.
 
