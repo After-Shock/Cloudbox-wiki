@@ -17,7 +17,7 @@
     1. [[NZB Hydra]]
     1. [[Plex Requests]]
     1. [[Organizer]]
-
+1. [[Accessing Cloudbox]]
 
 ### More Information ###
 - [[Addons]]
