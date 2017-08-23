@@ -30,7 +30,9 @@
 
     ![](http://i.imgur.com/sUBzyre.png)
  
-is 9 ok?     
+is 9 ok?   
+
+  
 9. On this screen, type in the Product Name (e.g. Rclone), and click `Save`.
 
     ![](http://i.imgur.com/HZltGd3.png)
