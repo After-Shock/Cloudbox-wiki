@@ -18,7 +18,6 @@
 1. [[Plex Requests]]
 1. [[Organizer]]
 
-*needed only if more than the 2 default libraries were added or if the order was reversed.
 
 ### More Information ###
 - [[Addons]]
