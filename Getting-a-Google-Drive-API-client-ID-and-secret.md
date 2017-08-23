@@ -48,3 +48,5 @@
 ![](http://i.imgur.com/loyMW7v.png)
 
 13. You will now be presented with the "client ID" and "client secret". 
+
+![](http://i.imgur.com/8g1wPdD.png)
