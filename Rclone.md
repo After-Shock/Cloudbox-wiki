@@ -1,4 +1,4 @@
-## Setting up Rclone for Google Drive
+## Setting up Rclone
 
 1. Get a Google API "client ID" and "client secret" (see [[How to get a Google Drive API client ID and client secret]]).
 1. Run the command: `rclone config`. 
@@ -13,6 +13,6 @@
 1. Type `q` to quit.
 
 
-## Rclone already setup for Google Drive
+## Rclone already setup with Google Drive
 If you have Rclone already setup, you will have an existing rclone configuration file (i.e `rclone.conf`). Edit this file and rename the Google Drive remote to `google` and copy this file into `/opt/rclone`.
 
