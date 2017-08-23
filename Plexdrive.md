@@ -1,5 +1,3 @@
-## Setting up Plexdrive
-
 1. Get a new Google API "client ID" and "client secret" (see [[How to get a Google Drive API client ID and client secret]]). Note: this will be different from the Rclone one. 
 
 1. Run this command:
