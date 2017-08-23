@@ -1,6 +1,8 @@
 ## Setting up Plexdrive Google Drive
 
-1. run this command:
+1. Get 
+
+1. Run this command:
 
 ```bash
 /opt/plexdrive/plexdrive mount -v 3 --refresh-interval=1m --chunk-check-threads=8 --chunk-load-threads=8 --chunk-load-ahead=4 --max-chunks=250 --fuse-options=allow_other,read_only --config=/opt/plexdrive --cache-file=/opt/plexdrive/cache.bolt /mnt/plexdrive
