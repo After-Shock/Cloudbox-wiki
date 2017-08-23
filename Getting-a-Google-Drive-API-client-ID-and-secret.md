@@ -29,12 +29,22 @@
 8. Now click "Credentials" in the left column, then  "OAuth consent screen" near the top. 
 
     ![](http://i.imgur.com/sUBzyre.png)
- 
-is 9 ok?   
 
   
 9. On this screen, type in the Product Name (e.g. Rclone), and click `Save`.
 
     ![](http://i.imgur.com/HZltGd3.png)
 
-10. 
+10. Click on "Create credentials".
+
+![](http://i.imgur.com/44Gpvql.png)
+
+11. Select "OAuth Client ID" in the drop down list.
+
+![](http://i.imgur.com/tJARgt9.png)
+
+12. For "Application Type", select "Other", type in any name, and click "Create".
+
+![](http://i.imgur.com/loyMW7v.png)
+
+13. You will now be presented with the "client ID" and "client secret". 
