@@ -14,5 +14,5 @@
 
 
 ## Rclone already setup for Google Drive
-If you have Rclone already setup, you will have an existing rclone configuration file (i.e `rclone.conf`). Edit this file and eename the Google Drive remote to `google` and copy this file into `/opt/rclone`.
+If you have Rclone already setup, you will have an existing rclone configuration file (i.e `rclone.conf`). Edit this file and rename the Google Drive remote to `google` and copy this file into `/opt/rclone`.
 
