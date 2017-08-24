@@ -18,11 +18,27 @@ Cloudbox will be accessed via appname.yourdomain.com (see [[Accessing Cloudbox]]
 ![](http://i.imgur.com/I7h5jSs.png)
 
 ### ii. Free Domain Name
-1. Go to http://www.freenom.com, create a free account, and find a domain name to register. 
-2. Services > My Domains > Manage Domain > Manage Freenom DNS.
+1. Visit http://www.freenom.com, create a free account, and find a domain name to register. 
+2. Go to "Services" > "My Domains" > "Manage Domain" > "Manage Freenom DNS".
 3. Add these A Records, with Target being your server IP (wildcard DNS not allowed).
 
-    ![](http://i.imgur.com/wsK9UFU.png)
+    |   **Name**   | **Type** | **TTL** |        **Target**        |
+    | ------------ | -------- | ------- | ------------------------ |
+    | jackett      | A        | 14440   | _your server ip address_ |
+    | nzbget       | A        | 14440   | _your server ip address_ |
+    | nzbhydra     | A        | 14440   | _your server ip address_ |
+    | organizr     | A        | 14440   | _your server ip address_ |
+    | plex         | A        | 14440   | _your server ip address_ |
+    | plexpy       | A        | 14440   | _your server ip address_ |
+    | plexrequests | A        | 14440   | _your server ip address_ |
+    | portainer    | A        | 14440   | _your server ip address_ |
+    | radarr       | A        | 14440   | _your server ip address_ |
+    | rutorrent    | A        | 14440   | _your server ip address_ |
+    | sonarr       | A        | 14440   | _your server ip address_ |
+
+
+
+
 4. Save Changes.
 
 ## 3. Google Drive account ## 
