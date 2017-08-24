@@ -85,11 +85,12 @@ Note: These steps will need to done for each individual indexer you want to add.
 
 
 
-## Torrent Cleaner script
+## Torrent Cleanup Script
 
 This custom script, will cleanup torrents from ruTorrent that were auto-extracted, but still being seeded. So if it detects that .rar files are in the folder that Sonarr just imported from, it will delete the imported video file(s), leaving just the .rar files for seeding.
 
 1. Click "Settings" -> "Connect".
+
 1. Add a new "Custom Script", and ensure the settings are the same as below. 
 
     ![Sonarr Torrent Cleanup Script CloudBox](http://i.imgur.com/nNkMLdB.png)
@@ -101,9 +102,11 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 ## Plex Autoscan
 Add info here
 
-## Setting the TV Path
+## Adding the TV Path
 1. When you are ready to add your first show to Sonarr, click the "Path" drop-down and select "Add a different path". 
 
 1. Click the blue "Browse" button, select `tv`, scroll to the bottom and select "OK".
 
-1. Click the green "checkmark" button to add the path.
+1. Click the green "check" button to add the path.
+
+1. Now all shows you will add later will have that path set.
