@@ -1,4 +1,7 @@
-### [[Introduction]] ### 
+### Basics ### 
+1. [[Introduction]]
+1. [[Paths]]
+1. [[Accessing Cloudbox]]
 
 ### First Time Install ###
 1. [[Prerequisites]]
@@ -19,7 +22,7 @@
     1. [[NZB Hydra]]
     1. [[Plex Requests]]
     1. [[Organizer]]
-1. [[Accessing Cloudbox]]
+
 
 ### More Information ###
 - [[Accessing Cloudbox]]
