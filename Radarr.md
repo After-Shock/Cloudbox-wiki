@@ -129,7 +129,7 @@ Note: If you have already setup Sonarr, you can copy/paste the same link and ski
 
 1. The settings will look like this:
 
-    ![Radarr Plex Autoscan](http://i.imgur.com/NzkDVPN.png)
+    ![Radarr Plex Autoscan](http://i.imgur.com/Pg3t6xz.png)
 
 
 1. Click "Save" to add Plex Autoscan. 
