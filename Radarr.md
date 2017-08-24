@@ -70,7 +70,7 @@
 1. For "API Key", paste in your NZB Hydra API Key (see [[NZB Hydra]]).
 1. Your settings will look like this:
  
-    ![Radarr NZB Hydra](http://i.imgur.com/ZudslOx.png)
+    ![Radarr NZB Hydra](http://i.imgur.com/6wMQNRV.png)
 
 ### Jackett
 
@@ -86,7 +86,7 @@
 
 1. Your settings will look like this: 
 
-    ![Radarr Jackett](http://i.imgur.com/9Uq4fxH.png)
+    ![Radarr Jackett](http://i.imgur.com/QWPYWaY.png)
 
 Note: These steps will need to done for each individual indexer you want to add. 
 
