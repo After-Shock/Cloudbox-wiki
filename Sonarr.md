@@ -45,32 +45,55 @@
 
 1. Click "Save" to add ruTorrent.
 
-## Connect
+## Indexers
 
-### Torrent Cleaner script
+### NZB Hydra
+
+1. Click "Settings" -> "Indexers".
+1. Click Add Indexer (`+`).
+1. Select "Newznab".  
+1. For "Host", type in `nzbhydra:8080` for "Host".
+1. For "API Key", paste in your NZB Hydra API Key (see [[NZB Hydra]]).
+1. Your settings will look like this:
+ 
+    ![Sonarr NZB Hydra](http://i.imgur.com/C05pVkA.png)
+
+### Jackett
+
+1. Click "Settings" -> "Indexers".
+1. Click Add Indexer (`+`) 
+1. Select "Torznab".  
+1. For "Host", paste in the indexer's 'Torznab Feed" (see [[Jackett]]). Replace `https` with `http` and replace `jackett.yourdomain.com` with `jackett:8080`.
+1. For "API Key", paste in your Jackett API Key (see [[Jackett]]).
+1. Your settings will look like this: 
+
+    ![Sonarr Jackett](http://i.imgur.com/DcmVyUC.png)
+
+Note: These steps will need to done for each individual indexer you want to add. 
+
+## Plex Autoscan
+
+
+## Setting the TV Path
+1. When you are ready to add your first show to Sonarr, click the "Path" drop-down and select "Add a different path". 
+1. Click the blue "Browse" button, select `tv`, scroll to the bottom and select "OK".
+1. Click the green "checkmark" button to add the path.
+
+
+## Torrent Cleaner script
 
 This custom script, will cleanup torrents from ruTorrent that were auto-extracted, but still being seeded. So if it detects that .rar files are in the folder that Sonarr just imported from, it will delete the imported video file(s), leaving just the .rar files for seeding.
 
 1. Click "Settings" -> "Connect".
 1. Add a new "Custom Script", and ensure the settings are the same as below. 
 
-    ![Sonarr Torrent Cleanup Script CloudBox](http://i.imgur.com/mLEaA4X.png)
+    ![Sonarr Torrent Cleanup Script CloudBox](http://i.imgur.com/nNkMLdB.png)
 
 
 1. Click "Save" to add the script. 
 
 
-
-## Indexer
-
-1. Click "Settings" -> "Indexers".
-1. To add NZBHydra, use similar settings to below, setting your api key. 
-![Sonarr NZBHydra](http://i.imgur.com/H2gZmZn.png)
-1. To add Jackett, use similar settings to below, obviously setting your api key, and your own indexer choices.
-![Sonarr Jackett](http://i.imgur.com/3v9yAXj.png)
-
-add media:
-sonarr is /tv
+## Plex Autoscan
 
 
 
