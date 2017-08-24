@@ -8,6 +8,8 @@
 1. Set "Authentication" to `Forms`, then set a username and password.
 1. Click "Save".
 
+
+
 ## Media Management
 
 1. Click "Settings" -> "Media Management".
@@ -19,6 +21,8 @@
     ![Sonarr settings - CloudBox](http://i.imgur.com/hURmo6Y.png)
 
 1. Click "Save".
+
+
 
 ## Download Clients
 
@@ -44,6 +48,8 @@
     ![Sonarr ruTorrent Downloader](http://i.imgur.com/kE701JT.png)
 
 1. Click "Save" to add ruTorrent.
+
+
 
 ## Indexers
 
@@ -75,6 +81,8 @@
     ![Sonarr Jackett](http://i.imgur.com/DcmVyUC.png)
 
 Note: These steps will need to done for each individual indexer you want to add. 
+
+
 
 
 ## Torrent Cleaner script
