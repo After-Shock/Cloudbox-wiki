@@ -47,10 +47,16 @@
 
 ## Connect
 
+### Torrent Cleaner script
+
+This custom script, will cleanup torrents from ruTorrent that were auto-extracted, but still being seeded. So if it detects that .rar files are in the folder that Sonarr just imported from, it will delete the imported video file(s), leaving just the .rar files for seeding.
+
 1. Click "Settings" -> "Connect".
 1. Add a new "Custom Script", and ensure the settings are the same as below. 
+
     ![Sonarr Torrent Cleanup Script CloudBox](http://i.imgur.com/mLEaA4X.png)
-This custom script, will cleanup torrents from rutorrent that were auto extracted. So if it detects that .rar files are in the folder that sonarr just imported from, delete the imported video file, leaving just the rar files for seeding.
+
+
 1. Click Save Settings, then click Indexers.
 1. To add NZBHydra, use similar settings to below, setting your api key. 
 ![Sonarr NZBHydra](http://i.imgur.com/H2gZmZn.png)
