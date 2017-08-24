@@ -15,7 +15,7 @@ Cloudbox will be accessed via appname.yourdomain.com (see [[Accessing Cloudbox]]
 2. Set a wildcard DNS for `*` to your server IP. 
     Example Namecheap: Domain List > Manage > Advanced DNS > Add New Record > A Record > `*` for Host > Server IP for Value.
 
-![](http://i.imgur.com/I7h5jSs.png)
+   ![](http://i.imgur.com/I7h5jSs.png)
 
 ### ii. Free Domain Name
 1. Visit http://www.freenom.com, create a free account, and find a domain name to register. 
