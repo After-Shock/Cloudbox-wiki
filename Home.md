@@ -12,17 +12,19 @@
     1. [[Rclone]]
     1. [[Plexdrive]]
     1. [[NZBGet]]
+    1. [[NZB Hydra]]
+    1. [[Jackett]]
     1. [[Sonarr]]
     1. [[Radarr]]
     1. [[Portainer]]
     1. [[Plex]]
-    1. [[Unionfs_Cleaner]]
     1. [[PlexPy]]
-    1. [[Jackett]]
-    1. [[NZB Hydra]]
     1. [[Plex Requests]]
     1. [[Organizer]]
 
+### Advanced Configuration ### 
+- [[Unionfs_Cleaner]]
+- [[Plex_Autoscan]]
 
 ### More Information ###
 - [[Accessing Cloudbox]]
