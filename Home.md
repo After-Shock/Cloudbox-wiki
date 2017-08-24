@@ -33,6 +33,8 @@
 - [[How to get a Google Drive API client ID and client secret]]
 - [[Docker Tips & Shortcuts]]
 - [[Addons]]
+- [[Sonarr Naming Preferences]]
+- [[Radarr Naming Preferences]]
 
 ### Troubleshooting ###
 - [[FAQ]]
