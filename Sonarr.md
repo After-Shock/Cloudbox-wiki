@@ -114,7 +114,7 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
 1. Add a new "Webhook".
 
-1. For the "URL", paste in the link you copied earlier. You will need to replace "0.0.0.0" with "plex._yourdomain.com_" (i.e. http://plex._yourdomain.com_/randomtext). 
+1. For the "URL", paste in the link you copied earlier. You will need to replace "0.0.0.0" with "plex._yourdomain.com_" (i.e. http://plex._yourdomain.com_:3468/randomtext). 
 
 1. "Method" will remain on `POST`.
 
