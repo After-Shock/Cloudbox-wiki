@@ -21,11 +21,6 @@
 
 1. Disable "Use hardlinks instead of copy".
 
-1. Your settings should look like this:
-
-
-<insert image>
-
 1. Click "Save".
 
 
