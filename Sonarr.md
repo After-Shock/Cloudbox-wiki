@@ -16,7 +16,7 @@
 1. Enable "Rename Episodes".
 1. Disable "Analyse video files".
 1. Disable "Use hardlinks instead of copy".
-1. Your settings should look similar to below.
+1. Your settings should look like this:
 
     ![Sonarr settings - CloudBox](http://i.imgur.com/hURmo6Y.png)
 
@@ -44,7 +44,8 @@
 ### ruTorrent
 
 1. Add a new "rTorrent" download client.
-1. Use `rutorrent` as "Host", `80` for "Port", and `sonarr` for "Category". Replacing the "Username" and "Password" with your own. Your settings will look like below.
+1. Use `rutorrent` as "Host", `80` for "Port", and `sonarr` for "Category". Replacing the "Username" and "Password" with your own. 
+1. Your settings will look like this:
  
     ![Sonarr ruTorrent Downloader](http://i.imgur.com/kE701JT.png)
 
