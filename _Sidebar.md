@@ -18,11 +18,11 @@
     1. [[Jackett]]
     1. [[Sonarr]]
     1. [[Radarr]]
-    1. [[Portainer]]
     1. [[Plex]]
     1. [[PlexPy]]
     1. [[Plex Requests]]
     1. [[Organizer]]
+    1. [[Portainer]]
 
 ### Advanced Configuration ### 
 - [[Unionfs_Cleaner]]
