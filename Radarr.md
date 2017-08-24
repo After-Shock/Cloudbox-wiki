@@ -1,6 +1,7 @@
 ## General Settings
 
-1. Visit https://radarr._yourdomain.com_ and click "Settings" -> "General", tick "Show Advanced Settings".
+1. Visit https://radarr._yourdomain.com_ and go to "Settings" -> "General".
+1. Click "Show Advanced Settings".
 1. Set your branch to `nightly`, like below.
 
     ![Radarr Branch](http://i.imgur.com/QA8aqip.png)
