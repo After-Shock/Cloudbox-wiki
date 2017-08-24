@@ -57,7 +57,13 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
     ![Sonarr Torrent Cleanup Script CloudBox](http://i.imgur.com/mLEaA4X.png)
 
 
-1. Click Save Settings, then click Indexers.
+1. Click "Save" to add the script. 
+
+
+
+## Indexer
+
+1. Click "Settings" -> "Indexers".
 1. To add NZBHydra, use similar settings to below, setting your api key. 
 ![Sonarr NZBHydra](http://i.imgur.com/H2gZmZn.png)
 1. To add Jackett, use similar settings to below, obviously setting your api key, and your own indexer choices.
