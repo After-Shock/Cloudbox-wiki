@@ -33,7 +33,7 @@
   
 9. On this screen, type in the Product Name (e.g. Rclone), and click `Save`.
 
-    ![](http://i.imgur.com/HZltGd3.png)
+    ![](http://i.imgur.com/jIvhILQ.png)
 
 10. Click on "Create credentials".
 
