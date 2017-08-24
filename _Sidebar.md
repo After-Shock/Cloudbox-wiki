@@ -1,6 +1,11 @@
 ### - [[Home]] ###
 
-### - First Time Install ###
+### Basics ### 
+1. [[Introduction]]
+1. [[Paths]]
+1. [[Accessing Cloudbox]]
+
+### First Time Install ###
 1. [[Prerequisites]]
 1. [[Downloading Cloudbox]]
 1. [[Configuring Settings]]
@@ -9,25 +14,30 @@
     1. [[Rclone]]
     1. [[Plexdrive]]
     1. [[NZBGet]]
+    1. [[NZB Hydra]]
+    1. [[Jackett]]
     1. [[Sonarr]]
     1. [[Radarr]]
     1. [[Portainer]]
     1. [[Plex]]
-    1. [[Unionfs_Cleaner]]
     1. [[PlexPy]]
-    1. [[Jackett]]
-    1. [[NZB Hydra]]
     1. [[Plex Requests]]
     1. [[Organizer]]
 
+### Advanced Configuration ### 
+- [[Unionfs_Cleaner]]
+- [[Plex_Autoscan]]
 
-### - More Information ###
-- [[Addons]]
+### More Information ###
+- [[Accessing Cloudbox Apps]]
 - [[Updating Cloudbox]]
 - [[Backup & Restore]]
 - [[How to get a Google Drive API client ID and client secret]]
 - [[Docker Tips & Shortcuts]]
+- [[Addons]]
+- [[Sonarr Naming Preferences]]
+- [[Radarr Naming Preferences]]
 
-### - Troubleshooting ###
+### Troubleshooting ###
 - [[FAQ]]
 - [[Log Files]]
