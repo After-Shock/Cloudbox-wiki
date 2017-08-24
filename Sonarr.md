@@ -43,7 +43,7 @@
 ### ruTorrent
 
 1. Add a new "rTorrent" download client.
-1. Use `sonarr` as "Host", `6789` for "Port", and `sonarr` (lowercase) for "Category". Replacing the "Username" and "Password" with your own. Your settings will look like below.
+1. Use `sonarr` as "Host", `80` for "Port", and `sonarr` for "Category". Replacing the "Username" and "Password" with your own. Your settings will look like below.
  
     ![Sonarr ruTorrent Downloader](http://i.imgur.com/kE701JT.png)
 
