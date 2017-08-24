@@ -61,23 +61,20 @@
 ### Jackett
 
 1. Click "Settings" -> "Indexers".
+
 1. Click Add Indexer (`+`) 
+
 1. Select "Torznab".  
+
 1. For "Host", paste in the indexer's 'Torznab Feed" (see [[Jackett]]). Replace `https` with `http` and replace `jackett.yourdomain.com` with `jackett:8080`.
+
 1. For "API Key", paste in your Jackett API Key (see [[Jackett]]).
+
 1. Your settings will look like this: 
 
     ![Sonarr Jackett](http://i.imgur.com/DcmVyUC.png)
 
 Note: These steps will need to done for each individual indexer you want to add. 
-
-## Plex Autoscan
-
-
-## Setting the TV Path
-1. When you are ready to add your first show to Sonarr, click the "Path" drop-down and select "Add a different path". 
-1. Click the blue "Browse" button, select `tv`, scroll to the bottom and select "OK".
-1. Click the green "checkmark" button to add the path.
 
 
 ## Torrent Cleaner script
@@ -94,7 +91,11 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
 
 ## Plex Autoscan
+Add info here
 
+## Setting the TV Path
+1. When you are ready to add your first show to Sonarr, click the "Path" drop-down and select "Add a different path". 
 
+1. Click the blue "Browse" button, select `tv`, scroll to the bottom and select "OK".
 
-webhook
+1. Click the green "checkmark" button to add the path.
