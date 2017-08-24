@@ -1,7 +1,18 @@
-so they visit hydra.domain.com then click config -> authorization
+1. Visit http://nzbhydra._yourdomain.com_
 
+1. Go to "Config". 
 
-so on auth page, they make sure its Login form auth type, all the restrict box's are set to on, add your user and password, then click save at top right
+1. On the "Authorization" tab:
 
+    1. Change "Auth type" to `Login form`.
 
-![](http://i.imgur.com/lxJciRx.png)
+    1. Set all the options below to `ON`.
+    1. Click "Add new user". 
+    1. Fill in your username and password.
+    1. Click "Save" at the top right.
+    
+    ![](http://i.imgur.com/lxJciRx.png)
+
+ 1. Go to the "Indexers" tab and add your indexers. Be sure to click "Save" when done.
+ 1. Go to the "Main" tab and make note of the `API key`. This will be used later.
+
