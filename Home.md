@@ -27,7 +27,7 @@
 - [[Plex_Autoscan]]
 
 ### More Information ###
-- [[Accessing Cloudbox]]
+- [[Accessing Cloudbox Apps]]
 - [[Updating Cloudbox]]
 - [[Backup & Restore]]
 - [[How to get a Google Drive API client ID and client secret]]
