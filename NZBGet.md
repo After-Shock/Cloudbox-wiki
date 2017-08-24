@@ -2,4 +2,4 @@
 1. Go to "Settings" -> "Security". Set a "ControlUsername" and "ControlPassword", then set an "AddUsername" and "AddPassword" to protect API access. Select "Form Auth", then click "Save" and "Reload".
 1. Add your news servers.
 1. Download paths have already been specified, no need to change those.
-1. If you want to use scripts, p
+1. If you want to use scripts, place them in `/opt/scripts/nzb` - this is where NZBGet will load scripts from.
