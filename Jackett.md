@@ -4,7 +4,7 @@
 
 1. Check "Disable auto update:" and click "Apply server settings". The page will now reload.  
 
-1. Click "Add Indexer" to add your preferred trackers. 
+1. Click "Add Indexer" to add your preferred indexers (i.e. torrent trackers). 
 
 1. When adding indexers into Sonarr/Radarr, you will need: 
 
