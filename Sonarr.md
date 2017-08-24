@@ -14,12 +14,12 @@
 ## Media Management
 
 1. Click "Settings" -> "Media Management".
-1. Enable "Rename Episodes".
-1. Disable "Analyse video files".
-1. Disable "Use hardlinks instead of copy".
-1. Your settings should look like this:
 
-    ![Sonarr settings - CloudBox](http://i.imgur.com/hURmo6Y.png)
+1. Enable "Rename Episodes".
+
+1. Disable "Analyse video files".
+
+1. Disable "Use hardlinks instead of copy".
 
 1. Click "Save".
 
