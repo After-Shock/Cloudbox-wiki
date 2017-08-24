@@ -1,6 +1,6 @@
 ## 1. Install Ansible ###
 
-Run the following command. Press `Y` when asked to confirm. 
+Run the following commands (one by one). Press `Y` when asked to confirm. 
 ```bash
 sudo apt-get install python-pip
 sudo pip install ansible==2.3.1.0
