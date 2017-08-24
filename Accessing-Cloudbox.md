@@ -1,5 +1,7 @@
 Cloudbox apps will be accessed via appname._yourdomain.com_ (see table below).
 
+
+
 | **App  Name** |            **URL**            |
 | ------------- | ----------------------------- |
 | jackett       | jackett._yourdomain.com_      |
