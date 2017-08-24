@@ -1,8 +1,3 @@
+1. Visit https://portainer.domain.com and choose a password then proceed.
 
-
-so they must visit portainer.domain.com, portainer when u first visit it after a fresh install
-will ask them to etner a password they want to use as the admin pass
-
-tick Manage the Docker instance where Portainer is running
-click Connect
-then thats done
+2. Choose Manage the Docker instance where Portainer is running when presented with 2 options and press Connect.
