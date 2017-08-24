@@ -21,8 +21,8 @@
     1. [[Plex]]
     1. [[PlexPy]]
     1. [[Plex Requests]]
-    1. [[Organizer]]
     1. [[Portainer]]
+    1. [[Organizer]]
 
 ### Advanced Configuration ### 
 - [[Unionfs_Cleaner]]
