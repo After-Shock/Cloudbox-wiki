@@ -1,4 +1,4 @@
-### - [[Home]] ###
+### [[Home]] ###
 
 ### Basics ### 
 1. [[Introduction]]
