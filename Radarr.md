@@ -42,7 +42,7 @@
 1. Use `nzbget` as "Host", `6789` for "Port", and `radarr` (case sensitive) for "Category". Replacing the "Username" and "Password" with your own. 
 1. Your settings will look like this:
 
-    ![Sonarr NZBGet Downloader](http://i.imgur.com/EhOFFxK.png)
+    ![Radarr NZBGet Downloader](http://i.imgur.com/Q8ULGOu.png)
 
 1. Click "Save" to add NZBGet.
 
@@ -53,7 +53,7 @@
 1. Use `rutorrent` as "Host", `80` for "Port", and `radarr` for "Category". Replacing the "Username" and "Password" with the one you set in [[Configuring Settings]]. 
 1. Your settings will now look like this:
  
-    ![Radarr ruTorrent Downloader](http://i.imgur.com/kE701JT.png)
+    ![Radarr ruTorrent Downloader](http://i.imgur.com/XHB6NN2.png)
 
 1. Click "Save" to add ruTorrent.
 
@@ -117,13 +117,13 @@ Note: If you have already setup Sonarr, you can copy/paste the same link and ski
     cat /opt/plex_autoscan/*.log | grep http
     ```
 
-1. Copy the link you find here (which will look like `http://0.0.0.0:3468/randomtext`). 
+1. Copy the link you find here (which will look like `http://0.0.0.0:3468/PLEXSERVERCODE`). 
 
 1. Go back to Radarr, click "Settings" -> "Connect".
 
 1. Add a new "Webhook".
 
-1. For the "URL", paste in the link you copied earlier. You will need to replace "0.0.0.0" with "plex._yourdomain.com_" (i.e. http://plex._yourdomain.com_/randomtext). 
+1. For the "URL", paste in the link you copied earlier. You will need to replace "0.0.0.0" with "plex._yourdomain.com_" (i.e. http://plex._yourdomain.com_:3468/PLEXSERVERCODE). 
 
 1. "Method" will remain on `POST`.
 
