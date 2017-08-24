@@ -70,7 +70,7 @@
 1. For "API Key", paste in your NZB Hydra API Key (see [[NZB Hydra]]).
 1. Your settings will look like this:
  
-    ![Sonarr NZB Hydra](http://i.imgur.com/C05pVkA.png)
+    ![Radarr NZB Hydra](http://i.imgur.com/ZudslOx.png)
 
 ### Jackett
 
@@ -86,7 +86,7 @@
 
 1. Your settings will look like this: 
 
-    ![Sonarr Jackett](http://i.imgur.com/DcmVyUC.png)
+    ![Radarr Jackett](http://i.imgur.com/9Uq4fxH.png)
 
 Note: These steps will need to done for each individual indexer you want to add. 
 
@@ -101,7 +101,7 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
 1. Add a new "Custom Script", and ensure the settings are the same as below. 
 
-    ![Radarr Torrent Cleanup Script CloudBox](http://i.imgur.com/nNkMLdB.png)
+    ![Radarr Torrent Cleanup Script CloudBox](http://i.imgur.com/PUNAGed.png)
 
 
 1. Click "Save" to add the script. 
