@@ -19,9 +19,9 @@
 ![Sonarr Torrent Cleanup Script CloudBox](http://i.imgur.com/mLEaA4X.png)
 This custom script, will cleanup torrents from rutorrent that were auto extracted. So if it detects that .rar files are in the folder that sonarr just imported from, delete the imported video file, leaving just the rar files for seeding.
 15. Click Save Settings, then click Indexers.
-16. To add NZBHydra, use similar settings to below: 
-![Sonarr NZBHydra](http://i.imgur.com/005uFSC.png)
-17. To add Jackett, use similar settings to below, obviously setting your api key, and your own indexer choices
+16. To add NZBHydra, use similar settings to below, setting your api key. 
+![Sonarr NZBHydra](http://i.imgur.com/H2gZmZn.png)
+17. To add Jackett, use similar settings to below, obviously setting your api key, and your own indexer choices.
 ![Sonarr Jackett](http://i.imgur.com/3v9yAXj.png)
 
 add media:
