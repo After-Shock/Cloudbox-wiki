@@ -1,7 +1,7 @@
 ### Basics ### 
 1. [[Introduction]]
 1. [[Paths]]
-1. [[Accessing Cloudbox]]
+1. [[Accessing Cloudbox Apps]]
 
 ### First Time Install ###
 1. [[Prerequisites]]
@@ -27,7 +27,6 @@
 - [[Plex_Autoscan]]
 
 ### More Information ###
-- [[Accessing Cloudbox Apps]]
 - [[Updating Cloudbox]]
 - [[Backup & Restore]]
 - [[How to get a Google Drive API client ID and client secret]]
