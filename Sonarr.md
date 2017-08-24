@@ -33,7 +33,8 @@
 ### NZBGet
 
 1. Add a new "NZBGet" download client. 
-1. Use `sonarr` as "Host", `6789` for "Port", and `sonarr` (lowercase) for "Category". Replacing the "Username" and "Password" with your own. Your settings will look like below.
+1. Use `nzbget` as "Host", `6789` for "Port", and `sonarr` (lowercase) for "Category". Replacing the "Username" and "Password" with the one you set in [[Configuring Settings]]. 
+1. Your settings will now look like this:
 
     ![Sonarr NZBGet Downloader](http://i.imgur.com/EhOFFxK.png)
 
@@ -43,7 +44,7 @@
 ### ruTorrent
 
 1. Add a new "rTorrent" download client.
-1. Use `sonarr` as "Host", `80` for "Port", and `sonarr` for "Category". Replacing the "Username" and "Password" with your own. Your settings will look like below.
+1. Use `rutorrent` as "Host", `80` for "Port", and `sonarr` for "Category". Replacing the "Username" and "Password" with your own. Your settings will look like below.
  
     ![Sonarr ruTorrent Downloader](http://i.imgur.com/kE701JT.png)
 
@@ -129,4 +130,4 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
 1. Click the green "check" button to add the path.
 
-1. Now all shows you will add later will have that path set.
+1. All tv shows added now will have that path set.
