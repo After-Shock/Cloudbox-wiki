@@ -134,7 +134,7 @@ Note: If you have already setup Sonarr, you can copy/paste the same link and ski
 
 1. Click "Save" to add Plex Autoscan. 
 
-## Adding the Movie Path
+## Adding the Movies Path
 1. When you are ready to add your first movie to Radarr, click the "Path" drop-down and select "Add a different path". 
 
 1. Click the blue "Browse" button, select `movies`, scroll to the bottom and select "OK".
