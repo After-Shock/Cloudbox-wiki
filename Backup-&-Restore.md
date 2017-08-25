@@ -8,4 +8,4 @@ commands..
 
 
 nano rclone
-paste rclone conf
+paste rclone conf inside ~/cloudbox
