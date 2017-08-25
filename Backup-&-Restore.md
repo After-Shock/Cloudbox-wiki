@@ -4,8 +4,17 @@
 
 # Restore
 
-commands..
+1. Enable either rsync or rclone under backup of settings.yml
 
+2. If using rclone, drop in your rclone.conf into ~/cloudbox...
+
+Easy way:
 
 nano rclone
-paste rclone conf inside ~/cloudbox
+paste
+
+3. Run command
+
+sudo ansible-playbook cloudbox.yml --tag restore
+
+4. Install Cloudbox
