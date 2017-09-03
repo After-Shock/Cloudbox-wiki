@@ -1,38 +1,65 @@
-### Paths
+## Local Paths
 
-/mnt/local = local content - sonarr/radarr imports will go here.
-/mnt/plexdrive = google drive content (plexdrive)
-/mnt/unionfs = combined folder of /mnt/local and /mnt/unionfs.
+### Media
 
-Docker paths:
 
-plex:
+| Path                   | Purpose                                                                                                                                       |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| `/mnt/local`           | Sonarr/Radarr imports will go here                                                                                                            |
+| `/mnt/plexdrive/Media` | Media stored on Google Drive (plexdrive)                                                                                                      |
+| `/mnt/unionfs/Media`   | Combined folder of local (`/mnt/local`) and online (`/mnt/unionfs) media. This is the folder Plex, Sonarr, Radarr will read during disk scans |
 
-/data/Movies = /mnt/unionfs/Media/Movies on host system
-/data/TV = mnt/unionfs/Media/TV on host system.
 
-sonarr:
+### UnionFS_Cleaner
 
-/tv = /mnt/unionfs/Media/TV on host system (sonarr will import to /tv which in turn is that folder on host system)
-/downloads/rutorrent = rutorrent download folder set in settings.yml (default: ~/downloads/rutorrent)
-/downloads/nzbget = same as above (default: ~/downloads/nzbget)
 
-radarr:
+| Path               | Purpose                                                                                                                                                                                       |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `/mnt/local/Media` | Size of the local media folder is checked periodically. When the folder size reaches it's threshold (default `250GB`), it will move that content to Google Drive, freeing up local disk space |
 
-/movies = /mnt/unionfs/Media/Movies on host system (sonarr will import to /movies which in turn is that folder on host system)
-/downloads/rutorrent = rutorrent download folder set in settings.yml (default: ~/downloads/rutorrent)
-/downloads/nzbget = same as above (default: ~/downloads/nzbget)
 
-plexpy:
 
-logs folder for plex is /logs - which in reality is /opt/plex/Library/Application Support/Plex Media Server/Logs on the host system.
+## Docker Paths:
 
-unionfs_cleaner:
+### Plex
 
-unionfs_cleaner by default checks the size of /mnt/local/Media - when size reaches threshhold, (default 250gb) it will move that content to google, freeing up the space.
+| Docker Path    | Host Path                   | Purpose                      |
+| -------------- | --------------------------- | ---------------------------- |
+| `/data/Movies` | `/mnt/unionfs/Media/Movies` | Plex reads this for Movies   |
+| `/data/TV`     | `/mnt/unionfs/Media/TV`     | Plex reads this for TV Shows |
+
+
+### Sonarr
+
+
+| Docker Path            | Host Path                         | Purpose                                                                 |
+| ---------------------- | --------------------------------- | ----------------------------------------------------------------------- |
+| `/tv`                  | `/mnt/unionfs/Media/TV`           | Sonarr will import to `/tv` which in turn is that folder on host system |
+| `/downloads/rutorrent` | `~/downloads/rutorrent` (default) | ruTorrent download folder as set in settings.yml                        |
+| `/downloads/nzbget`    | `~/downloads/nzbget` (default)    | NZBGet download folder as set in settings.yml                           |
+
+
+### Radarr
+
+
+| Docker Path            | Host Path                         | Purpose                                                                     |
+| ---------------------- | --------------------------------- | --------------------------------------------------------------------------- |
+| `/movies`              | `/mnt/unionfs/Media/Movies`       | Radarr will import to `/movies` which in turn is that folder on host system |
+| `/downloads/rutorrent` | `~/downloads/rutorrent` (default) | ruTorrent download folder as set in settings.yml                            |
+| `/downloads/nzbget`    | `~/downloads/nzbget` (default)    | NZBGet download folder as set in settings.yml                               |
+
+
+### PlexPy
+
+
+| Docker Path | Host Path                                                      | Purpose                                 |
+| ----------- | -------------------------------------------------------------- | --------------------------------------- |
+| `/logs`     | `/opt/plex/Library/Application Support/Plex Media Server/Logs` | Location Plex logs to be used by PlexPy |
+
+
+
+
 
 image workflow:
 
 http://i.imgur.com/xVR28pn.png
-
-
