@@ -1,3 +1,20 @@
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
+
+- [Acessing Radarr](#acessing-radarr)
+- [General Settings](#general-settings)
+- [Media Management](#media-management)
+- [Download Clients](#download-clients)
+	- [NZBGet](#nzbget)
+	- [ruTorrent](#rutorrent)
+- [Indexers](#indexers)
+	- [NZB Hydra](#nzb-hydra)
+	- [Jackett](#jackett)
+- [Torrent Cleanup Script](#torrent-cleanup-script)
+- [Plex Autoscan](#plex-autoscan)
+- [Adding the Movies Path](#adding-the-movies-path)
+
+<!-- /TOC -->
+
 ## Acessing Radarr
 1. To access Radarr, visit https://radarr._yourdomain.com_
 

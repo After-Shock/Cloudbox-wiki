@@ -1,4 +1,22 @@
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
+
+- [Accessing Sonarr](#accessing-sonarr)
+- [General Settings](#general-settings)
+- [Media Management](#media-management)
+- [Download Clients](#download-clients)
+	- [NZBGet](#nzbget)
+	- [ruTorrent](#rutorrent)
+- [Indexers](#indexers)
+	- [NZB Hydra](#nzb-hydra)
+	- [Jackett](#jackett)
+- [Torrent Cleanup Script](#torrent-cleanup-script)
+- [Plex Autoscan](#plex-autoscan)
+- [Adding the TV Path](#adding-the-tv-path)
+
+<!-- /TOC -->
+
 ## Accessing Sonarr
+
 1. To access Sonarr, visit https://sonarr._yourdomain.com_
 
 
