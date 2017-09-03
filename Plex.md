@@ -3,17 +3,17 @@
 1. [Accessing Plex](#1-accessing-plex)
 2. [First Time Setup](#2-first-time-setup)
 3. [Settings](#3-settings)
-	4. [Remote Access](#remote-access)
-	5. [Library](#library)
-	6. [Network](#network)
-	7. [Transcoder](#transcoder)
-	8. [DLNA](#dlna)
-	9. [Scheduled Tasks](#scheduled-tasks)
-	10. [Extras](#extras)
-11. [Adding Your First libraries](#adding-your-first-libraries)
-	12. [Adding the Movie Library](#adding-the-movie-library)
-	13. [Adding the TV Library](#adding-the-tv-library)
-14. [Webtools](#webtools)
+	- [Remote Access](#remote-access)
+	- [Library](#library)
+	- [Network](#network)
+	- [Transcoder](#transcoder)
+	- [DLNA](#dlna)
+	- [Scheduled Tasks](#scheduled-tasks)
+	- [Extras](#extras)
+4. [Adding Your First libraries](#adding-your-first-libraries)
+	- [Adding the Movie Library](#adding-the-movie-library)
+	- [Adding the TV Library](#adding-the-tv-library)
+5. [Webtools](#webtools)
 
 <!-- /TOC -->
 
@@ -127,7 +127,7 @@
 
 
 
-## Adding Your First libraries
+## 4. Adding Your First libraries
 
 * Note: the order is important (i.e. Movies first, then TV); or else the config file for Unionfs_cleaner will need to be updated to reflect section ID changes.
 
@@ -198,6 +198,6 @@
 1. Click `ADD LIBRARY`.
 
 
-## Webtools
+## 5. Webtools
 
 * If you wish to setup Webtools and install 3rd party add-ons, you can go to https://plex._yourdomain.com_:33400 and login with your Plex account.

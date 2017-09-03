@@ -6,12 +6,12 @@
 4. [Download Clients](#download-clients)
 	- [NZBGet](#nzbget)
 	- [ruTorrent](#rutorrent)
-7. [Indexers](#indexers)
+5. [Indexers](#indexers)
 	- [NZB Hydra](#nzb-hydra)
 	- [Jackett](#jackett)
-10. [Torrent Cleanup Script](#torrent-cleanup-script)
-11. [Plex Autoscan](#plex-autoscan)
-12. [Adding the TV Path](#adding-the-tv-path)
+6. [Torrent Cleanup Script](#torrent-cleanup-script)
+7. [Plex Autoscan](#plex-autoscan)
+8. [Adding the TV Path](#adding-the-tv-path)
 
 <!-- /TOC -->
 
@@ -92,7 +92,7 @@
 
     ![Sonarr NZB Hydra](http://i.imgur.com/C05pVkA.png)
 
-### 6. Jackett
+### Jackett
 
 1. Click "Settings" -> "Indexers".
 
@@ -113,7 +113,7 @@ Note: These steps will need to done for each individual indexer you want to add.
 
 
 
-## 7. Torrent Cleanup Script
+## 6. Torrent Cleanup Script
 
 This custom script, will cleanup torrents from ruTorrent that were auto-extracted, but still being seeded. So if it detects that .rar files are in the folder that Sonarr just imported from, it will delete the imported video file(s), leaving just the .rar files for seeding.
 
@@ -127,7 +127,7 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 1. Click "Save" to add the script.
 
 
-## 8. Plex Autoscan
+## 7. Plex Autoscan
 1. On the server's shell, run the following command:
 
     ```
@@ -150,7 +150,7 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
 1. Click "Save" to add Plex Autoscan.
 
-## 9. Adding the TV Path
+## 8. Adding the TV Path
 1. When you are ready to add your first show to Sonarr, click the "Path" drop-down and select "Add a different path".
 
 1. Click the blue "Browse" button, select `tv`, scroll to the bottom and select "OK".

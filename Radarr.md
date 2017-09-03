@@ -6,12 +6,12 @@
 4. [Download Clients](#download-clients)
 	- [NZBGet](#nzbget)
 	- [ruTorrent](#rutorrent)
-7. [Indexers](#indexers)
+5. [Indexers](#indexers)
 	- [NZB Hydra](#nzb-hydra)
 	- [Jackett](#jackett)
-10. [Torrent Cleanup Script](#torrent-cleanup-script)
-11. [Plex Autoscan](#plex-autoscan)
-12. [Adding the Movies Path](#adding-the-movies-path)
+6. [Torrent Cleanup Script](#torrent-cleanup-script)
+7. [Plex Autoscan](#plex-autoscan)
+8. [Adding the Movies Path](#adding-the-movies-path)
 
 
 <!-- /TOC -->
