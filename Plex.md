@@ -152,7 +152,7 @@ Transcoder
 1. In the main Plex screen (Home icon on the top left), click `+` next to `LIBRARIES`.
 
     ![](https://i.imgur.com/zadq6ca.png)
-
+    
 1. In the "Add Library" window, select `TV Shows` and click `NEXT`.
 
     ![](https://i.imgur.com/gZtUgtQ.png)
