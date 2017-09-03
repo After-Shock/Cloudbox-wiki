@@ -1,4 +1,4 @@
-### Basics ### 
+### Basics ###
 1. [[Introduction]]
 1. [[Paths]]
 1. [[Accessing Cloudbox Apps]]
@@ -22,7 +22,7 @@
     1. [[Portainer]]
     1. [[Organizer]]
 
-### Advanced Configuration ### 
+### Advanced Configuration ###
 - [[Unionfs_Cleaner]]
 - [[Plex_Autoscan]]
 
@@ -38,3 +38,6 @@
 ### Troubleshooting ###
 - [[FAQ]]
 - [[Log Files]]
+
+### Community Chat ###
+- [Slack Channel](https://join.slack.com/t/cloud-box/shared_invite/MjM1NTI2OTEwMzIyLTE1MDQzOTAyNDAtYWNhOWY2NzNiZA)

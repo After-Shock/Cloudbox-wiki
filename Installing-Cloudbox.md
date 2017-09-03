@@ -1,9 +1,9 @@
 ## 1. Install Ansible ###
 
-Run the following commands (one by one). Press `Y` when asked to confirm. 
+Run the following commands (one by one). Press `Y` when asked to confirm.
 ```bash
 sudo apt-get install python-pip
-sudo -H pip install ansible==2.3.1.0
+sudo pip install ansible==2.3.1.0
 ```
 Note: Ansible v2.3.1.0 is the current stable version (v2.3.2.0 has a bug where docker_container state=stopped causes container to be removed).
 
@@ -24,7 +24,7 @@ Note: Ansible v2.3.1.0 is the current stable version (v2.3.2.0 has a bug where d
       ```bash
       sudo ansible-playbook cloudbox.yml --tag full
       ```
-4. When asked for a Plex Claim Token, go to https://plex.tv/claim, copy the claim token, and paste it at the prompt. When you paste it, you will see nothing; this is normal. Just press enter to continue. 
+4. When asked for a Plex Claim Token, go to https://plex.tv/claim, copy the claim token, and paste it at the prompt. When you paste it, you will see nothing; this is normal. Just press enter to continue.
 
     ![Plex Claim Token](http://i.imgur.com/SkRnay2.png)
 

@@ -8,17 +8,17 @@ Get an Ubuntu 16.04 server from a hosting company (eg. Hetzner.de).
 
 ## 2. Domain Name
 
-Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Accessing Cloudbox Apps]]). To set this app follow the below instructions. 
+Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Accessing Cloudbox Apps]]). To set this app follow the below instructions.
 
 ### i. Paid Domain Name (recommended)
 1. Get a domain name from any domain name registry (eg. Namecheap.com, Godaddy.com)
-2. Set a wildcard DNS for `*` to your server IP. 
+2. Set a wildcard DNS for `*` to your server IP.
     Example Namecheap: Domain List > Manage > Advanced DNS > Add New Record > A Record > `*` for Host > Server IP for Value.
 
    ![](http://i.imgur.com/I7h5jSs.png)
 
 ### ii. Free Domain Name
-1. Visit http://www.freenom.com, create a free account, and find a domain name to register. 
+1. Visit http://www.freenom.com, create a free account, and find a domain name to register.
 2. Go to "Services" > "My Domains" > "Manage Domain" > "Manage Freenom DNS".
 3. Add these A Records, with Target being your server IP (wildcard DNS not allowed).
 
@@ -41,7 +41,7 @@ Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Acces
 
 4. Save Changes.
 
-## 3. Google Drive account ## 
+## 3. Google Drive account ##
 
 * Cloudbox stores the media unencrypted in Google Drive and utilizes Plexdrive to access it, so if your using Amazon or prefer encryption, look elsewhere. We recommend creating a [G-Suite Business](gsuite.google.com/pricing.html) account for larger storage space.
 
@@ -50,3 +50,7 @@ Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Acces
     ![](http://i.imgur.com/cRIo3lQ.png)
 
     <a id="note1" href="#note1ref"><sup>1</sup></a> Although these folders are not meant to be changed, you may have other subfolders within Movies and TV, but will require further editing of settings <link to unionfs_cleaner and plex_autoscan configs editing page>.
+
+## 4. Plex.tv account
+
+* You'll need a Plex account (it's free). If you don't already have one, please visit http://www.plex.tv and create one. 
