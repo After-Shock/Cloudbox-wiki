@@ -3,11 +3,11 @@
 ### Media
 
 
-| Path                   | Purpose                                                                                                                                       |
-| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| `/mnt/local`           | Sonarr/Radarr imports will go here                                                                                                            |
-| `/mnt/plexdrive/Media` | Media stored on Google Drive (plexdrive)                                                                                                      |
-| `/mnt/unionfs/Media`   | Combined folder of local (`/mnt/local`) and online (`/mnt/unionfs) media. This is the folder Plex, Sonarr, Radarr will read during disk scans |
+| Path                   | Purpose                                                                                                                                                            |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `/mnt/local/Media`     | Sonarr/Radarr imports will go here                                                                                                                                 |
+| `/mnt/plexdrive/Media` | Media that is stored on Google Drive is mounted here (Plexdrive)                                                                                                   |
+| `/mnt/unionfs/Media`   | Combined folder of local media (`/mnt/local/Media`) and online media (`/mnt/plexdrive/Media`). This is the folder Plex, Sonarr, Radarr will read during disk scans |
 
 
 ### UnionFS_Cleaner
