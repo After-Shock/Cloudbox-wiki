@@ -84,7 +84,7 @@ Transcoder
 
 1. Click the Settings icon (top right) -> "Server" (top) -> "Scheduled Tasks" (left).
 
-![](http://i.imgur.com/tjotG75.png)
+    ![](http://i.imgur.com/tjotG75.png)
 
 2. Disable the following:
     - `Update all libraries during maintenance`
