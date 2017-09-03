@@ -1,14 +1,25 @@
-### Can I install this on an ARM machine?
+#### Can I install this on an ARM machine?
 
-ARM is not natively supported. However, you may be able to get it to work if you have certain errors you can try to fix them individually. See below
+ARM is not supported.
+
+#### Unrar module fails to install during the Common Role step?
 
 
-#### Install fails at Common Role step (due to unrar module):
+1. Edit the Common Task role:
 
-1. `sudo apt install unrar-free`
+  ```
+  nano ~/cloudbox/roles/common/tasks/main.yml
+  ```
 
-2. `sudo nano ~/cloudbox/roles/common/tasks/main.yml` and remove then nano the common role and remove `unrar` from the list.
+1. Replace `unrar` with `unrar-free` under the "Install common packages" section:
 
-#### You get pip ssl errors:
+  ```
+  - name: Install common packages
+  apt: "name={{item}} state=installed"
+  with_items:
 
-1. `sudo easy_install pyOpenSSL`
+  ```
+
+#### Get pip ssl errors?
+
+ - Run this `sudo easy_install pyOpenSSL` and retry.

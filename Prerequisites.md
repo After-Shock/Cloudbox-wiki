@@ -2,7 +2,7 @@
 
 ## 1. Dedicated Server
 
-Get an Ubuntu 16.04 server from a hosting company (eg. Hetzner.de). This has been tested on an AMD64 / INTEL64 machine. ARM is not natively supported. See the [[FAQ]].
+Get an Ubuntu 16.04 server from a hosting company (eg. Hetzner.de). This has been tested on an AMD64 / INTEL64 machine. ARM is not natively supported (e.g. DigitalOcean / Scaleway). See the [[FAQ]].
 
 
 
