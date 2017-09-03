@@ -84,13 +84,15 @@ Transcoder
 
 1. Click the Settings icon (top right) -> "Server" (top) -> "Scheduled Tasks" (left).
 
+![](http://i.imgur.com/tjotG75.png)
+
+
 1. Disable the following:
     - `Update all libraries during maintenance`
     - `Upgrade media analysis during maintenance`
     - `Perform refresh of program guide data`
     - `Analyze and tag photos`.
 
-    ![](http://i.imgur.com/tjotG75.png)
 
 1. Click `SAVE CHANGES`.
 
