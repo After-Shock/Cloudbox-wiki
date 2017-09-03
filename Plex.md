@@ -1,25 +1,29 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
 
-- [Accessing Plex](#accessing-plex)
-- [First Time Setup](#first-time-setup)
-- [Settings](#settings)
-	- [DLNA](#dlna)
-	- [Scheduled Tasks](#scheduled-tasks)
-	- [Extras](#extras)
-- [Adding Your First libraries](#adding-your-first-libraries)
-	- [Adding the Movie Library](#adding-the-movie-library)
-	- [Adding the TV Library](#adding-the-tv-library)
-- [Webtools](#webtools)
+1. [Accessing Plex](#1-accessing-plex)
+2. [First Time Setup](#2-first-time-setup)
+3. [Settings](#3-settings)
+	4. [Remote Access](#remote-access)
+	5. [Library](#library)
+	6. [Network](#network)
+	7. [Transcoder](#transcoder)
+	8. [DLNA](#dlna)
+	9. [Scheduled Tasks](#scheduled-tasks)
+	10. [Extras](#extras)
+11. [Adding Your First libraries](#adding-your-first-libraries)
+	12. [Adding the Movie Library](#adding-the-movie-library)
+	13. [Adding the TV Library](#adding-the-tv-library)
+14. [Webtools](#webtools)
 
 <!-- /TOC -->
 
-## Accessing Plex
+## 1. Accessing Plex
 1. To access Plex, visit https://plex._yourdomain.com_
 2. Login with your Plex account
 
     ![](https://i.imgur.com/KMVu05O.png)
 
-## First Time Setup
+## 2. First Time Setup
 
 1. When you first login, you will be shown a welcome screen. Click `GOT IT!` to continue.
 
@@ -38,9 +42,9 @@
     ![](https://i.imgur.com/uRr3o61.png)
 
 
-## Settings
+## 3. Settings
 
-Remote Access
+### Remote Access
 
 1. Click the Settings icon (top right) -> "Server" (top) -> "Remote Access" (left).
 
@@ -53,7 +57,7 @@ Remote Access
 1. Click `SAVE CHANGES`.
 
 
-Library
+### Library
 
 1. Click the Settings icon (top right) -> "Server" (top) -> "Library" (left).
 1. Disable `Empty trash automatically after every scan` and `Allow media deletion`.
@@ -63,7 +67,7 @@ Library
 
 1. Click `SAVE CHANGES`.
 
-Network
+### Network
 
 1. Click the Settings icon (top right) -> "Server" (top) -> "Network" (left).
 2. Disable `Enable local network discovery (GDM)`.
@@ -73,7 +77,7 @@ Network
 1. Click `SAVE CHANGES`.
 
 
-Transcoder
+### Transcoder
 
 1. Click the Settings icon (top right) -> "Server" (top) -> "Transcoder" (left).
 2. Set `Transcoder default duration` to `150` and `Transcoder default throttle buffer` to `150`.

@@ -13,7 +13,11 @@
 11. [Plex Autoscan](#plex-autoscan)
 12. [Adding the Movies Path](#adding-the-movies-path)
 
+
 <!-- /TOC -->
+
+---
+
 
 ## 1. Accessing Radarr
 1. To access Radarr, visit https://radarr._yourdomain.com_
