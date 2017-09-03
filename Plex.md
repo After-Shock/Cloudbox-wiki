@@ -1,3 +1,18 @@
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+	- [Accessing Plex](#accessing-plex)
+	- [First Time Setup](#first-time-setup)
+	- [Settings](#settings)
+		- [DLNA](#dlna)
+		- [Scheduled Tasks](#scheduled-tasks)
+		- [Extras](#extras)
+	- [Adding Your First libraries](#adding-your-first-libraries)
+		- [Adding the Movie Library](#adding-the-movie-library)
+		- [Adding the TV Library](#adding-the-tv-library)
+	- [Webtools](#webtools)
+
+<!-- /TOC -->
+
 ## Accessing Plex
 1. To access Plex, visit https://plex._yourdomain.com_
 2. Login with your Plex account
