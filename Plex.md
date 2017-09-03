@@ -2,7 +2,7 @@
 1. To access Plex, visit https://plex._yourdomain.com_
 2. Login with your Plex account
 
-![](https://i.imgur.com/KMVu05O.png)
+    ![](https://i.imgur.com/KMVu05O.png)
 
 ## First Time Setup
 
@@ -85,10 +85,10 @@ Transcoder
 1. Click the Settings icon (top right) -> "Server" (top) -> "Scheduled Tasks" (left).
 
 1. Disable the following:
-  - `Update all libraries during maintenance`
-  - `Upgrade media analysis during maintenance`
-  - `Perform refresh of program guide data`
-  - `Analyze and tag photos`.
+    - `Update all libraries during maintenance`
+    - `Upgrade media analysis during maintenance`
+    - `Perform refresh of program guide data`
+    - `Analyze and tag photos`.
 
     ![](http://i.imgur.com/tjotG75.png)
 
