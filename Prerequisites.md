@@ -2,7 +2,7 @@
 
 ## 1. Dedicated Server
 
-Get an Ubuntu 16.04 server from a hosting company (eg. Hetzner.de).
+Get an Ubuntu 16.04 server from a hosting company (eg. Hetzner.de). This has been tested on an AMD64 / INTEL64 machine. ARM is not natively supported. See the [[FAQ]].
 
 
 
@@ -53,4 +53,4 @@ Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Acces
 
 ## 4. Plex.tv account
 
-* You'll need a Plex account (it's free). If you don't already have one, please visit http://www.plex.tv and create one. 
+* You'll need a Plex account (it's free). If you don't already have one, please visit http://www.plex.tv and create one.
