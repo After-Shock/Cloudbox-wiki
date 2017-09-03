@@ -5,9 +5,9 @@
 
 | Path                   | Purpose                                                                                                                                                            |
 |:---------------------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `/mnt/local/Media`     | Sonarr/Radarr imports will go here                                                                                                                                 |
-| `/mnt/plexdrive/Media` | Media that is stored on Google Drive is mounted here (Plexdrive)                                                                                                   |
-| `/mnt/unionfs/Media`   | Combined folder of local media (`/mnt/local/Media`) and online media (`/mnt/plexdrive/Media`). This is the folder Plex, Sonarr, Radarr will read during disk scans |
+| `/mnt/local/Media`     | Sonarr/Radarr imports will go here  here                                                                                                                           |
+| `/mnt/plexdrive/Media` | Media that is stored on Google Drive is mounted here (by Plexdrive)                                                                                                   |
+| `/mnt/unionfs/Media`   | Combined folder of local media (`/mnt/local/Media`) and online media (`/mnt/plexdrive/Media`). This is the folder Plex, Sonarr, and Radarr when scanning for media |
 
 
 ### UnionFS_Cleaner
@@ -56,4 +56,4 @@
 
 | Docker Path | Host Path                                                      | Purpose                               |
 |:----------- |:-------------------------------------------------------------- |:------------------------------------- |
-| `/logs`     | `/opt/plex/Library/Application Support/Plex Media Server/Logs` | Location of Plex logs; used by PlexPy | 
+| `/logs`     | `/opt/plex/Library/Application Support/Plex Media Server/Logs` | Location of Plex logs; used by PlexPy |
