@@ -54,6 +54,6 @@
 ### PlexPy
 
 
-| Docker Path | Host Path                                                      | Purpose                                 |
-|:----------- |:-------------------------------------------------------------- |:--------------------------------------- |
-| `/logs`     | `/opt/plex/Library/Application Support/Plex Media Server/Logs` | Location Plex logs to be used by PlexPy |
+| Docker Path | Host Path                                                      | Purpose                               |
+|:----------- |:-------------------------------------------------------------- |:------------------------------------- |
+| `/logs`     | `/opt/plex/Library/Application Support/Plex Media Server/Logs` | Location of Plex logs; used by PlexPy | 
