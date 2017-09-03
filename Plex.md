@@ -86,14 +86,14 @@ Transcoder
 
 ![](http://i.imgur.com/tjotG75.png)
 
-1. Disable the following:
+2. Disable the following:
     - `Update all libraries during maintenance`
     - `Upgrade media analysis during maintenance`
     - `Perform refresh of program guide data`
     - `Analyze and tag photos`.
 
 
-1. Click `SAVE CHANGES`.
+3. Click `SAVE CHANGES`.
 
 
 ### Extras
