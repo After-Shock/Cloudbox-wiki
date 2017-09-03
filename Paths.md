@@ -6,7 +6,7 @@
 | Path                   | Purpose                                                                                                                                                            |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `/mnt/local/Media`     | Sonarr/Radarr imports will go here                                                                                                                                 |
-| /mnt/plexdrive/Media | Media that is stored on Google Drive is mounted here (Plexdrive)                                                                                                   |
+| `/mnt/plexdrive/Media` | Media that is stored on Google Drive is mounted here (Plexdrive)                                                                                                   |
 | `/mnt/unionfs/Media`   | Combined folder of local media (`/mnt/local/Media`) and online media (`/mnt/plexdrive/Media`). This is the folder Plex, Sonarr, Radarr will read during disk scans |
 
 
@@ -18,6 +18,8 @@
 | `/mnt/local/Media` | Size of the local media folder is checked periodically. When the folder size reaches it's threshold (default `250GB`), it will move that content to Google Drive, freeing up local disk space |
 
 
+
+---
 
 ## Docker Paths:
 
@@ -55,11 +57,3 @@
 | Docker Path | Host Path                                                      | Purpose                                 |
 | ----------- | -------------------------------------------------------------- | --------------------------------------- |
 | `/logs`     | `/opt/plex/Library/Application Support/Plex Media Server/Logs` | Location Plex logs to be used by PlexPy |
-
-
-
-
-
-image workflow:
-
-http://i.imgur.com/xVR28pn.png
