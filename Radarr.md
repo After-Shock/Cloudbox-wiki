@@ -1,25 +1,25 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
 
-- [Acessing Radarr](#acessing-radarr)
-- [General Settings](#general-settings)
-- [Media Management](#media-management)
-- [Download Clients](#download-clients)
+1. [Acessing Radarr](#acessing-radarr)
+2. [General Settings](#general-settings)
+3. [Media Management](#media-management)
+4. [Download Clients](#download-clients)
 	- [NZBGet](#nzbget)
 	- [ruTorrent](#rutorrent)
-- [Indexers](#indexers)
+7. [Indexers](#indexers)
 	- [NZB Hydra](#nzb-hydra)
 	- [Jackett](#jackett)
-- [Torrent Cleanup Script](#torrent-cleanup-script)
-- [Plex Autoscan](#plex-autoscan)
-- [Adding the Movies Path](#adding-the-movies-path)
+10. [Torrent Cleanup Script](#torrent-cleanup-script)
+11. [Plex Autoscan](#plex-autoscan)
+12. [Adding the Movies Path](#adding-the-movies-path)
 
 <!-- /TOC -->
 
-## Acessing Radarr
+## 1. Accessing Radarr
 1. To access Radarr, visit https://radarr._yourdomain.com_
 
 
-## General Settings
+## 2. General Settings
 
 1. Click "Settings" -> "General".
 1. Click "Show Advanced Settings".
@@ -32,7 +32,7 @@
 
 
 
-## Media Management
+## 3. Media Management
 
 1. Click "Settings" -> "Media Management".
 
@@ -46,7 +46,7 @@
 
 
 
-## Download Clients
+## 4. Download Clients
 
 1. Click "Settings" -> "Download Client".
 
@@ -75,7 +75,7 @@
 
 
 
-## Indexers
+## 5. Indexers
 
 ### NZB Hydra
 
@@ -109,7 +109,7 @@ Note: These steps will need to done for each individual indexer you want to add.
 
 
 
-## Torrent Cleanup Script
+## 6. Torrent Cleanup Script
 
 This custom script, will cleanup torrents from ruTorrent that were auto-extracted, but still being seeded. So if it detects that .rar files are in the folder that Radarr just imported from, it will delete the imported video file(s), leaving just the .rar files for seeding.
 
@@ -123,7 +123,7 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 1. Click "Save" to add the script.
 
 
-## Plex Autoscan
+## 7. Plex Autoscan
 
 Note: If you have already setup Sonarr, you can copy/paste the same link and skip the first two steps.
 
@@ -150,7 +150,7 @@ Note: If you have already setup Sonarr, you can copy/paste the same link and ski
 
 1. Click "Save" to add Plex Autoscan.
 
-## Adding the Movies Path
+## 8. Adding the Movies Path
 1. When you are ready to add your first movie to Radarr, click the "Path" drop-down and select "Add a different path".
 
 1. Click the blue "Browse" button, select `movies`, scroll to the bottom and select "OK".
