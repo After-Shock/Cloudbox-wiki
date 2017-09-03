@@ -1,4 +1,4 @@
-## Plex
+## Accessing Plex
 1. To access Plex, visit https://plex._yourdomain.com_
 2. Login with your Plex account
 

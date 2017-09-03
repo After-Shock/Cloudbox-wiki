@@ -1,4 +1,4 @@
-## Radarr
+## Acessing Radarr
 1. To access Radarr, visit https://radarr._yourdomain.com_
 
 

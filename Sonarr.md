@@ -1,4 +1,4 @@
-## Sonarr
+## Accessing Sonarr
 1. To access Sonarr, visit https://sonarr._yourdomain.com_
 
 
