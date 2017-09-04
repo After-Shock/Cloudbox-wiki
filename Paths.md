@@ -46,8 +46,8 @@ Note: It is advised to leave at least 100GB free on `/opt` for the docker data (
 | Docker Path            | Host Path                         | Purpose                                                                 |
 |:---------------------- |:--------------------------------- |:----------------------------------------------------------------------- |
 | <pre>/tv</pre>                  | <pre>/mnt/unionfs/Media/TV</pre>           | <pre> Sonarr will import to /tv which in turn is that folder on host system </pre> |
-| <pre>/downloads/rutorrent</pre> | <pre>~/downloads/rutorrent</pre> (default) </pre> | <pre> ruTorrent download folder as set in settings.yml </pre>                       |
-| <pre>/downloads/nzbget</pre>    | <pre>~/downloads/nzbget</pre> (default)   </pre> | <pre> NZBGet download folder as set in settings.yml </pre>                          |
+| <pre>/downloads/rutorrent</pre> | <pre>~/downloads/rutorrent (default) </pre> | <pre> ruTorrent download folder as set in settings.yml </pre>                       |
+| <pre>/downloads/nzbget</pre>    | <pre>~/downloads/nzbget (default)   </pre> | <pre> NZBGet download folder as set in settings.yml </pre>                          |
 
 
 ### Radarr
@@ -56,8 +56,8 @@ Note: It is advised to leave at least 100GB free on `/opt` for the docker data (
 | Docker Path            | Host Path                         | Purpose                                                                     |
 |:---------------------- |:--------------------------------- |:--------------------------------------------------------------------------- |
 | <pre>/movies</pre>              | <pre>/mnt/unionfs/Media/Movies</pre>       | <pre> Radarr will import to /movies which in turn is that folder on host system </pre> |
-| <pre>/downloads/rutorrent</pre> | <pre>~/downloads/rutorrent</pre> (default) </pre> | <pre> ruTorrent download folder as set in settings.yml  </pre>                          |
-| <pre>/downloads/nzbget</pre>    | <pre>~/downloads/nzbget</pre> (default) </pre>   | <pre> NZBGet download folder as set in settings.yml </pre>                               |
+| <pre>/downloads/rutorrent</pre> | <pre>~/downloads/rutorrent (default) </pre> | <pre> ruTorrent download folder as set in settings.yml  </pre>                          |
+| <pre>/downloads/nzbget</pre>    | <pre>~/downloads/nzbget (default) </pre>   | <pre> NZBGet download folder as set in settings.yml </pre>                               |
 
 
 ### PlexPy
