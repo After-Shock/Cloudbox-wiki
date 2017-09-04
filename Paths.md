@@ -2,7 +2,7 @@
 
 It is recommended to assign all your disk space to `/`, as all of your imported media and app data will be saved to `/mnt/local` and `/opt`,  respectively.
 
-Downloads (i.e. NZBGet, ruTorrent) are stored in `~/downloads`, however, this can be changed and pointed to an extra disk by editing the [[setting.yml|Configuring-Settings]] file.
+Downloads (i.e. NZBGet, ruTorrent) are stored in `~/downloads`, however, this can be changed to point to an extra disk by editing the [[setting.yml|Configuring-Settings]] file.
 
 ## Local Paths
 
@@ -26,9 +26,9 @@ Note: Make sure `/mnt/local` has enough space to store the imported media.
 
 
 
----
 
-## Docker Paths:
+
+## Docker Paths
 
 Note: It is advised to leave at least 100GB free on `/opt` for the docker data (see below).
 
