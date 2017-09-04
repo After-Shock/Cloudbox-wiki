@@ -57,7 +57,7 @@ Note: It is advised to leave at least 100GB free on `/opt` for the docker data (
 |:---------------------- |:--------------------------------- |:--------------------------------------------------------------------------- |
 | <pre>/movies</pre>              | <pre>/mnt/unionfs/Media/Movies</pre>       | <pre> Radarr will import to /movies which in turn is that folder on host system </pre> |
 | <pre>/downloads/rutorrent</pre> | <pre>~/downloads/rutorrent</pre> (default) | <pre> ruTorrent download folder as set in settings.yml  </pre>                          |
-| <pre>/downloads/nzbget</pre>    | <pre>~/downloads/nzbget</pre> (default)    | <pre>NZBGet download folder as set in settings.yml </pre>                               |
+| <pre>/downloads/nzbget</pre>    | <pre>~/downloads/nzbget</pre> (default)    | <pre> NZBGet download folder as set in settings.yml </pre>                               |
 
 
 ### PlexPy
