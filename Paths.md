@@ -13,7 +13,7 @@ Downloads (i.e. NZBGet, ruTorrent) are stored in `~/downloads`, however, this ca
 |:---------------------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | <pre>/mnt/local/Media</pre>     | <pre> Sonarr/Radarr imports will go here   </pre>                                                                                                                         |
 | <pre>/mnt/plexdrive/Media</pre> | <pre> Media that is stored on Google Drive is mounted here (by Plexdrive) </pre>                                                                                                  |
-| <pre>/mnt/unionfs/Media</pre>   | <pre> Combined folder of local media (/mnt/local/Media) and online media  (/mnt/plexdrive/Media). This is the folder Plex, Sonarr, and Radarr when scanning for media </pre> |
+| <pre>/mnt/unionfs/Media</pre>   | <pre> Combined folder of local media (/mnt/local/Media) and online media  (/mnt/plexdrive/Media).</pre> <pre> This is the folder Plex, Sonarr, and Radarr when scanning for media </pre> |
 
 Note: Make sure <pre>/mnt/local</pre> has enough space to store the imported media.
 
@@ -22,7 +22,7 @@ Note: Make sure <pre>/mnt/local</pre> has enough space to store the imported med
 
 | Path               | Purpose                                                                                                                                                                                       |
 |:------------------ |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <pre>/mnt/local/Media</pre> | <pre> Size of the local media folder is checked periodically. When the folder size reaches it's threshold (default 250GB), it will move that content to Google Drive, freeing up local disk space </pre> |
+| <pre>/mnt/local/Media</pre> | <pre> Size of the local media folder is checked periodically.</pre> <pre> When the folder size reaches it's threshold (default 250GB), it will move that content to Google Drive, freeing up local disk space </pre> |
 
 
 
