@@ -22,4 +22,4 @@ ARM is not supported.
 
 #### Get pip ssl errors?
 
- - Run this `sudo easy_install pyOpenSSL` and retry.
+ - Run `sudo easy_install pyOpenSSL` and retry.

@@ -1,3 +1,7 @@
+## General Info
+
+It is recommended to assign all your disk space to `/`, as all of your imported media and app data will be saved to `/mnt/local` and `/opt`,  respectively.
+
 ## Local Paths
 
 ### Media
@@ -9,6 +13,7 @@
 | `/mnt/plexdrive/Media` | Media that is stored on Google Drive is mounted here (by Plexdrive)                                                                                                   |
 | `/mnt/unionfs/Media`   | Combined folder of local media (`/mnt/local/Media`) and online media (`/mnt/plexdrive/Media`). This is the folder Plex, Sonarr, and Radarr when scanning for media |
 
+Note: Make sure `/mnt/local` has enough space to store the imported media.
 
 ### UnionFS_Cleaner
 
@@ -22,6 +27,8 @@
 ---
 
 ## Docker Paths:
+
+Note: It is advised to leave at least 100GB free on `/opt` for the docker data (see below).
 
 ### Plex
 
