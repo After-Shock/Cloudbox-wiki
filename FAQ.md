@@ -29,7 +29,7 @@
 
   - Run `sudo pip install requests==2.10.0` and retry.
 
-## Issues with ipv6?
+## Issues with ipv6
 
   - Disable ipv6 via `sudo nano /etc/sysctl.conf` and add these lines
 
