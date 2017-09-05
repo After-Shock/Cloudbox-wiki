@@ -23,6 +23,7 @@
          with_items:
 
       ```
+  1. `ctrl-x` and `y` to save
 
 ## pip ssl error
 
