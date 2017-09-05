@@ -35,7 +35,7 @@
 
 ## Issues with ipv6 / disabling ipv6
 
-  - Run `sudo nano /etc/sysctl.conf` and add these lines
+  - Run `sudo nano /etc/sysctl.conf` and add these lines (`ctrl-x` and `y` to save)
 
     ```
     net.ipv6.conf.all.disable_ipv6 = 1
