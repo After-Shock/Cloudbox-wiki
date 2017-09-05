@@ -1,17 +1,17 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
 
-1. [Accessing Sonarr](#accessing-sonarr)
-2. [General Settings](#general-settings)
-3. [Media Management](#media-management)
-4. [Download Clients](#download-clients)
+1. [Accessing Sonarr](#1-accessing-sonarr)
+2. [General Settings](#2-general-settings)
+3. [Media Management](#3-media-management)
+4. [Download Clients](#4-download-clients)
 	- [NZBGet](#nzbget)
 	- [ruTorrent](#rutorrent)
-5. [Indexers](#indexers)
+5. [Indexers](#5-indexers)
 	- [NZB Hydra](#nzb-hydra)
 	- [Jackett](#jackett)
-6. [Torrent Cleanup Script](#torrent-cleanup-script)
-7. [Plex Autoscan](#plex-autoscan)
-8. [Adding the TV Path](#adding-the-tv-path)
+6. [Torrent Cleanup Script](#6-torrent-cleanup-script)
+7. [Plex Autoscan](#7-plex-autoscan)
+8. [Adding the TV Path](#8-adding-the-tv-path)
 
 <!-- /TOC -->
 
