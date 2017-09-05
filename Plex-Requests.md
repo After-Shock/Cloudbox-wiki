@@ -1,1 +1,1 @@
-setup
+When setting up plex requests to your liking, sonarr address is sonarr:8080 and radarr is radarr:8080. If the test server is failing, try saving the changes, then try the test button again, this is usually what has to be done on my end as it doesnt seem to use that new information until saving the settings.
