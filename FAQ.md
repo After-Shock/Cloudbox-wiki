@@ -1,6 +1,10 @@
 ## Can I install this on an ARM machine?
 
-  ARM is not supported.
+  - ARM is not supported.
+
+## Dont want a certain docker app?
+
+  - Just remove them with `docker rm -f <appname>` after installing Cloudbox.
 
 ## Unrar module fails to install during the Common Role step
 
