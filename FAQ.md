@@ -2,7 +2,7 @@
 
   ARM is not supported.
 
-## Unrar module fails to install during the Common Role step?
+## Unrar module fails to install during the Common Role step
 
 
   1. Edit the Common Task role:
