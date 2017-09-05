@@ -3,7 +3,7 @@
 ### Basics ### 
 1. [[Introduction]]
 1. [[Paths]]
-1. [[Accessing Cloudbox]]
+1. [[Accessing Cloudbox Apps]]
 
 ### First Time Install ###
 1. [[Prerequisites]]
