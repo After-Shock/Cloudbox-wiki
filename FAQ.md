@@ -15,7 +15,7 @@
       nano ~/cloudbox/roles/common/tasks/main.yml
       ```
 
-  1. Replace `unrar` with `unrar-free` under the "Install common packages" section:
+  1. Replace `unrar` with `unrar-free` under the `Install common packages` section (below `with_items:`)
 
       ```
       - name: Install common packages
