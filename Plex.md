@@ -10,10 +10,10 @@
 	- [DLNA](#dlna)
 	- [Scheduled Tasks](#scheduled-tasks)
 	- [Extras](#extras)
-4. [Adding Your First libraries](#adding-your-first-libraries)
+4. [Adding Your First libraries](#4-adding-your-first-libraries)
 	- [Adding the Movie Library](#adding-the-movie-library)
 	- [Adding the TV Library](#adding-the-tv-library)
-5. [Webtools](#webtools)
+5. [Webtools](#5-webtools)
 
 <!-- /TOC -->
 
