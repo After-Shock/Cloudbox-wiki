@@ -33,13 +33,13 @@
 
   - Run `sudo pip install requests==2.10.0` and retry.
 
-## Issues with ipv6
+## Issues with ipv6 / disabling ipv6
 
-  - Disable ipv6 via `sudo nano /etc/sysctl.conf` and add these lines
+  - Run `sudo nano /etc/sysctl.conf` and add these lines
 
     ```
     net.ipv6.conf.all.disable_ipv6 = 1
     net.ipv6.conf.default.disable_ipv6 = 1
     net.ipv6.conf.lo.disable_ipv6 = 1
     ```
-  - Then run this command: `sudo sysctl -p`
+  - Then run `sudo sysctl -p`
