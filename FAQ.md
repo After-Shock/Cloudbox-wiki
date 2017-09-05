@@ -19,8 +19,8 @@
 
       ```
       - name: Install common packages
-      apt: "name={{item}} state=installed"
-      with_items:
+         apt: "name={{item}} state=installed"
+         with_items:
 
       ```
 
