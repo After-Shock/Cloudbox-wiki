@@ -1,10 +1,10 @@
-Visit plexpy.domain.com
+1. Visit http://plexpy._yourdomain_.com
 
-Sign in with your Plex username and Password
+2. Sign in with your Plex.tv username and Password
 
-Choose your plex server - direct address: (plex : 32400)
+3. Choose your plex server - direct address: (`plex` : `32400`)
 
-Go to settings -> access control and set a username / password to protect the interface from the public.
+4. Go to `Settings` -> `Access Control` and set a username / password (to protect the interface from the public).
 
-If you are asked for the plex logs location, it is exactly /logs
+5. If you are asked for the plex logs location, it is exactly `/logs`.
 
