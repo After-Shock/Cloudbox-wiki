@@ -40,4 +40,4 @@
 - [[Log Files]]
 
 ### Community Chat ###
-- [Slack Channel](https://join.slack.com/t/cloud-box/shared_invite/MjM1NTI2OTEwMzIyLTE1MDQzOTAyNDAtYWNhOWY2NzNiZA) (`#support` for help)
+- [Slack Channel](https://join.slack.com/t/cloud-box/shared_invite/MjM1NTI2OTEwMzIyLTE1MDQzOTAyNDAtYWNhOWY2NzNiZA)
