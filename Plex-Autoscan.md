@@ -38,19 +38,3 @@ This will be used later by Sonarr/Radarr.
    1. Note: Make sure it is within the quotes (`"`) and there is a comma (`,`) after it.
 
  1. `ctrl-x` and `y` to save.
-
-
-
-
-
-move elsewhere:
-
-the default plex_autoscan is setup for the default cloudbox installation. this assumes that section 1 = Movies and section 2 = TV (so add your libarries in that order if you dont wish to edit it). If you have multiple subdirs (e.g. Movies/Kids, Movies/4K etc...) then you must perform an ./scan.py sections to retrieve the section ID number's, then edit the config.json in /opt/plex_autoscan/config/config.json. you are looking to replace the section id path mappings variable, the trick format is:
-
-"SECTION_NUMBER": ['/pathKeyword/', '/path2keyword/', '/Movies/Kids/'] - this tells plex autoscan, that when it starts the plex scanner, use that section number if any of those keywords exist within the filepath of the file to be scanned.
-
-any changes must be saved and sudo systemctl restart plex_autoscan
-
-
-
-----

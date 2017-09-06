@@ -28,7 +28,6 @@
 
 ### More Information ###
 - [[UnionFS Cleaner]]
-- [[Plex Autoscan]]
 - [[Updating Cloudbox]]
 - [[Backup & Restore]]
 - [[How to get a Google Drive API client ID and client secret]]
