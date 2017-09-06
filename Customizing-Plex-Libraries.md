@@ -26,7 +26,7 @@ You will add each of these folders as libraries within Plex (see [[example|Plex#
     3: Hollywood
     4: Kids
     5: Foreign
-    6: TV Shows
+    6: TV
     ```
 
 1. The list here shows your section IDs in the format of `SECTION ID: LIBRARY NAME`. NOTE: Your section IDs may be different as it is based on the order you add them in Plex.
