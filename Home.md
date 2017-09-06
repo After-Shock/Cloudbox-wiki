@@ -17,6 +17,7 @@
     1. [[Sonarr]]
     1. [[Radarr]]
     1. [[Plex]]
+    1. [[Plex_Autoscan]]
     1. [[PlexPy]]
     1. [[Plex Requests]]
     1. [[Portainer]]
