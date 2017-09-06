@@ -24,10 +24,11 @@
     1. [[Organizer]]
 
 ### Advanced Configuration ###
-- [[UnionFS Cleaner]]
-- [[Plex Autoscan]]
+- [[Customizing Plex Libraries]]
 
 ### More Information ###
+- [[UnionFS Cleaner]]
+- [[Plex Autoscan]]
 - [[Updating Cloudbox]]
 - [[Backup & Restore]]
 - [[How to get a Google Drive API client ID and client secret]]
