@@ -14,7 +14,7 @@
     1. [[NZBGet]]
     1. [[NZB Hydra]]
     1. [[Jackett]]
-    1. [[Plex_Autoscan]]
+    1. [[Plex Autoscan]]
     1. [[Sonarr]]
     1. [[Radarr]]
     1. [[Plex]]
