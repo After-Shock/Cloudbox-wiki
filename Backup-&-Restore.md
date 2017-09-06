@@ -4,7 +4,7 @@ Backup is an integral part of cloudbox, this is what makes it so great! Everythi
 Everything else is backed up. Any configuration changes made inside /opt/ e.g. plex_autoscan and unionfs_cleaner are backed up and will be used for future restores. 
 The end result is you will have a .tar file that will be uploaded to your google drive storage/rsync remote. This backup file can then be restored on a brand new server, with everything exactly as you left it at the time of backup. 
 
-Backup can be done on a schedule via the cron options (remember that you must run the backup once in order for it to apply the cron schedule changes in settings.yml) - you can also manually create a cron schedule, but it MUST be ran as the root user. to create a manual cron you should use the following command todo the backup ```ansible-playbook /home/USER/cloudbox/cloudbox.yml --tags backup``` - remmber this MUST be ran as root so it does not have any unforseen permission issues.
+Backup can be done on a schedule via the cron options (remember that you must run the backup once in order for it to apply the cron schedule changes in settings.yml) - you can also manually create a cron schedule, but it MUST be ran as the root user (e.g. sudo crontab -e). to create a manual cron you should use the following command todo the backup ```ansible-playbook /home/USER/cloudbox/cloudbox.yml --tags backup``` - remmber this MUST be ran as root so it does not have any unforseen permission issues.
 
 In order todo a manual backup, you can ```cd ~/cloudbox``` ```sudo ansible-playbook cloudbox.yml --tags backup```.
 
