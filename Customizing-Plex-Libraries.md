@@ -49,28 +49,28 @@ You will add each of these folders as libraries within Plex (see [[Plex|Plex#Add
 
 1. After the changes, the section will look similar to this:
 
- ```
- "PLEX_SECTION_PATH_MAPPINGS": {
-    "1": [
-        "/Movies/3D/"
-    ],
-    "2": [
-        "/Movies/4K/"
-    ],
-    "3": [
-        "/Movies/Hollywood/"
-    ],
-    "4": [
-       "/Movies/Kids/"
-    ],
-    "5": [
-        "/Movies/Foreign/"
-    ],
-    "6": [
-        "/TV/"
-    ]
- },
- ```
+   ```
+   "PLEX_SECTION_PATH_MAPPINGS": {
+      "1": [
+          "/Movies/3D/"
+      ],
+      "2": [
+          "/Movies/4K/"
+      ],
+      "3": [
+          "/Movies/Hollywood/"
+      ],
+      "4": [
+         "/Movies/Kids/"
+      ],
+      "5": [
+          "/Movies/Foreign/"
+      ],
+      "6": [
+          "/TV/"
+      ]
+   },
+   ```
 
 1. `ctrl-x` and `y` to save.
 
@@ -93,12 +93,12 @@ You will add each of these folders as libraries within Plex (see [[Plex|Plex#Add
 
 1. After the changes, the section will look similar to this:
 
- ```
- "rclone_remove_empty_on_upload": {
-     "/mnt/local/Media/Movies": 2,
-     "/mnt/local/Media/TV": 1
- },
- ```
+   ```
+   "rclone_remove_empty_on_upload": {
+       "/mnt/local/Media/Movies": 2,
+       "/mnt/local/Media/TV": 1
+   },
+   ```
 
 1. `ctrl-x` and `y` to save.
 
