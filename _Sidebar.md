@@ -1,9 +1,13 @@
 ### [[Home]] ###
 
+***
+
 ### Basics ### 
 1. [[Introduction]]
 1. [[Paths]]
 1. [[Accessing Cloudbox Apps]]
+
+***
 
 ### First Time Install ###
 1. [[Prerequisites]]
@@ -24,9 +28,13 @@
     1. [[Portainer]]
     1. [[Organizer]]
 
+***
+
 ### Advanced Configuration ### 
 - [[Unionfs_Cleaner]]
 - [[Plex_Autoscan]]
+
+***
 
 ### More Information ###
 - [[Updating Cloudbox]]
@@ -36,6 +44,8 @@
 - [[Addons]]
 - [[Sonarr Naming Preferences]]
 - [[Radarr Naming Preferences]]
+
+***
 
 ### Troubleshooting ###
 - [[FAQ]]
