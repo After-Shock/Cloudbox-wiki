@@ -44,3 +44,13 @@
     net.ipv6.conf.lo.disable_ipv6 = 1
     ```
   - Then run `sudo sysctl -p`
+
+## If during the first time setup, you switched the order of Plex libraries (i.e TV first then Movies)
+
+  You will need to get the Plex section IDs and replace them in the Plex Autoscan config:
+
+  1. Getting the Run `/opt/plex_autoscan/scan.py sections` to list the section IDs.
+
+  1. Edit the Plex Autoscan config via `nano /opt/plex` and switch the ID numbers to match the Section IDs from Step 1.
+
+  1. Restart Plex Autoscan: `sudo nano systemctl restart plex_autoscan`   

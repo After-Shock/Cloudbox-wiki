@@ -131,7 +131,7 @@
 
 ## 4. Adding Your First libraries
 
-* Note: the order is important (i.e. Movies first, then TV); or else the config file for Unionfs_cleaner will need to be updated to reflect section ID changes.
+* Note: the order is important (i.e. Movies first, then TV); or else the config file for Plex Autoscan will need to be updated to reflect section ID changes (see FAQ).
 
 ### Adding the Movie Library
 

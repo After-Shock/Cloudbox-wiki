@@ -129,21 +129,11 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
 ## 7. Plex Autoscan
 
-Note: If you have already setup Sonarr, you can copy/paste the same link and skip the first two steps.
-
-1. On the server's shell, run the following command:
-
-    ```
-    cat /opt/plex_autoscan/*.log | grep http
-    ```
-
-1. Copy the link you find here (which will look like `http://0.0.0.0:3468/PLEXSERVERCODE`).
-
-1. Go back to Radarr, click "Settings" -> "Connect".
+1. Click "Settings" -> "Connect".
 
 1. Add a new "Webhook".
 
-1. For the "URL", paste in the link you copied earlier. You will need to replace "0.0.0.0" with "plex._yourdomain.com_" (i.e. http://plex._yourdomain.com_:3468/PLEXSERVERCODE).
+1. For the "URL", paste in your [[Plex Autoscan URL|Plex_Autoscan#Obtaining the Plex Autoscan URL]].
 
 1. "Method" will remain on `POST`.
 
