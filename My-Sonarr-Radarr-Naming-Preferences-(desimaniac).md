@@ -1,4 +1,4 @@
-I have always liked having my media named with [Scene](https://scenerules.org/) format. I like the convenience of knowing the episode title, quality, proper, edition, release group by just looking at the filename. This format is Plex friendly. I am posting this here for anyone who may find this helpful.
+I have always liked having my media named with the [Scene](https://scenerules.org/) naming rules. I like the convenience of knowing the episode title, quality, proper, edition, and release group by just looking at the filename. This format is Plex friendly. I am posting this here for anyone who may find this helpful.
 
 
 ### Sonarr
