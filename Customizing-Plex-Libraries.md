@@ -8,7 +8,7 @@ Lets say you wanted to have a separate library for 3D, 4K, Hollwyood, and Foreig
 
 ## Adding Libraries to Plex
 
-You will add each of these folders as libraries within Plex (see [[example|Plex#adding-the-movie-library]]). You may name it whatever you want. The folders will be located in the `/data/Movies` folder (e.g. `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movies/Hollywood`, `/data/Movies/Kids`, and `/data/Movies/Foreign`).
+You will add each of these folders as libraries within Plex (see [[example|Plex#adding-the-movie-library]]). You may name it whatever you want. The folders will be located in the `/data` folder (e.g. `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movies/Hollywood`, `/data/Movies/Kids`, and `/data/Movies/Foreign`).
 
 ## Retrieving Plex Library Section IDs
 
