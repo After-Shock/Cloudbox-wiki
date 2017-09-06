@@ -24,8 +24,8 @@
     1. [[Organizer]]
 
 ### Advanced Configuration ###
-- [[Unionfs_Cleaner]]
-- [[Plex_Autoscan]]
+- [[UnionFS Cleaner]]
+- [[Plex Autoscan]]
 
 ### More Information ###
 - [[Updating Cloudbox]]
