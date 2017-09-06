@@ -25,3 +25,5 @@ logrotate is installed (should be by default) to ensure you dont drown in logs.
 tree is installed to visualize directories and files.
 
 speedtest-cli is installed to perform quick speedtests (not always accurate)
+
+certbot is also installed, as its required by the revoke_certs script.
