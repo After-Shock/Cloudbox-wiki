@@ -131,7 +131,7 @@
 
 ## 4. Adding Your First libraries
 
-* Note: the order is important (i.e. Movies first, then TV); or else the config file for Plex Autoscan will need to be updated to reflect section ID changes (see FAQ).
+* Note: the order is important (i.e. Movies first, then TV); or else the config file for Plex Autoscan will need to be updated to reflect section ID changes (see [[FAQ|FAQ#if-during-the-first-time-setup-you-switched-the-order-of-plex-libraries-ie-tv-first-then-movies]]).
 
 ### Adding the Movie Library
 
