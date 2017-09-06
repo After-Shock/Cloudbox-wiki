@@ -18,7 +18,7 @@ You will add each of these folders as libraries within Plex (see [[example|Plex#
     /opt/plex_autoscan/scan.py sections
     ```
 
-1. Your screen will now show something like this:
+1. Your screen will now show something similar to this:
 
     ```
     1: 3D
@@ -47,7 +47,7 @@ You will add each of these folders as libraries within Plex (see [[example|Plex#
 
   1. Note: Make sure the path is within quotes (`"/Movies/Kids"`) and there is a comma (`,`) at the the close brackets (`]`) - all except the last one (see example below).
 
-1. After the changes, the section will look similar to this:
+1. After the changes, the section will now look similar to this:
 
    ```
    "PLEX_SECTION_PATH_MAPPINGS": {
@@ -91,7 +91,7 @@ You will add each of these folders as libraries within Plex (see [[example|Plex#
 
   1. Note: Make sure there is a comma (`,`) at the end of `"path": #` lines - all except the last one (see example below).
 
-1. After the changes, the section will look similar to this:
+1. After the changes, the section will now look similar to this:
 
    ```
    "rclone_remove_empty_on_upload": {
