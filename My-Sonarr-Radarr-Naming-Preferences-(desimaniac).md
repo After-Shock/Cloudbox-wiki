@@ -34,7 +34,7 @@ Padding (i.e. Season `01`, `02`, etc) is helpful for shows where you have more t
 ```
 Prefixed Range
 ```
-Not exactly the preferred Scene way (i.e. `Repeat`), but `Prefixed Range` works better if you have many more episodes in one file. An example would be a TV Special you downloaded that had all the webisodes in one file. It would be to have it named `S00E01-E10`, than `S01E01E02E03E04E05E06E07E08E09E10`. `Prefixed Range  is also the method Plex recommends. 
+Not exactly the preferred Scene way (i.e. `Repeat`), but `Prefixed Range` works better if you have many more episodes in one file (it is also the naming style Plex recommends). An example would be a TV Special you downloaded that had all the webisodes in one file. It would be to have it named `S00E01-E10`, than `S01E01E02E03E04E05E06E07E08E09E10`.
 
 
 ***
