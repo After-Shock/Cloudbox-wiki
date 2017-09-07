@@ -1,5 +1,3 @@
-# Prerequisites
-
 ## 1. Dedicated Server
 
 Get an Ubuntu 16.04 server from a hosting company (eg. Hetzner.de). This has been tested on an AMD64 / INTEL64 machine. ARM based servers (e.g. Digital Ocean, Scaleway) are not supported.
