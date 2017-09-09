@@ -2,7 +2,7 @@
 
 Run the following commands (one by one). Press `Y` when asked to confirm.
 ```bash
-sudo apt-get install python-pip
+sudo apt-get install -y python-pip
 sudo pip install ansible==2.3.1.0
 ```
 Note: Ansible v2.3.1.0 is the current stable version (v2.3.2.0 has a bug where docker_container state=stopped causes container to be removed).
