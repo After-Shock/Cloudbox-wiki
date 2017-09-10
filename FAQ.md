@@ -54,3 +54,7 @@
   1. Edit the Plex Autoscan config via `nano /opt/plex` and switch the ID numbers to match the Section IDs from Step 1.
 
   1. Restart Plex Autoscan: `sudo nano systemctl restart plex_autoscan`   
+
+## PlexPy logs location.
+
+  - If you are asked for the plex logs location, it is exactly `/logs`.

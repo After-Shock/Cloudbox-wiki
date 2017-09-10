@@ -20,7 +20,9 @@
 ---
 
 ## 1. Accessing Plex
+
 1. To access Plex, visit https://plex._yourdomain.com_
+
 2. Login with your Plex account
 
     ![](https://i.imgur.com/KMVu05O.png)
@@ -131,7 +133,7 @@
 
 ## 4. Adding Your First libraries
 
-In this section, we will add two libraries: one for Movies and one for TV. 
+In this section, we will add two libraries: one for Movies and one for TV.
 
    * Note: The order is important (i.e. Movies first, then TV); or else the config file for Plex Autoscan will need to be updated to reflect section ID changes (see [[FAQ|FAQ#if-during-the-first-time-setup-you-switched-the-order-of-plex-libraries-ie-tv-first-then-movies]]).
 

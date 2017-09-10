@@ -1,10 +1,32 @@
-1. Visit http://plexpy._yourdomain_.com
+1. To access PlexPy, visit http://plexpy._yourdomain_.com
 
-2. Sign in with your Plex.tv username and Password
+1. You will be presented with the PlexPy Setup Wizard. Click `Next`.
 
-3. Choose your plex server - direct address: (`plex` : `32400`)
+    ![ ](http://i.imgur.com/NhRj5jH.png)
 
-4. Go to `Settings` -> `Access Control` and set a username / password (to protect the interface from the public).
+1. On the Plex Authentication screen, sign in with your Plex.tv username and password, and click `Authenticate`. When you see the "Authentication successful." message, click `Next`.
 
-5. If you are asked for the plex logs location, it is exactly `/logs`.
+    ![](http://i.imgur.com/XFvHyV2.png)
 
+1. On the Plex Media Server screen, fill in `plex` for "Plex IP or Hostname" and `32400` for "Port Number". Click `Verfiy`. When you see the "Server found!" message, click `Next`.
+
+    ![](http://i.imgur.com/wnGDojV.png)
+
+1. On the Monitoring screen, select your preferences (default is OK; can be changed later) and click `Next`.
+
+    ![](http://i.imgur.com/ZSDv1T5.png)
+
+1. On the Notifications screen, select your preferences (default is OK; can be changed later) and click `Next`.
+
+    ![](http://i.imgur.com/uoP4bH1.png)
+
+1. On the Database Import screen, click `Finish` to complete the setup.
+
+    ![](http://i.imgur.com/jvPQ6pY.png)
+
+1. Once the PlexPy page comes up, go to `Settings` -> `Access Control`, set a "HTTP Username" and "HTTP Password", and click `Save`.
+
+    ![](http://i.imgur.com/eq7TKrp.png)
+
+
+    ![](http://i.imgur.com/adV4EiZ.png)
