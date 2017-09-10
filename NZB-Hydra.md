@@ -11,7 +11,7 @@
     1. Fill in your username and password.
     1. Click "Save" at the top right.
     
-    ![](http://i.imgur.com/lxJciRx.png)
+    ![](http://i.imgur.com/jsSwajH.png)
 
  1. Go to the "Indexers" tab and add your indexers. Be sure to click "Save" when done.
  1. Go to the "Main" tab and make note of the `API key`. This will be used later.
