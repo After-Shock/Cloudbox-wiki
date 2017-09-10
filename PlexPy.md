@@ -36,7 +36,7 @@
 
     ![](http://i.imgur.com/jK2EPXn.png)
 
-1. On the Restart screen, click "Restart".
+1. On the "Restart" screen, click "Restart".
 
     ![](http://i.imgur.com/2peJh7k.png)
 
