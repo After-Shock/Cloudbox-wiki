@@ -1,16 +1,16 @@
 In the default Cloudbox install, you have 2 Plex libraries (one for Movies and one for TV Shows). If you would like to have custom libraries in Plex, you may do so as long as the other libraries are located as a sub-directory within Movies (e.g. `Movies/Kids`, `Movies/4K`, `Movies/3D` etc). Below is a guide on how to do this.
 
 
-## Create folders in Google Drive
+## 1. Create folders in Google Drive
 
 
 Lets say you wanted to have a separate library for 3D, 4K, Hollwyood, and Foreign films. You would first have to create these folders in Google Drive. Since all media is located in the `Media/Movies` folder, you would need to create separate folders for all of these (e.g. `Media/Movies/3D`, `Media/Movies/4k`, `Media/Movies/Hollywood`, `Media/Movies/Kids`, and `Media/Movies/Foreign`). `Media/Movies` folder will contain nothing but these folders.
 
-## Adding Libraries to Plex
+## 2. Adding Libraries to Plex
 
 You will add each of these folders as libraries within Plex (see [[example|Plex#adding-the-movie-library]]). You may name it whatever you want. The folders will be located in the `/data` folder (e.g. `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movies/Hollywood`, `/data/Movies/Kids`, and `/data/Movies/Foreign`).
 
-## Retrieving Plex Library Section IDs
+## 3. Retrieving Plex Library Section IDs
 
 1. On the server's shell, run the following command:
 
@@ -33,7 +33,7 @@ You will add each of these folders as libraries within Plex (see [[example|Plex#
 
 
 
-## Modifying Plex Autoscan
+## 4. Modifying Plex Autoscan
 
 1. On the server's shell, run the following command:
 
@@ -77,7 +77,7 @@ You will add each of these folders as libraries within Plex (see [[example|Plex#
 1. Restart Plex Autoscan: `sudo systemctl restart plex_autoscan`
 
 
-## Modifying UnionFS Cleaner
+## 5. Modifying UnionFS Cleaner
 
 1. On the server's shell, run the following command:
 
