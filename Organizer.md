@@ -1,2 +1,2 @@
-tabs must be https://sonarr.odmain.com/
+tabs must be https://sonarr.domain.com/
 etc
