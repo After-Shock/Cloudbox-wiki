@@ -32,7 +32,7 @@
 
     ![](http://i.imgur.com/adV4EiZ.png)
 
-1. Click "Plex Media Player" on the left. Under "Plex Logs" - "Logs Folder", type in `/logs`. Now you can click `Save`.
+1. Click "Plex Media Server" on the left. Under "Plex Logs" - "Logs Folder", type in `/logs`. Now you can click `Save`.
 
     ![](http://i.imgur.com/jK2EPXn.png)
 
