@@ -25,7 +25,7 @@ Note: Ansible v2.3.1.0 is the current stable version (v2.3.2.0 has a bug where d
       ```bash
       sudo ansible-playbook cloudbox.yml --tag full
       ```
-4. When asked for a Plex Claim Token (not the same as a Plex login token; Plex Claim token starts with `claim_`), go to https://plex.tv/claim, login to your Plex account if required, copy the claim token, and paste it at the prompt. When you paste it, you will see nothing; this is normal. Just press enter to continue.
+4. When asked for a Plex Claim Token (not the same as a Plex login token - a Plex Claim Token starts with `claim_`), go to https://plex.tv/claim, login to your Plex account if required, copy the claim token, and paste it at the prompt. When you paste it, you will see nothing; this is normal. Just press enter to continue.
 
     ![Plex Claim Token](http://i.imgur.com/SkRnay2.png)
 
