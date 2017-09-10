@@ -32,7 +32,7 @@ Note: Ansible v2.3.1.0 is the current stable version (v2.3.2.0 has a bug where d
 
     ![Plex Claim Token Shown](http://i.imgur.com/ubnNg3I.png)
 
-    Note: If you make a mistake and submit an incorrect claim token, you may abort the install by pressing `Ctrl + C`, then `A`. You must then stop and remove the Plex container via `sudo docker rm -f plex` (it may show an error if it hasn't been created yet) and remove the Plex folder via `sudo rm -rf /opt/plex`. Then run the installation again (step #3).
+    Note: If you make a mistake in pasting the claim token, you may abort the install by pressing `Ctrl + C`, then `A`. You must then stop and remove the Plex container via `sudo docker rm -f plex` (it may show an error if it hasn't been created yet) and remove the Plex folder via `sudo rm -rf /opt/plex`. Then run the installation again (step #3).
 
 5. You must now reboot.
     ```bash
