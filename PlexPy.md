@@ -26,7 +26,7 @@
 
 1. Once the PlexPy page comes up, go to `Settings` -> `Access Control`, set a "HTTP Username" and "HTTP Password", and click `Save`.
 
-    ![](http://i.imgur.com/eq7TKrp.png)
+    ![](http://i.imgur.com/HUV857f.png)
 
 
     ![](http://i.imgur.com/adV4EiZ.png)
