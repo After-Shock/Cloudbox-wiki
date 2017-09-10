@@ -6,11 +6,13 @@ In the default Cloudbox install, you have 2 Plex libraries (one for Movies and o
 
 Lets say you wanted to have a separate library for 3D, 4K, Hollwyood, and Foreign films. You would first have to create these folders in Google Drive. Since all media is located in the `Media/Movies` folder, you would need to create separate folders for all of these. `Media/Movies` folder will contain nothing but these folders.
 
-In our example, we will crete the following folders: `Media/Movies/3D`, `Media/Movies/4k`, `Media/Movies/Hollywood`, `Media/Movies/Kids`, and `Media/Movies/Foreign`.
+In our example, we will create the following folders: `Media/Movies/3D`, `Media/Movies/4k`, `Media/Movies/Hollywood`, `Media/Movies/Kids`, and `Media/Movies/Foreign`.
 
 ## 2. Adding Libraries to Plex
 
-You will add each of these folders as libraries within Plex (see [[example|Plex#adding-the-movie-library]]). You may name it whatever you want. The folders will be located in the `/data` folder (e.g. `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movies/Hollywood`, `/data/Movies/Kids`, and `/data/Movies/Foreign`).
+You will add each of these folders as libraries within Plex (see [[example|Plex#adding-the-movie-library]]). You may name it whatever you want. The folders will be located in the `/data` folder.
+
+In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movies/Hollywood`, `/data/Movies/Kids`, and `/data/Movies/Foreign`.
 
 ## 3. Retrieving Plex Library Section IDs
 
