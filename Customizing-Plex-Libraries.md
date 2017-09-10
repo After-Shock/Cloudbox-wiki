@@ -1,4 +1,4 @@
-In the default Cloudbox install, you have 2 Plex libraries (one for Movies and one for TV Shows). If you would like to have custom libraries in Plex, you may do so as long as the other libraries are located as a sub-directory within Movies (e.g. `Movies/Kids`, `Movies/4K`, `Movies/3D` etc). Below is a guide on how to do this.
+In the default Cloudbox install, you have 2 Plex libraries (one for Movies and one for TV Shows). If you would like to have custom libraries in Plex, you may do so as long as the other libraries are located as a sub-directory within Movies (e.g. `Movies/Kids`, `Movies/4K`, `Movies/3D`, etc). Below is a guide on how to do this.
 
 
 ## 1. Create folders in Google Drive
