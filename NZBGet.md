@@ -6,4 +6,4 @@
     1. Select "Form Auth", then click "Save" and "Reload".
 1. Add your news servers.
 1. Download paths have already been specified, no need to change those.
-1. If you want to use scripts, place them in `/opt/scripts/nzb` - this is where NZBGet will load scripts from.
+1. If you want to use scripts, place them in `/opt/scripts/nzb` on your server, as this is where NZBGet will load scripts from.
