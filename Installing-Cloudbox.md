@@ -1,11 +1,11 @@
 ## 1. Install Ansible ###
 
-    Run the following command:
+Run the following command:
 
-    ```bash
-    sudo apt-get update && sudo apt-get install -y git && sudo apt-get install -y python-pip && sudo easy_install -U pip && sudo pip install ansible==2.3.1.0
+```bash
+sudo apt-get update && sudo apt-get install -y git && sudo apt-get install -y python-pip && sudo easy_install -U pip && sudo pip install ansible==2.3.1.0
+```
 
-    ```
 _Note: Ansible v2.3.1.0 is the current stable version (v2.3.2.0 has a bug where docker_container state=stopped causes container to be removed)._
 
 
