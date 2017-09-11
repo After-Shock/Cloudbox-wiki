@@ -1,7 +1,27 @@
 Updating cloudbox is not recommended, but it can be done. Steps are typically:
 
-Ensure you have a recent backup. git pull to receive the latest changes. If it says settings.yml has been modified, make a backup of that file, delete it, git pull, then replace the old settings.yml variables with your custom variables from your backed up settings.yml (do not just replace it, as this error typically indicates the default settings.yml has been modified, e.g. new variable).
+1. Ensure you have a recent [[backup | Backup & Restore]]. 
 
-After you are sure you have a backup, and the latest changes from github, your settings.yml updated with your old settings / setting any new settings, run the installer again, which should run through the install again, leaving your existing data (plex/sonarr/radarr etc) in tact.
 
-Always perform a reboot after an install run.
+2. Pull the latest changes:
+
+   ```bash
+   cd ~/cloudbox
+   git pull
+   ```
+
+3. If it says `settings.yml` has been modified, make a backup of that file, delete it, and git pull again. You will need to edit the [[settings.yml| Configuring Settings]] file and replace the default variables with your custom ones (do not just replace it settings.yml file with the backed up one, as this error typically indicates the default settings.yml has been modified, e.g. new variables have been added).
+
+4. You can now run Cloudbox installer. We advise you to use the `-e 'no_kernel=true'` to avoid updating the kernel again. Your existing data (e.g. Plex, Sonarr, Radarr, etc) will remain intact.
+
+   ```bash
+   sudo ansible-playbook cloudbox.yml --tags full -e 'no_kernel=true'
+   ```
+
+5. Reboot {_you should always perform a reboot after installing Cloudbox_).
+
+   ```bash
+   sudo reboot
+   ```
+
+
