@@ -13,8 +13,13 @@ In case you wanted to revoke the keys for some reason (eg switch to another doma
    /opt/scripts/nginx/revoke_certs.sh
    ```
 
-1. Before rerunning cloudbox with your new settings (eg domain name change), it is advised to remove all the docker containers before hand. _Note: Cloudbox install will try to remove them before installing. But still better to be safe. If you need to keep other non cloudbox containers, you may just remove the nginx container instead before rerunning Cloudbox._
+1. Before rerunning Cloudbox with your new settings (eg domain name change), it is advised to remove all the docker containers before hand. <sup id="a1">[1](#f1)</sup>
+
 
    ```bash
    docker rm -f $(docker ps -aq)
    ```
+
+
+
+ <b id="f1">1</b> Note: Cloudbox install will try to remove them before installing. But still better to be safe. If you need to keep other non cloudbox containers, you may just remove the nginx container instead before rerunning Cloudbox. [↩](#a1)
