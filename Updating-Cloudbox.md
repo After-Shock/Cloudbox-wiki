@@ -1,6 +1,6 @@
 Updating cloudbox is not recommended, but it can be done. Steps are typically:
 
-1. Ensure you have a recent [[backup | Backup & Restore]]. 
+1. Ensure you have a recent [[backup | Backup & Restore#Backup]]. 
 
 
 2. Pull the latest changes:
