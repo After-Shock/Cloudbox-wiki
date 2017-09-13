@@ -1,6 +1,7 @@
 **Note: Run each command line by line. Don't just paste it all at once.**
 
 ###  1. Create user account `seed` for Cloudbox and set the password for it ### 
+
 ```bash
 sudo useradd -m seed
 sudo usermod -aG sudo seed
