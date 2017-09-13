@@ -52,7 +52,7 @@ Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Acces
 
     ![](http://i.imgur.com/cRIo3lQ.png)
 
-    <a id="note1" href="#note1ref"><sup>1</sup></a> Although these folders are not meant to be changed, you can still separate content into multiple libraries by creating subfolders within the Movies and TV folders, see [[Customizing Plex Libraries]].
+    <a id="note1" href="#note1ref"><sup>1</sup></a> Although these folders are not meant to be changed, you can still separate content into multiple libraries by creating subfolders within the Movies and TV folders (see [[Customizing Plex Libraries]] for more info).
 
 ## 4. Plex.tv account
 
