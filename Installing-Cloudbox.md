@@ -13,7 +13,7 @@ _Note: Run each command one by one._
 ## 2. Running Cloudbox  ### 
 
 
-1. Go into cloudbox folder
+1. Go into the cloudbox folder (if not already there)
 
     ```bash
     cd ~/cloudbox
