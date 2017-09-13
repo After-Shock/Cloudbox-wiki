@@ -30,7 +30,7 @@ _Note: Run each command one by one._
 4. When asked for a Plex Claim Token (_not the same as a Plex login token - a Plex Claim Token starts with `CLAIM_`_), go to https://plex.tv/claim, login to your Plex account if required, copy the claim token, and paste it at the prompt. 
 
 
-    ![Plex Claim Token](https://i.imgur.com/jvzUsen.png)
+    ![Plex Claim Token](https://i.imgur.com/HZJ2Oqo.png)
 
 
 5. When you paste it, you will see nothing; this is normal. Just press enter to continue.
