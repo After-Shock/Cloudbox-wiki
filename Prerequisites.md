@@ -50,7 +50,11 @@ Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Acces
 
 * Media will be stored in `Media` folder in root, and `Movies` and `TV` folders within that. If you have media in other folders, simply move them into these folders via the Google Drive web app.<a href="#note1" id="note1ref"><sup>1</sup></a>
 
-    ![](http://i.imgur.com/cRIo3lQ.png)
+   ```
+   Media
+   ├── Movies
+   └── TV
+   ```
 
     <a id="note1" href="#note1ref"><sup>1</sup></a> Although these folders are not meant to be changed, you can still separate content into multiple libraries by creating subfolders within the Movies and TV folders (see [[Customizing Plex Libraries]] for more info).
 
