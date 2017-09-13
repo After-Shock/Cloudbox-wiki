@@ -49,7 +49,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 1. Under this section, you will need to add your section IDs and the library paths (as located in /Media folder in Google Drive). The format is `"SECTION_NUMBER": ["path"]`.
 
-  1. Note: Make sure the path is within quotes (`"/Movies/Kids"`) and there is a comma (`,`) after the close brackets (`]`) - all except the last one (see example below).
+   1. Note: Make sure the path is within quotes (`"/Movies/Kids"`) and there is a comma (`,`) after the close brackets (`]`) - all except the last one (see example below).
 
 1. After the changes, the section will now look similar to this:
 
@@ -93,7 +93,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 1. Change `"/mnt/local/Media/Movies": 1` to `"/mnt/local/Media/Movies": 2`
 
-  1. Note: Make sure there is a comma (`,`) at the end of all `"path": #` lines - all except the last one (see example below).
+   1. Note: Make sure there is a comma (`,`) at the end of all `"path": #` lines - all except the last one (see example below).
 
 1. After the changes, the section will now look similar to this:
 
