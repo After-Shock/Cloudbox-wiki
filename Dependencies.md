@@ -1,6 +1,8 @@
-**Note: Run each command line by line. Don't just paste it all at once.**
 
 ###  1. Creating the `seed` user account  ### 
+
+Run the following commands line by line (don't just paste it all at once):
+
 
 ```bash
 sudo useradd -m seed
