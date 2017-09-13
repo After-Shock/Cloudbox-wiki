@@ -5,7 +5,7 @@
 
 ### First Time Install ###
 1. [[Prerequisites]]
-1. [[Downloading Cloudbox]]
+1. [[Dependencies]]
 1. [[Configuring Settings]]
 1. [[Installing Cloudbox]]
 1. Application Setup
