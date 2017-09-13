@@ -18,5 +18,5 @@ sudo apt-get update && sudo apt-get install -y git
 cd ~
 git clone http://github.com/l3uddz/cloudbox
 cd cloudbox
-git checkout develop
+git checkout master
 ```
