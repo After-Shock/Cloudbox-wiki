@@ -4,7 +4,6 @@ _Note: Run each command one by one._
 
 
  ```bash
- sudo apt-get update && sudo apt-get install -y git
  cd ~
  git clone http://github.com/l3uddz/cloudbox
  cd cloudbox
