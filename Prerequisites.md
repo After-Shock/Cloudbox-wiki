@@ -52,7 +52,7 @@ Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Acces
 
     ![](http://i.imgur.com/cRIo3lQ.png)
 
-    <a id="note1" href="#note1ref"><sup>1</sup></a> Although these folders are not meant to be changed, you may have other subfolders within Movies and TV, but will require further editing of settings <link to unionfs_cleaner and plex_autoscan configs editing page>.
+    <a id="note1" href="#note1ref"><sup>1</sup></a> Although these folders are not meant to be changed, you may have other subfolders within the Movies and TV folders, see [[Customizing Plex Libraries]].
 
 ## 4. Plex.tv account
 
