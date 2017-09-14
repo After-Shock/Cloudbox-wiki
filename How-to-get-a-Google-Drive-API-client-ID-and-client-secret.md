@@ -37,16 +37,16 @@
 
 10. Click on "Create credentials".
 
-![](http://i.imgur.com/44Gpvql.png)
+    ![](http://i.imgur.com/44Gpvql.png)
 
 11. Select "OAuth Client ID" in the drop down list.
 
-![](http://i.imgur.com/tJARgt9.png)
+    ![](http://i.imgur.com/tJARgt9.png)
 
 12. For "Application Type", select "Other", type in any name, and click "Create".
 
-![](http://i.imgur.com/loyMW7v.png)
+    ![](http://i.imgur.com/loyMW7v.png)
 
 13. You will now be presented with the "client ID" and "client secret". 
 
-![](http://i.imgur.com/8g1wPdD.png)
+    ![](http://i.imgur.com/8g1wPdD.png)
