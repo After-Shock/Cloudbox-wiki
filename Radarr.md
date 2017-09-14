@@ -42,6 +42,8 @@
 
 1. Enable "Rename movies".
 
+1. Set your preferred naming format.
+
 1. Disable "Analyse video files".
 
 1. Disable "Use hardlinks instead of copy".
