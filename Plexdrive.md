@@ -12,7 +12,7 @@
 
    ![](http://i.imgur.com/bDTmXbT.png)
 
-1. Run the following commands:
+1. Run the following commands (one by one):
 
     ```bash
     sudo systemctl enable plexdrive
