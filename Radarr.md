@@ -1,7 +1,7 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
 
 1. [Accessing Radarr](#1-accessing-radarr)
-2. [General Settings](2-#general-settings)
+2. [General Settings](#2-general-settings)
 3. [Media Management](#3-media-management)
 4. [Download Clients](#4-download-clients)
 	- [NZBGet](#nzbget)
