@@ -12,7 +12,7 @@
     ![](http://i.imgur.com/qGnqJ1n.png)
 
 - `user`: User account for Cloudbox (will be created if it doesn't exist already). Default is `seed`.
-- `passwd`: Password for user account (only needed if user account is being created).
+- `passwd`: Password for user account (only needed if user account is being created). Alphanumeric characters only.
 - `domain`: _Your_ domain name. To be used to access your Cloudbox server. If you don't have one, see [[Prerequisites|Prerequisites#2-domain-name]].
 - `email`: _Your_ e-mail address. This is used to get SSL certificates.
   - Note: This requires a valid e-mail address or else the certificates will fail.
@@ -20,7 +20,7 @@
     - `downloads`: Path for NZBGet downloads. Default is `"/home/{{user}}/downloads/nzbget"`. 
 - `rutorrent`:
     - `passwd`: Password to be used for ruTorrent webgui
-      - Note: Password can be alpha or alphanumeric, but not only numeric and no special characters. 
+      - Note: Password can be in alpha or alphanumeric characters, but not only numeric, and no special characters. 
     - `downloads`: Path for ruTorrent downloads. Default is `"/home/{{user}}/downloads/rutorrent"`. 
 - `plex`:
   - `tag`: Options are `public` or `plexpass`. Default is `public`.
