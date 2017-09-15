@@ -4,6 +4,21 @@ It is recommended to assign all your disk space to `/`, as all of your imported 
 
 Downloads (i.e. NZBGet, ruTorrent) are stored in `~/downloads`, however, this can be changed to point to an extra disk by editing the [[setting.yml|Configuring-Settings]] file.
 
+Note: all folders are case sensitive. 
+
+## Google Drive Paths
+
+
+| Path                   | Purpose                                                                                                                                                            |
+|:---------------------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <pre>/Media</pre>     | <pre> Location of the `Movies` and `TV` folders   </pre>                                                                                                                         |
+| <pre>/Media/Movies</pre> | <pre> Location of all your movies. Each one within it's own folder. Preferably, in the format of `Movie Name (YEAR)` </pre>                                                                                                  |
+| <pre>/Media/TV</pre>   | <pre> Location of all your TV shows. Each one within it's own folder. Individual season folders within those. </pre> |
+
+Note: If you would like to have custom libraries in Plex, you may do so as long as the other libraries are located as a sub-directory within the `Movies` folder (or even the `TV` folder). For more on that, see [[Customizing Plex Libraries]].
+
+
+
 ## Local Paths
 
 ### Media
