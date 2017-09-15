@@ -1,8 +1,4 @@
 
-
-## 2. Running Cloudbox  ### 
-
-
 1. Go into the cloudbox folder (if not already there)
 
     ```bash
