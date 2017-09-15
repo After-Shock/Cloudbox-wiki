@@ -18,6 +18,6 @@ and push those to radarr for decision
 
 anyone who has experience with autodl
 will know what todo if u just tell them
-sonarr "$(TorrentName)" "$(TorrentUrl)" "$(TorrentSize)" "$(Tracker)"
+`sonarr "$(TorrentName)" "$(TorrentUrl)" "$(TorrentSize)" "$(Tracker)"`
 as args
 and /scripts/arrpush.sh
