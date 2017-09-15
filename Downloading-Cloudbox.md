@@ -33,5 +33,4 @@ _Note: Run each command one by one._
  ```bash
  cd ~
  git clone http://github.com/l3uddz/cloudbox
- cd cloudbox
  ```
