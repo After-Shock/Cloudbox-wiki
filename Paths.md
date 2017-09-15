@@ -16,8 +16,7 @@ Note: All folders/paths are **case sensitive**.
 | <pre>/Media/Movies</pre> | <pre> Location of all your movies. Each one within it's own folder. Preferably, in the format of `Movie Name (YEAR)` </pre>                                                                                                  |
 | <pre>/Media/TV</pre>   | <pre> Location of all your TV shows. Each one within it's own folder. Individual season folders within those. </pre> |
 
-_Note: If you would like to have custom libraries in Plex, you may do so as long as the other libraries are located as a sub-directory within the `Movies` folder (or even the `TV` folder). For more on that, see [[Customizing Plex Libraries]]._
-
+_Note: These folders are not meant to be changed. However, if you would like to separate content into multiple libraries in Plex, you may do so by creating sub-folders within the `Movies` and `TV` folders (see [[Customizing Plex Libraries]] for more info)._
 
 
 ## Local Paths
