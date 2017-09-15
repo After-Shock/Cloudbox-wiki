@@ -20,7 +20,7 @@
     - `downloads`: Path for NZBGet downloads. Default is `"/home/{{user}}/downloads/nzbget"`. 
 - `rutorrent`:
     - `passwd`: Password to be used for ruTorrent webgui
-      - Note: Password can be in alpha or alphanumeric characters, but not only numeric, and no special characters. 
+      - Note: Password can be in alpha or alphanumeric characters (but not only numeric ones). No special characters. 
     - `downloads`: Path for ruTorrent downloads. Default is `"/home/{{user}}/downloads/rutorrent"`. 
 - `plex`:
   - `tag`: Options are `public` or `plexpass`. Default is `public`.
