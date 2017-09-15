@@ -25,7 +25,7 @@ sudo apt-get update && sudo apt-get install -y git && sudo apt-get install -y py
 _Note: Ansible v2.3.1.0 is the current stable version (v2.3.2.0 has a bug where docker_container state=stopped causes container to be removed)._
 
 
-## 3. Downloading Cloudbox ## 
+### 3. Downloading Cloudbox ### 
 
 _Note: Run each command one by one._ 
 
