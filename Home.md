@@ -1,3 +1,5 @@
+_Last updated on: Sept 15, 2017_
+
 ### Basics ###
 1. [[Introduction]]
 1. [[Paths]]
