@@ -14,7 +14,9 @@ This will be used later by Sonarr/Radarr.
 
 ## Retrieving a Plex Access Token
 
-1. via Bookmarklet
+There are a few different ways to do this. Any of these will do. 
+
+1. Using a Bookmarklet
 
    1. Go to https://github.com/jacobwgillespie/plex-token-bookmarklet and simply drag the bookmarlet into bookmarks bar of your browser. 
 
@@ -25,6 +27,16 @@ This will be used later by Sonarr/Radarr.
           ```
 
     1.  Go to http://plex.tv/web and login. Click on the bookmarklet to obtain a Plex Access Token.
+
+1. Using a script (credit: https://github.com/wernight/docker-plex-media-server)
+
+   1. On the server's shell, run the following command:
+
+      ```bash
+      /opt/scripts/plex/plex_token.sh
+      ```
+   
+   1. You will be prompted to enter your Plex login and then presented with the  Plex Access Token (under `Your X_PLEX_TOKEN:`)
 
 
 ## Adding Plex Access Token into Plex Autoscan
