@@ -17,7 +17,7 @@ This will be used later by Sonarr/Radarr.
 1. Retrieving a Plex Access Token
 
     1. via Bookmarklet
-        1. Go to https://github.com/jacobwgillespie/plex-token-bookmarklet and simply drag the bookmarlet into your bookmarks bar of your browser. 
+        1. Go to https://github.com/jacobwgillespie/plex-token-bookmarklet and simply drag the bookmarlet into bookmarks bar of your browser. 
 
             -  You can also just manually create a bookmark and pasting in the following address:
 
