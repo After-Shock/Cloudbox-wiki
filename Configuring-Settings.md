@@ -42,7 +42,7 @@
 
   - `transcodes`: Path of temporary transcoding files. Default is `"/home/{{user}}/transcodes"`. 
 
-    - Note: **DO NOT** use /tmp or /dev/shm as a transcode location. On reboots, /tmp and /dev/shm is cleared and this causes docker to recreate the folder as root, causing the plex transcoder to crash. See this comment from a Plex employee: [https://forums.plex.tv/discussion/comment/1502936/#Comment_1502936](https://forums.plex.tv/discussion/comment/1502936/#Comment_1502936).
+    - Note: **DO NOT** use /tmp or /dev/shm as a transcode location. On reboots, /tmp and /dev/shm are cleared and this causes docker to recreate the folder as root, causing the plex transcoder to crash. See this comment from a Plex employee: [https://forums.plex.tv/discussion/comment/1502936/#Comment_1502936](https://forums.plex.tv/discussion/comment/1502936/#Comment_1502936).
 
 - `plex_autoscan`
 
