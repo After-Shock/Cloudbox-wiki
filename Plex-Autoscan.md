@@ -29,13 +29,13 @@ This will be used later by Sonarr/Radarr.
 
 1. Adding the Plex Access Token in to Plex Autoscan config.
 
- 1. On the server's shell, run the following command:
+   1. On the server's shell, run the following command:
 
-     ```
-     nano /opt/plex_autoscan/config/config.json
-     ```
- 1. Add the Plex Access Token to `"PLEX_TOKEN":` so that it now appears as `"PLEX_TOKEN": "xxxxxxxxxxxxxx",`.
+      ```
+      nano /opt/plex_autoscan/config/config.json
+      ```
+   1. Add the Plex Access Token to `"PLEX_TOKEN":` so that it now appears as `"PLEX_TOKEN": "xxxxxxxxxxxxxx",`.
 
-   1. Note: Make sure it is within the quotes (`"`) and there is a comma (`,`) after it.
+      - Note: Make sure it is within the quotes (`"`) and there is a comma (`,`) after it.
 
- 1. `ctrl-x` and `y` to save.
+   1. `ctrl-x` and `y` to save.
