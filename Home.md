@@ -41,3 +41,8 @@
 
 ### Community Chat ###
 - [Slack Channel](https://join.slack.com/t/cloud-box/shared_invite/MjM1NTI2OTEwMzIyLTE1MDQzOTAyNDAtYWNhOWY2NzNiZA)
+
+
+### To Do ###
+- install scenarios: migrate cloudbox to another server but keep same domain name, migrate cloudbox to another server and use another domain name, change domain name on current cloudbox server.
+- section for feeder and plex setups, with mini guides
