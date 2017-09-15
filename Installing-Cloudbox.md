@@ -9,7 +9,8 @@
 
 3. Run the following command, with the preferred option from #2 (`--tag "option"`). Quotes are not required.
 
-    Example of a full install:
+   - Example of a full install:
+     
       ```bash
       sudo ansible-playbook cloudbox.yml --tag full
       ```
