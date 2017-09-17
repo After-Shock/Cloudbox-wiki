@@ -7,7 +7,7 @@
     ```
 1. Copy the link you find here (which will look like `http://0.0.0.0:3468/PLEXAUTOSCANAPI`).
 
-1. Replace "0.0.0.0" with "plex._yourdomain.com_", so that the URL now looks like `http://plex._yourdomain.com_:3468/PLEXAUTOSCANAPI`.
+1. Replace "0.0.0.0" with "plex._yourdomain.com_", so that it now looks like `http://plex._yourdomain.com_:3468/PLEXAUTOSCANAPI`.
 
 1. This URL will be used later by [[Sonarr|Sonarr#7-plex-autoscan]]/[[Radarr|Radarr#7-plex-autoscan]].
 
