@@ -1,4 +1,4 @@
-1. Access NZBGet by going to https://nzbget._yourdomain.com_.
+1. To access NZBGet, visit https://nzbget._yourdomain.com_.
 
 1. Go to "Settings" -> "Security". 
     1. Set a "ControlUsername" and "ControlPassword", then set an "AddUsername" and "AddPassword" to protect API access. 
