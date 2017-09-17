@@ -134,7 +134,7 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
 1. Add a new "Webhook".
 
-1. For the "URL", paste in your [[Plex Autoscan URL|Plex-Autoscan#2-obtaining-the-plex-autoscan-url]].
+1. For the "URL", paste in your [[Plex Autoscan URL|Plex-Autoscan#1-obtaining-the-plex-autoscan-url]].
 
 1. "Method" will remain on `POST`.
 
