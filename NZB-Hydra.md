@@ -1,4 +1,4 @@
-1. Visit http://nzbhydra._yourdomain.com_
+1. To access NZB Hydra, visit http://nzbhydra._yourdomain.com_
 
 1. Go to "Config". 
 
