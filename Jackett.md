@@ -6,7 +6,7 @@
 
 1. Click "Add Indexer" to add your preferred indexers (i.e. torrent trackers). 
 
-1. When adding indexers into Sonarr/Radarr, you will need: 
+1. When adding indexers into [[Sonarr|Sonarr#jackett]]/[[Radarr|Radarr#jackett]], you will need: 
 
     1. To copy the indexer link by clicking on "Copy Torznab Feed" (for each indexer).
 
