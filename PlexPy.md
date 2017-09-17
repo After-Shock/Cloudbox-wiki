@@ -12,7 +12,7 @@
 
     ![](http://i.imgur.com/wnGDojV.png)
 
-1. On the Monitoring screen, select your preferences (default is OK; can be changed later) and click `Next`.
+1. On the Monitoring screen, select your preferences (default is OK and can be changed later) and click `Next`.
 
     ![](http://i.imgur.com/ZSDv1T5.png)
 
