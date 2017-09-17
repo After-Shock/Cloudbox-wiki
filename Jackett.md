@@ -8,7 +8,7 @@
 
 1. When adding indexers into [[Sonarr|Sonarr#jackett]]/[[Radarr|Radarr#jackett]], you will need: 
 
-    1. To copy the indexer link by clicking on "Copy Torznab Feed" (for each indexer).
+    1. To copy the indexer link by clicking on "Copy Torznab Feed"
 
     1. The "API Key" at the top. 
 
