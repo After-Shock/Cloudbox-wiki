@@ -1,7 +1,5 @@
 ## 1. Obtaining the Plex Autoscan URL
 
-This will be used later by Sonarr/Radarr.
-
 1. On the server's shell, run the following command:
 
     ```
@@ -11,6 +9,7 @@ This will be used later by Sonarr/Radarr.
 
 1. Replace "0.0.0.0" with "plex._yourdomain.com_" (i.e. http://plex._yourdomain.com_:3468/PLEXAUTOSCANAPI).
 
+1. This will be used later by [[Sonarr|Sonarr#7-plex-autoscan]]/[[Radarr|Radarr#7-plex-autoscan]].
 
 ## 2. Retrieving a Plex Access Token
 
