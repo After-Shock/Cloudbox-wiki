@@ -5,8 +5,8 @@
     ```bash
     /opt/plexdrive/plexdrive mount -v 3 --refresh-interval=1m --chunk-check-threads=8 --chunk-load-threads=8 --chunk-load-ahead=4 --max-chunks=250 --fuse-options=allow_other,read_only --config=/opt/plexdrive --cache-file=/opt/plexdrive/cache.bolt /mnt/plexdrive
     ```
-1. Paste in the "client id" and press `enter`.
-1. Paste in the "client secret" and press `enter`.
+1. When prompted for the "client id", paste in the Google API Client ID and press `enter`.
+1. When prompted for the "client secret", paste in the Google API Client secret and press `enter`.
 1. Copy the link on the screen  and paste it in your host computer's internet browser. Login with your Google account and click `Allow`, if asked. You will copy the `authorization code` from your browser, paste it at the prompt, and press `enter`.
 1. When you see `First cache build process started...`, press `ctrl`+`c` on your keyboard to exit.
 
