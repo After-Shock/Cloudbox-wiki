@@ -7,12 +7,12 @@
 
 2. Decide on what type of Cloudbox you want: `full`,`feeder`, or `plex` .
 
-3. Run the following command, with the preferred option from #2 (`--tag "option"`). Quotes are not required.
+3. Run the following command, with the preferred option from #2 (`--tags "option"`). Quotes are not required.
 
    - Example of a full install:
      
       ```bash
-      sudo ansible-playbook cloudbox.yml --tag full
+      sudo ansible-playbook cloudbox.yml --tags full
       ```
 4. When asked for a Plex Claim Token (_not the same as a Plex login token - a Plex Claim Token starts with `CLAIM_`_), go to https://plex.tv/claim, login to your Plex account if required, copy the claim token, and paste it at the prompt. When you paste it, you will see nothing; this is normal. Just press enter to continue.
 
