@@ -1,7 +1,7 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
 
 1. [Accessing Plex](#1-accessing-plex)
-2. [First Time Setup](#2-first-time-setup)
+2. [First Time Setup](#2-setup-wizard)
 3. [Settings](#3-settings)
 	- [Remote Access](#remote-access)
 	- [Library](#library)
@@ -27,7 +27,7 @@
 
     ![](https://i.imgur.com/KMVu05O.png)
 
-## 2. First Time Setup
+## 2. Setup Wizard
 
 1. When you first login, you will be shown a welcome screen. Click `GOT IT!` to continue.
 
