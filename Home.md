@@ -50,3 +50,4 @@ _Last updated on: September 19, 2017_
 - section for feeder and plex setups, with mini guides
 - Accessing Cloudbox Apps --> Cloudbox Apps. Add function.
 - Move Addons to Cloudbox Tools.
+- separate page on different cloudbox installs ?
