@@ -8,7 +8,7 @@
 
     ![](http://i.imgur.com/XFvHyV2.png)
 
-1. On the "Plex Media Server" screen, fill in `plex` for "Plex IP or Hostname" and `32400` for "Port Number". Click `Verfiy`. When you see the "Server found!" message, click `Next`.
+1. On the "Plex Media Server" screen, fill in `plex` for "Plex IP or Hostname" and `32400` for "Port Number". Click `Verify`. When you see the "Server found!" message, click `Next`.
 
     ![](http://i.imgur.com/wnGDojV.png)
 
