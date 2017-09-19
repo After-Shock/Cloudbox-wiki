@@ -1,4 +1,4 @@
-Note: Kernel needs to be updated, to a minimum of 4.10 generic, before Cloudbox can run.
+Note: Kernel needs to be updated, to a minimum of 4.10 generic, before Cloudbox install is run.
 
 1. Go into the cloudbox folder (if not already there)
 
