@@ -1,5 +1,5 @@
 
-1. Go into the cloudbox folder (if not already there)
+1. Go into the Cloudbox folder
 
     ```bash
     cd ~/cloudbox
