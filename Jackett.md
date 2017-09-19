@@ -1,12 +1,36 @@
-## Accessing Jackett
+## 1. Accessing Jackett
 
-1. To access Jackett, visit http://jackett._yourdomain.com_
+To access Jackett, visit http://jackett._yourdomain.com_
 
-## Setup
+## 2. Settings
 
-1. Type in a password for "Admin password:" and click "Set Password".
+   ![](https://i.imgur.com/oD2MEHk.png)
 
-1. Check "Disable auto update:" and click "Apply server settings". The page will now reload.  
+### Setting Admin password
+
+Under "Jackett Configuration": 
+
+1. Set "Admin password" to your preferred password.
+
+1. Click "Set Password".
+
+1. Jackett will now refresh and ask you to log in with your admin password.
+
+   ![](https://i.imgur.com/hRJr1Fh.png)
+
+### Disabling Auto Update
+
+Under "Jackett Configuration": 
+
+1. Check "Disable auto update"
+
+1. Click "Apply server settings". 
+
+1. The page will now reload.  
+
+## 3. Adding Indexers
+
+Under "Configured Indexers":
 
 1. Click "Add Indexer" to add your preferred indexers (i.e. torrent trackers). 
 
