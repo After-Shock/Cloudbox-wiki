@@ -1,6 +1,6 @@
 ## 1. Accessing NZBGet
 
-1. To access NZBGet, visit https://nzbget._yourdomain.com_.
+1. To access NZBGet, visit https://nzbget._yourdomain.com_
 
 ## 2. Setup
 
