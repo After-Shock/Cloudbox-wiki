@@ -12,7 +12,7 @@
 
 ## 2. Setup Wizard
 
-1. First time you log in, you will be presented with the "PlexPy Setup Wizard". Click `Next`.
+1. First time you go to the PlexPy page, you will be presented with the "PlexPy Setup Wizard". Click `Next`.
 
     ![ ](http://i.imgur.com/NhRj5jH.png)
 

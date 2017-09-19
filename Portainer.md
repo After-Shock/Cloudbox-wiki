@@ -1,6 +1,10 @@
+## 1. Accessing Portainer
+
 1. To access Portainer, visit  https://portainer._yourdomain.com_.
 
-1. You will be presented with the message "Please specify a password for the admin user account". Fill in your preferred admin password. Click `Validate`.
+## First Time Setup
+
+1. The first time you go to the Portainer page, you will be presented with the message "Please specify a password for the admin user account". Fill in your preferred admin password. Click `Validate`.
 
     ![ ](http://i.imgur.com/RpT4bm8.png)
 

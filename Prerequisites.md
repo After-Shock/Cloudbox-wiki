@@ -1,3 +1,15 @@
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:1 -->
+
+1. [Dedicated Server](#1-dedicated-server)
+2. [Domain Name](#2-domain-name)
+  	1. [Paid Domain Name (recommended)](#i-paid-domain-name-recommended)
+  	2. [Free Domain Name](#ii-free-domain-name)
+3. [Google Drive account ##](#3-google-drive-account-)
+4. [Plex.tv account](#4-plextv-account)
+
+<!-- /TOC -->
+
+
 ## 1. Dedicated Server
 
 Get an Ubuntu 16.04 server from a hosting company (eg. Hetzner.de). This has been tested on an AMD64 / INTEL64 machine. ARM based servers (e.g. Digital Ocean, Scaleway) are not supported.
@@ -11,7 +23,7 @@ Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Acces
 ### i. Paid Domain Name (recommended)
 1. Get a domain name from any domain name registry (eg. Namecheap.com, Godaddy.com)
 2. Set a wildcard DNS for `*` to your server IP.
-    
+
     |   **Type**   | **Host** | **Value**                   |     **TTL** |
     | ------------ | :--------: | ------------------------- | :-----------: |
     | A Record       | *        | _your server ip address_  |  Automatic  |

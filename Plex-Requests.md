@@ -14,7 +14,7 @@
 
 ## 2. Admin Account Setup
 
-1. First time you log in, you will be presented with the "Welcome to Plex Requests" screen. Click the orange-colored `admin page` link to be taken to the "Admin" page, then click the `Close` button.
+1. First time you go to the Plex Requests page, you will be presented with the "Welcome to Plex Requests" screen. Click the orange-colored `admin page` link to be taken to the "Admin" page, then click the `Close` button.
 
     ![](https://i.imgur.com/nU4LllT.png)
 
