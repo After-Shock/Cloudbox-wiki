@@ -9,6 +9,7 @@ _Last updated on: September 19, 2017_
 1. [[Prerequisites]]
 1. [[Downloading Cloudbox]]
 1. [[Configuring Settings]]
+1. [[Updating Kernel]]
 1. [[Installing Cloudbox]]
 1. Application Setup
     1. [[Rclone]]
