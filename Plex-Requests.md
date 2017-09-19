@@ -1,6 +1,20 @@
+
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:1 -->
+
+	1. [Accessing Plex Requests](#1-accessing-plex-requests)
+	2. [Admin Account Setup](#2-admin-account-setup)
+	3. [Settings](#3-settings)
+
+<!-- /TOC -->
+
+## 1. Accessing Plex Requests
+
 1. To access Plex Requests, visit http://plexrequests._yourdomain_.com
 
-1. You will be presented with the "Welcome to Plex Requests" screen. Click the orange-colored `admin page` link to be taken to the "Admin" page, then click the `Close` button.
+
+## 2. Admin Account Setup
+
+1. First time you log in, you will be presented with the "Welcome to Plex Requests" screen. Click the orange-colored `admin page` link to be taken to the "Admin" page, then click the `Close` button.
 
     ![](https://i.imgur.com/nU4LllT.png)
 
@@ -11,6 +25,8 @@
 1. You will now see "Create an Account" prompt. Fill in your preferred `Email` and `Password` and click the `Register` button. This will be the Admin account for Plex Requests.
 
     ![](https://i.imgur.com/2axV0sW.png)
+
+## 3. Settings
 
 1. You will now be taken to the "General" settings page. You may select whatever options you like here. Click `Update Settings` to save changes.
 
@@ -74,5 +90,3 @@
     ![](https://i.imgur.com/7I0r5E7.png)
 
 1. Click `Sign Out` to exit Settings.
-
-1. Plex Requests is now setup.

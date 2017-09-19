@@ -29,7 +29,7 @@
 
 ## 2. Setup Wizard
 
-1. When you first login, you will be shown a welcome screen. Click `GOT IT!` to continue.
+1. First time you log in, you will be presented with a welcome screen. Click `GOT IT!` to continue.
 
     ![](https://i.imgur.com/CTG955C.png)
 

@@ -1,6 +1,18 @@
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:1 -->
+
+1. [Accessing PlexPy](#1-accessing-plexpy)
+2. [Setup Wizard](#2-setup-wizard)
+3. [Settings](#3-settings)
+
+<!-- /TOC -->
+
+## 1. Accessing PlexPy
+
 1. To access PlexPy, visit http://plexpy._yourdomain_.com
 
-1. You will be presented with the "PlexPy Setup Wizard". Click `Next`.
+## 2. Setup Wizard
+
+1. First time you log in, you will be presented with the "PlexPy Setup Wizard". Click `Next`.
 
     ![ ](http://i.imgur.com/NhRj5jH.png)
 
@@ -24,6 +36,8 @@
 
     ![](http://i.imgur.com/jvPQ6pY.png)
 
+## 3. Settings
+
 1. Once the PlexPy page comes up, go to "Settings".
 
     ![](http://i.imgur.com/HUV857f.png)
@@ -39,5 +53,3 @@
 1. On the "Restart" screen, click `Restart`.
 
     ![](http://i.imgur.com/2peJh7k.png)
-
-1. PlexPy is now setup.
