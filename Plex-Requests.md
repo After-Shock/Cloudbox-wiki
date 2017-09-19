@@ -1,9 +1,9 @@
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:1 -->
 
-	1. [Accessing Plex Requests](#1-accessing-plex-requests)
-	2. [Admin Account Setup](#2-admin-account-setup)
-	3. [Settings](#3-settings)
+1. [Accessing Plex Requests](#1-accessing-plex-requests)
+2. [Admin Account Setup](#2-admin-account-setup)
+3. [Settings](#3-settings)
 
 <!-- /TOC -->
 
