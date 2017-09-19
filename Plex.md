@@ -45,7 +45,7 @@
 
     ![](https://i.imgur.com/uRr3o61.png)
 
-<sup id="a1">[test](#f1)</sup>
+<sup name="a1">[test](#f1)</sup>
 
 ## 3. Settings
 
@@ -212,4 +212,4 @@ If you would like to have custom Plex libraries (more than just a Movies and TV 
 * Webtools for Plex comes preinstalled. If you wish to setup Webtools and install 3rd party add-ons, you can go to https://plex._yourdomain.com_:33400 and login with your Plex account.
 
 
-<sup id="f1">[test](#a1)</sup>
+<sup name="f1">[test](#a1)</sup>
