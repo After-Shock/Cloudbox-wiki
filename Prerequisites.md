@@ -2,10 +2,8 @@
 
 1. [Dedicated Server](#1-dedicated-server)
 2. [Domain Name](#2-domain-name)
-  	1. [Paid Domain Name (recommended)](#i-paid-domain-name-recommended)
-  	2. [Free Domain Name](#ii-free-domain-name)
-3. [Google Drive account ##](#3-google-drive-account-)
-4. [Plex.tv account](#4-plextv-account)
+3. [Google Drive Account](#3-google-drive-account)
+4. [Plex Account](#4-plex-account)
 
 <!-- /TOC -->
 
@@ -56,7 +54,7 @@ Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Acces
 
 4. Save Changes.
 
-## 3. Google Drive account ##
+## 3. Google Drive Account
 
 * Cloudbox stores the media unencrypted in Google Drive and utilizes Plexdrive to access it, so if your using Amazon or prefer encryption, look elsewhere. We recommend creating a [G-Suite Business](gsuite.google.com/pricing.html) account for larger storage space.
 
@@ -70,6 +68,6 @@ Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Acces
 
    <sub> <a id="note1" href="#note1ref"><sup>1</sup></a> Although these folders are not meant to be changed, you can still separate content into multiple libraries by creating subfolders within the `Movies` and `TV` folders (see [[Customizing Plex Libraries]] for more info). </sub>
 
-## 4. Plex.tv account
+## 4. Plex Account
 
 * You'll need a Plex account (it's free). If you don't already have one, please visit http://www.plex.tv and create one.
