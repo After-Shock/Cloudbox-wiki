@@ -8,7 +8,7 @@ Note: This is not required if you are simply migrating Cloudbox to another serve
    /opt/scripts/nginx/revoke_certs.sh
    ```
 
-1. Before rerunning Cloudbox with your new settings (e.g. domain name changes), it is advised to remove all the docker containers before hand. <sup id="a1">[1](#f1)</sup>
+1. Before rerunning Cloudbox with your new settings (e.g. domain name changes), it is advised to remove all the docker containers before hand. <sup id="a1">[1](#f1)</sup><sup id="a2">[2](#f2)</sup>
 
 
    ```bash
@@ -18,4 +18,5 @@ Note: This is not required if you are simply migrating Cloudbox to another serve
 
 
 
-<sup><b id="f1">1</b> Cloudbox install will try to remove all the docker containers before installing, but it's still better to be safe by removing them manually before hand. If you need to keep other non-cloudbox containers, you may just remove the nginx container, instead, before rerunning Cloudbox. [↩](#a1)</sup>
+<sup><b id="f1">1</b> Cloudbox install will try to remove all the docker containers before installing, but it's still better to be safe by removing them manually before hand. [↩](#a1)</sup>
+<sup><b id="f2">2</b> If you need to keep other non-cloudbox containers, you may just remove the nginx container, instead, before rerunning Cloudbox. [↩](#a2)</sup>
