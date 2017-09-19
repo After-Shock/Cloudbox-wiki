@@ -36,7 +36,7 @@ _Last updated on: September 19, 2017_
 - [[How to get a Google Drive API client ID and client secret]]
 - [[Docker Tips & Shortcuts]]
 - [[Addons]]
-- [[Revoking SSL Keys]]
+- [[Revoking SSL Certificates]]
 
 ### Troubleshooting ###
 - [[FAQ]]
