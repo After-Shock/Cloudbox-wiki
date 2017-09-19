@@ -1,8 +1,8 @@
-## Accessing NZB Hydra
+## 1. Accessing NZB Hydra
 
 1. To access NZB Hydra, visit http://nzbhydra._yourdomain.com_
 
-## Setup
+## 2. Setup
 
 1. Go to "Config". 
 
