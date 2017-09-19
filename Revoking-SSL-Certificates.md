@@ -1,4 +1,4 @@
-In case you wanted to revoke the SSL certification keys for some reason (eg switch to another domain name), here are the commands to do so. Run these as user (not sudo).
+In case you wanted to revoke the SSL certificates for some reason (eg switch to another domain name), here are the commands to do so. Run these as user (not sudo).
 
 Note: This is not required if you are simply migrating Cloudbox to another server via [[backup and restore | Backup & Restore]] and intend to use the same domain name (update your [[ domain name DNS settings | Prerequisites]], if required).
 
