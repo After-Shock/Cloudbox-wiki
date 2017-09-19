@@ -48,3 +48,5 @@ _Last updated on: September 19, 2017_
 ### To Do ###
 - install scenarios: migrate cloudbox to another server but keep same domain name, migrate cloudbox to another server and use another domain name, change domain name on current cloudbox server.
 - section for feeder and plex setups, with mini guides
+- Accessing Cloudbox Apps --> Cloudbox Apps. Add function.
+- Move Addons to Cloudbox Tools.
