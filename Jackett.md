@@ -1,4 +1,8 @@
-1. Visit http://jackett._yourdomain.com_
+## Accessing Jackett
+
+1. To access Jackett, visit http://jackett._yourdomain.com_
+
+## Setup
 
 1. Type in a password for "Admin password:" and click "Set Password".
 
