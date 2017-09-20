@@ -58,17 +58,12 @@
     | PlexPy        | https://plexpy.yourdomain.com       | images/plexpy.png             |   Y    |  Y   |   N   |     N     |    N    |
     | Plex Requests | https://plexrequests.yourdomain.com | images/plexrequests.png       |   Y    |  Y   |   N   |     N     |    N    |
 
-  - Note: If Sonarr or Radarr are lagging too much, you may set it to a specific page in each.
-
-    For example:
-
-    + Sonarr: https://sonarr.yourdomain.com/calendar
-
-    + Radarr: https://radarr.yourdomain.com/activity/history
-
-  - Example:
 
     ![Tab Settings](https://i.imgur.com/UgVZrAN.png)
+
+
+  - Note: If Sonarr or Radarr are lagging too much, you may set it to a specific page in each. (e.g. Sonarr: https://sonarr.yourdomain.com/calendar ; Radarr: https://radarr.yourdomain.com/activity/history)
+
 
 ### Homepage
 
