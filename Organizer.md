@@ -111,4 +111,4 @@
 
     - Click "SAVE".
 
-    ![  ](https://i.imgur.com/7CEH9Ir.png)
+    ![  ](https://i.imgur.com/57PkVbv.png)
