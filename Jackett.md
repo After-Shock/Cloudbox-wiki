@@ -3,8 +3,9 @@
 To access Jackett, visit http://jackett._yourdomain.com_
 
 ## 2. Settings
+  
+ ![](https://i.imgur.com/CAHMsfH.png)
 
-   ![](https://i.imgur.com/oD2MEHk.png)
 
 ### Setting Admin password
 
@@ -29,6 +30,9 @@ Under "Jackett Configuration":
 1. Click "Apply server settings". 
 
 1. The page will now reload.  
+
+
+
 
 ## 3. Adding Indexers
 
