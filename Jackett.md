@@ -22,7 +22,9 @@ Under "Jackett Configuration":
 
 Under "Jackett Configuration": 
 
-1. Check "Disable auto update"
+1. Check "Disable auto update".
+
+1. Check "External access".
 
 1. Click "Apply server settings". 
 
