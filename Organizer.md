@@ -25,11 +25,11 @@
 
     ![Edit Tabs 1](https://i.imgur.com/f8ozDau.png)
 
-    ![Edit Tabs 2](https://i.imgur.com/j8g6l2a.png)
+    ![Edit Tabs 2](https://i.imgur.com/ZR5p6WF.png)
 
 1. Click "+ New Tab". You will be prompted for information regarding the tab.
 
-    ![](https://i.imgur.com/bmLJl1D.png)
+    ![](https://i.imgur.com/mSPEngl.png)
 
 1. You will need to create multiple tabs with the information below. Once you are done adding them, click "SAVE TABS".
 
@@ -57,7 +57,7 @@
 
   - Example:
 
-    ![Tab Settings](https://i.imgur.com/fBLYngY.png)
+    ![Tab Settings](https://i.imgur.com/UgVZrAN.png)
 
 ### Homepage
 
@@ -67,42 +67,42 @@
 
 1. Click the Plex icon at the top.
 
-  - Set "Plex URL": `http://plex:32400`
+    - Set "Plex URL": `http://plex:32400`
 
-  - Click "GET PLEX TOKEN", fill in your Plex login, and click "Get PLEX Token".
+    - Click "GET PLEX TOKEN", fill in your Plex login, and click "Get PLEX Token".
 
-  - Set your preferred options below.
+    - Set your preferred options below.
 
-  - Click "SAVE".
+    - Click "SAVE".
 
-  ![  ](https://i.imgur.com/l5NPFv5.png)
+    ![  ](https://i.imgur.com/v6EdCLt.png)
 
 1. Click the Sonarr icon at the top.
 
-  - Set "Sonarr URL": `http://sonarr:8080`
+    - Set "Sonarr URL": `http://sonarr:8080`
 
-  - Set "Sonarr API Key": _Your Sonarr API Key_ (you can find this at [[Sonarr|Sonarr#1-accessing-sonarr]] --> Settings --> General)
+    - Set "Sonarr API Key": _Your Sonarr API Key_ (you can find this at [[Sonarr|Sonarr#1-accessing-sonarr]] --> Settings --> General)
 
-  - Click "SAVE".
+    - Click "SAVE".
 
-  ![  ](https://i.imgur.com/jpAISjf.png)
+    ![  ](https://i.imgur.com/CFUtiTz.png)
 
 1. Click the Radarr icon at the top.
 
-  - Set "Radarr URL": `http://radarr:8080`
+    - Set "Radarr URL": `http://radarr:8080`
 
-  - Set "Radarr API Key": _Your Radarr API Key_ (you can find this at [[Radarr|Radarr#1-accessing-radarr]] --> Settings --> General)
+    - Set "Radarr API Key": _Your Radarr API Key_ (you can find this at [[Radarr|Radarr#1-accessing-radarr]] --> Settings --> General)
 
-  - Click "SAVE".
+    - Click "SAVE".
 
-  ![  ](https://i.imgur.com/PNgRck4.png)
+    ![  ](https://i.imgur.com/5huf18e.png)
 
 1. Click the NZBGet icon at the top.
 
-  - Set "NZBGet URL": `http://nzbget:6789`
+    - Set "NZBGet URL": `http://nzbget:6789`
 
-  - For "Username" / "Password": fill in your NZBGet login (see [[NZBGet|NZBGet#2-setup]])
+    - For "Username" / "Password": fill in your NZBGet login (see [[NZBGet|NZBGet#2-setup]])
 
-  - Click "SAVE".
+    - Click "SAVE".
 
-  ![  ](https://i.imgur.com/ekiBNmd.png)
+    ![  ](https://i.imgur.com/7CEH9Ir.png)
