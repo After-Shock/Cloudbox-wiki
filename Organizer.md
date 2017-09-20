@@ -1,3 +1,14 @@
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:1 -->
+
+1. [Accessing Organizr](#1-accessing-organizr)
+2. [Initial Setup](#2-initial-setup)
+3. [Settings](#3-settings)
+	- [Tabs](#tabs)
+	- [Homepage](#homepage)
+
+<!-- /TOC -->
+
+
 ## 1. Accessing Organizr
 
 1. To access Organizr, visit http://organizr._yourdomain_.com
