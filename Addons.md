@@ -27,3 +27,7 @@ tree is installed to visualize directories and files.
 speedtest-cli is installed to perform quick speedtests (not always accurate)
 
 certbot is also installed, as its required by the revoke_certs script.
+
+ncdu will show you your drive usage (e.g. ```cd / && sudo ncdu -x```)
+
+hostess can be used host modification via cli
