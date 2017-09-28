@@ -4,7 +4,7 @@ It is recommended to assign all your disk space to `/`, as all of your imported 
 
 Downloads (i.e. NZBGet, ruTorrent) are stored in `~/downloads`, however, this can be changed to point to an extra disk by editing the [[setting.yml|Configuring-Settings]] file.
 
-Note: All folders/paths are **case sensitive** (e.g. `Media` and not `media, `Movies` and `TV` and not `movies` and `tv`, etc)
+Note: All folders/paths are **case sensitive** (e.g. `Media` and not `media`, `Movies` and `TV` and not `movies` and `tv`, etc)
 
 
 ## Google Drive Paths
