@@ -98,7 +98,7 @@
 
    1. Enable Search: _your preference_
 
-   1. URL: `nzbhydra:8080`
+   1. URL: `http://nzbhydra:8080`
 
    1. API Key: NZB Hydra API Key (see [[NZB Hydra]]).
 
@@ -107,6 +107,8 @@
     ![Radarr NZB Hydra](http://i.imgur.com/6wMQNRV.png)
 
 1. Click "Save" to add NZB Hydra.
+
+Note: The `Test` will keep failing until you add an indexer in [[NZB Hydra]].
 
 ### Jackett
 
