@@ -121,12 +121,31 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
 1. Click "Settings" -> "Connect".
 
-1. Add a new "Custom Script", and ensure the settings are the same as below.
+1. Add a new "Custom Script".
+
+1. Add the following:
+
+   1. Name: Torrent Cleanup
+
+   1. On Grab: `No`
+
+   1. On Download: `Yes`
+
+   1. On Upgrade:  `Yes`
+
+   1. On Rename:`No`
+
+   1. Path: `/scripts/torrent/TorrentCleanup.py`
+
+   1. Arguments:`sonarr`
+
+
+1. The settings will look like this:
 
     ![Sonarr Torrent Cleanup Script CloudBox](http://i.imgur.com/nNkMLdB.png)
 
 
-1. Click "Save" to add the script.
+1. Click "Save" to add the Torrent Cleanup script.
 
 
 ## 7. Plex Autoscan
@@ -135,9 +154,22 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
 1. Add a new "Webhook".
 
-1. For the "URL", paste in your [[Plex Autoscan URL|Plex-Autoscan#1-obtaining-the-plex-autoscan-url]].
+1. Add the following:
 
-1. "Method" will remain on `POST`.
+   1. Name: Plex Autoscan
+
+   1. On Grab: `No`
+
+   1. On Download: `Yes`
+
+   1. On Upgrade:  `Yes`
+
+   1. On Rename:`No`
+
+   1. URL: [[Plex Autoscan URL|Plex-Autoscan#1-obtaining-the-plex-autoscan-url]]
+
+   1. Method:`POST`
+
 
 1. The settings will look like this:
 
