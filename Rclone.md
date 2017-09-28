@@ -6,7 +6,7 @@
 
 1. Type `google` as the name (_lowercase_) and press `enter`.
 
-1. Type the number corresponding to "Google Drive" and press `enter`. 
+1. Type the number corresponding for "Google Drive" and press `enter`. 
 
 1. Get a Google API "Client ID" and "Client Secret" (see [[How to get a Google Drive API Client ID and Client Secret]]).
 
