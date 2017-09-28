@@ -1,6 +1,6 @@
 ## 1. Accessing Jackett
 
-To access Jackett, visit http://jackett._yourdomain.com_
+ - To access Jackett, visit http://jackett._yourdomain.com_
 
 ## 2. Settings
   
