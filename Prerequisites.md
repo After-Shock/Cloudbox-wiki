@@ -58,7 +58,7 @@ Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Acces
 
 * Cloudbox stores the media unencrypted in Google Drive and utilizes Plexdrive to access it, so if your using Amazon or prefer encryption, look elsewhere. We recommend creating a [G-Suite Business](https://gsuite.google.com/pricing.html) account for larger storage space.
 
-* Media will be stored in `Movies` and `TV` folders, all within a `Media` folder in root (i.e. `/Media`).<a href="#note1" id="note1ref"><sup>1</sup></a> Note: these paths/folders are **case sensitive** (see  [[Paths|Paths#google-drive-paths]]). If you have media in other folders, simply move them into these folders via  Google Drive's web app. 
+* Media will be stored in `Movies` and `TV` folders, all within a `Media` folder in root (i.e. `/Media`).<a href="#note1" id="note1ref"><sup>1</sup></a> Note: these paths/folders are **case sensitive** (see  [[Paths]]). If you have media in other folders, simply move them into these folders via  Google Drive's web app. 
 
    ```
    Media
