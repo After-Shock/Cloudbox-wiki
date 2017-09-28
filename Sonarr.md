@@ -61,7 +61,27 @@
 ### NZBGet
 
 1. Add a new "NZBGet" download client.
-1. Use `nzbget` as "Host", `6789` for "Port", and `sonarr` (lowercase) for "Category". Replacing the "Username" and "Password" with the one you set in [[Configuring Settings]].
+
+1. Add the following:
+
+   1. Name: `NZBGet`
+
+   1. Enable: `Yes`
+
+   1. Host: `nzbget`
+
+   1. Port: `6789`
+
+   1. Username: NZBGet username (see [[NZBGet]])
+
+   1. Password: NZBGet password (see [[NZBGet]])
+
+   1. Category: `sonarr`
+
+   1. Use SSL: `No`
+
+   1. Add Paused: `No`
+
 1. Your settings will now look like this:
 
     ![Sonarr NZBGet Downloader](http://i.imgur.com/EhOFFxK.png)
@@ -72,7 +92,29 @@
 ### ruTorrent
 
 1. Add a new "rTorrent" download client.
-1. Use `rutorrent` as "Host", `80` for "Port", and `sonarr` for "Category". Replacing the "Username" and "Password" with your own.
+
+1. Add the following:
+
+   1. Name: `ruTorrent`
+
+   1. Enable: `Yes`
+
+   1. Host: `rutorrent`
+
+   1. Port: `80`
+
+   1. URL Path: `RPC2`
+
+   1. Use SSL: `No`
+
+   1. Username: ruTorrent username (see [[Configuring Settings]])
+
+   1. Password: ruTorrent password (see [[Configuring Settings]])
+
+   1. Category: `sonarr`
+
+   1. Directory: leave blank
+
 1. Your settings will look like this:
 
     ![Sonarr ruTorrent Downloader](http://i.imgur.com/kE701JT.png)
@@ -93,11 +135,11 @@
 
 1. Add the following:
 
-   1. Name: NZB Hydra
+   1. Name: `NZB Hydra`
 
-   1. Enable RSS Sync: _your preference_
+   1. Enable RSS Sync: your preference
 
-   1. Enable Search: _your preference_
+   1. Enable Search: your preference
 
    1. URL: `http://nzbhydra:8080`
 
@@ -109,7 +151,7 @@
 
 1. Click "Save" to add NZB Hydra.
 
-Note: The `Test` will keep failing until you add an indexer in [[NZB Hydra]].
+Note: The "Test" will keep failing until you add an indexer in [[NZB Hydra]].
 
 ### Jackett
 
@@ -125,9 +167,9 @@ Note: Each Indexer will need to be added separately.
 
    1. Name: Indexer Name
 
-   1. Enable RSS Sync: _your preference_
+   1. Enable RSS Sync: your preference
 
-   1. Enable Search: _your preference_
+   1. Enable Search: your preference
 
    1. URL: Indexer's Torznab Feed (see [[Jackett|Jackett#3-adding-indexers-to-sonarrradarr]])
 
@@ -152,7 +194,7 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
 1. Add the following:
 
-   1. Name: Torrent Cleanup
+   1. Name: `Torrent Cleanup`
 
    1. On Grab: `No`
 
@@ -183,7 +225,7 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
 1. Add the following:
 
-   1. Name: Plex Autoscan
+   1. Name: `Plex Autoscan`
 
    1. On Grab: `No`
 
@@ -206,6 +248,7 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 1. Click "Save" to add Plex Autoscan.
 
 ## 8. Adding the TV Path
+
 1. When you are ready to add your first show to Sonarr, click the "Path" drop-down and select "Add a different path".
 
 1. Click the blue "Browse" button, select `tv`, scroll to the bottom and select "OK".
