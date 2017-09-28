@@ -2,7 +2,7 @@
 
 1. Run the command: `rclone config`. 
 1. Select `n` to add a new remote. 
-1. Type `google` as the name and press `enter`.
+1. Type `google` (lowercase) as the name and press `enter`.
 1. Type the number corresponding to Google Drive and press `enter`. 
 1. Get a Google API "client ID" and "client secret" (see [[How to get a Google Drive API client ID and client secret]]).
 1. Paste in the "client id" and press `enter`.
