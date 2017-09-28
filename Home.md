@@ -33,7 +33,7 @@ _Last updated on: September 27, 2017_
 - [[UnionFS Cleaner]]
 - [[Updating Cloudbox]]
 - [[Backup & Restore]]
-- [[How to get a Google Drive API client ID and client secret]]
+- [[How to get a Google Drive API Client ID and Client Secret]]
 - [[Docker Tips & Shortcuts]]
 - [[Addons]]
 - [[Revoking SSL Certificates]]
