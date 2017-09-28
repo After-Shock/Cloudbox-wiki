@@ -5,11 +5,13 @@
     ```
     cat /opt/plex_autoscan/*.log | grep http
     ```
-1. Copy the link you find here (which will look like `http://0.0.0.0:3468/PLEXAUTOSCANAPI`).
+1. Find the link that looks like `http://0.0.0.0:3468/PLEXAUTOSCANAPI`and replace "0.0.0.0" with "your server IP address", so that it now looks like:
 
-1. Replace "0.0.0.0" with "your server IP address", so that it now looks like `http://yourserveripaddress:3468/PLEXAUTOSCANAPI`.
+    ```
+   http://yourserveripaddress:3468/PLEXAUTOSCANAPI
+   ```
 
-1. This URL will be used later by [[Sonarr|Sonarr#7-plex-autoscan]]/[[Radarr|Radarr#7-plex-autoscan]].
+1. This is your Plex Autoscan URL and it will be used later by [[Sonarr|Sonarr#7-plex-autoscan]] and [[Radarr|Radarr#7-plex-autoscan]].
 
 ## 2. Retrieving a Plex Access Token
 
