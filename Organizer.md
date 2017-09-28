@@ -11,7 +11,7 @@
 
 ## 1. Accessing Organizr
 
-1. To access Organizr, visit http://organizr._yourdomain_.com
+- To access Organizr, visit http://organizr._yourdomain_.com
 
 ## 2. Initial Setup
 
