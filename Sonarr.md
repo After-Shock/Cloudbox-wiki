@@ -64,7 +64,7 @@
 
 1. Add the following:
 
-   1. Name: `NZBGet`
+   1. Name: NZBGet
 
    1. Enable: `Yes`
 
@@ -95,7 +95,7 @@
 
 1. Add the following:
 
-   1. Name: `ruTorrent`
+   1. Name: ruTorrent
 
    1. Enable: `Yes`
 
@@ -135,7 +135,7 @@
 
 1. Add the following:
 
-   1. Name: `NZB Hydra`
+   1. Name: NZB Hydra
 
    1. Enable RSS Sync: your preference
 
@@ -194,7 +194,7 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
 1. Add the following:
 
-   1. Name: `Torrent Cleanup`
+   1. Name: Torrent Cleanup
 
    1. On Grab: `No`
 
@@ -225,7 +225,7 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
 1. Add the following:
 
-   1. Name: `Plex Autoscan`
+   1. Name: Plex Autoscan
 
    1. On Grab: `No`
 
