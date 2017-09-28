@@ -9,7 +9,7 @@
     ```
 1. When prompted for the "client id", paste in the Google API Client ID and press `enter`.
 1. When prompted for the "client secret", paste in the Google API Client secret and press `enter`.
-1. Copy the link on the screen  and paste it in your host computer's internet browser. Login with your Google account and click `Allow`, if asked. You will copy the `authorization code` from your browser, paste it at the prompt, and press `enter`.
+1. Copy the link on the screen  and paste it in your host computer's internet browser. Login with your Google account, if asked, and click `Allow`. You will copy the `authorization code` from your browser, paste it at the prompt, and press `enter`.
 1. When you see `First cache build process started...`, press `ctrl`+`c` on your keyboard to exit.
 
    ![](http://i.imgur.com/bDTmXbT.png)
