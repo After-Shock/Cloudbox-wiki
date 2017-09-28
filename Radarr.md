@@ -19,7 +19,8 @@
 
 
 ## 1. Accessing Radarr
-1. To access Radarr, visit https://radarr._yourdomain.com_
+
+- To access Radarr, visit https://radarr._yourdomain.com_
 
 
 ## 2. General Settings
