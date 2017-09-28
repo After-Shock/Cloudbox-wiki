@@ -58,3 +58,8 @@
 ## PlexPy logs location.
 
   - If you are asked for the plex logs location, it is exactly `/logs`.
+
+
+## Plex behind a CDN
+
+  - If you are asked for the plex logs location, it is exactly `/logs`.
