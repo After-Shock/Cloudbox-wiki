@@ -2,7 +2,7 @@ In the default Cloudbox install, you have two Plex libraries (one for Movies and
 
 _Note: Remember, your Google Drive will have two folders within the `/Media` folder: `Movies` and `TV`. Those are not to be changed and are case sensitive. See [[Prerequisites|Prerequisites#3-google-drive-account]] and [[Paths|Paths#google-drive-paths]] for more info._
 
-_Note 2: You could do the same to TV shows (i.e. have multiple subdirs/libraries within them), but this guide will not go over that. However, the steps are similar to the one below._
+_Note 2: You could do the same to TV shows (i.e. have multiple subdirs/libraries within `TV`), but this guide will not go over that. However, the steps are similar to the one below._
 
 ## 1. Create folders in Google Drive
 
