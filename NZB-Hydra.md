@@ -1,6 +1,6 @@
 ## 1. Accessing NZB Hydra
 
-1. To access NZB Hydra, visit http://nzbhydra._yourdomain.com_
+- To access NZB Hydra, visit http://nzbhydra._yourdomain.com_
 
 ## 2. Setup
 
