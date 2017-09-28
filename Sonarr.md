@@ -147,6 +147,8 @@
 
    1. API Key: NZB Hydra API Key (see [[NZB Hydra]]).
 
+   1. Additional Parameters: leave blank
+
 1. Your settings will look like this:
 
     ![Sonarr NZB Hydra](http://i.imgur.com/C05pVkA.png)
@@ -178,6 +180,8 @@ Note: Each Indexer will need to be added separately.
    1. API Path: `/api`
 
    1. API Key: Jackett API Key (see [[Jackett|Jackett#3-adding-indexers-to-sonarrradarr]])
+
+   1. Additional Parameters: leave blank
 
 1. Your settings will look like this:
 
