@@ -14,6 +14,8 @@
 
    ![](http://i.imgur.com/bDTmXbT.png)
 
+    Note: Any errors, such as, `WARNING: Could not get object root from API` or `mount helper error`, means this failed somewhere and you need to figure out why. 
+
 1. Run the following commands (one by one):
 
     ```bash
