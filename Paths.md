@@ -4,7 +4,7 @@ It is recommended to assign all your disk space to `/`, as all of your imported 
 
 Downloads (i.e. NZBGet, ruTorrent) are stored in `~/downloads`, however, this can be changed to point to an extra disk by editing the [[setting.yml|Configuring-Settings]] file.
 
-**Note**: **ALL** folders/paths mentioned below are **CASE SENSITIVE** (e.g. Google Drive: `Media` not `media`, `Movies` not `movies`, `TV` not `tv`; Plex Requests: `/logs` not `/Logs`, etc). This is important or else Plex and other apps will not find your media, properly.
+**Note**: **ALL** folders/paths mentioned below are **CASE SENSITIVE** (e.g. Google Drive: `Media` not `media`, `Movies` not `movies`, `TV` not `tv`; Plex Requests: `/logs` not `/Logs`, etc). This is important or else Plex and other apps will not function, properly.
 
 
 ## Google Drive Paths
