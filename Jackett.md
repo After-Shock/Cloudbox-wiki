@@ -46,7 +46,7 @@ Under "Configured Indexers":
 
          - Copy this by clicking on "Copy Torznab Feed" button next to the Indexer. 
 
-         - You will need to Replace `https` with `http` and replace `jackett.yourdomain.com` with `jackett:8080`.
+         - You will need to replace `https` with `http` and `jackett.yourdomain.com` with `jackett:8080`.
 
     1. Jacket API Key
 
