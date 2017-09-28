@@ -10,7 +10,7 @@ docker stop $(docker ps -a -q)
 docker rm $(docker ps -a -q)
 ```
 
-### Starting all but one container (eg Watchtower)
+### Starting all but one container (e.g. All docker containers except Watchtower)
 
 ```
 docker start  $(comm -13 <(docker ps -a -q --filter="name=watchtower" | sort) <(docker ps -a -q | sort))
