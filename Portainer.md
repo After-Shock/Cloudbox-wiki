@@ -1,6 +1,6 @@
 ## 1. Accessing Portainer
 
-1. To access Portainer, visit  https://portainer._yourdomain.com_
+- To access Portainer, visit  https://portainer._yourdomain.com_
 
 ## 2. First Time Setup
 
