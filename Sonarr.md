@@ -20,7 +20,7 @@
 
 ## 1. Accessing Sonarr
 
-1. To access Sonarr, visit https://sonarr._yourdomain.com_
+- To access Sonarr, visit https://sonarr._yourdomain.com_
 
 
 ## 2. General Settings
