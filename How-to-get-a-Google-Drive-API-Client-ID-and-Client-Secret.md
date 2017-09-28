@@ -1,7 +1,5 @@
 1. Open Google APIs Console site: https://console.developers.google.com and login with your Google account.
 
-    _Note: You should use the same Google account as the one  you are planning to use for Google Drive. (see [[Prerequisites|Prerequisites#3-google-drive-account]])._
-
     ![](http://i.imgur.com/ExfSqLe.png)
     
 2. Click `Library` on the left column, then click on `Select a project` at the top.
