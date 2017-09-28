@@ -42,9 +42,11 @@ Under "Configured Indexers":
 
 1. When adding indexers into [[Sonarr|Sonarr#jackett]]/[[Radarr|Radarr#jackett]], you will need: 
 
-    1. Indexer's Torznab Feed. 
+    1. Indexer's Torznab Feed 
 
-         - Copy this by clicking on "Copy Torznab Feed" button next to the Indexer. You will need to Replace `https` with `http` and replace `jackett.yourdomain.com` with `jackett:8080`.
+         - Copy this by clicking on "Copy Torznab Feed" button next to the Indexer. 
+
+         - You will need to Replace `https` with `http` and replace `jackett.yourdomain.com` with `jackett:8080`.
 
     1. Jacket API Key
 
