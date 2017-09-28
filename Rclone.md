@@ -1,15 +1,27 @@
 ## Setting up Rclone
 
 1. Run the command: `rclone config`. 
+
 1. Select `n` to add a new remote. 
+
 1. Type `google` as the name (_lowercase_) and press `enter`.
+
 1. Type the number corresponding to "Google Drive" and press `enter`. 
+
 1. Get a Google API "Client ID" and "Client Secret" (see [[How to get a Google Drive API Client ID and Client Secret]]).
+
 1. Paste in the "Client ID" and press `enter`.
+
 1. Paste in the "Client Secret" and press `enter`.
+
 1. Type `n` for "remote or headless machine" and press `enter`.
-1. Copy the link the screen shows and paste it in your browser on the host computer. Login with your Google account and click `Allow`, if asked. You will copy the `verification code` from your browser, paste it at the prompt, and press `enter`.
+
+1. Copy the link the screen shows and paste it in your browser on the host computer. Login with your Google account, if asked, and click `Allow`. You will copy the `verification code` from your browser, paste it at the prompt, and press `enter`.     
+
+   _Note: You must use the same Google account as the one you are planning to use for Google Drive. (see [[Prerequisites|Prerequisites#3-google-drive-account]])._
+
 1. Type `y` to confirm it is ok and press `enter`. 
+
 1. Type `q` to quit.
 
 
