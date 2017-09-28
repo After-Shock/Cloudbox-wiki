@@ -13,7 +13,7 @@ Downloads (i.e. NZBGet, ruTorrent) are stored in `~/downloads`, however, this ca
 | Path                   | Purpose                                                                                                                                                            |
 |:---------------------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | <pre>/Media</pre>     | <pre> Location of the `Movies` and `TV` folders   </pre>                                                                                                                         |
-| <pre>/Media/Movies</pre> | <pre> Location of all your movies. Each one within it's own folder. Preferably, in the format of `Movie Name (YEAR)` </pre>                                                                                                  |
+| <pre>/Media/Movies</pre> | <pre> Location of all your movies. Each one within it's own folder. Preferably, in the format of: `Movie Name (YEAR)` </pre>                                                                                                  |
 | <pre>/Media/TV</pre>   | <pre> Location of all your TV shows. Each one within it's own folder. Individual season folders within those. </pre> |
 
 _Note: These folders are not meant to be changed. However, if you would like to separate content into multiple libraries in Plex, you may do so by creating sub-folders within the `Movies` and `TV` folders (see [[Customizing Plex Libraries]] for more info)._
