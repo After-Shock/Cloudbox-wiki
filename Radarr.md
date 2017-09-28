@@ -80,6 +80,7 @@
 
    1. Use SSL: `No`
 
+   1. Add Paused: `No`
 
 1. Your settings will look like this:
 
