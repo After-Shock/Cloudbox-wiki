@@ -143,6 +143,8 @@
 
    1. URL: `http://nzbhydra:8080`
 
+   1. API Path: `/api`
+
    1. API Key: NZB Hydra API Key (see [[NZB Hydra]]).
 
 1. Your settings will look like this:
@@ -173,11 +175,13 @@ Note: Each Indexer will need to be added separately.
 
    1. URL: Indexer's Torznab Feed (see [[Jackett|Jackett#3-adding-indexers-to-sonarrradarr]])
 
+   1. API Path: `/api`
+
    1. API Key: Jackett API Key (see [[Jackett|Jackett#3-adding-indexers-to-sonarrradarr]])
 
 1. Your settings will look like this:
 
-    ![Sonarr Jackett](http://i.imgur.com/DcmVyUC.png)
+    ![Sonarr Jackett](https://i.imgur.com/CHMZ06E.png)
 
 
 1. Click "Save" to add the indexer.
