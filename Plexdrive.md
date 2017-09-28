@@ -1,4 +1,4 @@
-1. Get a new Google API "client ID" and "client secret" (see [[How to get a Google Drive API client ID and client secret]]). 
+1. Get a new Google API "Client ID" and "Client Secret" (see [[How to get a Google Drive API Client ID and Client Secret]]).
 
     Note: this will be different from the Rclone one.
 
