@@ -12,7 +12,7 @@ Note: Kernel needs to be updated, to a minimum of 4.10 generic, before Cloudbox 
     sudo ansible-playbook cloudbox.yml --tags kernel
     ```
 
-4. Once the kernel update is done, the server will reboot automatically, if it doesn't, run the following command: 
+4. Once the kernel update is done, the server will reboot automatically. If it doesn't, run the following command: 
 
     ```bash
     sudo reboot
