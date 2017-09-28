@@ -34,7 +34,7 @@ Under "Jackett Configuration":
 
 
 
-## 3. Adding Indexers
+## 3. Adding Indexers to Sonarr/Radarr
 
 Under "Configured Indexers":
 
