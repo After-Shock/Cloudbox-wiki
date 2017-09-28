@@ -166,9 +166,10 @@ If you would like to have custom Plex libraries (more than just a Movies and TV 
     ![](https://i.imgur.com/4JV0orf.png)
 
 1. Disable the following:
-  - `Enable Cinema Trailers`
-  - `Enable video preview thumbnails`
-  - `Find trailers and extras automatically (Plex Pass required)`
+
+   - `Enable Cinema Trailers`
+   - `Enable video preview thumbnails`
+   - `Find trailers and extras automatically (Plex Pass required)`
 
 1. Click `ADD LIBRARY`.
 
@@ -200,8 +201,9 @@ If you would like to have custom Plex libraries (more than just a Movies and TV 
     ![](https://i.imgur.com/JuZif0B.png)
 
 1. Disable the following:
-  - `Enable video preview thumbnails`
-  - `Find trailers and extras automatically (Plex Pass required)`
+
+   - `Enable video preview thumbnails`
+   - `Find trailers and extras automatically (Plex Pass required)`
 
 1. Click `ADD LIBRARY`.
 
