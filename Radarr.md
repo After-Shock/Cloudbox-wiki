@@ -108,7 +108,7 @@
 
 1. Click "Save" to add NZB Hydra.
 
-Note: The `Test` will keep failing until you add an indexer in [[NZB Hydra]].
+Note: The "Test" will keep failing until you add an indexer in [[NZB Hydra]].
 
 ### Jackett
 
