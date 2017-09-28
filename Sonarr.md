@@ -86,15 +86,34 @@
 ### NZB Hydra
 
 1. Click "Settings" -> "Indexers".
+
 1. Click Add Indexer (`+`).
+
 1. Select "Newznab".  
-1. For "Host", type in `nzbhydra:8080` for "Host".
-1. For "API Key", paste in your NZB Hydra API Key (see [[NZB Hydra]]).
+
+1. Add the following:
+
+   1. Name: NZB Hydra
+
+   1. Enable RSS Sync: _your preference_
+
+   1. Enable Search: _your preference_
+
+   1. URL: `http://nzbhydra:8080`
+
+   1. API Key: NZB Hydra API Key (see [[NZB Hydra]]).
+
 1. Your settings will look like this:
 
     ![Sonarr NZB Hydra](http://i.imgur.com/C05pVkA.png)
 
+1. Click "Save" to add NZB Hydra.
+
+Note: The `Test` will keep failing until you add an indexer in [[NZB Hydra]].
+
 ### Jackett
+
+Note: Each Indexer will need to be added separately.
 
 1. Click "Settings" -> "Indexers".
 
@@ -102,16 +121,24 @@
 
 1. Select "Torznab".  
 
-1. For "Host", paste in the indexer's 'Torznab Feed" (see [[Jackett]]). Replace `https` with `http` and replace `jackett.yourdomain.com` with `jackett:8080`.
+1. Add the following:
 
-1. For "API Key", paste in your Jackett API Key (see [[Jackett]]).
+   1. Name: Indexer Name
+
+   1. Enable RSS Sync: _your preference_
+
+   1. Enable Search: _your preference_
+
+   1. URL: Indexer's Torznab Feed (see [[Jackett|Jackett#3-adding-indexers-to-sonarrradarr]])
+
+   1. API Key: Jackett API Key (see [[Jackett|Jackett#3-adding-indexers-to-sonarrradarr]])
 
 1. Your settings will look like this:
 
     ![Sonarr Jackett](http://i.imgur.com/DcmVyUC.png)
 
-Note: These steps will need to done for each individual indexer you want to add.
 
+1. Click "Save" to add the indexer.
 
 
 
