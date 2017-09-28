@@ -5,10 +5,10 @@
     ```
     cat /opt/plex_autoscan/*.log | grep http
     ```
-1. Find the link that looks like `http://0.0.0.0:3468/PLEXAUTOSCANAPI`and replace "0.0.0.0" with "your server IP address", so that it now looks like:
+1. Find the link that looks like `http://0.0.0.0:3468/PLEXAUTOSCANAPIKEY`and replace "0.0.0.0" with "your server IP address", so that it now looks like:
 
     ```
-   http://yourserveripaddress:3468/PLEXAUTOSCANAPI
+   http://yourserveripaddress:3468/PLEXAUTOSCANAPIKEY
    ```
 
 1. This is your Plex Autoscan URL and it will be used later by [[Sonarr|Sonarr#7-plex-autoscan]] and [[Radarr|Radarr#7-plex-autoscan]].
