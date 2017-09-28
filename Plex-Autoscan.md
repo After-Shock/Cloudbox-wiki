@@ -5,7 +5,7 @@
     ```
     cat /opt/plex_autoscan/*.log | grep http
     ```
-1. Find the link that looks like `http://0.0.0.0:3468/PLEXAUTOSCANAPIKEY`and replace "0.0.0.0" with "your server IP address", so that it now looks like:
+1. Find the link that looks like `http://0.0.0.0:3468/PLEXAUTOSCANAPIKEY`and replace "0.0.0.0" with your server's IP address, so that it now looks like:
 
     ```
    http://yourserveripaddress:3468/PLEXAUTOSCANAPIKEY
