@@ -61,7 +61,26 @@
 ### NZBGet
 
 1. Add a new "NZBGet" download client.
-1. Use `nzbget` as "Host", `6789` for "Port", and `radarr` (case sensitive) for "Category". Replacing the "Username" and "Password" with your own.
+
+1. Add the following:
+
+   1. Name: NZBGet
+
+   1. Enable: `Yes`
+
+   1. Host: `nzbget`
+
+   1. Port: `6789`
+
+   1. Username: NZBGet username (see [[NZBGet]])
+
+   1. Password: NZBGet password (see [[NZBGet]])
+
+   1. Category: `radarr`
+
+   1. Use SSL: `No`
+
+
 1. Your settings will look like this:
 
     ![Radarr NZBGet Downloader](http://i.imgur.com/Q8ULGOu.png)
@@ -72,7 +91,29 @@
 ### ruTorrent
 
 1. Add a new "rTorrent" download client.
-1. Use `rutorrent` as "Host", `80` for "Port", and `radarr` for "Category". Replacing the "Username" and "Password" with the one you set in [[Configuring Settings]].
+
+1. Add the following:
+
+   1. Name: ruTorrent
+
+   1. Enable: `Yes`
+
+   1. Host: `rutorrent`
+
+   1. Port: `80`
+
+   1. URL Path: `RPC2`
+
+   1. Use SSL: `No`
+
+   1. Username: ruTorrent username (see [[Configuring Settings]])
+
+   1. Password: ruTorrent password (see [[Configuring Settings]])
+
+   1. Category: `radarr`
+
+   1. Directory: leave blank
+
 1. Your settings will now look like this:
 
     ![Radarr ruTorrent Downloader](http://i.imgur.com/XHB6NN2.png)
@@ -102,6 +143,8 @@
    1. URL: `http://nzbhydra:8080`
 
    1. API Key: NZB Hydra API Key (see [[NZB Hydra]]).
+
+   1. Additional Parameters: leave blank
 
 1. Your settings will look like this:
 
@@ -133,6 +176,7 @@ Note: Each Indexer will need to be added separately.
 
    1. API Key: Jackett API Key (see [[Jackett|Jackett#3-adding-indexers-to-sonarrradarr]])
 
+   1. Additional Parameters: leave blank
 
 1. Your settings will look like this:
 
