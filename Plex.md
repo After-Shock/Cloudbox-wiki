@@ -208,5 +208,5 @@ If you would like to have custom Plex libraries (more than just a Movies and TV 
 
 ## 5. Webtools
 
-* Webtools for Plex comes preinstalled. If you wish to setup Webtools and install 3rd party add-ons, you can go to https://plex._yourdomain.com_:33400 and login with your Plex account.
+* Webtools for Plex comes preinstalled. If you wish to setup Webtools and install 3rd party add-ons, you can go to https://_youripaddress_:33400 and login with your Plex account.
 
