@@ -1,3 +1,15 @@
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
+
+1. [Accessing NZB Hydra](#1-Accessing NZB Hydra)
+2. [Setup](#2-Setup)
+3. [API](#3-API)
+
+
+<!-- /TOC -->
+
+
+
+
 ## 1. Accessing NZB Hydra
 
 - To access NZB Hydra, visit http://nzbhydra._yourdomain.com_
