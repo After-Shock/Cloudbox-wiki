@@ -4,9 +4,9 @@
 
 ## 2. Setup
 
-1. Go to "Config". 
+Enter setup by clicking on "Config" at the top.
 
-1. On the "Authorization" tab:
+1. "Authorization":
 
     1. Change "Auth type" to `Login form`.
 
@@ -17,7 +17,9 @@
     
     ![](http://i.imgur.com/jsSwajH.png)
 
- 1. Go to the "Indexers" tab and add your indexers. Be sure to click `Save` when done.
+ 1. Indexers:
+
+    - Add your indexers. Be sure to click `Save` when done.
 
  1. Downloaders:
 
