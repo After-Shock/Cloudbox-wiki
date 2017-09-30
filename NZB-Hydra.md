@@ -21,3 +21,15 @@
 
  1. Go to the "Main" tab and make note of the `API key`. This will be used later.
 
+ 1. Downloaders:
+
+    1. "Add new downloader" -> "NZBGet".
+
+    1. Fill in the following:
+       - Host: `nzbget`
+       - Port: `6789`
+       - Use SSL: `OFF`
+       - Username: nzbget username
+       - Password: nzbget password
+  
+       ![](https://i.imgur.com/kSinOG7.png)
