@@ -145,7 +145,7 @@
 
    1. API Path: `/api`
 
-   1. API Key: [[your NZB Hydra API Key|NZB Hydra]]
+   1. API Key: [[your NZB Hydra API Key|NZB-Hydra#3-api]]
 
    1. Additional Parameters: leave blank
 
