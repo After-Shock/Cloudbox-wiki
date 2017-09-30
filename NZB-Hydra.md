@@ -2,7 +2,11 @@
 
 - To access NZB Hydra, visit http://nzbhydra._yourdomain.com_
 
-## 2. Setup
+## 1. API
+
+To find the NZB Hydra API Key, go to "Config" --> "Main". This will be used later for [[Sonarr|Sonarr#nzb-hydra and [[Radarr|Radarr#nzb-hydra]].
+
+## 1. Setup
 
 Enter setup by clicking on "Config" at the top.
 
@@ -33,3 +37,4 @@ Enter setup by clicking on "Config" at the top.
        - Password: nzbget password
   
        ![](https://i.imgur.com/kSinOG7.png)
+
