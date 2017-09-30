@@ -40,8 +40,8 @@ Enter setup by clicking on "Config" at the top.
        - Host: `nzbget`
        - Port: `6789`
        - Use SSL: `OFF`
-       - Username: nzbget username
-       - Password: nzbget password
+       - Username: [[your NZBGet Username|NZBGet]]
+       - Password: [[your NZBGet Password|NZBGet]]
   
        ![](https://i.imgur.com/kSinOG7.png)
 
