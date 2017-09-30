@@ -24,7 +24,7 @@ Enter setup by clicking on "Config" at the top.
     1. Set all the options below to `ON`.
     1. Click "Add new user". 
     1. Fill in your username and password.
-    1. Click `Save` (top right).
+    1. Click "Save" (top right).
     
     ![](http://i.imgur.com/jsSwajH.png)
 
