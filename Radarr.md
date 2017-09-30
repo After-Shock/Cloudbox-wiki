@@ -143,7 +143,7 @@
 
    1. URL: `http://nzbhydra:8080`
 
-   1. API Key: [[your NZB Hydra API Key|NZB-Hydra#3-api]]
+   1. API Key: [[your NZB Hydra API Key|NZB-Hydra#3-api-key]]
 
    1. Additional Parameters: leave blank
 
