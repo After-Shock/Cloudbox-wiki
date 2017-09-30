@@ -1,9 +1,8 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
 
-1. [Accessing NZB Hydra](#1-Accessing NZB Hydra)
-2. [Setup](#2-Setup)
-3. [API](#3-API)
-
+1. [Accessing NZB Hydra](#1-accessing-nzb-hydra)
+2. [Setup](#2-setup)
+3. [API](#3-api)
 
 <!-- /TOC -->
 
