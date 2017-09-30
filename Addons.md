@@ -33,3 +33,5 @@ ncdu will show you your drive usage (e.g. ```cd / && sudo ncdu -x```)
 hostess can be used host modification via cli
 
 ngrok - secure introspectable tunnels to localhost webhook development tool and debugging tool.
+
+nethogs - view traffic stats for individual processes
