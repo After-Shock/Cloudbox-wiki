@@ -2,7 +2,7 @@
 
 1. [Accessing NZB Hydra](#1-accessing-nzb-hydra)
 2. [Setup](#2-setup)
-3. [API](#3-api)
+3. [API](#3-api-key)
 
 <!-- /TOC -->
 
@@ -45,6 +45,6 @@ Enter setup by clicking on "Config" at the top.
   
        ![](https://i.imgur.com/kSinOG7.png)
 
-## 3. API
+## 3. API Key
 
 To find the NZB Hydra API Key, go to "Config" --> "Main". This will be used later for [[Sonarr|Sonarr#nzb-hydra]] and [[Radarr|Radarr#nzb-hydra]].
