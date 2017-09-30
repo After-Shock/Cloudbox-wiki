@@ -30,7 +30,7 @@ Enter setup by clicking on "Config" at the top.
 
  1. Indexers:
 
-    - Add your indexers. Be sure to click `Save` when done.
+    - Add your indexers. Be sure to click "Save" when done.
 
  1. Downloaders:
 
