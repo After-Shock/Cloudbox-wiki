@@ -58,3 +58,23 @@
 ## PlexPy logs location.
 
   - If you are asked for the plex logs location, it is exactly `/logs`.
+
+## Newly created user doesnt start off in shell
+
+```shell
+echo $0
+-sh
+```
+
+or
+
+```shell
+echo ${SHELL}
+/bin/sh
+```
+
+Run this command to set Bash as your shell:
+
+```
+sudo chsh -s /bin/bash <username>
+```
