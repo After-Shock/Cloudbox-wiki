@@ -55,11 +55,11 @@
 
   1. Restart Plex Autoscan: `sudo nano systemctl restart plex_autoscan`   
 
-## PlexPy logs location.
+## PlexPy logs location:
 
   - If you are asked for the plex logs location, it is exactly `/logs`.
 
-## Newly created user doesnt start off in shell
+## Change shell of user account to bash:
 
 ```shell
 echo $0
