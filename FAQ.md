@@ -61,6 +61,8 @@
 
 ## Change shell of user account to bash:
 
+How to check current shell:
+
 ```shell
 echo $0
 -sh
@@ -73,7 +75,7 @@ echo ${SHELL}
 /bin/sh
 ```
 
-Run this command to set Bash as your shell:
+Run this command to set bash as your shell:
 
 ```
 sudo chsh -s /bin/bash <username>
