@@ -78,6 +78,6 @@ echo ${SHELL}
 Run this command to set bash as your shell:
 
 ```
-sudo chsh -s /bin/bash <username>
+sudo chsh -s /bin/bash <user>
 sudo reboot
 ```
