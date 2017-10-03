@@ -77,4 +77,5 @@ Run this command to set Bash as your shell:
 
 ```
 sudo chsh -s /bin/bash <username>
+sudo reboot
 ```
