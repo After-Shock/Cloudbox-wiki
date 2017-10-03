@@ -37,7 +37,7 @@
 
     ![](https://i.imgur.com/soGxdGm.png)
 
-1. On the next screen, click `NEXT` (we will add Libraries later).
+1. On the next screen, click "NEXT" (we will add Libraries later).
 
     ![](https://i.imgur.com/OQxsJd1.png)
 
@@ -87,7 +87,7 @@
 2. Set "Transcoder default duration" to `150` and "Transcoder default throttle buffer" to `150`.
 3. Enable "Use hardware acceleration when available"
 
-    ![](https://i.imgur.com/ia8MjvR.png)
+    ![](https://i.imgur.com/qvKbH9X.jpg)
 
 1. Click `SAVE CHANGES`.
 
