@@ -84,7 +84,8 @@
 ### Transcoder
 
 1. Click the Settings icon (top right) -> "Server" (top) -> "Transcoder" (left).
-2. Set `Transcoder default duration` to `150` and `Transcoder default throttle buffer` to `150`.
+2. Set "Transcoder default duration" to `150` and "Transcoder default throttle buffer" to `150`.
+3. Enable "Use hardware acceleration when available"
 
     ![](https://i.imgur.com/ia8MjvR.png)
 
@@ -95,7 +96,7 @@
 
 1. Click the Settings icon (top right) -> "Server" (top) -> "DLNA" (left).
 
-1. Disable `Enable the DLNA server` and `DLNA server timeline reporting`.
+1. Disable "Enable the DLNA server" and "DLNA server timeline reporting".
 
 
     ![](http://i.imgur.com/CLGqMQx.png)
