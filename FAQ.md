@@ -89,8 +89,16 @@ You have a remnant of the container in the docker's network. Verify with the com
 docker inspect network <network name> | grep <container name>
 ```
 
-To remove the remnant, run this command:
+To remove the remnant, run this command and try again:
 
 ```
 docker network disconnect -f <network name> <container name>
+```
+
+
+## 500 Server Error: Internal Server Error: driver failed programming external connectivity on endpoint <container name>: Bind for 0.0.0.0:<port number> failed: port is already allocated
+
+```
+sudo service docker stop
+sudo service docker start
 ```
