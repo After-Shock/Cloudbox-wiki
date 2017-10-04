@@ -81,3 +81,16 @@ Run this command to set bash as your shell:
 sudo chsh -s /bin/bash <user>
 sudo reboot
 ```
+
+## During cloudbox install, get the message "403 Client Error: Forbidden: endpoint with name <container name> already exists in network <network name>"
+
+You have a remnant of the container in the docker's network. Verify with the command below:
+```
+docker inspect network <network name> | grep <container name>
+```
+
+To remove the remnant, run this command:
+
+```
+docker network disconnect -f <network name> <container name>
+```
