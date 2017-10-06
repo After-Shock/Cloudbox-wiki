@@ -44,10 +44,6 @@
 
 1. Set your preferred naming format.
 
-1. Disable "Analyse video files".
-
-1. Disable "Use hardlinks instead of copy".
-
 1. Click "Save".
 
 
