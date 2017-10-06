@@ -259,4 +259,4 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
 1. Click the green "check" button to add the path.
 
-1. All tv shows added now will have that path set.
+1. All TV shows added now will have that path set.
