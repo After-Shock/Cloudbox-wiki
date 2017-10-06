@@ -95,7 +95,10 @@
 
 1. Click the Settings icon (top right) -> "Server" (top) -> "DLNA" (left).
 
-1. Disable "Enable the DLNA server" and "DLNA server timeline reporting".
+
+1. Disable the following:
+    - "Enable the DLNA server"
+    - "DLNA server timeline reporting"
 
 
     ![](http://i.imgur.com/CLGqMQx.png)
