@@ -27,7 +27,7 @@
 
 1. Click "Settings" -> "General".
 1. Click "Show Advanced Settings".
-1. Set your branch to `develop`, like below.
+1. Under "Updates - Branch", type in `develop`.
 
     ![Sonarr Branch](http://i.imgur.com/JdQQlzS.png)
 
