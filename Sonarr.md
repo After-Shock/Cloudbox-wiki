@@ -255,7 +255,7 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
 1. When you are ready to add your first show to Sonarr, click the "Path" drop-down and select "Add a different path".
 
-1. Click the blue "Browse" button, select `tv`, scroll to the bottom and select "OK".
+1. Click the blue "Browse" button, select the `tv` folder, scroll to the bottom, and select "OK".
 
 1. Click the green "check" button to add the path.
 
