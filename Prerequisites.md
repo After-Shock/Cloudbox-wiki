@@ -80,7 +80,10 @@ Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Acces
 
 * You'll need a Plex account (it's free). If you don't already have one, please visit https://www.plex.tv and create one.
 
+[df](dd)
+
+
 
 ## 6. Preferred Downloading Method
 
-* To use Cloudbox, you will need to choose which downloading protocol you will use to download your media with. It can be either Usenet, Torrents, or both. 
+* To use Cloudbox, you will need to choose with method you will use to download your media with. It can either be [Usenet, Torrents, or both](https://www.htpcguides.com/comparing-usenet-vs-torrents/). 
