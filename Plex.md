@@ -9,7 +9,6 @@
 	- [Transcoder](#transcoder)
 	- [DLNA](#dlna)
 	- [Scheduled Tasks](#scheduled-tasks)
-	- [Extras](#extras)
 4. [Adding Your First libraries](#4-adding-your-first-libraries)
 	- [Adding the Movie Library](#adding-the-movie-library)
 	- [Adding the TV Library](#adding-the-tv-library)
@@ -113,22 +112,10 @@
 2. Disable the following:
     - "Update all libraries during maintenance"
     - "Upgrade media analysis during maintenance"
-    - "Perform refresh of program guide data"
-    - "Analyze and tag photos".
+
 
 
 3. Click "SAVE CHANGES".
-
-
-### Extras
-
-1. Click the Settings icon (top right) -> "Server" (top) -> "Extras" (left).
-
-1. Disable "Include Cinema Trailers from movies in my library".
-
-    ![](http://i.imgur.com/FM7OsPZ.png)
-
-1. Click "SAVE CHANGES".
 
 
 
@@ -168,9 +155,9 @@ If you would like to have custom Plex libraries (more than just a Movies and TV 
 
 1. Disable the following:
 
-   - "Enable Cinema Trailers"
+   - "Enable Cinema Trailers" (optional)
    - "Enable video preview thumbnails"
-   - "Find trailers and extras automatically (Plex Pass required)"
+   - "Find trailers and extras automatically (Plex Pass required)" (optional)
 
 1. Click "ADD LIBRARY".
 
@@ -203,8 +190,8 @@ If you would like to have custom Plex libraries (more than just a Movies and TV 
 
 1. Disable the following:
 
-   - "Enable video preview thumbnails"
-   - "Find trailers and extras automatically (Plex Pass required)"
+   - "Enable video preview thumbnails" (optional)
+   - "Find trailers and extras automatically (Plex Pass required)" (optional)
 
 1. Click "ADD LIBRARY".
 
