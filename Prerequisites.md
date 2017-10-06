@@ -1,20 +1,27 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:1 -->
 
-1. [Dedicated Server](#1-dedicated-server)
-2. [Domain Name](#2-domain-name)
-3. [Google Drive Account](#3-google-drive-account)
-4. [Plex Account](#4-plex-account)
+1. [Presumptions](#1-presumptions)
+2. [Dedicated Server](#2-dedicated-server)
+3. [Domain Name](#3-domain-name)
+4. [Google Drive Account](#4-google-drive-account)
+5. [Plex Account](#5-plex-account)
+6. [Preferred Downloading Method](#6-preferred-downloading-method)
 
 <!-- /TOC -->
 
 
-## 1. Dedicated Server
+## 1. Presumptions
+
+* Cloudbox assumes you have a basic understanding of Linux, Docker containers, Torrents / Usenet, Sonarr, Radarr, and Plex.
+
+
+## 2. Dedicated Server
 
 Get an Ubuntu 16.04 server from a hosting company (eg. Hetzner.de). This has been tested on an AMD64 / INTEL machine. ARM based servers (e.g. Digital Ocean, Scaleway) are not supported.
 
 
 
-## 2. Domain Name
+## 3. Domain Name
 
 Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Accessing Cloudbox Apps]]). To set this app follow the below instructions.
 
@@ -54,7 +61,7 @@ Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Acces
 
 4. Save Changes.
 
-## 3. Google Drive Account
+## 4. Google Drive Account
 
 * Cloudbox stores the media unencrypted in Google Drive and utilizes Plexdrive to access it, so if your using Amazon or prefer encryption, look elsewhere. We recommend creating a [G-Suite Business](https://gsuite.google.com/pricing.html) account for larger storage space.
 
@@ -69,6 +76,11 @@ Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Acces
 
    <sub> <a id="note1" href="#note1ref"><sup>1</sup></a> Although these folders are not meant to be changed, you can still separate content into multiple libraries by creating sub-folders within the `Movies` and `TV` folders (see [[Customizing Plex Libraries]] for more info). </sub>
 
-## 4. Plex Account
+## 5. Plex Account
 
 * You'll need a Plex account (it's free). If you don't already have one, please visit https://www.plex.tv and create one.
+
+
+## 6. Downloading Method
+
+* To use Cloudbox, you will need to choose a preferred downloading method: usenet, torrents, or both. 
