@@ -53,7 +53,7 @@ To see the information below in a nice table, click [[here|https://pste.eu/p/hZB
 
   - Note: Password **must** be in alphanumeric characters. No special characters. 
 
-- `domain`: Your domain name. To be used to access your Cloudbox server. If you don't have one, see [[Prerequisites|Prerequisites#2-domain-name]].
+- `domain`: Your domain name. To be used to access your Cloudbox server. If you don't have one, see [[Prerequisites|Prerequisites#3-domain-name]].
 
 - `email`: Your e-mail address. This is used to get SSL certificates.
 
