@@ -26,8 +26,8 @@ _Note: These folders are not meant to be changed. However, if you would like to 
 
 | Path                   | Purpose                                                                                                                                                            |
 |:---------------------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <pre>/mnt/local/Media</pre>     | <pre> Media stored on the server. Sonarr/Radarr imports will go here.   </pre>                                                                                                                         |
-| <pre>/mnt/plexdrive/Media</pre> | <pre> Media that is stored on Google Drive is mounted here (by Plexdrive) </pre>                                                                                                  |
+| <pre>/mnt/local/Media</pre>     | <pre> Location of media stored on the server. Sonarr/Radarr imports will go here.   </pre>                                                                                                                         |
+| <pre>/mnt/plexdrive/Media</pre> | <pre> Location of media stored on Google Drive (mounted by Plexdrive) </pre>                                                                                                  |
 | <pre>/mnt/unionfs/Media</pre>   | <pre> Combined folder of local media (/mnt/local/Media) and online media  (/mnt/plexdrive/Media). This is the folder Plex, Sonarr, and Radarr when scanning for media </pre> |
 
 Note: Make sure `/mnt/local` has enough space to store the imported media.
