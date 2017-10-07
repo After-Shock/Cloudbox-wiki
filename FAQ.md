@@ -12,7 +12,7 @@
 
 ## Why does Cloudbox not support encryption data on Google Drive?
 
- - While there are pro's and cons for using either encrypted or unencrypted data on cloud services, Cloudbox does not support encrypted cloud data. 
+ - While there are pro's and cons for using either encrypted or unencrypted data on cloud services, Cloudbox developer(s) have decided to not support encrypted cloud data. 
 
  - Note: You may be able to modify Cloudbox and to use encrypted data stored on the cloud (see [here](https://github.com/dweidenfeld/plexdrive/blob/master/TUTORIAL.md)), but that will be on you to setup yourself with no support from us.
 
