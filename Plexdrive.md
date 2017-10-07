@@ -28,6 +28,6 @@
     sudo systemctl enable plexdrive
     sudo systemctl start plexdrive
     ```
-1. You should now be able to see all your media files (on Google drive and local) in `/mnt/unionfs/Media` (see [[Paths|Paths#media]] for more info). 
+1. You should now be able to see all your media files in `/mnt/unionfs/Media` (i.e. on Google drive and your server combined).
 
    If you are not able to, then something was done incorrectly during the setup of Plexdrive (i.e. this page) and/or your media is not located in the correct folder in Google Drive (see [[Prerequisites|Prerequisites#4-google-drive-account]] and [[Paths|Paths#google-drive-paths]]).
