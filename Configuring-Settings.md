@@ -7,8 +7,7 @@
 
 ## 2. Overview of Settings ## 
 
-
-    ![](https://i.imgur.com/ir5P381.png)
+  ![](https://i.imgur.com/ir5P381.png)
 
 ## 3. Options in Settings
 
