@@ -12,7 +12,11 @@
 
 ## 1. Presumptions
 
-* Cloudbox assumes you have a basic understanding of Linux, Docker containers, Torrents / Usenet, Sonarr, Radarr, and Plex.
+Cloudbox assumes you have a basic understanding of Linux, Docker containers, Torrents, Usenet, Sonarr, Radarr, and Plex. 
+
+The guides in this wiki are only meant to setup some Cloudbox specific settings into the various apps that are installed (e.g. Sonarr, Radarr, Plex, etc). 
+
+If you need to learn more about them, you can easily find a ton of guides about them online. 
 
 
 ## 2. Dedicated Server
@@ -63,9 +67,9 @@ Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Acces
 
 ## 4. Google Drive Account
 
-* Cloudbox stores the media unencrypted in Google Drive and utilizes Plexdrive to access it, so if your using Amazon or prefer encryption, look elsewhere. We recommend creating a [G-Suite Business](https://gsuite.google.com/pricing.html) account for larger storage space.
+Cloudbox stores the media unencrypted in Google Drive and utilizes Plexdrive to access it, so if your using Amazon or prefer encryption, look elsewhere. We recommend creating a [G-Suite Business](https://gsuite.google.com/pricing.html) account for larger storage space.
 
-* Media will be stored in `Movies` and `TV` folders, all within a `Media` folder in root (i.e. `/Media`).<a href="#note1" id="note1ref"><sup>1</sup></a> Note: these paths/folders are **case sensitive** (see  [[Paths]]). If you have media in other folders, simply move them into these folders via  Google Drive's web app. 
+Media will be stored in `Movies` and `TV` folders, all within a `Media` folder in root (i.e. `/Media`).<a href="#note1" id="note1ref"><sup>1</sup></a> Note: these paths/folders are **case sensitive** (see  [[Paths]]). If you have media in other folders, simply move them into these folders via  Google Drive's web app. 
 
    ```
    Media
@@ -74,16 +78,14 @@ Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Acces
    ```
 
 
-   <sub> <a id="note1" href="#note1ref"><sup>1</sup></a> Although these folders are not meant to be changed, you can still separate content into multiple libraries by creating sub-folders within the `Movies` and `TV` folders (see [[Customizing Plex Libraries]] for more info). </sub>
+ <sub> <a id="note1" href="#note1ref"><sup>1</sup></a> Although these folders are not meant to be changed, you can still separate content into multiple libraries by creating sub-folders within the `Movies` and `TV` folders (see [[Customizing Plex Libraries]] for more info). </sub>
 
 ## 5. Plex Account
 
-* You'll need a Plex account (it's free). If you don't already have one, please visit https://www.plex.tv and create one.
-
-[df](dd)
+You'll need a Plex account (it's free). If you don't already have one, please visit https://www.plex.tv and create one.
 
 
 
 ## 6. Preferred Downloading Method
 
-* To use Cloudbox, you will need to choose which method you will use to download your media with. It can either be [Usenet, Torrents, or both](https://www.htpcguides.com/comparing-usenet-vs-torrents/). 
+To use Cloudbox, you will need to choose which method you will use to download your media with. It can either be [Usenet, Torrents, or both](https://www.htpcguides.com/comparing-usenet-vs-torrents/). 
