@@ -52,3 +52,4 @@ _Last updated on: Oct 7, 2017_
 - Accessing Cloudbox Apps --> Cloudbox Apps. Add function. (or moved to Cloudbox URLs, and separate page for cloudbox Apps/Tools.. eg Cloudbox Install Types page).
 - Move Addons to Cloudbox Tools.
 - separate page on different cloudbox installs ?
+- page mentioning updating apps within cloudbox
