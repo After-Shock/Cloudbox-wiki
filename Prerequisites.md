@@ -21,7 +21,7 @@ If you need to learn more about them, you can easily find a ton of guides for th
 
 ## 2. Dedicated Server
 
-Get an Ubuntu 16.04 server from a hosting company (e.g. Hetzner). This has been tested on an AMD64 / INTEL machine. ARM based servers (e.g. Digital Ocean, Scaleway, etc) are not supported.
+Get a server hosting company (e.g. Hetzner) with Ubuntu 16.04 LTS installed. This has been tested on an AMD64 / INTEL machine. ARM based servers (e.g. Digital Ocean, Scaleway, etc) are not supported.
 
 
 
