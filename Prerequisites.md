@@ -89,3 +89,5 @@ You'll need a Plex account (it's free). If you don't already have one, please vi
 ## 6. Preferred Downloading Method
 
 To use Cloudbox, you will need to choose which method you will use to download your media with. It can either be [Usenet, Torrents, or both](https://www.htpcguides.com/comparing-usenet-vs-torrents/). 
+
+!--section incomplete--!
