@@ -7,7 +7,37 @@
 
 ## 2. Overview of Settings ## 
 
-  ![](https://i.imgur.com/ir5P381.png)
+```yaml
+---
+  user: seed
+  passwd: password123
+  domain: testcloudbox.ml
+  email: your@email.com
+  nzbget:
+    downloads: "/home/{{user}}/downloads/nzbget"
+  rutorrent:
+    passwd: password321
+    downloads: "/home/{{user}}/downloads/rutorrent"
+  plex:
+    tag: public
+    transcodes: "/home/{{user}}/transcodes"
+  plex_autoscan:
+    ip: "0.0.0.0"
+  rclone:
+    version: 1.36
+  unionfs_cleaner:
+    max_local_gigabytes: 200
+    size_check_mins: 30
+    rclone_remote: "google:"
+  backup:
+    tgz_dest: "/home/{{user}}/Backups"
+    rsync_dest: rsync://somehost.com/Backups
+    rclone_dest: google:/Backups
+    use_rsync: false
+    use_rclone: false
+    cron_time: weekly
+cron_state: absent
+```
 
 ## 3. Options in Settings
 
