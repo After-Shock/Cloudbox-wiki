@@ -4,7 +4,7 @@
 
 ## Dont want a certain docker app?
 
-  - Just remove them with `docker rm -f <appname>` after installing Cloudbox.
+  - Just remove them with `docker rm -f <appname>` after installing Cloudbox (where `<appname>` is replaced with the app's name).
 
 ## Does Cloudbox support encryption data on Google Drive?
 
