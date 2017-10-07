@@ -12,7 +12,7 @@
 
 ## 3. Options in settings
 
-To see the information on a separate page, click [[here|https://pste.eu/p/hZBN.html]].
+To see the information below on a separate page, click [[here|https://pste.eu/p/hZBN.html]].
 
 
 ---
