@@ -16,7 +16,7 @@ Cloudbox assumes you have a basic understanding of Linux, Docker containers, Tor
 
 The guides in this wiki are only meant to setup some Cloudbox specific settings into the various apps that are installed (e.g. Sonarr, Radarr, Plex, etc). 
 
-If you need to learn more about them, you can easily find a ton of guides about them online (e.g. [HTPC Guides](https://www.htpcguides.com), etc). 
+If you need to learn more about them, you can easily find a ton of guides about them online (e.g. [HTPC Guides](https://www.htpcguides.com)). 
 
 
 ## 2. Dedicated Server
