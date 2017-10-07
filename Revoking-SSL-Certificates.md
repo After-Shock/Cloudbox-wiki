@@ -20,6 +20,6 @@ Note: This is not required if you are simply migrating Cloudbox to another serve
 
 ***
 
-<sup><b name="f1">[1](#a1)</b> Cloudbox install will try to remove all the docker containers before installing, but it's still better to be safe by removing them manually before hand. </sup>
+<sup><b name="f1">[1](#a1)</b> Cloudbox install will try to remove all the docker containers before installing, but it's better to remove them manually, beforehand. </sup>
 
 <sup><b name="f2">[2](#a2)</b> If you need to keep other non-cloudbox containers, you may just remove the nginx-proxy container, instead, before re-running Cloudbox. </sup>
