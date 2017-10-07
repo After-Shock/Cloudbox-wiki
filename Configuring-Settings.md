@@ -36,7 +36,7 @@
     use_rsync: false
     use_rclone: false
     cron_time: weekly
-cron_state: absent
+    cron_state: absent
 ```
 
 ## 3. Options in Settings
