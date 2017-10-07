@@ -93,7 +93,7 @@ To use Cloudbox, you will need to choose which method you will use to download y
 
 ### i. BitTorrent
 
-If you plan on using Torrents with Cloudbox, we recommend you have access to a [private torrent tracker](https://www.reddit.com/r/trackers/wiki/getting_into_private_trackers) as most servers don't allow public trackers. However, if you still want to use  public torrent trackers with Cloudbox, you are free to do so. 
+If you plan on using torrents with Cloudbox, we recommend you have access to a [private torrent tracker](https://www.reddit.com/r/trackers/wiki/getting_into_private_trackers) as most servers don't allow public trackers. However, if you still want to use  public torrent trackers with Cloudbox, you are free to do so. 
 
 
 ### ii. Usenet
