@@ -98,4 +98,4 @@ If you plan on using Torrents with Cloudbox, we recommend you have access to a [
 
 ### ii. Usenet
 
-If you plan on using [Usenet](https://www.reddit.com/r/usenet/wiki/faq#wiki_usenet_faq) (i.e. Newsgroups) with Cloudbox, you'll need 2 things: a [usenet provider](https://www.reddit.com/r/usenet/wiki/providers) and a [usenet indexer](https://www.reddit.com/r/usenet/wiki/indexers). We recommend you have multiple indexers (and even multiple providers) to better your chance at finding media. 
+If you plan on using [usenet](https://www.reddit.com/r/usenet/wiki/faq#wiki_usenet_faq) (i.e. newsgroups) with Cloudbox, you'll need 2 things: a [usenet provider](https://www.reddit.com/r/usenet/wiki/providers) and a [usenet indexer](https://www.reddit.com/r/usenet/wiki/indexers). We recommend you have multiple indexers (and even multiple providers) to better your chance at finding media. 
