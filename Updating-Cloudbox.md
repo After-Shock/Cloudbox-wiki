@@ -1,4 +1,7 @@
-Updating Cloudbox is not recommended, but it can be done. Steps are typically:
+Updating Cloudbox is not required, but steps below are provided if you want to do so. 
+
+
+Steps are typically:
 
 1. Ensure you have a recent [[backup | Backup & Restore#backup]]. 
 
