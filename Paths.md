@@ -2,7 +2,6 @@
 
 It is recommended to assign all your disk space to `/`, as all of your imported media and app data will be saved to `/mnt/local` and `/opt`,  respectively.
 
-Downloads (i.e. NZBGet, ruTorrent) are stored in `~/downloads`, however, this can be changed to point to an extra disk by editing the [[setting.yml|Configuring-Settings]] file.
 
 **Note**: **ALL** folders/paths mentioned below are **CASE SENSITIVE** (e.g. Google Drive: `Media` not `media`, `Movies` not `movies`, `TV` not `tv`; Plex Requests: `/logs` not `/Logs`, etc). This is important or else Plex and other apps will not function, properly.
 
@@ -45,9 +44,11 @@ Note: Make sure `/mnt/local` has enough space to store the imported media.
 
 ## Docker Paths
 
-The Dockerized app (e.g. Plex) will "see" the `Docker path`, but that path will actually be the `Host Path` on the server. 
+The Dockerized app (e.g. Plex) will "see" the `Docker Path`, but that path will actually be the `Host Path` on the server. 
 
-Note: It is advised to leave at least 100GB free on `/opt` for the docker data (see below).
+By default downloads (i.e. NZBGet, ruTorrent) are stored in `~/downloads` on the server (i.e `Host Path`), however, this can be changed to point to elsewhere (e.g. a second hard drive) by editing the [[setting.yml|Configuring-Settings]] file. But regardless of the download location chosen, the `Docker Path` will always be the same.
+
+Note 2: It is advised to leave at least 100GB free on `/opt` for the docker data (see below).
 
 ### Plex
 
