@@ -79,7 +79,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
    },
    ```
 
-1. `ctrl-x` and `y` to save.
+1. `Ctrl-X` and `Y` to save.
 
 1. Restart Plex Autoscan: `sudo systemctl restart plex_autoscan`
 
@@ -107,6 +107,6 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
    },
    ```
 
-1. `CTRL-X` and `Y` to save.
+1. `Ctrl-X` and `Y` to save.
 
 1. Restart UnionFS Cleaner: `sudo systemctl restart unionfs_cleaner`
