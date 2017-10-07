@@ -132,5 +132,5 @@ To see the information below in a nice table, click [[here|https://pste.eu/p/hZB
 
 ## 3. Saving Settings ## 
 
-- `CTRL-X`, then `y`, then `enter` key.
+- `Ctrl-X`, then `Y`, then `enter` key.
 
