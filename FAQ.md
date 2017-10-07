@@ -99,7 +99,7 @@ sudo chsh -s /bin/bash <user>
 sudo reboot
 ```
 
-## During cloudbox install, get the message "403 Client Error: Forbidden: endpoint with name <container name> already exists in network <network name>"
+## During Cloudbox install, get the message "403 Client Error: Forbidden: endpoint with name <container name> already exists in network <network name>":
 
 You have a remnant of the container in the docker's network. Verify with the command below:
 ```
@@ -113,7 +113,7 @@ docker network disconnect -f <network name> <container name>
 ```
 
 
-## 500 Server Error: Internal Server Error: driver failed programming external connectivity on endpoint <container name>: Bind for 0.0.0.0:<port number> failed: port is already allocated
+## During Cloudbox install, get the message "500 Server Error: Internal Server Error: driver failed programming external connectivity on endpoint <container name>: Bind for 0.0.0.0:<port number> failed: port is already allocated":
 
 ```
 sudo service docker stop
