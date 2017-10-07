@@ -6,6 +6,12 @@
 
   - Just remove them with `docker rm -f <appname>` after installing Cloudbox.
 
+## Why does Cloudbox not support encryption data on Google Drive?
+
+ - There are pro's and cons to for both having encrypted and unencrypted data on cloud services, but for Cloudbox, there is no support for encryption data. 
+
+ - However, you may be able to modify Cloudbox and to use encrypted data stored on the cloud (see [here](https://github.com/dweidenfeld/plexdrive/blob/master/TUTORIAL.md)), but that will be on you to setup yourself with no support from us.
+
 ## Unrar module fails to install during the Common Role step
 
 
