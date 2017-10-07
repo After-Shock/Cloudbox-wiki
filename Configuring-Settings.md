@@ -9,7 +9,7 @@
 
  - Overview:
 
-    ![](http://i.imgur.com/qGnqJ1n.png)
+    ![](https://i.imgur.com/ir5P381.png)
 
 - `user`: User account for Cloudbox (will be created if it doesn't exist already). Default is `seed`.
 
@@ -79,10 +79,6 @@
   - `use_rsync`: Option to enable/disable rsync backup. Options are `true` or `false`. Default is `false`.
 
   - `use_rclone`: Option to enable/disable cloud backup. Options are `true` or `false`. Default is `false`.
-
-  - `stop_plex`: Option to shutdown Plex before backup. Default is `false`. 
-
-    - Note: It is highly recommended to set this as `true`, since this will cause Plex to be stopped while /opt is archived, and brought backup immediately upon archive creation, just before upload. This will prevent potential corruption of the Plex SQLite database. However, this option MUST BE `false` for feeder installations; otherwise, the backup will fail.
 
   - `cron_time`: How often to backup should run (only when `cron_state` is set to `present`). Options are `reboot`, `yearly`, `annually`, `weekly`, `daily`, or `hourly`. Default is `weekly`. 
 
