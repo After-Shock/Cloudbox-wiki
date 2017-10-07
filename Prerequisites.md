@@ -12,7 +12,7 @@
 
 ## 1. Presumptions
 
-Cloudbox assumes you have a basic understanding of Linux, Docker containers, Torrents, and/or Usenet, and are familiar with Sonarr, Radarr, NZBGet, rTorrent/ruTorrent, and Plex. 
+Cloudbox assumes you have a basic understanding of Linux, Docker containers, BitTorrents, and/or Usenet, and are also familiar with Sonarr, Radarr, NZBGet, rTorrent/ruTorrent, and Plex. 
 
 The guides in this wiki are only meant to setup Cloudbox specific settings into the various apps that are installed (e.g. Sonarr, Radarr, Plex, etc) and are not meant to be a full setup for, or an introduction to, the workings of these apps. 
 
@@ -90,4 +90,12 @@ You'll need a Plex account (it's free). If you don't already have one, please vi
 
 To use Cloudbox, you will need to choose which method you will use to download your media with. It can either be [Usenet, Torrents, or both](https://www.htpcguides.com/comparing-usenet-vs-torrents/). 
 
-!--section incomplete--!
+
+### i. BitTorrent
+
+If you plan on using Torrents with Cloudbox, we recommend you have access to a [private torrent tracker](https://www.reddit.com/r/trackers/wiki/getting_into_private_trackers) as most servers don't allow public trackers. However, if you still want to use  public torrent trackers with Cloudbox, you are free to do so. 
+
+
+### ii. Usenet
+
+If you plan on using [Usenet](https://www.reddit.com/r/usenet/wiki/faq#wiki_usenet_faq) (i.e. Newsgroups) with Cloudbox, you'll need 2 things: a [usenet provider](https://www.reddit.com/r/usenet/wiki/providers) and a [usenet indexer](https://www.reddit.com/r/usenet/wiki/indexers). We recommend you have multiple indexers (and even multiple providers) to better your chance at finding media. 
