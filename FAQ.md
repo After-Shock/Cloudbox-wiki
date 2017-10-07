@@ -92,7 +92,7 @@ echo ${SHELL}
 /bin/sh
 ```
 
-Run this command to set bash as your shell (here `<user>` is the username):
+Run this command to set bash as your shell (where `<user>` is replaced with your username):
 
 ```
 sudo chsh -s /bin/bash <user>
