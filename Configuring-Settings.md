@@ -76,9 +76,9 @@
 
     - Note: Ensure the path does NOT have a trailing slash (/) or else backup "could" fail (i.e. `/sample/path`, not `/sample/path/`).
 
-  - `use_rsync`: Option to enable/disable rsync backup. Options are `true` or `false`. Default is `false`.
+  - `use_rsync`: Option to enable/disable rsync backups. Options are `true` or `false`. Default is `false`.
 
-  - `use_rclone`: Option to enable/disable cloud backup. Options are `true` or `false`. Default is `false`.
+  - `use_rclone`: Option to enable/disable cloud backups. Options are `true` or `false`. Default is `false`.
 
   - `cron_time`: How often to backup should run (only when `cron_state` is set to `present`). Options are `reboot`, `yearly`, `annually`, `weekly`, `daily`, or `hourly`. Default is `weekly`. 
 
