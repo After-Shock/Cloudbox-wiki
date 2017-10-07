@@ -13,6 +13,8 @@
    sudo ansible-playbook cloudbox.yml --tags full
    ```
 
+   This will start the Cloudbox Install.
+
 4. When asked for a Plex Claim Token (_not the same as a Plex login token - a Plex Claim Token starts with `CLAIM_`_), go to https://plex.tv/claim, login to your Plex account if required, copy the claim token, and paste it at the prompt. When you paste it, you will see nothing; this is normal. Just press enter to continue.
 
     ![Plex Claim Token Prompt](http://i.imgur.com/SkRnay2.png)
