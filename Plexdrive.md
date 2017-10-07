@@ -14,7 +14,7 @@
 1. Copy the link on the screen  and paste it in your host computer's internet browser. Login with your Google account, if asked, and click `Allow`. You will copy the `authorization code` from your browser, paste it at the prompt, and press `enter`.
 
 
-   _Note: You must use the same Google account as the one you are planning to use for Google Drive (see [[Prerequisites|Prerequisites#3-google-drive-account]])._
+   _Note: You must use the same Google account as the one you are planning to use for Google Drive (see [[Prerequisites|Prerequisites#4-google-drive-account]])._
 
 1. When you see `First cache build process started...`, press `ctrl`+`c` on your keyboard to exit.
 
