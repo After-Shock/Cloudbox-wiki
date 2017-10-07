@@ -3,8 +3,9 @@
 It is recommended to assign all your disk space to `/`, as all of your imported media and app data will be saved to `/mnt/local` and `/opt`,  respectively.
 
 
-**Note**: **ALL** folders/paths mentioned below are **CASE SENSITIVE** (e.g. Google Drive: `Media` not `media`, `Movies` not `movies`, `TV` not `tv`; Plex Requests: `/logs` not `/Logs`, etc). This is important or else Plex and other apps will not function, properly.
+Note 1: **ALL** folders/paths mentioned below are **CASE SENSITIVE** (e.g. Google Drive: `Media` not `media`, `Movies` not `movies`, `TV` not `tv`; Plex Requests: `/logs` not `/Logs`, etc). This is important or else Plex and other apps will not function, properly.
 
+Note 2: This wiki uses `~/` interchangeably with `/home/{{user}}/`. So if your user account on the server was `seed`, your `~/` path would be the same as `/home/seed/`.
 
 ## Google Drive Paths
 
