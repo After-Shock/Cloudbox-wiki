@@ -1,15 +1,16 @@
-## 1. Editing Settings ##
+## 1. Editing Settings
 
   ```bash
     cd ~/cloudbox
     nano settings.yml
   ```
 
-## 2. Options in Settings ## 
+## 2. Overview of settings 
 
- - Overview:
+  ![](https://i.imgur.com/ir5P381.png)
 
-    ![](https://i.imgur.com/ir5P381.png)
+
+## 3. Options in settings 
 
 - `user`: User account for Cloudbox (will be created if it doesn't exist already). Default is `seed`.
 
