@@ -72,13 +72,13 @@
 
     - Note: Ensure the path does NOT have a trailing slash (/) or else backup will fail (i.e. `/sample/path`, not `/sample/path/`).
 
-  - `rclone_dest`: Path for cloud backups. Only the two most recent copies are kept. Default is `google:/Backups`.
+  - `rclone_dest`: Path for cloud (i.e Google Drive) backups. Only the two most recent copies are kept. Default is `google:/Backups`.
 
     - Note: Ensure the path does NOT have a trailing slash (/) or else backup "could" fail (i.e. `/sample/path`, not `/sample/path/`).
 
-  - `use_rsync`: Option to enable/disable rsync backup. Options are `true` or `false`. Default is `false`.
+  - `use_rsync`: Option to enable/disable rsync backups. Options are `true` or `false`. Default is `false`.
 
-  - `use_rclone`: Option to enable/disable cloud backup. Options are `true` or `false`. Default is `false`.
+  - `use_rclone`: Option to enable/disable cloud (i.e Google Drive) backups. Options are `true` or `false`. Default is `false`.
 
   - `cron_time`: How often to backup should run (only when `cron_state` is set to `present`). Options are `reboot`, `yearly`, `annually`, `weekly`, `daily`, or `hourly`. Default is `weekly`. 
 
@@ -86,7 +86,7 @@
 
     - Note 2: This option just allows the script to schedule the backup for you. You can manually schedule cron to run backups with `ansible-playbook cloudbox.yml --tags backup` called as root.
 
-  - `cron_state`: Option to enable or disable automatic backups. Options are `absent` or `present`. Default is `absent`.
+  - `cron_state`: Option to enable/disable automatic backups. Options are `absent` or `present`. Default is `absent`.
 
     - `absent` will remove any existing backup schedule. 
 

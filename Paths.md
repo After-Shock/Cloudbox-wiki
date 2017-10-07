@@ -45,6 +45,8 @@ Note: Make sure `/mnt/local` has enough space to store the imported media.
 
 ## Docker Paths
 
+The Dockerized App (e.g. Plex) will "see" the `Docker path`, but that path is actually the `Host Path` on the server. 
+
 Note: It is advised to leave at least 100GB free on `/opt` for the docker data (see below).
 
 ### Plex
