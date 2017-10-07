@@ -18,7 +18,7 @@
 
 ## Does Cloudbox support any other cloud storage provider other than Google Drive?
 
- - No. 
+ - In short, no.
 
  - Note: You may be able to modify Cloudbox to use another cloud storage provider (see [here](https://rclone.org/commands/rclone_mount/)), but that will be on you to setup yourself with no support from us.
 
