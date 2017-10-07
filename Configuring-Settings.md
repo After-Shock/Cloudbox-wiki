@@ -11,7 +11,10 @@
 
 ## 3. Options in Settings
 
-To see this in a nice table, visit https://pste.eu/p/Xs1L.html
+To see the information below in a nice table, visit https://pste.eu/p/Xs1L.html.
+
+
+---
 
 
 - `user`: User account for Cloudbox (will be created if it doesn't exist already). Default is `seed`.
