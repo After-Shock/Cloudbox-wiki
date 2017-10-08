@@ -6,7 +6,7 @@
 3. [Settings](#3-settings)
 
 <!-- /TOC -->
-
+---
 ## 1. Accessing Plex Requests
 
 - To access Plex Requests, visit http://plexrequests._yourdomain_.com
