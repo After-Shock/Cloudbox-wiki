@@ -16,7 +16,7 @@
 
    Note 1: You must use the same Google account as the one you are planning to use for Google Drive (see [[Prerequisites|Prerequisites#4-google-drive-account]]).
 
-   Note 2: If you keep getting the prompt for the authorization code, you must have used an incorrect Client ID/Secret. Remove the `config.json` and `token.json` files from `/opt/plexdrive/` and attempt setup again.
+   Note 2: If you keep getting the prompt for the authorization code, you might have used an incorrect Client ID/Secret. Remove the `config.json` and `token.json` files from `/opt/plexdrive/` and attempt setup again.
 
 1. When you see `First cache build process started...`, press `ctrl`+`c` on your keyboard to exit.
 
