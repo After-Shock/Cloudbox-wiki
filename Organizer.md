@@ -7,7 +7,7 @@
 	- [Homepage](#homepage)
 
 <!-- /TOC -->
-
+---
 
 ## 1. Accessing Organizr
 
