@@ -5,7 +5,7 @@
 3. [Settings](#3-settings)
 
 <!-- /TOC -->
-
+---
 ## 1. Accessing PlexPy
 
 1. To access PlexPy, visit http://plexpy._yourdomain_.com
