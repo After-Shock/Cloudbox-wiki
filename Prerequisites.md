@@ -8,7 +8,7 @@
 6. [Preferred Downloading Method](#6-preferred-downloading-method)
 
 <!-- /TOC -->
-
+---
 
 ## 1. Presumptions
 
