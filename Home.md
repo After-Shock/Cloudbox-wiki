@@ -55,3 +55,4 @@ _Last updated on: Oct 7, 2017_
 - Move Addons to Cloudbox Tools.
 - separate page on different cloudbox installs ?
 - page mentioning updating apps within cloudbox
+-faq on unionfs_cleaner config (swap) - aesthetics
