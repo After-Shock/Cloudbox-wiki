@@ -78,8 +78,6 @@ Media will be stored in `Movies` and `TV` folders, all within a `Media` folder i
    ```
 
 
- <sub> <a id="note1" href="#note1ref"><sup>1</sup></a> Although these folders are not meant to be changed, you can still separate content into multiple libraries by creating sub-folders within the `Movies` and `TV` folders (see [[Customizing Plex Libraries]] for more info). </sub>
-
 ## 5. Plex Account
 
 You'll need a Plex account (it's free). If you don't already have one, please visit https://www.plex.tv and create one.
@@ -99,3 +97,8 @@ If you plan on using torrents with Cloudbox, we recommend you have access to a [
 ### ii. Usenet
 
 If you plan on using [Usenet](https://www.reddit.com/r/usenet/wiki/faq#wiki_usenet_faq) (i.e. Newsgroups) with Cloudbox, you'll need 2 things: a [Usenet provider](https://www.reddit.com/r/usenet/wiki/providers) and a [Usenet indexer](https://www.reddit.com/r/usenet/wiki/indexers). We recommend you have multiple indexers (and even multiple providers) to better your chances at finding and downloading media. 
+
+---
+
+
+ <sub> <a id="note1" href="#note1ref"><sup>1</sup></a> Although these folders are not meant to be changed, you can still separate content into multiple libraries by creating sub-folders within the `Movies` and `TV` folders (see [[Customizing Plex Libraries]] for more info). </sub>
