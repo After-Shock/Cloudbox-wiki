@@ -5,7 +5,7 @@
 ## Don't want a certain docker app?
 
 - Get a list of docker container's installed: `docker ps -a`  
-- Just remove them with `docker stop <name> && docker rm <name>` (where `<name>` is replaced with the docker container's name).
+- Remove the one you don't want (where `<name>` is replaced with the docker container's name): `docker stop <name> && docker rm <name>`
 - Note: Be careful not to remove any container that is essential to Cloudbox (e.g. `nginx-proxy`)
 
 ## Does Cloudbox support encryption data on Google Drive?
