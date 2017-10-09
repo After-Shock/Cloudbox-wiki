@@ -58,3 +58,5 @@ _Last updated on: Oct 7, 2017_
 - faq on unionfs_cleaner config (swap) - aesthetics
 - sonarr/radarr api sections
 - how to add your own docker containers to with a few examples
+- autodlrss
+- plexpatrol ?
