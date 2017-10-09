@@ -2,9 +2,11 @@
 
   - ARM is not supported.
 
-## Dont want a certain docker app?
+## Don't want a certain docker app?
 
-  - Just remove them with `docker rm -f <appname>` after installing Cloudbox (where `<appname>` is replaced with the app's name).
+- Get a list of docker container's installed: `docker ps -a`  
+- Just remove them with `docker stop <name> && docker rm <name>` (where `<name>` is replaced with the docker container's name).
+- Note: Be careful not to remove any container that is essential to Cloudbox (e.g. `nginx-proxy`)
 
 ## Does Cloudbox support encryption data on Google Drive?
 
