@@ -143,7 +143,7 @@ sudo service docker start
    boost::filesystem::create_directories: Permission denied: "/config/Library/Logs"
    ```
 
-  There is an issue with the permissions on that folder that you'll need to fix manually (Cloudbox couldn't have fixed it via script since it wasn't created until Plex ran it's first scan)
+  There is an issue with the permissions on that folder that you'll need to fix manually (Cloudbox can't fix this as Plex creates this folder after the first scan)
 
    To fix this, Run the following:
 
