@@ -127,3 +127,47 @@ docker network disconnect -f <network name> <container name>
 sudo service docker stop
 sudo service docker start
 ```
+
+
+## Newly downloaded stuff in Sonarr and Radarr is not being added to Plex?
+
+- Test another download and run the following command:
+  ```
+   tail -f /opt/plex_autoscan/*.log
+  ```
+
+- If you see this...
+
+   ```
+   terminate called after throwing an instance of 'boost::filesystem::filesystem_error'
+   boost::filesystem::create_directories: Permission denied: "/config/Library/Logs"
+   ```
+
+  There is an issue with the permissions on that folder that youll need to fix manually (Cloudbox couldnt have fixed it via script since it was created until Plex ran it's first scan)
+
+   To fix this, Run the following:
+
+   ```
+   docker stop plex
+   sudo chown -R seed:seed /opt/plex
+   docker start plex
+   ```
+  
+
+   Example of a successful scan:
+
+   ```
+   2017-10-10 17:48:26,429 -    DEBUG -      PLEX [ 6185]: Waiting for turn in the scan request backlog...
+   2017-10-10 17:48:26,429 -     INFO -      PLEX [ 6185]: Scan request is now being processed
+   2017-10-10 17:48:26,474 -     INFO -      PLEX [ 6185]: No 'Plex Media Scanner' processes were found.
+   2017-10-10 17:48:26,474 -     INFO -      PLEX [ 6185]: Starting Plex Scanner
+   2017-10-10 17:48:26,475 -    DEBUG -      PLEX [ 6185]: docker exec -u plex -i plex bash -c 'export LD_LIBRARY_PATH=/usr/lib/plexmediaserver;/usr/lib/plexmediaserver/Plex\ Media\ Scanner --scan --refresh --section 1 --directory '"'"'/data/Movies/Ravenous (1999)'"'"''
+   2017-10-10 17:48:33,712 -     INFO -     UTILS [ 6185]: GUI: Scanning Ravenous (1999)
+   2017-10-10 17:48:33,959 -     INFO -     UTILS [ 6185]: GUI: Matching 'Ravenous'
+   2017-10-10 17:48:38,556 -     INFO -     UTILS [ 6185]: GUI: Score for 'Ravenous' (1999) is 117
+   2017-10-10 17:48:38,607 -     INFO -     UTILS [ 6185]: GUI: Requesting metadata for 'Ravenous'
+   2017-10-10 17:48:38,705 -     INFO -     UTILS [ 6185]: GUI: Background media analysis on Ravenous
+   2017-10-10 17:48:39,201 -     INFO -      PLEX [ 6185]: Finished scan!
+   ```
+
+
