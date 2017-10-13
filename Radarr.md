@@ -27,7 +27,7 @@
 
 1. Click "Settings" -> "General".
 1. Click "Show Advanced Settings".
-1. Under "Updates - Branch", type in `nightly`.
+1. Under "Updates", set "Branch" to `nightly`.
 
     ![Radarr Branch](http://i.imgur.com/QA8aqip.png)
 
