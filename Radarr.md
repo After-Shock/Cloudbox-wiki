@@ -42,6 +42,8 @@
 
 1. Enable "Rename movies".
 
+1. Enable "Replace Illegal Characters".
+
 1. Set your preferred naming format.
 
 1. Click "Save".
