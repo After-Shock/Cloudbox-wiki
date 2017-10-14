@@ -28,7 +28,7 @@
     1. [[PlexPy]]
     1. [[Plex Requests]]
     1. [[Portainer]]
-    1. [[Organizer]]
+    1. [[Organizr]]
 
 ***
 
