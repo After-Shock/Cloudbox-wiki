@@ -31,7 +31,7 @@ You can also force it to use a specific icon with `--icon "path"`
 
 ## 3. Move the Nativefier app 
 
-Copy the app (e.g  `.app` in MacOS, `.exe` in Windows) to you preferred location (e.g. `Applications` in MacOS)
+Copy the app (e.g.  `.app` in MacOS, `.exe` in Windows) to you preferred location (e.g. `Applications` in MacOS)
 
 
 ## 4.  Some examples below
