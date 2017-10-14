@@ -181,7 +181,7 @@ sudo service docker start
 sudo systemctl status plexdrive
 ```
 
-### Error: `Process: 11549 ExecStop=/bin/fusermount -uz /mnt/plexdrive (code=exited, status=217/USER)`
+### Error: `Process: XXXXX ExecStop=/bin/fusermount -uz /mnt/plexdrive (code=exited, status=217/USER)`
 
 This could happen if you already had a user account on the server before adding it to settings.yml. You simply need to edit 3 files located in `/etc/systemd/system/` (`plex_autoscan.service`, `plexdrive.service`, and `unionfs.service`)
 
