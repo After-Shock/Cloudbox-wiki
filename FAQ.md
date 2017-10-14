@@ -171,3 +171,43 @@ sudo service docker start
    ```
 
 
+
+
+## Don't see your Gdrive files in /mnt/plexdrive?
+
+### Check on status
+
+```
+sudo systemctl status plexdrive
+```
+
+### Error: `Process: 11549 ExecStop=/bin/fusermount -uz /mnt/plexdrive (code=exited, status=217/USER)`
+
+This could happen if you already had a user account on the server before adding it to settings.yml. You simply need to edit 3 files located in `/etc/systemd/system/` (`plex_autoscan.service`, `plexdrive.service`, and `unionfs.service`)
+
+like this...
+```
+sudo nano /etc/systemd/system/plexdrive.service
+```
+
+and change `User` and `Group` under `[Service]` to match yours' (run `id` on command prompt to check):
+
+```
+[Service]
+User=yourusername
+Group=yourgroupname
+```
+
+After editing all three files...reload systemctl:
+
+```
+sudo systemctl daemon reload
+```
+
+And restart the services:
+
+```
+sudo systemctl restart plexdrive.service
+sudo systemctl restart plex_autoscan.service
+sudo systemctl restart unionfs.service
+```
