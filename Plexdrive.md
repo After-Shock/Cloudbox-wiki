@@ -30,6 +30,27 @@
     sudo systemctl enable plexdrive
     sudo systemctl start plexdrive
     ```
+1. Verify Plexdrive is running ok:
+
+    ```bash
+    sudo systemctl status plexdrive
+    ```
+
+    You should see it as being `active (running)` like below:
+
+    ```bash
+   plexdrive.service - Plexdrive
+   Loaded: loaded (/etc/systemd/system/plexdrive.service; enabled; vendor preset: enabled)
+   Active: active (running) since Sat 2017-10-14 12:41:01 CEST; 8h ago
+   Main PID: 1025 (plexdrive)
+   Tasks: 21
+   Memory: 2.7G
+   CPU: 23.494s
+   CGroup: /system.slice/plexdrive.service
+           └─1025 /opt/plexdrive/plexdrive mount -v 3 --refresh-interval=1m --chunk-check-threads=8 --chunk-load-threads=8 --chunk-
+    ```
+
+
 1. You should now be able to see all your media files in `/mnt/unionfs/Media` (i.e. on Google drive and your server, combined).
 
    If you are not able to, then something was done incorrectly during the setup of Plexdrive (i.e. this page) and/or your media is not located in the correct folder in Google Drive (see [[Prerequisites|Prerequisites#4-google-drive-account]] and [[Paths|Paths#google-drive-paths]]).
