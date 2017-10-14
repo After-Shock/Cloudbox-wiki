@@ -37,6 +37,7 @@ _Last updated on: Oct 7, 2017_
 - [[Docker Tips and Shortcuts]]
 - [[Addons]]
 - [[Revoking SSL Certificates]]
+- [[User Submitted Guides]]
 
 ### Troubleshooting ###
 - [[FAQ]]
