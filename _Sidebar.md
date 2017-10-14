@@ -40,11 +40,12 @@
 ### More Information ###
 - [[UnionFS Cleaner]]
 - [[Updating Cloudbox]]
-- [[Backup & Restore]]
+- [[Backup and Restore]]
 - [[How to get a Google Drive API Client ID and Client Secret]]
-- [[Docker Tips & Shortcuts]]
+- [[Docker Tips and Shortcuts]]
 - [[Addons]]
 - [[Revoking SSL Certificates]]
+- [[User Submitted Guides]]
 
 ***
 
