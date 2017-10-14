@@ -37,7 +37,10 @@ _Last updated on: Oct 7, 2017_
 - [[Docker Tips and Shortcuts]]
 - [[Addons]]
 - [[Revoking SSL Certificates]]
-- [[User Submitted Guides]]
+
+### User Submitted Guides
+- [[Cloudflare|Add Plex to Cloudflare]] coming soon..
+- [[Nativifier|Nativifier - Create desktop apps for Cloudbox]] coming soon.
 
 ### Troubleshooting ###
 - [[FAQ]]
