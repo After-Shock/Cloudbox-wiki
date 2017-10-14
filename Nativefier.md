@@ -4,11 +4,11 @@
 
 You could run this via docker, but I haven't tested that myself. 
 
-1. Install [[Node.js]](https://nodejs.org/en/download/current)
+1. Install [Node.js](https://nodejs.org/en/download/current)
 
 1. Install [ImageMagick](https://www.imagemagick.org/script/download.php)
 
-1. Install [[Xcode]](https://developer.apple.com/xcode) (only for MacOS)
+1. Install [Xcode](https://developer.apple.com/xcode) (only for MacOS)
 
 1. Install Nativefier via:
 
