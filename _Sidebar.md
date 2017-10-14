@@ -45,7 +45,12 @@
 - [[Docker Tips and Shortcuts]]
 - [[Addons]]
 - [[Revoking SSL Certificates]]
-- [[User Submitted Guides]]
+
+
+***
+
+### User Submitted Guides
+- [[Nativefier]] (Create desktop apps for Cloudbox)
 
 ***
 
