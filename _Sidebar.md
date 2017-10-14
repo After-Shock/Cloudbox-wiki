@@ -50,7 +50,8 @@
 ***
 
 ### User Submitted Guides
-- [[Nativefier]] (Create desktop apps for Cloudbox)
+- [[Nativefier]]
+- [How to enable iGPU for Hetzner.com servers](https://github.com/desimaniac/docs/blob/master/enable_igpu_on_hetzner.md)
 
 ***
 
