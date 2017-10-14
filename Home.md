@@ -39,7 +39,7 @@ _Last updated on: Oct 7, 2017_
 - [[Revoking SSL Certificates]]
 
 ### User Submitted Guides
-- [[Nativefier - Create desktop apps for Cloudbox|Nativefier]] by desimaniac.
+- [[Nativefier - Create desktop apps for Cloudbox|Nativefier]].
 - [[Add Plex to Cloudflare|Cloudflare]] coming soon..
 
 ### Troubleshooting ###
