@@ -1,4 +1,8 @@
-[Nativefier](https://github.com/jiahaog/nativefier) is a cross-platform application that allows you to turn any website into a self contained (Chrome-based) app. Below I present a little guide on how you can use this as an alternative to Organizr. 
+[Nativefier](https://github.com/jiahaog/nativefier) is a cross-platform application that allows you to turn any website into a self contained (Chrome-based) app. This way you can open your Cloudbox apps without having to deal with multiple tabs in your internet browser. You can use this as an alternative to [[Organizr]]. 
+
+
+The following is a little guide to set this up.
+
 
 ## 1. Install Nativefier
 
