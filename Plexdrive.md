@@ -36,7 +36,7 @@
     sudo systemctl status plexdrive
     ```
 
-    You should see it as being `active (running)` like below:
+    You should see it as being `active (running)` ...
 
     ```bash
    plexdrive.service - Plexdrive
