@@ -50,6 +50,7 @@
            └─1025 /opt/plexdrive/plexdrive mount -v 3 --refresh-interval=1m --chunk-check-threads=8 --chunk-load-threads=8 --chunk-
     ```
 
+    If you see an error here, check [[FAQ]] for possible fix(es). 
 
 1. You should now be able to see all your media files in `/mnt/unionfs/Media` (i.e. on Google drive and your server, combined).
 
