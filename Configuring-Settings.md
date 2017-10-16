@@ -47,7 +47,7 @@ To see the information below in a nice table, click [[here|https://pste.eu/p/G1f
 ---
 
 
-- `user`: User account for Cloudbox (will be created if it doesn't exist already). Default is `seed`. This variable is required.
+- `user`: User account for Cloudbox (will be created if it doesn't exist already). Default is `seed`. This parameter is required.
 
 - `passwd`: Password for user account (only needed if user account is being created). Leave blank if not needed.
 
