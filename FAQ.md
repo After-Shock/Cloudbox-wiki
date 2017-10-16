@@ -183,9 +183,9 @@ sudo systemctl status plexdrive
 
 ### Error: `Process: XXXXX ExecStop=/bin/fusermount -uz /mnt/plexdrive (code=exited, status=217/USER)`
 
-This could happen if you already had a user account on the server before adding it to settings.yml. You simply need to edit 3 files located in `/etc/systemd/system/` (`plex_autoscan.service`, `plexdrive.service`, and `unionfs.service`)
+This could happen if you already had a user account on the server before adding it to settings.yml. 
 
-like this...
+You simply need to edit 3 files located in `/etc/systemd/system/` (`plex_autoscan.service`, `plexdrive.service`, and `unionfs.service`) like this...
 ```
 sudo nano /etc/systemd/system/plexdrive.service
 ```
