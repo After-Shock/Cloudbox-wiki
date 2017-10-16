@@ -4,7 +4,7 @@
 
 1. Select `n` to add a new remote. 
 
-1. Type `google` as the name (_lowercase_) and press `enter`.
+1. Type the Rclone remote you specified in [[settings.yml|Configuring Settings]] (default was `google` in lowercase) and press `enter`.
 
 1. Type the number corresponding for "Google Drive" and press `enter`. 
 
