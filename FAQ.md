@@ -198,7 +198,7 @@ User=yourusername
 Group=yourgroupname
 ```
 
-After editing all three files...reload systemctl:
+After editing all three files, reload systemctl:
 
 ```
 sudo systemctl daemon reload
