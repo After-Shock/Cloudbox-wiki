@@ -208,6 +208,6 @@ And restart the services:
 
 ```
 sudo systemctl restart plexdrive.service
-sudo systemctl restart plex_autoscan.service
 sudo systemctl restart unionfs.service
+sudo systemctl restart plex_autoscan.service
 ```
