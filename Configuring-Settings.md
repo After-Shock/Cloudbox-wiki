@@ -24,7 +24,7 @@
   plex_autoscan:
     ip: "0.0.0.0"
   rclone:
-    version: 1.36
+    version: 1.38
   unionfs_cleaner:
     max_local_gigabytes: 200
     size_check_mins: 30
@@ -41,7 +41,7 @@
 
 ## 3. Options in Settings
 
-To see the information below in a nice table, click [[here|https://pste.eu/p/G1fe.html]].
+To see the information below in a nice table, click [[here|https://pste.eu/p/sTAC.html]].
 
 
 ---
@@ -88,7 +88,7 @@ To see the information below in a nice table, click [[here|https://pste.eu/p/G1f
 
 - `rclone`:
 
-  - `version`: Rclone version. Should not be changed as this is the most stable tested version. Default is `1.36`.
+  - `version`: Rclone version. Version mentioned here is the the current most stable version. Default is `1.38`.
 
 - `unionfs_cleaner`:
 
@@ -96,7 +96,7 @@ To see the information below in a nice table, click [[here|https://pste.eu/p/G1f
 
   - `size_check_mins`: How often in minutes local media size is checked. Default is `30`.
 
-  - `rclone_remote`: Should not be changed. Default is `"google:"`.
+  - `rclone_remote`: Remote path for Google Drive (see [[Prerequisites|Prerequisites#4-google-drive-account]]. Default is `"google:"`.
 
 - `backup`:
 
