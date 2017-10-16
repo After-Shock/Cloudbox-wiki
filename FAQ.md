@@ -201,7 +201,7 @@ Group=yourgroupname
 After editing all three files, reload systemctl:
 
 ```
-sudo systemctl daemon reload
+sudo systemctl daemon-reload
 ```
 
 And restart the services:
