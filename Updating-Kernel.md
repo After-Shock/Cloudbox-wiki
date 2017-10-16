@@ -1,4 +1,4 @@
-Note: Kernel needs to be updated, to a minimum of 4.10 generic, before Cloudbox install is run.
+Note: The Ubuntu kernel needs to be updated before Cloudbox can run. If your kernel version is 4.10-generic or higher, you may skip this page.
 
 1. Go into the cloudbox folder (if not already there)
 
