@@ -16,6 +16,15 @@ Please remember, if you want your seeding content to be also backed up, you will
 
 Only /opt is backed up, so dont expect your /home folder and other stuff to be backed up, as it will not be, and could cause data loss if you were expecting it to be.
 
+
+```
+a manual backup must ALWAYS be ran
+for anything in settings.yml to take effect
+so even if its enabled when u first install it
+backup role is never ran
+to set that stuff
+```
+
 # Restore
 
 1. Enable either rsync or rclone under backup of settings.yml
