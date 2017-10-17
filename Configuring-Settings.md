@@ -102,15 +102,15 @@ To see the information below in a nice table, click [[here|https://pste.eu/p/Xs5
 
   - `tgz_dest`: Path for local backups (.tar). Only the two of the most recent copies are kept. Default is `"/home/{{user}}/Backups"`.
 
-    - Note: Ensure the path does NOT have a trailing slash (/) or else backup will fail (i.e. `/sample/path`, not `/sample/path/`).
+    - Note: Ensure the path does NOT have a trailing slash ( / ) or else backup will fail (i.e. `/sample/path`, not `/sample/path/`).
 
   - `rsync_dest`: Path for rsync backups (.tar). Only the two of the most recent copies are kept.
 
-    - Note: Ensure the path does NOT have a trailing slash (/) or else backup will fail (i.e. `/sample/path`, not `/sample/path/`).
+    - Note: Ensure the path does NOT have a trailing slash ( / ) or else backup will fail (i.e. `/sample/path`, not `/sample/path/`).
 
   - `rclone_dest`: Path for cloud (i.e Google Drive) backups. Only the two most recent copies are kept. Default is `google:/Backups`.
 
-    - Note: Ensure the path does NOT have a trailing slash (/) or else backup "could" fail (i.e. `/sample/path`, not `/sample/path/`).
+    - Note: Ensure the path does NOT have a trailing slash ( / ) or else backup "could" fail (i.e. `/sample/path`, not `/sample/path/`).
 
   - `use_rsync`: Option to enable/disable rsync backups. Options are `true` or `false`. Default is `false`.
 
