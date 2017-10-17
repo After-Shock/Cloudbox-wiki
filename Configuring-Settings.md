@@ -41,7 +41,7 @@
 
 ## 3. Options in Settings
 
-To see the information below in a nice table, click [[here|https://pste.eu/p/yC9o.html]].
+To see the information below in a nice table, click [[here|https://pste.eu/p/81gG.html]].
 
 
 ---
@@ -88,7 +88,7 @@ To see the information below in a nice table, click [[here|https://pste.eu/p/yC9
 
 - `rclone`:
 
-  - `version`: Rclone version. Version mentioned here is the the current most stable version. Default is `1.38`.
+  - `version`: Rclone version. Default listed version is the most currently, stable version. Default is `1.38`.
 
 - `unionfs_cleaner`:
 
