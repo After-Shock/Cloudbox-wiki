@@ -41,15 +41,15 @@
 
 ## 3. Options in Settings
 
-To see the information below in a nice table, click [[here|https://pste.eu/p/sTAC.html]].
+To see the information below in a nice table, click [[here|https://pste.eu/p/xCuW.html]].
 
 
 ---
 
 
-- `user`: User account for Cloudbox (will be created if it doesn't exist already). Default is `seed`. This parameter is required.
+- `user`: User account for Cloudbox. If user account with this name does not already exist, it will be created for you. Default is `seed`. This parameter is required.
 
-- `passwd`: Password for user account (only needed if user account is being created). Leave blank if not needed.
+- `passwd`: Password for user account. This parameter is required.
 
   - Note: Password **must** be in alphanumeric characters. No special characters. 
 
