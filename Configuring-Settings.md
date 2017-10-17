@@ -120,7 +120,7 @@ To see the information below in a nice table, click [[here|https://pste.eu/p/ClC
 
     - Note 1: It is not recommended to schedule backups hourly as backing up may take a long time and cause future backup attempts to fail (the backup will not occur while another one is in progress, thanks to backup.lock file being created/removed during this process). 
 
-    - Note 2: This option just allows the script to schedule the backup for you. You can manually schedule cron to run backups with `ansible-playbook cloudbox.yml --tags backup` called as root.
+    - Note 2: This option just allows the script to schedule the backup for you. You can manually schedule cron to run backups with `/usr/local/bin/ansible-playbook /home/seed/cloudbox/cloudbox.yml --tags backup` called as root.
 
   - `cron_state`: Option to enable/disable automatic backups. Options are `absent` or `present`. Default is `absent`.
 
