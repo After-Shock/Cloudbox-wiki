@@ -41,7 +41,7 @@
 
 ## 3. Options in Settings
 
-To see the information below in a nice table, click [[here|https://pste.eu/p/xCuW.html]].
+To see the information below in a nice table, click [[here|https://pste.eu/p/Xs5B.html]].
 
 
 ---
