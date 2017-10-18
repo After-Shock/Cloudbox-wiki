@@ -33,7 +33,7 @@ Slightly more advanced command:
 nativefier --fast-quit --disable-dev-tools  --name "App Name" "https://appname.domainname.com" /path/where/app/is/saved/
 ```
 
-You can also force it to use a specific icon with `--icon "path"`
+You can also force it to use a specific icon with `--icon "path/to/icon"`, where the path/to/icon can be a local file or online path.
 
 ## 3. Move the Nativefier app 
 
