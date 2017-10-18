@@ -6,7 +6,7 @@
     cat /opt/plex_autoscan/*.log | grep http
     ```
 
-    _Note: if you have a separate Plex and Feeder setup, this will be done on the server that has Plex Cloudbox installed._
+    _Note: If you have a separate Plex and Feeder setup, this will be done on the server that has Plex Cloudbox installed._
     
     _Note 2: You could use your Plex subdomain in lieu of the IP address, but that can be an issue if you plan on using a CDN (e.g. Cloudflare) with Plex._
     
