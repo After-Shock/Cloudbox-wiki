@@ -45,7 +45,7 @@ Enter setup by clicking on "Config" at the top.
        - Default category: `No category` (type that out)
        - NZB adding type: `Upload NZB` (works better than `Send link`) 
   
-       ![](https://i.imgur.com/kSinOG7.png)
+       ![](https://i.imgur.com/GrYYzgl.png)
 
 ## 3. API Key
 
