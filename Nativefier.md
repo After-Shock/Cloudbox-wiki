@@ -22,7 +22,13 @@ You could run this via docker, but I haven't tested that myself.
 
 ## 2. Create Nativefier Desktop Apps
 
-Basic Command:
+Basic command:
+
+```
+nativefier https://appname.domainname.com
+```
+
+Slightly more advanced command:
 ```
 nativefier --fast-quit --disable-dev-tools  --name "App Name" "https://appname.domainname.com" /path/where/app/is/saved/
 ```
