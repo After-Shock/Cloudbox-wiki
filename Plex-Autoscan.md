@@ -1,11 +1,14 @@
 ## 1. Obtaining the Plex Autoscan URL
 
-1. On the server's shell, run the following command:
+1. On the command prompt run the following command:
 
     ```
     cat /opt/plex_autoscan/*.log | grep http
     ```
-1. Find the link that looks like `http://0.0.0.0:3468/PLEXAUTOSCANAPIKEY`and replace "0.0.0.0" with your server's IP address, so that it now looks like:
+
+  _ Note: if you have a separate Plex and Feeder setup, this will be done on the server that has Plex Cloudbox installed._
+
+1. Find the link that looks like `http://0.0.0.0:3468/PLEXAUTOSCANAPIKEY`and replace "0.0.0.0" with your (Plex) server's IP address, so that it now looks like:
 
     ```
    http://yourserveripaddress:3468/PLEXAUTOSCANAPIKEY
