@@ -12,7 +12,7 @@
 
 ## 1. Presumptions
 
-Cloudbox assumes you have a basic understanding of Linux, Docker containers, BitTorrents, and/or Usenet, and are also familiar with Sonarr, Radarr, NZBGet, rTorrent/ruTorrent, and Plex. 
+Cloudbox assumes you have a basic understanding of Linux, Docker containers, BitTorrent, and Usenet, and are also familiar with Sonarr, Radarr, NZBGet, rTorrent/ruTorrent, and Plex. 
 
 The guides in this wiki are only meant to setup Cloudbox specific settings into the various apps that are installed (e.g. Sonarr, Radarr, Plex, etc) and are not meant to be a full setup for, or an introduction to, the workings of these apps. 
 
