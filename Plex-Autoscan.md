@@ -7,16 +7,15 @@
     ```
 
     _Note: If you have a separate Plex and Feeder setup, this will be done on the server that has Plex Cloudbox installed._
-    
-    _Note 2: You could use your Plex subdomain in lieu of the IP address, but that can be an issue if you plan on using a CDN (e.g. Cloudflare) with Plex._
-    
+       
 
 1. Find the link that looks like `http://0.0.0.0:3468/PLEXAUTOSCANAPIKEY`and replace "0.0.0.0" with your (Plex) server's IP address, so that it now looks like:
 
     ```
    http://yourserveripaddress:3468/PLEXAUTOSCANAPIKEY
    ```
-
+    _Note: You could use your Plex subdomain in lieu of the IP address, but that can be an issue if you plan on using a CDN (e.g. Cloudflare) with Plex._
+ 
 1. This is your Plex Autoscan URL and it will be used later by [[Sonarr|Sonarr#7-plex-autoscan]] and [[Radarr|Radarr#7-plex-autoscan]].
 
 ## 2. Retrieving a Plex Access Token
