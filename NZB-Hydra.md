@@ -42,7 +42,7 @@ Enter setup by clicking on "Config" at the top.
        - Use SSL: `OFF`
        - Username: [[your NZBGet Username|NZBGet]]
        - Password: [[your NZBGet Password|NZBGet]]
-       - Default category: `No category` (type that out)
+       - Default category: `No category` (verbatim)
        - NZB adding type: `Upload NZB` (works better than `Send link`) 
   
        ![](https://i.imgur.com/GrYYzgl.png)
