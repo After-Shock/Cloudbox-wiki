@@ -37,6 +37,7 @@ Enter setup by clicking on "Config" at the top.
     1. "Add new downloader" -> "NZBGet".
 
     1. Fill in the following:
+       - Name: NZBGet
        - Host: `nzbget`
        - Port: `6789`
        - Use SSL: `OFF`
