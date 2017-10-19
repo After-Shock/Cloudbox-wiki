@@ -1,12 +1,10 @@
 [Nativefier](https://github.com/jiahaog/nativefier#nativefier) is a cross-platform application that allows you to turn any website into a self contained (Chrome-based) app. This way you can open your Cloudbox apps without having to deal with multiple tabs in your internet browser. You can use this as an alternative to [[Organizr]]. 
 
 
-The following is a little guide to set this up.
+The following is a little guide to set this up on your PC (not on the server).
 
 
 ## 1. Install Nativefier
-
-You could run this via docker, but I haven't tested that myself. 
 
 1. Install [Node.js](https://nodejs.org/en/download/current)
 
@@ -19,6 +17,8 @@ You could run this via docker, but I haven't tested that myself.
    ```
    npm install nativefier -g
    ```
+
+Note: You could run this via docker, but I haven't tested that myself. 
 
 ## 2. Create Nativefier Desktop Apps
 
