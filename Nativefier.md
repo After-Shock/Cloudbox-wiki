@@ -21,7 +21,7 @@ Two ways to do this:
       ```
       npm install nativefier -g
       ```
-* Clone the project and run it via [docker](https://github.com/jiahaog/nativefier#docker-image)
+* Download the docker [image](https://hub.docker.com/r/jiahaog/nativefier/) and use the [run command](https://github.com/jiahaog/nativefier#docker-image).
 
 ## 2. Create Nativefier Desktop Apps
 
