@@ -25,7 +25,7 @@ You could run this via docker, but I haven't tested that myself.
 Basic command:
 
 ```
-nativefier https://appname.domainname.com
+nativefier appname.domainname.com
 ```
 
 Slightly more advanced command:
