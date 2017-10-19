@@ -19,9 +19,7 @@ The following is a little guide to set this up on your PC (not on the server).
       ```
       npm install nativefier -g
       ```
-1. Via [docker](https://github.com/jiahaog/nativefier#docker-image)
-
-Note: You could run this via docker, but I tried that myself. 
+1. Clone the project and run it via [docker](https://github.com/jiahaog/nativefier#docker-image)
 
 ## 2. Create Nativefier Desktop Apps
 
