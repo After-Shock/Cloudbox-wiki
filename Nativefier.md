@@ -4,19 +4,22 @@
 The following is a little guide to set this up on your PC (not on the server).
 
 
-## 1. Install Nativefier
+## 1. Setup Nativefier
 
-1. Install [Node.js](https://nodejs.org/en/download/current)
+1. Native Install
 
-1. Install [ImageMagick](https://www.imagemagick.org/script/download.php)
+   1. Install [Node.js](https://nodejs.org/en/download/current)
 
-1. Install [Xcode](https://developer.apple.com/xcode) (only for MacOS)
+   1. Install [ImageMagick](https://www.imagemagick.org/script/download.php)
 
-1. Install Nativefier via:
+   1. Install [Xcode](https://developer.apple.com/xcode) (only for MacOS)
 
-   ```
-   npm install nativefier -g
-   ```
+   1. Install Nativefier via:
+
+      ```
+      npm install nativefier -g
+      ```
+1. Via [docker](https://github.com/jiahaog/nativefier#docker-image)
 
 Note: You could run this via docker, but I tried that myself. 
 
