@@ -40,12 +40,8 @@ nativefier --fast-quit --disable-dev-tools  --name "App Name" "https://appname.d
 
 You can also force it to use a specific icon with `--icon "path/to/icon"`, where the path/to/icon can be a local file or online path.
 
-## 3. Move the Nativefier app 
 
-Copy the app (e.g.  `.app` in MacOS, `.exe` in Windows) to you preferred location (e.g. `Applications` in MacOS)
-
-
-## 4.  Some examples below
+Some examples you can use:
 
 ```
 nativefier --fast-quit --disable-dev-tools --name "Sonarr" "https://sonarr.domain.com" ~/nativefier
@@ -58,5 +54,12 @@ nativefier --fast-quit --disable-dev-tools --name "NZB Hydra" "https://nzbhydra.
 nativefier --fast-quit --disable-dev-tools --name "ruTorrent" "https://rutorrent.domain.com" ~/nativefier
 
 ```
+
+## 3. Move the Nativefier app 
+
+Copy the app (e.g.  `.app` in MacOS, `.exe` in Windows) to you preferred location (e.g. `Applications` in MacOS)
+
+
+
 
 
