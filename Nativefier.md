@@ -1,7 +1,7 @@
 [Nativefier](https://github.com/jiahaog/nativefier#nativefier) is a cross-platform application that allows you to turn any website into a self contained (Chrome-based) app. This way you can open your Cloudbox apps without having to deal with multiple tabs in your internet browser. You can use this as an alternative to [[Organizr]]. 
 
 
-The following is a little guide to set this up on your PC (not on the server).
+The following is a little guide to set Nativefier on the PC you want to access your server from (not on the server itself).
 
 
 ## 1. Setup Nativefier
