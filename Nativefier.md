@@ -25,6 +25,8 @@ Two ways to do this:
 
 ## 2. Create Nativefier Desktop Apps
 
+The following is for the native install.
+
 Basic command:
 
 ```
