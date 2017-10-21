@@ -1,17 +1,4 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Script will create / update all the subdomains with your server IP and enable proxy for Plex.
 
 1. Sign up for [Cloudflare](https://www.cloudflare.com/).
 
@@ -27,6 +14,4 @@
    python3 cloudflared.py
    ```
 
-1. Enter your email address, API key, domain, and server IP. 
-
-1. Script will create / update all the subdomains with your server IP and enable proxy for Plex.
+1. Enter your email address, API key, domain, and server IP when asked.
