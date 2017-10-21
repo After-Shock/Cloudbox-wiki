@@ -11,7 +11,7 @@ Script will create / update all the subdomains with your server IP and enable pr
 1. Run python script
 
    ```
-   python3 cloudflared.py
+   python3 /opt/scripts/cloudflare/cloudflared.py
    ```
 
 1. Enter your email address, API key, domain, and server IP when asked.
