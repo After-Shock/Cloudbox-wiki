@@ -8,7 +8,7 @@ Script will create / update all the subdomains with your server IP address and e
 
 1. Go to the "Overview" tab, click "Get your API key", then retrieve your "Global API Key".
 
-1. Run python script
+1. Run the following python script:
 
    ```
    python3 /opt/scripts/cloudflare/cloudflared.py
