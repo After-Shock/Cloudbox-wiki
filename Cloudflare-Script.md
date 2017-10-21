@@ -14,4 +14,4 @@ Script will create / update all the subdomains with your server IP and enable pr
    python3 /opt/scripts/cloudflare/cloudflared.py
    ```
 
-1. Enter your email address, API key, domain, and server IP when asked.
+1. When asked, enter your email address, API key, domain, and server IP address.
