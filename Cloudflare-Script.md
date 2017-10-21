@@ -1,4 +1,4 @@
-Script will create / update all the subdomains with your server IP address and enable proxy for Plex.
+Script will create / update all the subdomains with your server IP address and enables DNS proxy for Plex.
 
 1. Sign up for [Cloudflare](https://www.cloudflare.com/).
 
