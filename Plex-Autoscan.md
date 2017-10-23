@@ -37,7 +37,7 @@ There are a few different ways to do this. Any of these will do.
 
    1. Go [[here|https://github.com/jacobwgillespie/plex-token-bookmarklet]] and drag the bookmarklet into the bookmarks bar of your browser. 
 
-      -  You can also just manually create a bookmark and pasting in the following address:
+      -  You can also create a bookmark and paste in the following address:
 
          ```
          javascript:(function()%7Bif%20(%2F(%5E%7C%5C.)plex%5C.tv%24%2F.test(window.location.hostname))%20%7Bprompt('Your%20Plex%20token'%2C%20window.PLEXWEB.myPlexAccessToken%7C%7Cwindow.localStorage.myPlexAccessToken)%7D%20else%20%7Balert('Please%20drag%20this%20link%20to%20your%20bookmark%20bar%20and%20click%20it%20when%20using%20the%20Plex%20Web%20App')%3B%7D%7D)()
