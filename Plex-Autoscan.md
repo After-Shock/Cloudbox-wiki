@@ -1,6 +1,6 @@
 ## 1. Obtaining the Plex Autoscan URL
 
-Plex Autoscan URL is needed during the [[Sonarr|Sonarr#7-plex-autoscan]] and [[Radarr|Radarr#7-plex-autoscan]] setup.
+The Plex Autoscan URL is needed during the [[Sonarr|Sonarr#7-plex-autoscan]] and [[Radarr|Radarr#7-plex-autoscan]] setup.
 
 This will be in the format of: `http://server_ip_address:port/token`
 
