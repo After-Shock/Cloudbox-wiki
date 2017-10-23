@@ -20,7 +20,20 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
 
 There are a few different ways to do this. Any of these will do. 
 
-1. Using a Bookmarklet
+1. Using a script <a href="#note1" id="note1ref"><sup>[1]</sup></a> 
+
+
+   1. On the server's shell, run the following command:
+
+      ```bash
+      /opt/scripts/plex/plex_token.sh
+      ```
+   
+   1. You will be prompted to enter your Plex login and then presented with the  Plex Access Token (under `Your X_PLEX_TOKEN:`)
+
+
+1. Using a Bookmarklet <a href="#note2" id="note2ref"><sup>[2]</sup></a> 
+
 
    1. Go to https://github.com/jacobwgillespie/plex-token-bookmarklet and simply drag the bookmarlet into bookmarks bar of your browser. 
 
@@ -31,17 +44,7 @@ There are a few different ways to do this. Any of these will do.
           ```
 
     1.  Go to http://plex.tv/web and login. Click on the bookmarklet to obtain a Plex Access Token.
-
-1. Using a script (credit: https://github.com/wernight/docker-plex-media-server)
-
-   1. On the server's shell, run the following command:
-
-      ```bash
-      /opt/scripts/plex/plex_token.sh
-      ```
    
-   1. You will be prompted to enter your Plex login and then presented with the  Plex Access Token (under `Your X_PLEX_TOKEN:`)
-
 
 ## 3. Adding Plex Access Token into Plex Autoscan
 
@@ -55,3 +58,12 @@ There are a few different ways to do this. Any of these will do.
       - Note: Make sure it is within the quotes (`"`) and there is a comma (`,`) after it.
 
    1. `ctrl-x` and `y` to save.
+
+
+---
+
+Credit:
+ 
+<sub> <a id="note1" href="#note1ref"><sup>1</sup></a> https://github.com/wernight/docker-plex-media-server</sub>
+
+ <sub> <a id="note2" href="#note2ref"><sup>2</sup></a> https://github.com/jacobwgillespie</sub>
