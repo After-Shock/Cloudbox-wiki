@@ -29,7 +29,7 @@ There are a few different ways to do this. Any of these will do.
     1.  Go to http://plex.tv/web and login. Click on the bookmarklet to obtain a Plex Access Token.
    
 
-## 2. Add Plex Access Token into Plex Autoscan
+## 2. Add the Plex Access Token into Plex Autoscan
 
    1. On the server's shell, run the following command:
 
