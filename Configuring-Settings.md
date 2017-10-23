@@ -41,7 +41,7 @@
 
 ## 3. Options in Settings
 
-To see the information below in a nice table, click [[here|https://pste.eu/p/myLp.html]].
+To see the information below in a nice table, click [[here|https://pste.eu/p/D67Q.html]].
 
 
 ---
@@ -74,7 +74,7 @@ To see the information below in a nice table, click [[here|https://pste.eu/p/myL
 
   - `tag`: Options are `public` or `plexpass`. Default is `public`.
 
-    - Note: Use `plexpass` only if you have an active [Plex Pass](https://www.plex.tv/features/plex-pass/). If you decide to change this later, you will need to update Plex by running Cloudbox command with the "update-plex" tag (i.e. `sudo ansible-playbook cloudbox.yml --tags update-plex`).
+    - Note: Use `plexpass` only if you have an active [Plex Pass](https://www.plex.tv/features/plex-pass/). If you decide to change this later, you will need to update Plex by running the Cloudbox install command with the "update-plex" tag (i.e. `sudo ansible-playbook cloudbox.yml --tags update-plex`).
 
   - `transcodes`: Path of temporary transcoding files. Default is `"/home/{{user}}/transcodes"`. 
 
