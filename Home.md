@@ -65,3 +65,4 @@ _Last updated on: Oct 23, 2017_
 - how to add your own docker containers to with a few examples
 - autodl irssi
 - plexpatrol ?
+- rclone sftp mount for feeder local files
