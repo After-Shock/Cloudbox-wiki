@@ -74,11 +74,11 @@ Via Portainer:
 
   You will need to get the Plex section IDs and replace them in the Plex Autoscan config:
 
-  1. Getting the Run `/opt/plex_autoscan/scan.py sections` to list the section IDs.
+  1. Get section IDs by running the command:  `/opt/plex_autoscan/scan.py sections`.
 
-  1. Edit the Plex Autoscan config via `nano /opt/plex` and switch the ID numbers to match the Section IDs from Step 1.
+  2. Edit the Plex Autoscan config via `nano /opt/plex_autoscan/config/config.json` and switch the ID numbers to match the Section IDs from Step 1.
 
-  1. Restart Plex Autoscan: `sudo nano systemctl restart plex_autoscan`   
+  3. Restart Plex Autoscan: `sudo systemctl restart plex_autoscan`   
 
 ## PlexPy logs location:
 
