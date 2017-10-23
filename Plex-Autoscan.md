@@ -1,22 +1,21 @@
 ## 1. Obtaining the Plex Autoscan URL
 
-1. On the command prompt run the following command:
+Plex Autoscan URL is needed during the [[Sonarr|Sonarr#7-plex-autoscan]] and [[Radarr|Radarr#7-plex-autoscan]] setup.
 
-    ```
-    cat /opt/plex_autoscan/*.log | grep http
-    ```
+This will be in the format of: `http://server_ip_address:port/token`
 
-    _Note: If you have a separate Plex and Feeder setup, this will be done on the server that has Plex Cloudbox installed._
+
+To get your Plex Autoscan URL, run the following command:
+
+ ```shell
+ /opt/scripts/plex_autoscan/plex_autoscan_url.sh
+ ```
+
+
+
+_Note: If you have a separate Plex and Feeder setup, this will be done on the server where Plex is installed._
        
 
-1. Find the link that looks like `http://0.0.0.0:3468/PLEXAUTOSCANAPIKEY`and replace "0.0.0.0" with your (Plex) server's IP address, so that it now looks like:
-
-    ```
-   http://yourserveripaddress:3468/PLEXAUTOSCANAPIKEY
-   ```
-    _Note: You could use your Plex subdomain in lieu of the IP address, but that can be an issue if you plan on using a CDN (e.g. Cloudflare) with Plex._
- 
-1. This is your Plex Autoscan URL and it will be used later by [[Sonarr|Sonarr#7-plex-autoscan]] and [[Radarr|Radarr#7-plex-autoscan]].
 
 ## 2. Retrieving a Plex Access Token
 
