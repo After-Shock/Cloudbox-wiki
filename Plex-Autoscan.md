@@ -64,6 +64,6 @@ There are a few different ways to do this. Any of these will do.
 
 Credit:
  
-<sub> <a id="note1" href="#note1ref"><sup>1</sup></a> https://github.com/wernight/docker-plex-media-server</sub>
+<sub> <a id="note1" href="#note1ref"><sup>1</sup></a> https://github.com/wernight</sub>
 
  <sub> <a id="note2" href="#note2ref"><sup>2</sup></a> https://github.com/jacobwgillespie</sub>
