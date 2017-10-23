@@ -12,7 +12,7 @@ There are a few different ways to do this. Any of these will do.
       /opt/scripts/plex/plex_token.sh
       ```
    
-   1. You will be prompted to enter your Plex login and then presented with the  Plex Access Token (under `Your X_PLEX_TOKEN:`)
+   1. You will be prompted to enter your Plex login and then presented with the Plex Access Token (under `Your X_PLEX_TOKEN:`)
 
 
 1. Using a Bookmarklet <a href="#note2" id="note2ref"><sup>[2]</sup></a> 
