@@ -4,6 +4,9 @@ _Note: Remember, your Google Drive will have two folders within the `/Media` fol
 
 _Note 2: You could do the same to TV shows (i.e. have multiple subdirs/libraries within `TV`), but this guide will not go over that. However, the steps are similar to the one below._
 
+_Note 3: If you have a separate Plex and Feeder setup, the following steps will be done on the server where Plex is installed._
+
+
 ## 1. Create folders in Google Drive
 
 
@@ -52,7 +55,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 1. Under this section, you will need to add your section IDs and the library paths (as located in /Media folder in Google Drive). The format is `"SECTION_NUMBER": ["path"]`.
 
-   1. Note: Make sure the path is within quotes (`"/Movies/Kids"`) and there is a comma (`,`) after the close bracket (`]`) - all except the last one (see example below).
+   Make sure the path is within quotes (`"/Movies/Kids"`) and there is a comma (`,`) after the close bracket (`]`) - all except the last one (see example below).
 
 1. After the changes, the section will now look similar to this:
 
@@ -98,7 +101,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
    1. This will tell UnionFS Cleaner to not delete the folders immediately under `/mnt/local/Media/Movies` during cleanup.  
 
-   1. Note: Make sure there is a comma (`,`) at the end of all `"path": #` lines - all except the last one (see example below).
+   1. Make sure there is a comma (`,`) at the end of all `"path": #` lines - all except the last one (see example below).
 
 1. After the changes, the section will now look similar to this:
 
