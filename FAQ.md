@@ -76,7 +76,7 @@ Via Portainer:
 
   1. Get section IDs by running the command:  `/opt/plex_autoscan/scan.py sections`.
 
-  2. Edit the Plex Autoscan config via `nano /opt/plex_autoscan/config/config.json` and switch the ID numbers to match the Section IDs from Step 1 (for a more detailed explanation on this, see [[this|Customizing-Plex-Libraries#4-modifying-plex-autoscan]]).
+  2. Edit the Plex Autoscan config via `nano /opt/plex_autoscan/config/config.json` and switch the ID numbers to match the Section IDs from Step 1 (for a more detailed explanation on this, see [[this|Customizing-Plex-Libraries#3-retrieving-plex-library-section-ids]]).
 
   3. Restart Plex Autoscan: `sudo systemctl restart plex_autoscan`   
 
