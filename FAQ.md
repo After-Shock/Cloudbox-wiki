@@ -145,7 +145,7 @@ sudo service docker start
 
   There is an issue with the permissions on that folder that you'll need to fix manually (Cloudbox can't fix this as Plex creates this folder after the first scan)
 
-   To fix this, Run the following:
+   To fix this, Run the following (replace `seed` with your user/group name):
 
    ```
    docker stop plex
