@@ -241,7 +241,7 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
    1. On Rename:`No`
 
-   1. URL: [[your Plex Autoscan URL|Plex-Autoscan#1-obtaining-the-plex-autoscan-url]]
+   1. URL: [[your Plex Autoscan URL|Plex-Autoscan#3-obtaining-the-plex-autoscan-url]]
 
    1. Method:`POST`
 
