@@ -2,8 +2,6 @@
 
 The Plex Autoscan URL is needed during the [[Sonarr|Sonarr#7-plex-autoscan]] and [[Radarr|Radarr#7-plex-autoscan]] setup.
 
-This will be in the format of: `http://server_ip_address:port/token`
-
 
 To get your Plex Autoscan URL, run the following command:
 
@@ -11,6 +9,7 @@ To get your Plex Autoscan URL, run the following command:
  /opt/scripts/plex_autoscan/plex_autoscan_url.sh
  ```
 
+This will be in the format of `http://server_ip_address:port/token`.
 
 
 _Note: If you have a separate Plex and Feeder setup, this will be done on the server where Plex is installed._
