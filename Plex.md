@@ -84,7 +84,7 @@
 
 1. Click the Settings icon (top right) -> "Server" (top) -> "Transcoder" (left).
 2. Set "Transcoder default duration" to `150` and "Transcoder default throttle buffer" to `150`.
-3. Enable "Use hardware acceleration when available"
+3. Enable "Use hardware acceleration when available".
 
     ![](https://i.imgur.com/qvKbH9X.jpg)
 
