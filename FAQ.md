@@ -109,6 +109,15 @@ sudo reboot
 
 ## During Cloudbox install, get the message "403 Client Error: Forbidden: endpoint with name <container name> already exists in network <network name>":
 
+Example:
+
+```
+fatal: [localhost]: FAILED! => {"changed": false, "failed": true, "msg": "Error starting container 6fb60d4cdabe938986042e06ef482012a1d85a66a099d861f08062d8262c2ef7: 403 Client Error: Forbidden (\"{\"message\":\"endpoint with name jackett already exists in network bridge\"}\")"}
+    to retry, use: --limit @/home/seed/cloudbox/cloudbox.retry
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=1  
+```
+
 You have a remnant of the container in the Docker's network. Verify with the command below (where `<network name>` and `<container name>` is replaced with the network name and container name mentioned in the error, respectively):
 ```
 docker inspect network <network name> | grep <container name>
