@@ -107,7 +107,7 @@ sudo chsh -s /bin/bash <user>
 sudo reboot
 ```
 
-## During Cloudbox install, get the message "403 Client Error: Forbidden: endpoint with name <container name> already exists in network <network name>":
+## During Cloudbox install, get the message "... 403 Client Error: Forbidden: ... endpoint with name \<container name\> already exists in network \<network name\>":
 
 Example:
 
