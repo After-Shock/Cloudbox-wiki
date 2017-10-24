@@ -118,7 +118,9 @@ PLAY RECAP *********************************************************************
 localhost                  : ok=2    changed=1    unreachable=0    failed=1  
 ```
 
-You have a remnant of the container in the Docker's network. Verify with the command below (where `<network name>` and `<container name>` is replaced with the network name and container name mentioned in the error, respectively):
+You have a remnant of the container in the Docker's network. 
+
+You can verify with the command below (replace `<network name>` and `<container name>` is replaced with the network name and container name mentioned in the error, respectively):
 ```
 docker inspect network <network name> | grep <container name>
 ```
