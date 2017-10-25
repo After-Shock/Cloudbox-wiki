@@ -3,7 +3,7 @@ Updating Cloudbox is not required, but steps below are provided if you want to d
 
 Steps are typically:
 
-1. Ensure you have a recent [[backup | Backup & Restore#backup]]. 
+1. Ensure you have a recent [[backup | Backup and Restore#backup]]. 
 
 
 2. Pull the latest changes:
