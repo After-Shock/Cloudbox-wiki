@@ -96,7 +96,7 @@ To see the information below in a nice table, click [[here|https://pste.eu/p/D67
 
   - `size_check_mins`: How often in minutes local media size is checked. Default is `30`.
 
-  - `rclone_remote`: Remote path for Google Drive (see [[Prerequisites|Prerequisites#4-google-drive-account]]. Default is `"google:"`.
+  - `rclone_remote`: Remote path for Google Drive (see [[Prerequisites|Prerequisites#4-google-drive-account]]). Default is `"google:"`.
 
 - `backup`:
 
