@@ -131,7 +131,7 @@ To see the information below in a nice table, click [[here|https://pste.eu/p/VoQ
 
     - `present` will ensure it is always scheduled.
 
-    - Note: When this option changed, a manual backup (`sudo ansible-playbook cloudbox.yml --tags backup`) must be run once in order to set the backup schedule. In case the `cron_state` is changed from `present` to `absent`, a manual backup command is is required to disable further backups. Alternatively, you can manually remove the backup schedule by editing the cron job (i.e. `sudo crontab -e`).
+    - Note: Whenever this option changed (i.e. "`absent` -> `present`" or "`present` -> `absent`", a manual backup (`sudo ansible-playbook cloudbox.yml --tags backup`) must be run once in order to enable or disable the backup schedule.  Alternatively, you can manually modify the backup schedule by editing the cronjob (i.e. `sudo crontab -e`).
 
 ## 3. Saving Settings ## 
 
