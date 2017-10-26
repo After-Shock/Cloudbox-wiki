@@ -13,7 +13,7 @@ The following guide will help you setup Organizer. If you would like an alternat
 
 ## 1. Accessing Organizr
 
-- To access Organizr, visit http://organizr._yourdomain_.com
+- To access Organizr, visit https://organizr._yourdomain_.com
 
 ## 2. Initial Setup
 
