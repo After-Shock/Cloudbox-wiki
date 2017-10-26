@@ -84,9 +84,9 @@ To see the information below in a nice table, click [[here|https://pste.eu/p/gtZ
 
   - `ip`: Server IP that Plex_Autoscan will listen on. Default is `0.0.0.0`. 
 
-    - Note: 0.0.0.0 is used because containers can not communicate with local host via 127.0.0.1.
+    - Note 1: 0.0.0.0 is used because containers can not communicate with local host via 127.0.0.1.
     
-    - Note 2: If you have a separate Plex and Feeder setup, this will be Server IP where Plex is installed.
+    - Note 2: If you have a separate Plex and Feeder setup, this will be the IP of the server where Plex is installed.
 
 
 - `rclone`:
