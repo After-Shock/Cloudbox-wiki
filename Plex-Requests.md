@@ -9,7 +9,7 @@
 ---
 ## 1. Accessing Plex Requests
 
-- To access Plex Requests, visit http://plexrequests._yourdomain_.com
+- To access Plex Requests, visit https://plexrequests._yourdomain_.com
 
 
 ## 2. Admin Account Setup
