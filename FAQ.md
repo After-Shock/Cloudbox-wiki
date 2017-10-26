@@ -184,7 +184,7 @@ sudo service docker start
 
 
 
-## Don't see your Gdrive files in /mnt/plexdrive?
+## Don't see your Google Drive files in /mnt/plexdrive?
 
 ### Check on status
 
