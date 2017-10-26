@@ -5,7 +5,7 @@
     nano settings.yml
   ```
 
-## 2. The settings.yml file ## 
+## 2. Overview of Settings ## 
 
 ```yaml
 ---
