@@ -1,4 +1,4 @@
-1. Get a new Google API "Client ID" and "Client Secret" (see [[How to get a Google Drive API Client ID and Client Secret]]).
+1. Get a new Google API "Client ID" and "Client Secret" (see [[here | How to get a Google Drive API Client ID and Client Secret]]).
 
     Note: this will be different from the Rclone one. You can use the same Google account; but just create a different project for Plexdrive. 
 
