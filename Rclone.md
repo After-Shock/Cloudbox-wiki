@@ -8,7 +8,7 @@
 
 1. Type the number corresponding for "Google Drive" and press `enter`. 
 
-1. Get a Google API "Client ID" and "Client Secret" (see [[How to get a Google Drive API Client ID and Client Secret]]).
+1. Get a Google API "Client ID" and "Client Secret" (see [[here | How to get a Google Drive API Client ID and Client Secret]]).
 
 1. Paste in the "Client ID" and press `enter`.
 
