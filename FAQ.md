@@ -86,7 +86,7 @@ Via Portainer:
 
 ## Server RAM is being maxed out?
 
-If you server has ≤ 16GB RAM, it's possible Plexdrive is maxing it out. You can check this via `htop`. Try lowering the max chunks in Plexdrive:
+If your server has ≤ 16GB RAM, it's possible Plexdrive is maxing it out (you can check this via `htop`). Try lowering the max chunks used by Plexdrive:
 
   1. `sudo nano /etc/systemd/system/plexdrive.service`
 
