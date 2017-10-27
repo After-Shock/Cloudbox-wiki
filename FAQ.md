@@ -84,6 +84,21 @@ Via Portainer:
 
   - If you are asked for the plex logs location, it is exactly `/logs`.
 
+## Server RAM is being maxed out?
+
+If you server has ≤ 16GB RAM, it's possible Plexdrive is maxing it out. You can check this via `htop`. Try lowering the max chunks in Plexdrive:
+
+  1. `sudo nano /etc/systemd/system/plexdrive.service`
+
+  1. Modify the `--max-chunks=250` to `--max-chunks=100`.
+
+  1. `Ctrl-X` + `y` to save. 
+ 
+  1. `sudo systemctl daemon-reload`
+
+  1. `sudo systemctl restart plexdrive.service`
+
+
 ## Change shell of user account to bash:
 
 How to check current shell:
