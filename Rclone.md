@@ -8,7 +8,7 @@
 
 1. Type the number corresponding for "Google Drive" and press `enter`. 
 
-1. Create a [[Google Drive API Client ID and Client Secret]] for rclone.
+1. Create a [[Google Drive API Client ID and Client Secret]] for Rclone.
 
 1. Paste in the "Client ID" and press `enter`.
 
