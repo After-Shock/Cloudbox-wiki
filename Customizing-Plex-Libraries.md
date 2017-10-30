@@ -114,4 +114,4 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 1. `Ctrl-X` and `Y` to save.
 
-1. UnionFS Cleaner will restart itself when it detects the config has changed.
+1. UnionFS Cleaner will restart itself when it detects config.json has changed.
