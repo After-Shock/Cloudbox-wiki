@@ -24,7 +24,7 @@ Listed below are the things you'll need from Pushover's site.
 
 1. Pushover license(s) 
 
-   - They have 3 separate ones for different device types (i.e. Android, iOS, or desktop PC). You'll need license for each type of device you want to setup.
+   - They have 3 separate ones for different device types (i.e. Android, iOS, or desktop PC). You'll need a license for each type of device you want to setup. See their [FAQ](https://pushover.net/faq#overview-fees) for more info.
 
 1. A [Pushover Device Client](https://pushover.net/clients)
 
