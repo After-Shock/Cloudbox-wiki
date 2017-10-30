@@ -1,5 +1,3 @@
-## Intro
-
 With [Pushover](https://pushover.net/), you can have Cloudbox send you messages during certain tasks (e.g. every time UnionFS Cleaner runs). With more tasks planned to be added later. 
 
 -  Some examples:
@@ -65,6 +63,6 @@ To have UnionFS Cleaner send you alerts every time it starts and finishes, follo
 
 1. UnionFS Cleaner will restart itself when it detects config.json has changed.
 
-# Cloudbox Backup
+## Cloudbox Backup
 
 To have UnionFS Cleaner send you alerts every time it starts and finishes, follow to steps below. 
