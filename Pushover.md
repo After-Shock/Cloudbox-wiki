@@ -26,10 +26,12 @@ Listed below are the things you'll need from Pushover's site.
 
    - They have 3 separate ones for different device types (i.e. Android, iOS, or desktop PC). You'll need to get the license for the device where you want the messages to go. 
 
-1. [Pushover Device Client](https://pushover.net/clients)
+1. A [Pushover Device Client](https://pushover.net/clients)
    - [Android](https://pushover.net/clients/android)
    - [iOS](https://pushover.net/clients/ios)
-   - Desktop PC: [Pullover](https://github.com/cgrossde/Pullover) (free, open source, multi platform client, and my personal favorite). You can also get the via browser desktop notifications (i.e. Chrome, Firefox, Safari).
+   - Desktop PC: 
+     - [Pullover](https://github.com/cgrossde/Pullover) (free, open source, multi platform client, and my personal favorite). 
+     - You can also get desktop alerts sent via an internet browser (i.e. Chrome, Firefox, Safari).
 
 1. Your User Key 
 
