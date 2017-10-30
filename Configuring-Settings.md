@@ -134,5 +134,5 @@ To see the information below in a nice table, click [[here|https://pste.eu/p/yFD
 
 ## 3. Saving Settings ## 
 
-- `Ctrl-x`, `y`, then `enter`.
+- `Ctrl-x`, `y`, and `enter` to save.
 
