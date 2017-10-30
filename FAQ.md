@@ -48,7 +48,8 @@ Via Portainer:
          with_items:
 
       ```
-  1. `ctrl-x` and `y` to save
+  1. `Ctrl-x`, `y`, and `enter` to save.
+
 
 ## pip ssl error
 
@@ -92,7 +93,7 @@ If your server has ≤ 16GB RAM, it's possible Plexdrive is maxing it out (you c
 
   1. Modify the `--max-chunks=250` to `--max-chunks=100`.
 
-  1. `Ctrl-X` + `y` to save. 
+  1. `Ctrl-x`, `y`, and `enter` to save.
  
   1. `sudo systemctl daemon-reload`
 
