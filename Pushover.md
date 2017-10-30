@@ -20,7 +20,7 @@ Some examples below:
 
 Listed below are the things you'll need from Pushover's site. 
 
-1. [Pushover](https://pushover.net/login) account.
+1. [Pushover](https://pushover.net/login) account
 
 1. Pushover license(s) 
 
@@ -31,7 +31,9 @@ Listed below are the things you'll need from Pushover's site.
    - [iOS](https://pushover.net/clients/ios)
    - Desktop PC: [Pullover](https://github.com/cgrossde/Pullover) (free, open source, multi platform client, and my personal favorite). You can also get the via browser desktop notifications (i.e. Chrome, Firefox, Safari).
 
-1. Your User Key (click the Pushover logo at the top left to take you there once your signed in). 
+1. Your User Key 
+
+   - Once your signed in, click the Pushover logo at the top left to take you there.
 
 1. Application API Token (one per app)
 
