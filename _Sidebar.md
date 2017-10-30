@@ -41,6 +41,7 @@
 - [[UnionFS Cleaner]]
 - [[Updating Cloudbox]]
 - [[Backup and Restore]]
+- [[Pushover]] (new)
 - [[Google Drive API Client ID and Client Secret]]
 - [[Docker Tips and Shortcuts]]
 - [[Addons]]
