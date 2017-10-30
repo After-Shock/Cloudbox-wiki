@@ -47,7 +47,7 @@ Listed below are the things you'll need from Pushover's site.
 
 ## UnionFS Cleaner
 
-To have UnionFS Cleaner send you alerts every time it starts and finishes, follow to steps below. 
+To have Pushover send you alerts every time a UnionFS Cleaner task starts and finishes, follow to steps below. 
 
 1. Edit the Unionfs Cleaner config.json file:
 
@@ -66,6 +66,6 @@ To have UnionFS Cleaner send you alerts every time it starts and finishes, follo
 
 1. UnionFS Cleaner will restart itself when it detects config.json has changed.
 
-## Cloudbox Backup
+## Cloudbox Backup (coming soon)
 
-To have UnionFS Cleaner send you alerts every time it starts and finishes, follow to steps below. 
+To have Pushover send you alerts every time Cloudbox backup starts and finishes, follow to steps below. 
