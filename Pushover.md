@@ -1,16 +1,16 @@
 ## What is Pushover?
 
-[Pushover](https://pushover.net/faq) is service that enables you to receive instant push notifications on your phone/tablet/PC from a variety of sources. With Cloudbox, you can have notifications sent with many different tasks or events (e.g. every time UnionFS Cleaner runs).
+[Pushover](https://pushover.net/faq) is service that enables you to receive instant push notifications on your phone/tablet/PC from a variety of sources. With Cloudbox, you can have notifications sent with many different tasks or events.
 
--  Some examples:
+Some examples below:
 
-   - Cloudbox Backup (coming soon)
+ - Cloudbox Backup (coming soon)
 
-     ![](https://i.imgur.com/fDWzmxM.png)
+   ![](https://i.imgur.com/fDWzmxM.png)
 
-   - UnionFS Cleaner Pushover alerts:
+ - UnionFS Cleaner Pushover alerts:
   
-     ![](https://i.imgur.com/HUUZ91a.png)
+   ![](https://i.imgur.com/HUUZ91a.png)
   
 
 
