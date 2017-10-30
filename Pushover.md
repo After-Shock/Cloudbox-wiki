@@ -76,7 +76,7 @@ To have Pushover send you alerts every time Cloudbox backup task starts and fini
     nano ~/cloudbox/settings.yml
   ```
 
-2. Add in your Pushover User Key and the Application API/Token, without quotes, in the "backup" section.
+1. Add in your Pushover User Key and the Application API/Token, without quotes, in the "backup" section.
 
 ```yaml
   backup:
@@ -84,3 +84,5 @@ To have Pushover send you alerts every time Cloudbox backup task starts and fini
     pushover_app_token:
     pushover_user_key:
 ```
+
+1. `Ctrl-x`, `y`, then `enter`.
