@@ -4,13 +4,15 @@
 
 -  Some examples:
 
+   - Cloudbox Backup (coming soon)
+
+     ![](https://i.imgur.com/fDWzmxM.png)
+
    - UnionFS Cleaner Pushover alerts:
   
      ![](https://i.imgur.com/HUUZ91a.png)
   
-   - Cloudbox Backup (coming soon)
 
-     ![](https://i.imgur.com/fDWzmxM.png)
 
 
 
@@ -44,6 +46,26 @@ Listed below are the things you'll need from Pushover's site.
    - Click "Create Application".
 
 
+## Cloudbox Backup (coming soon)
+
+To have Pushover send you alerts every time Cloudbox backup task starts and finishes, follow to steps below. 
+
+1. Edit the settings.yml file. 
+
+   ```bash
+     nano ~/cloudbox/settings.yml
+   ```
+
+1. Type in your Pushover User Key and the Application Token, without quotes, in the "backup" section.
+
+   ```yaml
+     backup:
+   
+       pushover_app_token:
+       pushover_user_key:
+   ```
+
+1. `Ctrl-x`, `y`, then `enter`.
 
 ## UnionFS Cleaner
 
@@ -66,26 +88,6 @@ To have Pushover send you alerts every time a UnionFS Cleaner task starts and fi
 
 1. UnionFS Cleaner will restart itself when it detects config.json has changed.
 
-## Cloudbox Backup (coming soon)
-
-To have Pushover send you alerts every time Cloudbox backup task starts and finishes, follow to steps below. 
-
-1. Edit the settings.yml file. 
-
-   ```bash
-     nano ~/cloudbox/settings.yml
-   ```
-
-1. Type in your Pushover User Key and the Application Token, without quotes, in the "backup" section.
-
-   ```yaml
-     backup:
-   
-       pushover_app_token:
-       pushover_user_key:
-   ```
-
-1. `Ctrl-x`, `y`, then `enter`.
 
 ## PlexPy
 
