@@ -38,7 +38,7 @@ Listed below are the things you'll need from Pushover's site.
    - Pushover -> Your Applications -> [Create an Application/API Token](https://pushover.net/apps/build)
 
    - Fill in: 
-     - Name (cname of the Cloudbox app)
+     - Name (app/task name)
      - Type (Application or Script)
      - Description (optional)
      - URL (optional)
