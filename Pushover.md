@@ -65,7 +65,7 @@ To have Pushover send you alerts every time Cloudbox backup task starts and fini
        pushover_user_key:
    ```
 
-1. `Ctrl-x`, `y`, then `enter`.
+1. `Ctrl-x`, `y`, and `enter` to save.
 
 ## UnionFS Cleaner
 
@@ -84,7 +84,7 @@ To have Pushover send you alerts every time a UnionFS Cleaner task starts and fi
     "pushover_user_token": "",
    ```
 
-1. `Ctrl-X` and `Y` to save.
+1. `Ctrl-x`, `y`, and `enter` to save.
 
 1. UnionFS Cleaner will restart itself when it detects config.json has changed.
 
