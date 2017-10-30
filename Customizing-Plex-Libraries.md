@@ -59,7 +59,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 1. After the changes, the section will now look similar to this:
 
-   ```
+   ```json
    "PLEX_SECTION_PATH_MAPPINGS": {
       "1": [
           "/Movies/3D/"
