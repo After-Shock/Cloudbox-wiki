@@ -27,7 +27,8 @@ Listed below are the things you'll need from Pushover's site.
 1. [Pushover Device Client](https://pushover.net/clients)
    - [Android](https://pushover.net/clients/android)
    - [iOS](https://pushover.net/clients/ios)
-   - Desktop PC: [Pullover](https://github.com/cgrossde/Pullover) (free, open source, multi platform client, and my personal favorite) or you can enable them via Chrome, Firefox, Safari desktop notifications. 
+   - Desktop PC: [Pullover](https://github.com/cgrossde/Pullover) (free, open source, multi platform client, and my personal favorite). You can also get the via browser desktop notifications (i.e. Chrome, Firefox, Safari).
+
 1. Your User Key (click the Pushover logo at the top left to take you there once your signed in). 
 
 1. Application API Token (one per app)
