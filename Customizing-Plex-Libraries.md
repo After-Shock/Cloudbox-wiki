@@ -105,7 +105,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 1. After the changes, the section will now look similar to this:
 
-   ```
+   ```json
    "rclone_remove_empty_on_upload": {
        "/mnt/local/Media/Movies": 2,
        "/mnt/local/Media/TV": 1
