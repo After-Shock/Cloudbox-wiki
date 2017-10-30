@@ -33,7 +33,7 @@ _Last updated on: Oct 29, 2017_
 - [[UnionFS Cleaner]]
 - [[Updating Cloudbox]]
 - [[Backup and Restore]]
-- [[Pushover]] (new!)
+- [[Pushover]] (new)
 - [[Google Drive API Client ID and Client Secret]]
 - [[Docker Tips and Shortcuts]]
 - [[Addons]]
