@@ -15,3 +15,5 @@
 - autodl irssi
 - plexpatrol ?
 - rclone sftp mount for feeder local files
+- nativefier docker command examples
+- pushover page
