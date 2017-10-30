@@ -238,3 +238,80 @@ sudo systemctl restart plexdrive.service
 sudo systemctl restart unionfs.service
 sudo systemctl restart plex_autoscan.service
 ```
+
+
+## How to fix permission issues:
+
+
+## /opt folder
+
+1. Stop all docker containers
+
+```
+docker stop $(docker ps -a -q)
+```
+
+1. Change ownership of /opt. Replace `user` and `group` to match yours' (run `id` on command prompt to check).
+
+```
+sudo chown user:group -R /opt
+```
+
+1. Change permission inheritance of /opt. Replace `user` and `group` to match yours' (run `id` on command prompt to check).
+
+```
+sudo chmod user:group -R /opt
+```
+
+1. Start all docker containers
+
+```
+docker start $(docker ps -a -q)
+```
+
+
+## /mnt folder
+
+
+1. Stop all docker containers
+
+```
+docker stop $(docker ps -a -q)
+```
+
+1. Stop Unionfs and Plexdrive
+
+```
+sudo systemctl stop unionfs.service
+sudo systemctl stop plexdrive.service
+```
+
+
+1. Change ownership of /mnt. Replace `user` and `group` to match yours' (run `id` on command prompt to check).
+
+```
+sudo chown user:group -R /mnt
+```
+
+
+1. Change permission inheritance of /mnt. Replace `user` and `group` to match yours' (run `id` on command prompt to check).
+
+```
+sudo chmod user:group -R /mnt
+```
+
+
+
+1. Start Unionfs and Plexdrive
+
+```
+sudo systemctl start unionfs.service
+sudo systemctl start plexdrive.service
+```
+
+
+1. Start all docker containers
+
+```
+docker start $(docker ps -a -q)
+```
