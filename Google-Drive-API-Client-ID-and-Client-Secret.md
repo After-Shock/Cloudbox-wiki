@@ -1,3 +1,5 @@
+The following guide will show you how to get a Google Drive API Client ID and Client Secret. Remember, you will need 2 separate ones for Rclone and Plexdrive. 
+
 1. Open Google APIs Console site: https://console.developers.google.com and login with your Google account.
 
     ![](http://i.imgur.com/ExfSqLe.png)
