@@ -82,7 +82,8 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
    },
    ```
 
-1. `Ctrl-X` and `Y` to save.
+1. `Ctrl-x`, `y`, and `enter` to save.
+
 
 1. Restart Plex Autoscan: `sudo systemctl restart plex_autoscan`
 
@@ -112,6 +113,6 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
    },
    ```
 
-1. `Ctrl-X` and `Y` to save.
+1. `Ctrl-x`, `y`, and `enter` to save.
 
 1. UnionFS Cleaner will restart itself when it detects config.json has changed.
