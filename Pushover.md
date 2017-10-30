@@ -1,6 +1,14 @@
-With [Pushover](https://pushover.net/), you can have Cloudbox send you messages during certain tasks (e.g. every time UnionFS Cleaner runs). With more tasks planned to be added later. To have that setup, follow the steps below. 
+With [Pushover](https://pushover.net/), you can have Cloudbox send you messages during certain tasks (e.g. every time UnionFS Cleaner runs). With more tasks planned to be added later. 
 
-## The Basics
+-  Examples of UnionFS Cleaner Pushover alerts:
+  
+   ![](https://i.imgur.com/HUUZ91a.png)
+
+
+
+# The Basics
+
+Listed below are the things you'll need from Pushover's site. 
 
 1. [Pushover](https://pushover.net/login) account.
 
@@ -26,9 +34,8 @@ With [Pushover](https://pushover.net/), you can have Cloudbox send you messages 
      - Icon (optional)
    - Click "Create Application".
 
-## UnionFS Cleaner
+# UnionFS Cleaner
 
-  ![](https://i.imgur.com/HUUZ91a.png)
 
 To have UnionFS Cleaner send you alerts every time it starts and finishes, follow to steps below. 
 
