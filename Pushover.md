@@ -55,7 +55,7 @@ To have Pushover send you alerts every time a UnionFS Cleaner task starts and fi
     nano /opt/unionfs_cleaner/config.json
     ```
 
-1. Fill in your Pushover User Key and the Application API/Token within the quotes ("").
+1. Add in your Pushover User Key and the Application API/Token within the quotes ("").
 
    ```json
     "pushover_app_token": "",
@@ -68,4 +68,19 @@ To have Pushover send you alerts every time a UnionFS Cleaner task starts and fi
 
 ## Cloudbox Backup (coming soon)
 
-To have Pushover send you alerts every time Cloudbox backup starts and finishes, follow to steps below. 
+To have Pushover send you alerts every time Cloudbox backup task starts and finishes, follow to steps below. 
+
+1. Edit the settings.yml file. 
+
+  ```bash
+    nano ~/cloudbox/settings.yml
+  ```
+
+2. Add in your Pushover User Key and the Application API/Token, without quotes, in the "backup" section.
+
+```yaml
+  backup:
+
+    pushover_app_token:
+    pushover_user_key:
+```
