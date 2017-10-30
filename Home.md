@@ -34,7 +34,7 @@ _Last updated on: Oct 29, 2017_
 - [[Updating Cloudbox]]
 - [[Backup and Restore]]
 - [[Pushover]]
-- [[How to get a Google Drive API Client ID and Client Secret]]
+- [[Google Drive API Client ID and Client Secret]]
 - [[Docker Tips and Shortcuts]]
 - [[Addons]]
 - [[Revoking SSL Certificates]]
