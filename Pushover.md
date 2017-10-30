@@ -1,6 +1,6 @@
 ## What is Pushover?
 
-With [Pushover](https://pushover.net/), you can have Cloudbox send you messages during certain tasks (e.g. every time UnionFS Cleaner runs). With more tasks planned to be added later. 
+[Pushover](https://pushover.net/faq) is service to receive instant push notifications on your phone or tablet from a variety of sources. With Cloudbox, you can have notifications during many different tasks or events (e.g. every time UnionFS Cleaner runs).
 
 -  Some examples:
 
@@ -33,7 +33,7 @@ Listed below are the things you'll need from Pushover's site.
 
 1. Application API Token (one per app)
 
-   - Pushover -> "Your Applications" -> ["Create an Application/API Token"](https://pushover.net/apps/build)
+   - Pushover -> Your Applications -> [Create an Application/API Token](https://pushover.net/apps/build)
 
    - Fill in: 
      - Name (cname of the Cloudbox app)
@@ -55,7 +55,7 @@ To have Pushover send you alerts every time a UnionFS Cleaner task starts and fi
     nano /opt/unionfs_cleaner/config.json
     ```
 
-1. Add in your Pushover User Key and the Application API/Token within the quotes ("").
+1. Type in your Pushover User Key and the Application Token within the quotes ("").
 
    ```json
     "pushover_app_token": "",
@@ -76,7 +76,7 @@ To have Pushover send you alerts every time Cloudbox backup task starts and fini
      nano ~/cloudbox/settings.yml
    ```
 
-1. Add in your Pushover User Key and the Application API/Token, without quotes, in the "backup" section.
+1. Type in your Pushover User Key and the Application Token, without quotes, in the "backup" section.
 
    ```yaml
      backup:
@@ -86,3 +86,11 @@ To have Pushover send you alerts every time Cloudbox backup task starts and fini
    ```
 
 1. `Ctrl-x`, `y`, then `enter`.
+
+## PlexPy
+
+Pushover can send you a notification whenever someone starts watching something on Plex. 
+
+1. Enable notifications: PlexPy -> Settings -> Notification Agents -> Click the gray "bell" icon next to "Pushover" -> and select when you want to be alerted -> click "close". The "bell" icon will turn yellow. 
+
+1. Add in your Pushover info: Click the "gear" icon next to "Pushover" -> Type in your Pushover User Key and the Application Token. You can click the "Test Notification" to check if it's working ok. Click "Save". 
