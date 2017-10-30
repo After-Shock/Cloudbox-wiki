@@ -40,7 +40,8 @@ There are a few different ways to do this. Any of these will do.
 
       - Note: Make sure it is within the quotes (`"`) and there is a comma (`,`) after it.
 
-   1. `ctrl-x` and `y` to save.
+   1. `Ctrl-x`, `y`, and `enter` to save.
+
 
 
 ## 3. Obtaining the Plex Autoscan URL
