@@ -93,7 +93,7 @@ To have Pushover send you alerts every time a UnionFS Cleaner task starts and fi
 
 Pushover can send you notifications whenever an event occurs with Plex (e.g. someone starts watching something,  new media is added)
 
-1. Enable notifications: [PlexPy](PlexPy#1-accessing-plexpy) -> Settings -> Notification Agents -> Click the gray "bell" icon next to "Pushover" -> and select when you want to be alerted -> click "close". The "bell" icon will turn yellow. 
+1. Enable notifications: [PlexPy](PlexPy#1-accessing-plexpy) -> Settings -> Notification Agents -> Click the gray "bell" icon next to "Pushover" -> and select when you want to be alerted -> Click "close". The "bell" icon will turn yellow. 
 
 1. Add in your Pushover info: Click the "gear" icon next to "Pushover" -> Type in your Pushover User Key and the Application Token (you can click the "Test Notification" to check if it's working ok) -> Click "Save". 
 
