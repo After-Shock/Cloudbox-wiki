@@ -43,7 +43,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 
 
-## 4. Modifying Plex Autoscan
+## 4. Modifying Plex Autoscan Config
 
 1. On the server's shell, run the following command:
 
@@ -87,7 +87,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 1. Restart Plex Autoscan: `sudo systemctl restart plex_autoscan`
 
 
-## 5. Modifying UnionFS Cleaner
+## 5. Modifying UnionFS Cleaner Config
 
 1. On the server's shell, run the following command:
 
@@ -114,4 +114,4 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 1. `Ctrl-X` and `Y` to save.
 
-1. Restart UnionFS Cleaner: `sudo systemctl restart unionfs_cleaner`
+1. UnionFS Cleaner will restart itself when it detects the config has changed.
