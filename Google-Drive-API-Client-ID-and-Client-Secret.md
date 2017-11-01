@@ -45,7 +45,7 @@ The following guide will show you how to get a Google Drive API Client ID and Cl
 
     ![](http://i.imgur.com/tJARgt9.png)
 
-12. For "Application Type", select "Other", type in any name, and click "Create".
+12. For "Application Type", select "Other", type in any name, and click `Create`.
 
     ![](http://i.imgur.com/loyMW7v.png)
 
