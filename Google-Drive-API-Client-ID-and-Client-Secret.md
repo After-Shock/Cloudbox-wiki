@@ -4,15 +4,15 @@ The following guide will show you how to get a Google Drive API Client ID and Cl
 
     ![](http://i.imgur.com/ExfSqLe.png)
     
-2. Click `Library` on the left column, then click on `Select a project` at the top.
+2. Click "Library" on the left column, then click on "Select a project" at the top.
 
     ![](http://i.imgur.com/TYNDd66.png)
 
-3. On the next screen, click the `+` to create a new project. Note: You will need to create one project for Rclone and one for Plexdrive. 
+3. On the next screen, click `+` to create a new project. Note: You will need to create one project for Rclone and another for Plexdrive. 
 
     ![](http://i.imgur.com/85iIX1e.png)
 
-4. Name the project (e.g. Rclone). Chose 'Yes' to agree. Click `Create`.
+4. Name the project (e.g. Rclone). Choose "Yes" to agree. Click "Create".
 
     ![](http://i.imgur.com/jHqyKJt.png)
 
@@ -20,11 +20,11 @@ The following guide will show you how to get a Google Drive API Client ID and Cl
 
     ![](http://i.imgur.com/KBXwXDm.png)
 
-6. Popular APIs screen will show up. Click `Drive API`.
+6. Popular APIs screen will show up. Click "Drive API".
 
     ![](http://i.imgur.com/DcXczfd.png)
 
-7. On following screen, click `ENABLE` to enable Google Drive API.
+7. On following screen, click "ENABLE" to enable Google Drive API.
 
     ![](http://i.imgur.com/qsOlMZw.png)
 
@@ -33,7 +33,7 @@ The following guide will show you how to get a Google Drive API Client ID and Cl
     ![](http://i.imgur.com/sUBzyre.png)
 
   
-9. On this screen, type in the Product Name (e.g. Rclone), and click `Save`.
+9. On this screen, type in the Product Name (e.g. Rclone), and click "Save".
 
     ![](http://i.imgur.com/jIvhILQ.png)
 
@@ -45,7 +45,7 @@ The following guide will show you how to get a Google Drive API Client ID and Cl
 
     ![](http://i.imgur.com/tJARgt9.png)
 
-12. For "Application Type", select "Other", type in any name, and click `Create`.
+12. For "Application Type", select "Other", type in any name, and click "Create".
 
     ![](http://i.imgur.com/loyMW7v.png)
 
