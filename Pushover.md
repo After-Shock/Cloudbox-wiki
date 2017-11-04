@@ -61,9 +61,9 @@ Listed below are the things you'll need from Pushover's site.
    - Click "Create Application".
 
 
-## Cloudbox Backup (coming soon)
+## Cloudbox Backup
 
-To have Pushover send you alerts every time Cloudbox backup task starts and finishes, follow to steps below. 
+To have Pushover send you alerts every time a Cloudbox backup task starts and finishes, follow to steps below. 
 
 1. Edit the settings.yml file. 
 
