@@ -8,13 +8,13 @@ In the default Cloudbox install, you have two Plex libraries: one for Movies and
    └── TV
    ```
 
- If you would like to have custom libraries in Plex, you may do so with this guide. 
+ If you would like to have custom libraries in Plex, you may do so with this guide. But regardless of what scenario below you choose, the content will always be within `/Media` folder in your Google Drive. 
 
 
 
 ## Scenario 1
 
-You want to place your libraries within the `Movies` folder.
+You want to place your libraries within the `/Media/Movies` folder.
 
 ```
 Media
@@ -28,12 +28,9 @@ Media
 ```
 
 
+_Note: You could do the same to TV shows (i.e. have multiple subdirs/libraries within `TV`), but this guide will not go over that. However, the steps are similar to the ones below._
 
-_Note: Remember, your Google Drive will have two folders within the `/Media` folder: `Movies` and `TV`. Those are not to be changed and are case sensitive. See [[Prerequisites|Prerequisites#4-google-drive-account]] and [[Paths|Paths#google-drive-paths]] for more info._
-
-_Note 2: You could do the same to TV shows (i.e. have multiple subdirs/libraries within `TV`), but this guide will not go over that. However, the steps are similar to the ones below._
-
-_Note 3: If you have a separate Plex and Feeder setup, the following steps will be done on the server where Plex is installed._
+_Note 2: If you have a separate Plex and Feeder setup, the following steps will be done on the server where Plex is installed._
 
 
 ## 1. Create folders in Google Drive
@@ -150,7 +147,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 ## Scenario 2 (coming soon)
 
-You want to place your libraries within the `Media` folder.
+You want to place your libraries within the `/Media` folder.
 
 ```
 Media
