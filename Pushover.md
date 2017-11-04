@@ -2,7 +2,7 @@
 
 [Pushover](https://pushover.net/faq) is service that enables you to receive instant push notifications on your phone/tablet/PC from a variety of sources. With Cloudbox, you can have notifications sent with many different tasks or events.
 
-Some examples below:
+Screenshots:
 
  - Mobile device (Pushover app):
 
