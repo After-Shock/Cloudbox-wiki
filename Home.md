@@ -1,4 +1,4 @@
-_Last updated on: Oct 29, 2017_
+_Last updated on: Nov 04, 2017_
 
 ### Basics ###
 1. [[Introduction]]
@@ -27,7 +27,7 @@ _Last updated on: Oct 29, 2017_
     1. [[Organizr]]
 
 ### Advanced Configuration ###
-- [[Customizing Plex Libraries]]
+- [[Customizing Plex Libraries]] (recently updated)
 
 ### More Information ###
 - [[UnionFS Cleaner]]
