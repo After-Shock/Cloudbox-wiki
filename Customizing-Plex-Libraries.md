@@ -38,13 +38,13 @@ Let's say you wanted to have separate movie libraries for: 3D, 4K, Foreign, Holl
 
 In our example, we will create the following folders: `/Media/Movies/3D`, `/Media/Movies/4K`, `/Media/Movies/Foreign`, `/Media/Movies/Hollywood`, and `/Media/Movies/Kids`.
 
-### 2. Adding Libraries to Plex
+### 2. Add Libraries to Plex
 
 You will add each of these folders as separate libraries within Plex (see [[example|Plex#adding-the-movie-library]]). You may name these libraries as whatever you want. The folders will be located in the `/data/Movies` folder.
 
 In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movies/Foreign`, `/data/Movies/Hollywood`, and `/data/Movies/Kids`.
 
-### 3. Retrieving Plex Library Section IDs
+### 3. Retrieve Plex Library Section IDs
 
 1. On the server's shell, run the following command:
 
@@ -67,7 +67,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 
 
-### 4. Modifying Plex Autoscan Config
+### 4. Modify Plex Autoscan Config
 
 1. On the server's shell, run the following command:
 
@@ -112,7 +112,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 1. Restart Plex Autoscan: `sudo systemctl restart plex_autoscan`
 
 
-### 5. Modifying UnionFS Cleaner Config
+### 5. Modify UnionFS Cleaner Config
 
 1. On the server's shell, run the following command:
 
@@ -142,6 +142,9 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 1. UnionFS Cleaner will restart itself when it detects config.json has changed.
 
 
+### 5. Change root paths in Radarr
+
+Set your Movie Paths in Radarr to reflect the new sub-dirs (e.g. `/movies/3D`), see [[Radarr|Radarr#8-adding-the-movies-path]].
 
 ## Scenario 2
 
@@ -174,13 +177,13 @@ Let's say you wanted to have separate movies libraries for: general movies folde
 
 In our example, we will create the following folders: `/Media/Movies-3D`, `/Media/Movies-4K`, `/Media/Movies/Foreign`, `/Media/Movies/Hollywood`, and `/Media/Movies/Kids`.
 
-### 2. Adding Libraries to Plex
+### 2. Add Libraries to Plex
 
 You will add each of these folders as separate libraries within Plex (see [[example|Plex#adding-the-movie-library]]). You may name these libraries as whatever you want. The folders will be located in the `/mnt/unionfs/Media/` folder.
 
 In our example, this will be: `/mnt/unionfs/Media/Movies-3D`, `/mnt/unionfs/Media/Movies-4K`, `/mnt/unionfs/Media/Movies-Foreign`, `/mnt/unionfs/Media/Movies-Hollywood`, and `/mnt/unionfs/Media/Movies-Kids`.
 
-### 3. Retrieving Plex Library Section IDs
+### 3. Retrieve Plex Library Section IDs
 
 1. On the server's shell, run the following command:
 
@@ -202,7 +205,7 @@ In our example, this will be: `/mnt/unionfs/Media/Movies-3D`, `/mnt/unionfs/Medi
 1. The list here shows your section IDs in the format of `SECTION ID: LIBRARY NAME`. Note: Your section IDs may be different as it is based on the order you added them in Plex.
 
 
-### 4. Modifying Plex Autoscan Config
+### 4. Modify Plex Autoscan Config
 
 1. On the server's shell, run the following command:
 
@@ -246,3 +249,6 @@ In our example, this will be: `/mnt/unionfs/Media/Movies-3D`, `/mnt/unionfs/Medi
 
 1. Restart Plex Autoscan: `sudo systemctl restart plex_autoscan`
 
+### 5. Change root paths in Radarr
+
+Set your Movie Paths in Radarr to reflect the new sub-dirs (e.g. `/mnt/unionfs/Media/3D`), see [[Radarr|Radarr#8-adding-the-movies-path]].
