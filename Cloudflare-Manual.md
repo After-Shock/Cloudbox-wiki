@@ -3,7 +3,7 @@
 
 1. Sign up for CloudFlare
 
-1. Move the nameservers of your domain (domain registrar's website) over to the one’s provided during CloudFlare’s setup.
+1. Move the nameservers of your domain (domain registrar's website) over to the ones provided during CloudFlare’s setup.
 
 1. Under the "Crypto" tab, set SSL to Full (Strict)
 
