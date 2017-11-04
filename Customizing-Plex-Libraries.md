@@ -178,7 +178,7 @@ In our example, we will create the following folders: `/Media/Movies-3D`, `/Medi
 
 ### 2. Adding Libraries to Plex
 
-You will add each of these folders as separate libraries within Plex (see [[example|Plex#adding-the-movie-library]]). You may name these libraries as whatever you want. The folders will be located in the `/data/Movies` folder.
+You will add each of these folders as separate libraries within Plex (see [[example|Plex#adding-the-movie-library]]). You may name these libraries as whatever you want. The folders will be located in the `/mnt/unionfs/Media/` folder.
 
 In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movies/Foreign`, `/data/Movies/Hollywood`, and `/data/Movies/Kids`.
 
