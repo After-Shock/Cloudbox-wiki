@@ -42,7 +42,7 @@
 
 ## 3. Options in Settings
 
-To see the information below in a nice-looking table, click [[here|https://pste.eu/p/RBMo.html]].
+To see the information below in a nice-looking table, click [[here|https://pste.eu/p/H33D.html]].
 
 
 ---
