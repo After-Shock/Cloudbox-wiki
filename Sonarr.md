@@ -68,7 +68,7 @@
 
    1. Host: `nzbget`
 
-   1. Port: `6789`
+   1. Port: `8080`
 
    1. Username:  [[your NZBGet Username|NZBGet]]
 
