@@ -1,12 +1,20 @@
 -UPDATES COMING SOON-
 
-In the default Cloudbox install, you have two Plex libraries (one for Movies and one for TV Shows). If you would like to have custom libraries in Plex, you may do so with this guide. 
+In the default Cloudbox install, you have two Plex libraries: one for Movies and one for TV Shows (see below).
+
+   ```
+   Media
+   ├── Movies
+   └── TV
+   ```
+
+ If you would like to have custom libraries in Plex, you may do so with this guide. 
 
 
 
 ## Scenario 1
 
-Libraries are located as sub-dirs within the `Movies` folder.
+You want to place your libraries within the `Movies` folder.
 
 ```
 Media
@@ -153,7 +161,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 ## Scenario 2 (coming soon)
 
-Libraries are located as sub-dirs within the `Media` folder.
+You want to place your libraries within the `Media` folder.
 
 ```
 Media
