@@ -122,7 +122,7 @@ To see the information below in a nice-looking table, click [[here|https://pste.
 
   - `cron_time`: How often to backup should run (only when `cron_state` is set to `present`). Options are `reboot`, `yearly`, `annually`, `weekly`, `daily`, or `hourly`. Default is `weekly`. 
 
-    - Note 1: It is not recommended to schedule backups hourly as backing up may take a long time and cause future backup attempts to fail (the backup will not occur while another one is in progress, thanks to backup.lock file being created/removed during this process). 
+    - Note: It is not recommended to schedule backups hourly as backing up may take a long time and cause future backup attempts to fail (the backup will not occur while another one is in progress, thanks to backup.lock file being created/removed during this process). 
 
   - `cron_state`: Option to enable/disable automatic backups. Options are `absent` or `present`. Default is `absent`.
 
@@ -130,7 +130,7 @@ To see the information below in a nice-looking table, click [[here|https://pste.
 
     - `present` will ensure it is always scheduled.
 
-    - Note: Whenever this option is changed (i.e. "`absent` -> `present`" or "`present` -> `absent`"), a manual backup (`sudo ansible-playbook cloudbox.yml --tags backup`) must be run once in order to enable or disable the backup schedule.  
+    - Note 1: Whenever this option is changed (i.e. "`absent` -> `present`" or "`present` -> `absent`"), a manual backup (`sudo ansible-playbook cloudbox.yml --tags backup`) must be run once in order to enable or disable the backup schedule.  
 
     - Note 2: This option just allows Cloudbox to schedule the backup for you. You can manually schedule cron (e.g. `sudo crontab -e`) to run backups with `/usr/local/bin/ansible-playbook /home/seed/cloudbox/cloudbox.yml --tags backup` called as root. 
 
