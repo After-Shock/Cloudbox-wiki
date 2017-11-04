@@ -12,7 +12,7 @@ If you would like to have custom libraries in Plex, you may do so with this guid
 
 
 
-# Scenario 1
+## Scenario 1
 
 You want to place your libraries within the `/Media/Movies` folder.
 
@@ -33,20 +33,20 @@ _Note: You could do the same to TV shows (i.e. have multiple subdirs/libraries w
 _Note 2: If you have a separate Plex and Feeder setup, the following steps will be done on the server where Plex is installed._
 
 
-## 1. Create folders in Google Drive
+### 1. Create folders in Google Drive
 
 
 Lets say you wanted to have a separate library for 3D, 4K, Hollywood, and Foreign films. You would first have to create these folders in Google Drive. Since all media is located in the `/Media/Movies` folder, you would need to create separate folders for all of these. `/Media/Movies` folder will contain nothing but these folders (i.e. no movie folders directly under it).
 
 In our example, we will create the following folders: `/Media/Movies/3D`, `/Media/Movies/4k`, `/Media/Movies/Hollywood`, `/Media/Movies/Kids`, and `/Media/Movies/Foreign`.
 
-## 2. Adding Libraries to Plex
+### 2. Adding Libraries to Plex
 
 You will add each of these folders as separate libraries within Plex (see [[example|Plex#adding-the-movie-library]]). You may name these libraries as whatever you want. The folders will be located in the `/data/Movies` folder.
 
 In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movies/Foreign`, `/data/Movies/Hollywood`, and `/data/Movies/Kids`.
 
-## 3. Retrieving Plex Library Section IDs
+### 3. Retrieving Plex Library Section IDs
 
 1. On the server's shell, run the following command:
 
