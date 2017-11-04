@@ -39,7 +39,7 @@ Enter setup by clicking on "Config" at the top.
     1. Fill in the following:
        - Name: NZBGet
        - Host: `nzbget`
-       - Port: `6789`
+       - Port: `8080`
        - Use SSL: `OFF`
        - Username: [[your NZBGet Username|NZBGet]]
        - Password: [[your NZBGet Password|NZBGet]]
