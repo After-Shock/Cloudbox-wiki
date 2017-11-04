@@ -13,10 +13,10 @@ Note 2: This wiki uses `~/` interchangeably with `/home/{{user}}/`. So if your u
 | Path                   | Purpose                                                                                                                                                            |
 |:---------------------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | <pre>/Media</pre>     | <pre> Location of the `Movies` and `TV` folders   </pre>                                                                                                                         |
-| <pre>/Media/Movies</pre> | <pre> Location of all your movies. Each one within it's own folder. Preferably, in the format of: `Movie Name (YEAR)` </pre>                                                                                                  |
-| <pre>/Media/TV</pre>   | <pre> Location of all your TV shows. Each one within it's own folder. Individual season folders within those. </pre> |
+| <pre>/Media/Movies</pre> | <pre> Location of all your movies. Each one within it's own folder (folder format: /Media/Movies/Movie Name (year)/movie file.ext </pre>                                                                                                  |
+| <pre>/Media/TV</pre>   | <pre> Location of all your TV shows (folder format: /Media/TV/TV Show Name/Season 00/Episode.ext)</pre> |
 
-_Note: These folders are not meant to be changed. However, if you would like to separate content into multiple libraries in Plex, you may do so by creating sub-folders within the `Movies` and `TV` folders (see [[Customizing Plex Libraries]] for more info)._
+_Note: If you would like to separate content into multiple libraries in Plex, you may do so by creating sub-folders within the `Movies` and `TV` folders (see [[Customizing Plex Libraries]] for more info)._
 
 
 ## Local Paths
