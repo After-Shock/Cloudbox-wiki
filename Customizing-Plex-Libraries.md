@@ -251,4 +251,4 @@ In our example, this will be: `/mnt/unionfs/Media/Movies-3D`, `/mnt/unionfs/Medi
 
 ### 5. Change root paths in Radarr
 
-Set your Movie Paths in Radarr to reflect the new sub-dirs (e.g. `/mnt/unionfs/Media/Movies-3D`), see wiki on [[Radarr|Radarr#8-adding-the-movies-path]].
+Set your Movie Paths in Radarr to reflect the new sub-dirs (e.g. `/mnt/unionfs/Media/Movies-3D`), see the wiki on [[Radarr|Radarr#8-adding-the-movies-path]].
