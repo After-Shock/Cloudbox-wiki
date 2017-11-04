@@ -1,5 +1,3 @@
--UPDATES COMING SOON-
-
 In the default Cloudbox install, you have two Plex libraries: one for Movies and one for TV Shows (see below).
 
    ```
@@ -145,7 +143,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 
 
-## Scenario 2 (coming soon)
+## Scenario 2 (WORK IN PROGRESS)
 
 You want to place your libraries within the `/Media` folder.
 
