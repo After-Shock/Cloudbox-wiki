@@ -1,5 +1,5 @@
 There are two ways to setup this up: 
 
-- via cloudflared.py script (recommended)
+- [[via cloudflared.py script|Cloudflare Script]] (recommended) 
 
-- Manually
+- [[manually|Cloudflare Manually]]
