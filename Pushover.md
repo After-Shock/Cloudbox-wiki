@@ -4,14 +4,17 @@
 
 Some examples below:
 
- - Cloudbox Backup
+ - Mobile:
 
-   ![](https://i.imgur.com/fDWzmxM.png)
+   ![](https://i.imgur.com/7tiluyd.png)
 
- - UnionFS Cleaner Pushover alerts:
+
+
+ - PC (Pushover):
   
-   ![](https://i.imgur.com/HUUZ91a.png)
+   ![](https://i.imgur.com/2A12nIe.png)
   
+
 
 
 
