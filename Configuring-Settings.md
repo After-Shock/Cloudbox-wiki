@@ -42,7 +42,7 @@
 
 ## 3. Options in Settings
 
-To see the information below in a nice table, click [[here|https://pste.eu/p/WUNp.html]].
+To see the information below in a nice-looking table, click [[here|https://pste.eu/p/Iwl2.html]].
 
 
 ---
