@@ -1,5 +1,3 @@
-## Add Plex with nginx-proxy to Cloudflare 
-
 
 1. Sign up for CloudFlare
 
