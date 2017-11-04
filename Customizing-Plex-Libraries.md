@@ -69,7 +69,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 
 
-## 4. Modifying Plex Autoscan Config
+### 4. Modifying Plex Autoscan Config
 
 1. On the server's shell, run the following command:
 
@@ -114,7 +114,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 1. Restart Plex Autoscan: `sudo systemctl restart plex_autoscan`
 
 
-## 5. Modifying UnionFS Cleaner Config
+### 5. Modifying UnionFS Cleaner Config
 
 1. On the server's shell, run the following command:
 
@@ -145,7 +145,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 
 
-# Scenario 2 (coming soon)
+## Scenario 2 (coming soon)
 
 You want to place your libraries within the `/Media` folder.
 
