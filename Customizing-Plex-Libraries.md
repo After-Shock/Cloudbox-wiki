@@ -153,7 +153,6 @@ You want to place your libraries within the `/Media` folder.
 
 ```
 Media
-├── Movies
 ├── Movies-3D
 ├── Movies-4K
 ├── Movies-Foreign
