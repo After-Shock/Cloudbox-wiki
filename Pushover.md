@@ -4,13 +4,13 @@
 
 Some examples below:
 
- - Mobile:
+ - Mobile device (Pushover app):
 
    ![](https://i.imgur.com/7tiluyd.png)
 
 
 
- - PC (Pushover):
+ - PC (Pullover client):
   
    ![](https://i.imgur.com/2A12nIe.png)
   
