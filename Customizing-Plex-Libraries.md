@@ -6,17 +6,30 @@ In the default Cloudbox install, you have two Plex libraries (one for Movies and
 
 ## Scenario 1
 
-Libraries are located as a sub-directory within the `Movies` folder (e.g. `Movies/Kids`, `Movies/4K`, `Movies/3D`, etc).
+Libraries are located as sub-dirs within the `Movies` folder.
 
-   ```
-   Media
-   ├── Movies
-   |   ├──4k
-   |   ├──Kids
-   |   ├──   |
-   └── TV
-   ```
+```
+Media
+├── Movies
+│   ├── 3D
+│   ├── 4K
+│   ├── Foreign
+│   └── Hollywood
+└── TV
 
+```
+
+
+
+/mnt/unionfs/Media
+├── Movies
+│   ├── American
+│   ├── Foreign
+│   ├── Kids
+│   ├── Movies
+│   ├── Movies-3D
+│   ├── Other
+│   └── Remux
 
 
 _Note: Remember, your Google Drive will have two folders within the `/Media` folder: `Movies` and `TV`. Those are not to be changed and are case sensitive. See [[Prerequisites|Prerequisites#4-google-drive-account]] and [[Paths|Paths#google-drive-paths]] for more info._
@@ -135,3 +148,20 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 1. `Ctrl-x`, `y`, and `enter` to save.
 
 1. UnionFS Cleaner will restart itself when it detects config.json has changed.
+
+
+
+## Scenario 2 (coming soon)
+
+Libraries are located as sub-dirs within the `Media` folder.
+
+```
+Media
+├── Movies
+├── Movies-3D
+├── Movies-4K
+├── Movies-Kids
+├── Movies-Foreign
+└── TV
+
+```
