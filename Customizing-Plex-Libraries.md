@@ -77,9 +77,9 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 1. Scroll down to the `PLEX_SECTION_PATH_MAPPINGS` section.
 
-1. Under this section, you will need to add your section IDs and the library paths (as located in /Media folder in Google Drive). The format is `"SECTION_NUMBER": ["path"]`.
+1. Under this section, you will need to add your section IDs and the library paths (as located within the `/Media` folder in Google Drive). The format is `"SECTION_NUMBER": ["path"]`.
 
-   Make sure the path is within quotes (`"/Movies/Kids"`) and there is a comma (`,`) after the close bracket (`]`) - all except the last one (see example below).
+   Make sure the path is within quotes (`"/Movies/3D"`) and there is a comma (`,`) after the close bracket (`]`) - all except the last one (see example below).
 
 1. After the changes, the section will now look similar to this:
 
@@ -212,28 +212,28 @@ In our example, this will be: `/mnt/unionfs/Media/Movies-3D`, `/mnt/unionfs/Medi
 
 1. Scroll down to the `PLEX_SECTION_PATH_MAPPINGS` section.
 
-1. Under this section, you will need to add your section IDs and the library paths (as located in /Media folder in Google Drive). The format is `"SECTION_NUMBER": ["path"]`.
+1. Under this section, you will need to add your section IDs and the library paths (as located within the `/Media` folder in Google Drive). The format is `"SECTION_NUMBER": ["path"]`.
 
-   Make sure the path is within quotes (`"/Movies/Kids"`) and there is a comma (`,`) after the close bracket (`]`) - all except the last one (see example below).
+   Make sure the path is within quotes (`"/Movies-3D"`) and there is a comma (`,`) after the close bracket (`]`) - all except the last one (see example below).
 
 1. After the changes, the section will now look similar to this:
 
    ```json
    "PLEX_SECTION_PATH_MAPPINGS": {
       "1": [
-          "/Movies/3D/"
+          "/Movies-3D/"
       ],
       "2": [
-          "/Movies/4K/"
+          "/Movies-4K/"
       ],
       "3": [
-          "/Movies/Foreign/"
+          "/Movies-Foreign/"
       ],
       "4": [
-         "/Movies/Hollywood/"
+         "/Movies-Hollywood/"
       ],
       "5": [
-          "/Movies/Kids/"
+          "/Movies-Kids/"
       ],
       "6": [
           "/TV/"
