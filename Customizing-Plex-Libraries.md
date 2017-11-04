@@ -8,11 +8,11 @@ In the default Cloudbox install, you have two Plex libraries: one for Movies and
    └── TV
    ```
 
- If you would like to have custom libraries in Plex, you may do so with this guide. But regardless of what scenario below you choose, the content will always be within `/Media` folder in your Google Drive. 
+If you would like to have custom libraries in Plex, you may do so with this guide. But regardless of what scenario below you choose, the content will always be within `/Media` folder in your Google Drive. 
 
 
 
-## Scenario 1
+# Scenario 1
 
 You want to place your libraries within the `/Media/Movies` folder.
 
@@ -145,7 +145,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 
 
-## Scenario 2 (coming soon)
+# Scenario 2 (coming soon)
 
 You want to place your libraries within the `/Media` folder.
 
