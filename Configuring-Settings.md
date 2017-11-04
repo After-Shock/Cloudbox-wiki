@@ -132,7 +132,7 @@ To see the information below in a nice table, click [[here|https://pste.eu/p/WUN
 
     - `present` will ensure it is always scheduled.
 
-    - Note: Whenever this option is changed (i.e. "`absent` -> `present`" or "`present` -> `absent`", a manual backup (`sudo ansible-playbook cloudbox.yml --tags backup`) must be run once in order to enable or disable the backup schedule.  Alternatively, you set the backup schedule by manually editing the cronjob (i.e. `sudo crontab -e`).
+    - Note: Whenever this option is changed (i.e. "`absent` -> `present`" or "`present` -> `absent`"), a manual backup (`sudo ansible-playbook cloudbox.yml --tags backup`) must be run once in order to enable or disable the backup schedule.  Alternatively, you set the backup schedule by manually editing the cronjob (i.e. `sudo crontab -e`).
 
   - `pushover_app_token`: Pushover App Token. Enables notifications to be sent when a backup task starts and finishes (requires both the `Pushover App Token` and the `Pushover User Key`). Default is blank.
 
