@@ -4,7 +4,7 @@
 
 Some examples below:
 
- - Cloudbox Backup (coming soon)
+ - Cloudbox Backup
 
    ![](https://i.imgur.com/fDWzmxM.png)
 
