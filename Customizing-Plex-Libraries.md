@@ -96,7 +96,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
           "/Movies/Foreign/"
       ],
       "4": [
-         "/Movies/Hollywood/"
+          "/Movies/Hollywood/"
       ],
       "5": [
           "/Movies/Kids/"
@@ -233,7 +233,7 @@ In our example, this will be: `/mnt/unionfs/Media/Movies-3D`, `/mnt/unionfs/Medi
           "/Movies-Foreign/"
       ],
       "4": [
-         "/Movies-Hollywood/"
+          "/Movies-Hollywood/"
       ],
       "5": [
           "/Movies-Kids/"
