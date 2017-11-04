@@ -42,7 +42,7 @@
 
 ## 3. Options in Settings
 
-To see the information below in a nice table, click [[here|https://pste.eu/p/yFDz.html]].
+To see the information below in a nice table, click [[here|https://pste.eu/p/TqjX.html]].
 
 
 ---
@@ -134,9 +134,9 @@ To see the information below in a nice table, click [[here|https://pste.eu/p/yFD
 
     - Note: Whenever this option changed (i.e. "`absent` -> `present`" or "`present` -> `absent`", a manual backup (`sudo ansible-playbook cloudbox.yml --tags backup`) must be run once in order to enable or disable the backup schedule.  Alternatively, you can manually modify the backup schedule by editing the cronjob (i.e. `sudo crontab -e`).
 
-  - `pushover_app_token`: Pushover app token. Enables notifications to be sent when a backup task starts and finishes (requires both the `Pushover App Token` and the `Pushover User Key`). Default is blank.
+  - `pushover_app_token`: Pushover App Token. Enables notifications to be sent when a backup task starts and finishes (requires both the `Pushover App Token` and the `Pushover User Key`). Default is blank.
 
-  - `pushover_user_key`: Pushover user key. Enables notifications to be sent when a backup task starts and finishes (requires both the `Pushover App Token` and the `Pushover User Key`). Default is blank.
+  - `pushover_user_key`: Pushover User Key. Enables notifications to be sent when a backup task starts and finishes (requires both the `Pushover App Token` and the `Pushover User Key`). Default is blank.
 
 
 ## 3. Saving Settings ## 
