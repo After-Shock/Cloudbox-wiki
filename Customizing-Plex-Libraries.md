@@ -1,8 +1,27 @@
-In the default Cloudbox install, you have two Plex libraries (one for Movies and one for TV Shows). If you would like to have custom libraries in Plex, you may do so as long as the other libraries are located as a sub-directory within the `Movies` folder (e.g. `Movies/Kids`, `Movies/4K`, `Movies/3D`, etc). Below is a guide on how to do this.
+-UPDATES COMING SOON-
+
+In the default Cloudbox install, you have two Plex libraries (one for Movies and one for TV Shows). If you would like to have custom libraries in Plex, you may do so with this guide. 
+
+
+
+## Scenario 1
+
+Libraries are located as a sub-directory within the `Movies` folder (e.g. `Movies/Kids`, `Movies/4K`, `Movies/3D`, etc).
+
+   ```
+   Media
+   ├── Movies
+   |   ├──4k
+   |   ├──Kids
+   |   ├──   |
+   └── TV
+   ```
+
+
 
 _Note: Remember, your Google Drive will have two folders within the `/Media` folder: `Movies` and `TV`. Those are not to be changed and are case sensitive. See [[Prerequisites|Prerequisites#4-google-drive-account]] and [[Paths|Paths#google-drive-paths]] for more info._
 
-_Note 2: You could do the same to TV shows (i.e. have multiple subdirs/libraries within `TV`), but this guide will not go over that. However, the steps are similar to the one below._
+_Note 2: You could do the same to TV shows (i.e. have multiple subdirs/libraries within `TV`), but this guide will not go over that. However, the steps are similar to the ones below._
 
 _Note 3: If you have a separate Plex and Feeder setup, the following steps will be done on the server where Plex is installed._
 
@@ -18,7 +37,7 @@ In our example, we will create the following folders: `/Media/Movies/3D`, `/Medi
 
 You will add each of these folders as separate libraries within Plex (see [[example|Plex#adding-the-movie-library]]). You may name these libraries as whatever you want. The folders will be located in the `/data/Movies` folder.
 
-In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movies/Hollywood`, `/data/Movies/Kids`, and `/data/Movies/Foreign`.
+In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movies/Foreign`, `/data/Movies/Hollywood`, and `/data/Movies/Kids`.
 
 ## 3. Retrieving Plex Library Section IDs
 
@@ -33,9 +52,9 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
     ```
     1: 3D
     2: 4K
-    3: Hollywood
-    4: Kids
-    5: Foreign
+    3: Foreign
+    4: Hollywood
+    5: Kids
     6: TV
     ```
 
@@ -68,13 +87,13 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
           "/Movies/4K/"
       ],
       "3": [
-          "/Movies/Hollywood/"
+          "/Movies/Foreign/"
       ],
       "4": [
-         "/Movies/Kids/"
+         "/Movies/Hollywood/"
       ],
       "5": [
-          "/Movies/Foreign/"
+          "/Movies/Kids/"
       ],
       "6": [
           "/TV/"
