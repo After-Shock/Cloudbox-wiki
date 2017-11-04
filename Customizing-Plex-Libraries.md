@@ -175,7 +175,7 @@ _Note 2: If you have a separate Plex and Feeder setup, the following steps will 
 
 Let's say you wanted to have separate movies libraries for: general movies folder, 3D, 4K, Foreign, Hollywood, and Kids. You would first have to create these folders within the `/Media` path in Google Drive. `/Media/` folder will contain nothing but these folders (and the `TV` folder).
 
-In our example, we will create the following folders: `/Media/Movies-3D`, `/Media/Movies-4K`, `/Media/Movies/Foreign`, `/Media/Movies/Hollywood`, and `/Media/Movies/Kids`.
+In our example, we will create the following folders: `/Media/Movies-3D`, `/Media/Movies-4K`, `/Media/Movies-Foreign`, `/Media/Movies-Hollywood`, and `/Media/Movies-Kids`.
 
 ### 2. Add Libraries to Plex
 
