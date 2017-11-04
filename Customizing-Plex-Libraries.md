@@ -20,7 +20,8 @@ Media
 │   ├── 3D
 │   ├── 4K
 │   ├── Foreign
-│   └── Hollywood
+│   ├── Hollywood
+│   └── Kids
 └── TV
 
 ```
