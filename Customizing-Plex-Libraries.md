@@ -143,7 +143,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 
 
-## Scenario 2 (WORK IN PROGRESS)
+## Scenario 2
 
 You want to place your libraries within the `/Media` folder.
 
