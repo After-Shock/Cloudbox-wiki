@@ -1,7 +1,7 @@
 
 1. Sign up for [Cloudflare](https://www.cloudflare.com/).
 
-1. Set your name server on your domain registrar's website (e.g. GoDaddy, Namecheap, etc) to what Cloudflare instructs you to.
+1. Set the nameservers to what Cloudflare instructs you to, on your domain registrar's website (e.g. GoDaddy, Namecheap, etc).
 
 1. Go to the "Crypto" tab and set SSL to "Full (strict)"
 
