@@ -147,7 +147,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 Set your Movie Paths in Radarr to reflect the new sub-dirs (e.g. `/movies/3D`), see the wiki on [[Radarr|Radarr#8-adding-the-movies-path]].
 
-## Scenario 2
+## Scenario 2 (less preferred)
 
 You want to place your libraries within the `/Media` folder.
 
