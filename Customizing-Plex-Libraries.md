@@ -36,7 +36,7 @@ _Note 2: If you have a separate Plex and Feeder setup, the following steps will 
 
 Let's say you wanted to have separate movie libraries for: 3D, 4K, Foreign, Hollywood, and Kids. You would first have to create these folders within the `/Media/Movies` path in Google Drive. `/Media/Movies` folder will contain nothing but these folders.
 
-In our example, we will create the following folders: `/Media/Movies/3D`, `/Media/Movies/4k`, `/Media/Movies/Hollywood`, `/Media/Movies/Kids`, and `/Media/Movies/Foreign`.
+In our example, we will create the following folders: `/Media/Movies/3D`, `/Media/Movies/4K`, `/Media/Movies/Foreign`, `/Media/Movies/Hollywood`, and `/Media/Movies/Kids`.
 
 ### 2. Adding Libraries to Plex
 
@@ -172,13 +172,13 @@ _Note 2: If you have a separate Plex and Feeder setup, the following steps will 
 
 Let's say you wanted to have separate movies libraries for: general movies folder, 3D, 4K, Foreign, Hollywood, and Kids. You would first have to create these folders within the `/Media` path in Google Drive. `/Media/` folder will contain nothing but these folders (and the `TV` folder).
 
-In our example, we will create the following folders: `/Media/Movies-3D`, `/Media/Movies-4K`, `/Media/Movies-Hollywood`, `/Media/Movies/Kids`, and `/Media/Movies/Foreign`.
+In our example, we will create the following folders: `/Media/Movies-3D`, `/Media/Movies-4K`, `/Media/Movies/Foreign`, `/Media/Movies/Hollywood`, and `/Media/Movies/Kids`.
 
 ### 2. Adding Libraries to Plex
 
 You will add each of these folders as separate libraries within Plex (see [[example|Plex#adding-the-movie-library]]). You may name these libraries as whatever you want. The folders will be located in the `/mnt/unionfs/Media/` folder.
 
-In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movies/Foreign`, `/data/Movies/Hollywood`, and `/data/Movies/Kids`.
+In our example, this will be: `/mnt/unionfs/Media/Movies-3D`, `/mnt/unionfs/Media/Movies-4K`, `/mnt/unionfs/Media/Movies-Foreign`, `/mnt/unionfs/Media/Movies-Hollywood`, and `/mnt/unionfs/Media/Movies-Kids`.
 
 ### 3. Retrieving Plex Library Section IDs
 
@@ -200,7 +200,6 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
     ```
 
 1. The list here shows your section IDs in the format of `SECTION ID: LIBRARY NAME`. Note: Your section IDs may be different as it is based on the order you added them in Plex.
-
 
 
 ### 4. Modifying Plex Autoscan Config
@@ -247,32 +246,3 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 1. Restart Plex Autoscan: `sudo systemctl restart plex_autoscan`
 
-
-### 5. Modifying UnionFS Cleaner Config
-
-1. On the server's shell, run the following command:
-
-    ```
-    nano /opt/unionfs_cleaner/config.json
-    ```
-
-1. Scroll down to the `rclone_remove_empty_on_upload` section.
-
-1. Change `"/mnt/local/Media/Movies": 1` to `"/mnt/local/Media/Movies": 2`. 
-
-   1. This will tell UnionFS Cleaner to not delete the folders immediately under `/mnt/local/Media/Movies` during cleanup.  
-
-   1. Make sure there is a comma (`,`) at the end of all `"path": #` lines - all except the last one (see example below).
-
-1. After the changes, the section will now look similar to this:
-
-   ```json
-   "rclone_remove_empty_on_upload": {
-       "/mnt/local/Media/Movies": 2,
-       "/mnt/local/Media/TV": 1
-   },
-   ```
-
-1. `Ctrl-x`, `y`, and `enter` to save.
-
-1. UnionFS Cleaner will restart itself when it detects config.json has changed.
