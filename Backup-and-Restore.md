@@ -56,13 +56,13 @@ There are 2 ways to schedule a Cloudbox Backup: (1) by editing the settings.yml 
 
 ### 1. Using Cloudbox Settings
 
-1. You will need to edit the [[settings.yml|Configuring Settings]] file and specify:
+1. You will need to edit the [[settings.yml|Configuring Settings]] file and set:
 
    - `tgz_dest` (default is OK)
 
-   - `use_rsync` or `use_rclone` based on your preference.
+   - `use_rsync` or `use_rclone` to `true`, based on your preference.
 
-   - `rsync_dest` or `rclone_dest` based on your preference.
+   - `rsync_dest` or `rclone_dest`, based on your preference.
 
    - `cron_time` to a schedule of your preference.
 
@@ -111,19 +111,25 @@ There are 2 ways to schedule a Cloudbox Backup: (1) by editing the settings.yml 
 
 # Restore
 
-1. Enable either rsync or rclone under backup of settings.yml
+We will assume you are restoring to a new / fresh server. 
 
-2. If using rclone, drop in your rclone.conf into ~/cloudbox...
+1. [[Download Cloudbox|Downloading Cloudbox]]
 
-Easy way:
+1. Modify the [[settings.yml|Configuring Settings]] and set either `use_rsync` or `use_rclone` to `true` based on where you saved your backup to. 
 
-nano rclone
-paste
+1. If your using Rclone, copy your rclone.conf into `~/cloudbox`. You may also `nano ~/cloudbox/rclone.conf` and paste in your rclone.conf. 
 
-3. Run command
+1. Run the restore command (in `~/cloudbox`)
 
-sudo ansible-playbook cloudbox.yml --tag restore
+   ```bash
+   sudo ansible-playbook cloudbox.yml --tag restore
+   ```
 
-4. Install Cloudbox
+1. Restore settings.yml from backup (optional)
 
-5. Everything will be as it was at the time the backup was created, with the exception of seeding content.
+   ```bash
+   cp ~/opt/settings.yml ~/cloudbox
+   ```
+
+
+1. [[Install Cloudbox|Installing Cloudbox]] (After install, everything will be as it was at the time the backup) was created.
