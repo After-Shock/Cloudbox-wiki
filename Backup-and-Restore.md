@@ -56,9 +56,39 @@ There are 2 ways to schedule a Cloudbox Backup: (1) by editing the settings.yml 
 
 ### 1. Using Cloudbox settings
 
+1. You will need to edit the [[settings.yml|Configuring Settings]] file and specify:
+
+   - `tgz_dest` (default is OK)
+
+   - `use_rsync` or `use_rclone` based on your preference.
+
+   - `rsync_dest` or `rclone_dest` based on your preference.
+
+   - `cron_time` to a schedule of your preference.
+
+   - `cron_state` to `present`
+
+   -  `pushover_app_token` and `pushover_user_key` if you wish to receive Pushover notification alerts during backup tasks.
 
 
-To schedule a backup you can manually edit crontab 
+   Note: See [[Configuring Settings]] wiki page on further details on all of the settings parameters listed above. 
+
+
+2. Run a manual backup once to "set" the cron job.
+
+   1. Go into your Cloudbox folder 
+ 
+      ```shell
+      cd ~/cloudbox 
+      ```
+
+   2. Run the backup command
+
+      ```shell
+      sudo ansible-playbook cloudbox.yml --tags backup
+      ```
+
+
 
 ### Overview of Backup Settings
 
@@ -112,6 +142,11 @@ To schedule a backup you can manually edit crontab
    ```
 
 1. `Ctrl-x`, `y`, and `enter` to save.
+
+
+
+
+### 2. Creating a cron job manually
 
 
 Backup can be done on a schedule via the cron options (remember that you must run the backup once in order for it to apply the cron schedule changes in settings.yml) - you can also manually create a cron schedule, but it MUST be ran as the root user (e.g. sudo crontab -e). to create a manual cron you should use the following command todo the backup ```ansible-playbook /home/USER/cloudbox/cloudbox.yml --tags backup``` - remmber this MUST be ran as root so it does not have any unforseen permission issues.
