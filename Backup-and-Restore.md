@@ -2,7 +2,7 @@ Backup is an integral part of Cloudbox, this is what makes it so great! Everythi
 
 **Cloudbox Backup** creates a backup .tar file of the entire `/opt` folder, which includes all settings and configuration files for the Docker apps installed with Cloudbox, and uploads it to your Google Drive or Rsync remote. Backup can be ran manually on-demand or scheduled to run automatically.
 
-**Cloudbox Restore** downloads the backup .tar file and and restores it to the `/opt` folder. This can be done on the same server or brand new one, with everything exactly as you left it at the time of backup. Note: If restoring to a new server with a different IP, you will need to update the DNS settings for your domain name.
+**Cloudbox Restore** downloads the backup .tar file and and restores it to the `/opt` folder. This can be done on the same server or brand new one, with everything exactly as you left it at the time of backup. Note: If you are restoring to a new server with a different IP, you will need to update the DNS settings for your domain name.
 
 
 Plexpy
