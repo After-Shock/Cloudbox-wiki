@@ -4,39 +4,27 @@ Cloudbox Backup creates a .tar file of the entire `/opt` folder, which includes 
 
 Cloudbox Restore downloads this this backup .tar file and is able to restore it the same server or even a brand new server, with everything exactly as you left it at the time of backup. With the only thing required is updating of the DNS settings for your domain.
 
-Things that are backed-up:
-  * Plex
-  * Sonarr
-  * Radarr
-  * NZBGet
-  * Rutorrent/rTorrent
-  * NZBHydra
-  * Jackett
-  * Portainer
-  * Organizr
-  * Nginx (including SSL Keys)
-  * Plex Autoscan
-  * Unionfs Cleaner
-  * Systemd Service files from `/etc/systemd/system/`
-  * Cloudbox settings file from `~/cloudbox/settings.yml`
-  * Rclone config file from `~/cloudbox/rclone.conf`
 
-Things that are restored are:
-  * Plex
-  * Sonarr
-  * Radarr
-  * NZBGet
-  * Rutorrent/rTorrent
-  * NZBHydra
-  * Jackett
-  * Portainer
-  * Organizr
-  * Nginx (including SSL Keys)
-  * Plex Autoscan
-  * Unionfs Cleaner
-  * Systemd Service files (only to `/opt/systemd/`)
-  * Cloudbox settings (only to `/opt/settings.yml`)
-  * Rclone config file (only to `/opt/rclone/rclone.conf`)
+| Things that are backed-up | From:                     | To:                      |
+|:------------------------- |:------------------------- |:------------------------ |
+| Plex                      | `/opt/plex/`              | `/opt/plex/`             |
+| Sonarr                    | `/opt/sonarr/`            | `/opt/sonarr/`           |
+| Radarr                    | `/opt/radarr/`            | `/opt/radarr/`           |
+| NZBGet                    | `/opt/nzbget/`            | `/opt/nzbget/`           |
+| Rutorrent/rTorrent        | `/opt/rutorrent/`         | `/opt/rutorrent/`        |
+| NZB Hydra                 | `/opt/nzbhydra/`          | `/opt/nzbhydra/`         |
+| Jackett                   | `/opt/jackett/`           | `/opt/jackett/`          |
+| Portainer                 | `/opt/portainer/`         | `/opt/portainer/`        |
+| Organizr                  | `/opt/organizr/`          | `/opt/organizr/`         |
+| Nginx config              | `/opt/nginx/`             | `/opt/nginx/`            |
+| SSL Keys                  | `/opt/nginx-proxy/`       | `/opt/nginx-proxy/`      |
+| Plex Autoscan             | `/opt/plex_autoscan/`     | `/opt/plex_autoscan/`    |
+| Unionfs Cleaner           | `/opt/unionfs_cleaner/`   | `/opt/unionfs_cleaner/`  |
+| Systemd Service           | `/etc/systemd/system/`    | `/opt/systemd/`          |
+| Cloudbox settings         | `~/cloudbox/settings.yml` | `/opt/settings.yml`      |
+| Rclone config             | `~/cloudbox/rclone.conf`  | `/opt/rclone/rclon.conf` | 
+
+    
 
 
 Things that are not backed up:
