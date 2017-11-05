@@ -52,6 +52,60 @@ Things that are not backed up:
 
 ## Scheduled Backup
 
+### Overview of Backup Settings
+
+   ```yaml
+     backup:
+       tgz_dest: "/home/{{user}}/Backups"
+       rsync_dest: rsync://somehost.com/Backups
+       rclone_dest: google:/Backups
+       use_rsync: false
+       use_rclone: false
+       cron_time: weekly
+       cron_state: absent
+       pushover_app_token:
+       pushover_user_key:
+   ```
+
+
+
+### Setting a Backup Schedule
+
+
+1. Edit the settings.yml file. 
+
+   ```bash
+     nano ~/cloudbox/settings.yml
+   ```
+
+1. Type in your Pushover User Key and the Application Token under "backup" (without quotes).
+
+   ```yaml
+     backup:
+       tgz_dest: "/home/{{user}}/Backups"
+       rsync_dest: rsync://somehost.com/Backups
+       rclone_dest: google:/Backups
+       use_rsync: false
+       use_rclone: false
+       cron_time: weekly
+       cron_state: absent
+       pushover_app_token:
+       pushover_user_key:
+   ```
+
+
+
+1. Type in your Pushover User Key and the Application Token under "backup" (without quotes).
+
+   ```yaml
+     backup:
+   
+       pushover_app_token:
+       pushover_user_key:
+   ```
+
+1. `Ctrl-x`, `y`, and `enter` to save.
+
 
 Backup can be done on a schedule via the cron options (remember that you must run the backup once in order for it to apply the cron schedule changes in settings.yml) - you can also manually create a cron schedule, but it MUST be ran as the root user (e.g. sudo crontab -e). to create a manual cron you should use the following command todo the backup ```ansible-playbook /home/USER/cloudbox/cloudbox.yml --tags backup``` - remmber this MUST be ran as root so it does not have any unforseen permission issues.
 
