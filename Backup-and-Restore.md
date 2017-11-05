@@ -76,7 +76,7 @@ There are 2 ways to schedule a Cloudbox Backup: (1) by editing the settings.yml 
 
 2. Run a Manual Backup Once
 
-Note: this step is required even if backup was enabled (i.e. `cron_state` set to `present`) when you first installed Cloudbox, since a manual backup has to be run once to create the cron job.
+   Note: this step is required even if backup was enabled (i.e. `cron_state` set to `present`) when you first installed Cloudbox, since a manual backup has to be run once to create the cron job.
 
 
    1. Go into your Cloudbox folder 
