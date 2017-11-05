@@ -46,7 +46,7 @@ When Sonarr or Radarr upgrade your media files, they delete the previous ones. W
 }
 ```
 
-_Note: For a complete listing of all the options, checkout [https://github.com/l3uddz/unionfs_cleaner](https://github.com/l3uddz/unionfs_cleaner)._
+_Note: For details on all the options available, checkout [https://github.com/l3uddz/unionfs_cleaner](https://github.com/l3uddz/unionfs_cleaner)._
 
 ### Enable Pushover Notifications
 
