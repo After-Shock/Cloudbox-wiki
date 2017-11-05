@@ -54,7 +54,7 @@ _Note: For details on all the options available, checkout [https://github.com/l3
 Notifications will be sent when UnionFS Cleaner..
 - begins an upload task.
 - skips an upload task due to files being accessed
-- is put into a 25 hour ban sleep due to Google Drive's soft ban.
+- is put into a 25 hour ban sleep.
 - is restored after the ban sleep.
 
 
