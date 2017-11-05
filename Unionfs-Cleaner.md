@@ -21,7 +21,7 @@ Notifications will be sent when:
 - when UnionFS Cleaner is restored after the ban sleep
 
 
-To enable Pushover notifications, see [[this|Pushover#unionfs-cleaner]].
+To enable Pushover notifications, click [[here|Pushover#unionfs-cleaner]].
 
 
 ### Modify Upload Threshold
