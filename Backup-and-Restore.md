@@ -1,8 +1,8 @@
 Backup is an integral part of Cloudbox, this is what makes it so great! Everything related to installed applications is backed-up. Seeding content, however, is NOT backed up.
 
-Cloudbox Backup creates a .tar file of the entire `/opt` folder, which includes all app databases and settings, and uploads it to your Google Drive or Rsync remote. Backup can be ran manually on-demand or scheduled to run automatically.
+**Cloudbox Backup** creates a .tar file of the entire `/opt` folder, which includes all app databases and settings, and uploads it to your Google Drive or Rsync remote. Backup can be ran manually on-demand or scheduled to run automatically.
 
-Cloudbox Restore downloads this this backup .tar file and is able to restore it the same server or even a brand new server, with everything exactly as you left it at the time of backup. With the only thing required is updating of the DNS settings for your domain.
+**Cloudbox Restore** downloads this this backup .tar file and is able to restore it the same server or even a brand new server, with everything exactly as you left it at the time of backup. With the only thing required is updating of the DNS settings for your domain.
 
 
 | Things that are backed-up | From:                     | To:                      |
