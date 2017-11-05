@@ -7,7 +7,7 @@ Cloudbox apps will be accessed via appname._yourdomain.com_ (see table below).
 | NZB Hydra              | https://nzbhydra._yourdomain.com_     |
 | Organizr               | https://organizr._yourdomain.com_     |
 | Plex                   | https://plex._yourdomain.com_         |
-| WebTools for Plex      | https://_yourserverip_:33400          | 
+| WebTools for Plex      | http://_yourserverip_:33400           | 
 | Plexpy                 | https://plexpy._yourdomain.com_       |
 | Plex Requests - Meteor | https://plexrequests._yourdomain.com_ |
 | Portainer              | https://portainer._yourdomain.com_    |
