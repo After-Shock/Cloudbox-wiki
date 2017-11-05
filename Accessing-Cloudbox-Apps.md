@@ -1,15 +1,15 @@
 Cloudbox apps will be accessed via appname._yourdomain.com_ (see table below).
 
-| **App  Name** |            **URL**            |
-| ------------- | ----------------------------- |
-| jackett       | https://jackett._yourdomain.com_      |
-| nzbget        | https://nzbget._yourdomain.com_       |
-| nzbhydra      | https://nzbhydra._yourdomain.com_     |
-| organizr      | https://organizr._yourdomain.com_     |
-| plex          | https://plex._yourdomain.com_         |
-| plexpy        | https://plexpy._yourdomain.com_       |
-| plexrequests  | https://plexrequests._yourdomain.com_ |
-| portainer     | https://portainer._yourdomain.com_    |
-| radarr        | https://radarr._yourdomain.com_       |
-| rutorrent     | https://rutorrent._yourdomain.com_    |
-| sonarr        | https://sonarr._yourdomain.com_       | 
+| **App  Name**          | **URL**                               |
+|:---------------------- |:------------------------------------- |
+| Jackett                | https://jackett._yourdomain.com_      |
+| NZBGet                 | https://nzbget._yourdomain.com_       |
+| NZB Hydra              | https://nzbhydra._yourdomain.com_     |
+| Organizr               | https://organizr._yourdomain.com_     |
+| Plex                   | https://plex._yourdomain.com_         |
+| Plexpy                 | https://plexpy._yourdomain.com_       |
+| Plex Requests - Meteor | https://plexrequests._yourdomain.com_ |
+| Portainer              | https://portainer._yourdomain.com_    |
+| Radarr                 | https://radarr._yourdomain.com_       |
+| ruTorrent              | https://rutorrent._yourdomain.com_    |
+| Sonarr                 | https://sonarr._yourdomain.com_       |
