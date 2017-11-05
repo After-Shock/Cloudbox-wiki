@@ -134,4 +134,4 @@ We will assume you are restoring to a new / fresh server.
 
 1. [[Install Cloudbox|Installing Cloudbox]]
 
-After install, everything will be as it was at the time the backup was created.
+After install, everything will be as it was at the time of backup.
