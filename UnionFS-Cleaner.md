@@ -1,5 +1,3 @@
---WORK IN PROGRESS--
-
 ## What is UnionFS Cleaner?
 
 UnionFS Cleaner moves all your content in `/mnt/local/Media/` (see [[Paths|Paths#unionfs_cleaner]]) to Google Drive after the folder reaches a certain threshold. This was first set during initial install of Cloudbox via the [[settings.yml|Configuring Settings]] file, but can also be changed after (see below). 
