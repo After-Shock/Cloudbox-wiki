@@ -17,8 +17,8 @@ When Sonarr or Radarr upgrade your media files, they delete the previous ones. W
 Notifications will be sent when:
 - an upload task begins
 - an upload task is skipped due to files being accessed
-- an upload is cancelled due to ban (i.e. `error 403`) and UnionFS Cleaner is put into a 25 hour sleep.
-- when UnionFS Cleaner is the restored after the ban sleep
+- an upload is cancelled due to ban (i.e. `error 403`) and UnionFS Cleaner is put into a 25 hour ban sleep
+- when UnionFS Cleaner is restored after the ban sleep
 
 
 To enable Pushover notifications, see [[this|Pushover#unionfs-cleaner]].
