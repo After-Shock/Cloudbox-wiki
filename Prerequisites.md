@@ -101,4 +101,4 @@ If you plan on using [Usenet](https://www.reddit.com/r/usenet/wiki/faq#wiki_usen
 ---
 
 
- <sub> <a id="note1" href="#note1ref"><sup>1</sup></a> Although these folders are not meant to be changed, you can still separate content into multiple libraries by creating sub-folders within the `Movies` and `TV` folders (see [[Customizing Plex Libraries]] for more info). </sub>
+ <sub> <a id="note1" href="#note1ref"><sup>1</sup></a> If you would like to customize your Plex libraries beyond what is listed above, see [[Customizing Plex Libraries]].</sub>
