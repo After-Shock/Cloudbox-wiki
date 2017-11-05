@@ -9,6 +9,46 @@ When Sonarr or Radarr upgrade your media files, they delete the previous ones. W
 
 ## UnionFS Cleaner Config
 
+### Overview of the config.json file
+
+```json
+
+{
+    "cloud_folder": "/mnt/plexdrive",
+    "dry_run": false,
+    "du_excludes": ["*.partial~"],
+    "local_folder": "/mnt/local/Media",
+    "local_folder_check_interval": 30,
+    "local_folder_size": 200,
+    "local_remote": "google:/Media",
+    "lsof_excludes": [
+        ".partial~"
+    ],
+    "pushover_app_token": "",
+    "pushover_user_token": "",
+    "rclone_bwlimit": "",
+    "rclone_checkers": 16,
+    "rclone_chunk_size": "8M",
+    "rclone_excludes": [
+        "**partial~",
+        "**_HIDDEN",
+        ".unionfs/**",
+        ".unionfs-fuse/**"
+    ],
+    "rclone_remove_empty_on_upload": {
+        "/mnt/local/Media/Movies": 1,
+        "/mnt/local/Media/TV": 1
+    },
+    "rclone_transfers": 8,
+    "remote_folder": "google:",
+    "unionfs_folder": "/mnt/local/.unionfs-fuse",
+    "use_config_manager": true,
+    "use_git_autoupdater": true,
+    "use_upload_manager": true
+}
+```
+
+
 
 
 
@@ -25,6 +65,35 @@ To enable Pushover notifications, click [[here|Pushover#unionfs-cleaner]].
 
 
 ### Modify Upload Threshold
+
+
+1. On the server's shell, run the following command:
+
+    ```
+    nano /opt/unionfs_cleaner/config.json
+    ```
+
+1. Scroll down to the `rclone_remove_empty_on_upload` section.
+
+1. Change `"/mnt/local/Media/Movies": 1` to `"/mnt/local/Media/Movies": 2`. 
+
+   1. This will tell UnionFS Cleaner to not delete the folders immediately under `/mnt/local/Media/Movies` during cleanup.  
+
+   1. Make sure there is a comma (`,`) at the end of all `"path": #` lines - all except the last one (see example below).
+
+1. After the changes, the section will now look similar to this:
+
+   ```json
+   "rclone_remove_empty_on_upload": {
+       "/mnt/local/Media/Movies": 2,
+       "/mnt/local/Media/TV": 1
+   },
+   ```
+
+1. `Ctrl-x`, `y`, and `enter` to save.
+
+1. UnionFS Cleaner will restart itself when it detects config.json has changed.
+
 
 
 * To Moedify 
