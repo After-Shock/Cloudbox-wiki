@@ -2,7 +2,7 @@
 
 UnionFS Cleaner moves all your content in `/mnt/local/Media/` (see [[Paths|Paths#unionfs_cleaner]]) to Google Drive after the folder reaches a certain threshold. This was first set during initial install of Cloudbox via the [[settings.yml|Configuring Settings]] file, but can also be changed after (see below). 
 
-You media is being upgraded by Sonarr or Radarr, it will delete the previous files. When that data is still on the local server, it is immediately deleted, but when it has been moved to Google Drive, it UnionFS will instead create a whiteout file (blank _HIDDEN~ file) that will make the old file invisible to Sonarr, Radarr, and Plex, but the media will still exist on Google Drive. UnionFS Cleaner will scan for these whiteout files, and remove the corresponding files from Google Drive, keeping your content free of duplicates. 
+When Sonarr or Radarr upgrade your media files, they delete the previous ones. When that data is still on the local server, it is deleted, immediately, but when it has been moved to Google Drive, it is unable to do so because it is mounted as read-only (via Plexdrive). Instead, UnionFS creates a whiteout file (blank _HIDDEN~ file) that makes the file invisible. But the media will still exist on Google Drive. To resolve this, UnionFS Cleaner will scan for these whiteout files, and remove them from Google Drive, keeping your content free of duplicates. 
 
 
 Perform scan of .unionfs folder for _HIDDEN~ files, if file exists on remote, delete it and the _HIDDEN~ file. Perform automated rclone moves on your local media when X gigabytes has been reached and no files are currently being accessed. Perform automated rsync backups on specified folders after X hours.
