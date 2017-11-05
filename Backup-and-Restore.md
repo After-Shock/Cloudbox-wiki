@@ -1,10 +1,10 @@
 Backup is an integral part of Cloudbox, this is what makes it so great! Everything related to installed applications is backed up. Any changes made to service files in /etc/systemd/system is also backed up. However, Seeding content is NOT backed up.
 
-Cloudbox Backup creates a .tar file of the entire `/opt` folder which is then uploaded to your Google Drive or Rsync remote.  
+Cloudbox Backup creates a .tar file of the entire `/opt` folder, which includes all app databases and settings, and uploads it to your Google Drive or Rsync remote.  
 
-Using Cloudbox Restore, this backup .tar file can restored to the same server or even a brand new server, with everything exactly as you left it at the time of backup. With the only thing required is the DNS setting for your domain.
+Cloudbox Restore downloads this this backup .tar file and is able to restore it the same server or even a brand new server, with everything exactly as you left it at the time of backup. With the only thing required is updating of the DNS settings for your domain.
 
-- `/opt` folder - all app databases and settings. This includes: 
+Things that are backed-up:
   * Plex
   * Sonarr
   * Radarr
@@ -17,13 +17,11 @@ Using Cloudbox Restore, this backup .tar file can restored to the same server or
   * Nginx (including SSL Keys)
   * Plex Autoscan
   * Unionfs Cleaner
-
-- Systemd Service files from `/etc/systemd/system/`
-- Cloudbox settings file from `~/cloudbox/settings.yml`
-- Rclone config file from `~/cloudbox/rclone.conf`
+  * Systemd Service files from `/etc/systemd/system/`
+  * Cloudbox settings file from `~/cloudbox/settings.yml`
+  * Rclone config file from `~/cloudbox/rclone.conf`
 
 Things that are restored are:
-- `/opt` folder
   * Plex
   * Sonarr
   * Radarr
@@ -36,10 +34,9 @@ Things that are restored are:
   * Nginx (including SSL Keys)
   * Plex Autoscan
   * Unionfs Cleaner
-
-- Systemd Service files to `/opt/systemd/`
-- Cloudbox settings file from `~/cloudbox/settings.yml`
-- Rclone config file from `~/cloudbox/rclone.conf`
+  * Systemd Service files (only to `/opt/systemd/`)
+  * Cloudbox settings (only to `/opt/settings.yml`)
+  * Rclone config file (only to `/opt/rclone/rclone.conf`)
 
 
 # Backup
