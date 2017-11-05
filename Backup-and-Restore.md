@@ -1,8 +1,8 @@
 Backup is an integral part of Cloudbox, this is what makes it so great! Everything related to installed applications is backed-up. Seeding content, however, is NOT backed up.
 
-**Cloudbox Backup** creates a .tar file of the entire `/opt` folder, which includes all settings and configuration files for the Docker apps installed with Cloudbox, and uploads it to your Google Drive or Rsync remote. Backup can be ran manually on-demand or scheduled to run automatically.
+**Cloudbox Backup** creates a backup .tar file of the entire `/opt` folder, which includes all settings and configuration files for the Docker apps installed with Cloudbox, and uploads it to your Google Drive or Rsync remote. Backup can be ran manually on-demand or scheduled to run automatically.
 
-**Cloudbox Restore** downloads this this backup .tar file and is able to restore it the same server or even a brand new server, with everything exactly as you left it at the time of backup. With the only thing required is updating of the DNS settings for your domain.
+**Cloudbox Restore** downloads the backup .tar file and and restores it to the `/opt` folder. This can be done on the same server or brand new one, with everything exactly as you left it at the time of backup. Note: If restoring to a new server with a different IP, you will need to update the DNS settings for your domain name.
 
 
 Plexpy
