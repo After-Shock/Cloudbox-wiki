@@ -5,7 +5,6 @@ Backup is an integral part of Cloudbox, this is what makes it so great! Everythi
 **Cloudbox Restore** downloads the backup .tar file and and restores it to the `/opt` folder. This can be done on the same server or brand new one, with everything exactly as you left it at the time of backup. Note: If you are restoring to a new server with a different IP, you will need to update the DNS settings for your domain name.
 
 
-Plexpy
 
 | Things That Are Backed-up | Backed-up From            | Restored To              |
 |:------------------------- |:------------------------- |:------------------------ |
