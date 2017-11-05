@@ -1,6 +1,6 @@
-Backup is an integral part of Cloudbox, this is what makes it so great! Everything related to installed applications is backed up. Any changes made to service files in /etc/systemd/system is also backed up. However, Seeding content is NOT backed up.
+Backup is an integral part of Cloudbox, this is what makes it so great! Everything related to installed applications is backed-up. Seeding content, however, is NOT backed up.
 
-Cloudbox Backup creates a .tar file of the entire `/opt` folder, which includes all app databases and settings, and uploads it to your Google Drive or Rsync remote.  
+Cloudbox Backup creates a .tar file of the entire `/opt` folder, which includes all app databases and settings, and uploads it to your Google Drive or Rsync remote. Backup can be ran manually on-demand or scheduled to run automatically.
 
 Cloudbox Restore downloads this this backup .tar file and is able to restore it the same server or even a brand new server, with everything exactly as you left it at the time of backup. With the only thing required is updating of the DNS settings for your domain.
 
@@ -39,11 +39,14 @@ Things that are restored are:
   * Rclone config file (only to `/opt/rclone/rclone.conf`)
 
 
+Things that are not backed up:
+* `/home/` folder
+* Seeding content (i.e. ruTorrent downloads folder)
+* NZBGet downloads folder (all downloads should have been moved into `/mnt/local/Media/` by Sonarr/Radarr and then uploaded to Google Drive via UnionFS Cleaner)
+
 # Backup
 
 
-Everything else is backed up. Any configuration changes made inside /opt/ e.g. plex_autoscan and unionfs_cleaner are backed up and will be used for future restores. 
-The end result is you will have a .tar file that will be uploaded to your google drive storage/rsync remote. This backup file can then be restored on a brand new server, with everything exactly as you left it at the time of backup. 
 
 Backup can be done on a schedule via the cron options (remember that you must run the backup once in order for it to apply the cron schedule changes in settings.yml) - you can also manually create a cron schedule, but it MUST be ran as the root user (e.g. sudo crontab -e). to create a manual cron you should use the following command todo the backup ```ansible-playbook /home/USER/cloudbox/cloudbox.yml --tags backup``` - remmber this MUST be ran as root so it does not have any unforseen permission issues.
 
