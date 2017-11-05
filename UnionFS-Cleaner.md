@@ -4,6 +4,7 @@ UnionFS Cleaner moves all your content in `/mnt/local/Media/` (see [[Paths|Paths
 
 When Sonarr or Radarr upgrade your media files, they delete the previous ones. When that data is still on the local server, it is deleted, immediately, but when it has been moved to Google Drive, it is unable to do so because it is mounted as read-only (via Plexdrive). Instead, UnionFS creates a whiteout file (a blank `filename.ext_HIDDEN~` file) that makes the file invisible. But the media will still exist on Google Drive. To resolve this, UnionFS Cleaner will scan for a whiteout file, remove the corresponding file from Google Drive, remove it's _HIDDEN~ file, and as a result, keep your content free of duplicates. 
 
+Recently Google Drive has implemented a max upload of ~750GB per day. When this limit is reached, Google Drive will put you in a 24 hour soft ban. When UnionFS Cleaner encounters this (error 403: User Rate Limit Exceeded), it will go into a 25 hour ban sleep, and upon waking up, resume checking and uploading tasks.
 
 ## UnionFS Cleaner Config
 
@@ -50,11 +51,11 @@ _Note: For details on all the options available, checkout [https://github.com/l3
 
 ### Enable Pushover Notifications
 
-Notifications will be sent when:
-- an upload task begins
-- an upload task is skipped due to files being accessed
-- an upload is cancelled due to ban (i.e. `error 403`) and UnionFS Cleaner is put into a 25 hour ban sleep
-- when UnionFS Cleaner is restored after the ban sleep
+Notifications will be sent when UnionFS Cleaner..
+- begins an upload task.
+- skips an upload task due to files being accessed
+- is put into a 25 hour ban sleep due to Google Drive's soft ban.
+- is restored after the ban sleep.
 
 
 To enable Pushover notifications, click [[here|Pushover#unionfs-cleaner]].
