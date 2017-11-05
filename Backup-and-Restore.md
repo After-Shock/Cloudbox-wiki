@@ -9,7 +9,7 @@ _Note 1: If you are restoring to a new server with a different IP, you will need
 _Note 2: If you are restoring to a new server and would like to use a new domain name, it is a good idea to revoke the SSL certificates for that domain before backing up. This will free up your domain from Let’s Encrypt's certificates and you will be able to use it in the future without having to wait for the previous certificates to expire (~90 days). More info at [[Revoking SSL Certificates]]_.
 
 <br />
-<br />
+
 
 | Things That Are Backed-up | Backed-up From            | Restored To              |
 |:------------------------- |:------------------------- |:------------------------ |
@@ -32,7 +32,8 @@ _Note 2: If you are restoring to a new server and would like to use a new domain
 | Cloudbox settings         | `~/cloudbox/settings.yml` | `/opt/settings.yml`      |
 | Rclone config             | `~/cloudbox/rclone.conf`  | `/opt/rclone/rclone.conf`| 
 
-   
+
+<br />
 
 
 Things that are not backed-up:
@@ -40,7 +41,7 @@ Things that are not backed-up:
 * ruTorrent downloads folder (i.e. all your seeding content).
 * NZBGet downloads folder (i.e. content that has not been moved by Sonarr/Radarr).
 
-
+<br />
 
 # Backup
 
