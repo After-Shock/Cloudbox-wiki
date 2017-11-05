@@ -32,7 +32,7 @@ Plexpy
 
 
 Things that are not backed-up:
-* `/home/` folder.
+* home folder (i.e. ~/)
 * ruTorrent downloads folder (i.e. all your seeding content).
 * NZBGet downloads folder (i.e. content that has not been moved by Sonarr/Radarr).
 
