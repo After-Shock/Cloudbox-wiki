@@ -10,9 +10,24 @@ When Sonarr or Radarr upgrade your media files, they delete the previous ones. W
 ## UnionFS Cleaner Config
 
 
-* Unionfs_Cleaner comes pre set for the default paths used by Cloudbox (see [[Paths]]).
 
-  If you are using sub-dirs within the default paths (e.g. Media/Movies/Kids etc) then this will also be caught / uploaded.
+
+### Enable Pushover Notifications
+
+Notifications will be sent when:
+- an upload task begins
+- an upload task is skipped due to files being accessed
+- an upload is cancelled due to ban (i.e. `error 403`) and UnionFS Cleaner is put into a 25 hour sleep.
+- when UnionFS Cleaner is the restored after the ban sleep
+
+
+See configure Pushover Notifications, see [[this|Pushover#unionfs-cleaner]].
+
+
+### Specify Custom Upload Threshold
+
+
+* To Moedify 
 
 Perform scan of .unionfs folder for _HIDDEN~ files, if file exists on remote, delete it and the _HIDDEN~ file. Perform automated rclone moves on your local media when X gigabytes has been reached and no files are currently being accessed. Perform automated rsync backups on specified folders after X hours.
 
@@ -21,7 +36,7 @@ A few things to mention on UnionFS Cleaner.
 
 
 
-the default configuration can be found at /opt/unionfs_cleaner/config.json - if you wish to receive notifications, edit that file and put in your pushover app token and pushover user token, save it and then it will restart itself, so dont worry about restarting it. notifications will be sent when uploads begin / skipped due to files being accessed / upload cancelled due to ban/interval restored after a ban sleep of 25hrs has completed).
+the default configuration can be found at /opt/unionfs_cleaner/config.json - if you wish to receive notifications, edit that file and put in your pushover app token and pushover user token, save it and then it will restart itself, so dont worry about restarting it. 
 
 the default local content max size / check interval can be edited whenever via changing them in that configuration file and saving it causing unionfs_cleaner to reload itself.
 
