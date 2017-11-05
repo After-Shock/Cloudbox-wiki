@@ -27,18 +27,35 @@ Cloudbox Restore downloads this this backup .tar file and is able to restore it 
     
 
 
+
+
 Things that are not backed up:
-* `/home/` folder
-* Seeding content (i.e. ruTorrent downloads folder)
-* NZBGet downloads folder (all downloads should have been moved into `/mnt/local/Media/` by Sonarr/Radarr and then uploaded to Google Drive via UnionFS Cleaner)
+* `/home/` folder.
+* Seeding content (i.e. ruTorrent downloads folder).
+* NZBGet downloads folder (all downloads are moved into `/mnt/local/Media/` by Sonarr/Radarr and then uploaded to Google Drive via UnionFS Cleaner).
 
 # Backup
 
+## Manual Backup
+
+1. Go into your Cloudbox folder 
+ 
+   ```shell
+   cd ~/cloudbox 
+   ```
+
+2. Run the backup command
+
+   ```shell
+   sudo ansible-playbook cloudbox.yml --tags backup
+   ```
+
+## Scheduled Backup
 
 
 Backup can be done on a schedule via the cron options (remember that you must run the backup once in order for it to apply the cron schedule changes in settings.yml) - you can also manually create a cron schedule, but it MUST be ran as the root user (e.g. sudo crontab -e). to create a manual cron you should use the following command todo the backup ```ansible-playbook /home/USER/cloudbox/cloudbox.yml --tags backup``` - remmber this MUST be ran as root so it does not have any unforseen permission issues.
 
-In order todo a manual backup, you can ```cd ~/cloudbox``` ```sudo ansible-playbook cloudbox.yml --tags backup```.
+
 
 Please remember, if you want your seeding content to be also backed up, you will have to handle that yourselves as that is something we have no intention of supporting. If you would like todo that, you can tar your downloads folder, and upload it seperately. 
 
