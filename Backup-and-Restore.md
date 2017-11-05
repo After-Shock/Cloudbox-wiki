@@ -3,6 +3,19 @@ Backup is an integral part of Cloudbox, this is what makes it so great! Everythi
 
 Cloudbox Backup will backup
 - `/opt` folder - all app databases and settings. This includes Plex, Sonarr, Radarr, NZBGet, Rutorrent/rTorrent, NZBHydra, Jackett, Portainer, Organizr, Nginx (including SSL Keys), Plex Autoscan, and Unionfs Cleaner.
+- `/opt` folder - all app databases and settings. This includes 
+  * Plex
+  * Sonarr
+  * Radarr
+  * NZBGet
+  * Rutorrent/rTorrent
+  * NZBHydra
+  * Jackett
+  * Portainer
+  * Organizr
+  * Nginx (including SSL Keys)
+  * Plex Autoscan
+  * Unionfs Cleaner.
 - service files in `/etc/systemd/system`
 - Cloudbox settings file from `~/cloudbox/settings.yml`
 - Rclone config file from `~/cloudbox/rclone.conf`
