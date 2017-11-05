@@ -1,10 +1,15 @@
-WORK IN PROGRESS
+Backup is an integral part of Cloudbox, this is what makes it so great! Everything related to installed applications is backed up. Any changes made to service files in /etc/systemd/system is also backed up. However, Seeding content is NOT backed up.
 
----
+
+Cloudbox Backup will backup
+- `/opt` folder - all app databases and settings. This includes Plex, Sonarr, Radarr, NZBGet, Rutorrent/rTorrent, NZBHydra, Jackett, Portainer, Organizr, Nginx (including SSL Keys), Plex Autoscan, and Unionfs Cleaner.
+- service files in `/etc/systemd/system`
+- settings.yml file from `~/cloudbox/settings.yml`
+- Rclone config file from `~/cloudbox/settings.yml`
 
 # Backup
 
-Backup is an integral part of cloudbox, this is what makes it so great! Everything related to installed applications is backed up. Any changes made to service files in /etc/systemd/system is NOT backed up. Seeding content is NOT backed up!
+
 Everything else is backed up. Any configuration changes made inside /opt/ e.g. plex_autoscan and unionfs_cleaner are backed up and will be used for future restores. 
 The end result is you will have a .tar file that will be uploaded to your google drive storage/rsync remote. This backup file can then be restored on a brand new server, with everything exactly as you left it at the time of backup. 
 
