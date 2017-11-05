@@ -27,7 +27,7 @@ Backup is an integral part of Cloudbox, this is what makes it so great! Everythi
    
 
 
-Things that are not backed up:
+Things that are not backed-up:
 * `/home/` folder.
 * ruTorrent downloads folder (i.e. all your seeding content).
 * NZBGet downloads folder (i.e. content that has not been moved by Sonarr/Radarr).
