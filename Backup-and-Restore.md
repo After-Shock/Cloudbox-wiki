@@ -22,7 +22,7 @@ Cloudbox Restore downloads this this backup .tar file and is able to restore it 
 | Unionfs Cleaner           | `/opt/unionfs_cleaner/`   | `/opt/unionfs_cleaner/`  |
 | Systemd Service           | `/etc/systemd/system/`    | `/opt/systemd/`          |
 | Cloudbox settings         | `~/cloudbox/settings.yml` | `/opt/settings.yml`      |
-| Rclone config             | `~/cloudbox/rclone.conf`  | `/opt/rclone/rclon.conf` | 
+| Rclone config             | `~/cloudbox/rclone.conf`  | `/opt/rclone/rclone.conf`| 
 
     
 
@@ -52,6 +52,14 @@ Things that are not backed up:
 
 ## Scheduled Backup
 
+There are 2 ways to schedule a Cloudbox Backup: (1) by editing the settings.yml file and running a the backup command, or (2) creating a cron task manually.
+
+### 1. Using Cloudbox settings
+
+
+
+To schedule a backup you can manually edit crontab 
+
 ### Overview of Backup Settings
 
    ```yaml
@@ -72,14 +80,13 @@ Things that are not backed up:
 ### Setting a Backup Schedule
 
 
-1. Edit the settings.yml file. 
+1. Edit the [[settings.yml] file. 
 
    ```bash
      nano ~/cloudbox/settings.yml
    ```
 
-1. Type in your Pushover User Key and the Application Token under "backup" (without quotes).
-
+1. `tgz_dest:` Specify the location where the backup .tar file is saved. 
    ```yaml
      backup:
        tgz_dest: "/home/{{user}}/Backups"
