@@ -5,7 +5,7 @@ Backup is an integral part of Cloudbox, this is what makes it so great! Everythi
 **Cloudbox Restore** downloads this this backup .tar file and is able to restore it the same server or even a brand new server, with everything exactly as you left it at the time of backup. With the only thing required is updating of the DNS settings for your domain.
 
 
-| Things that are backed-up | From:                     | To:                      |
+| Things that are Backed-up | Backed-up From            | Restored To              |
 |:------------------------- |:------------------------- |:------------------------ |
 | Plex                      | `/opt/plex/`              | `/opt/plex/`             |
 | Sonarr                    | `/opt/sonarr/`            | `/opt/sonarr/`           |
