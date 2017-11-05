@@ -24,15 +24,15 @@ Backup is an integral part of Cloudbox, this is what makes it so great! Everythi
 | Cloudbox settings         | `~/cloudbox/settings.yml` | `/opt/settings.yml`      |
 | Rclone config             | `~/cloudbox/rclone.conf`  | `/opt/rclone/rclone.conf`| 
 
-    
-
-
+   
 
 
 Things that are not backed up:
 * `/home/` folder.
-* Seeding content (i.e. ruTorrent downloads folder).
-* NZBGet downloads folder (all downloads are moved into `/mnt/local/Media/` by Sonarr/Radarr and then uploaded to Google Drive via UnionFS Cleaner).
+* ruTorrent downloads folder (i.e. all your seeding content).
+* NZBGet downloads folder (i.e. content that has not been moved by Sonarr/Radarr).
+
+
 
 # Backup
 
@@ -54,7 +54,7 @@ Things that are not backed up:
 
 There are 2 ways to schedule a Cloudbox Backup: (1) by editing the settings.yml file and running a the backup command, or (2) creating a cron task manually.
 
-### 1. Using Cloudbox settings
+### 1. Using Cloudbox Settings
 
 1. You will need to edit the [[settings.yml|Configuring Settings]] file and specify:
 
@@ -74,7 +74,10 @@ There are 2 ways to schedule a Cloudbox Backup: (1) by editing the settings.yml 
    Note: See [[Configuring Settings]] wiki page on further details on all of the settings parameters listed above. 
 
 
-2. Run a manual backup once to "set" the cron job.
+2. Run a Manual Backup Once
+
+Note: this step is required even if backup was enabled (i.e. `cron_state` set to `present`) when you first installed Cloudbox, since a manual backup has to be run once to create the cron job.
+
 
    1. Go into your Cloudbox folder 
  
@@ -89,82 +92,20 @@ There are 2 ways to schedule a Cloudbox Backup: (1) by editing the settings.yml 
       ```
 
 
-
-### Overview of Backup Settings
-
-   ```yaml
-     backup:
-       tgz_dest: "/home/{{user}}/Backups"
-       rsync_dest: rsync://somehost.com/Backups
-       rclone_dest: google:/Backups
-       use_rsync: false
-       use_rclone: false
-       cron_time: weekly
-       cron_state: absent
-       pushover_app_token:
-       pushover_user_key:
-   ```
-
-
-
-### Setting a Backup Schedule
-
-
-1. Edit the [[settings.yml] file. 
-
-   ```bash
-     nano ~/cloudbox/settings.yml
-   ```
-
-1. `tgz_dest:` Specify the location where the backup .tar file is saved. 
-   ```yaml
-     backup:
-       tgz_dest: "/home/{{user}}/Backups"
-       rsync_dest: rsync://somehost.com/Backups
-       rclone_dest: google:/Backups
-       use_rsync: false
-       use_rclone: false
-       cron_time: weekly
-       cron_state: absent
-       pushover_app_token:
-       pushover_user_key:
-   ```
-
-
-
-1. Type in your Pushover User Key and the Application Token under "backup" (without quotes).
-
-   ```yaml
-     backup:
-   
-       pushover_app_token:
-       pushover_user_key:
-   ```
-
-1. `Ctrl-x`, `y`, and `enter` to save.
-
-
-
-
 ### 2. Creating a cron job manually
 
+1. Edit the crontab in root
 
-Backup can be done on a schedule via the cron options (remember that you must run the backup once in order for it to apply the cron schedule changes in settings.yml) - you can also manually create a cron schedule, but it MUST be ran as the root user (e.g. sudo crontab -e). to create a manual cron you should use the following command todo the backup ```ansible-playbook /home/USER/cloudbox/cloudbox.yml --tags backup``` - remmber this MUST be ran as root so it does not have any unforseen permission issues.
+   ```bash
+   sudo crontab -e
+   ```
 
+2. Type in the cron task. Note: you must use the full Ansible path (i.e. `/usr/local/bin/ansible-playbook /home/seed/cloudbox/cloudbox.yml --tags backup`).
 
+   ```bash
+   @weekly /usr/local/bin/ansible-playbook /home/seed/cloudbox/cloudbox.yml --tags backup
+   ```
 
-Please remember, if you want your seeding content to be also backed up, you will have to handle that yourselves as that is something we have no intention of supporting. If you would like todo that, you can tar your downloads folder, and upload it seperately. 
-
-Only /opt is backed up, so dont expect your /home folder and other stuff to be backed up, as it will not be, and could cause data loss if you were expecting it to be.
-
-
-```
-a manual backup must ALWAYS be ran
-for anything in settings.yml to take effect
-so even if its enabled when u first install it
-backup role is never ran
-to set that stuff
-```
 
 # Restore
 
