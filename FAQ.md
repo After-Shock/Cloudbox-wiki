@@ -353,7 +353,7 @@ sudo systemctl restart plex_autoscan.service
 
 Currently, Radarr broke the webhook feature that allows Plex Autoscan to work properly. We've created a workaround to get it working until Radarr fixes it. 
 
-1. First, we will temporarily disable Plex Autoscan connection: Radarr -> Settings -> Connect -> Plex Autoscan -> set all options to `No` -> click "Save".   
+1. First, we will temporarily disable the Plex Autoscan connection: Radarr -> Settings -> Connect -> Plex Autoscan -> set all options to `No` -> click "Save".   
 
 1. Create a new custom script: '+' -> Custom Script.
 
@@ -370,8 +370,6 @@ Currently, Radarr broke the webhook feature that allows Plex Autoscan to work pr
    1. On Rename:`No`
 
    1. Path: `/scripts/plex_autoscan/radarr2autoscan.sh`
-
-   1. Method:`POST`
 
 
 1. The settings will look like this:
