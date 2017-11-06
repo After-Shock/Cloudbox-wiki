@@ -67,11 +67,11 @@ You may resolve this by either
 
    - Log in with your Plex account.
 
-   - Click “Got It” on "How Plex Works" page. 
+   - On the "How Plex Works" page, click “Got It”. 
 
-   - Close "Plex Pass" pop-up if you see it.
+   - Close the "Plex Pass" pop-up if you see it.
 
-   - Under "Server Setup", you will see "Great, we found a server!". Give it a name and tick “Allow me to access my media outside my home”. Click "NEXT". 
+   - Under "Server Setup", you will see "Great, we found a server!". Give your server a name and tick “Allow me to access my media outside my home”. Click "NEXT". 
 
    - On "Organize Your Media", hit "NEXT" (you will do this later). Then hit "DONE". 
 
