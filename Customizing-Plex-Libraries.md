@@ -6,7 +6,7 @@ In the default Cloudbox install, there only two main Plex libraries: one for Mov
    └── TV
    ```
 
-If you would like to have custom libraries in Plex, you may do so with this guide. But regardless of what scenario below you choose, the content will always be located within `/Media` folder in your Google Drive ( `/mnt/unionfs/Media` on your server). 
+If you would like to have custom libraries in Plex, you may do so with this guide. But regardless of what scenario below you choose, the content will always be located within `/Media` folder in your Google Drive (`/mnt/unionfs/Media` on your server). 
 
 
 
