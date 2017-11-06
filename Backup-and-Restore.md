@@ -71,6 +71,8 @@ There are 2 ways to schedule a Cloudbox Backup: (1) by editing the settings.yml 
 
    - `use_rsync` and/or `use_rclone` to `true`, based on your preference.
 
+     - Note: If both options are set to `true`, backups will be made to both locations, but only Rclone will be used to retrieve the backup file during restore (i.e. Rclone will take priority over Rsync during restores).
+
    - `rsync_dest` and/or `rclone_dest`, based on your preference.
 
    - `cron_time` to a schedule of your preference.
