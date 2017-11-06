@@ -30,4 +30,4 @@
     ```bash
     sudo reboot
      ```
-7. If you are unable to log into Plex (perhaps because the claim token was entered, incorrectly), see [[FAQ|FAQ#if-you-make-a-mistake-in-pasting-the-claim-token]].
+7. If you do not see your Plex server after logging in (perhaps because the claim token was entered, incorrectly), see [[FAQ|FAQ#if-you-are-unable-to-find-your-plex-server]].
