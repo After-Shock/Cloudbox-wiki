@@ -77,7 +77,7 @@ There are 2 ways to schedule a Cloudbox Backup: (1) by editing the settings.yml 
 
    - `cron_state` to `present`
 
-   -  `pushover_app_token` and `pushover_user_key` if you wish to receive Pushover notification alerts during backup tasks.
+   -  `pushover_app_token` and `pushover_user_key` if you wish to receive [[Pushover]] notifications during backup tasks.
 
 
    Note: See the [[Configuring Settings]] wiki page for further details on all of the backup settings listed above. 
