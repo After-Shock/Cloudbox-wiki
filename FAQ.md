@@ -382,3 +382,13 @@ Currently, Radarr broke the webhook feature that allows Plex Autoscan to work pr
 1. Click "Save".
 
 
+## If you cloned the script as USER_X but install as USER_Y 
+
+You must move the cloudbox folder to USER_Y's home folder after installation completes.
+
+Steps to run as USER_Y: 
+
+```
+cp /home/USER_X/cloudbox /home/USER_Y -R
+sudo rm -rf /home/USER_X/cloudbox
+```
