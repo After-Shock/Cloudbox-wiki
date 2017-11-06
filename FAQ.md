@@ -347,3 +347,35 @@ sudo systemctl restart plex_autoscan.service
    ```
    docker start $(docker ps -a -q)
    ```
+
+
+## Temporary fix for Radarr not working with Plex Autoscan
+
+Currently, Radarr broke the webhook feature that allows Plex Autoscan to work properly. We've created a workaround to get it working until Radarr fixes it. 
+
+1. First, we will temporarily disable Plex Autoscan connection: Radarr -> Settings -> Connect -> Plex Autoscan -> set all options to `No` -> click "Save".   
+
+1. Create a new custom script: '+' -> Custom Script.
+
+1. Add the following:
+
+   1. Name: Plex Autoscan fix
+
+   1. On Grab: `No`
+
+   1. On Download: `Yes`
+
+   1. On Upgrade:  `Yes`
+
+   1. On Rename:`No`
+
+   1. Path: `/scripts/plex_autoscan/radarr2autoscan.sh`
+
+   1. Method:`POST`
+
+
+1. The settings will look like this:
+
+    ![Radarr Plex Autoscan Fix](https://i.imgur.com/KZOu3zD.png)
+
+1. Click "Save".
