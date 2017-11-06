@@ -104,7 +104,7 @@ To see the information below in a nice-looking table, click [[here|https://pste.
 
 - `backup`:
 
-  - `tgz_dest`: Path for local backups (.tar). Only the two of the most recent copies are kept. Default is `"/home/{{user}}/Backups"`.
+  - `tar_dest`: Path for local backups (.tar). Only the two of the most recent copies are kept. Default is `"/home/{{user}}/Backups"`.
 
     - Note: Ensure the path does NOT have a trailing slash ( / ) or else backup will fail (i.e. `/sample/path`, not `/sample/path/`).
 
