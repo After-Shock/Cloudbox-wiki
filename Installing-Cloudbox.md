@@ -25,7 +25,18 @@
 
     ![Plex Claim Token Shown](http://i.imgur.com/ubnNg3I.png)
 
-    Note: If you make a mistake in pasting the claim token, you may abort the install by pressing `Ctrl + C`, then `A`. You must then stop and remove the Plex container via `sudo docker rm -f plex` (it may show an error if it hasn't been created yet) and remove the Plex folder via `sudo rm -rf /opt/plex`. Then run the installation again (step #3).
+    Note: If you make a mistake in pasting the claim token, you may either:
+ 
+     - Use SSH Tunneling to log into Plex and set your credentials
+       - Create tunnel via ngrok: `ngrok http 32400`
+       - Go to the http page ngrok generates (format of http://XXXXXXXX.ngrok.io)
+       - Set your credentials in Plex. 
+     - Abort the install and run install again
+        - To abort: `Ctrl + c`, then `a`  
+        - Remove Plex Container: `sudo docker rm -f plex` (it may show "Error response from daemon: No such container" if not created yet)
+        - Remove the Plex folder: `sudo rm -rf /opt/plex`. 
+        - Redo installation (step #3). 
+
 
 6. You must now reboot.
     ```bash
