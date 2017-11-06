@@ -67,7 +67,7 @@ There are 2 ways to schedule a Cloudbox Backup: (1) by editing the settings.yml 
 
 1. You will need to edit the [[settings.yml|Configuring Settings]] file and set:
 
-   - `tar_dest` (default is OK)
+   - `tar_dest` (default location is OK)
 
    - `use_rsync` and/or `use_rclone` to `true`, based on your preference.
 
