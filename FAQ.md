@@ -61,17 +61,21 @@ Via Portainer:
 You may resolve this by either
  - Using SSH Tunneling to log into Plex and set your credentials
 
-   - Create tunnel via ngrok: `ngrok http 32400`
+   - Create SSH Tunnel on your host pc (replace with your user name and serveripaddress): `ssh <user>@<yourserveripaddress> -L 32400:0.0.0.0:32400 -N`
 
-   - Go to the http page ngrok generates (format of http://XXXXXXXX.ngrok.io)
+   - Go to the site: http://localhost:32400/web
 
    - Log in with your Plex account.
 
-   - Click on “Got It” and then close Plex Pass Pop-Up if you are not interested in it.
+   - Click “Got It” on "How Plex Works" page. 
 
-   - Now in Server Setup, it will auto locate the PMS server as you are already on Proxy. Tick “Allow me to access my media outside my home” so that you can access without proxy. 
+   - Close "Plex Pass" pop-up if you see it.
 
-   - After this point, you may `Ctrl + c` on ngrok to quit. 
+   - Under "Server Setup", you will see "Great, we found a server!". Give it a name and tick “Allow me to access my media outside my home”. Click "NEXT". 
+
+   - On "Organize Your Media", hit "NEXT" (you will do this later). Then hit "DONE". 
+
+   - At this point, you may `Ctrl + c` on the SSH Tunnel to quit it. 
 
  - Aborting the install and run it again
 
