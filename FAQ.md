@@ -77,15 +77,13 @@ You may resolve this by either
 
    - At this point, you may `Ctrl + c` on the SSH Tunnel to quit it. 
 
- - Aborting the install and run it again
-
-   - To abort: `Ctrl + c`, then `a`  
+ - Installing Cloudbox again
 
    - Remove Plex Container: `sudo docker rm -f plex` (it may show "Error response from daemon: No such container" if not created yet)
 
    - Remove the Plex folder: `sudo rm -rf /opt/plex`. 
 
-   - Redo [[installation|Installing Cloudbox]] (step #3). 
+   - Redo the [[installation|Installing Cloudbox]]. 
 
 
 
