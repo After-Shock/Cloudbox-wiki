@@ -44,6 +44,7 @@ Enter setup by clicking on "Config" at the top.
        - Username: [[your NZBGet Username|NZBGet]]
        - Password: [[your NZBGet Password|NZBGet]]
        - Default category: `No category` (verbatim)
+       - NZB access type: `Redirect to indexer`
        - NZB adding type: `Upload NZB` (works better than `Send link`) 
   
        ![](https://i.imgur.com/Mn4oJD5.png)
