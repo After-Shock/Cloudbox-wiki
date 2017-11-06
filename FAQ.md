@@ -103,6 +103,9 @@ You may resolve this by either
     ```
   - Then run `sudo sysctl -p`
 
+Reference: See https://unix.stackexchange.com/a/100887
+
+
 ## If during the first time setup, you switched the order of Plex libraries (i.e TV first then Movies)
 
   You will need to get the Plex section IDs and replace them in the Plex Autoscan config:
@@ -377,3 +380,5 @@ Currently, Radarr broke the webhook feature that allows Plex Autoscan to work pr
     ![Radarr Plex Autoscan Fix](https://i.imgur.com/KZOu3zD.png)
 
 1. Click "Save".
+
+
