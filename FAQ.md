@@ -56,6 +56,36 @@ Via Portainer:
    - Run `sudo easy_install pyOpenSSL` and retry.
 
 
+## If you make a mistake in pasting the claim token
+
+You may resolve this by either
+ - Using SSH Tunneling to log into Plex and set your credentials
+
+   - Create tunnel via ngrok: `ngrok http 32400`
+
+   - Go to the http page ngrok generates (format of http://XXXXXXXX.ngrok.io)
+
+   - Log in with your Plex account.
+
+   - Click on “Got It” and then close Plex Pass Pop-Up if you are not interested in it.
+
+   - Now in Server Setup, it will auto locate the PMS server as you are already on Proxy. Tick “Allow me to access my media outside my home” so that you can access without proxy. 
+
+   - After this point, you may `Ctrl + c` on ngrok to quit. 
+
+ - Aborting the install and run it again
+
+   - To abort: `Ctrl + c`, then `a`  
+
+   - Remove Plex Container: `sudo docker rm -f plex` (it may show "Error response from daemon: No such container" if not created yet)
+
+   - Remove the Plex folder: `sudo rm -rf /opt/plex`. 
+
+   - Redo [[installation|Installing Cloudbox]] (step #3). 
+
+
+
+
 ## Error Connecting:  Error while fetching server API version: Timeout value connect was Timeout(connect=60, read=60, total=None), but it must be an int or float.
 
   - Run `sudo pip install requests==2.10.0` and retry.
