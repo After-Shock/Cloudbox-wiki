@@ -82,7 +82,7 @@
 
 1. Your settings will now look like this:
 
-    ![Sonarr NZBGet Downloader](https://i.imgur.com/ORVHvYm.png)
+    ![Sonarr NZBGet Downloader](https://i.imgur.com/tIn5kbF.png)
 
 1. Click "Save" to add NZBGet.
 
