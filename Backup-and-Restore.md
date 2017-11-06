@@ -67,7 +67,7 @@ There are 2 ways to schedule a Cloudbox Backup: (1) by editing the settings.yml 
 
 1. You will need to edit the [[settings.yml|Configuring Settings]] file and set:
 
-   - `tgz_dest` (default is OK)
+   - `tar_dest` (default is OK)
 
    - `use_rsync` and/or `use_rclone` to `true`, based on your preference.
 
@@ -77,7 +77,7 @@ There are 2 ways to schedule a Cloudbox Backup: (1) by editing the settings.yml 
 
    - `cron_state` to `present`
 
-   -  `pushover_app_token` and `pushover_user_key` if you wish to receive [[Pushover]] notifications during backup tasks.
+   - `pushover_app_token` and `pushover_user_key` if you wish to receive [[Pushover]] notifications during backup tasks.
 
 
    Note: See the [[Configuring Settings]] wiki page for further details on all of the backup settings listed above. 
