@@ -82,7 +82,7 @@
 
 1. Your settings will look like this:
 
-    ![Radarr NZBGet Downloader](http://i.imgur.com/Q8ULGOu.png)
+    ![Radarr NZBGet Downloader](https://i.imgur.com/XHm9D2V.png)
 
 1. Click "Save" to add NZBGet.
 
