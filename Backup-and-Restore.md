@@ -25,7 +25,7 @@ _Note 2: If you are restoring to a new server and would like to use a new domain
 | Portainer                 | `/opt/portainer/`         | `/opt/portainer/`        |
 | Organizr                  | `/opt/organizr/`          | `/opt/organizr/`         |
 | Nginx config              | `/opt/nginx/`             | `/opt/nginx/`            |
-| SSL Keys                  | `/opt/nginx-proxy/`       | `/opt/nginx-proxy/`      |
+| SSL Certificates          | `/opt/nginx-proxy/`       | `/opt/nginx-proxy/`      |
 | Plex Autoscan             | `/opt/plex_autoscan/`     | `/opt/plex_autoscan/`    |
 | Unionfs Cleaner           | `/opt/unionfs_cleaner/`   | `/opt/unionfs_cleaner/`  |
 | Systemd Service           | `/etc/systemd/system/`    | `/opt/systemd/`          |
