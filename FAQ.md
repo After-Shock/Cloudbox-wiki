@@ -56,7 +56,7 @@ Via Portainer:
    - Run `sudo easy_install pyOpenSSL` and retry.
 
 
-## If you make a mistake in pasting the claim token
+## If you are unable to find your Plex server
 
 You may resolve this by either
  - Using SSH Tunneling to log into Plex and set your credentials
