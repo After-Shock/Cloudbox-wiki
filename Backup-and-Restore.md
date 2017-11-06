@@ -6,7 +6,7 @@ Backup is an integral part of Cloudbox, this is what makes it so great! Everythi
 
 _Note 1: If you are restoring to a new server with a different IP, you will need to update the [[DNS settings|Prerequisites#3-domain-name]] for your domain name._
 
-_Note 2: If you are restoring to a new server and would like to use a new domain name, it is a good idea to revoke the SSL certificates for that domain before backing up. This will free up your domain from Let’s Encrypt's certificates and you will be able to use it in the future without having to wait for the previous certificates to expire (~90 days). More info at [[Revoking SSL Certificates]]_.
+_Note 2: If you are restoring to a new server and would like to use a different domain name, it is a good idea to revoke the SSL certificates for the current domain name before backing up. This will free up your domain name from Let’s Encrypt's certificates and you will be able to use it in the future without having to wait for the previous certificates to expire (~90 days). More info at [[Revoking SSL Certificates]]_.
 
 <br />
 
