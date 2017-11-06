@@ -25,10 +25,9 @@
 
     ![Plex Claim Token Shown](http://i.imgur.com/ubnNg3I.png)
 
-    - Note: If you make a mistake in pasting the claim token or are unable to log into Plex, see [[FAQ|FAQ#if-you-make-a-mistake-in-pasting-the-claim-token]].
-
 
 6. You must now reboot.
     ```bash
     sudo reboot
      ```
+7. If you make a mistake in pasting the claim token or are unable to log into Plex, see [[FAQ|FAQ#if-you-make-a-mistake-in-pasting-the-claim-token]].
