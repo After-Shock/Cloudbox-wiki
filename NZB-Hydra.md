@@ -46,7 +46,7 @@ Enter setup by clicking on "Config" at the top.
        - Default category: `No category` (verbatim)
        - NZB adding type: `Upload NZB` (works better than `Send link`) 
   
-       ![](https://i.imgur.com/xIQiHQd.png)
+       ![](https://i.imgur.com/Mn4oJD5.png)
 
 ## 3. API Key
 
