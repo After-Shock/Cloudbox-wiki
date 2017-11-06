@@ -67,7 +67,7 @@ You may resolve this by either
 
    - Log in with your Plex account.
 
-   - On the "How Plex Works" page, click “Got It”. 
+   - On the "How Plex Works" page, click “GOT IT!”. 
 
    - Close the "Plex Pass" pop-up if you see it.
 
