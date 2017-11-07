@@ -90,13 +90,13 @@ There are 2 ways to schedule a Cloudbox Backup: (1) by editing the settings.yml 
    Note: this step is required even if backup was enabled (i.e. `cron_state` set to `present`) when you first installed Cloudbox, since a manual backup has to be run once to create the cron job.
 
 
-   1. Go into your Cloudbox folder 
+   1. Go into your Cloudbox folder.
  
       ```shell
       cd ~/cloudbox 
       ```
 
-   2. Run the backup command
+   2. Run the backup command.
 
       ```shell
       sudo ansible-playbook cloudbox.yml --tags backup
@@ -105,7 +105,7 @@ There are 2 ways to schedule a Cloudbox Backup: (1) by editing the settings.yml 
 
 ### 2. Creating a cron job manually
 
-1. Edit the crontab in root
+1. Edit the crontab in root.
 
    ```bash
    sudo crontab -e
@@ -130,21 +130,21 @@ We will assume you are restoring to a new / fresh server.
 
 1. Modify the [[settings.yml|Configuring Settings]] and set either `use_rsync` or `use_rclone` to `true` based on what you used to save the backup. 
 
-1. If your using Rclone, copy your rclone.conf into `~/cloudbox`. You may also `nano ~/cloudbox/rclone.conf` and paste in your rclone.conf. 
+1. If your using Rclone, upload your rclone.conf into `~/cloudbox/`. You may also `nano ~/cloudbox/rclone.conf` and paste in your rclone.conf. 
 
-1. Run the restore command (in `~/cloudbox`)
+1. Run the restore command (in `~/cloudbox`).
 
    ```bash
    sudo ansible-playbook cloudbox.yml --tag restore
    ```
 
-1. Restore previous settings.yml file
+1. Restore previous settings.yml file.
 
    ```bash
    cp ~/opt/settings.yml ~/cloudbox
    ```
 
 
-1. [[Install Cloudbox|Installing Cloudbox]]
+1. [[Install Cloudbox|Installing Cloudbox]].
 
 After install, everything will be as it was at the time of backup.
