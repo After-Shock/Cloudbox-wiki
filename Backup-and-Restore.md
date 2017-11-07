@@ -149,11 +149,9 @@ We will assume you are restoring to a new / fresh server.
    sudo ansible-playbook cloudbox.yml --tag restore
    ```
 
-1. Restore previous settings.yml file.
+1. Configure the rest of your [[settings.yml|Configuring Settings]]. 
 
-   ```bash
-   cp ~/opt/settings.yml ~/cloudbox
-   ```
+   Note: You may use your previous settings.yml file (`/opt/settings.yml`) as a point of reference to update your new one, if it has new variables. If all the variables are the same, you may just copy it over (cp /opt/settings.yml ~/cloudbox).
 
 
 1. [[Install Cloudbox|Installing Cloudbox]].
