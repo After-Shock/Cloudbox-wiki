@@ -27,10 +27,8 @@ _Note: Ansible v2.3.1.0 is the current stable version (v2.3.2.0 has a bug where 
 
 ### 3. Downloading Cloudbox ### 
 
-_Note: Run each command one by one._ 
 
 
  ```bash
- cd ~
- git clone http://github.com/l3uddz/cloudbox
+ cd ~/ && git clone http://github.com/l3uddz/cloudbox
  ```
