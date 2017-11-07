@@ -130,7 +130,7 @@ We will assume you are restoring to a new / fresh server.
 
 1. Modify the [[settings.yml|Configuring Settings]] and set either `use_rsync` or `use_rclone` to `true` based on what you used for backup. 
 
-1. If your using Rclone, upload your rclone.conf into `~/cloudbox/`. You may also `nano ~/cloudbox/rclone.conf` and paste in your rclone.conf. 
+1. If your using Rclone, upload your rclone.conf file into `~/cloudbox/`. You may also `nano ~/cloudbox/rclone.conf` and paste in your rclone.conf. 
 
 1. Run the restore command (in `~/cloudbox`).
 
