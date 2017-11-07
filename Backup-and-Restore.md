@@ -65,7 +65,7 @@ There are 2 ways to schedule a Cloudbox Backup: (1) by editing the settings.yml 
 
 ### 1. Using Cloudbox Settings
 
-1. You will need to edit the [[settings.yml|Configuring Settings]] file and set:
+1. Set the following in your [[settings.yml|Configuring Settings]] file:
 
    - `tar_dest` (default location is OK)
 
@@ -128,7 +128,16 @@ We will assume you are restoring to a new / fresh server.
 
 1. [[Update the kernel|Updating-Kernel]].
 
-1. Modify the [[settings.yml|Configuring Settings]] and set either `use_rsync` or `use_rclone` to `true` based on what you used for backup. 
+1. Set the following in your [[settings.yml|Configuring Settings]] file:
+
+   - `tar_dest` (default location is OK)
+
+   - `use_rsync` and/or `use_rclone` to `true`, based what you used during backup.
+
+     - Note: If both options are set to `true`, backups will be made to both locations, but only Rclone will be used to retrieve the backup file during restore (i.e. Rclone will take priority over Rsync during restores).
+
+   - `rsync_dest` and/or `rclone_dest`, based what you used during backup.
+
 
 1. If your using Rclone, upload your rclone.conf file into `~/cloudbox/`. You may also `nano ~/cloudbox/rclone.conf` and paste in your rclone.conf. 
 
