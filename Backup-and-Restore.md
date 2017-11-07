@@ -141,7 +141,7 @@ We will assume you are restoring to a new / fresh server.
    - `rsync_dest` and/or `rclone_dest` (based what you used during backup)
 
 
-1. If your using Rclone, upload your rclone.conf file into `~/cloudbox/`. You may also `nano ~/cloudbox/rclone.conf` and paste in your rclone.conf. 
+1. If your using Rclone, upload your rclone.conf file into `~/cloudbox/`. You may also `nano ~/cloudbox/rclone.conf` and paste the contents of your rclone.conf. 
 
 1. Run the restore command (in `~/cloudbox`).
 
