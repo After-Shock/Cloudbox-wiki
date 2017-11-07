@@ -51,9 +51,9 @@
 
 1. Click the Settings icon (top right) -> "Server" (top) -> "Remote Access" (left).
 
-1. Enable "Manually specify public port", type in `443`, and click the "Retry" or "Apply" button.
+1. Enable "Manually specify public port", type in `443`, and click the "Retry" button. 
 
-1. Click "ENABLE REMOTE ACCESS" (Ignore the "Not available outside your network" message).
+1. This will give you an "Not available outside your network" message. This is OK. Just click "ENABLE REMOTE ACCESS".
 
     ![](http://i.imgur.com/tq7dzAa.png)
 
