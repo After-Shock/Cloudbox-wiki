@@ -8,8 +8,8 @@ _Last updated on: Nov 05, 2017_
 ### First Time Install ###
 1. [[Prerequisites]]
 1. [[Downloading Cloudbox]]
-1. [[Configuring Settings]]
 1. [[Updating Kernel]]
+1. [[Configuring Settings]]
 1. [[Installing Cloudbox]]
 1. Application Setup
     1. [[Rclone]]
