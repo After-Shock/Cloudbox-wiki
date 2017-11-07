@@ -134,7 +134,7 @@ We will assume you are restoring to a new / fresh server.
 
    - `use_rsync` and/or `use_rclone` to `true`, based what you used during backup.
 
-     - Note: If both options are set to `true`, backups will be made to both locations, but only Rclone will be used to retrieve the backup file during restore (i.e. Rclone will take priority over Rsync during restores).
+     - Note: If both options are set to `true`, only Rclone will be used to retrieve the backup file (i.e. Rclone will take priority over Rsync).
 
    - `rsync_dest` and/or `rclone_dest`, based what you used during backup.
 
