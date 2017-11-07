@@ -124,7 +124,9 @@ There are 2 ways to schedule a Cloudbox Backup: (1) by editing the settings.yml 
 
 We will assume you are restoring to a new / fresh server. 
 
-1. [[Download Cloudbox|Downloading Cloudbox]]
+1. [[Download Cloudbox|Downloading Cloudbox]] (all steps within).
+
+1. [[Update the kernel|Updating-Kernel]].
 
 1. Modify the [[settings.yml|Configuring Settings]] and set either `use_rsync` or `use_rclone` to `true` based on what you used to save the backup. 
 
