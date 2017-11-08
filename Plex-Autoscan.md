@@ -1,4 +1,3 @@
-_Note: If you have a separate Plex and Feeder setup, the steps below will be done on the server where Plex is installed._
 
 
 ## 1. Retrieve a Plex Access Token
@@ -44,6 +43,7 @@ There are a few different ways to do this. Any of these will do.
 
    1. `Ctrl-x`, `y`, and `enter` to save.
 
+_Note: If you have a separate Plex and Feeder setup, this will be done on the server where Plex is installed._
 
 
 ## 3. Obtaining the Plex Autoscan URL
@@ -61,7 +61,7 @@ This will be in the format of `http://server_ip_address:port/server_password`.
 
 
 
-       
+_Note: If you have a separate Plex and Feeder setup, this will be done on the server where Plex is installed._
 
 
 ---
