@@ -124,7 +124,7 @@ There are 2 ways to schedule a Cloudbox Backup: (1) by editing the settings.yml 
 
 # Restore
 
-We will assume you are restoring to a new / fresh server. 
+We will assume you are restoring to a new / clean server. 
 
 1. [[Download Cloudbox|Downloading Cloudbox]] (all steps within).
 
