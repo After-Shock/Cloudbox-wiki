@@ -82,12 +82,12 @@ There are 2 ways to schedule a Cloudbox Backup: (1) by editing the settings.yml 
    - `pushover_app_token` and `pushover_user_key` if you wish to receive [[Pushover]] notifications during backup tasks.
 
 
-   Note: See the [[Configuring Settings]] wiki page for further details on all of the backup settings listed above. 
+   Note: See the [[Configuring Settings]] wiki page for further details on all the settings listed above. 
 
 
 2. Run a Manual Backup Once
 
-   Note: this step is required even if backup was enabled (i.e. `cron_state` set to `present`) when you first installed Cloudbox, since a manual backup has to be run once to create the cron job.
+   Note: This step is required even if scheduled backup was enabled (i.e. `cron_state` set to `present`) when you first installed Cloudbox, since a manual backup has to be run once to create the cron job.
 
 
    1. Go into your Cloudbox folder.
@@ -142,6 +142,7 @@ We will assume you are restoring to a new / clean server.
 
    - `rsync_dest` and/or `rclone_dest` (based what you used during backup)
 
+   Note: See the [[Configuring Settings]] wiki page for further details on all the settings listed above. 
 
 1. If your using Rclone, upload your rclone.conf file into `~/cloudbox/`. You may also `nano ~/cloudbox/rclone.conf` and paste the contents of your rclone.conf. 
 
