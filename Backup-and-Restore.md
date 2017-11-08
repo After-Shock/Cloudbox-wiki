@@ -111,7 +111,9 @@ There are 2 ways to schedule a Cloudbox Backup: (1) by editing the settings.yml 
    sudo crontab -e
    ```
 
-2. Type in the cron task. Note: you must use the full Ansible path (i.e. `/usr/local/bin/ansible-playbook /home/seed/cloudbox/cloudbox.yml --tags backup`).
+2. Add your cron task. 
+
+   Note: you must use the full Ansible path (i.e. `/usr/local/bin/ansible-playbook /home/seed/cloudbox/cloudbox.yml --tags backup`).
 
    Example: 
 
