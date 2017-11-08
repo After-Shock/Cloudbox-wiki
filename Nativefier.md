@@ -47,7 +47,7 @@ Some examples you can use:
 nativefier --fast-quit --disable-dev-tools --name "Sonarr" "https://sonarr.domain.com" ~/nativefier
 nativefier --fast-quit --disable-dev-tools --name "Radarr" "https://sonarr.domain.com" ~/nativefier
 nativefier --fast-quit --disable-dev-tools --name "PlexPy" "https://plexpy.domain.com/home" ~/nativefier 
-nativefier --fast-quit --disable-dev-tools --name "Jackett" "https://jackett.domain.com/Admin/Dashboard"~/nativefier 
+nativefier --fast-quit --disable-dev-tools --name "Jackett" "https://jackett.domain.com/Admin/Dashboard" ~/nativefier 
 nativefier --fast-quit --disable-dev-tools --name "Plex Requests" "https://plexrequests.domain.com" ~/nativefier
 nativefier --fast-quit --disable-dev-tools --name "NZBGet" "https://nzbget.domain.com/" ~/nativefier
 nativefier --fast-quit --disable-dev-tools --name "NZB Hydra" "https://nzbhydra.domain.com" ~/nativefier
