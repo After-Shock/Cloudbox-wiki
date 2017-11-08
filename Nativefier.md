@@ -25,6 +25,8 @@ Two ways to do this:
 
 ## 2. Create Nativefier Desktop Apps
 
+### Commands
+
 The following is for the native install.
 
 Basic command:
@@ -38,10 +40,13 @@ Slightly more advanced command:
 nativefier --fast-quit --disable-dev-tools  --name "App Name" "https://appname.domainname.com" /path/where/app/is/saved/
 ```
 
-You can also force it to use a specific icon with `--icon "path/to/icon"`, where the path/to/icon can be a local file or online path.
+### Some useful options. 
+
+- Force a specific icon with `--icon "path/to/icon"`, where the path/to/icon can be a local file or online path.
+- Force a zoom at start. Example `--zoom=0.8`. You can also temporarily change the zooms with `ctrl` + `+` and `ctrl` +  `-` (replace with `command` in macOS).
 
 
-Some examples you can use:
+### Some examples you can use:
 
 ```
 nativefier --fast-quit --disable-dev-tools --name "Sonarr" "https://sonarr.domain.com"
