@@ -132,7 +132,7 @@ We will assume you are restoring to a new / clean server.
 
 1. Set the following in your [[settings.yml|Configuring Settings]] file (the bare minimum for a restore):
 
-   - `user` (based on what you used in Step #1.)
+   - `user` (based on the user account you created in step #1)
 
    - `tar_dest` (default location is OK)
 
