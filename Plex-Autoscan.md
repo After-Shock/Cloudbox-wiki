@@ -1,3 +1,5 @@
+_Note: If you have a separate Plex and Feeder setup, the steps below will be done on the server where Plex is installed._
+
 
 ## 1. Retrieve a Plex Access Token
 
@@ -58,7 +60,7 @@ To get your Plex Autoscan URL, run the following command:
 This will be in the format of `http://server_ip_address:port/server_password`.
 
 
-_Note: If you have a separate Plex and Feeder setup, this will be done on the server where Plex is installed._
+
        
 
 
