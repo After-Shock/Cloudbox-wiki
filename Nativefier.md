@@ -23,40 +23,34 @@ Two ways to do this:
       ```
 * Download the docker [image](https://hub.docker.com/r/jiahaog/nativefier/) and use the [run command](https://github.com/jiahaog/nativefier#docker-image).
 
-## 2. Create Nativefier Desktop Apps
+## 2. Create Nativefier Desktop Apps (for Native install)
 
-### Commands
+### Basic Commands
 
-The following is for the native install.
-
-Basic command:
 
 ```
 nativefier appname.domainname.com
 ```
 
-Slightly more advanced command:
-```
-nativefier --fast-quit --disable-dev-tools  --name "App Name" "https://appname.domainname.com" /path/where/app/is/saved/
-```
-
 ### Some useful options. 
 
+- Give it a name: `--name "App Name"`
+- Disable dev tools: `--disable-dev-tools `
 - Force a specific icon with `--icon "path/to/icon"`, where the path/to/icon can be a local file or online path.
 - Force a zoom at start. Example `--zoom=0.8`. You can also temporarily change the zooms with `ctrl` + `+` and `ctrl` +  `-` (replace with `command` in macOS).
-
+- Quick app when close all the windows (for macOS): `--fast-quit`
 
 ### Some examples you can use:
 
 ```
-nativefier --fast-quit --disable-dev-tools --name "Sonarr" "https://sonarr.domain.com"
-nativefier --fast-quit --disable-dev-tools --name "Radarr" "https://sonarr.domain.com"
-nativefier --fast-quit --disable-dev-tools --name "PlexPy" "https://plexpy.domain.com/home"
-nativefier --fast-quit --disable-dev-tools --name "Jackett" "https://jackett.domain.com/Admin/Dashboard"
-nativefier --fast-quit --disable-dev-tools --name "Plex Requests" "https://plexrequests.domain.com"
-nativefier --fast-quit --disable-dev-tools --name "NZBGet" "https://nzbget.domain.com"
-nativefier --fast-quit --disable-dev-tools --name "NZB Hydra" "https://nzbhydra.domain.com"
-nativefier --fast-quit --disable-dev-tools --name "ruTorrent" "https://rutorrent.domain.com"
+nativefier --disable-dev-tools --name "Sonarr" "https://sonarr.domain.com"
+nativefier --disable-dev-tools --name "Radarr" "https://sonarr.domain.com"
+nativefier --disable-dev-tools --name "PlexPy" "https://plexpy.domain.com/home"
+nativefier --disable-dev-tools --name "Jackett" "https://jackett.domain.com/Admin/Dashboard"
+nativefier --disable-dev-tools --name "Plex Requests" "https://plexrequests.domain.com"
+nativefier --disable-dev-tools --name "NZBGet" "https://nzbget.domain.com"
+nativefier --disable-dev-tools --name "NZB Hydra" "https://nzbhydra.domain.com"
+nativefier --disable-dev-tools --name "ruTorrent" "https://rutorrent.domain.com"
 
 ```
 
