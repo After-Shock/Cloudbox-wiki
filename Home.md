@@ -35,7 +35,7 @@ _Last updated on: Nov 05, 2017_
 - [[Backup and Restore]] (new)
 - [[Pushover]] (new)
 - [[Google Drive API Client ID and Client Secret]]
-- [[Docker Tips and Shortcuts]]
+- [[Useful Docker Commands]]
 - [[Addons]]
 - [[Revoking SSL Certificates]]
 
