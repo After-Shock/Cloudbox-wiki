@@ -27,7 +27,7 @@ Add these into the docker run/create command (replace all <> with your info; all
 - ` --restart=always`
 - `-v /opt/<name>:<container_config_path>` 
   - This is where your config files will go.
-  - You also need to create this folder: `mkdir /opt/<name>`.
+  - You also need to create the folder: `mkdir /opt/<name>`
 - `-v /mnt/downloads/<name>:<container_download_path>` (if required)
   - This is where your downloaded files will go.
   - The `/mnt/downloads/<name>` path is accessible with Sonarr and Radarr. 
