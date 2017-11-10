@@ -29,15 +29,15 @@ Add these into the docker run/create command (replace all <> with your info):
   - You also need to create this folder: `mkdir /opt/<name>`.
 - `-v /etc/localtime:/etc/localtime:ro`
 - `-e PGID=<your group ip> -e PUID=<your user id>` (use command `id` to check)
-- `-e VIRTUAL_HOST=<name>.<yourdomain>`
-- `-e LETSENCRYPT_HOST=<name>.<yourdomain>`
-- `-e LETSENCRYPT_EMAIL=<your@email.com>` 
 - Ports:
   - For the web admin page (i.e. what nginx-proxy will redirect to; Example: 32400 for Plex):
-    - `-e VIRTUAL_PORT=<port>`
     - `-p 127.0.0.1:<port>:<port>` 
   - For all other ports:
     - `-p <port>:<port>` 
+- `-e VIRTUAL_PORT=<port>` (same port as the one used for nginx-prox)
+- `-e VIRTUAL_HOST=<name>.<yourdomain>`
+- `-e LETSENCRYPT_HOST=<name>.<yourdomain>`
+- `-e LETSENCRYPT_EMAIL=<your@email.com>` 
 
 
 Here are some examples: 
