@@ -32,9 +32,9 @@ Add these into the docker run/create command (replace all <> with your info; all
   - This is where your downloaded files will go.
   - The `/mnt/downloads/<name>` path is accessible with Sonarr and Radarr. 
   - You also need to: 
-    - Create the folder: `mkdir /mnt/<name>`. 
-    - Set ownership: `sudo chown -R <user>:<group> /mnt/downloads/<name>`. 
-    - Set permissions: `sudo chmod g+s -R /mnt/downloads/<name>`.
+    - create the folder: `mkdir /mnt/<name>`
+    - set ownership: `sudo chown -R <user>:<group> /mnt/downloads/<name>`
+    - set permissions: `sudo chmod g+s -R /mnt/downloads/<name>`
 - `-v /etc/localtime:/etc/localtime:ro`
 - `-e PGID=<your_group_ID> -e PUID=<your_user_ID>` (use command `id` to check)
 - Ports:
