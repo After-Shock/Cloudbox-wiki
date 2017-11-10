@@ -1,3 +1,5 @@
+-Work in progress-
+
 There are afew useful addons/scripts installed by cloudbox that can be utilized by yourself or sonarr/radarr. These are things such as TorrentCleanup.py and revoke_certs.sh (all of which can be found at /opt/scripts in their respective folders).
 
 revoke_certs.sh does as it says, it will iterate your cert folder (/opt/nginx-proxy) and revoke all of the SSL certifications. 
