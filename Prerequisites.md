@@ -44,7 +44,7 @@ Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Acces
 ### ii. Free Domain Name
 1. Visit http://www.freenom.com, create a free account, and find a domain name to register.
 2. Go to "Services" > "My Domains" > "Manage Domain" > "Manage Freenom DNS".
-3. Add these "A Records", with "Target" being your server IP address (wildcard DNS is not allowed at Freenom).
+3. Add these A Records, with "Target" being your server IP address (wildcard DNS is not allowed at Freenom).
 
     |   **Name**   | **Type** | **TTL** |        **Target**        |
     | ------------ | -------- | ------- | ------------------------ |
