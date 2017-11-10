@@ -23,7 +23,7 @@ Two ways to do this:
       ```
 * Download the docker [image](https://hub.docker.com/r/jiahaog/nativefier/) and use the [run command](https://github.com/jiahaog/nativefier#docker-image).
 
-## 2. Create Nativefier Desktop Apps (for Native install)
+## 2. Create Nativefier Desktop Apps (for native install)
 
 ### Basic Commands
 
