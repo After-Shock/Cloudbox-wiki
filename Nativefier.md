@@ -23,7 +23,9 @@ Two ways to do this:
       ```
 * Download the docker [image](https://hub.docker.com/r/jiahaog/nativefier/) and use the [run command](https://github.com/jiahaog/nativefier#docker-image).
 
-## 2. Create Nativefier Desktop Apps (for native install)
+## 2. Create Nativefier Desktop Apps 
+
+_Note: The below commands are for the native install._
 
 ### Basic Commands
 
@@ -54,7 +56,7 @@ nativefier --disable-dev-tools --name "ruTorrent" "https://rutorrent.domain.com"
 
 ```
 
-## 3. Move the Nativefier app 
+## 3. Move the Nativefier App 
 
 Copy the app (e.g.  `.app` in MacOS, `.exe` in Windows) to you preferred location (e.g. `Applications` in MacOS)
 
