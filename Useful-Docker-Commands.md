@@ -28,17 +28,21 @@ Add these into the docker run/create command (replace all <> with your info; all
 - `-v /opt/<name>:<container_config_path>` 
   - This is where your config files will go.
   - You also need to create this folder: `mkdir /opt/<name>`.
-- `-v /mnt/downloads/<name>:<container_download_path>`
+- `-v /mnt/downloads/<name>:<container_download_path>` (if required)
   - This is where your downloaded files will go.
-  - You also need to create this folder: `mkdir /opt/<name>`.
+  - The `/mnt/downloads/<name>` path is accessible with Sonarr and Radarr. 
+  - You also need to: 
+    - Create this folder: `mkdir /mnt/<name>`. 
+    - Set ownership: `sudo chown <user>:<group> -R /mnt/downloads/<name>`. 
+    - Set permissions: `sudo chmod g+s -R /mnt/downloads/<name>`.
 - `-v /etc/localtime:/etc/localtime:ro`
-- `-e PGID=<your group ip> -e PUID=<your user id>` (use command `id` to check)
+- `-e PGID=<your_group_ID> -e PUID=<your_user_ID>` (use command `id` to check)
 - Ports:
   - For the web admin page (i.e. what nginx-proxy will redirect to; Example: 32400 for Plex):
     - `-p 127.0.0.1:<port>:<container_web_port>` 
   - For all other ports:
     - `-p <port>:<container_other_port>` 
-- `-e VIRTUAL_PORT=<port>` (same port as the one used for nginx-prox)
+- `-e VIRTUAL_PORT=<container_web_port>` (same port as the one mentioned above)
 - `-e VIRTUAL_HOST=<name>.<yourdomain>`
 - `-e LETSENCRYPT_HOST=<name>.<yourdomain>`
 - `-e LETSENCRYPT_EMAIL=<your@email.com>` 
