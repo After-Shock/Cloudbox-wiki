@@ -49,16 +49,6 @@ Recently Google Drive has implemented a max upload of ~750GB per day. When this 
 
 _Note: For details on all the options available, checkout [https://github.com/l3uddz/unionfs_cleaner](https://github.com/l3uddz/unionfs_cleaner)._
 
-### Enable Pushover Notifications
-
-Notifications will be sent when UnionFS Cleaner..
-- begins an upload task.
-- skips an upload task due to files being accessed.
-- is put into a 25 hour ban sleep.
-- is restored after the ban sleep.
-
-
-To enable Pushover notifications, click [[here|Pushover#unionfs-cleaner]].
 
 
 ### Modify Upload Threshold
@@ -81,3 +71,15 @@ To enable Pushover notifications, click [[here|Pushover#unionfs-cleaner]].
 1. `Ctrl-x`, `y`, and `enter` to save.
 
 1. UnionFS Cleaner will restart itself when it detects config.json has changed.
+
+
+### Enable Pushover Notifications
+
+Notifications will be sent when UnionFS Cleaner..
+- begins an upload task.
+- skips an upload task due to files being accessed.
+- is put into a 25 hour ban sleep.
+- is restored after the ban sleep.
+
+
+To enable Pushover notifications, click [[here|Pushover#unionfs-cleaner]].
