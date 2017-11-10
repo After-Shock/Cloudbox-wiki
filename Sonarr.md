@@ -28,7 +28,7 @@
 1. Click "Settings" -> "General".
 1. Click "Show Advanced Settings".
 1. Set "Authentication" to `Forms`, then set a username and password.
-1. Under "Updates",
+1. Under "Updates":
    
    1. set "Branch" to `develop` (type it in)
 
