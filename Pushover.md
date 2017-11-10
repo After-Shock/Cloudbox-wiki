@@ -6,7 +6,7 @@ Screenshots:
 
  - Mobile device (Pushover app):
 
-   ![](https://i.imgur.com/7tiluyd.png)
+   ![](https://i.imgur.com/lTdXcNU.png)
 
 
 
