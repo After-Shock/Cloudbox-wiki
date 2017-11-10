@@ -1,6 +1,4 @@
 
-#To Do
-
 - intro - rewording and aesthetics
 - install scenarios: migrate cloudbox to another server but keep same domain name, migrate cloudbox to another server and use another domain name, change domain name on current cloudbox server.
 - section for feeder and plex setups, with mini guides - or just footnotes on all the pages regarding them.
