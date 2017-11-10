@@ -1,6 +1,6 @@
 This is particularly useful if you wanted to update a specific app. 
 
-_Note: To update the entire Cloudbox project and it's apps, see [[Updating Cloudbox]]._
+_Note: To update the entire Cloudbox project, see [[Updating Cloudbox]]._
 
 
 | Cloudbox Apps          | How to update                                                                                  |
