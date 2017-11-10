@@ -16,7 +16,7 @@ docker rm $(docker ps -a -q)
 docker start  $(comm -13 <(docker ps -a -q --filter="name=watchtower" | sort) <(docker ps -a -q | sort))
 ```
 
-### Want to add your include your own Docker container. 
+### How to install your custom Docker container
 
 
 Add these into the docker run/create command (replace all <> with your info):
