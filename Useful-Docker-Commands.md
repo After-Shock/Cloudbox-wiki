@@ -19,21 +19,25 @@ docker start  $(comm -13 <(docker ps -a -q --filter="name=watchtower" | sort) <(
 ### How to install your custom Docker container
 
 
-Add these into the docker run/create command (replace all <> with your info):
+Add these into the docker run/create command (replace all <> with your info; all <container_*> items are specified by the Docker container):
 
 - `--name=<name>`
 - `--network=cloudbox `
 - `--network-alias=<name> `
 - ` --restart=always`
-- `-v /opt/<name>:/config`
+- `-v /opt/<name>:<container_config_path>` 
+  - This is where your config files will go.
+  - You also need to create this folder: `mkdir /opt/<name>`.
+- `-v /mnt/downloads/<name>:<container_download_path>`
+  - This is where your downloaded files will go.
   - You also need to create this folder: `mkdir /opt/<name>`.
 - `-v /etc/localtime:/etc/localtime:ro`
 - `-e PGID=<your group ip> -e PUID=<your user id>` (use command `id` to check)
 - Ports:
   - For the web admin page (i.e. what nginx-proxy will redirect to; Example: 32400 for Plex):
-    - `-p 127.0.0.1:<port>:<port>` 
+    - `-p 127.0.0.1:<port>:<container_web_port>` 
   - For all other ports:
-    - `-p <port>:<port>` 
+    - `-p <port>:<container_other_port>` 
 - `-e VIRTUAL_PORT=<port>` (same port as the one used for nginx-prox)
 - `-e VIRTUAL_HOST=<name>.<yourdomain>`
 - `-e LETSENCRYPT_HOST=<name>.<yourdomain>`
