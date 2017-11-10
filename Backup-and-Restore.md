@@ -103,7 +103,7 @@ There are 2 ways to schedule a Cloudbox Backup: (1) by editing the settings.yml 
       ```
 
 
-### 2. Creating a cron job manually
+### 2. Creating a Cron Job Manually
 
 1. Edit the crontab in root.
 
