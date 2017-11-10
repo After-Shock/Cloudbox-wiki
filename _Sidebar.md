@@ -40,6 +40,7 @@
 ### More Information ###
 - [[UnionFS Cleaner]] (new)
 - [[Updating Cloudbox]]
+- [[Updating Cloudbox Apps]] (new)
 - [[Backup and Restore]] (new)
 - [[Pushover]] (new)
 - [[Google Drive API Client ID and Client Secret]]
