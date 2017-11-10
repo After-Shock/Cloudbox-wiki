@@ -154,7 +154,7 @@ We will assume you are restoring to a new / clean server.
 
 1. Configure the rest of your [[settings.yml|Configuring Settings]]. 
 
-   Note: You may use your previous settings.yml file (`/opt/settings.yml`) as a point of reference to update your new one. However, if all the variables are the same (i.e. no new or modified variables), you may just replace it with your previous one (`cp /opt/settings.yml ~/cloudbox`).
+   Note: You may use your previous settings.yml file (`/opt/settings.yml`) as a point of reference to update your new one. However, if all the variables are the same (i.e. no new or modified variables), you may just replace it with your previous one (`cp /opt/settings.yml ~/cloudbox/`).
 
 
 1. [[Install Cloudbox|Installing Cloudbox]].
