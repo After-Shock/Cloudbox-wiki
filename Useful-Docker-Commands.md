@@ -51,7 +51,7 @@ Notes:
   - For the web admin page (i.e. what nginx-proxy will redirect to; Example: 32400 for Plex):
     - `-p 127.0.0.1:<port>:<container_web_port>` 
   - For all other ports:
-    - `-p <port>:<container_other_port>` 
+    - `-p <port>:<container_other_ports>` 
 - `-e VIRTUAL_PORT=<container_web_port>` (same port as the one mentioned above)
 - `-e VIRTUAL_HOST=<name>.<yourdomain>`
 - `-e LETSENCRYPT_HOST=<name>.<yourdomain>`
