@@ -34,12 +34,15 @@ Notes:
 - ` --restart=always`
 - `-v /opt/<name>:<container_config_path>` 
   - This is where your config files will go.
-  - You also need to create the folder: `mkdir /opt/<name>`
+  - You also need to:
+    - create the folder: `mkdir /opt/<name>`
+    - set ownership: `sudo chown -R <user>:<group> /opt/<name>`
+    - set permissions: `sudo chmod g+s -R /opt/<name>`
 - `-v /mnt/downloads/<name>:<container_download_path>` (if required)
   - This is where your downloaded files will go.
   - The `/mnt/downloads/<name>` path is accessible with Sonarr and Radarr. 
   - You also need to: 
-    - create the folder: `mkdir /mnt/<name>`
+    - create the folder: `mkdir /mnt/downloads/<name>`
     - set ownership: `sudo chown -R <user>:<group> /mnt/downloads/<name>`
     - set permissions: `sudo chmod g+s -R /mnt/downloads/<name>`
 - `-v /etc/localtime:/etc/localtime:ro`
