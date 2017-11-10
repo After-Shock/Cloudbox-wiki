@@ -19,7 +19,9 @@ docker start  $(comm -13 <(docker ps -a -q --filter="name=watchtower" | sort) <(
 ### How to add your own Docker container
 
 
-Add these into the docker run/create command (replace all <> with your info; all <container_*> items are specified by the Docker container):
+Add these into the docker run/create command:
+
+Note: Replace all `<>` with your info. All `<container_*>` items are specified by the Docker container. Ideally, you want all `<name>` to be the same. 
 
 - `--name=<name>`
 - `--network=cloudbox `
