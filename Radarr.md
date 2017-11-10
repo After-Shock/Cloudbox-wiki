@@ -27,9 +27,14 @@
 
 1. Click "Settings" -> "General".
 1. Click "Show Advanced Settings".
-1. Under "Updates", set "Branch" to `nightly`.
+
+1. Under "Updates",
+   
+   1. set "Branch" to `nightly` (type it in)
 
     ![Radarr Branch](http://i.imgur.com/QA8aqip.png)
+
+   1. set "Automatic" to "off".  
 
 1. Set "Authentication" to `Forms`, then set a username and password.
 1. Click "Save".
