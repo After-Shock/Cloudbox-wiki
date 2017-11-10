@@ -2,7 +2,7 @@ There are afew useful addons/scripts installed by cloudbox that can be utilized 
 
 revoke_certs.sh does as it says, it will iterate your cert folder (/opt/nginx-proxy) and revoke all of the SSL certifications. 
 
-TorrentCLeanup.py has been explained in the SOnarr section, but in a nutshell, sonarr/radarr launches this script if you set it up, and it will scan the folder of the file that was imported, if rars exist, delete the file that was imported. this is useful for torrent sites that allow rars, as it will only leave you with the imported file (before its uploaded to google) and just the rars for seeding, instead of also leaving the extracted file. 
+TorrentCLeanup.py has been explained in the Sonarr section, but in a nutshell, sonarr/radarr launches this script if you set it up, and it will scan the folder of the file that was imported, if rars exist, delete the file that was imported. this is useful for torrent sites that allow rars, as it will only leave you with the imported file (before its uploaded to google) and just the rars for seeding, instead of also leaving the extracted file. 
 
 Useful tools installed:
 
