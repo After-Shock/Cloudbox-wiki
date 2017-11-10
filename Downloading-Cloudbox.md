@@ -19,7 +19,7 @@ Note: The user name `seed` can be changed to something else, but it will also re
 Run the following command:
 
 ```bash
-sudo apt-get update && sudo apt-get install -y git python-pip python-setuptools && sudo easy_install -U pip && sudo pip install ansible==2.3.1.0
+sudo apt-get update && sudo apt-get install -y git python-pip python3-pip python-setuptools python3-setuptools && sudo easy_install -U pip && sudo easy_install3 -U pip && sudo python -m pip install ansible==2.3.1.0 requests && sudo python3 -m pip install requests
 ```
 
 _Note: Ansible v2.3.1.0 is the current stable version (v2.3.2.0 has a bug where docker_container state=stopped causes container to be removed)._
