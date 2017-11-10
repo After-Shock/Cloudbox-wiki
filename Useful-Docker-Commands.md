@@ -69,3 +69,27 @@ docker run -d --name=thelounge --network=cloudbox --network-alias=thelounge --re
 docker run -d --name=nextcloud --network=cloudbox --network-alias=nextcloud -e 'VIRTUAL_HOST=nextcloud.domain.ml' -e 'VIRTUAL_PORT=80' -e 'LETSENCRYPT_HOST=nextcloud.domain.ml' -e 'LETSENCRYPT_EMAIL=your@email.com' -p '127.0.0.1:4674:80' -v '/opt/nextcloud:/var/www' nextcloud
 ```
 
+
+
+## Watchtower
+
+Tool to update Docker images and containers. 
+
+NOTE: This is just for images, the apps themselves can be updated from within  their webui- please note, when running watchtower - you will loose any custom changes, e.g. nzbget updated to testing branch from within the webui - when the image is updated, it will become the previous - this is only recommended if you made no changes that could break, e.g. master DB to beta DB will break when back to master DB - so use this sparingly, if atall!
+
+RUN AT YOUR OWN RISK!
+
+
+
+```
+docker start watchtower && docker logs -f watchtower
+```
+
+Wait 15 secs for it to finish updating all images except rutorrent (it ignores).. then:
+
+```
+docker stop watchtower
+```
+
+If no updates, stop anyway.
+
