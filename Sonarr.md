@@ -27,11 +27,15 @@
 
 1. Click "Settings" -> "General".
 1. Click "Show Advanced Settings".
-1. Under "Updates", set "Branch" to `develop`.
-
-    ![Sonarr Branch](http://i.imgur.com/JdQQlzS.png)
-
 1. Set "Authentication" to `Forms`, then set a username and password.
+1. Under "Updates",
+   
+   1. set "Branch" to `develop` (type it in)
+
+      ![Sonarr Branch](http://i.imgur.com/JdQQlzS.png)
+
+   1. set "Automatic" to "off".  
+
 1. Click "Save".
 
 
