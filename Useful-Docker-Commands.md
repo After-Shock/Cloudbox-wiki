@@ -21,6 +21,7 @@ docker start  $(comm -13 <(docker ps -a -q --filter="name=watchtower" | sort) <(
 
 Add these into the docker run/create command (replace all <> with your info):
 
+- `--name=<name>`
 - `--network=cloudbox `
 - `--network-alias=<name> `
 - ` --restart=always`
