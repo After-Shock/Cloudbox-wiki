@@ -2,7 +2,7 @@
 
 - [Intro](#intro)
 - [Scenario 1](#scenario-1)
-- [Scenario 2 (less preferred)](#scenario-2-less-preferred)
+- [Scenario 2](#scenario-2-less-preferred) (less preferred)
 
 <!-- /TOC -->
 
