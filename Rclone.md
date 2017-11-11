@@ -1,4 +1,4 @@
-## Setting up Rclone
+## New Rclone Setup
 
 1. Run the command: `rclone config`. 
 
