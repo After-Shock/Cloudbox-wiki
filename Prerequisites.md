@@ -33,11 +33,11 @@ Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Acces
 1. Get a domain name from any domain name registry (e.g. Namecheap.com, Godaddy.com, Namesilo.com, etc).
 2. Set a wildcard DNS for `*` to your server IP address.
 
-    |   **Type**   | **Host** | **Value**                   |     **TTL** |
-    | ------------ | :--------: | ------------------------- | :-----------: |
-    | A Record       | *        | _your server ip address_  |  Automatic  |
-
-    Example: For Namecheap.com, go to Domain List > Manage > Advanced DNS > Add New Record > A Record > `*` for Host > Server IP for Value.
+   | **Type** | **Host** | **Value**                | **TTL**   |
+   | -------- |:-------- | ------------------------ |:--------- |
+   | A Record | *        | _Your server ip address_ | Automatic |
+    
+   Example: For Namecheap.com, go to Domain List > Manage > Advanced DNS > Add New Record > A Record > `*` for Host > Server IP for Value.
 
    ![](http://i.imgur.com/I7h5jSs.png)
 
