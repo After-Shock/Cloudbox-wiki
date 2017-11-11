@@ -32,7 +32,7 @@
    
    1. set "Branch" to `nightly` (type it in)
 
-    ![Radarr Branch](http://i.imgur.com/QA8aqip.png)
+      ![Radarr Branch](http://i.imgur.com/QA8aqip.png)
 
    1. set "Automatic" to "off".  
 
