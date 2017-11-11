@@ -1,4 +1,6 @@
-Note: The Ubuntu kernel needs to be updated to 4.10-generic (or higher) before Cloudbox can be installed. If your kernel is already up to date, you may skip this step.
+Before Cloudbox can be installed, the Ubuntu kernel needs to be updated to 4.10-generic (or higher). 
+
+_Note: If your kernel is already updated, you may skip this step._
 
 1. Go into the Cloudbox folder:
 
