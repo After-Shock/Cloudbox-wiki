@@ -1,5 +1,5 @@
 
-1. Sign up for [Cloudflare](https://www.cloudflare.com/) (it's free).
+1. Sign up for a free [Cloudflare](https://www.cloudflare.com/) account.
 
 1. Set the nameservers to what Cloudflare instructs you to on your domain registrar's website (e.g. GoDaddy, Namecheap, etc).
 
