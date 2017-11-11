@@ -2,7 +2,7 @@
 
 - [Default Setup](#default-setup)
 - [Scenario 1](#scenario-1)
-- [Scenario 2](#scenario-2)
+- [Scenario 2 (less preferred)](#scenario-2-less-preferred)
 
 <!-- /TOC -->
 
