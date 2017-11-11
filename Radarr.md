@@ -37,7 +37,6 @@
 
    1. set "Automatic" to "off".  
 
-1. Set "Authentication" to `Forms`, then set a username and password.
 1. Click "Save".
 
 
