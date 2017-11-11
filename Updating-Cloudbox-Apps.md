@@ -16,5 +16,5 @@ _Note: To update the entire Cloudbox project, see [[Updating Cloudbox]]._
 | NZB Hydra              | Restart the docker container: `docker stop nzbhydra && docker start nzbhydra`                      |
 | Plex Requests - Meteor | Update within the app.                                                                         |
 | Organizr               | Update within the app.                                                                         |
-| Portainer              | tbd                                                                                            |
+| Portainer              | TBA                                                                                            |
 | UnionFS Cleaner        | Edit `/opt/unionfs_cleaner/config.json`. <br />  Set `"use_upload_manager"` to `true`.                              |
