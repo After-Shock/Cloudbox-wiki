@@ -427,6 +427,6 @@ You may do this 2 ways:
 Cloudbox uses Sonarr's develop branch and Radarr's nightly branch during install. If you want to import an existing database that is on Sonarr's master branch or Radarr's develop branch (the two most stable branches), you should upgrade to those releases on a working installation first, make a backup, and then import into the respective folders (i.e. `/opt/sonarr/` or `/opt/radarr/`).
 
 
-## If Plex shows you an incorrect title of something.
+## If Plex shows you an incorrect title with the filename (e.g. with -RARBG).
 
 Reorder the Plex agents for TV/Movies so that local assets are at the bottom.
