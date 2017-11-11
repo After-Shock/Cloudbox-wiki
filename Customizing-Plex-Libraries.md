@@ -1,6 +1,6 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
 
-- [Default](#default-setup)
+- [Default Setup](#default-setup)
 - [Scenario 1](#scenario-1)
 - [Scenario 2](#scenario-2)
 
