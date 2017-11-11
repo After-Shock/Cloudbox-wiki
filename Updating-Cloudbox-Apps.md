@@ -7,7 +7,7 @@ _Note: To update the entire Cloudbox project, see [[Updating Cloudbox]]._
 |:---------------------- |:---------------------------------------------------------------------------------------------- |
 | Plex                   | Restart the docker container: `docker stop plex && docker start plex`                              |
 | PlexPy                 | Update within the app.                                                                         | 
-| Plex AutoScan          | Update the git project: `cd /opt/plex_autoscan && git pull`                                        |
+| Plex AutoScan          | Update the git project: `cd /opt/plex_autoscan && git pull` <br /> Restart Plex Autoscan: `sudo systemctl restart plex_autoscan.service`                                        |
 | Sonarr                 | Restart the docker container: `docker stop sonarr && docker start sonarr`                          |
 | Radarr                 | Restart the docker container: `docker stop radarr && docker start radarr`                          |
 | NZBGet                 | Restart the docker container: `docker stop nzbget && docker start nzbget`                          |
