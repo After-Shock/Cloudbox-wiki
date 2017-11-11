@@ -27,7 +27,7 @@ Two ways to do this:
 
 _Note: The below commands are for the native install._
 
-### Basic Commands
+### Basic Command
 
 
 ```
