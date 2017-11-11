@@ -85,7 +85,7 @@ You may resolve this by either
 
    - On "Organize Your Media", hit "NEXT" (you will do this later). Then hit "DONE". 
 
-   - At this point, you may `Ctrl + c` on the SSH Tunnel to quit it. 
+   - At this point, you may `Ctrl + c` on the SSH Tunnel to close it. 
 
 
 
