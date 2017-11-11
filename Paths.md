@@ -37,7 +37,7 @@ Note: Make sure `/mnt/local` has enough space to store the imported media.
 
 | Path               | Purpose                                                                                                                                                                                       |
 |:------------------ |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <pre>/mnt/local/Media</pre> | <pre> Location of media stored on the server. <br /><br /> Size of this path is checked, periodically (default 30 min). When the folder size reaches its threshold (default 200GB), media will be moved to Google Drive, freeing up local disk space </pre> |
+| <pre>/mnt/local/Media</pre> | <pre> Location of media stored on the server. <br /><br /> Size of this path is checked periodically (default 30 min). When the folder size reaches its threshold (default 200GB), media will be moved to Google Drive, freeing up local disk space </pre> |
 
 
 
