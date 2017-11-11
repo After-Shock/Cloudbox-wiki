@@ -255,8 +255,6 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 1. Click "Save" to add Plex Autoscan.
 
 
-~~_Note: At present, a bug in Radarr is causing this to not work. A temporary workaround is presented [[here|FAQ#temporary-fix-for-radarr-not-working-with-plex-autoscan]]._~~ This has been fixed. More info [[here|FAQ#temporary-fix-for-radarr-not-working-with-plex-autoscan]].
-
 
 ## 8. Adding the Movies Path
 1. When you are ready to add your first movie to Radarr, click the "Path" drop-down and select "Add a different path".
