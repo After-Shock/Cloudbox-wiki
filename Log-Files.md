@@ -27,3 +27,12 @@ or
 ```
 sudo journalctl -fu unionfs_cleaner
 ```
+
+
+## Docker containers
+
+Find the container name: `docker ps -a`
+
+```
+docker logs -f <container_name>
+```
