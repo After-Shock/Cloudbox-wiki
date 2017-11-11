@@ -354,32 +354,37 @@ sudo systemctl restart plex_autoscan.service
 
 ## Temporary fix for Radarr not working with Plex Autoscan
 
-Currently, Radarr broke the webhook feature that allows Plex Autoscan to work properly. We've created a workaround to get it working until Radarr fixes it. 
-
-1. First, we will temporarily disable the Plex Autoscan connection: Radarr -> Settings -> Connect -> Plex Autoscan -> set all options to `No` -> click "Save".   
-
-1. Create a new custom script: '+' -> Custom Script.
-
-1. Add the following:
-
-   1. Name: Plex Autoscan fix
-
-   1. On Grab: `No`
-
-   1. On Download: `Yes`
-
-   1. On Upgrade:  `Yes`
-
-   1. On Rename:`No`
-
-   1. Path: `/scripts/plex_autoscan/radarr2autoscan.sh`
+Update: This has been fixed in newer versions of Radarr and Plex Autoscan. To update them, see [[Updating Cloudbox Apps]]. 
 
 
-1. The settings will look like this:
+~~Currently, Radarr broke the webhook feature that allows Plex Autoscan to work properly. We've created a workaround to get it working until Radarr fixes it.~~ 
 
-    ![Radarr Plex Autoscan Fix](https://i.imgur.com/KZOu3zD.png)
+~~1. First, we will temporarily disable the Plex Autoscan connection: Radarr -> Settings -> Connect -> Plex Autoscan -> set all options to `No` -> click "Save".~~   
 
-1. Click "Save".
+~~1. Create a new custom script: '+' -> Custom Script.~~
+
+~~1. Add the following:~~
+
+   ~~1. Name: Plex Autoscan fix~~
+
+   ~~1. On Grab: `No`~~
+
+   ~~1. On Download: `Yes`~~
+
+   ~~1. On Upgrade:  `Yes`~~
+
+   ~~1. On Rename:`No`~~
+
+   ~~1. Path: `/scripts/plex_autoscan/radarr2autoscan.sh`~~
+
+
+~~1. The settings will look like this:~~
+ 
+~~https://i.imgur.com/KZOu3zD.png~~
+
+~~1. Click "Save".~~
+
+
 
 
 ## If you cloned the script as USER_X but install as USER_Y 
