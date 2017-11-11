@@ -1,3 +1,5 @@
+# Intro
+
 Backup and Restore is an integral part of Cloudbox, this is what makes it so great! Everything related to installed applications is backed-up. Seeding content, however, is NOT backed-up.
 
 **Cloudbox Backup** creates a backup .tar file of the entire `/opt` folder, which includes all settings and configuration files for the Docker apps installed with Cloudbox, and uploads it to your Google Drive or Rsync remote. Backup can be ran manually on-demand or scheduled to run automatically.
