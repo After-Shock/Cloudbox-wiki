@@ -73,7 +73,7 @@ You may resolve this by either
 
    - On your host PC (replace with your user name and serveripaddress): `ssh <user>@<yourserveripaddress> -L 32400:0.0.0.0:32400 -N`
 
-   - Go to the site: http://localhost:32400/web
+   - Go to http://localhost:32400/web.
 
    - Log in with your Plex account.
 
