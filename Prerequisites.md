@@ -80,7 +80,9 @@ Media will be stored in `Movies` and `TV` folders, all within a `Media` folder i
 
 ## 5. Plex Account
 
-You'll need a Plex account (it's free). If you don't already have one, please visit https://www.plex.tv and create one.
+You'll need a Plex account (it's free). 
+
+If you don't already have one, please visit https://www.plex.tv and create one.
 
 
 
