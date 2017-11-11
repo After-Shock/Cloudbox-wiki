@@ -1,3 +1,18 @@
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
+
+- [Intro](#Intro)
+- [Backup](#backup)
+	- [Manual Backup](#manual-backup)
+	- [Scheduled Backup](#Scheduled-Backup)
+- [Restore](#Restore)
+
+
+<!-- /TOC -->
+
+---
+
+
+
 # Intro
 
 Backup and Restore is an integral part of Cloudbox, this is what makes it so great! Everything related to installed applications is backed-up. Seeding content, however, is NOT backed-up.
