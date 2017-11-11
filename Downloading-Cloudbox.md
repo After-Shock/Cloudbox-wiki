@@ -1,5 +1,7 @@
 
-###  1. Creating the `seed` user account  ### 
+###  1. Create the user account  ### 
+
+We will create the `seed` user account. 
 
 Run the following commands line by line (don't just paste it all at once):
 
@@ -14,7 +16,7 @@ su seed
 Note: The user name `seed` can be changed to something else, but it will also require updating the user variable inside [[settings.yml|Configuring Settings]] and replacing any mentions of `seed` with your username in future commands.
 
 
-### 2. Installing Git, Pip, Easy_install, and Ansible ####
+### 2. Install Prerequisites  ####
 
 Run the following command:
 
@@ -25,7 +27,7 @@ sudo apt-get update && sudo apt-get install -y git python-pip python3-pip python
 _Note: Ansible v2.3.1.0 is the current stable version (v2.3.2.0 has a bug where docker_container state=stopped causes container to be removed)._
 
 
-### 3. Downloading Cloudbox ### 
+### 3. Download Cloudbox ### 
 
 
 
