@@ -78,16 +78,15 @@ If no updates, stop anyway.
 
 
 
-### Don't want a certain docker app?
+### Don't want a certain docker container?
 
 You can remove it with the follow steps.
 
-_Note: Certain docker containers are essential (e.g. nginx-proxy, letsencrypt)._
+_Note: Certain docker containers are essential to Cloudbox  (e.g. nginx-proxy, letsencrypt)._
 
 Via Command line:
 - Get a list of docker container's installed: `docker ps -a`  
 - Remove the one you don't want (where `<name>` is replaced with the docker container's name): `docker stop <name> && docker rm <name>`
-- Note: Be careful not to remove any container that is essential to Cloudbox (e.g. `nginx-proxy`, `letsencrypt-nginx-proxy-companion`, etc)
 
 Via Portainer:
 - https://portainer._yourdomain.com_
