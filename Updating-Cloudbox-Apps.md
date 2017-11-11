@@ -17,4 +17,4 @@ _Note: To update the entire Cloudbox project, see [[Updating Cloudbox]]._
 | Plex Requests - Meteor | Update within the app.                                                                         |
 | Organizr               | Update within the app.                                                                         |
 | Portainer              | tbd                                                                                            |
-| UnionFS Cleaner        | Modify `/opt/unionfs_cleaner/config`: `"use_upload_manager": true`                             |
+| UnionFS Cleaner        | Edit `/opt/unionfs_cleaner/config.json`. <br />  Set `"use_upload_manager"` to `true`.                              |
