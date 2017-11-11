@@ -1,10 +1,10 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
 
-- [Intro](#Intro)
+- [Intro](#intro)
 - [Backup](#backup)
 	- [Manual Backup](#manual-backup)
-	- [Scheduled Backup](#Scheduled-Backup)
-- [Restore](#Restore)
+	- [Scheduled Backup](#scheduled-backup)
+- [Restore](#restore)
 
 
 <!-- /TOC -->
