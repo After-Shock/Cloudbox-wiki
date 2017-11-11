@@ -32,12 +32,12 @@ _Note: If you would like to customize your Plex libraries differently, see [[Cus
 
 Note: Make sure `/mnt/local` has enough space to store the imported media.
 
-### UnionFS_Cleaner
+### UnionFS Cleaner
 
 
 | Path               | Purpose                                                                                                                                                                                       |
 |:------------------ |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <pre>/mnt/local/Media</pre> | <pre> Location of media stored on the server. Size of this path is checked, periodically (default 30 min). When the folder size reaches it's threshold (default 200GB), media will be moved to Google Drive, freeing up local disk space </pre> |
+| <pre>/mnt/local/Media</pre> | <pre> Location of media stored on the server. <br /><br /> Size of this path is checked, periodically (default 30 min). <br /> When the folder size reaches its threshold (default 200GB), <br /> media will be moved to Google Drive, freeing up local disk space </pre> |
 
 
 
