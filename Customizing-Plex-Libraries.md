@@ -1,3 +1,18 @@
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
+
+- [Default](#default-setup)
+- [Scenario 1](#scenario-1)
+- [Scenario 2](#scenario-2)
+
+<!-- /TOC -->
+
+---
+
+
+
+
+## Default Setup
+
 In the default Cloudbox install, there only two main Plex libraries: one for Movies and one for TV Shows. With the idea that all movies are to be placed within the `/Media/Movies` folder.
 
    ```
