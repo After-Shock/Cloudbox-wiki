@@ -52,6 +52,6 @@
 
     If you see an error here, check [[FAQ]] for possible fix(es). 
 
-1. You should now be able to see all your media files in `/mnt/unionfs/Media` (i.e. all the files in your Google drive and your server, combined).
+1. You should now be able to see all your media files in `/mnt/unionfs/Media` (i.e. all the media files in your Google drive and your server, combined).
 
    If you are not able to, then something was done incorrectly during the setup of Plexdrive (i.e. this page) and/or your media is not located in the correct folder in Google Drive (see [[Prerequisites|Prerequisites#4-google-drive-account]] and [[Paths|Paths#google-drive-paths]]).
