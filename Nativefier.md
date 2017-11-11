@@ -39,7 +39,7 @@ nativefier appname.domainname.com
 - Give it a name: `--name "App Name"`
 - Disable dev tools: `--disable-dev-tools `
 - Force a specific icon with `--icon "path/to/icon"`, where the path/to/icon can be a local file or online path.
-- Force a zoom at start. Example `--zoom=0.8`. You can also temporarily change the zooms with `ctrl` + `+` and `ctrl` +  `-` (replace with `command` in macOS).
+- Force a zoom at start. Example `--zoom=0.8`. You can also change the zooms with `ctrl` + `+` and `ctrl` +  `-` (replace with `command` in macOS).
 - Quick app when close all the windows (for macOS): `--fast-quit`
 
 ### Some examples you can use:
