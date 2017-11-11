@@ -26,5 +26,10 @@
 
 
 ## Rclone already setup with Google Drive
-If you have Rclone already setup, you will have an existing rclone configuration file (i.e `rclone.conf`). Edit this file and rename the Google Drive remote to what you have specified in [[settings.yml|Configuring Settings]] (default is `google` in lowercase). Copy this file into `/opt/rclone/`.
+
+1. Edit your rclone configuration file (i.e `rclone.conf`). 
+
+1. Rename the Google Drive remote to what you have specified in [[settings.yml|Configuring Settings]] (default is `google` in lowercase). 
+
+1. Copy this file into `/opt/rclone/`.
 
