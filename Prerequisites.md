@@ -30,7 +30,7 @@ Get a server hosting company (e.g. Hetzner) with Ubuntu 16.04 LTS installed. Clo
 Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Accessing Cloudbox Apps]]). To set this app follow the below instructions.
 
 ### i. Paid Domain Name (recommended)
-1. Get a domain name from any domain name registry (e.g. Namecheap.com, Godaddy.com, Namesilo.com, etc.)
+1. Get a domain name from any domain name registry (e.g. Namecheap.com, Godaddy.com, Namesilo.com, etc).
 2. Set a wildcard DNS for `*` to your server IP address.
 
     |   **Type**   | **Host** | **Value**                   |     **TTL** |
