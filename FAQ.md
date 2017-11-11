@@ -59,6 +59,16 @@ Via Portainer:
 ## If you are unable to find your Plex server
 
 You may resolve this by either
+
+ - Installing Cloudbox again
+
+   - Remove Plex Container: `sudo docker rm -f plex` (it may show "Error response from daemon: No such container" if not created yet)
+
+   - Remove the Plex folder: `sudo rm -rf /opt/plex`. 
+
+   - Redo the [[installation|Installing Cloudbox]]. 
+
+
  - Using SSH Tunneling to log into Plex and set your credentials
 
    - On your host PC (replace with your user name and serveripaddress): `ssh <user>@<yourserveripaddress> -L 32400:0.0.0.0:32400 -N`
@@ -76,14 +86,6 @@ You may resolve this by either
    - On "Organize Your Media", hit "NEXT" (you will do this later). Then hit "DONE". 
 
    - At this point, you may `Ctrl + c` on the SSH Tunnel to quit it. 
-
- - Installing Cloudbox again
-
-   - Remove Plex Container: `sudo docker rm -f plex` (it may show "Error response from daemon: No such container" if not created yet)
-
-   - Remove the Plex folder: `sudo rm -rf /opt/plex`. 
-
-   - Redo the [[installation|Installing Cloudbox]]. 
 
 
 
