@@ -246,6 +246,9 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
    1. Method:`POST`
 
+   1. Username: leave blank
+
+   1. Password: leave blank
 
 1. The settings will look like this:
 
