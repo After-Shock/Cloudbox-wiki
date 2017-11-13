@@ -425,7 +425,7 @@ Reorder the Plex agents for TV/Movies so that local assets are at the bottom.
 ## Fix permission issues with Plex logs 
 
 
-Run this command. Replace `seed:seed` with your user:group.
+Run this command. Replace `seed:seed` with your user:group (`id` command).
 ```
 sudo chown -R seed:seed /opt/plex/Library/Logs
 ```
