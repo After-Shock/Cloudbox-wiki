@@ -42,7 +42,7 @@ Media
 ```
 
 
-_Note: You could do the same to TV shows (i.e. have multiple sub-dirs within `TV`), but this guide will not go over that. However, the steps are similar to the ones below._
+_Note 1: You could do the same to TV shows (i.e. have multiple sub-dirs within `TV`), but this guide will not go over that. However, the steps are similar to the ones below._
 
 _Note 2: If you have a separate Plex and Feeder setup, the following steps will be done on the server where Plex is installed._
 
@@ -182,7 +182,7 @@ Media
 
 
 
-_Note: You could do the same to TV shows, but this guide will not go over that. However, the steps are similar to the ones below._
+_Note 1: You could do the same to TV shows, but this guide will not go over that. However, the steps are similar to the ones below._
 
 _Note 2: If you have a separate Plex and Feeder setup, the following steps will be done on the server where Plex is installed._
 
