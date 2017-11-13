@@ -83,9 +83,9 @@ To see the information below in a nice-looking table, click [[here|https://pste.
 
 - `plex_autoscan`
 
-  - `ip`: Server IP that Plex_Autoscan will listen on. Default is `0.0.0.0`. 
+  - `ip`: Server IP that Plex Autoscan will listen on. In the `Full` Cloudbox setup, this will be `0.0.0.0`. Default is `0.0.0.0`. 
 
-    - Note 1: 0.0.0.0 is used because containers can not communicate with local host via 127.0.0.1.
+    - Note 1: 0.0.0.0 is for local machines, because containers can not communicate with local host via 127.0.0.1.
     
     - Note 2: If you have a separate Plex and Feeder setup, this will be the IP of the server where Plex is installed.
 
