@@ -421,3 +421,14 @@ Cloudbox uses Sonarr's develop branch and Radarr's nightly branch during install
 ## If Plex shows you an incorrect title with the filename (e.g. with -RARBG).
 
 Reorder the Plex agents for TV/Movies so that local assets are at the bottom.
+
+## Fix permission issues with Plex logs 
+
+
+Run this command. Replace `seed:seed` with your user:group.
+```
+sudo chown -R seed:seed /opt/plex/Library/Logs
+```
+
+_Note: If you have a separate Plex and Feeder setup, this will be done on the server where Plex is installed._
+ 
