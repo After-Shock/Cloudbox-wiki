@@ -17,4 +17,4 @@ _Note: To update the entire Cloudbox project, see [[Updating Cloudbox]]._
 | Plex Requests - Meteor | Update within the app.                                                                         |
 | Organizr               | Update within the app.                                                                         |
 | Portainer              | TBA                                                                                            |
-| UnionFS Cleaner        | Update: `cd /opt/unionfs_cleaner && git pull` <br /> Restart: `sudo systemctl restart unionfs_cleaner.service`  <br /> <br />  To turn on autoupdate:  <br />      Edit `/opt/unionfs_cleaner/config.json` and set `"use_git_autoupdater"` to `true`.                     |
+| UnionFS Cleaner        | Update: `cd /opt/unionfs_cleaner && git pull` <br /> Restart: `sudo systemctl restart unionfs_cleaner.service`  <br /> <br />  To turn on autoupdate:  edit `/opt/unionfs_cleaner/config.json` and set `"use_git_autoupdater"` to `true`.                     |
