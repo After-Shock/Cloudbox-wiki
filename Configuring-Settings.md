@@ -42,7 +42,7 @@
 
 ## 3. Options in Settings
 
-To see the information below in a nice-looking table, click [[here|https://pste.eu/p/87ua.html]].
+To see the information below in a nice-looking table, click [[here|https://pste.eu/p/TIPJ.html]].
 
 
 ---
