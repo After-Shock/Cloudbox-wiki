@@ -1,4 +1,4 @@
-This is particularly useful if you wanted to update a specific app. 
+Table below will show you how to update a specific Cloudbox app. 
 
 _Note: To update the entire Cloudbox project, see [[Updating Cloudbox]]._
 
