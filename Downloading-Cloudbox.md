@@ -13,7 +13,7 @@ sudo passwd seed
 su seed
 ```
 
-Note: The user name `seed` can be changed to something else, but it will also require updating the user variable inside [[settings.yml|Configuring Settings]] and replacing any mentions of `seed` with your username in future commands.
+_Note: You may use another user name other than `seed`. Simply replace all mentions of `seed` in the wiki with your user name._
 
 
 ### 2. Install Prerequisites  ####
