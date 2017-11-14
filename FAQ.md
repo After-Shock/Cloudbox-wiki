@@ -283,7 +283,7 @@ sudo systemctl restart plex_autoscan.service
    sudo chown -R user:group /opt
    ```
 
-1. Change permission inheritance of /opt. Replace `user` and `group` to match yours' (run `id` on command prompt to check).
+1. Change permission inheritance of /opt. 
 
    ```
    sudo chmod g+s -R /opt
@@ -320,7 +320,7 @@ sudo systemctl restart plex_autoscan.service
    ```
 
 
-1. Change permission inheritance of /mnt. Replace `user` and `group` to match yours' (run `id` on command prompt to check).
+1. Change permission inheritance of /mnt. 
 
    ```
    sudo chmod g+s -R /mnt
