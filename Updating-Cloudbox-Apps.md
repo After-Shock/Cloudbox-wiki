@@ -16,5 +16,5 @@ _Note: To update the entire Cloudbox project, see [[Updating Cloudbox]]._
 | NZB Hydra              | Restart the docker container: `docker stop nzbhydra && docker start nzbhydra`                      |
 | Plex Requests - Meteor | Update within the app.                                                                         |
 | Organizr               | Update within the app.                                                                         |
-| Portainer              | Update the docker container: `sudo ansible-playbook cloudbox.yml --tags update-portainer`                                                                                            |
+| Portainer              | Update the docker container: `cd ~/cloudbox && sudo ansible-playbook cloudbox.yml --tags update-portainer`                                                                                            |
 | UnionFS Cleaner        | Update: `cd /opt/unionfs_cleaner && git pull` <br /> Restart: `sudo systemctl restart unionfs_cleaner.service`  <br /> <br />  To turn on auto-update:  edit `/opt/unionfs_cleaner/config.json` and set `"use_git_autoupdater"` to `true`.                     |
