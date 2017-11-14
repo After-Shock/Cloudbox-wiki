@@ -1,9 +1,12 @@
 Updating Cloudbox is not required, but steps below are provided if you want to do so. 
 
 
+
 Steps are typically:
 
 1. Ensure you have a recent [[backup | Backup and Restore#backup]]. 
+
+   Note: You will not lose your config files (e.g. Plex/Sonarr/Radarr libraries, etc) as that is stored in `/opt`, but it's prudent to have a backup, anyway. 
 
 
 2. Pull the latest changes:
@@ -56,7 +59,9 @@ Steps are typically:
       Please, commit your changes or stash them before you can merge.
       ```
 
-      Make a backup of that file (`cp settings.yml ~/`). Reset the clone (`git reset --hard origin/master`), and git pull again. Take a look at your settings.yml file and compare with the new one. If there are any changes (e.g. new variables added), you will need to edit the [[settings.yml| Configuring Settings]] and bring your previous info over. 
+      Make a backup of that file (`cp settings.yml ~/`). Reset the git clone (`git reset --hard origin/master`), and git pull again. Take a look at your settings.yml file and compare with the new one. If there are any changes (e.g. new variables added), you will need to edit the [[settings.yml| Configuring Settings]] and bring your previous info over. 
+
+      Note: Resetting the git clone will not reset your config files (e.g. `/opt`), it merely updates the Cloudbox project located in `~/cloudbox`.
 
 4. You can now run the Cloudbox installer with your preferred [[tag|Installing-Cloudbox]]. Your existing data will remain intact and you will not be asked for a Plex Claim Token if you've already setup Plex.
 
