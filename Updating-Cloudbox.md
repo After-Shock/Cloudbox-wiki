@@ -2,7 +2,7 @@ Updating Cloudbox is not required, but if you may do so to keep your Cloudbox up
 
 _Note 1: You will not lose your config files (e.g. Plex/Sonarr/Radarr libraries, etc) as that is stored in `/opt`, but it is still prudent to have a recent [[backup | Backup and Restore#backup]], anyway._ 
 
-_Note 2: You will not lose any custom/extra Docker containers you have installed, since running/updating Cloudbox only updates Cloudbox related apps and docker containers._ 
+_Note 2: You will not lose any custom/extra Docker containers you have installed (though they may be stopped and require starting manually), since running/updating Cloudbox only updates Cloudbox related apps and docker containers._
 
 Steps to update cloudbox are below:
 
