@@ -13,7 +13,7 @@ To simply update to a newer version.
 | Sonarr                 | Restart the docker container: `docker stop sonarr && docker start sonarr`                                                                                                                                                                  |
 | Radarr                 | Restart the docker container: `docker stop radarr && docker start radarr`                                                                                                                                                                  |
 | NZBGet                 | Restart the docker container: `docker stop nzbget && docker start nzbget`                                                                                                                                                                  |
-| rTorrent               | Update the docker container: `cd ~/cloudbox && sudo ansible-playbook cloudbox.yml --tags update-rutorrent`                                                                                                                                 |
+| ruTorrent              | Update the docker container: `cd ~/cloudbox && sudo ansible-playbook cloudbox.yml --tags update-rutorrent`                                                                                                                                 |
 | Jackett                | Restart the docker container: `docker stop jackett && docker start jackett`                                                                                                                                                                |
 | NZB Hydra              | Restart the docker container: `docker stop nzbhydra && docker start nzbhydra`                                                                                                                                                              |
 | Plex Requests - Meteor | Update within the app.                                                                                                                                                                                                                     |
@@ -37,7 +37,7 @@ Run the following commands in `~/cloudbox/`.
 | Sonarr                      | `sudo ansible-playbook cloudbox.yml --tags update-sonarr`       |
 | Radarr                      | `sudo ansible-playbook cloudbox.yml --tags update-radarr`       |
 | NZBGet                      | `sudo ansible-playbook cloudbox.yml --tags update-nzbget`       | 
-| rTorrent                    | `sudo ansible-playbook cloudbox.yml --tags update-rutorrent`    |
+| ruTorrent                    | `sudo ansible-playbook cloudbox.yml --tags update-rutorrent`   |
 | Jackett                     | `sudo ansible-playbook cloudbox.yml --tags update-jackett`      |
 | NZB Hydra                   | `sudo ansible-playbook cloudbox.yml --tags update-nzbhydra`     |
 | Plex Requests - Meteor      | `sudo ansible-playbook cloudbox.yml --tags update-plexrequests` |
