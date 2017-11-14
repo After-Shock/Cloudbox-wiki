@@ -1,12 +1,12 @@
-Updating Cloudbox is not required, but if you would like to keep your Cloudbox up to date, follow the steps below.
+Updating Cloudbox is not required, but if you may do so to keep your Cloudbox up to date.
 
+_Note 1: You will not lose your config files (e.g. Plex/Sonarr/Radarr libraries, etc) as that is stored in `/opt`, but it is still prudent to have a recent [[backup | Backup and Restore#backup]], anyway._ 
 
-1. Ensure you have a recent [[backup | Backup and Restore#backup]]. 
+_Note 2: You will not lose any custom/extra Docker containers you have installed, since running/updating Cloudbox only updates Cloudbox related apps and docker containers._ 
 
-   Note: You will not lose your config files (e.g. Plex/Sonarr/Radarr libraries, etc) as that is stored in `/opt`, but it's prudent to have a backup, anyway. 
+Steps to update cloudbox are below:
 
-
-2. Pull the latest changes:
+1. Pull the latest changes:
 
    ```bash
    cd ~/cloudbox
@@ -60,13 +60,13 @@ Updating Cloudbox is not required, but if you would like to keep your Cloudbox u
 
       Note: Resetting the git clone will not reset your config files (e.g. `/opt`), it merely updates the Cloudbox installer files located in `~/cloudbox`.
 
-4. You can now run the Cloudbox installer with your preferred [[tag|Installing-Cloudbox]]. Your existing data will remain intact and you will not be asked for a Plex Claim Token if you've already setup Plex.
+2. You can now run the Cloudbox installer with your preferred [[tag|Installing-Cloudbox]]. Your existing data will remain intact and you will not be asked for a Plex Claim Token if you've already setup Plex.
 
    ```bash
    sudo ansible-playbook cloudbox.yml --tags full
    ```
 
-5. Reboot {_you should always perform a reboot after installing Cloudbox_).
+3. Reboot {_you should always perform a reboot after installing Cloudbox_).
 
    ```bash
    sudo reboot
