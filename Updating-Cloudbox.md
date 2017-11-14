@@ -1,8 +1,5 @@
-Updating Cloudbox is not required, but steps below are provided if you want to do so. 
+Updating Cloudbox is not required, but if you would like to keep your Cloudbox up to date, follow the steps below.
 
-
-
-Steps are typically:
 
 1. Ensure you have a recent [[backup | Backup and Restore#backup]]. 
 
