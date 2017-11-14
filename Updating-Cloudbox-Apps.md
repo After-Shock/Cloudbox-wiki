@@ -11,7 +11,7 @@ _Note: To update the entire Cloudbox project, see [[Updating Cloudbox]]._
 | Sonarr                 | Restart the docker container: `docker stop sonarr && docker start sonarr`                          |
 | Radarr                 | Restart the docker container: `docker stop radarr && docker start radarr`                          |
 | NZBGet                 | Restart the docker container: `docker stop nzbget && docker start nzbget`                          |
-| rTorrent               | Update the docker container: `cd ~/cloudbox && sudo ansible-playbook cloudbox.yml --update-rutorrent` |
+| rTorrent               | Update the docker container: `cd ~/cloudbox && sudo ansible-playbook cloudbox.yml --tags update-rutorrent` |
 | Jackett                | Restart the docker container: `docker stop jackett && docker start jackett`                        |
 | NZB Hydra              | Restart the docker container: `docker stop nzbhydra && docker start nzbhydra`                      |
 | Plex Requests - Meteor | Update within the app.                                                                         |
