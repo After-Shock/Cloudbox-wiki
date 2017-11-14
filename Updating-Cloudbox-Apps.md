@@ -5,22 +5,28 @@ The info below will show you how to update your Cloudbox apps (to update the you
 
 To simply update to a newer version, see table below.
 
-| Cloudbox Apps          | How to update                                                                                                                                                                                                                              |
-|:---------------------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Plex                   | Restart the docker container: `docker stop plex && docker start plex`                                                                                                                                                                      | 
-| PlexPy                 | Update within the app.                                                                                                                                                                                                                     |
-| Plex AutoScan          | Update: `cd /opt/plex_autoscan && git pull` <br /> Restart: `sudo systemctl restart plex_autoscan.service`                                                                                                                                 |
-| Sonarr                 | Restart the docker container: `docker stop sonarr && docker start sonarr`                                                                                                                                                                  |
-| Radarr                 | Restart the docker container: `docker stop radarr && docker start radarr`                                                                                                                                                                  |
-| NZBGet                 | Restart the docker container: `docker stop nzbget && docker start nzbget`                                                                                                                                                                  |
-| ruTorrent              | Update the docker container: `cd ~/cloudbox && sudo ansible-playbook cloudbox.yml --tags update-rutorrent`                                                                                                                                 |
-| Jackett                | Restart the docker container: `docker stop jackett && docker start jackett`                                                                                                                                                                |
-| NZB Hydra              | Restart the docker container: `docker stop nzbhydra && docker start nzbhydra`                                                                                                                                                              |
-| Plex Requests - Meteor | Update within the app.                                                                                                                                                                                                                     |
-| Organizr               | Update within the app.                                                                                                                                                                                                                     |
-| Portainer              | Update the docker container: `cd ~/cloudbox && sudo ansible-playbook cloudbox.yml --tags update-portainer`                                                                                                                                 |
-| UnionFS Cleaner        | Update: `cd /opt/unionfs_cleaner && git pull` <br /> Restart: `sudo systemctl restart unionfs_cleaner.service`  <br /> <br />  To turn on auto-update:  edit `/opt/unionfs_cleaner/config.json` and set `"use_git_autoupdater"` to `true`. |
+| Cloudbox Apps                                     | How to update                                                                                                                       |
+|:------------------------------------------------- |:----------------------------------------------------------------------------------------------------------------------------------- |
+| Plex                                              | Auto updates on container restart: `docker restart plex`                                                                            |
+| PlexPy                                            | Update within the app.                                                                                                              |
+| Plex AutoScan                                     | Update git project: `cd /opt/plex_autoscan && git pull` <br /> Restart serviced: `sudo systemctl restart plex_autoscan.service`     |
+| Sonarr                                            | Auto updates on container restart: `docker restart sonarr`                                                                          |
+| Radarr                                            | Auto updates on container restart: `docker restart radarr`                                                                          |
+| NZBGet                                            | Auto updates on container restart: `docker restart nzbget`                                                                          |
+| ruTorrent                                         | Update the docker container (see other table)                                                                                       |
+| Jackett                                           | Auto updates on container restart: `docker restart jackett`                                                                         |
+| NZB Hydra                                         | Auto updates on container restart: `docker restart nzbhydra`                                                                        |
+| Plex Requests - Meteor                            | Update within the app.                                                                                                              | 
+| Organizr                                          | Update within the app.                                                                                                              |
+| Portainer                                         | Update the docker container (see other table)                                                                                       |
+| UnionFS Cleaner <sup name="a1">[\[1\]](#f1) </sup> | Update git project: `cd /opt/unionfs_cleaner && git pull` <br /> Restart serviced: `sudo systemctl restart unionfs_cleaner.service` |
 
+<br />
+
+<sup><b name="f1">[1](#a1)</b></sup> To turn on auto-update:  edit `/opt/unionfs_cleaner/config.json` and set `"use_git_autoupdater"` to `true`. 
+
+
+<br />
 
 
 ## Rebuild the Docker containers
@@ -45,3 +51,8 @@ Run the following commands in `~/cloudbox/`.
 | Portainer                   | `sudo ansible-playbook cloudbox.yml --tags update-portainer`    |
 | Watchtower                  | `sudo ansible-playbook cloudbox.yml --tags update-watchtower`   |
 | Nginx-Proxy and Letsencrypt | `sudo ansible-playbook cloudbox.yml --tags update-nginx`        |
+
+
+
+
+***
