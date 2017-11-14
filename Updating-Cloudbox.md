@@ -56,7 +56,7 @@ Updating Cloudbox is not required, but if you would like to keep your Cloudbox u
       Please, commit your changes or stash them before you can merge.
       ```
 
-      Make a backup of that file (`cp settings.yml ~/`). Reset the git clone (`git reset --hard origin/master`), and git pull again. Take a look at your settings.yml file and compare with the new one. If there are any changes (e.g. new variables added), you will need to edit the [[settings.yml| Configuring Settings]] and bring your previous info over. 
+      Make a backup of that file (`cp settings.yml ~/`). Reset the git clone (```git reset --hard origin/master```), and git pull again. Take a look at your settings.yml file and compare with the new one. If there are any changes (e.g. new variables added), you will need to edit the [[settings.yml| Configuring Settings]] and bring your previous info over. 
 
       Note: Resetting the git clone will not reset your config files (e.g. `/opt`), it merely updates the Cloudbox installer files located in `~/cloudbox`.
 
