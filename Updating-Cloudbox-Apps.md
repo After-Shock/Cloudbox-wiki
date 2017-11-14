@@ -5,7 +5,7 @@ The info below will show you how to update your Cloudbox apps (to update the you
 
 To simply update to a newer version, see table below. 
 
-_Note: We prefer `docker start/start <container>` due to less chance of corrupting data vs `docker restart <container>`. Especially on apps like ruTorrent._
+_Note: We prefer `docker stop/start <container>` vs `docker restart <container>`, to prevent the corrupting data. Especially on apps like ruTorrent._
 
 | Cloudbox Apps                                      | How to update                                                                                                                      |
 |:-------------------------------------------------- |:---------------------------------------------------------------------------------------------------------------------------------- |
