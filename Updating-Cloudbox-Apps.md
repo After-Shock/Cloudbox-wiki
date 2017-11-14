@@ -21,7 +21,7 @@ _Note: We prefer `docker stop/start <container>` vs `docker restart <container>`
 | Plex Requests - Meteor                             | Update within the app                                                                                                              |
 | Organizr                                           | Update within the app                                                                                                              |
 | Portainer                                          | Update the docker container (see next table)                                                                                       | 
-| UnionFS Cleaner <sup name="a1">[\[1\]](#f1) </sup> | Update git project: `cd /opt/unionfs_cleaner && git pull` <br /> Restart service: `sudo systemctl restart unionfs_cleaner.service` |
+| UnionFS Cleaner<sup name="a1">[\[1\]](#f1) </sup> | Update git project: `cd /opt/unionfs_cleaner && git pull` <br /> Restart service: `sudo systemctl restart unionfs_cleaner.service` |
 
 <br />
 
