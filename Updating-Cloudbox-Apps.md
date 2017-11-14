@@ -25,7 +25,7 @@ To simply update to a newer version, see table below.
 
 ## Rebuild the docker containers
 
-Alternatively, you may want to just rebuild the docker container outright.  This is particularly useful if you have made certain modifications to the Ansible roles and need to it to have it run without having to reinstall the entire Cloudbox. 
+Alternatively, you can rebuild the docker container, outright.  This is particularly useful if you have made certain modifications to the Ansible role and need it to run without having to reinstall Cloudbox. 
 
 Run the following commands in `~/cloudbox/`.
 
