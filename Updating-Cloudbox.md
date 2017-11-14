@@ -56,7 +56,7 @@ Steps are typically:
       Please, commit your changes or stash them before you can merge.
       ```
 
-      Make a backup of that file (`cp settings.yml ~/`). Reset the clone `git reset --hard origin/master`), and git pull again. Take a look at your settings.yml file and compare with the new one. If there are any changes (e.g. new variables added), you will need to edit the [[settings.yml| Configuring Settings]] and bring your previous info over. 
+      Make a backup of that file (`cp settings.yml ~/`). Reset the clone (`git reset --hard origin/master`), and git pull again. Take a look at your settings.yml file and compare with the new one. If there are any changes (e.g. new variables added), you will need to edit the [[settings.yml| Configuring Settings]] and bring your previous info over. 
 
 4. You can now run the Cloudbox installer with your preferred [[tag|Installing-Cloudbox]]. Your existing data will remain intact and you will not be asked for a Plex Claim Token if you've already setup Plex.
 
