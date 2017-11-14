@@ -110,3 +110,10 @@ docker rm $(docker ps -a -q)
 ```
 docker start  $(comm -13 <(docker ps -a -q --filter="name=watchtower" | sort) <(docker ps -a -q | sort))
 ```
+
+### Restart all running containers
+
+```
+/opt/scripts/docker/restart_containers.sh
+```
+
