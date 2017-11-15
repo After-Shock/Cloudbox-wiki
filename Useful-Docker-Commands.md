@@ -1,3 +1,46 @@
+### Stop all docker containers
+
+```
+docker stop $(docker ps -a -q)
+```
+
+### Remove all docker containers once they are stopped (be careful)
+
+```
+docker rm $(docker ps -a -q)
+```
+
+### Start all but one container (e.g. All docker containers except Watchtower)
+
+```
+docker start  $(comm -13 <(docker ps -a -q --filter="name=watchtower" | sort) <(docker ps -a -q | sort))
+```
+
+### Restart only the running containers
+
+```
+/opt/scripts/docker/restart_containers.sh
+```
+
+
+
+### Don't want a certain docker container?
+
+You can remove it with the follow steps.
+
+_Note: Certain docker containers are essential to Cloudbox  (e.g. nginx-proxy, letsencrypt)._
+
+Via Command line:
+- Get a list of docker container's installed: `docker ps -a`  
+- Remove the one you don't want (where `<name>` is replaced with the docker container's name): `docker stop <name> && docker rm <name>`
+
+Via Portainer:
+- https://portainer._yourdomain.com_
+- "Containers" --> make your selection --> "Remove"
+
+
+
+
 
 ### Add your own Docker container
 
@@ -76,44 +119,4 @@ docker stop watchtower
 
 If no updates, stop anyway.
 
-
-
-### Don't want a certain docker container?
-
-You can remove it with the follow steps.
-
-_Note: Certain docker containers are essential to Cloudbox  (e.g. nginx-proxy, letsencrypt)._
-
-Via Command line:
-- Get a list of docker container's installed: `docker ps -a`  
-- Remove the one you don't want (where `<name>` is replaced with the docker container's name): `docker stop <name> && docker rm <name>`
-
-Via Portainer:
-- https://portainer._yourdomain.com_
-- "Containers" --> make your selection --> "Remove"
-
-
-### Stop all docker containers
-
-```
-docker stop $(docker ps -a -q)
-```
-
-### Remove all docker containers once they are stopped (be careful)
-
-```
-docker rm $(docker ps -a -q)
-```
-
-### Start all but one container (e.g. All docker containers except Watchtower)
-
-```
-docker start  $(comm -13 <(docker ps -a -q --filter="name=watchtower" | sort) <(docker ps -a -q | sort))
-```
-
-### Restart only the running containers
-
-```
-/opt/scripts/docker/restart_containers.sh
-```
 
