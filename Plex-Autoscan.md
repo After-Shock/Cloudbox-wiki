@@ -71,7 +71,9 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
 cd ~/ && touch mounted.bin && rclone -v move mounted.bin google:
 ```
 
-_Purpose of a control file is to tell Plex Autoscan that your Google Drive is mounted. If, for instance, your Google Drive disconnected from the server during an active Plex folder media scan, Plex would mark those media files as "unavailable" and would wait on an emptying trash request to remove them completely. Because Plex Autoscan checks for that control file, it will not send that emptying trash request. Once Google Drive is remounted, all the files marked unavailable will be playable again._ 
+_The control file is a blank file (i.e. `mounted.bin`) that resides on the root folder of Google Drive. The purpose of a control file is to tell Plex Autoscan that your Google Drive is mounted._ 
+
+_If Plex scanned the media when the Google Drive mount was ever disconnected from the server, it would mark the missing files as "unavailable", and would wait on an emptying trash request to remove them completely. Plex Autoscan, however, would not send that request since the control file would not exist. Once Google Drive was remounted, all the files marked unavailable would be playable again._ 
 
 
 
