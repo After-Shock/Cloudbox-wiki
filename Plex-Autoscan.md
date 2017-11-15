@@ -75,7 +75,7 @@ _Purpose of a control file is to tell Plex Autoscan that your Google Drive is mo
 
 
 
-To read more about Plex Autoscan, see https://github.com/l3uddz/unionfs_cleaner.
+To learn more about Plex Autoscan, see https://github.com/l3uddz/unionfs_cleaner.
 
 
 ---
