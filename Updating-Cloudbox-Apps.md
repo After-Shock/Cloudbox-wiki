@@ -38,7 +38,7 @@ Alternatively, you can rebuild the docker container, outright.  This is particul
 Run the following commands in `~/cloudbox/`.
 
 
-| Cloudbox Docker based Apps  | How to rebuild                                                  |
+| Cloudbox Docker-based Apps  | How to rebuild                                                  |
 |:--------------------------- |:--------------------------------------------------------------- |
 | Plex                        | `sudo ansible-playbook cloudbox.yml --tags update-plex`         |
 | PlexPy                      | `sudo ansible-playbook cloudbox.yml --tags update-plexpy`       |
