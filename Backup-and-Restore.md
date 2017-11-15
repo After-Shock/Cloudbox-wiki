@@ -80,7 +80,7 @@ Things that are not backed-up:
 
 There are 2 ways to schedule a Cloudbox Backup: (1) by editing the settings.yml file and running a the backup command, or (2) creating a cron task manually.
 
-### Using Cloudbox Settings
+### Using Settings to Setup a Schedule
 
 1. Set the following in your [[settings.yml|Configuring Settings]] file:
 
