@@ -1,9 +1,9 @@
 
 ###  1. Create the user account  ### 
 
-We will create the user account `seed`, under the group `seed`. 
+We will create the user account `seed` and add it to the `sudo` group.  
 
-Run the following commands line by line (don't just paste it all at once):
+Run the following commands line by line:
 
 
 ```bash
