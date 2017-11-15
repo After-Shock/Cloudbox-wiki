@@ -439,4 +439,4 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
 2017-11-15 13:09:03,772 -    ERROR -      PLEX [10490]: Unexpected response status_code for empty trash request: 401
 ```
 
-Need to generate another token and re-add that back into the config. See [[Plex Autoscan]].
+You need to generate another token and re-add that back into the config. See [[Plex Autoscan]].
