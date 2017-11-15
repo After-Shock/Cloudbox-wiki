@@ -432,3 +432,11 @@ sudo chown -R seed:seed /opt/plex/Library/Logs
 
 _Note: If you have a separate Plex and Feeder setup, this will be done on the server where Plex is installed._
  
+
+## Plex Autoscan log shows...
+
+```
+2017-11-15 13:09:03,772 -    ERROR -      PLEX [10490]: Unexpected response status_code for empty trash request: 401
+```
+
+Need to generate another token and re-add that back into the config. See [[Plex Autoscan]].
