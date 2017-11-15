@@ -64,6 +64,19 @@ This will be in the format of `http://server_ip:server_port/server_pass`.
 _Note: If you have a separate Plex and Feeder setup, this will be done on the server where Plex is installed._
 
 
+## 4. Upload Blank Control file to Google Drive
+
+
+```
+cd ~/ && touch mounted.bin  && rclone move mounted.bin google: -v
+```
+
+_Purpose of a control file is to tell Plex Autoscan that your Google Drive is mounted. If, for instance, your Google Drive disconnected from the server during an active Plex folder media scan, Plex would mark those media files as "unavailable" and would wait on an emptying trash request to remove them completely. Because Plex Autoscan checks for that control file, it will not send that emptying trash request. Once Google Drive is remounted, all the files marked unavailable will be playable again._ 
+
+
+
+To read more about Plex Autoscan, see https://github.com/l3uddz/unionfs_cleaner.
+
 
 ---
 
