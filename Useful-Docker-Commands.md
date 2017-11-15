@@ -101,7 +101,7 @@ docker run -d --name=nextcloud --network=cloudbox --network-alias=nextcloud -e '
 
 Tool to update Docker images and containers. 
 
-NOTE: We recommend you manually update the docker images and containers via the [[update-tags|Updating Cloudbox Apps]]. Updating Docker containers like this has been known to cause data corruption. So use at your own risk. 
+NOTE: We recommend you manually update the docker images and containers via the [[update-tags|Updating Cloudbox Apps#rebuild-the-docker-containers]]. Updating Docker containers like this has been known to cause data corruption. So use at your own risk. 
 
 ```
 docker start watchtower && docker logs -f watchtower
