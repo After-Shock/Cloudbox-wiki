@@ -47,7 +47,7 @@ _Last updated on: Nov 14, 2017_
 
 ### Troubleshooting ###
 - [[FAQ]]
-- [[Log Files]]
+- [[Logs]]
 
 ### Community Chat ###
 - [Slack Channel](https://join.slack.com/t/cloud-box/shared_invite/MjM1NTI2OTEwMzIyLTE1MDQzOTAyNDAtYWNhOWY2NzNiZA)
