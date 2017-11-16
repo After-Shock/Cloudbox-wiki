@@ -9,7 +9,7 @@ ARM is not supported.
 
 1. Select "Ubuntu Xenial" as the distribution. 
 
-1. Click on the server when it's ready. 
+1. Click the server on the list. 
 
 1. Under "ADVANCED OPTIONS", click "SHOW". 
 
