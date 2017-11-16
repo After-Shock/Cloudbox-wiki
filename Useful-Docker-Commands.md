@@ -22,6 +22,15 @@ docker start  $(comm -13 <(docker ps -a -q --filter="name=watchtower" | sort) <(
 /opt/scripts/docker/restart_containers.sh
 ```
 
+### Docker Logs
+
+Find the container name: `docker ps -a`
+
+
+Live log:
+```
+docker logs -f <container_name>
+```
 
 
 ### Don't want a certain docker container?
