@@ -133,6 +133,6 @@ Pushover can send you notifications whenever an event occurs with Plex (e.g. som
 
 ## Plex Requests
 
-Pushover can send notifications whenever an event occurs in Plex Requests (e.g. media is requested).
+Pushover can send notifications whenever an event occurs in Plex Requests (e.g. media is requeste, new media is added etc).
 
 - [Plex Requests](Plex-Requests#1-accessing-plex-requests) -> Admin -> Notifications -> check "Enable Pushover notifications" and type in your Pushover User Key and the Application Token (you can click the "Test Pushover" to check if it's working ok) -> Click "Update Settings".
