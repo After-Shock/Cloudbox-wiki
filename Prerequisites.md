@@ -24,6 +24,7 @@ If you wish to learn more about them, you can easily find a ton of guides for th
 Get a server hosting company (e.g. Hetzner) with Ubuntu 16.04 LTS installed. Cloudbox has only been tested to work on on an Intel / AMD64 machines. ARM based servers are not supported.
 
 
+_Note: If you are using a Scaleway server, read [[this|FAQ#if-you-are-using-a-scaleway-server]]._
 
 ## 3. Domain Name
 
