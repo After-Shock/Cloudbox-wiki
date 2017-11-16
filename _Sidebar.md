@@ -60,7 +60,7 @@
 
 ### Troubleshooting ###
 - [[FAQ]]
-- [[Log Files]]
+- [[Logs]]
 
 ***
 
