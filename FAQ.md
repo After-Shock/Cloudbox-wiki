@@ -9,9 +9,19 @@ ARM is not supported.
 
 1. Select "Ubuntu Xenial" as the distribution. 
 
-1. When the server is ready, change the bootscript to "4.10 Docker". 
+1. Click on the server when it's ready. 
 
-1. You can skip the [[Updating Kernel]] page. 
+1. Under "ADVANCED OPTIONS", click "SHOW". 
+
+1. Under "BOOTSCRIPT", select "x86_64 4.10.8 docker #1". 
+
+   ![](https://i.imgur.com/MrgL8mN.png)
+
+   ![](https://i.imgur.com/8cfqjnR.png)
+
+1. You can now start the server. 
+
+1. During the First Time Install steps, skip the [[Updating Kernel]] page. 
 
 Reference: https://www.scaleway.com/docs/bootscript-and-how-to-use-it/
 
