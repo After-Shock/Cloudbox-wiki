@@ -3,6 +3,19 @@
 ARM is not supported.
 
 
+## If you are using a Scaleway server...
+
+1. Choose an X86 server (vs ARM). 
+
+1. Select "Ubuntu Xenial" as the distribution. 
+
+1. When the server is ready, change the bootscript to "4.10 Docker". 
+
+1. You can skip the [[Updating Kernel]] page. 
+
+Reference: https://www.scaleway.com/docs/bootscript-and-how-to-use-it/
+
+
 ## Does Cloudbox support encryption data on Google Drive?
 
 In short, no.
