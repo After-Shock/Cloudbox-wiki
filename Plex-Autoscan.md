@@ -77,7 +77,7 @@ _If Plex scanned for media when the Google Drive mount was ever disconnected, it
 
 
 
-_To learn more about Plex Autoscan, see https://github.com/l3uddz/unionfs_cleaner._
+_To learn more about Plex Autoscan, see https://github.com/l3uddz/plex_autoscan._
 
 
 ---
