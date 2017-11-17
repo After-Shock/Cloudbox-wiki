@@ -79,7 +79,7 @@ Media will be stored in `Movies` and `TV` folders, all within a `Media` folder i
    └── TV
    ```
 
-Note: The paths/folders mentioned are all **CASE SENSITIVE** (see  [[Paths]]). 
+Note: All the paths/folders mentioned are **CASE SENSITIVE** (see  [[Paths]]). 
 
 
 ## 5. Plex Account
