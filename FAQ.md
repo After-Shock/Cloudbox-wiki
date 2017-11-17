@@ -221,7 +221,7 @@ sudo service docker start
 
   There is an issue with the permissions on that folder that you'll need to fix manually (Cloudbox can't fix this as Plex creates this folder after the first scan)
 
-   To fix this, Run the following (replace `seed` with your user/group name):
+   To fix this, Run the following (replace `seed` with your user:group):
 
    ```
    docker stop plex
@@ -309,7 +309,7 @@ sudo systemctl restart plex_autoscan.service
 1. Change permission inheritance of /opt. 
 
    ```
-   sudo chmod g+s -R /opt
+   sudo chmod -R g+s /opt
    ```
 
 1. Start all docker containers
@@ -346,7 +346,7 @@ sudo systemctl restart plex_autoscan.service
 1. Change permission inheritance of /mnt. 
 
    ```
-   sudo chmod g+s -R /mnt
+   sudo chmod -R g+s /mnt
    ```
 
 
@@ -463,3 +463,16 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
 ```
 
 You need to generate another token and re-add that back into the config. See [[Plex Autoscan]].
+
+
+
+## Rclone error: Failed to save config file: open /home/<user>/.config/rclone/rclone.conf: permission denied
+
+Replace `user` and `group` to match yours' (run `id` on command prompt to check)
+
+```
+sudo chown -R user:group /opt/rclone
+sudo chmod -R 0755 /opt/rclone 
+```
+
+
