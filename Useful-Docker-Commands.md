@@ -79,7 +79,7 @@ Notes:
   - You will need to: 
     - create the folder: `mkdir /mnt/downloads/<name>`
     - set ownership: `sudo chown -R <user>:<group> /mnt/downloads/<name>`
-    - set permissions: `sudo chmod g+s -R /mnt/downloads/<name>`
+    - set permissions: `sudo chmod -R g+s /mnt/downloads/<name>`
 - `-v /etc/localtime:/etc/localtime:ro`
 - `-e PGID=<your_group_ID> -e PUID=<your_user_ID>` (use command `id` to check)
 - Ports:
