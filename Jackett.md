@@ -38,7 +38,7 @@ Under "Jackett Configuration":
 
 Under "Configured Indexers":
 
-1. Click "Add Indexer" to add your favorite [[indexers|Prerequisites#6-preferred-downloading-method]] (i.e. torrent trackers). 
+1. Click "Add Indexer" to add your favorite indexers (i.e. [[torrent trackers|Prerequisites#6-preferred-downloading-method]]). 
 
 1. When adding indexers into [[Sonarr|Sonarr#jackett]]/[[Radarr|Radarr#jackett]], you will need: 
 
