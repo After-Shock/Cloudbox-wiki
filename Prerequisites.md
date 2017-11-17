@@ -72,13 +72,14 @@ Cloudbox stores the media unencrypted in Google Drive and utilizes Plexdrive to 
 
 Media will be stored in `Movies` and `TV` folders, all within a `Media` folder in root (i.e. `/Media`).<a href="#note1" id="note1ref"><sup>[1]</sup></a> If you have media in other folders, simply move them into these folders via the [Google Drive website](https://www.google.com/drive/). 
 
-Note: The paths/folders mentioned are all **CASE SENSITIVE** (see  [[Paths]]). 
 
    ```
    Media
    ├── Movies
    └── TV
    ```
+
+Note: The paths/folders mentioned are all **CASE SENSITIVE** (see  [[Paths]]). 
 
 
 ## 5. Plex Account
