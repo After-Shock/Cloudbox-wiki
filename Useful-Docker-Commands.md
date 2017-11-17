@@ -72,7 +72,7 @@ Notes:
   - You will need to:
     - create the folder: `mkdir /opt/<name>`
     - set ownership: `sudo chown -R <user>:<group> /opt/<name>`
-    - set permissions: `sudo chmod g+s -R /opt/<name>`
+    - set permissions: `sudo chmod -R g+s /opt/<name>`
 - `-v /mnt/downloads/<name>:<container_download_path>` (if required)
   - This is where your downloaded files will go.
   - The `/mnt/downloads/<name>` path will accessible with Sonarr and Radarr. 
