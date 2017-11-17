@@ -21,7 +21,7 @@ ARM is not supported.
 
 1. You can now start the server. 
 
-1. During the First Time Install steps, skip the [[Updating Kernel]] page. 
+1. For the First Time Install, skip the [[Updating Kernel]] page. 
 
 Reference: https://www.scaleway.com/docs/bootscript-and-how-to-use-it/
 
