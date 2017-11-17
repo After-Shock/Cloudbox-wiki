@@ -11,13 +11,22 @@
 
 1. At "Enter your generated client secret:", paste in the Google API Client Secret and press `enter`.
 
+
+   ![](https://i.imgur.com/QSOXgLU.png)
+
 1. Copy the link on the screen  and paste it in your host computer's internet browser. Login with your Google account, if asked, and click `Allow`. You will copy the `authorization code` from your browser, paste it at the prompt, and press `enter`.
 
 
    Note 1: You must use the same Google account as the one you are planning to use for Google Drive (see [[Prerequisites|Prerequisites#4-google-drive-account]]).
 
-   Note 2: If you keep getting the prompt for the authorization code, you might have used an incorrect Client ID/Secret. Remove the `config.json` and `token.json` files from `/opt/plexdrive/` and retry setup.
+   Note 2: If you keep getting the prompt for the authorization code or any other type of err, you might have used an incorrect Client ID/Secret. Remove the `config.json` and `token.json` files from `/opt/plexdrive/` and retry setup.
 
+
+   ![](https://i.imgur.com/CJzgkhn.png)
+
+
+   ![](https://i.imgur.com/eN9pfqo.png)
+   
 1. When you see `First cache build process started...`, press `ctrl`+`c` on your keyboard to exit.
 
    ![](http://i.imgur.com/bDTmXbT.png)
