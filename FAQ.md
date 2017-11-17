@@ -13,7 +13,7 @@ ARM is not supported.
 
 1. Under "ADVANCED OPTIONS", click "SHOW". 
 
-1. Under "BOOTSCRIPT", select "x86_64 4.10.8 docker #1". 
+1. Under "BOOTSCRIPT", select `x86_64 4.10.8 docker #1`. 
 
    ![](https://i.imgur.com/MrgL8mN.png)
 
