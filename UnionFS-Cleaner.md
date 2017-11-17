@@ -6,7 +6,7 @@ When Sonarr or Radarr upgrade your media files, they delete the previous ones. W
 
 Recently, Google Drive has implemented a max upload of ~750GB per day. When this limit is reached, Google Drive will put you in a 24 hour soft ban. When UnionFS Cleaner encounters this (as "Error 403: User Rate Limit Exceeded"), it will go into a 25 hour ban sleep, and upon waking up, will resume checking and uploading tasks. This is so much better than having a Rclone task running all day long with a `bwlimit` set at 8M. To see what this looks like, checkout the screenshot below.
 
-To learn more about UnionFS Cleaner, see [https://github.com/l3uddz/unionfs_cleaner](https://github.com/l3uddz/unionfs_cleaner).
+_To learn more about UnionFS Cleaner, see [https://github.com/l3uddz/unionfs_cleaner](https://github.com/l3uddz/unionfs_cleaner)._
 
 
 
