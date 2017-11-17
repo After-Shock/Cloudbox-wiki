@@ -476,3 +476,39 @@ sudo chmod -R 0755 /opt/rclone
 ```
 
 
+## Missing Thumbnails in Plex (due to http/https redirect errors)
+
+_A recent update to Plex AND/OR nginx-proxy has resulted in an issue where Plex decides to try and load item posters from http via port 443. This behavior is limited to Android clients, as iOS and Web clients work perfectly fine. It is unsure which piece of software is at fault here, be it nginx-proxy or most likely Plex. However, a temporary fix is provided below._
+
+
+
+1. Go into the folder:
+
+   ```
+   cd ~/cloudbox
+   ```
+1. Edit the nginx-role
+   ```
+   nano roles/nginx-proxy/tasks/main.yml
+   ```
+
+1. Change `image:` info
+
+   Replace ...
+   ```    
+   image: "jwilder/nginx-proxy" 
+   ```
+
+   With ...
+   ```    
+   image: "jwilder/nginx-proxy@sha256:76d9ed11c131fadc7546e3b9b085970e13ff45186171b975ad60830f5ca0d689" 
+   ```
+
+1. Save the file: `Ctrl-X` + `Y`.
+
+1. Recreate the nginx-proxy container
+ 
+   ```    
+   sudo ansible-playbook cloudbox.yml --tags update-nginx
+   ```
+
