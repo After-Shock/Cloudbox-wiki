@@ -37,3 +37,7 @@ hostess can be used host modification via cli
 ngrok - secure introspectable tunnels to localhost webhook development tool and debugging tool.
 
 nethogs - view traffic stats for individual processes
+
+npm - install node modules easily
+
+frontail - live tail logs via http
