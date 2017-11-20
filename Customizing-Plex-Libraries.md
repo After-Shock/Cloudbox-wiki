@@ -142,7 +142,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 1. Change `"/mnt/local/Media/Movies": 1` to `"/mnt/local/Media/Movies": 2`. 
 
-   1. This will tell UnionFS Cleaner to not delete the folders immediately under `/mnt/local/Media/Movies` during cleanup.  
+   1. This will tell UnionFS Cleaner to not remove empty folders directly under `/mnt/local/Media/Movies` during cleanup.  
 
    1. Make sure there is a comma (`,`) at the end of all `"path": #` lines - all except the last one (see example below).
 
@@ -283,7 +283,7 @@ In our example, this will be: `/data/Movies-3D`, `/data/Movies-4K`, `/data/Movie
 
 1. Add your paths under paths under it. (e.g. `"/mnt/local/Media/Movies-3D": 1`)
 
-   1. This will tell UnionFS Cleaner to not delete the folders immediately under `/mnt/local/Media/Movies` during cleanup.  
+   1. This will tell UnionFS Cleaner to not remove empty folders directly under `/mnt/local/Media/Movies` during cleanup.  
 
    1. Make sure there is a comma (`,`) at the end of all `"path": #` lines - all except the last one (see example below).
 
