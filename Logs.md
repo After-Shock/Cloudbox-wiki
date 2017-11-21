@@ -77,7 +77,7 @@ Live log (from the last 10 lines of the log):
 docker logs --follow --tail 10 <container_name>
 ```
 
-## Output a live log via http
+## Output a live log via http using frontail
 
 If you need to share a live log with someone (i.e for support), here is a way to do so.
 
