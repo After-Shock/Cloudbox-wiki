@@ -62,12 +62,17 @@ sudo journalctl -fu unionfs.service
 
 
 
-## Docker containers
+### Docker Logs
 
 Find the container name: `docker ps -a`
 
 
-Live log:
+Live log (from the beginning of the log):
 ```
-docker logs -f <container_name>
+docker logs -follow <container_name>
+```
+
+Live log (from the last 10 lines of the log):
+```
+docker logs --follow --tail 10 <container_name>
 ```
