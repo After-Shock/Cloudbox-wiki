@@ -512,3 +512,41 @@ _A recent update to Plex AND/OR nginx-proxy has resulted in an issue where Plex 
    sudo ansible-playbook cloudbox.yml --tags update-nginx
    ```
 
+
+
+## Plex Autoscan error with metadata_item_id
+
+Example Log:
+```
+ 2017-11-21 04:26:32,619 -    ERROR -      PLEX [ 7089]: Exception finding metadata_item_id for '/data/TV/Gotham/Season 01/Gotham - S01E01 - Pilot.mkv': 
+
+Traceback (most recent call last):
+
+  File "/opt/plex_autoscan/plex.py", line 208, in get_file_metadata_id
+
+    media_item_id = c.execute("SELECT * FROM media_parts WHERE file=?", (file_path,)).fetchone()[1]
+
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+ 2017-11-21 04:26:32,619 -     INFO -      PLEX [ 7089]: Aborting analyze of '/data/TV/Gotham/Season 01/Gotham - S01E01 - Pilot.mkv' because could not find a metadata_item_id for it
+```
+
+
+Issue: 
+
+One of the mounts has changed (e.g. Plexdrive or UnionFS was restarted).
+
+Fix:
+
+1. Make sure Plexdrive and Unionfs are working ok 
+   ```
+   sudo systemctl status plexdrive
+   ```
+   ```
+   sudo systemctl status unionfs
+   ```
+
+1. Restart Plex:
+   ```
+   docker stop plex && docker start plex
+   ```
