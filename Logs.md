@@ -85,7 +85,7 @@ If you need to share a live log with someone (i.e for support), here is a way to
 ### Base command 
 
 ```
-frontail --ui-highlight  --ui-highlight-preset /opt/scripts/frontail/frontail_custom_present.json --theme dark --user seed --password seed <path of log file> &
+frontail --ui-highlight --ui-highlight-preset /opt/scripts/frontail/frontail_custom_present.json --theme dark --user seed --password seed <path of log file> &
 ```
 
 - You may change the user and password. 
@@ -103,7 +103,7 @@ frontail --ui-highlight  --ui-highlight-preset /opt/scripts/frontail/frontail_cu
 Edit ~/.bashrc file and add the following (you may change the user and password):
 ```
 ## custom aliases
-alias ftail='frontail --ui-highlight  --ui-highlight-preset /opt/scripts/frontail/frontail_custom_present.json --theme dark --user seed --password seed '
+alias ftail='frontail --ui-highlight --ui-highlight-preset /opt/scripts/frontail/frontail_custom_present.json --theme dark --user seed --password seed '
 ```
 
 You can now use:
@@ -117,7 +117,7 @@ ftail <log path> &
 
 Normal command:
 ```
-frontail --ui-highlight  --ui-highlight-preset /opt/scripts/frontail/frontail_custom_present.json --theme dark --user seed --password seed /opt/plex_autoscan/plex_autoscan.log &
+frontail --ui-highlight --ui-highlight-preset /opt/scripts/frontail/frontail_custom_present.json --theme dark --user seed --password seed /opt/plex_autoscan/plex_autoscan.log &
 ```
 
 Alias command:
