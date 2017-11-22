@@ -42,7 +42,7 @@ Listed below are the things you'll need from Pushover's site.
 
 1. Pushover license(s) 
 
-   - They have 3 separate ones for different device types (i.e. Android, iOS, or desktop PC). You'll need a license for each type of device you want to setup. See their [FAQ](https://pushover.net/faq#overview-fees) for more info.
+   - They have 3 separate ones for different device types (i.e. Android, iOS, or desktop PC). Each type has is a one-time cost of $4.99. You'll need a paid license for the type(s) of device you want to receive notifications on.  See their [FAQ](https://pushover.net/faq#overview-fees) for more info.
 
 1. A [Pushover Device Client](https://pushover.net/clients)
 
