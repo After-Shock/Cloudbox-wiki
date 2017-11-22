@@ -42,7 +42,7 @@ Listed below are the things you'll need from Pushover's site.
 
 1. Pushover license(s) 
 
-   - Pushover has 3 separate licenses for the different device types: Android, iOS, or PC. The cost for the license is a $4.99. You'll need one for the type of device you want to receive notifications on.  See their [FAQ](https://pushover.net/faq#overview-fees) for more info.
+   - Pushover has 3 separate licenses for the different device types: Android, iOS, or PC. The cost for the license is a one-time fee of $4.99. You'll need one for the type of device you want to receive notifications on.  See their [FAQ](https://pushover.net/faq#overview-fees) for more info.
 
 1. A [Pushover Device Client](https://pushover.net/clients)
 
