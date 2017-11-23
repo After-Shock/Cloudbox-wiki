@@ -37,4 +37,4 @@ _Note: Cloudbox uses Ansible v2.3.1.0 because it is the current stable version (
 git clone http://github.com/cloudbox/cloudbox ~/cloudbox && cd ~/cloudbox
  ```
 
-_Note: If you use the URL shown on the GitHub page and do not specify the path to clone to, the folder created will be capitalized as `Cloudbox`. Simply, rename it to lowercase `cloudbox` via `mv ~/Cloudbox ~/cloudbox`._
+_Note: If you use the URL shown on the GitHub page, which is capitalized, and do not specify the path to clone to, the folder created will be capitalized as well (i.e. `Cloudbox`). Simply, rename it to lowercase `cloudbox` via `mv ~/Cloudbox ~/cloudbox`._
