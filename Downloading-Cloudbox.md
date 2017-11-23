@@ -34,5 +34,5 @@ _Note: Cloudbox uses Ansible v2.3.1.0 because it is the current stable version (
 
 
  ```bash
- cd ~/ && git clone http://github.com/cloudbox/cloudbox && cd ~/cloudbox
+git clone http://github.com/Cloudbox/Cloudbox ~/cloudbox && cd ~/cloudbox
  ```
