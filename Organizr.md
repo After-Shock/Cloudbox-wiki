@@ -91,7 +91,7 @@ The following guide will help you setup Organizer. If you would like an alternat
 
     - Set "Sonarr URL": `http://sonarr:8080`
 
-    - Set "Sonarr API Key": _Your Sonarr API Key_ (you can find this at [[Sonarr|Sonarr#1-accessing-sonarr]] --> Settings --> General)
+    - Set "Sonarr API Key": [[Your Sonarr API Key|Sonarr#9-retrieving-the-api-key]]
 
     - Click "SAVE".
 
@@ -101,7 +101,7 @@ The following guide will help you setup Organizer. If you would like an alternat
 
     - Set "Radarr URL": `http://radarr:8080`
 
-    - Set "Radarr API Key": _Your Radarr API Key_ (you can find this at [[Radarr|Radarr#1-accessing-radarr]] --> Settings --> General)
+    - Set "Radarr API Key": [[Your Radarr API Key|Radarr#9-retrieving-the-api-key]]
 
     - Click "SAVE".
 
