@@ -164,6 +164,10 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 Set your Movie Paths in Radarr to reflect the new sub-dirs (e.g. `/movies/3D`), see the wiki on [[Radarr|Radarr#8-adding-the-movies-path]].
 
+### 7. Change root path in Plex Requests
+
+Set the default "Root save directory for movies" on the Radarr setup page of [[Plex Requests|Plex-Requests#3-settings"Root save directory for movies"]] (e.g. `/movies/Hollywood`).
+
 ## Scenario 2 (less preferred)
 
 You want to place your libraries within the `/Media` folder.
@@ -308,3 +312,8 @@ In our example, this will be: `/data/Movies-3D`, `/data/Movies-4K`, `/data/Movie
 ### 6. Change root paths in Radarr
 
 Set your Movie Paths in Radarr to reflect the new sub-dirs (e.g. `/mnt/unionfs/Media/Movies-3D`), see the wiki on [[Radarr|Radarr#8-adding-the-movies-path]].
+
+
+### 7. Change root path in Plex Requests
+
+Set the default "Root save directory for movies" on the Radarr setup page of [[Plex Requests|Plex-Requests#3-settings"Root save directory for movies"]] (e.g. `/mnt/unionfs/Media/Movies-Hollywood`).
