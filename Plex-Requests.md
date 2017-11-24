@@ -54,7 +54,7 @@
 
     - "Radarr server IP or Hostname": `radarr`
 
-       - _For a Feeder/Plex setup, use `radarr.yourdomain.com` address (or the IP address the Feeder box) instead._
+       - _For a Feeder/Plex setup, use `radarr.yourdomain.com` address (or the IP address of your Feeder box) instead._
 
 
     - "Radarr server port":`8080`
@@ -90,7 +90,7 @@
 
     - "Sonarr server IP or Hostname": `sonarr`
 
-       - _For Feeder / Plex setup, use `sonarr.yourdomain.com` address (or the IP address the Feeder box) instead._
+       - _For Feeder / Plex setup, use `sonarr.yourdomain.com` address (or the IP address of your Feeder box) instead._
 
     - "Sonarr server port":`8080`
 
