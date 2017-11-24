@@ -275,4 +275,4 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
 This is used during the setup of [[Plex Requests]] and [[Organizr]]. 
 
-* Go to Settings --> General -> Security -> API Key.
+* Go to "Settings" -> "General" -> "Security" -> "API Key".
