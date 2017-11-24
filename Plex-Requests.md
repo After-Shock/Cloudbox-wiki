@@ -62,7 +62,7 @@
        - _For a Feeder/Plex setup, use `443` instead._
 
 
-    - "Radarr API key": _Your Radarr API Key_ (you can find this at [[Radarr|Radarr#1-accessing-radarr]] --> Settings --> General)
+    - "Radarr API key": [[Your Radarr API Key|Radarr#9-retrieving-the-api-key]]
 
 
     - Enable Radarr SSL: disabled.
@@ -96,7 +96,7 @@
 
        - _For Feeder / Plex setup, use `443` instead._
 
-    - "Sonarr API key": _Your Sonarr API Key_ (you can find this at [[Sonarr|Sonarr#1-accessing-sonarr]] --> Settings --> General)
+    - "Sonarr API key": [[Your Sonarr API Key|Sonarr#9-retrieving-the-api-key]]
 
     - Enable Sonarr SSL: disabled.
 
