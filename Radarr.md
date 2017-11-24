@@ -12,6 +12,7 @@
 6. [Torrent Cleanup Script](#6-torrent-cleanup-script)
 7. [Plex Autoscan](#7-plex-autoscan)
 8. [Adding the Movies Path](#8-adding-the-movies-path)
+9. [Retrieving the API Key](#9-retrieving-the-api-key)
 
 <!-- /TOC -->
 
@@ -269,3 +270,7 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 1. Click the green "check" button to add the path.
 
 1. All movies added now will have that path set.
+
+## 9. Retrieving the API Key
+
+* Go to Settings --> General -> Security -> API Key.
