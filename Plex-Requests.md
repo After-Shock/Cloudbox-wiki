@@ -47,13 +47,28 @@
 
 1. On the "Radarr" settings page:
 
+   _Note: There will be differences in options if you have a separate Plex and Feeder setup, see below._ 
+
+
     - Check "Enable Radarr"
 
     - "Radarr server IP or Hostname": `radarr`
 
+       - _For Feeder/Plex setup, use `radarr.domain.com` address (or the IP address the Feeder box) instead._
+
+
     - "Radarr server port":`8080`
 
+       - _For Feeder/Plex setup, use `443` instead._
+
+
     - "Radarr API key": _Your Radarr API Key_ (you can find this at [[Radarr|Radarr#1-accessing-radarr]] --> Settings --> General)
+
+
+    - Enable Radarr SSL: disabled.
+
+       - _For Feeder/Plex setup, enable SSL._
+
 
     - Click `Update Settings`.
 
@@ -69,13 +84,24 @@
 
 1. On the "Sonarr" settings page:
 
+   _Note: There will be differences in options if you have a separate Plex and Feeder setup, see below._ 
+
     - Check "Enable Sonarr"
 
     - "Sonarr server IP or Hostname": `sonarr`
 
+       - _For Feeder/Plex setup, use `sonarr.domain.com` address (or the IP address the Feeder box) instead._
+
     - "Sonarr server port":`8080`
 
+       - _For Feeder/Plex setup, use `443` instead._
+
     - "Sonarr API key": _Your Sonarr API Key_ (you can find this at [[Sonarr|Sonarr#1-accessing-sonarr]] --> Settings --> General)
+
+    - Enable Sonarr SSL: disabled.
+
+       - _For Feeder/Plex setup, enable SSL._
+
 
     - Click `Update Settings`.
 
@@ -86,6 +112,8 @@
     - "Root save directory for TV shows": `/tv`.
 
     - Click `Update Settings`.
+
+    _Note: If you have a separate Plex and Feeder setup, this will be done on the server where Plex is installed.
 
     ![](https://i.imgur.com/7I0r5E7.png)
 
