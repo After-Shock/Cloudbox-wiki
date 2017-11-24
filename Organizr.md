@@ -77,6 +77,8 @@ The following guide will help you setup Organizer. If you would like an alternat
 
     - Set "Plex URL": `http://plex:32400`
 
+      - _Note: For Feeder / Plex setups, you will use `https://plex.yourdomain.com:32400`._
+
     - Click "GET PLEX TOKEN", fill in your Plex login, and click "Get PLEX Token".
 
     - Set your preferred options below.
