@@ -162,7 +162,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 ### 6. Change root paths in Radarr
 
-Set your Movie Paths in Radarr to reflect the new sub-dirs (e.g. `/movies/3D`), see the wiki on [[Radarr|Radarr#8-adding-the-movies-path]].
+Set your Movie Paths in [[Radarr|Radarr#8-adding-the-movies-path]] to reflect the new sub-dirs (e.g. `/movies/3D`).
 
 ### 7. Change root path in Plex Requests
 
@@ -311,7 +311,7 @@ In our example, this will be: `/data/Movies-3D`, `/data/Movies-4K`, `/data/Movie
 
 ### 6. Change root paths in Radarr
 
-Set your Movie Paths in Radarr to reflect the new sub-dirs (e.g. `/mnt/unionfs/Media/Movies-3D`), see the wiki on [[Radarr|Radarr#8-adding-the-movies-path]].
+Set your Movie Paths in [[Radarr|Radarr#8-adding-the-movies-path]] to reflect the new sub-dirs (e.g. `/mnt/unionfs/Media/Movies-3D`).
 
 
 ### 7. Change root path in Plex Requests
