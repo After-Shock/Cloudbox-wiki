@@ -130,7 +130,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 1. Restart Plex Autoscan: `sudo systemctl restart plex_autoscan`
 
 
-_Note: Do not modify `SERVER_PATH_MAPPINGS` (i.e. leave it to the the default config)._
+_Note: Do not modify the `SERVER_PATH_MAPPINGS` as this does not require any changes._
 
 ### 5. Modify UnionFS Cleaner Config
 
@@ -276,7 +276,7 @@ In our example, this will be: `/data/Movies-3D`, `/data/Movies-4K`, `/data/Movie
 
 1. Restart Plex Autoscan: `sudo systemctl restart plex_autoscan`
 
-_Note: Do not modify `SERVER_PATH_MAPPINGS` (i.e. leave it to the the default config)._
+_Note: Do not modify the `SERVER_PATH_MAPPINGS` as this does not require any changes._
 
 ### 5. Modify UnionFS Cleaner Config
 
