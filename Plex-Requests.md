@@ -54,12 +54,12 @@
 
     - "Radarr server IP or Hostname": `radarr`
 
-       - _For a Feeder/Plex setup, use `radarr.yourdomain.com` (or the IP address of your Feeder box) instead._
+       - _For a Feeder / Plex setup, use `radarr.yourdomain.com` (or the IP address of your Feeder box) instead._
 
 
     - "Radarr server port":`8080`
 
-       - _For a Feeder/Plex setup, use `443` instead._
+       - _For a Feeder / Plex setup, use `443` instead._
 
 
     - "Radarr API key": [[Your Radarr API Key|Radarr#9-retrieving-the-api-key]]
@@ -67,7 +67,7 @@
 
     - Enable Radarr SSL: disabled.
 
-       - _For Feeder/Plex setup, enable SSL._
+       - _For Feeder / Plex setup, enable SSL._
 
 
     - Click `Update Settings`.
@@ -100,7 +100,7 @@
 
     - Enable Sonarr SSL: disabled.
 
-       - _For Feeder/Plex setup, enable SSL._
+       - _For Feeder / Plex setup, enable SSL._
 
 
     - Click `Update Settings`.
