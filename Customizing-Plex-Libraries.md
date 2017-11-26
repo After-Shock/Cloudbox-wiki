@@ -164,7 +164,7 @@ _Note: Do not modify `SERVER_PATH_MAPPINGS` as this does not require any changes
 
 ### 6. Change root paths in Radarr
 
-Set your Movie Paths in [[Radarr|Radarr#8-adding-the-movies-path]] to reflect the new sub-dirs (e.g. `/movies/3D`).
+Set your Movie Paths in [[Radarr|Radarr#8-adding-the-movies-path]] to reflect the new sub-dirs (e.g. `/movies/Hollywood`).
 
 ### 7. Change root path in Plex Requests
 
@@ -314,7 +314,7 @@ _Note: Do not modify `SERVER_PATH_MAPPINGS` as this does not require any changes
 
 ### 6. Change root paths in Radarr
 
-Set your Movie Paths in [[Radarr|Radarr#8-adding-the-movies-path]] to reflect the new sub-dirs (e.g. `/mnt/unionfs/Media/Movies-3D`).
+Set your Movie Paths in [[Radarr|Radarr#8-adding-the-movies-path]] to reflect the new sub-dirs (e.g. `/mnt/unionfs/Media/Movies-Hollywood`).
 
 
 ### 7. Change root path in Plex Requests
