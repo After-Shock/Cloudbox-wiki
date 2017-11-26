@@ -65,7 +65,7 @@
     - "Radarr API key": [[Your Radarr API Key|Radarr#9-retrieving-the-api-key]]
 
 
-    - Enable Radarr SSL: disabled.
+    - "Enable Radarr SSL": disabled.
 
        - _For Feeder / Plex setup, enable SSL._
 
@@ -98,7 +98,7 @@
 
     - "Sonarr API key": [[Your Sonarr API Key|Sonarr#9-retrieving-the-api-key]]
 
-    - Enable Sonarr SSL: disabled.
+    - "Enable Sonarr SSL": disabled.
 
        - _For Feeder / Plex setup, enable SSL._
 
