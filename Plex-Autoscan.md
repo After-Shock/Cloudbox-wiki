@@ -1,4 +1,4 @@
-Plex Autoscan comes with default configuration already set, but will still require a few things to be done by you. 
+Plex Autoscan comes preset with a default configuration as related to Cloudbox. However, there a few things that need to be set by you. 
 
 _Note: If you would like to learn more about what Plex Autoscan does and all the options available, see https://github.com/l3uddz/plex_autoscan._
 
