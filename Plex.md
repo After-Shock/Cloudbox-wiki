@@ -162,8 +162,6 @@ _Note 2: If you would like to have custom Plex libraries (more than just a Movie
 
 1. Click "Advanced" on the left.
 
-    ![](https://i.imgur.com/4JV0orf.png)
-
 1. Set the following:
 
    - "Enable Cinema Trailers": `disabled` (optional)
@@ -171,6 +169,9 @@ _Note 2: If you would like to have custom Plex libraries (more than just a Movie
    - "Find trailers and extras automatically (Plex Pass required)": `disabled` (optional)
 
 1. Click "ADD LIBRARY".
+
+    ![](https://i.imgur.com/4JV0orf.png)
+
 
 
 ### Adding the TV Library
