@@ -1,3 +1,6 @@
+Plex Autoscan comes with default configuration already set, but will still require a few things to be done by you. 
+
+_Note: If you would like to learn more about what Plex Autoscan does and all the options available, see https://github.com/l3uddz/plex_autoscan._
 
 
 ## 1. Retrieve a Plex Access Token
@@ -71,13 +74,9 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
 cd ~/ && touch mounted.bin && rclone -v move mounted.bin google:
 ```
 
-_The control file is a blank file (i.e. `mounted.bin`) that resides on the root folder of Google Drive. The purpose of a control file is to tell Plex Autoscan that your Google Drive is mounted._ 
-
-_If Plex scanned for media when the Google Drive mount was ever disconnected, it would mark the missing files as "unavailable", and would wait on an emptying trash request to remove them completely. Plex Autoscan, however, would not send that request since the control file would not be available. Once Google Drive was remounted, all the files marked unavailable in Plex would be playable again and Plex Autoscan would resume its emptying trash duties post-scan._ 
+_Note: An explanation on the purpose of a control file is available in the [[FAQ|FAQ#purpose-of-a-control-file-in-plex-autoscan]]_.
 
 
-
-_To learn more about Plex Autoscan, see https://github.com/l3uddz/plex_autoscan._
 
 
 ---
