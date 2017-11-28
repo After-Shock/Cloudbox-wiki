@@ -126,9 +126,9 @@
 
 In this section, we will add two libraries: one for Movies and one for TV.
 
-   * Note: The order is important (i.e. Movies first, then TV); or else the config file for Plex Autoscan will need to be updated to reflect section ID changes (see [[FAQ|FAQ#if-during-the-first-time-setup-you-switched-the-order-of-plex-libraries-ie-tv-first-then-movies]]).
+Note 1: The order is important (i.e. Movies first, then TV); or else the config file for Plex Autoscan will need to be updated to reflect section ID changes (see [[FAQ|FAQ#if-during-the-first-time-setup-you-switched-the-order-of-plex-libraries-ie-tv-first-then-movies]]).
 
-If you would like to have custom Plex libraries (more than just a Movies and TV one), see [[Customizing Plex Libraries]].
+Note 2: If you would like to have custom Plex libraries (more than just a Movies and TV one), see [[Customizing Plex Libraries]].
 
 ### Adding the Movie Library
 
