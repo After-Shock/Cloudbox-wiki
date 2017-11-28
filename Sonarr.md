@@ -53,7 +53,7 @@
 
 1. Click "Save".
 
-_Note: To see my personal preference on naming schemes, see [[here|https://github.com/desimaniac/docs/blob/master/my_sonarr_and_radarr_naming_preferences.md]]._
+_Tip: For those that are interested, [[my file naming preferences|https://github.com/desimaniac/docs/blob/master/my_sonarr_and_radarr_naming_preferences.md]]._
 
 
 ## 4. Download Clients
