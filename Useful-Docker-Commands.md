@@ -77,7 +77,7 @@ Notes:
     - create the folder: `mkdir /opt/<name>`
     - set ownership: `sudo chown -R <user>:<group> /opt/<name>`
     - set permissions: `sudo chmod -R g+s /opt/<name>`
-- `-v /mnt/downloads/<name>:<container_download_path>` (if required)
+- `-v /mnt/downloads/<name>:/mnt/downloads/<name>` (if required; will also require editing of the path within the app itself)
   - This is where your downloaded files will go.
   - The `/mnt/downloads/<name>` path will accessible with Sonarr and Radarr. 
   - You will need to: 
