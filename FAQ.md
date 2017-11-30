@@ -558,3 +558,20 @@ The control file is a blank file (i.e. `mounted.bin`) that resides on the root f
 If Plex scanned for media when the Google Drive mount was ever disconnected, it would mark the missing files as "unavailable", and would wait on an emptying trash request to remove them completely. Plex Autoscan, however, would not send that request since the control file would not be available. Once Google Drive was remounted, all the files marked unavailable in Plex would be playable again and Plex Autoscan would resume its emptying trash duties post-scan.
 
 To learn more about Plex Autoscan, see https://github.com/l3uddz/plex_autoscan.
+
+
+
+
+## Users/Groups
+
+Use the following commands to find out your user accounts user id (UID) and group id (GID). 
+
+```
+$ id `whoami`
+```
+
+You'll see a line like the following:
+
+```
+uid=1000(myuser) gid=1001(myuser) groups=1001(myuser)
+```
