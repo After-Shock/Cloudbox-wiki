@@ -46,7 +46,7 @@ _Note: The below commands are for the native install._
 nativefier appname.domainname.com
 ```
 
-### Some useful options. 
+### Some Useful Options
 
 - Give it a name: `--name "App Name"`
 - Add Basic HTTP Authentication: `--basic-auth-username <yourusername> --basic-auth-password <yourpassword>`
