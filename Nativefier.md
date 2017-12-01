@@ -37,6 +37,8 @@ nativefier appname.domainname.com
 ### Some useful options. 
 
 - Give it a name: `--name "App Name"`
+- Add Basic HTTP Authentication: `--basic-auth-username <yourusername> --basic-auth-password <yourpassword>`
+  - Note: If you plan to use this, set your apps to use HTTP Authentication as well (e.g. Sonarr, Radarr, NZBGet, NZB Hydra, and PlexPy)
 - Disable dev tools: `--disable-dev-tools `
 - Force a specific icon with `--icon "path/to/icon"`, where the path/to/icon can be a local file or online path.
 - Force a zoom at start: Example `--zoom=<zoomlevel>` (example: `--zoom=0.8`). 
