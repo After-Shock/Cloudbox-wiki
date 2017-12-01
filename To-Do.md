@@ -8,3 +8,11 @@
 - autodl irssi
 - rclone sftp mount for feeder local files
 - plexrequests path change on customizing plex libraries page. 
+
+
+
+CB
+
+- backup rclone.conf into Backup folder separately from tar file.
+- remove symlink
+- restore back into /home/user/.config/rclone folder. skip overriding if one exists. 
