@@ -13,7 +13,7 @@ Screenshots (macOS):
 
 
 
-The following will guide you through setting up Nativefier on your PC:
+The following steps will guide you through setting up Nativefier on your PC:
 
 
 ## 1. Setup Nativefier
