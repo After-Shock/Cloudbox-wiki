@@ -5,7 +5,7 @@
 
 Screenshots (macOS):
 
-![](https://i.imgur.com/EtdtUqM.png)
+![](https://i.imgur.com/ROzKepx.png)
 
 
 ![](https://i.imgur.com/QnTjO7e.png)
