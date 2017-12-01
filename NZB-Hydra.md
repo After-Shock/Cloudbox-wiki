@@ -26,7 +26,7 @@ Enter setup by clicking on "Config" at the top.
     1. Fill in your username and password.
     1. Click "Save" (top right).
     
-    ![](http://i.imgur.com/jsSwajH.png)
+    ![](https://i.imgur.com/IAxSk4P.png)
 
  1. Indexers:
 
