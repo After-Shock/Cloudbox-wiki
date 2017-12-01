@@ -124,7 +124,7 @@ To have Pushover send you alerts every time a UnionFS Cleaner task starts and fi
 
 ## PlexPy
 
-Pushover can send you notifications whenever an event occurs with Plex (e.g. someone starts watching something,  new media is added)
+Pushover can send you notifications whenever an event occurs with Plex (e.g. someone starts watching something,  new media is added, etc)
 
 1. Enable notifications: [PlexPy](PlexPy#1-accessing-plexpy) -> Settings -> Notification Agents -> Click the gray "bell" icon next to "Pushover" -> and select when you want to be alerted -> Click "close". The "bell" icon will turn yellow. 
 
@@ -133,6 +133,11 @@ Pushover can send you notifications whenever an event occurs with Plex (e.g. som
 
 ## Plex Requests
 
-Pushover can send notifications whenever an event occurs in Plex Requests (e.g. media is requeste, new media is added etc).
+Pushover can send notifications whenever an event occurs in Plex Requests (e.g. media is requested by someone).
 
 - [Plex Requests](Plex-Requests#1-accessing-plex-requests) -> Admin -> Notifications -> check "Enable Pushover notifications" and type in your Pushover User Key and the Application Token (you can click the "Test Pushover" to check if it's working ok) -> Click "Update Settings".
+
+
+## Sonarr / Radarr
+
+You can have Soanrr and Radarr also send out alerts via Pushover when new media is added. 
