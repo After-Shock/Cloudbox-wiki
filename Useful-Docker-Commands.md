@@ -101,12 +101,13 @@ Here are some examples:
 
 
 ```
-docker run -d --name=thelounge --network=cloudbox --network-alias=thelounge --restart=always -v /opt/thelounge:/home/lounge/data -v /etc/localtime:/etc/localtime:ro -e PGID=1000 -e PUID=1000 -e VIRTUAL_HOST=thelounge.domain.ml -e VIRTUAL_PORT=9000 -e LETSENCRYPT_HOST=thelounge.cloudbox.media -e LETSENCRYPT_EMAIL=your@email.com -p 127.0.0.1:9001:9000 thelounge/lounge:latest
+docker run -d --name=thelounge --network=cloudbox --network-alias=thelounge --restart=always -v /opt/thelounge:/home/lounge/data -v /etc/localtime:/etc/localtime:ro -e PGID=1000 -e PUID=1000 -e VIRTUAL_HOST=thelounge.yourdomain.com -e VIRTUAL_PORT=9000 -e LETSENCRYPT_HOST=thelounge.yourdomain.com -e LETSENCRYPT_EMAIL=your@email.com -p 127.0.0.1:9001:9000 thelounge/lounge:latest
 ```
 
 ```
-docker run -d --name=nextcloud --network=cloudbox --network-alias=nextcloud -e 'VIRTUAL_HOST=nextcloud.domain.ml' -e 'VIRTUAL_PORT=80' -e 'LETSENCRYPT_HOST=nextcloud.domain.ml' -e 'LETSENCRYPT_EMAIL=your@email.com' -p '127.0.0.1:4674:80' -v '/opt/nextcloud:/var/www' nextcloud
+docker run -d --name=nextcloud --network=cloudbox --network-alias=nextcloud -e 'VIRTUAL_HOST=nextcloud.yourdomain.com' -e 'VIRTUAL_PORT=80' -e 'LETSENCRYPT_HOST=nextcloud.yourdomain.com' -e 'LETSENCRYPT_EMAIL=your@email.com' -p '127.0.0.1:4674:80' -v '/opt/nextcloud:/var/www' nextcloud
 ```
+
 
 
 
