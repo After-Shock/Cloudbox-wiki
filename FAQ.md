@@ -529,10 +529,9 @@ docker logs -f letsencrypt
 
 ### Cloudbox app subdomains redirect elsewhere (eg. sonarr.domain.com goes to NZBGet)
 
-This happens when certificates have not issues yet. 
+This happens when SSL certificates have not been issued yet. 
 
-You may see `too many registrations for this IP` in the log like below. 
-
+You may even see `too many registrations for this IP` in the log (like below)...
 
 ```
 2017-11-30 03:35:41,847:INFO:simp_le:1538: Retrieving Let's Encrypt latest Terms of Service.
