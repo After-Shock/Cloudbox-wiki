@@ -24,8 +24,8 @@
 | [Watchtower][a98faaaf]                                          | ![Yes][yes] | ![Yes][yes] | ![Yes][yes] |
 | Misc tools and server tweaks (e.g. kernel, motd, mc, ngrok)     | ![Yes][yes] | ![Yes][yes] | ![Yes][yes] |
 
-  [no]:.github/cross-mark.png
-  [yes]:.github/check-mark.png
+  [no]:https://github.com/Cloudbox/Cloudbox/.github/cross-mark.png
+  [yes]:https://github.com/Cloudbox/Cloudbox/.github/check-mark.png
 
   [627bd283]: https://www.docker.com "Docker"
   [10952c53]: https://www.plex.tv "Plex"
