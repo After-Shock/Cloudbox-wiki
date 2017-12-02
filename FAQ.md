@@ -515,9 +515,8 @@ sudo chmod -R 0755 /opt/rclone
    ```
 
 
-## Cloudbox app subdomains redirect elsewhere (eg. sonarr.domain.com goes to NZBGet)
+## SSL Certificate Issues
 
-This happens when certificates have not issues yet. 
 
 You can view the status via looking at the [[log]] for the `letsencrypt` container
 
@@ -525,13 +524,23 @@ You can view the status via looking at the [[log]] for the `letsencrypt` contain
 docker logs -f letsencrypt
 ```
 
-Some common issues are presented below:
 
 
 
+### Cloudbox app subdomains redirect elsewhere (eg. sonarr.domain.com goes to NZBGet)
+
+This happens when certificates have not issues yet. 
+
+You may see `too many registrations for this IP` in the log like below. 
 
 
-### Too many certificates already issued for domain.com
+```
+2017-11-30 03:35:41,847:INFO:simp_le:1538: Retrieving Let's Encrypt latest Terms of Service.
+2017-11-30 03:35:42,817:INFO:simp_le:1356: Generating new account key
+ACME server returned an error: urn:acme:error:rateLimited :: There were too many requests of a given type :: Error creating new registration :: too many registrations for this IP
+```
+
+Just give it some time (days to hours) and it will resolve itself. 
 
 
 
@@ -551,7 +560,7 @@ You're limited to 20 new certificates, per registered domain, per week.
 See https://letsencrypt.org/docs/rate-limits/ for more info. 
 
 
-###CA marked some of the authorizations as invalid
+### CA marked some of the authorizations as invalid
 
 
 ```
@@ -560,6 +569,8 @@ See https://letsencrypt.org/docs/rate-limits/ for more info.
 2017-11-30 03:35:41,406:ERROR:simp_le:1421: CA marked some of the authorizations as invalid, which likely means it could not access http://example.com/.well-known/acme-challenge/X. Did you set correct path in -d example.com:path or --default_root? Are all your domains accessible from the internet? Please check your domains' DNS entries, your host's network/firewall setup and your webserver config. If a domain's DNS entry has both A and AAAA fields set up, some CAs such as Let's Encrypt will perform the challenge validation over IPv6. If you haven't setup correct CAA fields or if your DNS provider does not support CAA, validation attempts after september 8, 2017 will fail.  Failing authorizations: https://acme-v01.api.letsencrypt.org/acme/authz/XXXXXXXXXX
 Challenge validation has failed, see error log.
 ```
+
+Make sure your domain registrar is pointing to the correct server IP address. 
 
 
 
