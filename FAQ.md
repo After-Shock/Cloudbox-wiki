@@ -478,39 +478,89 @@ sudo chmod -R 0755 /opt/rclone
 
 ## Missing Thumbnails in Plex (due to http/https redirect errors)
 
-_A recent update to Plex AND/OR nginx-proxy has resulted in an issue where Plex decides to try and load item posters from http via port 443. This behavior is limited to Android clients, as iOS and Web clients work perfectly fine. It is unsure which piece of software is at fault here, be it nginx-proxy or most likely Plex. However, a temporary fix is provided below._
+**Update:** This has been added to Cloudbox as default config. Just [[update Cloudbox|Updating Cloudbox]] and [[reinstall nginx proxy|Updating Cloudbox Apps]]
+
+~~_A recent update to Plex AND/OR nginx-proxy has resulted in an issue where Plex decides to try and load item posters from http via port 443. This behavior is limited to Android clients, as iOS and Web clients work perfectly fine. It is unsure which piece of software is at fault here, be it nginx-proxy or most likely Plex. However, a temporary fix is provided below._~~
 
 
 
-1. Go into the folder:
+~~1. Go into the folder:~~
 
    ```
    cd ~/cloudbox
    ```
-1. Edit the nginx-role
+~~1. Edit the nginx-role~~
    ```
    nano roles/nginx-proxy/tasks/main.yml
    ```
 
-1. Change `image:` info
+~~1. Change `image:` info~~
 
-   Replace ...
+  ~~ Replace ...~~
    ```    
    image: "jwilder/nginx-proxy" 
    ```
 
-   With ...
+   ~~With ...~~
    ```    
    image: "jwilder/nginx-proxy@sha256:76d9ed11c131fadc7546e3b9b085970e13ff45186171b975ad60830f5ca0d689" 
    ```
 
-1. Save the file: `Ctrl-X` + `Y`.
+~~1. Save the file: `Ctrl-X` + `Y`.~~
 
-1. Recreate the nginx-proxy container
+~~1. Recreate the nginx-proxy container~~
  
    ```    
    sudo ansible-playbook cloudbox.yml --tags update-nginx
    ```
+
+
+## Cloudbox app subdomains redirect elsewhere (eg. sonarr.domain.com goes to NZBGet)
+
+This happens when certificates have not issues yet. 
+
+You can view the status via looking at the [[log]] for the `letsencrypt` container
+
+```
+docker logs -f letsencrypt
+```
+
+Some common issues are presented below:
+
+
+
+
+
+### Too many certificates already issued for domain.com
+
+
+
+### Too many certificates already issued for domain.com
+
+```
+Creating/renewal request.domain.com certificates... (request.domain.com)
+2017-12-02 07:34:44,167:INFO:simp_le:1538: Retrieving Let's Encrypt latest Terms of Service.
+2017-12-02 07:34:45,331:INFO:simp_le:1356: Generating new account key
+2017-12-02 07:34:46,853:INFO:simp_le:1455: Generating new certificate private key
+ACME server returned an error: urn:acme:error:rateLimited :: There were too many requests of a given type :: Error creating new cert :: too many certificates already issued for: domain.com
+```
+
+
+You're limited to 20 new certificates, per registered domain, per week.
+
+See https://letsencrypt.org/docs/rate-limits/ for more info. 
+
+
+###CA marked some of the authorizations as invalid
+
+
+```
+2017-11-30 03:35:37,729:INFO:simp_le:1538: Retrieving Let's Encrypt latest Terms of Service.
+2017-11-30 03:35:40,256:INFO:simp_le:1455: Generating new certificate private key
+2017-11-30 03:35:41,406:ERROR:simp_le:1421: CA marked some of the authorizations as invalid, which likely means it could not access http://example.com/.well-known/acme-challenge/X. Did you set correct path in -d example.com:path or --default_root? Are all your domains accessible from the internet? Please check your domains' DNS entries, your host's network/firewall setup and your webserver config. If a domain's DNS entry has both A and AAAA fields set up, some CAs such as Let's Encrypt will perform the challenge validation over IPv6. If you haven't setup correct CAA fields or if your DNS provider does not support CAA, validation attempts after september 8, 2017 will fail.  Failing authorizations: https://acme-v01.api.letsencrypt.org/acme/authz/XXXXXXXXXX
+Challenge validation has failed, see error log.
+```
+
 
 
 
