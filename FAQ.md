@@ -569,7 +569,7 @@ See https://letsencrypt.org/docs/rate-limits/ for more info.
 Challenge validation has failed, see error log.
 ```
 
-Make sure your domain registrar is pointing to the correct server IP address. 
+- Make sure your [[domain registrar|Prerequisites#3-domain-name]] is pointing to the correct server IP address. - Make sure you used the correct domain address in [[settings.yml|Configuring Settings]].
 
 
 
