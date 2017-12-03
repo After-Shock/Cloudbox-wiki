@@ -31,13 +31,13 @@ _Last updated on Dec 1, 2017._
 
 ### More Information ###
 - [[UnionFS Cleaner]] (new)
-- [[Updating Cloudbox]]
-- [[Updating Cloudbox Apps]] (new)
+- [[Cloudbox Addons]] (updated)
 - [[Backup and Restore]] (new)
 - [[Pushover]] (new)
+- [[Updating Cloudbox]]
+- [[Updating Cloudbox Apps]] (new)
 - [[Google Drive API Client ID and Client Secret]]
 - [[Useful Docker Commands]]
-- [[Addons]]
 - [[Revoking SSL Certificates]]
 
 ### Misc Guides
