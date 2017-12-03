@@ -635,3 +635,27 @@ You'll see a line like the following:
 ```
 uid=1000(myuser) gid=1001(myuser) groups=1001(myuser)
 ```
+
+
+### Freenom email
+
+
+```Dear ------,
+
+The Freenom Review Team has visited your website today.
+Your domain: ------
+We found that the free domain name and/or the website address you used
+with your free domain name was not accessible or did not follow the
+guidelines set in our terms and conditions.
+
+It may well be that you are still working on the content of your website
+and/or using your domain for other means. We kindly request to start using
+your new domain soon according to the terms and conditions which can be found at:
+http://www.freenom.com/en/termsandconditions.html
+
+In a few days from now we will visit your website again. To prevent domain
+hijacking all domains that are not accessible or not follow the guidelines
+set in our terms and conditions will be cancelled.
+```
+
+If you get a domain from Freenom and don't actually set it up, you'll get this email. If you want to stop getting them, then you should look into getting a paid [[domain|Prerequisites#i-paid-domain-name-recommended]].
