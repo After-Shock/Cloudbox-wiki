@@ -518,7 +518,7 @@ sudo chmod -R 0755 /opt/rclone
 ## SSL Certificate Issues
 
 
-You can view the status via looking at the [[log|Logs]] for the `letsencrypt` container.
+You can view the status via looking at the [[log|Logs#docker-logs]] for the `letsencrypt` container.
 
 ```
 docker logs -f letsencrypt
