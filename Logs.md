@@ -84,7 +84,7 @@ Examples:
 docker logs -f letsencrypt
 ```
 
-Note: `-follow` = `f`
+Note: `-follow` = `-f`
 
 
 
