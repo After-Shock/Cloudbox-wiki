@@ -4,10 +4,10 @@
 docker stop $(docker ps -a -q)
 ```
 
-### Remove all docker containers once they are stopped (be careful)
+### Start all docker containers
 
 ```
-docker rm $(docker ps -a -q)
+docker start $(docker ps -a -q)
 ```
 
 ### Start all but one container (e.g. All docker containers except Watchtower)
@@ -15,6 +15,19 @@ docker rm $(docker ps -a -q)
 ```
 docker start  $(comm -13 <(docker ps -a -q --filter="name=watchtower" | sort) <(docker ps -a -q | sort))
 ```
+
+### Remove all docker containers - once they are stopped (be careful)
+
+```
+docker rm $(docker ps -a -q)
+```
+
+### Forcefully, Remove all docker containers  (be careful)
+
+```
+docker rm -f $(docker ps -a -q)
+```
+
 
 ### Restart only the running containers
 
