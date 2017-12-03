@@ -84,4 +84,4 @@ Note 2: It is advised to leave at least 100GB free on `/opt` for the docker data
 
 | Docker Path | Host Path                                                      | Purpose                               |
 |:----------- |:-------------------------------------------------------------- |:------------------------------------- |
-| <pre>/logs</pre>     | <pre>/opt/plex/Library/Application Support/Plex Media Server/Logs</pre> | <pre> Location of Plex logs </pre> |
+| <pre>/logs     </pre>     | <pre>/opt/plex/Library/Application Support/Plex Media Server/Logs</pre> | <pre> Location of Plex logs </pre> |
