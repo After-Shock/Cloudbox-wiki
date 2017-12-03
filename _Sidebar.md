@@ -45,7 +45,7 @@
 - [[Pushover]] (new)
 - [[Google Drive API Client ID and Client Secret]]
 - [[Useful Docker Commands]]
-- [[Addons]]
+- [[Cloudbox Addons]]
 - [[Revoking SSL Certificates]]
 
 
