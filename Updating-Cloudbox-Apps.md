@@ -1,7 +1,7 @@
 The info below will show you how to update your Cloudbox apps (to update your entire Cloudbox, see [[Updating Cloudbox]].)
 
 
-## Update to a newer version:
+## Update to a newer version
 
 To simply update to a newer version, see table below. 
 
