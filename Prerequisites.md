@@ -37,6 +37,8 @@ Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Acces
    | **Type** | **Host** | **Value**                | **TTL**   |
    | -------- |:-------- | ------------------------ |:--------- |
    | A Record | *        | _Your server IP address_ | Automatic |
+
+   _Note: make sure there is also an A Record for the bare domain (e.g. `@` for host)._
     
    Example: For Namecheap.com, go to Domain List > Manage > Advanced DNS > Add New Record > A Record > `*` for Host > Server IP for Value.
 
