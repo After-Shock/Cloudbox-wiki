@@ -1,4 +1,6 @@
-You can use Cloudflare to setup a CDN with your Plex server. To see if this benefits your case scenario, try it out and compare with and without it. Please only set this up once your CB is up and running.  
+You can use Cloudflare to setup a CDN with your Plex server. To see if this benefits your case scenario, try it out and compare the results. 
+
+_Note: Only set this up once your Cloudbox is up and running; to make sure that domain dns settings, nginx-proxy, ssl certificates are all working ok._
 
 There are two ways to setup this up: 
 
