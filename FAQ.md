@@ -45,7 +45,7 @@ Note: You may be able to modify Cloudbox to use another cloud storage provider (
 
 ## Why does Cloudbox use a user specified network called "cloudbox" instead of bridge?
 
-(1) keeps all Cloudbox containers organized under one network; and (2), bridge network does not support aliases. 
+(1) keeps all Cloudbox containers organized under one network; and (2), bridge network does not allow network aliases. 
 
 ## Unrar module fails to install during the Common Role step
 
