@@ -131,7 +131,7 @@ ftail <log path> &
 ### To quit the frontail
 
 ```
-pkill frontail
+pkill -f frontail 
 ```
 
 ### Examples:
