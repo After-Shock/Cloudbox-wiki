@@ -43,6 +43,10 @@ In short, no.
 Note: You may be able to modify Cloudbox to use another cloud storage provider (see [here](https://rclone.org/commands/rclone_mount/)), but that will be on you to setup yourself with no support from us.
 
 
+## Why does Cloudbox use a user specified network called "cloudbox" instead of bridge?
+
+(1) keeps all Cloudbox containers organized under one network; and (2), bridge network does not support aliases. 
+
 ## Unrar module fails to install during the Common Role step
 
 
