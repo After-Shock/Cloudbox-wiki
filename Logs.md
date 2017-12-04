@@ -124,21 +124,35 @@ ftail <log path> &
 ```
 
 
+### To quit the frontail
+
+```
+pkill frontail
+```
+
 ### Examples:
 
-Normal command:
+Plex Autoscan
 ```
 frontail --ui-highlight --ui-highlight-preset /opt/scripts/frontail/frontail_custom_preset.json --theme dark --user seed --password seed /opt/plex_autoscan/plex_autoscan.log &
 ```
 
-Alias command:
+Plex Autoscan log (alias command):
 ```
 ftail /opt/plex_autoscan/plex_autoscan.log &
 ```
 
 
-Normal command:
-
+UnionFS Cleaner log 
 
 ```
-frontail --ui-highlight --port 9002 --ui-highlight-preset /opt/scripts/frontail/frontail_custom_preset.json --theme dark --user seed --password seed /opt/unionfs_cleaner/activity.log &```
+frontail --ui-highlight --port 9002 --ui-highlight-preset /opt/scripts/frontail/frontail_custom_preset.json --theme dark --user seed --password seed /opt/unionfs_cleaner/activity.log &
+```
+
+
+UnionFS Cleaner log (alias command)
+
+```
+ftail --port 9002  /opt/unionfs_cleaner/activity.log &
+```
+
