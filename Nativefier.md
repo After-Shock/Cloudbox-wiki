@@ -24,9 +24,9 @@ Two ways to do this:
 
    1. Install [Node.js](https://nodejs.org/en/download/current)
 
-   1. Install [Xcode](https://developer.apple.com/xcode) (Icon Conversion for macOS)
+   1. Install [Xcode](https://developer.apple.com/xcode) (Icon Conversion for macOS) <a href="#note1" id="note1ref"><sup>[1]</sup></a>
 
-   1. Install [ImageMagick](https://www.imagemagick.org/script/download.php) (Icon Conversion for macOS)
+   1. Install [ImageMagick](https://www.imagemagick.org/script/download.php) (Icon Conversion for macOS) <a href="#note1" id="note1ref"><sup>[1]</sup></a>
 
    1. Install Nativefier via:
 
@@ -77,5 +77,6 @@ Copy the app (e.g.  `.app` in MacOS, `.exe` in Windows) to you preferred locatio
 
 
 
-
-
+---
+<sub>Footnotes:<br></sub>
+<sub> <a id="note1" href="#note1ref"><sup>1</sup></a> If you want to skip installing Xcode and ImageMagick, but still want to be able to customize the application icon, you can do so by; first, finding a transparent png of the application (e.g. google image search `transparent png <appname>), and then, following directions on this <a href="https://support.apple.com/en-us/HT201737">page</a>.</sub>
