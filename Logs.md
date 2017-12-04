@@ -90,8 +90,12 @@ Note: `-follow` = `-f`
 
 ## See a live log over http via frontail
 
-If you need to share a live log with someone (i.e for support), here is a way to do so.
+[[frontail|https://github.com/mthenw/frontail]] is a Node.js application for streaming logs to the browser (basically a tail -F with an UI).
 
+This is useful in cases you need help and need to show someone from slack support channels your logs. 
+
+
+Steps to do so are as follows:
 
 ### Base command 
 
