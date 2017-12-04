@@ -48,7 +48,7 @@ Note: You may be able to modify Cloudbox to use another cloud storage provider (
 (1) keeps all Cloudbox containers organized under one network; and (2), bridge network does not allow network aliases. 
 
 
-## What are the server tweaks that were mentioned on the readme ?
+## What are the server tweaks that were mentioned on the [[README|https://github.com/Cloudbox/Cloudbox/blob/master/README.md]] ?
 
 
 See https://github.com/Cloudbox/Cloudbox/blob/master/roles/system/tasks/main.yml
