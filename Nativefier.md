@@ -18,9 +18,6 @@ The following steps will guide you through setting up Nativefier on your PC:
 
 ## 1. Setup Nativefier
 
-Two ways to do this:
-
-* Native Install
 
    1. Install [Node.js](https://nodejs.org/en/download/current)
 
@@ -28,16 +25,14 @@ Two ways to do this:
 
    1. Install [ImageMagick](https://www.imagemagick.org/script/download.php) (Icon Conversion for macOS) <a href="#note1" id="note1ref"><sup>[1]</sup></a>
 
-   1. Install Nativefier via:
+   1. Install Nativefier with this command:
 
       ```
-      npm install nativefier -g
+      sudo npm install nativefier -g
       ```
-* Download the docker [image](https://hub.docker.com/r/jiahaog/nativefier/) and use the [run command](https://github.com/jiahaog/nativefier#docker-image).
 
 ## 2. Create Nativefier Desktop Apps 
 
-_Note: The below commands are for the native install._
 
 ### Basic Command
 
