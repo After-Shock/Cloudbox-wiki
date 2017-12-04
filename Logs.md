@@ -128,10 +128,17 @@ ftail <log path> &
 
 Normal command:
 ```
-frontail --ui-highlight --ui-highlight-preset /opt/scripts/frontail/frontail_custom_present.json --theme dark --user seed --password seed /opt/plex_autoscan/plex_autoscan.log &
+frontail --ui-highlight --ui-highlight-preset /opt/scripts/frontail/frontail_custom_preset.json --theme dark --user seed --password seed /opt/plex_autoscan/plex_autoscan.log &
 ```
 
 Alias command:
 ```
 ftail /opt/plex_autoscan/plex_autoscan.log &
 ```
+
+
+Normal command:
+
+
+```
+frontail --ui-highlight --port 9002 --ui-highlight-preset /opt/scripts/frontail/frontail_custom_preset.json --theme dark --user seed --password seed /opt/unionfs_cleaner/activity.log &```
