@@ -4,14 +4,17 @@
 
 ## 2. Setup
 
-1. Go to "Settings" -> "Security". 
+1. Go to "Settings" -> "Security".
+ 
     1. Set a "ControlUsername" and "ControlPassword".
 
     1. Set an "AddUsername" and "AddPassword" to protect API access. 
 
-    1. Select "Form Auth", then click "Save" and "Reload".
+    1. Select "Form Auth" to `Yes`
 
-1. Add your news servers.
+    1. Click "Save" and then "Reload".
+
+1. Add your [[news servers|Prerequisites#i-usenet]].
 
 1. Download paths have already been specified, no need to change those.
 
