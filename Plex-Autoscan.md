@@ -83,6 +83,6 @@ _Note 2: For explanation on the purpose of the control file, see the [[FAQ|FAQ#p
 
 ---
 
-Credit:<br>
+<sub>Credit:<br></sub>
 <sub> <a id="note1" href="#note1ref"><sup>1</sup></a> https://github.com/wernight</sub><br>
 <sub> <a id="note2" href="#note2ref"><sup>2</sup></a> https://github.com/jacobwgillespie</sub>
