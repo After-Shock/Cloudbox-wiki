@@ -46,7 +46,7 @@ Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Acces
 
 ### ii. Free Domain Name (via freenom.com)
 
-**Update:** Freenom has pushed an update which has broken the ability to register new domain names. 
+**Update:** Freenom has pushed an update which has broken the ability to register new domain names. See above on how to get a paid domain name. 
 
 1. Visit http://www.freenom.com, create a free account, and find a domain name to register.
 2. Go to "Services" > "My Domains" > "Manage Domain" > "Manage Freenom DNS".
