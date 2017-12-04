@@ -33,7 +33,7 @@
 ***
 
 ### Advanced Configuration ###
-- [[Customizing Plex Libraries]]
+- [[Customizing Plex Libraries]] (updated)
 
 ***
 
