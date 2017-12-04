@@ -18,4 +18,6 @@
 
 1. Download paths have already been specified, no need to change those.
 
-1. If you want to use scripts, place them in `/opt/scripts/nzb` on your server, as this is where NZBGet will load scripts from.
+## 3. Extras
+
+If you want to use scripts, place them in `/opt/scripts/nzb` on your server, as this is where NZBGet will load scripts from.
