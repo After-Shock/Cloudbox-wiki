@@ -24,9 +24,9 @@ Two ways to do this:
 
    1. Install [Node.js](https://nodejs.org/en/download/current)
 
-   1. Install [Xcode](https://developer.apple.com/xcode) (only for macOS)
+   1. Install [Xcode](https://developer.apple.com/xcode) (Icon Conversion for macOS)
 
-   1. Install [ImageMagick](https://www.imagemagick.org/script/download.php) (only for macOS)
+   1. Install [ImageMagick](https://www.imagemagick.org/script/download.php) (Icon Conversion for macOS)
 
    1. Install Nativefier via:
 
