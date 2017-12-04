@@ -92,7 +92,7 @@ Note: `-follow` = `-f`
 
 [[frontail|https://github.com/mthenw/frontail]] is a Node.js application for streaming logs to the browser (basically a tail -F with an UI).
 
-This is useful in cases you need help and need to show someone from slack support channels your logs. 
+This is useful in cases you need help and need to show someone from slack support channels your logs. You can mask your IP using ngrok (more on that later).
 
 
 Steps to do so are as follows:
@@ -164,3 +164,15 @@ ftail --port 9002  /opt/unionfs_cleaner/activity.log &
 
 Log: http://serveripaddress:9002
 
+
+### To use ngrok to hide your IP
+
+```
+ngrok http <port>
+```
+
+It will show you something like this...
+
+![](https://i.imgur.com/74nNEdG.png)
+
+You can now use the `http://XXXXXXXX.ngrok.io` address to share your log. This will be active as long as ngrok is running. To cancel, `ctrl-c`.
