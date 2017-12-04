@@ -27,7 +27,7 @@ _Last updated on Dec 1, 2017._
     1. [[Organizr]]
 
 ### Advanced Configuration ###
-- [[Customizing Plex Libraries]]
+- [[Customizing Plex Libraries]] (updated)
 
 ### More Information ###
 - [[UnionFS Cleaner]] (new)
