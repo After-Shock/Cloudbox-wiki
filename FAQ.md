@@ -5,7 +5,7 @@
 	- [If you are using a Scaleway server...](#if-you-are-using-a-scaleway-server)
 	- [Issues with ipv6 / disabling ipv6](#issues-with-ipv6-disabling-ipv6)
 	- [Server RAM is being maxed out?](#server-ram-is-being-maxed-out)
-	- [Users/Groups](#usersgroups)
+	- [Find your User ID (UID) and Group ID (GID)](#find-your-user-id-uid-and-group-id-gid)
 	- [Change shell of user account to bash:](#change-shell-of-user-account-to-bash)
 	- [How to fix permission issues:](#how-to-fix-permission-issues)
 - [Domain Name](#domain-name)
@@ -15,7 +15,7 @@
 	- [Does Cloudbox support any other cloud storage provider other than Google Drive?](#does-cloudbox-support-any-other-cloud-storage-provider-other-than-google-drive)
 - [Cloudbox Installer](#cloudbox-installer)
 	- [What are the server tweaks that were mentioned on the [[readme|https://github.com/Cloudbox/Cloudbox/blob/master/README.md]] ?](#what-are-the-server-tweaks-that-were-mentioned-on-the-readmehttpsgithubcomcloudboxcloudboxblobmasterreadmemd-)
-	- [If you cloned the script as USER_X but install as USER_Y](#if-you-cloned-the-script-as-userx-but-install-as-usery)
+	- [If you cloned the script as USER_X but installed as USER_Y ...](#if-you-cloned-the-script-as-userx-but-installed-as-usery-)
 	- [Unrar module fails to install during the Common Role step](#unrar-module-fails-to-install-during-the-common-role-step)
 	- [pip ssl error](#pip-ssl-error)
 	- [Error Connecting:  Error while fetching server API version: Timeout value connect was Timeout(connect=60, read=60, total=None), but it must be an int or float.](#error-connecting-error-while-fetching-server-api-version-timeout-value-connect-was-timeoutconnect60-read60-totalnone-but-it-must-be-an-int-or-float)
@@ -40,7 +40,7 @@
 	- [Purpose of a Control File in Plex Autoscan](#purpose-of-a-control-file-in-plex-autoscan)
 	- [Temporary fix for Radarr not working with Plex Autoscan](#temporary-fix-for-radarr-not-working-with-plex-autoscan)
 - [UnionFS Cleaner](#unionfs-cleaner)
-- [Sonarr / Radarr](#sonarr-radarr)
+- [Sonarr & Radarr](#sonarr-radarr)
 	- [If you are importing your previous Sonarr and Radarr database..](#if-you-are-importing-your-previous-sonarr-and-radarr-database)
 - [ruTorrent](#rutorrent)
 	- [To change your ruTorrent password after installation](#to-change-your-rutorrent-password-after-installation)
@@ -115,7 +115,7 @@ If your server has ≤ 16GB RAM, it's possible Plexdrive is maxing it out (you c
 
 
 
-## Users/Groups
+## Find your User ID (UID) and Group ID (GID)
 
 Use the following commands to find out your user accounts user id (UID) and group id (GID). 
 
@@ -302,7 +302,7 @@ See https://github.com/Cloudbox/Cloudbox/blob/master/roles/system/tasks/main.yml
 
 
 
-## If you cloned the script as USER_X but install as USER_Y 
+## If you cloned the script as USER_X but installed as USER_Y ...
 
 You must move the cloudbox folder to USER_Y's home folder after installation completes.
 
@@ -638,7 +638,7 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
 
 
 
-#Plex Autoscan
+# Plex Autoscan
 
 ## If during the first time setup, you switched the order of Plex libraries (i.e TV first then Movies)
 
@@ -787,11 +787,11 @@ Update: This has been fixed in newer versions of Radarr and Plex Autoscan. To up
 
 
 
-#UnionFS Cleaner
+# UnionFS Cleaner
 
 
 
-# Sonarr / Radarr
+# Sonarr & Radarr
 
 
 ## If you are importing your previous Sonarr and Radarr database..
