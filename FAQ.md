@@ -1,3 +1,7 @@
+# System
+
+
+
 ## Can I install this on an ARM machine?
 
 ARM is not supported.
@@ -26,6 +30,25 @@ ARM is not supported.
 Reference: https://www.scaleway.com/docs/bootscript-and-how-to-use-it/
 
 
+
+## Issues with ipv6 / disabling ipv6
+
+  - Run `sudo nano /etc/sysctl.conf` and add these lines (`ctrl-x` and `y` to save)
+
+    ```
+    net.ipv6.conf.all.disable_ipv6 = 1
+    net.ipv6.conf.default.disable_ipv6 = 1
+    net.ipv6.conf.lo.disable_ipv6 = 1
+    ```
+  - Then run `sudo sysctl -p`
+
+Reference: See https://unix.stackexchange.com/a/100887
+
+
+
+# Cloud Storage
+
+
 ## Does Cloudbox support encryption data on Google Drive?
 
 In short, no.
@@ -43,15 +66,15 @@ In short, no.
 Note: You may be able to modify Cloudbox to use another cloud storage provider (see [here](https://rclone.org/commands/rclone_mount/)), but that will be on you to setup yourself with no support from us.
 
 
-## Why does Cloudbox use a user specified network called "cloudbox" instead of bridge?
+# Cloudbox Installer
 
-(1) keeps all Cloudbox containers organized under one network; and (2), bridge network does not allow network aliases. 
 
 
 ## What are the server tweaks that were mentioned on the [[readme|https://github.com/Cloudbox/Cloudbox/blob/master/README.md]] ?
 
-
 See https://github.com/Cloudbox/Cloudbox/blob/master/roles/system/tasks/main.yml
+
+
 
 ## Unrar module fails to install during the Common Role step
 
@@ -75,7 +98,46 @@ See https://github.com/Cloudbox/Cloudbox/blob/master/roles/system/tasks/main.yml
 
 ## pip ssl error
 
-   - Run `sudo easy_install pyOpenSSL` and retry.
+This shouldnt be happening anymore with the latest prerequisite command(s), but if it still does, run `sudo easy_install pyOpenSSL` and retry.
+
+
+
+
+# Docker
+
+
+## Why does Cloudbox use the Docker network "cloudbox" instead of bridge?
+
+(1) keeps all Cloudbox containers organized under one network; and (2), bridge network does not allow network aliases. 
+
+
+
+
+# Plex
+
+
+
+
+
+
+#Plex Autoscan
+
+
+
+#UnionFS Cleaner
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## If you are unable to find your Plex server
@@ -116,18 +178,6 @@ You may resolve this by either
 
   - Run `sudo pip install requests==2.10.0` and retry.
 
-## Issues with ipv6 / disabling ipv6
-
-  - Run `sudo nano /etc/sysctl.conf` and add these lines (`ctrl-x` and `y` to save)
-
-    ```
-    net.ipv6.conf.all.disable_ipv6 = 1
-    net.ipv6.conf.default.disable_ipv6 = 1
-    net.ipv6.conf.lo.disable_ipv6 = 1
-    ```
-  - Then run `sudo sysctl -p`
-
-Reference: See https://unix.stackexchange.com/a/100887
 
 
 ## If during the first time setup, you switched the order of Plex libraries (i.e TV first then Movies)
