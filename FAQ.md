@@ -35,7 +35,7 @@
 	- [Missing Thumbnails in Plex (due to http/https redirect errors)](#missing-thumbnails-in-plex-due-to-httphttps-redirect-errors)
 - [Plex Autoscan](#plex-autoscan)
 	- [If during the first time setup, you switched the order of Plex libraries (i.e TV first then Movies)](#if-during-the-first-time-setup-you-switched-the-order-of-plex-libraries-ie-tv-first-then-movies)
-	- [Newly downloaded media in Sonarr and Radarr are not being added to Plex?](#newly-downloaded-media-in-sonarr-and-radarr-are-not-being-added-to-plex)
+	- [Newly downloaded media from Sonarr and Radarr are not being added to Plex?](#newly-downloaded-media-in-sonarr-and-radarr-are-not-being-added-to-plex)
 	- [Plex Autoscan log shows error during empty trash request](#plex-autoscan-log-shows-error-during-empty-trash-request)
 	- [Plex Autoscan error with metadata_item_id](#plex-autoscan-error-with-metadataitemid)
 	- [Purpose of a Control File in Plex Autoscan](#purpose-of-a-control-file-in-plex-autoscan)
@@ -653,7 +653,7 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
 
 
 
-## Newly downloaded media in Sonarr and Radarr are not being added to Plex?
+## Newly downloaded media from Sonarr and Radarr are not being added to Plex?
 
 - Test another download and run the following command:
   ```
