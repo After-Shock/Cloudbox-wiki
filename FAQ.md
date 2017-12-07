@@ -9,6 +9,7 @@
 	- [Change shell of user account to bash:](#change-shell-of-user-account-to-bash)
 	- [How to fix permission issues:](#how-to-fix-permission-issues)
 - [Domain Name](#domain-name)
+	- [Freenom email](#freenom-email)
 - [Cloud Storage](#cloud-storage)
 	- [Does Cloudbox support encryption data on Google Drive?](#does-cloudbox-support-encryption-data-on-google-drive)
 	- [Why does Cloudbox not support encryption data on Google Drive?](#why-does-cloudbox-not-support-encryption-data-on-google-drive)
@@ -242,7 +243,7 @@ sudo reboot
 
 
 
-### Freenom email
+## Freenom email
 
 
 ```Dear ------,
