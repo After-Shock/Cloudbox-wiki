@@ -24,7 +24,7 @@
 - [Nginx Proxy](#nginx-proxy)
 	- [SSL Certificate Issues](#ssl-certificate-issues)
 - [Rclone](#rclone)
-	- [Rclone error: Failed to save config file: open /home/<user>/.config/rclone/rclone.conf: permission denied](#rclone-error-failed-to-save-config-file-open-homeuserconfigrclonercloneconf-permission-denied)
+	- [Rclone error: Failed to save config file: open /home/\<user\>/.config/rclone/rclone.conf: permission denied](#rclone-error-failed-to-save-config-file-open-homeuserconfigrclonercloneconf-permission-denied)
 - [Plexdrive](#plexdrive)
 	- [Don't see your Google Drive files in /mnt/plexdrive?](#dont-see-your-google-drive-files-in-mntplexdrive)
 - [Plex](#plex)
@@ -468,7 +468,7 @@ Challenge validation has failed, see error log.
 
 
 
-## Rclone error: Failed to save config file: open /home/<user>/.config/rclone/rclone.conf: permission denied
+## Rclone error: Failed to save config file: open /home/\<user\>/.config/rclone/rclone.conf: permission denied
 
 Replace `user` and `group` to match yours' (run `id` on command prompt to check)
 
