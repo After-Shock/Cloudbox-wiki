@@ -3,6 +3,7 @@
 - [System](#system)
 	- [Can I install this on an ARM machine?](#can-i-install-this-on-an-arm-machine)
 	- [If you are using a Scaleway server...](#if-you-are-using-a-scaleway-server)
+	- [If you are using an OVH server...](#if-you-are-using-an-ovh-server)
 	- [Issues with ipv6 / disabling ipv6](#issues-with-ipv6-disabling-ipv6)
 	- [Server RAM is being maxed out?](#server-ram-is-being-maxed-out)
 	- [Find your User ID (UID) and Group ID (GID)](#find-your-user-id-uid-and-group-id-gid)
@@ -35,13 +36,13 @@
 	- [Missing Thumbnails in Plex (due to http/https redirect errors)](#missing-thumbnails-in-plex-due-to-httphttps-redirect-errors)
 - [Plex Autoscan](#plex-autoscan)
 	- [If during the first time setup, you switched the order of Plex libraries (i.e TV first then Movies)](#if-during-the-first-time-setup-you-switched-the-order-of-plex-libraries-ie-tv-first-then-movies)
-	- [Newly downloaded media from Sonarr and Radarr are not being added to Plex?](#newly-downloaded-media-in-sonarr-and-radarr-are-not-being-added-to-plex)
+	- [Newly downloaded media from Sonarr and Radarr are not being added to Plex?](#newly-downloaded-media-from-sonarr-and-radarr-are-not-being-added-to-plex)
 	- [Plex Autoscan log shows error during empty trash request](#plex-autoscan-log-shows-error-during-empty-trash-request)
 	- [Plex Autoscan error with metadata_item_id](#plex-autoscan-error-with-metadataitemid)
 	- [Purpose of a Control File in Plex Autoscan](#purpose-of-a-control-file-in-plex-autoscan)
 	- [Temporary fix for Radarr not working with Plex Autoscan](#temporary-fix-for-radarr-not-working-with-plex-autoscan)
 - [UnionFS Cleaner](#unionfs-cleaner)
-- [Sonarr / Radarr](#sonarr--radarr)
+- [Sonarr / Radarr](#sonarr-radarr)
 	- [If you are importing your previous Sonarr and Radarr database..](#if-you-are-importing-your-previous-sonarr-and-radarr-database)
 - [ruTorrent](#rutorrent)
 	- [To change your ruTorrent password after installation](#to-change-your-rutorrent-password-after-installation)
@@ -63,25 +64,30 @@ ARM is not supported.
 
 ## If you are using a Scaleway server...
 
-1. Choose an X86 server (vs ARM). 
+1. Choose an X86 server (vs ARM).
 
-1. Select "Ubuntu Xenial" as the distribution. 
+1. Select "Ubuntu Xenial" as the distribution.
 
-1. Click the server on the list. 
+1. Click the server on the list.
 
-1. Under "ADVANCED OPTIONS", click "SHOW". 
+1. Under "ADVANCED OPTIONS", click "SHOW".
 
-1. Under "BOOTSCRIPT", select `x86_64 4.10.8 docker #1`. 
+1. Under "BOOTSCRIPT", select `x86_64 4.10.8 docker #1`.
 
    ![](https://i.imgur.com/MrgL8mN.png)
 
    ![](https://i.imgur.com/8cfqjnR.png)
 
-1. You can now start the server. 
+1. You can now start the server.
 
-1. You can skip [[updating the kernel|Updating Kernel]]. 
+1. You can skip [[updating the kernel|Updating Kernel]].
 
 Reference: https://www.scaleway.com/docs/bootscript-and-how-to-use-it/
+
+
+## If you are using an OVH server...
+
+If you are having issues upgrading the kernel on ovh, where the kernel upgrade is not taking effect, `uname -r` to see if you have `grs` in kernel version string, see the following page: https://pterodactyl-daemon.readme.io/v0.4/docs/updating-ovh-kernel
 
 
 
@@ -108,7 +114,7 @@ If your server has ≤ 16GB RAM, it's possible Plexdrive is maxing it out (you c
   1. Modify the `--max-chunks=250` to `--max-chunks=100`.
 
   1. `Ctrl-x`, `y`, and `enter` to save.
- 
+
   1. `sudo systemctl daemon-reload`
 
   1. `sudo systemctl restart plexdrive.service`
@@ -118,7 +124,7 @@ If your server has ≤ 16GB RAM, it's possible Plexdrive is maxing it out (you c
 
 ## Find your User ID (UID) and Group ID (GID)
 
-Use the following commands to find out your user accounts user id (UID) and group id (GID). 
+Use the following commands to find out your user accounts user id (UID) and group id (GID).
 
 ```
 $ id `whoami`
@@ -176,7 +182,7 @@ sudo reboot
    sudo chown -R user:group /opt
    ```
 
-1. Change permission inheritance of /opt. 
+1. Change permission inheritance of /opt.
 
    ```
    sudo chmod -R g+s /opt
@@ -213,7 +219,7 @@ sudo reboot
    ```
 
 
-1. Change permission inheritance of /mnt. 
+1. Change permission inheritance of /mnt.
 
    ```
    sudo chmod -R g+s /mnt
@@ -282,7 +288,7 @@ In short, no.
 
 ## Why does Cloudbox not support encryption data on Google Drive?
 
-While there are pro's and cons for using either encrypted or unencrypted data on cloud services, Cloudbox developer(s) have decided to not support encrypted cloud data. 
+While there are pro's and cons for using either encrypted or unencrypted data on cloud services, Cloudbox developer(s) have decided to not support encrypted cloud data.
 
 Note: You may be able to modify Cloudbox to use encrypted data stored on the cloud (see [here](https://github.com/dweidenfeld/plexdrive/blob/master/TUTORIAL.md)), but that will be on you to setup yourself with no support from us.
 
@@ -307,7 +313,7 @@ See https://github.com/Cloudbox/Cloudbox/blob/master/roles/system/tasks/main.yml
 
 You must move the cloudbox folder to USER_Y's home folder after installation completes.
 
-Steps to run as USER_Y: 
+Steps to run as USER_Y:
 
 ```
 cp -R /home/USER_X/cloudbox /home/USER_Y
@@ -358,7 +364,7 @@ This shouldnt be happening anymore with the latest prerequisite command(s), but 
   localhost                  : ok=2    changed=1    unreachable=0    failed=1  
   ```
 
-  You have a remnant of the container in the Docker's network. 
+  You have a remnant of the container in the Docker's network.
 
   You can verify with the command below (replace `<network name>` and `<container name>` is replaced with the network name and container name mentioned in the error, respectively):
   ```
@@ -391,7 +397,7 @@ This shouldnt be happening anymore with the latest prerequisite command(s), but 
 
 ## Why does Cloudbox use the Docker network "cloudbox" instead of bridge?
 
-(1) keeps all Cloudbox containers organized under one network; and (2), bridge network does not allow network aliases. 
+(1) keeps all Cloudbox containers organized under one network; and (2), bridge network does not allow network aliases.
 
 
 
@@ -415,7 +421,7 @@ docker logs -f letsencrypt
 
 ### Cloudbox app subdomains redirect elsewhere (eg. sonarr.domain.com goes to NZBGet)
 
-This happens when SSL certificates have not been issued yet. 
+This happens when SSL certificates have not been issued yet.
 
 You may even see `too many registrations for this IP` in the log (like below)...
 
@@ -425,7 +431,7 @@ You may even see `too many registrations for this IP` in the log (like below)...
 ACME server returned an error: urn:acme:error:rateLimited :: There were too many requests of a given type :: Error creating new registration :: too many registrations for this IP
 ```
 
-Just give it some time (days to hours) and it will resolve itself. 
+Just give it some time (days to hours) and it will resolve itself.
 
 
 
@@ -442,7 +448,7 @@ ACME server returned an error: urn:acme:error:rateLimited :: There were too many
 
 You're limited to 20 new certificates, per registered domain, per week.
 
-See https://letsencrypt.org/docs/rate-limits/ for more info. 
+See https://letsencrypt.org/docs/rate-limits/ for more info.
 
 
 ### CA marked some of the authorizations as invalid
@@ -475,7 +481,7 @@ Replace `user` and `group` to match yours' (run `id` on command prompt to check)
 
 ```
 sudo chown -R user:group /opt/rclone
-sudo chmod -R 0755 /opt/rclone 
+sudo chmod -R 0755 /opt/rclone
 ```
 
 
@@ -488,10 +494,10 @@ sudo chmod -R 0755 /opt/rclone
 ## Don't see your Google Drive files in /mnt/plexdrive?
 
 
-### Make sure your files are in the correct Google Drive paths. 
+### Make sure your files are in the correct Google Drive paths.
 
 
-See [[Paths]] and [[Prerequisites#4-google-drive-account]]. Remember folder names mentioned throughout the site are **CASE SENSITIVE**. 
+See [[Paths]] and [[Prerequisites#4-google-drive-account]]. Remember folder names mentioned throughout the site are **CASE SENSITIVE**.
 
 
 ### Check on status
@@ -502,7 +508,7 @@ sudo systemctl status plexdrive
 
 ### Error: `Process: XXXXX ExecStop=/bin/fusermount -uz /mnt/plexdrive (code=exited, status=217/USER)`
 
-This could happen if you already had a user account on the server before adding it to settings.yml. 
+This could happen if you already had a user account on the server before adding it to settings.yml.
 
 You simply need to edit 3 files located in `/etc/systemd/system/` (`plex_autoscan.service`, `plexdrive.service`, and `unionfs.service`) like this...
 ```
@@ -547,9 +553,9 @@ You may resolve this by either
 
    - Remove Plex Container: `sudo docker rm -f plex` (it may show "Error response from daemon: No such container" if not created yet)
 
-   - Remove the Plex folder: `sudo rm -rf /opt/plex`. 
+   - Remove the Plex folder: `sudo rm -rf /opt/plex`.
 
-   - Redo the [[installation|Installing Cloudbox]]. 
+   - Redo the [[installation|Installing Cloudbox]].
 
 
  - Using SSH Tunneling to log into Plex and set your credentials
@@ -560,15 +566,15 @@ You may resolve this by either
 
    - Log in with your Plex account.
 
-   - On the "How Plex Works" page, click “GOT IT!”. 
+   - On the "How Plex Works" page, click “GOT IT!”.
 
    - Close the "Plex Pass" pop-up if you see it.
 
-   - Under "Server Setup", you will see "Great, we found a server!". Give your server a name and tick “Allow me to access my media outside my home”. Click "NEXT". 
+   - Under "Server Setup", you will see "Great, we found a server!". Give your server a name and tick “Allow me to access my media outside my home”. Click "NEXT".
 
-   - On "Organize Your Media", hit "NEXT" (you will do this later). Then hit "DONE". 
+   - On "Organize Your Media", hit "NEXT" (you will do this later). Then hit "DONE".
 
-   - At this point, you may `Ctrl + c` on the SSH Tunnel to close it. 
+   - At this point, you may `Ctrl + c` on the SSH Tunnel to close it.
 
 
 
@@ -579,7 +585,7 @@ Reorder the Plex agents for TV/Movies so that local assets are at the bottom.
 
 
 
-## Fix permission issues with Plex logs 
+## Fix permission issues with Plex logs
 
 
 Run this command. Replace `seed:seed` with your user:group (`id` command).
@@ -588,7 +594,7 @@ sudo chown -R seed:seed /opt/plex/Library/Logs
 ```
 
 _Note: If you have a separate Plex and Feeder setup, this will be done on the server where Plex is installed._
- 
+
 
 
 
@@ -616,18 +622,18 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
 
   ~~ Replace ...~~
    ```    
-   image: "jwilder/nginx-proxy" 
+   image: "jwilder/nginx-proxy"
    ```
 
    ~~With ...~~
    ```    
-   image: "jwilder/nginx-proxy@sha256:76d9ed11c131fadc7546e3b9b085970e13ff45186171b975ad60830f5ca0d689" 
+   image: "jwilder/nginx-proxy@sha256:76d9ed11c131fadc7546e3b9b085970e13ff45186171b975ad60830f5ca0d689"
    ```
 
 ~~1. Save the file: `Ctrl-X` + `Y`.~~
 
 ~~1. Recreate the nginx-proxy container~~
- 
+
    ```    
    sudo ansible-playbook cloudbox.yml --tags update-nginx
    ```
@@ -676,7 +682,7 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
    sudo chown -R seed:seed /opt/plex
    docker start plex
    ```
-  
+
 
    Example of a successful scan:
 
@@ -709,7 +715,7 @@ You need to generate another token and re-add that back into the config. See [[P
 
 Example Log:
 ```
- 2017-11-21 04:26:32,619 -    ERROR -      PLEX [ 7089]: Exception finding metadata_item_id for '/data/TV/Gotham/Season 01/Gotham - S01E01 - Pilot.mkv': 
+ 2017-11-21 04:26:32,619 -    ERROR -      PLEX [ 7089]: Exception finding metadata_item_id for '/data/TV/Gotham/Season 01/Gotham - S01E01 - Pilot.mkv':
 
 Traceback (most recent call last):
 
@@ -723,13 +729,13 @@ TypeError: 'NoneType' object has no attribute '__getitem__'
 ```
 
 
-Issue: 
+Issue:
 
 One of the mounts has changed (e.g. Plexdrive or UnionFS was restarted).
 
 Fix:
 
-1. Make sure Plexdrive and Unionfs are working ok 
+1. Make sure Plexdrive and Unionfs are working ok
    ```
    sudo systemctl status plexdrive
    ```
@@ -755,10 +761,10 @@ To learn more about Plex Autoscan, see https://github.com/l3uddz/plex_autoscan.
 
 ## Temporary fix for Radarr not working with Plex Autoscan
 
-Update: This has been fixed in newer versions of Radarr and Plex Autoscan. To update them, see [[Updating Cloudbox Apps]]. 
+Update: This has been fixed in newer versions of Radarr and Plex Autoscan. To update them, see [[Updating Cloudbox Apps]].
 
 
-~~Currently, Radarr broke the webhook feature that allows Plex Autoscan to work properly. We've created a workaround to get it working until Radarr fixes it.~~ 
+~~Currently, Radarr broke the webhook feature that allows Plex Autoscan to work properly. We've created a workaround to get it working until Radarr fixes it.~~
 
 ~~1. First, we will temporarily disable the Plex Autoscan connection: Radarr -> Settings -> Connect -> Plex Autoscan -> set all options to `No` -> click "Save".~~   
 
@@ -828,52 +834,3 @@ You may do this 2 ways:
   * And verify that `/opt/rutorrent/nginx/nginx.conf` has `auth_basic "Restricted Content";` and `auth_basic_user_file /config/nginx/.htpasswd;` inside all location references. See image below.
   * ![  ](https://i.imgur.com/VyyijSP.png)
   * Start the container: `docker start rutorrent`
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
