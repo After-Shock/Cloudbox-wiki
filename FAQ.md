@@ -42,7 +42,7 @@
 	- [Purpose of a Control File in Plex Autoscan](#purpose-of-a-control-file-in-plex-autoscan)
 	- [Temporary fix for Radarr not working with Plex Autoscan](#temporary-fix-for-radarr-not-working-with-plex-autoscan)
 - [UnionFS Cleaner](#unionfs-cleaner)
-- [Sonarr / Radarr](#sonarr-radarr)
+- [Sonarr / Radarr](#sonarr--radarr)
 	- [If you are importing your previous Sonarr and Radarr database..](#if-you-are-importing-your-previous-sonarr-and-radarr-database)
 - [ruTorrent](#rutorrent)
 	- [To change your ruTorrent password after installation](#to-change-your-rutorrent-password-after-installation)
