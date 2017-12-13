@@ -482,8 +482,13 @@ Replace `user` and `group` to match yours' (run `id` on command prompt to check)
 ```
 sudo chown -R user:group /opt/rclone
 sudo chmod -R 0755 /opt/rclone
+
 ```
 
+```
+sudo chown -R user:group ~/.config/rclone/
+sudo chmod -R 0755 ~/.config/rclone/
+```
 
 
 
