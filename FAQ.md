@@ -25,6 +25,9 @@
 	- [Why does Cloudbox use the Docker network "cloudbox" instead of bridge?](#why-does-cloudbox-use-the-docker-network-cloudbox-instead-of-bridge)
 - [Nginx Proxy](#nginx-proxy)
 	- [SSL Certificate Issues](#ssl-certificate-issues)
+	- [Cloudbox app subdomains redirect elsewhere (eg. sonarr.domain.com goes to NZBGet)](#cloudbox-app-subdomains-redirect-elsewhere-eg-sonarrdomaincom-goes-to-nzbget)
+	- [Too many certificates already issued for domain.com](#too-many-certificates-already-issued-for-domaincom)
+	- [CA marked some of the authorizations as invalid](#ca-marked-some-of-the-authorizations-as-invalid)
 - [Rclone](#rclone)
 	- [Rclone error: Failed to save config file: open /home/\<user\>/.config/rclone/rclone.conf: permission denied](#rclone-error-failed-to-save-config-file-open-homeuserconfigrclonercloneconf-permission-denied)
 - [Plexdrive](#plexdrive)
@@ -42,7 +45,7 @@
 	- [Purpose of a Control File in Plex Autoscan](#purpose-of-a-control-file-in-plex-autoscan)
 	- [Temporary fix for Radarr not working with Plex Autoscan](#temporary-fix-for-radarr-not-working-with-plex-autoscan)
 - [UnionFS Cleaner](#unionfs-cleaner)
-- [Sonarr / Radarr](#sonarr--radarr)
+- [Sonarr and Radarr](#sonarr-and-radarr)
 	- [If you are importing your previous Sonarr and Radarr database..](#if-you-are-importing-your-previous-sonarr-and-radarr-database)
 - [ruTorrent](#rutorrent)
 	- [To change your ruTorrent password after installation](#to-change-your-rutorrent-password-after-installation)
@@ -416,10 +419,10 @@ You can view the status via looking at the [[log|Logs#docker-logs]] for the `let
 docker logs -f letsencrypt
 ```
 
+And see if the issues below apply to you..
 
 
-
-### Cloudbox app subdomains redirect elsewhere (eg. sonarr.domain.com goes to NZBGet)
+## Cloudbox app subdomains redirect elsewhere (eg. sonarr.domain.com goes to NZBGet)
 
 This happens when SSL certificates have not been issued yet.
 
@@ -435,7 +438,7 @@ Just give it some time (days to hours) and it will resolve itself.
 
 
 
-### Too many certificates already issued for domain.com
+## Too many certificates already issued for domain.com
 
 ```
 Creating/renewal request.domain.com certificates... (request.domain.com)
@@ -451,7 +454,7 @@ You're limited to 20 new certificates, per registered domain, per week.
 See https://letsencrypt.org/docs/rate-limits/ for more info.
 
 
-### CA marked some of the authorizations as invalid
+## CA marked some of the authorizations as invalid
 
 
 ```
@@ -804,7 +807,7 @@ Update: This has been fixed in newer versions of Radarr and Plex Autoscan. To up
 See [[UnionFS Cleaner]].
 
 
-# Sonarr / Radarr
+# Sonarr and Radarr
 
 
 ## If you are importing your previous Sonarr and Radarr database..
