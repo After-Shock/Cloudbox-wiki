@@ -124,7 +124,7 @@ alias ftail='frontail --ui-highlight --ui-highlight-preset /opt/scripts/frontail
 You can now use:
 
 ```
-ftail <log path> &
+ftail --port <port number> <log path> &
 ```
 
 
@@ -136,27 +136,30 @@ pkill -f frontail
 
 ### Examples:
 
-Plex Autoscan
+#### Plex Autoscan
+
 ```
-frontail --ui-highlight --ui-highlight-preset /opt/scripts/frontail/frontail_custom_preset.json --theme dark --user seed --password seed /opt/plex_autoscan/plex_autoscan.log &
+frontail --port 9001 --ui-highlight --ui-highlight-preset /opt/scripts/frontail/frontail_custom_preset.json --theme dark --user seed --password seed /opt/plex_autoscan/plex_autoscan.log &
 ```
 
-Plex Autoscan log (alias command):
+or via alias..
+
 ```
-ftail /opt/plex_autoscan/plex_autoscan.log &
+ftail --port 9001 /opt/plex_autoscan/plex_autoscan.log &
 ```
 
+Log: http://serveripaddress:9001
 
-UnionFS Cleaner log 
+#### UnionFS Cleaner log 
 
 ```
 frontail --ui-highlight --port 9002 --ui-highlight-preset /opt/scripts/frontail/frontail_custom_preset.json --theme dark --user seed --password seed /opt/unionfs_cleaner/activity.log &
 ```
 
-Log: http://serveripaddress:9001
+Log: http://serveripaddress:9002
 
 
-UnionFS Cleaner log (alias command)
+or via alias...
 
 ```
 ftail --port 9002  /opt/unionfs_cleaner/activity.log &
@@ -165,7 +168,9 @@ ftail --port 9002  /opt/unionfs_cleaner/activity.log &
 Log: http://serveripaddress:9002
 
 
-### To use ngrok to hide your IP
+### Use ngrok to hide your IP
+
+If you want to share your log with someone (forums, slack, etc), but don't want to reveal your IP address, you can use ngrok to hide your IP address. 
 
 ```
 ngrok http <port>
