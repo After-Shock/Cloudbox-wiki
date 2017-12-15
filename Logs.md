@@ -100,7 +100,7 @@ Steps to do so are as follows:
 ### Base command 
 
 ```
-frontail --ui-highlight --ui-highlight-preset /opt/scripts/frontail/frontail_custom_present.json --theme dark --user seed --password seed <path of log file> &
+frontail --ui-highlight --ui-highlight-preset /opt/scripts/frontail/frontail_custom_preset.json --theme dark --user seed --password seed <path of log file> &
 ```
 
 - You may change the user and password. 
@@ -118,7 +118,7 @@ frontail --ui-highlight --ui-highlight-preset /opt/scripts/frontail/frontail_cus
 Edit ~/.bashrc file and add the following (you may change the user and password):
 ```
 ## custom aliases
-alias ftail='frontail --ui-highlight --ui-highlight-preset /opt/scripts/frontail/frontail_custom_present.json --theme dark --user seed --password seed '
+alias ftail='frontail --ui-highlight --ui-highlight-preset /opt/scripts/frontail/frontail_custom_preset.json --theme dark --user seed --password seed '
 ```
 
 You can now use:
