@@ -16,7 +16,7 @@
 	- [Does Cloudbox support any other cloud storage provider other than Google Drive?](#does-cloudbox-support-any-other-cloud-storage-provider-other-than-google-drive)
 - [Cloudbox Installer](#cloudbox-installer)
 	- [What are the server tweaks that were mentioned on the README.md page?](#what-are-the-server-tweaks-that-were-mentioned-on-the-readmemd-page)
-	- [If you cloned the script as USER_X but installed as USER_Y](#if-you-cloned-the-script-as-userx-but-installed-as-usery)
+	- [If you cloned the script as USER1 but installed as USER2](#if-you-cloned-the-script-as-user1-but-installed-as-user2)
 	- [Unrar module fails to install during the Common Role step](#unrar-module-fails-to-install-during-the-common-role-step)
 	- [pip ssl error](#pip-ssl-error)
 	- [Error while fetching server API version](#error-while-fetching-server-api-version)
@@ -34,7 +34,7 @@
 	- [Don't see your Google Drive files in /mnt/plexdrive?](#dont-see-your-google-drive-files-in-mntplexdrive)
 - [Plex](#plex)
 	- [If you are unable to find your Plex server](#if-you-are-unable-to-find-your-plex-server)
-	- [If Plex shows you an incorrect title with the filename (eg with -RARBG)](#if-plex-shows-you-an-incorrect-title-with-the-filename-eg-with-rarbg)
+	- [If Plex shows you an incorrect title with the filename (eg RARBG releases)](#if-plex-shows-you-an-incorrect-title-with-the-filename-eg-rarbg-releases)
 	- [Fix permission issues with Plex logs](#fix-permission-issues-with-plex-logs)
 	- [Missing Thumbnails in Plex (due to http/https redirect errors)](#missing-thumbnails-in-plex-due-to-httphttps-redirect-errors)
 - [Plex Autoscan](#plex-autoscan)
@@ -298,15 +298,15 @@ See https://github.com/Cloudbox/Cloudbox/blob/master/roles/system/tasks/main.yml
 
 
 
-## If you cloned the script as USER_X but installed as USER_Y
+## If you cloned the script as USER1 but installed as USER2
 
-You must move the `cloudbox` folder to USER_Y's home folder after installation completes.
+You must move the `cloudbox` folder to USER2's home folder after installation completes.
 
-Steps to run as USER_Y:
+Steps to run as USER2:
 
 ```
-cp -R /home/USER_X/cloudbox /home/USER_Y
-sudo rm -rf /home/USER_X/cloudbox
+cp -R /home/USER1/cloudbox /home/USER2
+sudo rm -rf /home/USER1/cloudbox
 ```
 
 
@@ -585,7 +585,7 @@ You may resolve this by either
 
 
 
-## If Plex shows you an incorrect title with the filename (eg with -RARBG)
+## If Plex shows you an incorrect title with the filename (eg RARBG releases)
 
 Reorder the Plex agents for TV/Movies so that local assets are at the bottom.
 
