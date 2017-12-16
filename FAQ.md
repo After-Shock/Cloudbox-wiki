@@ -4,7 +4,6 @@
 	- [Can I install this on an ARM machine?](#can-i-install-this-on-an-arm-machine)
 	- [If you are using a Scaleway server...](#if-you-are-using-a-scaleway-server)
 	- [If you are using an OVH server...](#if-you-are-using-an-ovh-server)
-	- [Issues with ipv6 / disabling ipv6](#issues-with-ipv6-disabling-ipv6)
 	- [Server RAM is being maxed out?](#server-ram-is-being-maxed-out)
 	- [Find your User ID (UID) and Group ID (GID)](#find-your-user-id-uid-and-group-id-gid)
 	- [Change shell of user account to bash:](#change-shell-of-user-account-to-bash)
@@ -21,6 +20,7 @@
 	- [Unrar module fails to install during the Common Role step](#unrar-module-fails-to-install-during-the-common-role-step)
 	- [pip ssl error](#pip-ssl-error)
 	- [Error Connecting:  Error while fetching server API version: Timeout value connect was Timeout(connect=60, read=60, total=None), but it must be an int or float.](#error-connecting-error-while-fetching-server-api-version-timeout-value-connect-was-timeoutconnect60-read60-totalnone-but-it-must-be-an-int-or-float)
+	- [apt-get Gets Stuck at 0% Because of IPv6](#apt-get-gets-stuck-at-0-because-of-ipv6)
 - [Docker](#docker)
 	- [Why does Cloudbox use the Docker network "cloudbox" instead of bridge?](#why-does-cloudbox-use-the-docker-network-cloudbox-instead-of-bridge)
 - [Nginx Proxy](#nginx-proxy)
@@ -92,20 +92,6 @@ Reference: https://www.scaleway.com/docs/bootscript-and-how-to-use-it/
 
 If you are having issues upgrading the kernel on ovh, where the kernel upgrade is not taking effect, `uname -r` to see if you have `grs` in kernel version string, see the following page: https://pterodactyl-daemon.readme.io/v0.4/docs/updating-ovh-kernel
 
-
-
-## Issues with ipv6 / disabling ipv6
-
-  - Run `sudo nano /etc/sysctl.conf` and add these lines (`ctrl-x` and `y` to save)
-
-    ```
-    net.ipv6.conf.all.disable_ipv6 = 1
-    net.ipv6.conf.default.disable_ipv6 = 1
-    net.ipv6.conf.lo.disable_ipv6 = 1
-    ```
-  - Then run `sudo sysctl -p`
-
-Reference: See https://unix.stackexchange.com/a/100887
 
 
 ## Server RAM is being maxed out?
@@ -346,7 +332,7 @@ sudo rm -rf /home/USER_X/cloudbox
 
 ## pip ssl error
 
-This shouldnt be happening anymore with the latest prerequisite command(s), but if it still does, run `sudo easy_install pyOpenSSL` and retry.
+This shouldnt be happening anymore with the latest prerequisite command(s), but if it still does, run `sudo easy_install pyOpenSSL` and retry install.
 
 
 ## Error Connecting:  Error while fetching server API version: Timeout value connect was Timeout(connect=60, read=60, total=None), but it must be an int or float.
@@ -391,7 +377,13 @@ This shouldnt be happening anymore with the latest prerequisite command(s), but 
 
 
 
+## apt-get Gets Stuck at 0% Because of IPv6
 
+```
+echo 'Acquire::ForceIPv4 "true";' | sudo tee /etc/apt/apt.conf.d/99force-ipv4
+```
+
+Retry install.
 
 
 
