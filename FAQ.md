@@ -90,7 +90,11 @@ Reference: https://www.scaleway.com/docs/bootscript-and-how-to-use-it/
 
 ## If you are using an OVH server...
 
-If you are having issues upgrading the kernel on ovh, where the kernel upgrade is not taking effect, `uname -r` to see if you have `grs` in kernel version string, see the following page: https://pterodactyl-daemon.readme.io/v0.4/docs/updating-ovh-kernel
+If you are having issues upgrading the kernel on ovh, where the kernel upgrade is not taking effect..
+
+ `uname -r` to see if you have `grs` in kernel version string...
+
+ if so, see https://pterodactyl-daemon.readme.io/v0.4/docs/updating-ovh-kernel on how to update the kernel.
 
 
 
