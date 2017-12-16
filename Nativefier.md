@@ -32,14 +32,19 @@ The following steps will guide you through setting up Nativefier on your PC:
       ```
 
 ## 2. Create Nativefier Desktop Apps 
-
+![](https://github.com/jiahaog/nativefier/raw/master/screenshots/walkthrough.gif)
 
 ### Basic Command
+
+
 
 
 ```
 nativefier appname.domainname.com
 ```
+
+
+
 
 ### Some Useful Options
 
