@@ -165,7 +165,7 @@ sudo reboot
    docker stop $(docker ps -a -q)
    ```
 
-1. Change ownership of /opt. Replace `user` and `group` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid).
+1. Change ownership of /opt. Replace `user` and `group` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid)).
 
    ```
    sudo chown -R user:group /opt
@@ -201,7 +201,7 @@ sudo reboot
    ```
 
 
-1. Change ownership of /mnt. Replace `user` and `group` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid).
+1. Change ownership of /mnt. Replace `user` and `group` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid)).
 
    ```
    sudo chown -R user:group /mnt
@@ -479,7 +479,7 @@ Challenge validation has failed, see error log.
 
 ## Rclone error: Failed to save config file: open /home/\<user\>/.config/rclone/rclone.conf: permission denied
 
-Replace `user` and `group` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid).
+Replace `user` and `group` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid)).
 
 ```
 sudo chown -R user:group /opt/rclone
@@ -522,7 +522,7 @@ You simply need to edit 3 files located in `/etc/systemd/system/` (`plex_autosca
 sudo nano /etc/systemd/system/plexdrive.service
 ```
 
-Replace `User` and `Group` under  `[Service]` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid).
+Replace `User` and `Group` under  `[Service]` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid)).
 
 ```
 [Service]
@@ -595,7 +595,7 @@ Reorder the Plex agents for TV/Movies so that local assets are at the bottom.
 ## Fix permission issues with Plex logs
 
 
-Replace `user` and `group` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid).
+Replace `user` and `group` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid)).
 
 ```
 sudo chown -R user:group /opt/plex/Library/Logs
@@ -683,7 +683,7 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
 
   There is an issue with the permissions on that folder that you'll need to fix manually (Cloudbox can't fix this as Plex creates this folder after the first scan)
 
-   To fix this, Run the following command. Replace `user` and `group` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid).
+   To fix this, Run the following command. Replace `user` and `group` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid)).
 
    ```
    docker stop plex
