@@ -4,10 +4,10 @@
 	- [Can I install this on an ARM machine?](#can-i-install-this-on-an-arm-machine)
 	- [If you are using a Scaleway server...](#if-you-are-using-a-scaleway-server)
 	- [If you are using an OVH server...](#if-you-are-using-an-ovh-server)
-	- [Server RAM is being maxed out?](#server-ram-is-being-maxed-out)
+	- [Server RAM is being maxed out](#server-ram-is-being-maxed-out)
 	- [Find your User ID (UID) and Group ID (GID)](#find-your-user-id-uid-and-group-id-gid)
-	- [Change shell of user account to bash:](#change-shell-of-user-account-to-bash)
-	- [How to fix permission issues:](#how-to-fix-permission-issues)
+	- [Change shell of user account to bash](#change-shell-of-user-account-to-bash)
+	- [How to fix permission issues](#how-to-fix-permission-issues)
 - [Domain Name](#domain-name)
 	- [Freenom email](#freenom-email)
 - [Cloud Storage](#cloud-storage)
@@ -16,10 +16,10 @@
 	- [Does Cloudbox support any other cloud storage provider other than Google Drive?](#does-cloudbox-support-any-other-cloud-storage-provider-other-than-google-drive)
 - [Cloudbox Installer](#cloudbox-installer)
 	- [What are the server tweaks that were mentioned on the README.md page?](#what-are-the-server-tweaks-that-were-mentioned-on-the-readmemd-page)
-	- [If you cloned the script as USER_X but installed as USER_Y ...](#if-you-cloned-the-script-as-userx-but-installed-as-usery-)
+	- [If you cloned the script as USER_X but installed as USER_Y](#if-you-cloned-the-script-as-userx-but-installed-as-usery)
 	- [Unrar module fails to install during the Common Role step](#unrar-module-fails-to-install-during-the-common-role-step)
 	- [pip ssl error](#pip-ssl-error)
-	- [Error Connecting:  Error while fetching server API version: Timeout value connect was Timeout(connect=60, read=60, total=None), but it must be an int or float.](#error-connecting-error-while-fetching-server-api-version-timeout-value-connect-was-timeoutconnect60-read60-totalnone-but-it-must-be-an-int-or-float)
+	- [Error while fetching server API version](#error-while-fetching-server-api-version)
 	- [apt-get Gets Stuck at 0% Because of IPv6](#apt-get-gets-stuck-at-0-because-of-ipv6)
 - [Docker](#docker)
 	- [Why does Cloudbox use the Docker network "cloudbox" instead of bridge?](#why-does-cloudbox-use-the-docker-network-cloudbox-instead-of-bridge)
@@ -34,7 +34,7 @@
 	- [Don't see your Google Drive files in /mnt/plexdrive?](#dont-see-your-google-drive-files-in-mntplexdrive)
 - [Plex](#plex)
 	- [If you are unable to find your Plex server](#if-you-are-unable-to-find-your-plex-server)
-	- [If Plex shows you an incorrect title with the filename (e.g. with -RARBG).](#if-plex-shows-you-an-incorrect-title-with-the-filename-eg-with-rarbg)
+	- [If Plex shows you an incorrect title with the filename (eg with -RARBG)](#if-plex-shows-you-an-incorrect-title-with-the-filename-eg-with-rarbg)
 	- [Fix permission issues with Plex logs](#fix-permission-issues-with-plex-logs)
 	- [Missing Thumbnails in Plex (due to http/https redirect errors)](#missing-thumbnails-in-plex-due-to-httphttps-redirect-errors)
 - [Plex Autoscan](#plex-autoscan)
@@ -94,7 +94,7 @@ If you are having issues upgrading the kernel on ovh, where the kernel upgrade i
 
 
 
-## Server RAM is being maxed out?
+## Server RAM is being maxed out
 
 If your server has ≤ 16GB RAM, it's possible Plexdrive is maxing it out (you can check this via `htop`). Try lowering the max chunks used by Plexdrive:
 
@@ -127,7 +127,7 @@ uid=1000(myuser) gid=1001(myuser) groups=1001(myuser)
 
 
 
-## Change shell of user account to bash:
+## Change shell of user account to bash
 
 How to check current shell:
 
@@ -154,7 +154,7 @@ sudo reboot
 
 
 
-## How to fix permission issues:
+## How to fix permission issues
 
 
 ### /opt folder
@@ -298,7 +298,7 @@ See https://github.com/Cloudbox/Cloudbox/blob/master/roles/system/tasks/main.yml
 
 
 
-## If you cloned the script as USER_X but installed as USER_Y ...
+## If you cloned the script as USER_X but installed as USER_Y
 
 You must move the `cloudbox` folder to USER_Y's home folder after installation completes.
 
@@ -335,9 +335,16 @@ sudo rm -rf /home/USER_X/cloudbox
 This shouldnt be happening anymore with the latest prerequisite command(s), but if it still does, run `sudo easy_install pyOpenSSL` and retry install.
 
 
-## Error Connecting:  Error while fetching server API version: Timeout value connect was Timeout(connect=60, read=60, total=None), but it must be an int or float.
+## Error while fetching server API version
 
-  - Run `sudo pip install requests==2.10.0` and retry.
+Full error message:
+
+```
+Error Connecting:  Error while fetching server API version: Timeout value connect was Timeout(connect=60, read=60, total=None), but it must be an int or float.
+```
+
+
+Run `sudo pip install requests==2.10.0` and retry.
 
 
 
@@ -578,7 +585,7 @@ You may resolve this by either
 
 
 
-## If Plex shows you an incorrect title with the filename (e.g. with -RARBG).
+## If Plex shows you an incorrect title with the filename (eg with -RARBG)
 
 Reorder the Plex agents for TV/Movies so that local assets are at the bottom.
 
