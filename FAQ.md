@@ -21,7 +21,7 @@
 	- [pip ssl error](#pip-ssl-error)
 	- [Error while fetching server API version](#error-while-fetching-server-api-version)
 	- [403 Client Error: Forbidden: endpoint with name \<container name\> already exists in network \<network name\>](#403-client-error-forbidden-endpoint-with-name-container-name-already-exists-in-network-network-name)
-	- [500 Server Error: Internal Server Error: driver failed programming external connectivity on endpoint \<container name\> bind for 0.0.0.0:\<port number\> failed - port is already allocated"](#500-server-error-internal-server-error-driver-failed-programming-external-connectivity-on-endpoint-container-name-bind-for-0000port-number-failed-port-is-already-allocated)
+	- [500 Server Error: Internal Server Error: driver failed programming external connectivity on endpoint \<container name\> bind for 0.0.0.0:\<port number\> failed: port is already allocated](#500-server-error-internal-server-error-driver-failed-programming-external-connectivity-on-endpoint-container-name-bind-for-0000port-number-failed-port-is-already-allocated)
 	- [apt-get Gets Stuck at 0% Because of IPv6](#apt-get-gets-stuck-at-0-because-of-ipv6)
 - [Docker](#docker)
 	- [Why does Cloudbox use the Docker network "cloudbox" instead of bridge?](#why-does-cloudbox-use-the-docker-network-cloudbox-instead-of-bridge)
@@ -379,7 +379,7 @@ docker network disconnect -f <network name> <container name>
 ```
 
 
-## 500 Server Error: Internal Server Error: driver failed programming external connectivity on endpoint \<container name\> bind for 0.0.0.0:\<port number\> failed - port is already allocated"
+## 500 Server Error: Internal Server Error: driver failed programming external connectivity on endpoint \<container name\> bind for 0.0.0.0:\<port number\> failed: port is already allocated
 
 ```
 sudo service docker stop
