@@ -20,6 +20,8 @@
 	- [Unrar module fails to install during the Common Role step](#unrar-module-fails-to-install-during-the-common-role-step)
 	- [pip ssl error](#pip-ssl-error)
 	- [Error while fetching server API version](#error-while-fetching-server-api-version)
+	- [During Cloudbox install, get the message "... 403 Client Error: Forbidden: ... endpoint with name \<container name\> already exists in network \<network name\>":](#during-cloudbox-install-get-the-message-403-client-error-forbidden-endpoint-with-name-container-name-already-exists-in-network-network-name)
+	- [During Cloudbox install, get the message "500 Server Error: Internal Server Error: driver failed programming external connectivity on endpoint <container name>: Bind for 0.0.0.0:<port number> failed: port is already allocated":](#during-cloudbox-install-get-the-message-500-server-error-internal-server-error-driver-failed-programming-external-connectivity-on-endpoint-container-name-bind-for-0000port-number-failed-port-is-already-allocated)
 	- [apt-get Gets Stuck at 0% Because of IPv6](#apt-get-gets-stuck-at-0-because-of-ipv6)
 - [Docker](#docker)
 	- [Why does Cloudbox use the Docker network "cloudbox" instead of bridge?](#why-does-cloudbox-use-the-docker-network-cloudbox-instead-of-bridge)
@@ -51,7 +53,6 @@
 	- [To change your ruTorrent password after installation](#to-change-your-rutorrent-password-after-installation)
 
 <!-- /TOC -->
-
 
 
 ---
@@ -353,37 +354,37 @@ Run `sudo pip install requests==2.10.0` and retry.
 
 
 
-  ## During Cloudbox install, get the message "... 403 Client Error: Forbidden: ... endpoint with name \<container name\> already exists in network \<network name\>":
+## During Cloudbox install, get the message "... 403 Client Error: Forbidden: ... endpoint with name \<container name\> already exists in network \<network name\>":
 
-  Example:
+Example:
 
-  ```
-  fatal: [localhost]: FAILED! => {"changed": false, "failed": true, "msg": "Error starting container 6fb60d4cdabe938986042e06ef482012a1d85a66a099d861f08062d8262c2ef7: 403 Client Error: Forbidden (\"{\"message\":\"endpoint with name jackett already exists in network bridge\"}\")"}
-      to retry, use: --limit @/home/seed/cloudbox/cloudbox.retry
-  PLAY RECAP *********************************************************************
-  localhost                  : ok=2    changed=1    unreachable=0    failed=1  
-  ```
+```
+fatal: [localhost]: FAILED! => {"changed": false, "failed": true, "msg": "Error starting container 6fb60d4cdabe938986042e06ef482012a1d85a66a099d861f08062d8262c2ef7: 403 Client Error: Forbidden (\"{\"message\":\"endpoint with name jackett already exists in network bridge\"}\")"}
+    to retry, use: --limit @/home/seed/cloudbox/cloudbox.retry
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=1  
+```
 
-  You have a remnant of the container in the Docker's network.
+You have a remnant of the container in the Docker's network.
 
-  You can verify with the command below (replace `<network name>` and `<container name>` is replaced with the network name and container name mentioned in the error, respectively):
-  ```
-  docker inspect network <network name> | grep <container name>
-  ```
+You can verify with the command below (replace `<network name>` and `<container name>` is replaced with the network name and container name mentioned in the error, respectively):
+```
+docker inspect network <network name> | grep <container name>
+```
 
-  To remove the remnant, run this command and try again:
+To remove the remnant, run this command and try again:
 
-  ```
-  docker network disconnect -f <network name> <container name>
-  ```
+```
+docker network disconnect -f <network name> <container name>
+```
 
 
-  ## During Cloudbox install, get the message "500 Server Error: Internal Server Error: driver failed programming external connectivity on endpoint <container name>: Bind for 0.0.0.0:<port number> failed: port is already allocated":
+## During Cloudbox install, get the message "500 Server Error: Internal Server Error: driver failed programming external connectivity on endpoint <container name>: Bind for 0.0.0.0:<port number> failed: port is already allocated":
 
-  ```
-  sudo service docker stop
-  sudo service docker start
-  ```
+```
+sudo service docker stop
+sudo service docker start
+```
 
 
 
