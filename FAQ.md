@@ -43,7 +43,7 @@
 	- [If during the first time setup, you switched the order of Plex libraries (i.e TV first then Movies)](#if-during-the-first-time-setup-you-switched-the-order-of-plex-libraries-ie-tv-first-then-movies)
 	- [Newly downloaded media from Sonarr and Radarr are not being added to Plex?](#newly-downloaded-media-from-sonarr-and-radarr-are-not-being-added-to-plex)
 	- [Plex Autoscan log shows error during empty trash request](#plex-autoscan-log-shows-error-during-empty-trash-request)
-	- [Plex Autoscan error with metadata_item_id](#plex-autoscan-error-with-metadataitemid)
+	- [Plex Autoscan error with metadata item id](#plex-autoscan-error-with-metadata-item-id)
 	- [Purpose of a Control File in Plex Autoscan](#purpose-of-a-control-file-in-plex-autoscan)
 	- [Temporary fix for Radarr not working with Plex Autoscan](#temporary-fix-for-radarr-not-working-with-plex-autoscan)
 - [UnionFS Cleaner](#unionfs-cleaner)
@@ -724,7 +724,7 @@ You need to generate another token and re-add that back into the config. See [[P
 
 
 
-## Plex Autoscan error with metadata_item_id
+## Plex Autoscan error with metadata item id
 
 Example Log:
 ```
