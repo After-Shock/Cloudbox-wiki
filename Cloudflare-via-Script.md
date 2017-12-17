@@ -28,4 +28,6 @@ Steps to setup Cloudflare are as follows:
 
 1. When asked, enter your email address, API key, domain, and server IP address.
 
-_Note: The script will only set the subdomains to one IP address. If you have a separate Plex and Feeder setup, you will need to login to Cloudflare and adjust the IPs for them._
+_Note 1: Any subdomains you want to add in the future, will be added to Cloudflare instead of your Domain Registrar's website._
+
+_Note 2: The script will only set the subdomains to one IP address. If you have a separate Plex and Feeder setup, you will need to login to Cloudflare and adjust the IPs for them._
