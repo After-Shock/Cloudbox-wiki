@@ -10,11 +10,11 @@ Steps to setup Cloudflare are as follows:
 
      ![](https://i.imgur.com/K4OI1XD.png)
 
-1. Log into Cloudflare.
+1. Go to [Cloudflare.com](https://www.cloudflare.com/).
 
-   1. Go to the "Crypto" tab and set SSL to "Full (strict)"
+   1. Under the "Crypto" tab, set SSL to "Full (strict)"
 
-   1. Go to the "Overview" tab, click "Get your API key", then retrieve your "Global API Key".
+   1. Under the "Overview" tab, click "Get your API key", then retrieve your "Global API Key".
 
 1. Run the following python script:
 
