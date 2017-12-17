@@ -4,7 +4,7 @@ Steps to setup Cloudflare are as follows:
 
 1. Sign up for a free [Cloudflare](https://www.cloudflare.com/) account.
 
-1. Set the nameservers to what Cloudflare instructs you to on your domain registrar's website (e.g. GoDaddy, Namecheap, Namesilo, etc).  _You do not need to make changes to the DNS settings there._
+1. Set the Name Servers to what Cloudflare instructs you to on your Domain Registrar's website (e.g. GoDaddy, Namecheap, etc). _You do not need to make changes to the DNS settings there._
 
    - Ex. Namecheap.com -> "Dashboard" -> your domain -> "Manage" -> "Name Servers" -> "Custom DNS" -> add the nameservers in.
 
