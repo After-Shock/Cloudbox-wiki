@@ -4,6 +4,6 @@ _Note: Only set this up once your Cloudbox is up and running; to make sure that 
 
 There are two ways to setup this up: 
 
-- [[Via the cloudflared.py script|Cloudflare Script]] (recommended) 
+- [[via Script|Cloudflare via Script]] (recommended) 
 
 - [[Manually|Cloudflare Manually]]
