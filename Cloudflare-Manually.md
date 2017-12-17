@@ -11,7 +11,7 @@
 
    1. Under the "Crypto" tab, set SSL to "Full (strict)".
 
-      ![](https://i.imgur.com/ph1pNZx.png)
+      ![](https://i.imgur.com/n32aIUY.png)
 
    1. Under the "DNS" tab, add the DNS records for your subdomains, including `*` and `www`, with the IP address pointing to your server. Set the `plex` subdomain to `DNS and HTTP proxy (CDN)` (click the cloud icon). The others can be left as `DNS Only`, or  `DNS and HTTP proxy (CDN)` if you wish.
 
