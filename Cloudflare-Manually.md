@@ -13,7 +13,7 @@
 
       ![](https://i.imgur.com/ph1pNZx.png)
 
-   1. Under the "DNS" tab, add the DNS records for your subdomains, with the IP address pointing to your server. Set the `plex` subdomain to `DNS and HTTP proxy (CDN)` (click the cloud icon). The others can be left as `DNS Only`, or  `DNS and HTTP proxy (CDN)` if you wish.
+   1. Under the "DNS" tab, add the DNS records for your [[subdomains|Accessing-Cloudbox-Apps#default-apps]], with the IP address pointing to your server. Set the `plex` subdomain to `DNS and HTTP proxy (CDN)` (click the cloud icon). The others can be left as `DNS Only`, or  `DNS and HTTP proxy (CDN)` if you wish.
 
       _Note: If you have a separate Plex and Feeder setup, you will need to set the Plex and Feeder Cloudboxes IP addresses with their respective subdomains._
 
