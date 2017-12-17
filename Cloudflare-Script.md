@@ -1,4 +1,4 @@
-Script will: (1) add (or update) all the Cloudbox [[sub-domains|Accessing-Cloudbox-Apps]] into Cloudflare, and (2) will enable DNS and HTTP proxy (CDN) for Plex.
+Script will: (1) add (or update) all the Cloudbox [[subdomains|Accessing-Cloudbox-Apps]] into Cloudflare, and (2) will enable DNS and HTTP proxy (CDN) for Plex.
 
 Steps to setup Cloudflare are as follows:
 
