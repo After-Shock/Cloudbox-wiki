@@ -6,9 +6,15 @@ Steps to setup Cloudflare are as follows:
 
 1. Set the nameservers to what Cloudflare instructs you to on your domain registrar's website (e.g. GoDaddy, Namecheap, Namesilo, etc).  _You do not need to make changes to the DNS settings there._
 
-1. Go to the "Crypto" tab and set SSL to "Full (strict)"
+   - Ex. Namecheap.com -> Dashboard -> your domain -> Manage -> Name Servers -> Custom DNS -> add the nameservers in.
 
-1. Go to the "Overview" tab, click "Get your API key", then retrieve your "Global API Key".
+     ![](https://i.imgur.com/K4OI1XD.png)
+
+1. Log into Cloudflare.
+
+   1. Go to the "Crypto" tab and set SSL to "Full (strict)"
+
+   1. Go to the "Overview" tab, click "Get your API key", then retrieve your "Global API Key".
 
 1. Run the following python script:
 
