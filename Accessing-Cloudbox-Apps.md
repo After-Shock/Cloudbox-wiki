@@ -1,4 +1,4 @@
-# Default Apps
+## Default Apps
 
 Cloudbox apps will be accessed via appname._yourdomain.com_ (see table below).
 
@@ -23,4 +23,4 @@ Cloudbox apps will be accessed via appname._yourdomain.com_ (see table below).
 _Note: After the initial setup, it will take a a while for the SSL certificates to propagate. A side effect of this will be that certain domains were redirect to other apps (e.g. sonarr.yourdomain.com -> nzbget.yourdomain.com). Just give it a bit of time and this will correct itself._
 
 
-# Additional Apps
+## Additional Apps
