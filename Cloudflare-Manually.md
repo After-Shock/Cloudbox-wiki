@@ -15,7 +15,7 @@
 
    1. Under the "DNS" tab, add the DNS records for your subdomains, including `*` and `www`, with the IP address pointing to your server. Set Plex subdomain to `DNS and HTTP proxy (CDN)` (click the cloud icon). Leave the others off.
 
-   _Note: If you have a separate Plex and Feeder setup, you will need to set the Plex and Feeder Cloudboxes IP addresses with their respective subdomains._
+      _Note: If you have a separate Plex and Feeder setup, you will need to set the Plex and Feeder Cloudboxes IP addresses with their respective subdomains._
 
-   ![](https://i.imgur.com/YHbDAcM.png)
+      ![](https://i.imgur.com/YHbDAcM.png)
    
