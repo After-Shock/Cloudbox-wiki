@@ -3,7 +3,7 @@
 
 1. Set the nameservers to what Cloudflare instructs you to on your domain registrar's website (e.g. GoDaddy, Namecheap, etc). _You do not need to make changes to the DNS settings there._
 
-   - Ex. Namecheap.com -> Dashboard -> your domain -> Manage -> Name Servers -> Custom DNS -> add the nameservers in.
+   - Ex. Namecheap.com -> "Dashboard" -> your domain -> "Manage" -> "Name Servers" -> "Custom DNS" -> add the nameservers in.
 
      ![](https://i.imgur.com/K4OI1XD.png)
 
