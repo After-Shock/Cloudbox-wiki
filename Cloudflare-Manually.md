@@ -9,7 +9,7 @@
 
 1. Go to [Cloudflare.com](https://www.cloudflare.com/). 
 
-   1. Under the "Crypto" tab, set SSL to "Full (strict)".
+   1. Under the "Crypto" tab, set "SSL" to `Full (strict)`.
 
       ![](https://i.imgur.com/ph1pNZx.png)
 
