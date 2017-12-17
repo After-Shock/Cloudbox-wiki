@@ -17,5 +17,5 @@
 
       _Note: If you have a separate Plex and Feeder setup, you will need to set the Plex and Feeder Cloudboxes IP addresses with their respective subdomains._
 
-      ![](https://i.imgur.com/YHbDAcM.png)
+      ![](https://i.imgur.com/YxEFms3.png)
    
