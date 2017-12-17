@@ -88,7 +88,7 @@ Note: `-follow` = `-f`
 
 
 
-## See a live log over http via frontail
+## Frontail - view logs over http
 
 [[frontail|https://github.com/mthenw/frontail]] is a Node.js application for streaming logs to the browser (basically a tail -F with an UI).
 
@@ -97,17 +97,17 @@ This is useful in cases you need help and need to show someone from slack suppor
 
 Steps to do so are as follows:
 
-### Base command 
+### Base command
 
 ```
 frontail --ui-highlight --ui-highlight-preset /opt/scripts/frontail/frontail_custom_preset.json --theme dark --user seed --password seed <path of log file> &
 ```
 
-- You may change the user and password. 
+- You may change the user and password.
 
-- The `&` at the end sends it to the background. 
+- The `&` at the end sends it to the background.
 
-- You can now see this log at http://serveripaddress:9001. 
+- You can now see this log at http://serveripaddress:9001.
 
 - To specify another port, just add: ` --port <port> `
 
@@ -131,7 +131,7 @@ ftail --port <port number> <log path> &
 ### To quit the frontail
 
 ```
-pkill -f frontail 
+pkill -f frontail
 ```
 
 ### Examples:
@@ -150,7 +150,7 @@ ftail --port 9001 /opt/plex_autoscan/plex_autoscan.log &
 
 Log: http://serveripaddress:9001
 
-#### UnionFS Cleaner log 
+#### UnionFS Cleaner log
 
 ```
 frontail --ui-highlight --port 9002 --ui-highlight-preset /opt/scripts/frontail/frontail_custom_preset.json --theme dark --user seed --password seed /opt/unionfs_cleaner/activity.log &
@@ -170,7 +170,7 @@ Log: http://serveripaddress:9002
 
 ### Use ngrok to hide your IP
 
-If you want to share your log with someone (forums, slack, etc), but don't want to reveal your IP address, you can use ngrok to hide your IP address. 
+If you want to share your log with someone (forums, slack, etc), but don't want to reveal your IP address, you can use ngrok to hide your IP address.
 
 ```
 ngrok http <port>
