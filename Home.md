@@ -54,4 +54,4 @@ _Last updated on Dec 17, 2017._
 - [[Logs]]
 
 ### Community ###
-- [Forums](https:/forums.cloudbox.rocks)
+- [Forums](https://forums.cloudbox.rocks)
