@@ -40,7 +40,10 @@ Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Acces
 
    _Note 1: Make sure there is also an A Record for the bare domain (e.g. `@` for host). This should be there by default. If not, then add it in._
 
-   _Note 2: If you do not want to use a wildcard entry, you can create an A record for all the subdomains, explicity (see [below](Prerequisites#ii-free-domain-name-via-freenomcom))._
+   _Note 2: If you do not want to use a wildcard entry, you can create an A record for all the subdomains instead (see [below](Prerequisites#ii-free-domain-name-via-freenomcom))._
+
+   _Note 3: If you have a separate Plex and Feeder setup, you will need to create A Records for both IP addresses (Plex and Feeder boxes) and set them to their respective subdomains._
+
     
    Example: For Namecheap.com, go to Domain List > Manage > Advanced DNS > Add New Record > A Record > `*` for Host > Server IP for Value.
 
@@ -69,6 +72,7 @@ Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Acces
     | sonarr       | A        | 14440   | _your server ip address_ |
 
 
+   _Note: If you have a separate Plex and Feeder setup, you will need to create A Records for both IP addresses (Plex and Feeder boxes) and set them to their respective subdomains._
 
 
 4. Save Changes.
