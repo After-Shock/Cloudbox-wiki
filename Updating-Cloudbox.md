@@ -26,7 +26,7 @@ Steps to update cloudbox are below:
 
       Do not just replace/overwrite the settings.yml file with your backed up one, as this error typically indicates the default settings.yml has been modified (e.g. new variables have been added).
 
-    - If it says a lot of files has been modified, like... 
+    - If it says a lot of files have been modified, like... 
 
       ```
       error: Your local changes to the following files would be overwritten by merge:
