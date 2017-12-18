@@ -42,7 +42,7 @@ _Last updated on Dec 17, 2017._
 
 ### Misc Guides
 - [[Nativefier]] (Create desktop apps for Cloudbox)
-- [How to enable iGPU for Hetzner servers](https://github.com/desimaniac/docs/blob/master/enable_igpu_on_hetzner.md) (to enable HW transcoding in Plex)
+- [How to enable iGPU for Hetzner servers](https://github.com/desimaniac/docs/blob/master/enable_igpu_on_hetzner.md) (to enable hardware accelerated transcoding in Plex)
 - [[Setup Plex CDN with Cloudflare|Cloudflare]]
   - [[Cloudflare via Script]]
   - [[Cloudflare Manually]]
