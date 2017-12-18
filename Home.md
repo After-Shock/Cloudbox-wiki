@@ -53,5 +53,5 @@ _Last updated on Dec 17, 2017._
 - [[FAQ]]
 - [[Logs]]
 
-### Community Chat ###
-- [Slack Channel](https://join.slack.com/t/cloud-box/shared_invite/MjM1NTI2OTEwMzIyLTE1MDQzOTAyNDAtYWNhOWY2NzNiZA)
+### Community ###
+- [Forums](https:/forums.cloudbox.rocks)
