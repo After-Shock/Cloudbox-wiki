@@ -4,8 +4,10 @@
 - [Pushover Setup](#pushover-setup)
 - [Cloudbox Backup](#cloudbox-backup)
 - [UnionFS Cleaner](#unionfs-cleaner)
-- [PlexPy](#plexpy)
 - [Plex Requests](#plex-requests)
+- [PlexPy](#plexpy)
+- [Sonarr and Radarr](#sonarr-and-radarr)
+
 
 <!-- /TOC -->
 
@@ -122,6 +124,13 @@ To have Pushover send you alerts every time a UnionFS Cleaner task starts and fi
 1. UnionFS Cleaner will restart itself when it detects config.json has changed.
 
 
+## Plex Requests
+
+Pushover can send notifications whenever an event occurs in Plex Requests (e.g. media is requested by someone).
+
+- [Plex Requests](Plex-Requests#1-accessing-plex-requests) -> Admin -> Notifications -> check "Enable Pushover notifications" and type in your Pushover User Key and the Application Token (you can click the "Test Pushover" to check if it's working ok) -> Click "Update Settings".
+
+
 ## PlexPy
 
 Pushover can send you notifications whenever an event occurs with Plex (e.g. someone starts watching something,  new media is added, etc)
@@ -131,13 +140,7 @@ Pushover can send you notifications whenever an event occurs with Plex (e.g. som
 1. Add in your Pushover info: Click the "gear" icon next to "Pushover" -> Type in your Pushover User Key and the Application Token (you can click the "Test Notification" to check if it's working ok) -> Click "Save". 
 
 
-## Plex Requests
 
-Pushover can send notifications whenever an event occurs in Plex Requests (e.g. media is requested by someone).
+## Sonarr and Radarr
 
-- [Plex Requests](Plex-Requests#1-accessing-plex-requests) -> Admin -> Notifications -> check "Enable Pushover notifications" and type in your Pushover User Key and the Application Token (you can click the "Test Pushover" to check if it's working ok) -> Click "Update Settings".
-
-
-## Sonarr / Radarr
-
-You can have Soanrr and Radarr also send out alerts via Pushover when new media is added. 
+You can also have Sonarr and Radarr also send out alerts via Pushover when new media is added. 
