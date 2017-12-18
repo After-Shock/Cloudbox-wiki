@@ -39,8 +39,7 @@ Note: Make sure `/mnt/local` has enough space to store the imported media.
 |:------------------ |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <pre>/mnt/local/Media</pre> | <pre> Location of media stored on the server. <br /><br /> Size of this path is checked periodically (default 30 min). When the folder size reaches its threshold (default 200GB), media will be moved to Google Drive, freeing up local disk space </pre> |
 
-
-
+Note: For more info, see the [[UnionFS Cleaner]] page.
 
 
 ## Docker Paths
@@ -49,7 +48,7 @@ The Dockerized app (e.g. Plex) will "see" the **Docker Path**, but that path wil
 
 By default, NZBGet and ruTorrent downloads are stored in `~/downloads` on the server (i.e **Host Path**), however, this can be changed to point elsewhere (e.g. a second hard drive) by editing the [[settings.yml|Configuring-Settings]] file. But regardless of the download location chosen, the **Docker Path** will always be the same.
 
-Note 2: It is advised to leave at least 100GB free on `/opt` for the docker data (see below).
+Note: It is advised to leave at least 100GB free on `/opt` for the docker data (see below).
 
 ### Plex
 
