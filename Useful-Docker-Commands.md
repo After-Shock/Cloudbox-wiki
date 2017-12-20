@@ -88,7 +88,8 @@ Notes:
   - This is where your config files will go.
   - You will need to:
     - create the folder: `mkdir /opt/<name>`
-    - set ownership: `sudo chown -R <user>:<group> /opt/<name>`
+    - set ownership: `sudo chown -R <user>:<group> /opt/<name>` 
+      - replace `<user>` and `<group>` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid))
     - set permissions: `sudo chmod -R g+s /opt/<name>`
 - `-v /mnt/downloads/<name>:/mnt/downloads/<name>` (if required; will also require changing the downloads path within the app itself)
   - This is where your downloaded files will go.
@@ -96,9 +97,11 @@ Notes:
   - You will need to: 
     - create the folder: `mkdir /mnt/downloads/<name>`
     - set ownership: `sudo chown -R <user>:<group> /mnt/downloads/<name>`
+      - replace `<user>` and `<group>` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid))
     - set permissions: `sudo chmod -R g+s /mnt/downloads/<name>`
 - `-v /etc/localtime:/etc/localtime:ro`
-- `-e PGID=<your_group_ID> -e PUID=<your_user_ID>` (use command `id` to check)
+- `-e PGID=<your_group_ID> -e PUID=<your_user_ID>`
+  - replace `<user>` and `<group>` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid)).
 - Ports:
   - For the web admin page (i.e. what nginx-proxy will redirect to; Example: 32400 for Plex):
     - `-p 127.0.0.1:<port>:<container_web_port>` 
