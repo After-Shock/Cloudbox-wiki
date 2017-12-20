@@ -79,7 +79,12 @@
 ### Network
 
 1. Click the Settings icon (top right) -> "Server" (top) -> "Network" (left).
-2. Disable "Enable local network discovery (GDM)".
+
+1. Set the following:
+
+   - "Secure Connections": `Preferred`.
+
+   - "Enable local network discovery (GDM)": `disabled`.
 
 1. Click "SAVE CHANGES".
 
