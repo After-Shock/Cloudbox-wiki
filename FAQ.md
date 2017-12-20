@@ -118,16 +118,24 @@ If your server has ≤ 16GB RAM, it's possible Plexdrive is maxing it out (you c
 
 ## Find your User ID (UID) and Group ID (GID)
 
-Use the following commands to find out your user accounts user id (UID) and group id (GID).
+Use the following commands to find out your account's user name and group info:
 
 ```
-$ id `whoami`
+id
 ```
+or
+
+```
+id `whoami`
+```
+
+
+
 
 You'll see a line like the following:
 
 ```
-uid=1000(myuser) gid=1001(myuser) groups=1001(myuser)
+uid=1000(yourusername) gid=1001(yourgroup) groups=1001(yourgroup)
 ```
 
 
