@@ -105,7 +105,7 @@ If your server has ≤ 16GB RAM, it's possible Plexdrive is maxing it out (you c
 
   1. `sudo nano /etc/systemd/system/plexdrive.service`
 
-  1. Modify the `--max-chunks=250` to `--max-chunks=100`.
+  1. Modify the `--max-chunks=250` to something lower (e.g. `--max-chunks=100`).
 
   1. `Ctrl-x`, `y`, and `enter` to save.
 
