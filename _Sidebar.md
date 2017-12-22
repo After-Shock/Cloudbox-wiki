@@ -67,4 +67,5 @@
 ***
 
 ### Community Chat ###
+- [Forums](https://forums.cloudbox.rocks)
 - [Slack Channel](https://join.slack.com/t/cloud-box/shared_invite/MjM1NTI2OTEwMzIyLTE1MDQzOTAyNDAtYWNhOWY2NzNiZA)
