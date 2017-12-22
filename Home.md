@@ -55,4 +55,4 @@ _Last updated on Dec 18, 2017._
 
 ### Community ###
 - [Forums](https://forums.cloudbox.rocks)
-- [Slack Channel](https://join.slack.com/t/cloud-box/shared_invite/MjM1NTI2OTEwMzIyLTE1MDQzOTAyNDAtYWNhOWY2NzNiZA)
+- [Slack](https://join.slack.com/t/cloud-box/shared_invite/MjM1NTI2OTEwMzIyLTE1MDQzOTAyNDAtYWNhOWY2NzNiZA)
