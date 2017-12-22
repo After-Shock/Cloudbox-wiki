@@ -232,8 +232,8 @@ sudo reboot
 1. Start Unionfs and Plexdrive
 
    ```
-   sudo systemctl start unionfs.service
    sudo systemctl start plexdrive.service
+   sudo systemctl start unionfs.service
    ```
 
 
