@@ -3,12 +3,7 @@
 
 Choose one of the following:
 
-Cloudbox by default uses the user name `seed` under the `seed` and `sudo` groups. 
-
-
-
-
-### Create seed user account (recommended)
+### Create a new user account `seed` (recommended)
 
 In this step, you will create the user account `seed` and add it to the `seed` and `sudo` groups.  
 
@@ -23,11 +18,29 @@ sudo passwd seed
 su seed
 ```
 
+_Note: If you have an existing user account that you don't plan on using, it may be a good idea to remove it and just stick with using `seed` for everything._
+
+### Create a new user account other than `seed`
+
+Run the following commands line by line:
+
+```bash
+sudo useradd -m <username>
+sudo usermod -aG sudo <groupname>
+sudo passwd <username>
+su <username>
+```
+
+Set `user` in [[settings.yml|Configuring Settings]] to your username and replace all mentions of `seed:seed` in the wiki with your `username:groupname`.
+
+_Note: If you decide to change your username after Cloudbox install, you will need to update the service.d files with your new username/group, see [[FAQ|FAQ#dont-see-your-google-drive-files-in-mntplexdrive]]_
 
 
-_Note 1: If you want to use another user name other than `seed` or already have a user account setup, skip this step and set `user` in [[settings.yml|Configuring Settings]] and replace all mentions of `seed:seed` in the wiki with your `username:groupname`._
+### Use an existing user account
 
-_Note 2: If you decide to change your username after Cloudbox install, you will need to update the service.d files with your new username/group, see [[FAQ|FAQ#dont-see-your-google-drive-files-in-mntplexdrive]]_
+Set `user` in [[settings.yml|Configuring Settings]] to your username and replace all mentions of `seed:seed` in the wiki with your `username:groupname`.
+
+_Note: If you decide to change your username after Cloudbox install, you will need to update the service.d files with your new username/group, see [[FAQ|FAQ#dont-see-your-google-drive-files-in-mntplexdrive]]_
 
 
 
