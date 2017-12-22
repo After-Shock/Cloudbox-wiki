@@ -33,14 +33,14 @@ su <username>
 
 Set `user` in [[settings.yml|Configuring Settings]] to your username and replace all mentions of `seed:seed` in the wiki with your `username:groupname`.
 
-_Note: If you decide to change your username after Cloudbox install, you will need to update the service.d files with your new username/group, see [[FAQ|FAQ#dont-see-your-google-drive-files-in-mntplexdrive]]_
+_Note: If you decide to change your username after Cloudbox install, you will need to update the service.d files with your new username/group, see [[FAQ|FAQ#error-process-xxxxx-execstopbinfusermount--uz-mntplexdrive-codeexited-status217user]]_
 
 
 ### Use an existing user account
 
 Set `user` in [[settings.yml|Configuring Settings]] to your username and replace all mentions of `seed:seed` in the wiki with your `username:groupname`.
 
-_Note: If you decide to change your username after Cloudbox install, you will need to update the service.d files with your new username/group, see [[FAQ|FAQ#dont-see-your-google-drive-files-in-mntplexdrive]]_
+_Note: If you decide to change your username after Cloudbox install, you will need to update the service.d files with your new username/group, see [[FAQ|FAQ#error-process-xxxxx-execstopbinfusermount--uz-mntplexdrive-codeexited-status217user]]_
 
 
 
