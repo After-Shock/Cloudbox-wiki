@@ -3,6 +3,10 @@
 
 We will create the user account `seed` and add it to the `sudo` group.  
 
+_Note 1: You may use another user name other than `seed`. Simply set that as your preferred user name in [[settings.yml|Configuring Settings]], replace all mentions of `seed` in the wiki with your user name, and skip to step #2._
+
+_Note 2: If you decide to change your username after Cloudbox install, you will need to update the service.d files with your new username/group, see [[FAQ|FAQ#dont-see-your-google-drive-files-in-mntplexdrive]]_
+
 Run the following commands line by line:
 
 
@@ -13,9 +17,8 @@ sudo passwd seed
 su seed
 ```
 
-_Note 1: You may use another user name other than `seed`. Simply set that as your preferred user name in [[settings.yml|Configuring Settings]] and replace all mentions of `seed` in the wiki with your user name._
 
-_Note 2: If you decide to change your username after Cloudbox install, you will need to update the service.d files with your new username/group, see [[FAQ|FAQ#dont-see-your-google-drive-files-in-mntplexdrive]]_
+
 
 
 ### 2. Install Prerequisites  ####
