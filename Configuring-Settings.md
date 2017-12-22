@@ -42,7 +42,7 @@
 
 ## 3. Options in Settings
 
-To see the information below in a nice-looking table, click [[here|https://pste.eu/p/TIPJ.html]].
+To see the information below in a nice-looking table, click [[here|https://pste.eu/p/4Ycx.html]].
 
 
 ---
@@ -50,7 +50,7 @@ To see the information below in a nice-looking table, click [[here|https://pste.
 
 - `user`: User account for Cloudbox. If user account with this name does not already exist, it will be created for you. Default is `seed`. This parameter is required.
 
-- `passwd`: Password for user account. This parameter is required.
+- `passwd`: Password for new account. You can leave it as empty quotes (`""`) if an account was already created. 
 
   - Note: Password **must** be in alphanumeric characters. No special characters. 
 
