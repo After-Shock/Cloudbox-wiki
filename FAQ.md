@@ -612,6 +612,7 @@ Replace `user` and `group` to match yours' (see [here](FAQ#find-your-user-id-uid
 
 ```
 sudo chown -R user:group /opt/plex/Library/Logs
+sudo chmod -R g+s /opt/plex/Library/Logs
 ```
 
 _Note: If you have a separate Plex and Feeder setup, this will be done on the server where Plex is installed._
