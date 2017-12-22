@@ -1,7 +1,7 @@
 
 ###  1. Create the user account  ### 
 
-We will create the user account `seed` and add it to the `sudo` group.  
+We will create the user account `seed` and add it to the `seed` and `sudo` groups.  
 
 _Note 1: If you want to use another user name other than `seed`, skip this step and set your preferred user name in [[settings.yml|Configuring Settings]] and replace all mentions of `seed` in the wiki with your user name._
 
