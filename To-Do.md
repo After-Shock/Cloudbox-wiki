@@ -8,7 +8,7 @@
 - autodl irssi
 - rclone sftp mount for feeder local files
 - plexrequests path change on customizing plex libraries page. 
-
+- rutorrent page
 
 
 CB
