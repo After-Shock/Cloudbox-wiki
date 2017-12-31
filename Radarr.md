@@ -89,7 +89,7 @@ _Tip: For those that are interested, [[my file naming preferences|https://github
 
 1. Your settings will look like this:
 
-    ![Radarr NZBGet Downloader](https://i.imgur.com/XHm9D2V.png)
+    ![Radarr NZBGet Downloader](https://i.imgur.com/JbN4EcK.png)
 
 1. Click "Save" to add NZBGet.
 
