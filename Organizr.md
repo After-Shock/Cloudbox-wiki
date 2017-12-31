@@ -115,4 +115,4 @@ The following guide will help you setup Organizer. If you would like an alternat
 
     - Click "SAVE".
 
-    ![  ](https://i.imgur.com/oy4WuZU.png)
+    ![  ](https://i.imgur.com/zFTJ1Or.png)
