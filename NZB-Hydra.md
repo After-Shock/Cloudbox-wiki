@@ -47,7 +47,7 @@ Enter setup by clicking on "Config" at the top.
        - NZB access type: `Redirect to indexer`
        - NZB adding type: `Upload NZB` (works better than `Send link`) 
   
-       ![](https://i.imgur.com/Mn4oJD5.png)
+       ![](https://i.imgur.com/n3ZV0Ki.png)
 
 ## 3. API Key
 
