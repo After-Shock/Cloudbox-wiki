@@ -256,7 +256,7 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
 1. The settings will look like this:
 
-    ![Radarr Plex Autoscan](https://i.imgur.com/e2QyLz8.png)
+    ![Radarr Plex Autoscan](https://i.imgur.com/niiQNPe.png)
 
 
 1. Click "Save" to add Plex Autoscan.
