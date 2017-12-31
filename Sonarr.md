@@ -129,7 +129,7 @@ _Tip: For those that are interested, [[my file naming preferences|https://github
 
 ## 5. Indexers
 
-After adding in your favorite [[indexers|Prerequisites#6-preferred-downloading-method]], you can add the following ...
+After adding in your favorite [[indexers|Prerequisites#6-preferred-downloading-method]], you may add the following ...
 
 ### NZB Hydra
 
