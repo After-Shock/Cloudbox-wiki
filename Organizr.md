@@ -95,7 +95,7 @@ The following guide will help you setup Organizer. If you would like an alternat
 
     - Click "SAVE".
 
-    ![  ](https://i.imgur.com/CFUtiTz.png)
+    ![  ](https://i.imgur.com/YHAJFyT.png)
 
 1. Click the Radarr icon at the top.
 
