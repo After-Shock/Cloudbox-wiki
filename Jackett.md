@@ -4,7 +4,7 @@
 
 ## 2. Settings
   
-   ![](https://i.imgur.com/CAHMsfH.png)
+   ![](https://i.imgur.com/BboNt8S.png)
 
 
 ### Setting Admin password
