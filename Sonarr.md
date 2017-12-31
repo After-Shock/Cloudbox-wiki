@@ -121,7 +121,7 @@ _Tip: For those that are interested, [[my file naming preferences|https://github
 
 1. Your settings will look like this:
 
-    ![Sonarr ruTorrent Downloader](http://i.imgur.com/kE701JT.png)
+    ![Sonarr ruTorrent Downloader](https://i.imgur.com/GBW7jRO.png)
 
 1. Click "Save" to add ruTorrent.
 
