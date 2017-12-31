@@ -57,7 +57,7 @@
        - _For a Feeder / Plex setup, use `radarr.yourdomain.com` (or the IP address of your Feeder box) instead._
 
 
-    - "Radarr server port":`8080`
+    - "Radarr server port":`7878`
 
        - _For a Feeder / Plex setup, use `443` instead._
 
@@ -92,7 +92,7 @@
 
        - _For Feeder / Plex setup, use `sonarr.yourdomain.com` (or the IP address of your Feeder box) instead._
 
-    - "Sonarr server port":`8080`
+    - "Sonarr server port":`8989`
 
        - _For Feeder / Plex setup, use `443` instead._
 
