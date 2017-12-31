@@ -115,6 +115,6 @@
 
     _Note: If you have a separate Plex and Feeder setup, this will be done on the server where Plex is installed.
 
-    ![](https://i.imgur.com/7I0r5E7.png)
+    ![](https://i.imgur.com/fqnAyI5.png)
 
 1. Click `Sign Out` to exit Settings.
