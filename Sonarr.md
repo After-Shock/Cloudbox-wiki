@@ -88,7 +88,7 @@ _Tip: For those that are interested, [[my file naming preferences|https://github
 
 1. Your settings will now look like this:
 
-    ![Sonarr NZBGet Downloader](https://i.imgur.com/tIn5kbF.png)
+    ![Sonarr NZBGet Downloader](https://i.imgur.com/fWQB2Zm.png)
 
 1. Click "Save" to add NZBGet.
 
