@@ -48,7 +48,7 @@ Under "Configured Indexers":
 
          - You will need to replace...
 
-           - `https` with `http`
+           - `https` with `http`.
            
            - `jackett.yourdomain.com` with `jackett:9117`.
 
