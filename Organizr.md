@@ -105,7 +105,7 @@ The following guide will help you setup Organizer. If you would like an alternat
 
     - Click "SAVE".
 
-    ![  ](https://i.imgur.com/5huf18e.png)
+    ![  ](https://i.imgur.com/IL1moq1.png)
 
 1. Click the NZBGet icon at the top.
 
