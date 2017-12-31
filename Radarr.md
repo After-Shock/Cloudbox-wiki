@@ -112,9 +112,9 @@ _Tip: For those that are interested, [[my file naming preferences|https://github
 
    1. Use SSL: `No`
 
-   1. Username: [[your ruTorrent Username|Configuring Settings]]
+   1. Username: [[Your ruTorrent Username|Configuring Settings]]
 
-   1. Password: [[your ruTorrent Password|Configuring Settings]]
+   1. Password: [[Your ruTorrent Password|Configuring Settings]]
 
    1. Category: `radarr`
 
@@ -150,7 +150,7 @@ After adding in your favorite [[indexers|Prerequisites#6-preferred-downloading-m
 
    1. URL: `http://nzbhydra:5075`
 
-   1. API Key: [[your NZB Hydra API Key|NZB-Hydra#3-api-key]]
+   1. API Key: [[Your NZB Hydra API Key|NZB-Hydra#3-api-key]]
 
    1. Additional Parameters: leave blank
 
@@ -176,13 +176,13 @@ Note: Each Indexer will need to be added separately.
 
    1. Name: Indexer Name
 
-   1. Enable RSS Sync: _your preference_
+   1. Enable RSS Sync: _Your Preference_
 
-   1. Enable Search: _your preference_
+   1. Enable Search: _Your Preference_
 
-   1. URL: [[indexer's Torznab Feed|Jackett#3-adding-indexers-to-sonarrradarr]]
+   1. URL: [[Indexer's Torznab Feed|Jackett#3-adding-indexers-to-sonarrradarr]]
 
-   1. API Key: [[your Jackett API Key|Jackett#3-adding-indexers-to-sonarrradarr]]
+   1. API Key: [[Your Jackett API Key|Jackett#3-adding-indexers-to-sonarrradarr]]
 
    1. Additional Parameters: leave blank
 
@@ -246,7 +246,7 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
    1. On Rename:`No`
 
-   1. URL: [[your Plex Autoscan URL|Plex-Autoscan#3-obtaining-the-plex-autoscan-url]]
+   1. URL: [[Your Plex Autoscan URL|Plex-Autoscan#3-obtaining-the-plex-autoscan-url]]
 
    1. Method:`POST`
 
