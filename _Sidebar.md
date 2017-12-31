@@ -3,7 +3,7 @@
 ***
 
 ### Basics ###
-1. [[Introduction]]
+1. [[Introduction]] (work in progress)
 1. [[Paths]]
 1. [[Accessing Cloudbox Apps]]
 
@@ -33,17 +33,17 @@
 ***
 
 ### Advanced Configuration ###
-- [[Customizing Plex Libraries]] (updated)
+- [[Customizing Plex Libraries]]
 
 ***
 
 ### More Information ###
-- [[UnionFS Cleaner]] (new)
-- [[Cloudbox Addons]] (updated)
-- [[Backup and Restore]] (new)
+- [[UnionFS Cleaner]]
+- [[Cloudbox Addons]] (work in progress)
+- [[Backup and Restore]]
 - [[Pushover]] (new)
 - [[Updating Cloudbox]]
-- [[Updating Cloudbox Apps]] (new)
+- [[Updating Cloudbox Apps]]
 - [[Google Drive API Client ID and Client Secret]]
 - [[Useful Docker Commands]]
 - [[Revoking SSL Certificates]]
