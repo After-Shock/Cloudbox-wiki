@@ -41,7 +41,7 @@
 - [[UnionFS Cleaner]]
 - [[Cloudbox Addons]] (work in progress)
 - [[Backup and Restore]]
-- [[Pushover]] (new)
+- [[Pushover]]
 - [[Updating Cloudbox]]
 - [[Updating Cloudbox Apps]]
 - [[Google Drive API Client ID and Client Secret]]
