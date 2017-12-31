@@ -188,7 +188,7 @@ Note: Each Indexer will need to be added separately.
 
 1. Your settings will look like this:
 
-    ![Radarr Jackett](http://i.imgur.com/QWPYWaY.png)
+    ![Radarr Jackett](https://i.imgur.com/T9vrrAW.png)
 
 1. Click "Save" to add the indexer.
 
