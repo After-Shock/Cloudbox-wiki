@@ -80,7 +80,7 @@
 
     - Click `Update Settings`.
 
-    ![](https://i.imgur.com/QZCN9S5.png)
+    ![](https://i.imgur.com/YKEPArN.png)
 
 1. On the "Sonarr" settings page:
 
