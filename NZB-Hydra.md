@@ -41,9 +41,9 @@ Enter setup by clicking on "Config" at the top.
        - Host: `nzbget`
        - Port: `6789`
        - Use SSL: `OFF`
-       - Username: [[your NZBGet Username|NZBGet]]
-       - Password: [[your NZBGet Password|NZBGet]]
-       - Default category: leave blank (`No category` doesn't work too well)
+       - Username: [[Your NZBGet Username|NZBGet]]
+       - Password: [[Your NZBGet Password|NZBGet]]
+       - Default category: _Leave Blank_ (`No category` doesn't work too well)
        - NZB access type: `Redirect to indexer`
        - NZB adding type: `Upload NZB` (works better than `Send link`) 
   
