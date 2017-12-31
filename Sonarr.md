@@ -147,7 +147,7 @@ After adding in your favorite [[indexers|Prerequisites#6-preferred-downloading-m
 
    1. Enable Search: your preference
 
-   1. URL: `http://nzbhydra:5075/`
+   1. URL: `http://nzbhydra:5075`
 
    1. API Path: `/api`
 
