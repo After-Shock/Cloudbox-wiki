@@ -1,4 +1,4 @@
-_Last updated on Dec 30, 2017._
+_Last updated on Dec 31, 2017._
 
 ### Basics ###
 1. [[Introduction]]
@@ -39,6 +39,13 @@ _Last updated on Dec 30, 2017._
 - [[Google Drive API Client ID and Client Secret]]
 - [[Useful Docker Commands]]
 - [[Revoking SSL Certificates]]
+
+
+### Optional Docker containers
+- Resilio Sync (coming soon)
+- Nextcloud (coming soon)
+- Ombi (coming soon)
+
 
 ### Misc Guides
 - [[Nativefier]] (Create desktop apps for Cloudbox)
