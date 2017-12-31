@@ -180,7 +180,7 @@ Note: Each Indexer will need to be added separately.
 
    1. Enable Search: _your preference_
 
-   1. URL: [[Indexer's Torznab Feed|Jackett#3-adding-indexers-to-sonarrradarr]]
+   1. URL: [[indexer's Torznab Feed|Jackett#3-adding-indexers-to-sonarrradarr]]
 
    1. API Key: [[your Jackett API Key|Jackett#3-adding-indexers-to-sonarrradarr]]
 
