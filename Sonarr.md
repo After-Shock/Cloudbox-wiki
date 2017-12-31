@@ -191,7 +191,7 @@ Note: Each Indexer will need to be added separately.
 
 1. Your settings will look like this:
 
-    ![Sonarr Jackett](https://i.imgur.com/ux36908.png)
+    ![Sonarr Jackett](https://i.imgur.com/WBTf9PJ.png)
 
 
 1. Click "Save" to add the indexer.
