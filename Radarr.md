@@ -77,9 +77,9 @@ _Tip: For those that are interested, [[my file naming preferences|https://github
 
    1. Port: `6789`
 
-   1. Username:  [[your NZBGet Username|NZBGet]]
+   1. Username:  [[Your NZBGet Username|NZBGet]]
 
-   1. Password:  [[your NZBGet Password|NZBGet]]
+   1. Password:  [[Your NZBGet Password|NZBGet]]
 
    1. Category: `radarr`
 
