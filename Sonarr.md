@@ -74,7 +74,7 @@ _Tip: For those that are interested, [[my file naming preferences|https://github
 
    1. Host: `nzbget`
 
-   1. Port: `8080`
+   1. Port: `6789`
 
    1. Username:  [[your NZBGet Username|NZBGet]]
 
@@ -147,7 +147,7 @@ After adding in your favorite [[indexers|Prerequisites#6-preferred-downloading-m
 
    1. Enable Search: your preference
 
-   1. URL: `http://nzbhydra:8080`
+   1. URL: `http://nzbhydra:5075`
 
    1. API Path: `/api`
 
