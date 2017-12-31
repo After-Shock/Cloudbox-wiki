@@ -118,7 +118,7 @@ _Tip: For those that are interested, [[my file naming preferences|https://github
 
    1. Category: `radarr`
 
-   1. Directory: leave blank
+   1. Directory: _Leave Blank_
 
 1. Your settings will now look like this:
 
@@ -144,15 +144,15 @@ After adding in your favorite [[indexers|Prerequisites#6-preferred-downloading-m
 
    1. Name: NZB Hydra
 
-   1. Enable RSS Sync: _your preference_
+   1. Enable RSS Sync: _Your Preference_
 
-   1. Enable Search: _your preference_
+   1. Enable Search: _Your Preference_
 
    1. URL: `http://nzbhydra:5075`
 
    1. API Key: [[Your NZB Hydra API Key|NZB-Hydra#3-api-key]]
 
-   1. Additional Parameters: leave blank
+   1. Additional Parameters: _Leave Blank_
 
 1. Your settings will look like this:
 
@@ -184,7 +184,7 @@ Note: Each Indexer will need to be added separately.
 
    1. API Key: [[Your Jackett API Key|Jackett#3-adding-indexers-to-sonarrradarr]]
 
-   1. Additional Parameters: leave blank
+   1. Additional Parameters: _Leave Blank_
 
 1. Your settings will look like this:
 
@@ -250,9 +250,9 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
    1. Method:`POST`
 
-   1. Username: leave blank
+   1. Username: _Leave Blank_
 
-   1. Password: leave blank
+   1. Password: _Leave Blank_
 
 1. The settings will look like this:
 
