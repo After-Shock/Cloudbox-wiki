@@ -157,7 +157,7 @@ After adding in your favorite [[indexers|Prerequisites#6-preferred-downloading-m
 
 1. Your settings will look like this:
 
-    ![Sonarr NZB Hydra](https://i.imgur.com/3hMwgco.png)
+    ![Sonarr NZB Hydra](https://i.imgur.com/yepStqc.png)
 
 1. Click "Save" to add NZB Hydra.
 
