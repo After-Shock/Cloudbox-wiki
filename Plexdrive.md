@@ -1,3 +1,8 @@
+The guide below will take you through setting up Plexdrive. 
+
+_Note: If your server has <16GB of RAM, give [[this|FAQ#server-ram-is-being-maxed-out]] a read after finishing the steps below._
+
+
 1. Create a [[Google Drive API Client ID and Client Secret]] for Plexdrive.
 
     Note: this will be different from the Rclone one. You can use the same Google account; but just create a different project for Plexdrive. 
