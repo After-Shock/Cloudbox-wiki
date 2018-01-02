@@ -101,7 +101,7 @@ If you are having issues upgrading the kernel on ovh, where the kernel upgrade i
 
 ## Server RAM is being maxed out
 
-If your server has ≤ 16GB RAM, it's possible Plexdrive is maxing it out (you can check this via `htop`). Try lowering the max chunks used by Plexdrive:
+If your server has < 16GB RAM, it's possible Plexdrive is maxing it out (you can check this via `htop`). Try lowering the max chunks used by Plexdrive:
 
   1. `sudo nano /etc/systemd/system/plexdrive.service`
 
