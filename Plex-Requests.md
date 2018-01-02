@@ -67,7 +67,7 @@
 
     - "Enable Radarr SSL": `disabled`.
 
-       - _For Feeder / Plex setup, set to `enabled`._
+       - _For Feeder / Plex setup, set it to `enabled`._
 
 
     - Click `Update Settings`.
@@ -100,7 +100,7 @@
 
     - "Enable Sonarr SSL": `disabled`.
 
-       - _For Feeder / Plex setup, set to `enabled`._
+       - _For Feeder / Plex setup, set it to `enabled`._
 
 
     - Click `Update Settings`.
