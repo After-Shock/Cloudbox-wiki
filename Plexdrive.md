@@ -1,6 +1,6 @@
 The guide below will take you through setting up Plexdrive. 
 
-_Note: If your server has <16GB of RAM, give [[this|FAQ#server-ram-is-being-maxed-out]] a read after finishing the steps below._
+_Note: If your server has < 16GB of RAM, give [[this|FAQ#server-ram-is-being-maxed-out]] a read after finishing the steps below._
 
 
 1. Create a [[Google Drive API Client ID and Client Secret]] for Plexdrive.
