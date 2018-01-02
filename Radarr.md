@@ -52,6 +52,8 @@
 
 1. Set your preferred naming format.
 
+1. Disable "Analyse video files".
+
 1. Click "Save".
 
 _Tip: For those that are interested, [[my file naming preferences|https://github.com/desimaniac/docs/blob/master/my_sonarr_and_radarr_naming_preferences.md]]._
