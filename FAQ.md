@@ -772,9 +772,11 @@ Fix:
 
 ## Purpose of a Control File in Plex Autoscan
 
-The control file is a blank file (i.e. `mounted.bin`) that resides on the root folder of Google Drive. The purpose of a control file is to tell Plex Autoscan that your Google Drive is mounted.
+Every time Sonarr or Radarr downloads a new file, or upgrades a previous one, a request is sent to Plex via Autoscan to scan the path for the new media. Since Sonarr and Radarr delete previous files on upgrades, the scan will cause the new media to show up in your Plex Library, however, the deleted files would be missing, and instead, marked as "unavailable" (i.e. trash icon). When the control file is present and the option in the Plex Autoscan config is enabled (default), Plex Autoscan will empty the trash for you, thereby, removing the deleted media from the library.
 
-If Plex scanned for media when the Google Drive mount was ever disconnected, it would mark the missing files as "unavailable", and would wait on an emptying trash request to remove them completely. Plex Autoscan, however, would not send that request since the control file would not be available. Once Google Drive was remounted, all the files marked unavailable in Plex would be playable again and Plex Autoscan would resume its emptying trash duties post-scan.
+If your Google Drive ever disconnected during a Plex scan of your media, Plex would mark the missing files as unavailable and emptying the trash would cause them to be removed out of the library. To avoid this from happening, Plex Autoscan checks for a control file in the unionfs path (i.e. `/mnt/unionfs/mounted.bin)` before running any empty trash commands. The control file is just a blank file that resides on the root folder of Google Drive and let's Plex Autoscan know that your Google Drive is mounted. 
+
+Once Google Drive is remounted, all the files marked unavailable in Plex will be playable again and Plex Autoscan will resume its emptying trash duties post-scan.
 
 To learn more about Plex Autoscan, see https://github.com/l3uddz/plex_autoscan.
 
