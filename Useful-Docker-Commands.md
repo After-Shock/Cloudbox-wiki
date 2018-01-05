@@ -152,7 +152,7 @@ docker run -d \
 	--network-alias=nextcloud  \
 	-p '127.0.0.1:4674:80'  \
 	-e 'VIRTUAL_HOST=nextcloud.yourdomain.com'  \
-	-e 'VIRTUAL_PORT=4674'  \
+	-e 'VIRTUAL_PORT=80'  \
 	-e 'LETSENCRYPT_HOST=nextcloud.yourdomain.com'  \
 	-e 'LETSENCRYPT_EMAIL=your@email.com'  \
 	nextcloud
