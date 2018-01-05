@@ -79,31 +79,34 @@ Notes:
 - All <container_*> items are specified by the Docker container. 
 - Ideally, you want all <name> items have the same name.
 - Pick docker images that allow you to specify PUID/PGID.
-```
+- You can break a command into multiple lines with a backslash '\'
+ at the end of all the lines except the last one.```
 
 - Basics:
   - `--name=<name>`
   - `--restart=always`
+    - To have it startup automatically.
   - `-v /etc/localtime:/etc/localtime:ro`
+    - To set the docker container's timezone to your host timezone.
   - `-e PUID=<your_user_ID> -e PGID=<your_group_ID>`
-    - replace `<user>` and `<group>` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid)).
+    - Replace `<user>` and `<group>` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid)).
 - Mount Paths:
   - `-v /opt/<name>:<container_config_path>` 
     - This is where your config files will go.
     - You will need to:
-      - create the folder: `mkdir /opt/<name>`
-      - set ownership: `sudo chown -R <user>:<group> /opt/<name>` 
-        - replace `<user>` and `<group>` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid))
-      - set permissions: `sudo chmod -R g+s /opt/<name>`
+      - Create the folder: `mkdir /opt/<name>`
+      - Set ownership: `sudo chown -R <user>:<group> /opt/<name>` 
+        - Replace `<user>` and `<group>` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid))
+      - Set permissions: `sudo chmod -R g+s /opt/<name>`
   - `-v /mnt/downloads/<name>:/mnt/downloads/<name>`
     - Only required if your Docker app needs a path for downloads.
     - You will need to set `/mnt/downloads/<name>` as the downloads path in your app.  
     - This path will be accessible to Sonarr and Radarr. 
     - You will need to: 
-      - create the folder: `mkdir /mnt/downloads/<name>`
-      - set ownership: `sudo chown -R <user>:<group> /mnt/downloads/<name>`
-        - replace `<user>` and `<group>` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid))
-      - set permissions: `sudo chmod -R g+s /mnt/downloads/<name>`
+      - Create the folder: `mkdir /mnt/downloads/<name>`
+      - Set ownership: `sudo chown -R <user>:<group> /mnt/downloads/<name>`
+        - Replace `<user>` and `<group>` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid))
+      - Set permissions: `sudo chmod -R g+s /mnt/downloads/<name>`
 - Network: 
   - `--network=cloudbox `
   - `--network-alias=<name> `
@@ -123,11 +126,35 @@ Here are some examples:
 
 
 ```
-docker run -d --name=thelounge --network=cloudbox --network-alias=thelounge --restart=always -v /opt/thelounge:/home/lounge/data -v /etc/localtime:/etc/localtime:ro -e PGID=1000 -e PUID=1000 -e VIRTUAL_HOST=thelounge.yourdomain.com -e VIRTUAL_PORT=9000 -e LETSENCRYPT_HOST=thelounge.yourdomain.com -e LETSENCRYPT_EMAIL=your@email.com -p 127.0.0.1:9001:9000 thelounge/lounge:latest
+docker run -d  \
+	--name=thelounge  \
+	--restart=always  \
+	-e PGID=1000 -e PUID=1000  \
+	-v /opt/thelounge:/home/lounge/data  \
+	-v /etc/localtime:/etc/localtime:ro  \
+	--network=cloudbox  \
+	--network-alias=thelounge  \
+	-p 127.0.0.1:9001:9000  \
+	-e VIRTUAL_HOST=thelounge.yourdomain.com  \
+	-e VIRTUAL_PORT=9000  \
+	-e LETSENCRYPT_HOST=thelounge.yourdomain.com  \
+	-e LETSENCRYPT_EMAIL=your@email.com  \
+	thelounge/lounge:latest
 ```
 
 ```
-docker run -d --name=nextcloud --network=cloudbox --network-alias=nextcloud -e 'VIRTUAL_HOST=nextcloud.yourdomain.com' -e 'VIRTUAL_PORT=80' -e 'LETSENCRYPT_HOST=nextcloud.yourdomain.com' -e 'LETSENCRYPT_EMAIL=your@email.com' -p '127.0.0.1:4674:80' -v '/opt/nextcloud:/var/www' nextcloud
+docker run -d \
+	--name=nextcloud  \
+	--restart=always \
+	-v '/opt/nextcloud:/var/www'  \
+	--network=cloudbox  \
+	--network-alias=nextcloud  \
+	-p '127.0.0.1:4674:80'  \
+	-e 'VIRTUAL_HOST=nextcloud.yourdomain.com'  \
+	-e 'VIRTUAL_PORT=80'  \
+	-e 'LETSENCRYPT_HOST=nextcloud.yourdomain.com'  \
+	-e 'LETSENCRYPT_EMAIL=your@email.com'  \
+	nextcloud
 ```
 
 
