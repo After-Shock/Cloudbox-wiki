@@ -67,7 +67,7 @@ This will be in the format of `http://server_ip:server_port/server_pass`.
 _Note: If you have a separate Plex and Feeder setup, this will be done on the server where Plex is installed._
 
 
-## 4. Upload Blank Control file to Google Drive
+## 4. Upload a Blank Control File to Google Drive
 
 
 ```
