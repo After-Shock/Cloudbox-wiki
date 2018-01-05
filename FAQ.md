@@ -772,7 +772,7 @@ Fix:
 
 ## Purpose of a Control File in Plex Autoscan
 
-Every time Sonarr or Radarr downloads a new file, or upgrades a previous one, a request is sent to Plex via Autoscan to scan the path for the new media. Since Sonarr and Radarr delete previous files on upgrades, the scan will cause the new media to show up in your Plex Library, however, the deleted files would be missing, and instead, marked as "unavailable" (i.e. trash icon). When the control file is present and the option in the Plex Autoscan config is enabled (default), Plex Autoscan will empty the trash for you, thereby, removing the deleted media from the library.
+Every time Sonarr or Radarr downloads a new file, or upgrades a previous one, a request is sent to Plex via Plex Autoscan to scan the movie folder or TV season path and look for changes. Since Sonarr and Radarr delete previous files on upgrades, the scan will cause the new media to show up in your Plex Library, however, the deleted files would be missing, and instead, marked as "unavailable" (i.e. trash icon). When the control file is present and the option in the Plex Autoscan config is enabled (default), Plex Autoscan will empty the trash for you, thereby, removing the deleted media from the library.
 
 If your Google Drive ever disconnected during a Plex scan of your media, Plex would mark the missing files as unavailable and emptying the trash would cause them to be removed out of the library. To avoid this from happening, Plex Autoscan checks for a control file in the unionfs path (i.e. `/mnt/unionfs/mounted.bin)` before running any empty trash commands. The control file is just a blank file that resides on the root folder of Google Drive and let's Plex Autoscan know that your Google Drive is mounted. 
 
