@@ -71,9 +71,8 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
 
 
 ```
-cd ~/ 
-touch mounted.bin
-rclone -v move mounted.bin google:
+touch ~/mounted.bin
+rclone -v move ~/mounted.bin google:
 ```
 
 _Note 1: If your Rclone remote config has a different name for Google Drive, replace `google:` with yours._
