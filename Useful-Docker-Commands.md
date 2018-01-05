@@ -81,9 +81,7 @@ Notes:
 ```
 
 - `--name=<name>`
-- `--network=cloudbox `
-- `--network-alias=<name> `
-- ` --restart=always`
+- `--restart=always`
 - `-v /opt/<name>:<container_config_path>` 
   - This is where your config files will go.
   - You will need to:
@@ -102,6 +100,8 @@ Notes:
 - `-v /etc/localtime:/etc/localtime:ro`
 - `-e PGID=<your_group_ID> -e PUID=<your_user_ID>`
   - replace `<user>` and `<group>` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid)).
+- `--network=cloudbox `
+- `--network-alias=<name> `
 - Ports:
   - For the web admin page (i.e. what nginx-proxy will redirect to; Example: 32400 for Plex):
     - `-p 127.0.0.1:<port>:<container_web_port>` 
