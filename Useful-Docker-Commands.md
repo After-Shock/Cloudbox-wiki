@@ -80,37 +80,42 @@ Notes:
 - Ideally, you want all <name> items have the same name.
 ```
 
-- `--name=<name>`
-- `--restart=always`
-- `-v /opt/<name>:<container_config_path>` 
-  - This is where your config files will go.
-  - You will need to:
-    - create the folder: `mkdir /opt/<name>`
-    - set ownership: `sudo chown -R <user>:<group> /opt/<name>` 
-      - replace `<user>` and `<group>` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid))
-    - set permissions: `sudo chmod -R g+s /opt/<name>`
-- `-v /mnt/downloads/<name>:/mnt/downloads/<name>` (if required; will also require changing the downloads path within the app itself)
-  - This is where your downloaded files will go.
-  - The `/mnt/downloads/<name>` path will accessible with Sonarr and Radarr. 
-  - You will need to: 
-    - create the folder: `mkdir /mnt/downloads/<name>`
-    - set ownership: `sudo chown -R <user>:<group> /mnt/downloads/<name>`
-      - replace `<user>` and `<group>` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid))
-    - set permissions: `sudo chmod -R g+s /mnt/downloads/<name>`
-- `-v /etc/localtime:/etc/localtime:ro`
-- `-e PGID=<your_group_ID> -e PUID=<your_user_ID>`
-  - replace `<user>` and `<group>` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid)).
-- `--network=cloudbox `
-- `--network-alias=<name> `
+- Basics:
+  - `--name=<name>`
+  - `--restart=always`
+  - `-v /etc/localtime:/etc/localtime:ro`
+  - `-e PGID=<your_group_ID> -e PUID=<your_user_ID>`
+    - replace `<user>` and `<group>` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid)).
+- Mount Paths:
+  - `-v /opt/<name>:<container_config_path>` 
+    - This is where your config files will go.
+    - You will need to:
+      - create the folder: `mkdir /opt/<name>`
+      - set ownership: `sudo chown -R <user>:<group> /opt/<name>` 
+        - replace `<user>` and `<group>` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid))
+      - set permissions: `sudo chmod -R g+s /opt/<name>`
+  - `-v /mnt/downloads/<name>:/mnt/downloads/<name>`
+    - Only required if your Docker app needs a path for downloads.
+    - You will need to set `/mnt/downloads/<name>` as the downloads path in your app.  
+    - This path will be accessible to Sonarr and Radarr. 
+    - You will need to: 
+      - create the folder: `mkdir /mnt/downloads/<name>`
+      - set ownership: `sudo chown -R <user>:<group> /mnt/downloads/<name>`
+        - replace `<user>` and `<group>` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid))
+      - set permissions: `sudo chmod -R g+s /mnt/downloads/<name>`
+- Network: 
+  - `--network=cloudbox `
+  - `--network-alias=<name> `
 - Ports:
   - For the web admin page (i.e. what nginx-proxy will redirect to; Example: 32400 for Plex):
     - `-p 127.0.0.1:<port>:<container_web_port>` 
   - For all other ports:
-    - `-p <port>:<container_other_ports>` 
-- `-e VIRTUAL_PORT=<container_web_port>` (same port as the one mentioned above)
-- `-e VIRTUAL_HOST=<name>.<yourdomain>`
-- `-e LETSENCRYPT_HOST=<name>.<yourdomain>`
-- `-e LETSENCRYPT_EMAIL=<your@email.com>` 
+    - `-p <port>:<container_other_ports>`
+- Nginx Proxy Stuff:
+  - `-e VIRTUAL_PORT=<container_web_port>` (same port as the one mentioned above)
+  - `-e VIRTUAL_HOST=<name>.<yourdomain>`
+  - `-e LETSENCRYPT_HOST=<name>.<yourdomain>`
+  - `-e LETSENCRYPT_EMAIL=<your@email.com>` 
 
 
 Here are some examples: 
