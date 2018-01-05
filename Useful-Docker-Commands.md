@@ -78,13 +78,14 @@ Notes:
 - Replace all <tags> with your info.
 - All <container_*> items are specified by the Docker container. 
 - Ideally, you want all <name> items have the same name.
+- Pick docker images that allow you to specify PUID/PGID.
 ```
 
 - Basics:
   - `--name=<name>`
   - `--restart=always`
   - `-v /etc/localtime:/etc/localtime:ro`
-  - `-e PGID=<your_group_ID> -e PUID=<your_user_ID>`
+  - `-e PUID=<your_user_ID> -e PGID=<your_group_ID>`
     - replace `<user>` and `<group>` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid)).
 - Mount Paths:
   - `-v /opt/<name>:<container_config_path>` 
