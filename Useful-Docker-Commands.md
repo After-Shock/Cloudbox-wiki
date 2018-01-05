@@ -80,7 +80,8 @@ Notes:
 - Ideally, you want all <name> items have the same name.
 - Pick docker images that allow you to specify PUID/PGID.
 - You can break a command into multiple lines with a backslash '\'
- at the end of all the lines except the last one.```
+ at the end of all the lines except the last one.
+```
 
 - Basics:
   - `--name=<name>`
