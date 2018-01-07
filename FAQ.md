@@ -25,6 +25,7 @@
 	- [apt-get Gets Stuck at 0% Because of IPv6](#apt-get-gets-stuck-at-0-because-of-ipv6)
 - [Docker](#docker)
 	- [Why does Cloudbox use the Docker network "cloudbox" instead of bridge?](#why-does-cloudbox-use-the-docker-network-cloudbox-instead-of-bridge)
+	- [Docker --version command stalls](#docker-version-command-stalls)
 - [Nginx Proxy](#nginx-proxy)
 	- [SSL Certificate Issues](#ssl-certificate-issues)
 	- [Cloudbox app subdomains redirect elsewhere (eg. sonarr.domain.com goes to NZBGet)](#cloudbox-app-subdomains-redirect-elsewhere-eg-sonarrdomaincom-goes-to-nzbget)
@@ -415,8 +416,56 @@ Retry install.
 (1) keeps all Cloudbox containers organized under one network; and (2), bridge network does not allow network aliases.
 
 
+## Docker --version command stalls
 
 
+
+Docker apps are acting weird and `docker --version` command stalls....
+
+One reason this can happen is if docker-ce was recently updated. 
+
+To fix this:
+
+Stop the service first
+
+```
+sudo service docker stop
+```
+
+Clean up some of the files as mentioned in above post from Sam.
+
+
+```
+sudo rm -rf /var/run/docker
+sudo rm /var/run/docker.*
+```
+
+Start service now
+
+```
+sudo service docker start
+```
+
+Start your docker image
+
+```
+docker start <container-name>
+
+```
+You will receive an error when you run the docker run at first try:
+
+```
+Error response from daemon: invalid header field value "oci runtime error: container with id exists: 7a244b8f5d07081538042ff64aebfe11fac1a36731526e77be53db7d94dca44d\n"
+Error: failed to start containers:
+```
+
+Try running docker start command again. You will have your container up and running magically without any errors.
+
+
+_Note: If it still doesnt start, try rebuilding the container. _
+
+
+source: https://forums.docker.com/t/what-to-do-when-all-docker-commands-hang/28103/5
 
 # Nginx Proxy
 
