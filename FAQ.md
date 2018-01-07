@@ -25,7 +25,7 @@
 	- [apt-get Gets Stuck at 0% Because of IPv6](#apt-get-gets-stuck-at-0-because-of-ipv6)
 - [Docker](#docker)
 	- [Why does Cloudbox use the Docker network "cloudbox" instead of bridge?](#why-does-cloudbox-use-the-docker-network-cloudbox-instead-of-bridge)
-	- [Docker commands hang](#docker-version-command-stalls)
+	- [Docker Commands Hang](#docker-commands-hang)
 - [Nginx Proxy](#nginx-proxy)
 	- [SSL Certificate Issues](#ssl-certificate-issues)
 	- [Cloudbox app subdomains redirect elsewhere (eg. sonarr.domain.com goes to NZBGet)](#cloudbox-app-subdomains-redirect-elsewhere-eg-sonarrdomaincom-goes-to-nzbget)
