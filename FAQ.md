@@ -25,7 +25,7 @@
 	- [apt-get Gets Stuck at 0% Because of IPv6](#apt-get-gets-stuck-at-0-because-of-ipv6)
 - [Docker](#docker)
 	- [Why does Cloudbox use the Docker network "cloudbox" instead of bridge?](#why-does-cloudbox-use-the-docker-network-cloudbox-instead-of-bridge)
-	- [Docker --version command stalls](#docker-version-command-stalls)
+	- [Docker commands hang](#docker-version-command-stalls)
 - [Nginx Proxy](#nginx-proxy)
 	- [SSL Certificate Issues](#ssl-certificate-issues)
 	- [Cloudbox app subdomains redirect elsewhere (eg. sonarr.domain.com goes to NZBGet)](#cloudbox-app-subdomains-redirect-elsewhere-eg-sonarrdomaincom-goes-to-nzbget)
@@ -416,11 +416,10 @@ Retry install.
 (1) keeps all Cloudbox containers organized under one network; and (2), bridge network does not allow network aliases.
 
 
-## Docker --version command stalls
+## Docker Commands Hang
 
 
-
-Docker apps are acting weird and `docker --version` command stalls....
+Issue: Docker apps stop loading and/or docker commands (e.g. `docker --version`) hang.
 
 One reason this can happen is if docker-ce was recently updated. 
 
