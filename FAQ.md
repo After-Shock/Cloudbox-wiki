@@ -449,8 +449,8 @@ Start your docker image
 
 ```
 docker start <container-name>
-
 ```
+
 You will receive an error when you run the docker run at first try:
 
 ```
