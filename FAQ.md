@@ -451,7 +451,11 @@ Start your docker image
 docker start <container-name>
 ```
 
-You will receive an error when you run the docker run at first try:
+
+---
+
+
+You might receive an error when you run the docker run at first try:
 
 ```
 Error response from daemon: invalid header field value "oci runtime error: container with id exists: 7a244b8f5d07081538042ff64aebfe11fac1a36731526e77be53db7d94dca44d\n"
@@ -461,7 +465,6 @@ Error: failed to start containers:
 Try running docker start command again. You will have your container up and running magically without any errors.
 
 
-_Note: If it still doesnt start, try rebuilding the container. _
 
 
 source: https://forums.docker.com/t/what-to-do-when-all-docker-commands-hang/28103/5
