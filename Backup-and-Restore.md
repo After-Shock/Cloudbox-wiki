@@ -78,7 +78,7 @@ Things that are not backed-up:
 
      - If you prefer to use Rclone, set `use_rclone` to `true` and define an `rclone_dest` (default: `google:/Backups`). 
 
-       - _Note: If you have a separate Plex and Feeder setup, you may want to separate your backups into different folders (e.g. `google:/Backups/Plex` and `google:/Backups/Feeder`)_
+       - _Note: If you have a separate Plex and Feeder setup, you may want to separate your backups into different folders (e.g. `google:/Backups/Plexbox` for your Plexbox and `google:/Backups/Feederbox` for your Feederbox)_
 
      - If you prefer to use Rsync, set `use_rsync` to `true` and define an `rsync_dest` (default: `rsync://somehost.com/Backups`; you can use the Rsync protocol or a folder path). 
 
@@ -107,7 +107,7 @@ There are 2 ways to schedule a Cloudbox Backup: (1) Have Cloudbox setup a backup
 
      - If you prefer to use Rclone, set `use_rclone` to `true` and define an `rclone_dest` (default: `google:/Backups`). 
 
-       - _Note: If you have a separate Plex and Feeder setup, you may want to separate your backups into different folders (e.g. `google:/Backups/Plex` and `google:/Backups/Feeder`)_
+       - _Note: If you have a separate Plex and Feeder setup, you may want to separate your backups into different folders (e.g. `google:/Backups/Plexbox` for your Plexbox and `google:/Backups/Feederbox` for your Feederbox)_
 
      - If you prefer to use Rsync, set `use_rsync` to `true` and define an `rsync_dest` (default: `rsync://somehost.com/Backups`; you can use the Rsync protocol or a folder path). 
 
@@ -178,7 +178,7 @@ We will assume you are restoring to a new / clean server.
 
      - If you prefer to use Rclone, set `use_rclone` to `true` and define an `rclone_dest` (default: `google:/Backups`). 
 
-       - _Note: If you have a separate Plex and Feeder setup, you may want to separate your backups into different folders (e.g. `google:/Backups/Plex` and `google:/Backups/Feeder`)_
+       - _Note: If you have a separate Plex and Feeder setup, you may want to separate your backups into different folders (e.g. `google:/Backups/Plexbox` for your Plexbox and `google:/Backups/Feederbox` for your Feederbox)_
 
      - If you prefer to use Rsync, set `use_rsync` to `true` and define an `rsync_dest` (default: `rsync://somehost.com/Backups`; you can use the Rsync protocol or a folder path). 
 
