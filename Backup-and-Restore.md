@@ -17,7 +17,7 @@
 
 Backup and Restore is an integral part of Cloudbox, this is what makes it so great! Everything related to installed applications is backed-up. Seeding content, however, is NOT backed-up.
 
-**Cloudbox Backup** creates a backup .tar file of the entire `/opt` folder, which includes all settings and configuration files for the Docker apps installed with Cloudbox, and uploads it to your Google Drive or Rsync remote. Backup can be ran manually on-demand or scheduled to run automatically.
+**Cloudbox Backup** creates a backup .tar file of the entire `/opt` folder, which includes all settings and configuration files for the Docker apps installed with Cloudbox, and uploads it to your Google Drive or Rsync remote. Backup can be ran manually for an immediate backup or scheduled to run periodically.
 
 **Cloudbox Restore** downloads the backup .tar file and and restores it to the `/opt` folder. This can be done on the same server or brand new one, with everything exactly as you left it at the time of backup. 
 
@@ -64,7 +64,7 @@ Things that are not backed-up:
 
 ## Manual Backup
 
-This is handy for times when you just need to do a one-time backup of your server, regardless of whether you have backup scheduler enabled or not. 
+This is handy for times when you just need to make an immediate backup of your server, regardless of whether you have backup scheduler enabled or not. 
 
 1. Go into your Cloudbox folder 
  
@@ -97,7 +97,7 @@ This is handy for times when you just need to do a one-time backup of your serve
 
 ## Scheduled Backup
 
-Scheduled backups are done via a Cron. 
+This will schedule Cloudbox backups to run periodically. This is set Cron. 
 
 There are 2 ways to set this up: 
 
