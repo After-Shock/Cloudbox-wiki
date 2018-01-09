@@ -97,7 +97,11 @@ Things that are not backed-up:
 
 Scheduled backups are done via a Cron. 
 
-There are 2 ways to set this up: (1) [Have Cloudbox setup it up for you](#scheduling-backup-via-cloudbox) , or (2) [Create a Cron task, manually](#scheduling-backup-via-cron-manually).
+There are 2 ways to set this up: 
+
+1. [Have Cloudbox setup it up for you](#scheduling-backup-via-cloudbox), or
+
+2. [Create a Cron task, manually](#scheduling-backup-via-cron-manually).
 
 ### Scheduling Backup via Cloudbox
 
