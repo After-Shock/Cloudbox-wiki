@@ -74,7 +74,7 @@ Things that are not backed-up:
 
    - `tar_dest` (default: `/home/{{user}}/Backups`)
 
-   - Decide on Rsync or Rclone as your backup method. 
+   - Decide on Rclone or Rsync as your backup method. 
 
      - If you prefer to use Rclone, set `use_rclone` to `true` and define an `rclone_dest` (default: `google:/Backups`). 
 
@@ -101,7 +101,7 @@ There are 2 ways to schedule a Cloudbox Backup: (1) Have Cloudbox setup a backup
 
    - `tar_dest` (default: `/home/{{user}}/Backups`)
 
-   - Decide on Rsync or Rclone as your backup method. 
+   - Decide on Rclone or Rsync as your backup method. 
 
      - If you prefer to use Rclone, set `use_rclone` to `true` and define an `rclone_dest` (default: `google:/Backups`). 
 
@@ -170,7 +170,7 @@ We will assume you are restoring to a new / clean server.
 
    - `tar_dest` (default: `/home/{{user}}/Backups`)
 
-   - Decide on Rsync or Rclone as your backup method. 
+   - Decide on Rclone or Rsync as your backup method. 
 
      - If you prefer to use Rclone, set `use_rclone` to `true` and define an `rclone_dest` (default: `google:/Backups`). 
 
