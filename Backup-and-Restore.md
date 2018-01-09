@@ -72,7 +72,7 @@ Things that are not backed-up:
 
 2. Set the following in your [[settings.yml|Configuring Settings]] file:
 
-   - `tar_dest` (default location is OK)
+   - `tar_dest` (default: `/home/{{user}}/Backups`)
 
    - Decide on Rsync or Rclone as your backup method. 
 
@@ -99,13 +99,15 @@ There are 2 ways to schedule a Cloudbox Backup: (1) Have Cloudbox setup a backup
 
 1. Set the following in your [[settings.yml|Configuring Settings]] file:
 
-   - `tar_dest` (default location is OK)
+   - `tar_dest` (default: `/home/{{user}}/Backups`)
 
-   - `use_rsync` and/or `use_rclone` to `true` (based on your preference).
+   - Decide on Rsync or Rclone as your backup method. 
 
-     - Note: If both options are set to `true`, backups will be made to both locations, but only Rclone will be used to retrieve the backup file during restore (i.e. Rclone will take priority over Rsync during restores).
+     - If you prefer to use Rclone, set `use_rclone` to `true` and define an `rclone_dest` (default: `google:/Backups`). 
 
-   - `rsync_dest` and/or `rclone_dest` (based on your preference).
+     - If you prefer to use Rsync, set `use_rsync` to `true` and define an `rsync_dest` (default: `rsync://somehost.com/Backups`; this can also be a network folder path). 
+
+     - Note: If both `use_rclone` and `use_rsync`are set to `true`, backups will be made to both locations, but only Rclone will be used to retrieve the backup file during restore (i.e. Rclone will take priority over Rsync during restores).
 
    - `cron_time` (schedule to of your preference)
 
@@ -166,13 +168,15 @@ We will assume you are restoring to a new / clean server.
 
    - `user` (based on the user account you created in step #1)
 
-   - `tar_dest` (default location is OK)
+   - `tar_dest` (default: `/home/{{user}}/Backups`)
 
-   - `use_rsync` and/or `use_rclone` to `true` (based what you used during backup)
+   - Decide on Rsync or Rclone as your backup method. 
 
-     - Note: If both options are set to `true`, only Rclone will be used to retrieve the backup file (i.e. Rclone will take priority over Rsync).
+     - If you prefer to use Rclone, set `use_rclone` to `true` and define an `rclone_dest` (default: `google:/Backups`). 
 
-   - `rsync_dest` and/or `rclone_dest` (based what you used during backup)
+     - If you prefer to use Rsync, set `use_rsync` to `true` and define an `rsync_dest` (default: `rsync://somehost.com/Backups`; this can also be a network folder path). 
+
+     - Note: If both `use_rclone` and `use_rsync`are set to `true`, backups will be made to both locations, but only Rclone will be used to retrieve the backup file during restore (i.e. Rclone will take priority over Rsync during restores).
 
    Note: See the [[Configuring Settings]] wiki page for further details on all the settings listed above. 
 
