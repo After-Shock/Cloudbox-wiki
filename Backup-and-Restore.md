@@ -95,7 +95,7 @@ Things that are not backed-up:
 
 ## Scheduled Backup
 
-There are 2 ways to schedule a Cloudbox Backup: (1) Have Cloudbox setup a backup cron job , or (2) Create a cron job, manually.
+There are 2 ways to schedule a Cloudbox Backup: (1) [Have Cloudbox setup a backup cron job](#scheduling-via-cloudbox-installer , or (2) [Create a cron job, manually](#scheduling-via-editing-cron).
 
 ### Scheduling via Cloudbox Installer
 
