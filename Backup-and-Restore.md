@@ -64,6 +64,8 @@ Things that are not backed-up:
 
 ## Manual Backup
 
+This is handy for times when you just need to do a one-time backup of your server, regardless of whether you have backup scheduler enabled or not. 
+
 1. Go into your Cloudbox folder 
  
    ```shell
