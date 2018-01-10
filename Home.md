@@ -1,4 +1,4 @@
-_Last updated on Dec 31, 2017._
+_Last updated on Jan 9, 2018._
 
 ### Basics ###
 1. [[Introduction]] (work in progress)
@@ -38,6 +38,7 @@ _Last updated on Dec 31, 2017._
 - [[Updating Cloudbox Apps]]
 - [[Google Drive API Client ID and Client Secret]]
 - [[Useful Docker Commands]]
+- [[Migrating Cloudbox]]
 - [[Revoking SSL Certificates]]
 
 
