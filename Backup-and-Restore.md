@@ -21,7 +21,7 @@ Backup and Restore is an integral part of Cloudbox, this is what makes it so gre
 
 **Cloudbox Restore** downloads the backup .tar file and and restores it to the `/opt` folder. This can be done on the same server or brand new one, with everything exactly as you left it at the time of backup. 
 
-_Note: For help with migrating Cloudbox to another server, see [[Cloudbox Migration]]._
+_Note: For help with migrating Cloudbox to another server, see [[Migrating Cloudbox]]._
 
 <br />
 
