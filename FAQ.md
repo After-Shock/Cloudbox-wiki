@@ -31,6 +31,7 @@
 	- [Cloudbox app subdomains redirect elsewhere (eg. sonarr.domain.com goes to NZBGet)](#cloudbox-app-subdomains-redirect-elsewhere-eg-sonarrdomaincom-goes-to-nzbget)
 	- [Too many certificates already issued for domain.com](#too-many-certificates-already-issued-for-domaincom)
 	- [CA marked some of the authorizations as invalid](#ca-marked-some-of-the-authorizations-as-invalid)
+	- [Error 502](#error-502)
 - [Rclone](#rclone)
 	- [Rclone error: Failed to save config file: open /home/\<user\>/.config/rclone/rclone.conf: permission denied](#rclone-error-failed-to-save-config-file-open-homeuserconfigrclonercloneconf-permission-denied)
 - [Plexdrive](#plexdrive)
@@ -533,7 +534,25 @@ Challenge validation has failed, see error log.
 
 
 
+## Error 502
 
+Due to a recent change with Suitarr image, the ports for the five Suitarr containers (Sonarr, Radarr, Jackett, NZBGet, and NZB Hydra) have also changed. 
+
+If your docker images haven't been updated yet, you can preemptively avoid any Error 502 issues by going in to each of these apps settings pages and changing the ports to 8989, 7878, 9117, 6789, 5075, respectively, and then update all five of these docker containers with the --tags update-xxxxx command (see the page on the wiki).
+
+If your docker image has been updated and your getting Error 502s, you will need to edit the config files in the /opt/ folder and manually put in these ports (see below).
+
+`/opt/sonarr/config.xml`  -->     `<Port>8989</Port>`
+`/opt/radarr/config.xml`  -->     `<Port>7878</Port>`
+`/opt/jackett/Jackett/ServerConfig.json`  -->  `"Port": 9117,`
+`/opt/nzbget/nzbget.conf `  -->  `ControlPort=6789`
+`/opt/nzbhydra/nzbhydra.cfg` --> under `"main" {` --> `"port": 5075,`
+
+After the above edits, restart the docker containers (`docker restart sonarr radarr jackett nzbget nzbhydra`).
+
+The pages for these containers should now load. 
+
+Note: You will also need to edit the ports for (1) Jackett, NZBGet, and NZBHydra in Sonarr/Radarr settings, (2) NZBGet port in NZBHydra settings, (3) Radarr and Sonarr ports in Plex Requests settings, and (4) Radarr, Sonarr, and NZBGet in Organizr settings. 
 
 
 
