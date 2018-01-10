@@ -194,7 +194,9 @@ We will assume you are restoring to a new / clean server.
 
    Note: See the [[Configuring Settings]] wiki page for further details on all the settings listed above. 
 
-1. If your using Rclone, upload your rclone.conf file into `~/cloudbox/`. You may also `nano ~/cloudbox/rclone.conf` and paste the contents of your rclone.conf. 
+1. Upload a copy of your rclone.conf file into `~/cloudbox/`. 
+
+  - You can do this via sftp/scp or via by running `nano ~/cloudbox/rclone.conf` and pasting the contents of your rclone.conf. 
 
 1. Run the restore command (in `~/cloudbox`).
 
