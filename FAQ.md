@@ -545,7 +545,7 @@ If your docker image has been updated and your getting Error 502s, you will need
 `/opt/sonarr/config.xml`  -->     `<Port>8989</Port>` <br />
 `/opt/radarr/config.xml`  -->     `<Port>7878</Port>` <br />
 `/opt/jackett/Jackett/ServerConfig.json`  -->  `"Port": 9117,` <br />
-`/opt/nzbget/nzbget.conf `  -->  `ControlPort=6789` </br>
+`/opt/nzbget/nzbget.conf `  -->  `ControlPort=6789` <br />
 `/opt/nzbhydra/nzbhydra.cfg` --> under `"main" {` --> `"port": 5075,` <br />
 
 After the above edits, restart the docker containers (`docker restart sonarr radarr jackett nzbget nzbhydra`).
