@@ -542,11 +542,11 @@ If your docker images haven't been updated yet, you can preemptively avoid any E
 
 If your docker image has been updated and your getting Error 502s, you will need to edit the config files in the /opt/ folder and manually put in these ports (see below).
 
-`/opt/sonarr/config.xml`  -->     `<Port>8989</Port>`
-`/opt/radarr/config.xml`  -->     `<Port>7878</Port>`
-`/opt/jackett/Jackett/ServerConfig.json`  -->  `"Port": 9117,`
-`/opt/nzbget/nzbget.conf `  -->  `ControlPort=6789`
-`/opt/nzbhydra/nzbhydra.cfg` --> under `"main" {` --> `"port": 5075,`
+`/opt/sonarr/config.xml`  -->     `<Port>8989</Port>` <br />
+`/opt/radarr/config.xml`  -->     `<Port>7878</Port>` <br />
+`/opt/jackett/Jackett/ServerConfig.json`  -->  `"Port": 9117,` <br />
+`/opt/nzbget/nzbget.conf `  -->  `ControlPort=6789` </br>
+`/opt/nzbhydra/nzbhydra.cfg` --> under `"main" {` --> `"port": 5075,` <br />
 
 After the above edits, restart the docker containers (`docker restart sonarr radarr jackett nzbget nzbhydra`).
 
