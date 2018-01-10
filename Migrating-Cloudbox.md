@@ -14,9 +14,8 @@ Listed below are some scenarios and steps to follow for them.
 1. Edit the [[settings.yml|Configuring Settings]] file, and type in your new domain name. 
 
 1. Remove the old SSL certificate files: 
-
-```
-rm -rf /opt/nginx-proxy
-```
-
+   
+   ```
+   rm -rf /opt/nginx-proxy
+   ```
 1. Run the Cloudbox [[Installer|Installing Cloudbox]].
