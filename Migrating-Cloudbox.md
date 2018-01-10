@@ -7,7 +7,6 @@ Listed below are some scenarios and steps to follow for them.
 
 1. Create a [backup](Backup-and-Restore#manual-backup) of your Cloudbox server. 
 
-1. [[Revoke|Revoking SSL Certificates]] your domain's SSL keys. 
 
 1. [Restore](Backup-and-Restore#restore) Cloudbox to the new server (skip step #7). 
 
