@@ -5,7 +5,7 @@ Listed below are some scenarios and steps to follow for them.
 
 ### Copy Cloudbox to Another Server and Change the Domain Name
 
-1. Create a [manual backup](Backup-and-Restore#manual-backup) of your Cloudbox server. 
+1. Create a [backup](Backup-and-Restore#manual-backup) of your Cloudbox server. 
 
 1. [Restore](Backup-and-Restore#restore) Cloudbox to the new server (skip step #7). 
 
