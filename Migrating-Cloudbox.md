@@ -7,8 +7,14 @@ Listed below are some scenarios and steps to follow for them.
 
 1. Create a [manual backup](Backup-and-Restore#manual-backup) of your Cloudbox server. 
 
-2. [Restore](Backup-and-Restore#restore) Cloudbox to the new server (skip step #7). 
+1. [Restore](Backup-and-Restore#restore) Cloudbox to the new server (skip step #7). 
 
-3. Edit the settings.yml file, and type in your new domain name. 
+1. Edit the [[settings.yml|Configuring Settings]] file, and type in your new domain name. 
 
-4. Run the Cloudbox [[Installer|Installing Cloudbox]].
+1. Remove the old SSL certificate files: 
+
+```
+rm -rf /opt/nginx-proxy
+```
+
+1. Run the Cloudbox [[Installer|Installing Cloudbox]].
