@@ -41,6 +41,7 @@
 	- [If Plex shows you an incorrect title with the filename (eg RARBG releases)](#if-plex-shows-you-an-incorrect-title-with-the-filename-eg-rarbg-releases)
 	- [Fix permission issues with Plex logs](#fix-permission-issues-with-plex-logs)
 	- [Missing Thumbnails in Plex (due to http/https redirect errors)](#missing-thumbnails-in-plex-due-to-httphttps-redirect-errors)
+	- [Update WebTools)](#update-webtools)
 - [Plex Autoscan](#plex-autoscan)
 	- [If during the first time setup, you switched the order of Plex libraries (i.e TV first then Movies)](#if-during-the-first-time-setup-you-switched-the-order-of-plex-libraries-ie-tv-first-then-movies)
 	- [Newly downloaded media from Sonarr and Radarr are not being added to Plex?](#newly-downloaded-media-from-sonarr-and-radarr-are-not-being-added-to-plex)
@@ -730,8 +731,26 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
    sudo ansible-playbook cloudbox.yml --tags update-nginx
    ```
 
+## Update WebTools
 
+1. Remove your current WebTools.bundle folder. 
 
+   ```
+   rm -rf "/opt/plex/Library/Application Support/Plex Media Server/Plug-ins/WebTools.bundle"
+   ```
+
+2. Update Plex Container
+
+   ```
+   cd ~/cloudbox
+   sudo ansible-playbook cloudbox.yml --tags update-plex
+   ```
+
+3. Access Webtools
+
+   ```
+   http://plex.yourdomain.com:33400 (or http://youripaddress:33400)
+   ```
 
 
 
