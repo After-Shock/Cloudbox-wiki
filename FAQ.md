@@ -739,7 +739,7 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
    rm -rf "/opt/plex/Library/Application Support/Plex Media Server/Plug-ins/WebTools.bundle"
    ```
 
-2. Update Plex Container
+2. Update the Plex container
 
    ```
    cd ~/cloudbox
