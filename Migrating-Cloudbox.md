@@ -71,7 +71,7 @@ Listed below are some scenarios and steps to follow for them.
 
 
 
-### Keep Cloudbox on the Same Server But Change the Domain Name
+### Keep Cloudbox on the Same Server but Change the Domain Name
 
 1. Create a [backup](Backup-and-Restore#manual-backup) of your current Cloudbox server (Optional, but recommended). 
 
