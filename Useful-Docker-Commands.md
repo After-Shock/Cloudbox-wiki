@@ -190,7 +190,7 @@ You'll need to the [Plex Section IDs](Customizing-Plex-Libraries#3-retrieve-plex
 
 ```
 docker exec -u plex -i plex bash -c 'export LD_LIBRARY_PATH=/usr/lib/plexmediaserver;/usr/lib/plexmediaserver/Plex\ Media\ Scanner --scan --refresh \
---section <relevant section ID> \
+--section <section ID> \
 --directory '"'"'/data/<movie or tv show path>'"'"''
 ```
 
