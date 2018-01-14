@@ -111,6 +111,7 @@ Notes:
 - Network: 
   - `--network=cloudbox `
   - `--network-alias=<name> `
+  - Note: Leave these out if your docker run command requires `--net=host`.
 - Ports:
   - For the web admin page (i.e. what nginx-proxy will redirect to; Example: 32400 for Plex):
     - `-p 127.0.0.1:<port>:<container_web_port>` 
