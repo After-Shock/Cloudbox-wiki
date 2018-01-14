@@ -537,7 +537,7 @@ Challenge validation has failed, see error log.
 
 ## Error 502
 
-Due to a recent change with Suitarr image, the ports for the five Suitarr containers (Sonarr, Radarr, Jackett, NZBGet, and NZB Hydra) have also changed. 
+Due to a recent change with the Suitarr image, the ports for the five Suitarr containers (i.e. Sonarr, Radarr, Jackett, NZBGet, and NZB Hydra) have also changed. 
 
 If your docker images haven't been updated yet, you can preemptively avoid any Error 502 issues by going in to each of these apps settings pages and changing the ports to 8989, 7878, 9117, 6789, 5075, respectively, and then update all five of these docker containers with the --tags update-xxxxx command (see the page on the wiki).
 
