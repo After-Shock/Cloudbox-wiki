@@ -188,6 +188,8 @@ If no updates, stop anyway.
 You'll need to the [Plex Section IDs](Customizing-Plex-Libraries#3-retrieve-plex-library-section-ids). 
 
 
+Replace `<section ID>` and `<movie or tv show path>` in the following command:
+
 ```
 docker exec -u plex -i plex bash -c 'export LD_LIBRARY_PATH=/usr/lib/plexmediaserver;/usr/lib/plexmediaserver/Plex\ Media\ Scanner --scan --refresh --section <section ID> --directory '"'"'/data/<movie or tv show path>'"'"''
 ```
