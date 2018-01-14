@@ -181,3 +181,26 @@ docker stop watchtower
 If no updates, stop anyway.
 
 
+### Plex
+
+#### Make Plex scan a specific folder
+
+You'll need to the [Plex Section IDs](Customizing-Plex-Libraries#3-retrieve-plex-library-section-ids). 
+
+
+```
+docker exec -u plex -i plex bash -c 'export LD_LIBRARY_PATH=/usr/lib/plexmediaserver;/usr/lib/plexmediaserver/Plex\ Media\ Scanner --scan --refresh \
+--section <relevant section ID> \
+--directory '"'"'/data/<movie or tv show path>'"'"''
+```
+
+
+Example: TV Show
+```
+docker exec -u plex -i plex bash -c 'export LD_LIBRARY_PATH=/usr/lib/plexmediaserver;/usr/lib/plexmediaserver/Plex\ Media\ Scanner --scan --refresh --section 2 --directory '"'"'/data/TV/No Activity US/'"'"''
+```
+
+Example: TV Show + specific season
+```
+docker exec -u plex -i plex bash -c 'export LD_LIBRARY_PATH=/usr/lib/plexmediaserver;/usr/lib/plexmediaserver/Plex\ Media\ Scanner --scan --refresh --section 2 --directory '"'"'/data/TV/El Chapo/Season 02/'"'"''
+```
