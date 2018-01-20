@@ -1,10 +1,13 @@
-Updating Cloudbox is not required, but if you may do so to keep your Cloudbox up to date.
+Updating Cloudbox is not required, but if you may do so to keep your Cloudbox up-to-date with new additions/changes etc. 
 
 _Note 1: You will not lose your config files (e.g. Plex/Sonarr/Radarr libraries, etc) as that is stored in `/opt`, but it is still prudent to have a recent [[backup | Backup and Restore#backup]], anyway._ 
 
 _Note 2: You will not lose any custom/extra Docker containers you have installed (though they may be stopped and require starting manually), since running/updating Cloudbox only updates Cloudbox related apps and docker containers._
 
-Steps to update cloudbox are below:
+Steps to update Cloudbox are below.
+
+
+## Update Cloudbox (Master Branch)
 
 1. Pull the latest changes:
 
@@ -104,4 +107,17 @@ Steps to update cloudbox are below:
    sudo reboot
    ```
 
+***
 
+## Update Cloudbox (Develop Branch)
+
+1. Follow Step 1 above. 
+
+2. Checkout develop branch
+
+   ```
+   cd ~/
+   git checkout develop
+   ```
+
+3. Follow steps 2 and 3 above. 
