@@ -1,4 +1,4 @@
-_Last updated on Jan 10, 2018._
+_Last updated on Jan 20, 2018._
 
 ### Basics ###
 1. [[Introduction]] (work in progress)
