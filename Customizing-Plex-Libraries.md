@@ -26,6 +26,9 @@ Default Paths:
 
 If you would like to have custom libraries in Plex, you may do so with this guide. But regardless of what scenario below you choose, the content will always be located within `/Media` folder in your Google Drive (`/mnt/unionfs/Media` on your server). 
 
+<br />
+
+
 
 > For those that that are interested, my library setup (based on Scenario 1) is below.  
 >
@@ -47,6 +50,7 @@ If you would like to have custom libraries in Plex, you may do so with this guid
 >
 > I keep mainstream movies (i.e. Hollywood films) in the "Movies/Movies" folder.
 
+<br />
 
 ## Scenario 1
 
