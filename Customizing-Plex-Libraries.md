@@ -324,7 +324,7 @@ In our example, this will be: `/data/Movies-3D`, `/data/Movies-4K`, `/data/Movie
 
 1. Scroll down to the `SERVER_PATH_MAPPINGS` section.
 
-    1. Under this section, you will need to add library paths (as seen from within Plex) with the corresponding `/mnt/Media/` path. 
+    1. Under this section, you will need to add library paths (as seen from within Plex) with the corresponding `/mnt/unionfs/Media/` path. 
 
         The format will look like:
 
