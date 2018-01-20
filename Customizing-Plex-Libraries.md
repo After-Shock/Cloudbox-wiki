@@ -101,42 +101,42 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 1. Scroll down to the `PLEX_SECTION_PATH_MAPPINGS` section.
 
-1. Under this section, you will need to add your section IDs and the library paths (as located within the `/Media` folder in Google Drive). 
+    1. Under this section, you will need to add your section IDs and the library paths (as located within the `/Media` folder in Google Drive). 
 
-   The format will look like:
+       The format will look like:
 
-   ```json
-   "SECTION_NUMBER": [
-        "path/to/movie/folder/"
-   ],
-   ```
+       ```json
+       "SECTION_NUMBER": [
+            "path/to/movie/folder/"
+       ],
+       ```
 
-   Note: Make sure the path is within quotes (e.g. `"/Movies/3D"`) and there is a comma (`,`) after the close bracket (`]`) - all except the last one (see example below).
+       Note: Make sure the path is within quotes (e.g. `"/Movies/3D"`) and there is a comma (`,`) after the close bracket (`]`) - all except the last one (see example below).
 
-1. After the changes, the section will now look similar to this:
+    1. After the changes, the section will now look similar to this:
 
-   ```json
-   "PLEX_SECTION_PATH_MAPPINGS": {
-      "1": [
-          "/Movies/3D/"
-      ],
-      "2": [
-          "/Movies/4K/"
-      ],
-      "3": [
-          "/Movies/Foreign/"
-      ],
-      "4": [
-          "/Movies/Hollywood/"
-      ],
-      "5": [
-          "/Movies/Kids/"
-      ],
-      "6": [
-          "/TV/"
-      ]
-   },
-   ```
+       ```json
+       "PLEX_SECTION_PATH_MAPPINGS": {
+          "1": [
+              "/Movies/3D/"
+          ],
+          "2": [
+              "/Movies/4K/"
+          ],
+          "3": [
+              "/Movies/Foreign/"
+          ],
+          "4": [
+              "/Movies/Hollywood/"
+          ],
+          "5": [
+              "/Movies/Kids/"
+          ],
+          "6": [
+              "/TV/"
+          ]
+       },
+       ```
 
 1. `Ctrl-x`, `y`, and `enter` to save.
 
@@ -345,7 +345,6 @@ In our example, this will be: `/data/Movies-3D`, `/data/Movies-4K`, `/data/Movie
 
 1. Restart Plex Autoscan: `sudo systemctl restart plex_autoscan`
 
-_Note: Do not modify `SERVER_PATH_MAPPINGS` as this does not require any changes._
 
 ### 5. Modify UnionFS Cleaner Config
 
