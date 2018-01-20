@@ -92,6 +92,9 @@ Notes:
   - `-e PUID=<your_user_ID> -e PGID=<your_group_ID>`
     - Replace `<user>` and `<group>` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid)).
 - Mount Paths:
+
+  Mount paths are in the format of `path/on/host:path/within/container`. You may change the path on host (left side), but not the path set for the container, internally (right side). 
+
   - `-v /opt/<name>:<container_config_path>` 
     - This is where your config files will go.
     - You will need to:
@@ -113,10 +116,15 @@ Notes:
   - `--network-alias=<name> `
   - Note: Leave these out if your docker run command requires `--net=host`.
 - Ports:
-  - For the web admin page (i.e. what nginx-proxy will redirect to; Example: 32400 for Plex):
-    - `-p 127.0.0.1:<port>:<container_web_port>` 
+
+  Ports are in the format of `host_port:port_within_container`. 
+
+  Usually, you will want those two ports to match. However, since a host can only use one port number at a time, if you to create multiple containers of the same app (e.g. Radarr and Radarr4k), then you will need to change the host port (left side) to something else, but you will always leave the container port (right side) as is.
+
+  - For the main port (i.e. the web admin page that nginx-proxy will redirect 80/443 to; example: 32400 for Plex):
+    - `-p 127.0.0.1:<host_port>:<container_web_port>` 
   - For all other ports:
-    - `-p <port>:<container_other_ports>`
+    - `-p <host_port>:<container_other_ports>`
 - Nginx Proxy Stuff:
   - `-e VIRTUAL_PORT=<container_web_port>` (same port as the one mentioned above)
   - `-e VIRTUAL_HOST=<name>.<yourdomain>`
