@@ -46,7 +46,7 @@ _Last updated on Jan 10, 2018._
 - Resilio Sync (coming soon)
 - Nextcloud (coming soon)
 - Ombi (coming soon)
-
+- Emby (coming soon)
 
 ### Misc Guides
 - [[Nativefier]] (Create desktop apps for Cloudbox)
