@@ -1,8 +1,8 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
 
 - [Intro](#intro)
-- [Scenario 1](#scenario-1)
-- [Scenario 2](#scenario-2-less-preferred) (less preferred)
+- [Scenario 1](#scenario-1) (highly recommended and user friendly)
+- [Scenario 2](#scenario-2-less-preferred) (works, but a bit more complicated)
 
 <!-- /TOC -->
 
