@@ -96,7 +96,6 @@ Steps to update Cloudbox are below.
 2. (Optional) If you want to check out the Develop branch, follow these steps:
 
    ```
-   cd ~/
    git checkout develop
    ```
 
