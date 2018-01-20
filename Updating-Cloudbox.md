@@ -7,8 +7,6 @@ _Note 2: You will not lose any custom/extra Docker containers you have installed
 Steps to update Cloudbox are below.
 
 
-## Update Cloudbox (Master Branch)
-
 1. Pull the latest changes:
 
    ```bash
@@ -95,29 +93,22 @@ Steps to update Cloudbox are below.
 
           Note: Resetting the git clone will not reset your config files (e.g. `/opt`); it will merely update the Cloudbox installer files located in `~/cloudbox`.
 
-2. You can now run the Cloudbox installer with your preferred [[tag|Installing-Cloudbox]]. Your existing data will remain intact and you will not be asked for a Plex Claim Token if you've already setup Plex.
-
-   ```bash
-   sudo ansible-playbook cloudbox.yml --tags full
-   ```
-
-3. Reboot {_you should always perform a reboot after installing Cloudbox_).
-
-   ```bash
-   sudo reboot
-   ```
-
-***
-
-## Update Cloudbox (Develop Branch)
-
-1. Follow Step 1 above. 
-
-2. Checkout develop branch
+2. (Optional) If you want to check out the Develop Branch. Follow these steps:
 
    ```
    cd ~/
    git checkout develop
    ```
 
-3. Follow steps 2 and 3 above. 
+
+3. You can now run the Cloudbox installer with your preferred [[tag|Installing-Cloudbox]]. Your existing data will remain intact and you will not be asked for a Plex Claim Token if you've already setup Plex.
+
+   ```bash
+   sudo ansible-playbook cloudbox.yml --tags full
+   ```
+
+4. Reboot {_you should always perform a reboot after installing Cloudbox_).
+
+   ```bash
+   sudo reboot
+   ```
