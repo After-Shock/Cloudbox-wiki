@@ -1,8 +1,8 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
 
 - [Intro](#intro)
-- [Scenario 1](#scenario-1) (highly recommended and user friendly)
-- [Scenario 2](#scenario-2-less-preferred) (works, but a bit more complicated)
+- [Scenario 1](#scenario-1) (recommended; somewhat user-friendly)
+- [Scenario 2](#scenario-2) (not recommended; a bit more complicated)
 
 <!-- /TOC -->
 
@@ -14,6 +14,9 @@
 ## Intro
 
 In the default Cloudbox install, there only two main Plex libraries: one for Movies and one for TV Shows. With the idea that all movies are to be placed within the `/Media/Movies` folder.
+
+
+Default Paths:
 
    ```
    Media
@@ -29,6 +32,9 @@ If you would like to have custom libraries in Plex, you may do so with this guid
 
 You want to place your libraries within the `/Media/Movies` folder.
 
+
+Example:
+
 ```
 Media
 ├── Movies
@@ -36,7 +42,7 @@ Media
 │   ├── 4K
 │   ├── Foreign
 │   ├── Hollywood
-│   └── Kids
+│   └── Kids
 └── TV
 
 ```
@@ -95,9 +101,17 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 1. Scroll down to the `PLEX_SECTION_PATH_MAPPINGS` section.
 
-1. Under this section, you will need to add your section IDs and the library paths (as located within the `/Media` folder in Google Drive). The format is `"SECTION_NUMBER": ["path"]`.
+1. Under this section, you will need to add your section IDs and the library paths (as located within the `/Media` folder in Google Drive). 
 
-   Make sure the path is within quotes (`"/Movies/3D"`) and there is a comma (`,`) after the close bracket (`]`) - all except the last one (see example below).
+   The format will look like:
+
+   ```json
+   "SECTION_NUMBER": [
+        "path/to/movie/folder/"
+   ],
+   ```
+
+   Note: Make sure the path is within quotes (e.g. `"/Movies/3D"`) and there is a comma (`,`) after the close bracket (`]`) - all except the last one (see example below).
 
 1. After the changes, the section will now look similar to this:
 
@@ -170,9 +184,12 @@ Set your Movie Paths in [[Radarr|Radarr#8-adding-the-movies-path]] to reflect th
 
 Set the default "Root save directory for movies" on the Radarr setup page of [[Plex Requests|Plex-Requests#3-settings"Root save directory for movies"]] (e.g. `/movies/Hollywood`).
 
-## Scenario 2 (less preferred)
+## Scenario 2
 
 You want to place your libraries within the `/Media` folder.
+
+
+Example:
 
 ```
 Media
@@ -242,34 +259,86 @@ In our example, this will be: `/data/Movies-3D`, `/data/Movies-4K`, `/data/Movie
 
 1. Scroll down to the `PLEX_SECTION_PATH_MAPPINGS` section.
 
-1. Under this section, you will need to add your section IDs and the library paths (as located within the `/Media` folder in Google Drive). The format is `"SECTION_NUMBER": ["path"]`.
+   1. Under this section, you will need to add your section IDs and the library paths (as located within the `/Media` folder in Google Drive).
 
-   Make sure the path is within quotes (`"/Movies-3D"`) and there is a comma (`,`) after the close bracket (`]`) - all except the last one (see example below).
 
-1. After the changes, the section will now look similar to this:
+       The format will look like:
 
-   ```json
-   "PLEX_SECTION_PATH_MAPPINGS": {
-      "1": [
-          "/Movies-3D/"
-      ],
-      "2": [
-          "/Movies-4K/"
-      ],
-      "3": [
-          "/Movies-Foreign/"
-      ],
-      "4": [
-          "/Movies-Hollywood/"
-      ],
-      "5": [
-          "/Movies-Kids/"
-      ],
-      "6": [
-          "/TV/"
-      ]
-   },
-   ```
+       ```json
+       "SECTION_NUMBER": [
+            "path/to/movie/folder/"
+       ],
+       ```
+
+      Note: Make sure the path is within quotes (e.g. `"/Movies-3D"`) and there is a comma (`,`) after the close bracket (`]`) - all except the last one (see example below).
+
+   1. After the changes, the section will now look similar to this:
+
+       ```json
+       "PLEX_SECTION_PATH_MAPPINGS": {
+          "1": [
+              "/Movies-3D/"
+          ],
+          "2": [
+              "/Movies-4K/"
+          ],
+          "3": [
+              "/Movies-Foreign/"
+          ],
+          "4": [
+              "/Movies-Hollywood/"
+          ],
+          "5": [
+              "/Movies-Kids/"
+          ],
+          "6": [
+              "/TV/"
+          ]
+       },
+       ```
+
+
+1. Scroll down to the `SERVER_PATH_MAPPINGS` section.
+
+    1. Under this section, you will need to add library paths (as seen from within Plex) with the corresponding `/mnt/Media/` path. 
+
+        The format will look like:
+
+        ```json
+        "/data/path": [
+             "mnt/unionfs/Media/path"
+        ],
+        ```
+
+       Make sure the paths are within quotes (e.g. `"/data/Movies-3D/"`) and there is a comma (`,`) after the close bracket (`]`) - all except the last one (see example below).
+
+    1. After the changes, the section will now look similar to this:
+
+
+        ```json
+        "SERVER_PATH_MAPPINGS": {
+          "/data/Movies-3D/": [
+            "/mnt/unionfs/Media/Movies-3D/"
+          ],
+          "/data/Movies-4K/": [
+            "/mnt/unionfs/Media/Movies-4K/"
+          ],
+          "/data/Movies-Foreign/": [
+            "/mnt/unionfs/Media/Movies-Foreign/"
+          ],
+          "/data/Movies-Hollywood/": [
+            "/mnt/unionfs/Media/Movies-Hollywood/"
+          ],
+          "/data/Movies-Kids/": [
+            "/mnt/unionfs/Media/Movies-Kids/"
+          ],
+          "/data/TV/": [
+            "/tv/",
+            "/mnt/unionfs/Media/TV/"
+          ]
+        },
+        ```
+
 
 1. `Ctrl-x`, `y`, and `enter` to save.
 
