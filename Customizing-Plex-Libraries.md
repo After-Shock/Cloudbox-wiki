@@ -160,7 +160,7 @@ _Note: Do not modify `SERVER_PATH_MAPPINGS` as this does not require any changes
 
    1. This will tell UnionFS Cleaner to not remove empty folders directly under `/mnt/local/Media/Movies` during cleanup.  
 
-   1. Make sure there is a comma (`,`) at the end of all `"path": #` lines - all except the last one (see example below).
+   1. Note: Make sure there is a comma (`,`) at the end of all `"path": #` lines - all except the last one (see example below).
 
 1. After the changes, the section will now look similar to this:
 
@@ -360,7 +360,7 @@ In our example, this will be: `/data/Movies-3D`, `/data/Movies-4K`, `/data/Movie
 
    1. This will tell UnionFS Cleaner to not remove empty folders directly under `/mnt/local/Media/Movies` during cleanup.  
 
-   1. Make sure there is a comma (`,`) at the end of all `"path": #` lines - all except the last one (see example below).
+   1. Note: Make sure there is a comma (`,`) at the end of all `"path": #` lines - all except the last one (see example below).
 
 1. After the changes, the section will now look similar to this:
 
