@@ -131,7 +131,7 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
        ```json
        "SECTION_NUMBER": [
-            "path/to/movie/folder/"
+            "/path/to/movie/folder/"
        ],
        ```
 
@@ -290,7 +290,7 @@ In our example, this will be: `/data/Movies-3D`, `/data/Movies-4K`, `/data/Movie
 
        ```json
        "SECTION_NUMBER": [
-            "path/to/movie/folder/"
+            "/path/to/movie/folder/"
        ],
        ```
 
@@ -330,7 +330,7 @@ In our example, this will be: `/data/Movies-3D`, `/data/Movies-4K`, `/data/Movie
 
         ```json
         "/data/path": [
-             "mnt/unionfs/Media/path"
+             "/mnt/unionfs/Media/path"
         ],
         ```
 
