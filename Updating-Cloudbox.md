@@ -93,7 +93,7 @@ Steps to update Cloudbox are below.
 
           Note: Resetting the git clone will not reset your config files (e.g. `/opt`); it will merely update the Cloudbox installer files located in `~/cloudbox`.
 
-2. (Optional) If you want to check out the Develop Branch. Follow these steps:
+2. (Optional) If you want to check out the Develop branch, follow these steps:
 
    ```
    cd ~/
