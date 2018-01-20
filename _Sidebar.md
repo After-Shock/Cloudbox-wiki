@@ -56,6 +56,7 @@
 - Resilio Sync (coming soon)
 - Nextcloud (coming soon)
 - Ombi (coming soon)
+- Emby (coming soon)
 
 ***
 
