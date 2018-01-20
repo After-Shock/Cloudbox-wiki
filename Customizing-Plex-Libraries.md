@@ -310,7 +310,7 @@ In our example, this will be: `/data/Movies-3D`, `/data/Movies-4K`, `/data/Movie
         ],
         ```
 
-       Make sure the paths are within quotes (e.g. `"/data/Movies-3D/"`) and there is a comma (`,`) after the close bracket (`]`) - all except the last one (see example below).
+       Note: Make sure the paths are within quotes (e.g. `"/data/Movies-3D/"`) and there is a comma (`,`) after the close bracket (`]`) - all except the last one (see example below).
 
     1. After the changes, the section will now look similar to this:
 
