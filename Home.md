@@ -62,5 +62,6 @@ _Last updated on Jan 10, 2018._
 - [[Logs]]
 
 ### Community ###
+- [Website](https://www.cloudbox.rocks)
 - [Forums](https://forums.cloudbox.rocks)
-- [Slack](https://join.slack.com/t/cloud-box/shared_invite/MjM1NTI2OTEwMzIyLTE1MDQzOTAyNDAtYWNhOWY2NzNiZA)
+- [Discord](https://discord.gg/xmNYmSJ)
