@@ -13,7 +13,7 @@ Steps to update cloudbox are below:
    git pull
    ```
 
-   - If it says `settings.yml` has been modified, like... 
+   - If it says only the `settings.yml` file has been modified, like... 
 
 
       ```
