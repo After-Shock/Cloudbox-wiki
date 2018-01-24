@@ -30,7 +30,7 @@ If you would like to have custom libraries in Plex, you may do so with this guid
 
 
 
-> For those that that are interested, here is my library setup (based on Scenario 1):  
+> For those that that are interested, here is a generalized version of my library setup, which is based on Scenario 1.  
 >
 > ```
 > Media
