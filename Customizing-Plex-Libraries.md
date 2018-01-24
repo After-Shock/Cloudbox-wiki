@@ -48,7 +48,8 @@ If you would like to have custom libraries in Plex, you may do so with this guid
 > └── TV
 > ```
 >
-> "Movies/Movies" is my main movies folder (mostly Hollywood films and a few misc foreign ones). "/Movies/Kids" folder is for animated films. 
+> "Movies/Movies" is my main movies folder (mostly Hollywood films and a few misc foreign ones). 
+> "Movies/Kids" folder is for animated films. 
 
 <br />
 
