@@ -48,7 +48,7 @@ If you would like to have custom libraries in Plex, you may do so with this guid
 > └── TV
 > ```
 >
-> I keep mainstream movies (i.e. Hollywood films) in the "Movies/Movies" folder.
+> I keep majority of my mainstream movies (Hollywood and some misc foreign ones) in the "Movies/Movies" folder.
 
 <br />
 
