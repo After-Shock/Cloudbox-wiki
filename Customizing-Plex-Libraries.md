@@ -384,7 +384,7 @@ In our example, this will be: `/data/Movies-3D`, `/data/Movies-4K`, `/data/Movie
 
 1. Scroll down to the `rclone_remove_empty_on_upload` section.
 
-1. Add your paths under paths under it. (e.g. `"/mnt/local/Media/Movies-3D": 1`)
+1. Add the paths under it. (e.g. `"/mnt/local/Media/Movies-3D": 1`)
 
    1. This will tell UnionFS Cleaner to not remove empty folders directly under `/mnt/local/Media/Movies` during cleanup.  
 
