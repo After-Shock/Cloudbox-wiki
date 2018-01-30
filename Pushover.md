@@ -102,6 +102,9 @@ To have Pushover send you alerts every time a Cloudbox backup task starts and fi
 
 1. `Ctrl-x`, `y`, and `enter` to save.
 
+
+Tip: If you have a Plexbox/Feederbox setup, you can create 2 different applications within Pushover specify "Plexbox Backup" and "Feederbox Backup" as their names. 
+
 ## UnionFS Cleaner
 
 To have Pushover send you alerts every time a UnionFS Cleaner task starts and finishes, follow to steps below. 
