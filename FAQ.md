@@ -663,7 +663,11 @@ You may resolve this by either
 
  - Using SSH Tunneling to log into Plex and set your credentials
 
-   - On your host PC (replace with your user name and serveripaddress): `ssh <user>@<yourserveripaddress> -L 32400:0.0.0.0:32400 -N`
+   - On your host PC (replace with your user name and serveripaddress): 
+
+     ```
+     ssh <user>@<yourserveripaddress> -L 32400:0.0.0.0:32400 -N
+     ```
 
    - Go to http://localhost:32400/web.
 
