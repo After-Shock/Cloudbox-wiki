@@ -642,11 +642,23 @@ You may resolve this by either
 
  - Installing Cloudbox again
 
-   - Remove Plex Container: `sudo docker rm -f plex` (it may show "Error response from daemon: No such container" if not created yet)
+   - Remove Plex Container (it may show "Error response from daemon: No such container" if not created yet): 
 
-   - Remove the Plex folder: `sudo rm -rf /opt/plex`.
+     ```
+     sudo docker rm -f plex
+     ```
 
-   - Redo the [[installation|Installing Cloudbox]].
+   - Remove the Plex folder: 
+
+     ```
+     sudo rm -rf /opt/plex
+     ```
+
+   - Reinstall the Plex container by running the following command in `~/cloudbox`:
+
+     ```
+     sudo ansible-playbook cloudbox.yml --tags update-plex
+     ```
 
 
  - Using SSH Tunneling to log into Plex and set your credentials
