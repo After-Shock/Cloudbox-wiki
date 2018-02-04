@@ -18,11 +18,15 @@ In the default Cloudbox install, there only two main Plex libraries: one for Mov
 
 Default Paths:
 
+
+
    ```
    Media
    ├── Movies
    └── TV
    ```
+
+
 
 If you would like to have custom libraries in Plex, you may do so with this guide. But regardless of what scenario you choose below, the content will always be located within `/Media` folder in Google Drive (i.e. `/mnt/unionfs/Media` on the server). 
 
@@ -49,7 +53,7 @@ If you would like to have custom libraries in Plex, you may do so with this guid
 > ```
 >
 > "Movies/Movies" is my main movies folder (mostly Hollywood films and a few misc foreign ones). <br />
-> "Movies/Movies-Kids" folder is for animated films. 
+> "Movies/Movies-Kids" folder is for family rated, animated films. 
 
 <br />
 
@@ -73,6 +77,8 @@ Media
 ```
 
 
+
+
 _Note 1: You could do the same to TV shows (i.e. have multiple sub-dirs within `TV`), but this guide will not go over that. However, the steps are similar to the ones below._
 
 _Note 2: If you have a separate Plex and Feeder setup, the following steps will be done on the server where Plex is installed._
@@ -84,6 +90,8 @@ _Note 2: If you have a separate Plex and Feeder setup, the following steps will 
 Let's say you wanted to have separate movie libraries for: 3D, 4K, Foreign, Hollywood, and Kids. You would first have to create these folders within the `/Media/Movies` path in Google Drive. `/Media/Movies` folder will contain nothing but these folders.
 
 In our example, we will create the following folders: `/Media/Movies/3D`, `/Media/Movies/4K`, `/Media/Movies/Foreign`, `/Media/Movies/Hollywood`, and `/Media/Movies/Kids`.
+
+![](https://i.imgur.com/uze7hRK.png)
 
 ### 2. Add Libraries to Plex
 
@@ -249,6 +257,9 @@ _Note 2: If you have a separate Plex and Feeder setup, the following steps will 
 Let's say you wanted to have separate movies libraries for: general movies folder, 3D, 4K, Foreign, Hollywood, and Kids. You would first have to create these folders within the `/Media` path in Google Drive. `/Media/` folder will contain nothing but these folders (and the `TV` folder).
 
 In our example, we will create the following folders: `/Media/Movies-3D`, `/Media/Movies-4K`, `/Media/Movies-Foreign`, `/Media/Movies-Hollywood`, and `/Media/Movies-Kids`.
+
+
+![](https://i.imgur.com/nM1bCxm.png)
 
 ### 2. Add Libraries to Plex
 
