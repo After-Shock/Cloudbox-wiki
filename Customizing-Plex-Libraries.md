@@ -83,7 +83,7 @@ _Note: You could do the same to TV shows (i.e. have multiple sub-dirs within `TV
 
 
 
-### 1. Create folders in Google Drive
+### 1. Create Folders in Google Drive
 
 
 Let's say you wanted to have separate movie libraries for: 3D, 4K, Foreign, Hollywood, and Kids. You would first have to create these folders within the `/Media/Movies` path in Google Drive. `/Media/Movies` folder will contain nothing but these folders.
@@ -214,11 +214,11 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
 1. UnionFS Cleaner will restart itself when it detects config.json has changed.
 
 
-### 6. Change root paths in Radarr
+### 6. Change Root Paths in Radarr
 
 Set your Movie Paths in [[Radarr|Radarr#8-adding-the-movies-path]] to reflect the new sub-dirs (e.g. `/movies/3D`).
 
-### 7. Change root path in Plex Requests
+### 7. Change Root Paths in Plex Requests
 
 Set the default "Root save directory for movies" on the Radarr setup page of [[Plex Requests|Plex-Requests#3-settings"Root save directory for movies"]] (e.g. `/movies/3D`).
 
@@ -249,7 +249,7 @@ _Note: You could do the same to TV shows, but this guide will not go over that. 
 
 
 
-### 1. Create folders in Google Drive
+### 1. Create Folders in Google Drive
 
 
 Let's say you wanted to have separate movies libraries for: general movies folder, 3D, 4K, Foreign, Hollywood, and Kids. You would first have to create these folders within the `/Media` path in Google Drive. `/Media/` folder will contain nothing but these folders (and the `TV` folder).
@@ -428,11 +428,11 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
 1. UnionFS Cleaner will restart itself when it detects config.json has changed.
 
 
-### 6. Change root paths in Radarr
+### 6. Change Root Paths in Radarr
 
 Set your Movie Paths in [[Radarr|Radarr#8-adding-the-movies-path]] to reflect the new sub-dirs (e.g. `/mnt/unionfs/Media/Movies-3D`).
 
 
-### 7. Change root path in Plex Requests
+### 7. Change Root Paths in Plex Requests
 
 Set the default "Root save directory for movies" on the Radarr setup page of [[Plex Requests|Plex-Requests#3-settings"Root save directory for movies"]] (e.g. `/mnt/unionfs/Media/Movies-3D`).
