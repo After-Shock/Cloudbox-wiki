@@ -90,6 +90,8 @@ Media will be stored in `Movies` and `TV` folders, all within a `Media` folder i
    └── TV
    ```
 
+  ![](https://i.imgur.com/Q8cxZW4.png)
+
 If you have media in other folders, simply move them into these folders via the [Google Drive website](https://www.google.com/drive/).
 
 Note: All the paths/folders mentioned are **CASE SENSITIVE** (see  [[Paths]]). 
