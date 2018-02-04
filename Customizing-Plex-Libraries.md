@@ -118,6 +118,8 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 
 ### 4. Modify Plex Autoscan Config
 
+_Note: If you have a separate Plex and Feeder setup, this will be done on the server where Plex is installed._
+
 1. On the server's shell, run the following command:
 
     ```
@@ -172,6 +174,8 @@ In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movie
 _Note: Do not modify `SERVER_PATH_MAPPINGS` as this does not require any changes._
 
 ### 5. Modify UnionFS Cleaner Config
+
+_Note: If you have a separate Plex and Feeder setup, this will be done on the server where Feederbox is setup._
 
 1. On the server's shell, run the following command:
 
@@ -255,6 +259,8 @@ In our example, this will be: `/data/Movies-3D`, `/data/Movies-4K`, `/data/Movie
 
 ### 3. Retrieve Plex Library Section IDs
 
+_Note: If you have a separate Plex and Feeder setup, this will be done on the server where Plex is installed._
+
 1. On the server's shell, run the following command:
 
     ```
@@ -279,6 +285,8 @@ In our example, this will be: `/data/Movies-3D`, `/data/Movies-4K`, `/data/Movie
 
 
 ### 4. Modify Plex Autoscan Config
+
+_Note: If you have a separate Plex and Feeder setup, this will be done on the server where Plex is installed._
 
 1. On the server's shell, run the following command:
 
@@ -376,6 +384,8 @@ In our example, this will be: `/data/Movies-3D`, `/data/Movies-4K`, `/data/Movie
 
 
 ### 5. Modify UnionFS Cleaner Config
+
+_Note: If you have a separate Plex and Feeder setup, this will be done on the server where Feederbox is setup._
 
 1. On the server's shell, run the following command:
 
