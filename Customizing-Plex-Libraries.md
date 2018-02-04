@@ -86,7 +86,9 @@ _Note: You could do the same to TV shows (i.e. have multiple sub-dirs within `TV
 ### 1. Create Folders in Google Drive
 
 
-Let's say you wanted to have separate movie libraries for: 3D, 4K, Foreign, Hollywood, and Kids. You would first have to create these folders within the `/Media/Movies` path in Google Drive. `/Media/Movies` folder will contain nothing but these folders.
+Let's say you wanted to have separate movie libraries for: 3D, 4K, Foreign, Hollywood, and Kids. You would first have to create these folders within the `/Media/Movies` path in Google Drive. `/Media/Movies` folder will contain nothing but these folders. 
+
+_Note: Remember, folders are case sensitive in Google Drive and in Linux (e.g. `4K` and `4k` are 2 different folders)._
 
 In our example, we will create the following folders: `/Media/Movies/3D`, `/Media/Movies/4K`, `/Media/Movies/Foreign`, `/Media/Movies/Hollywood`, and `/Media/Movies/Kids`.
 
@@ -143,11 +145,13 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
 
        ```json
        "SECTION_NUMBER": [
-           "/Movies/<folder>/"
+           "/Movies/<folderpath>/"
        ],
        ```
 
-       Note: Make sure the path is within quotes (e.g. `"/Movies/3D"`) and there is a comma (`,`) after the close bracket (`]`) - all except the last one (see example below).
+       Note 1: Make sure the folder paths are within quotes (e.g. `"/Movies/3D"`) and there is a comma (`,`) after the close bracket (`]`) - all except the last one (see example below).
+
+       Note 2: Since folders are case sensitive, make sure the folder path matches the same case as the folders you created in Google Drive (e.g. `"/Movies/4K"` is not the same as `"/Movies/4k"`).
 
     1. After the changes, the section will now look similar to this:
 
@@ -254,6 +258,8 @@ _Note: You could do the same to TV shows, but this guide will not go over that. 
 
 Let's say you wanted to have separate movies libraries for: general movies folder, 3D, 4K, Foreign, Hollywood, and Kids. You would first have to create these folders within the `/Media` path in Google Drive. `/Media/` folder will contain nothing but these folders (and the `TV` folder).
 
+_Note: Remember, folders are case sensitive in Google Drive and in Linux (e.g. `4K` and `4k` are 2 different folders)._
+
 In our example, we will create the following folders: `/Media/Movies-3D`, `/Media/Movies-4K`, `/Media/Movies-Foreign`, `/Media/Movies-Hollywood`, and `/Media/Movies-Kids`.
 
 
@@ -316,7 +322,9 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
        ],
        ```
 
-      Note: Make sure the path is within quotes (e.g. `"/Movies-3D"`) and there is a comma (`,`) after the close bracket (`]`) - all except the last one (see example below).
+       Note 1: Make sure the folder paths are within quotes (e.g. `"/Movies-3D"`) and there is a comma (`,`) after the close bracket (`]`) - all except the last one (see example below).
+
+       Note 2: Since folders are case sensitive, make sure the folder path matches the same case as the folders you created in Google Drive (e.g. `"/Movies-4K"` is not the same as `"/Movies-4k"`).
 
    1. After the changes, the section will now look similar to this:
 
@@ -356,7 +364,7 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
         ],
         ```
 
-       Note: Make sure the paths are within quotes (e.g. `"/data/Movies-3D/"`) and there is a comma (`,`) after the close bracket (`]`) - all except the last one (see example below).
+       Note: Make sure the folder paths are within quotes (e.g. `"/data/Movies-3D/"`) and there is a comma (`,`) after the close bracket (`]`) - all except the last one (see example below).
 
     1. After the changes, the section will now look similar to this:
 
