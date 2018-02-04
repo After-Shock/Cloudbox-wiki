@@ -10,7 +10,7 @@ Note 2: This wiki uses `~/` interchangeably with `/home/<username>/` (defined as
 ## Google Drive Paths
 
 
-![](https://i.imgur.com/Q8cxZW4.png)
+
 
 ```
 Media
@@ -18,6 +18,7 @@ Media
 └── TV
 ```
 
+![](https://i.imgur.com/Q8cxZW4.png)
 
 
 | Path                   | Purpose                                                                                                                                                            |
