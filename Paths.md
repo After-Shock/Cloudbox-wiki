@@ -10,6 +10,16 @@ Note 2: This wiki uses `~/` interchangeably with `/home/<username>/` (defined as
 ## Google Drive Paths
 
 
+![](https://i.imgur.com/Q8cxZW4.png)
+
+```
+Media
+├── Movies
+└── TV
+```
+
+
+
 | Path                   | Purpose                                                                                                                                                            |
 |:---------------------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | <pre>/Media</pre>     | <pre> Location of the `Movies` and `TV` folders   </pre>                                                                                                                         |
@@ -21,7 +31,20 @@ _Note: If you would like to customize your Plex libraries differently, see [[Cus
 
 ## Local Paths
 
+```
+mnt
+├──local
+|  └── Media
+├──plexdrive
+|  └── Media
+└──unionfs
+   └── Media
+```
+
 ### Media
+
+
+
 
 
 | Path                   | Purpose                                                                                                                                                            |
