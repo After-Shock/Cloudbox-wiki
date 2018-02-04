@@ -222,9 +222,7 @@ Set your Movie Paths in [[Radarr|Radarr#8-adding-the-movies-path]] to reflect th
 
 Set the default "Root save directory for movies" on the Radarr setup page of [[Plex Requests|Plex-Requests#3-settings"Root save directory for movies"]] (e.g. `/movies/3D`).
 
-
-<br />
-<br />
+***
 
 ## Scenario 2
 
