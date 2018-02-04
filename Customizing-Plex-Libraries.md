@@ -79,9 +79,8 @@ Media
 
 
 
-_Note 1: You could do the same to TV shows (i.e. have multiple sub-dirs within `TV`), but this guide will not go over that. However, the steps are similar to the ones below._
+_Note: You could do the same to TV shows (i.e. have multiple sub-dirs within `TV`), but this guide will not go over that. However, the steps are similar to the ones below._
 
-_Note 2: If you have a separate Plex and Feeder setup, the following steps will be done on the server where Plex is installed._
 
 
 ### 1. Create folders in Google Drive
@@ -100,6 +99,8 @@ You will add each of these folders as separate libraries within Plex (see [[exam
 In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movies/Foreign`, `/data/Movies/Hollywood`, and `/data/Movies/Kids`.
 
 ### 3. Retrieve Plex Library Section IDs
+
+_Note: If you have a separate Plex and Feeder setup, this will be done on the server where Plex is installed._
 
 1. On the server's shell, run the following command:
 
@@ -246,9 +247,8 @@ Media
 
 
 
-_Note 1: You could do the same to TV shows, but this guide will not go over that. However, the steps are similar to the ones below._
+_Note: You could do the same to TV shows, but this guide will not go over that. However, the steps are similar to the ones below._
 
-_Note 2: If you have a separate Plex and Feeder setup, the following steps will be done on the server where Plex is installed._
 
 
 ### 1. Create folders in Google Drive
