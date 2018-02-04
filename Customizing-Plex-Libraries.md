@@ -143,7 +143,7 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
 
        ```json
        "SECTION_NUMBER": [
-           "/path/to/movie/folder/"
+           "/Movies/<folder>/"
        ],
        ```
 
@@ -312,7 +312,7 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
 
        ```json
        "SECTION_NUMBER": [
-           "/path/to/movie/folder/"
+           "/<folder>/"
        ],
        ```
 
@@ -351,8 +351,8 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
         The format will look like:
 
         ```json
-        "/data/path": [
-          "/mnt/unionfs/Media/path"
+        "/data/<folder>": [
+          "/mnt/unionfs/Media/<folder>"
         ],
         ```
 
