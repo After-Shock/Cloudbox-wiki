@@ -51,11 +51,13 @@
 
 1. Set your preferred naming format.
 
+   _Tip: [[My file naming preferences|https://github.com/desimaniac/docs/blob/master/my_sonarr_and_radarr_naming_preferences.md]], for whoever is interested._
+
 1. Disable "Analyse video files".
 
 1. Click "Save".
 
-_Tip: [[My file naming preferences|https://github.com/desimaniac/docs/blob/master/my_sonarr_and_radarr_naming_preferences.md]], for whoever is interested._
+
 
 
 ## 4. Download Clients
