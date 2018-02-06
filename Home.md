@@ -43,10 +43,10 @@ _Last updated on Jan 20, 2018._
 
 
 ### Optional Docker containers
-- Resilio Sync (coming soon)
+- [[Resilio Sync]] (work in progress)
 - Nextcloud (coming soon)
-- Ombi (coming soon)
-- Emby (coming soon)
+- [Ombi] (work in progress)
+- [Emby] (work in progress)
 
 ### Misc Guides
 - [[Nativefier]] (Create desktop apps for Cloudbox)
