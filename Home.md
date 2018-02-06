@@ -42,7 +42,8 @@ _Last updated on Jan 20, 2018._
 - [[Revoking SSL Certificates]]
 
 
-### Optional Docker containers (work in progress = container is working; doc needs work)
+### Optional Docker containers 
+(work in progress = container is working; doc needs work)
 - [[Resilio Sync]] (work in progress)
 - Nextcloud (coming soon)
 - [[Ombi]] (work in progress)
