@@ -18,7 +18,7 @@
 	- [What are the server tweaks that were mentioned on the README.md page?](#what-are-the-server-tweaks-that-were-mentioned-on-the-readmemd-page)
 	- [If you cloned the script as USER1 but installed as USER2](#if-you-cloned-the-script-as-user1-but-installed-as-user2)
 	- [Unrar module fails to install during the Common Role step](#unrar-module-fails-to-install-during-the-common-role-step)
-	- [pip ssl error](#pip-ssl-error)
+	- [Misc SSL Errors During Install](##misc-ssl-errors-during-install)
 	- [Error while fetching server API version](#error-while-fetching-server-api-version)
 	- [403 Client Error: Forbidden: endpoint with name \<container name\> already exists in network \<network name\>](#403-client-error-forbidden-endpoint-with-name-container-name-already-exists-in-network-network-name)
 	- [500 Server Error: Internal Server Error: driver failed programming external connectivity on endpoint \<container name\> bind for 0.0.0.0:\<port number\> failed: port is already allocated](#500-server-error-internal-server-error-driver-failed-programming-external-connectivity-on-endpoint-container-name-bind-for-0000port-number-failed-port-is-already-allocated)
