@@ -353,17 +353,16 @@ Example:
 An exception occurred during task execution. To see the full traceback, use -vvv. The error was: AttributeError: 'module' object has no attribute 'Cryptography_HAS_SSL_ST'
 ```
 
+This seems to occur on certain VM systems. 
 
-This shouldn't be happening anymore with the latest prerequisite command(s), but if it still does, run the following...
-
-
-```
-sudo -H pip2 install pyOpenSSL 
+To fix it the issue, run the following command: 
 
 ```
+sudo easy_install pyOpenSSL
 
+```
 
-...and retry install.
+Rerun the [Install Prerequisites](Downloading-Cloudbox#2-install-prerequisites) command and retry Cloudbox Install.. 
 
 
 ## Error while fetching server API version
