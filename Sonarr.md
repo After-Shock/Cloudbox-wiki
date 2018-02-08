@@ -155,7 +155,7 @@ After adding in your favorite [[indexers|Prerequisites#6-preferred-downloading-m
 
    1. API Path: `/api`
 
-   1. API Key: [[Your NZB Hydra API Key|NZB-Hydra#3-api-key]]
+   1. API Key: [[Your NZB Hydra API Key|NZB-Hydra#api-key]]
 
    1. Additional Parameters: _Leave Blank_
 
