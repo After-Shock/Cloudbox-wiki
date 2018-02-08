@@ -346,9 +346,24 @@ sudo rm -rf /home/USER1/cloudbox
   1. `Ctrl-x`, `y`, and `enter` to save.
 
 
-## pip ssl error
+## Misc SSL Errors during Install
 
-This shouldnt be happening anymore with the latest prerequisite command(s), but if it still does, run `sudo easy_install pyOpenSSL` and retry install.
+Example:
+```
+An exception occurred during task execution. To see the full traceback, use -vvv. The error was: AttributeError: 'module' object has no attribute 'Cryptography_HAS_SSL_ST'
+```
+
+
+This shouldn't be happening anymore with the latest prerequisite command(s), but if it still does, run the following...
+
+
+```
+sudo -H pip2 install pyOpenSSL 
+
+```
+
+
+...and retry install.
 
 
 ## Error while fetching server API version
