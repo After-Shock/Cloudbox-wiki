@@ -1,3 +1,5 @@
+Jackett lets you use a bunch of additional torrent providers with programs such as Sonarr and Radarr. You can also use it as a meta search tool to find torrents, yourself. 
+
 ## 1. Accessing Jackett
 
  - To access Jackett, visit http://jackett._yourdomain.com_
