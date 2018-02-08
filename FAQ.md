@@ -677,7 +677,7 @@ You may resolve this by either
 
  - Using SSH Tunneling to log into Plex and set your credentials
 
-   - On your host PC (replace with your user name and serveripaddress): 
+   - On your host PC (replace <user> with your user name and <yourserveripaddress> with your serveripaddress - no arrows): 
 
      ```
      ssh <user>@<yourserveripaddress> -L 32400:0.0.0.0:32400 -N
