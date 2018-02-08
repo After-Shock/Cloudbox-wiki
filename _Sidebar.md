@@ -19,7 +19,7 @@
     1. [[Rclone]]
     1. [[Plexdrive]]
     1. [[NZBGet]]
-    1. [[NZB Hydra]]
+    1. [[NZBHydra]]
     1. [[Jackett]]
     1. [[Plex Autoscan]]
     1. [[Sonarr]]
@@ -57,6 +57,7 @@
 - Nextcloud (coming soon)
 - Ombi (coming soon)
 - Emby (coming soon)
+- NZBHydra2 (coming soon)
 
 ***
 
