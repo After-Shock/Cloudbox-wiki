@@ -7,7 +7,7 @@
 	- [NZBGet](#nzbget)
 	- [ruTorrent](#rutorrent)
 5. [Indexers](#5-indexers)
-	- [NZB Hydra](#nzb-hydra)
+	- [NZBHydra](#nzbhydra)
 	- [Jackett](#jackett)
 6. [Torrent Cleanup Script](#6-torrent-cleanup-script)
 7. [Plex Autoscan](#7-plex-autoscan)
@@ -134,7 +134,7 @@ _Tip: [[My file naming preferences|https://github.com/desimaniac/docs/blob/maste
 
 After adding in your favorite [[indexers|Prerequisites#6-preferred-downloading-method]], you may add the following ...
 
-### NZB Hydra
+### NZBHydra
 
 1. Click "Settings" -> "Indexers".
 
