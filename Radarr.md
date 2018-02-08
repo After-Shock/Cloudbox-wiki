@@ -152,7 +152,7 @@ After adding in your favorite [[indexers|Prerequisites#6-preferred-downloading-m
 
    1. URL: `http://nzbhydra:5075`
 
-   1. API Key: [[Your NZB Hydra API Key|NZB-Hydra#3-api-key]]
+   1. API Key: [[Your NZB Hydra API Key|NZB-Hydra#api-key]]
 
    1. Additional Parameters: _Leave Blank_
 
@@ -162,7 +162,7 @@ After adding in your favorite [[indexers|Prerequisites#6-preferred-downloading-m
 
 1. Click "Save" to add NZB Hydra.
 
-Note: The "Test" will keep failing until you add an indexer in [[NZB Hydra]].
+Note: The "Test" will keep failing until you add an indexer in [[NZBHydra]].
 
 ### Jackett
 
