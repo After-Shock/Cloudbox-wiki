@@ -1,23 +1,26 @@
 
 
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:1 -->
 
-1. [Accessing NZBHydra](#1-accessing-nzb-hydra)
-2. [Setup](#2-setup)
-3. [API](#3-api-key)
+- [Intro](#intro)
+- [Accessing NZBHydra](#accessing-nzb-hydra)
+- [Setup](#setup)
+- [API](#api-key)
 
 <!-- /TOC -->
 
+## Intro
 
-NZBHydra is a meta search for NZB indexers. It provides easy access to a number of raw and newznab based indexers. You can search all your indexers from one place and use it as indexer source for tools like Sonarr or CouchPotato.
 
-By default, Cloudbox will install NZBHydra1. Once NZBHydra2 is out of beta, it will be replaced the current one (you may test out NZBHydra2 later if you decide). 
+>NZBHydra is a meta search for NZB indexers. It provides easy access to a number of raw and newznab based >indexers. You can search all your indexers from one place and use it as indexer source for tools like Sonarr or >CouchPotato.
 
-## 1. Accessing NZBHydra
+_Note: By default, Cloudbox will install NZBHydra1. Once NZBHydra2 is out of beta, it will be replaced the current one (you may install NZBHydra2 later, if you decide)._ 
+
+## Accessing NZBHydra
 
 - To access NZBHydra, visit https://nzbhydra._yourdomain.com_
 
-## 2. Setup
+## Setup
 
 Enter setup by clicking on "Config" at the top.
 
