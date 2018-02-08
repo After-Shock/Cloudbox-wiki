@@ -1,3 +1,5 @@
+NZBGet is a very effective usenet downloader.
+
 ## 1. Accessing NZBGet
 
 - To access NZBGet, visit https://nzbget._yourdomain.com_
