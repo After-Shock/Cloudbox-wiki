@@ -3,7 +3,7 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:1 -->
 
 - [Intro](#intro)
-- [Accessing NZBHydra](#accessing-nzb-hydra)
+- [URL](#URL)
 - [Setup](#setup)
 - [API](#api-key)
 
@@ -16,9 +16,9 @@
 
 _Note: By default, Cloudbox will install NZBHydra1. Once NZBHydra2 is out of beta, it will be replaced the current one (you may install NZBHydra2 later, if you decide)._ 
 
-## Accessing NZBHydra
+## URL
 
-- To access NZBHydra, visit https://nzbhydra._yourdomain.com_
+- URL to access NZBHydra: https://nzbhydra._yourdomain.com_
 
 ## Setup
 
