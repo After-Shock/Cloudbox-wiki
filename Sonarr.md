@@ -7,7 +7,7 @@
 	- [NZBGet](#nzbget)
 	- [ruTorrent](#rutorrent)
 5. [Indexers](#5-indexers)
-	- [NZB Hydra](#nzb-hydra)
+	- [NZBHydra](#nzbhydra)
 	- [Jackett](#jackett)
 6. [Torrent Cleanup Script](#6-torrent-cleanup-script)
 7. [Plex Autoscan](#7-plex-autoscan)
@@ -135,7 +135,7 @@
 
 After adding in your favorite [[indexers|Prerequisites#6-preferred-downloading-method]], you may add the following ...
 
-### NZB Hydra
+### NZBHydra
 
 1. Click "Settings" -> "Indexers".
 
@@ -161,11 +161,11 @@ After adding in your favorite [[indexers|Prerequisites#6-preferred-downloading-m
 
 1. Your settings will look like this:
 
-    ![Sonarr NZB Hydra](https://i.imgur.com/lQeKy7w.png)
+    ![Sonarr NZBHydra](https://i.imgur.com/lQeKy7w.png)
 
-1. Click "Save" to add NZB Hydra.
+1. Click "Save" to add NZBHydra.
 
-Note: The "Test" will keep failing until you add an indexer in [[NZB Hydra]].
+Note: The "Test" will keep failing until you add an indexer in [[NZBHydra]].
 
 ### Jackett
 
