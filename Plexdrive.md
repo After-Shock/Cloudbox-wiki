@@ -1,4 +1,4 @@
-Plexdrive mounts your Google Drive on to your server. It prevents potential Google Drive bans by caching the stream data in RAM. 
+Plexdrive mounts your Google Drive on to your server. It works better than others mounting solutions because it caches the stream data in RAM, which also helps prevent potential Google Drive bans. 
 
 _Note: If your server has < 16GB of RAM, give [[this|FAQ#server-ram-is-being-maxed-out]] a read after finishing the steps below._
 
