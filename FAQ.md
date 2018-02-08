@@ -683,7 +683,9 @@ You may resolve this by either
      ssh <user>@<yourserveripaddress> -L 32400:0.0.0.0:32400 -N
      ```
 
-   - Go to http://localhost:32400/web.
+     This will just hang there without any message. That is normal. 
+
+   - In a browser, go to http://localhost:32400/web.
 
    - Log in with your Plex account.
 
