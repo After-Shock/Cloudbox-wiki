@@ -1,4 +1,4 @@
-The guide below will take you through setting up Plexdrive. 
+Plexdrive mounts your Google Drive on to your server. It prevents potential Google Drive bans by caching the stream data in RAM. 
 
 _Note: If your server has < 16GB of RAM, give [[this|FAQ#server-ram-is-being-maxed-out]] a read after finishing the steps below._
 
