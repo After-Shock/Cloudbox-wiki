@@ -55,4 +55,4 @@ Enter setup by clicking on "Config" at the top.
 
 ## 3. API Key
 
-To find the NZBHydra API Key, go to "Config" --> "Main". This will be used later in [[Sonarr|Sonarr#nzb-hydra]] and [[Radarr|Radarr#nzb-hydra]].
+To find the NZBHydra API Key, go to "Config" --> "Main". This will be used later in [[Sonarr|Sonarr#nzbhydra]] and [[Radarr|Radarr#nzb-hydra]].
