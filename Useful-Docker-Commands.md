@@ -111,9 +111,9 @@ Notes:
       - Set ownership: `sudo chown -R <user>:<group> /mnt/downloads/<name>`
         - Replace `<user>` and `<group>` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid))
       - Set permissions: `sudo chmod -R g+s /mnt/downloads/<name>`
-- Network: 
+- Network (these are important): 
   - `--network=cloudbox `
-  - `--network-alias=<name> `
+  - `--network-alias=<name> `   (aliases are shortcuts to communicate across dockers)
   - Note: Leave these out if your docker run command requires `--net=host`.
 - Ports:
 
