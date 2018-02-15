@@ -78,5 +78,5 @@
 
 ### Community ###
 - [Website](https://www.cloudbox.rocks)
-- [Forums](https://forums.cloudbox.rocks)
+- [Reddit](https://reddit.com/r/Cloudbox)
 - [Discord](https://discord.gg/xmNYmSJ)
