@@ -54,7 +54,7 @@ To see the information below in a nice-looking table, click [[here|https://pste.
 
   - Note: Password **must** be in alphanumeric characters. No special characters. 
 
-- `domain`: Your domain name. To be used to access your Cloudbox server. If you don't have one, see [[Prerequisites|Prerequisites#3-domain-name]].
+- `domain`: Your domain name. To be used to access your Cloudbox server. If you don't have one, see [[Prerequisites|First-Time-Install:-Prerequisites#3-domain-name]].
 
 - `email`: Your e-mail address. This is used to get SSL certificates.
 
@@ -100,7 +100,7 @@ To see the information below in a nice-looking table, click [[here|https://pste.
 
   - `size_check_mins`: How often in minutes local media size is checked. Default is `30`.
 
-  - `rclone_remote`: Remote path for Google Drive (see [[Prerequisites|Prerequisites#4-google-drive-account]]). Default is `"google:"`.
+  - `rclone_remote`: Remote path for Google Drive (see [[Prerequisites|First-Time-Install:-Prerequisites#4-google-drive-account]]). Default is `"google:"`.
 
 - `backup`:
 
