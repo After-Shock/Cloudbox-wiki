@@ -26,6 +26,15 @@ Get a server hosting company (e.g. Hetzner) with Ubuntu 16.04 LTS installed. Clo
 
 _Note: If you are using a Scaleway server, read [[this|FAQ#if-you-are-using-a-scaleway-server]]._
 
+
+```
+Tips:
+- If you have multiple hard drives on the server (eg. 2 x 4 TB), put them in RAID 0 to maximize space and speed, and enable weekly backups in Cloudbox. 
+- Put all your space on / (not /home).
+- Leave ample space in /boot (e.g. 500MB - 1GB)
+
+```
+
 ## 3. Domain Name
 
 Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Accessing Cloudbox Apps]]). To set this app follow the below instructions.
