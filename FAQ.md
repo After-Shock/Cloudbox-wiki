@@ -275,7 +275,7 @@ hijacking all domains that are not accessible or not follow the guidelines
 set in our terms and conditions will be cancelled.
 ```
 
-If you get a domain from Freenom and don't actually set it up, you'll get this email. If you want to stop getting them, then you should look into getting a paid [[domain|Prerequisites#i-paid-domain-name-recommended]].
+If you get a domain from Freenom and don't actually set it up, you'll get this email. If you want to stop getting them, then you should look into getting a paid [[domain|First-Time-Install:-Prerequisites#i-paid-domain-name-recommended]].
 
 
 
@@ -543,7 +543,7 @@ See https://letsencrypt.org/docs/rate-limits/ for more info.
 Challenge validation has failed, see error log.
 ```
 
-- Make sure your [[domain registrar|Prerequisites#3-domain-name]] is pointing to the correct server IP address. You can verify this by pinging it (`ping yourdomain.com`).
+- Make sure your [[domain registrar|First-Time-Install:-Prerequisites#3-domain-name]] is pointing to the correct server IP address. You can verify this by pinging it (`ping yourdomain.com`).
 
 - Make sure you used the correct domain address in [[settings.yml|Configuring Settings]].
 
@@ -602,7 +602,7 @@ sudo chmod -R 0755 ~/.config/rclone/
 ### Make sure your files are in the correct Google Drive paths.
 
 
-See [[Paths]] and [[Prerequisites#4-google-drive-account]]. Remember folder names mentioned throughout the site are **CASE SENSITIVE**.
+See [[Paths]] and [[First-Time-Install:-Prerequisites#4-google-drive-account]]. Remember folder names mentioned throughout the site are **CASE SENSITIVE**.
 
 
 ### Check on status
