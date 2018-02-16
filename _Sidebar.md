@@ -10,7 +10,7 @@
 ***
 
 ### First Time Install ###
-1. [[Prerequisites]]
+1. [[Prerequisites|First-Time-Install:-Prerequisites]]
 1. [[Downloading Cloudbox]]
 1. [[Updating Kernel]]
 1. [[Configuring Settings]]
