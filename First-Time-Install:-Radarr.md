@@ -152,7 +152,7 @@ After adding in your favorite [[indexers| First-Time-Install: Prerequisites#6-pr
 
    1. URL: `http://nzbhydra:5075`
 
-   1. API Key: [[Your NZB Hydra API Key|First-Time-Install: NZB-Hydra#api-key]]
+   1. API Key: [[Your NZB Hydra API Key|First-Time-Install: NZBHydra#api-key]]
 
    1. Additional Parameters: _Leave Blank_
 
