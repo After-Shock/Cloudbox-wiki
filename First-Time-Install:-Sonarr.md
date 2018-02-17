@@ -115,9 +115,9 @@
 
    1. Use SSL: `No`
 
-   1. Username: [[Your ruTorrent Username|Configuring Settings]]
+   1. Username: [[Your ruTorrent Username|First Time Install: Configuring Settings]]
 
-   1. Password: [[Your ruTorrent Password|Configuring Settings]]
+   1. Password: [[Your ruTorrent Password|First Time Install: Configuring Settings]]
 
    1. Category: `sonarr`
 
@@ -133,7 +133,7 @@
 
 ## 5. Indexers
 
-After adding in your favorite [[indexers|Prerequisites#6-preferred-downloading-method]], you may add the following ...
+After adding in your favorite [[indexers| First-Time-Install: Prerequisites#6-preferred-downloading-method]], you may add the following ...
 
 ### NZBHydra
 

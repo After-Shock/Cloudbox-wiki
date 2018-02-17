@@ -16,7 +16,7 @@ NZBGet is a very effective usenet downloader.
 
     1. Click "Save" and then "Reload".
 
-1. Add your [[news servers|Prerequisites#i-usenet]].
+1. Add your [[news servers| First-Time-Install: Prerequisites#i-usenet]].
 
 1. Download paths have already been specified, no need to change those.
 

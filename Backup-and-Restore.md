@@ -70,7 +70,7 @@ This is handy for times when you just need to make an immediate backup of your s
    cd ~/cloudbox 
    ```
 
-2. Set the following in your [[settings.yml|Configuring Settings]] file:
+2. Set the following in your [[settings.yml|First Time Install: Configuring Settings]] file:
 
    - `tar_dest` (default: `/home/{{user}}/Backups`)
 
@@ -105,7 +105,7 @@ There are 2 ways to set this up:
 
 ### Scheduling Backup via Cloudbox
 
-1. Set the following in your [[settings.yml|Configuring Settings]] file:
+1. Set the following in your [[settings.yml|First Time Install: Configuring Settings]] file:
 
    - `tar_dest` (default: `/home/{{user}}/Backups`)
 
@@ -174,7 +174,7 @@ We will assume you are restoring to a new / clean server.
 
 1. [[Update the kernel|Updating-Kernel]].
 
-1. Set the following in your [[settings.yml|Configuring Settings]] file (the bare minimum for a restore):
+1. Set the following in your [[settings.yml|First Time Install: Configuring Settings]] file (the bare minimum for a restore):
 
    - `user` (based on the user account you created in step #1)
 
@@ -202,7 +202,7 @@ We will assume you are restoring to a new / clean server.
    sudo ansible-playbook cloudbox.yml --tag restore
    ```
 
-1. Configure the rest of your [[settings.yml|Configuring Settings]]. 
+1. Configure the rest of your [[settings.yml|First Time Install: Configuring Settings]]. 
 
    Note: You may use your previous settings.yml file (`/opt/settings.yml`) as a point of reference to update your new one. However, if all the variables are the same (i.e. no new or modified variables), you may just replace it with your previous one (`cp /opt/settings.yml ~/cloudbox/`).
 

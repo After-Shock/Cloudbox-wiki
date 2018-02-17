@@ -36,7 +36,7 @@ Listed below are some scenarios and steps to follow for them.
 
 1. Register your new domain name (if you haven't already) and point the DNS to your new server. 
 
-1. Edit the [[settings.yml|Configuring Settings]] file, and type in your new domain name. 
+1. Edit the [[settings.yml|First Time Install: Configuring Settings]] file, and type in your new domain name. 
 
 1. Delete the previous SSL certificate files: 
    
@@ -59,7 +59,7 @@ Listed below are some scenarios and steps to follow for them.
 
 1. Register your new domain name (if you haven't already) and point the DNS to your new server. 
 
-1. Edit the [[settings.yml|Configuring Settings]] file, and type in your new domain name. 
+1. Edit the [[settings.yml|First Time Install: Configuring Settings]] file, and type in your new domain name. 
 
 1. Delete the previous SSL certificate files: 
    
@@ -81,7 +81,7 @@ Listed below are some scenarios and steps to follow for them.
 
 1. Register your new domain name (if you haven't already) and point the DNS to your server. 
 
-1. Edit the [[settings.yml|Configuring Settings]] file, and type in your new domain name. 
+1. Edit the [[settings.yml|First Time Install: Configuring Settings]] file, and type in your new domain name. 
 
 1. Delete the previous SSL certificate files: 
    

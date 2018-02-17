@@ -545,7 +545,7 @@ Challenge validation has failed, see error log.
 
 - Make sure your [[domain registrar|First-Time-Install:-Prerequisites#3-domain-name]] is pointing to the correct server IP address. You can verify this by pinging it (`ping yourdomain.com`).
 
-- Make sure you used the correct domain address in [[settings.yml|Configuring Settings]].
+- Make sure you used the correct domain address in [[settings.yml|First Time Install: Configuring Settings]].
 
 
 

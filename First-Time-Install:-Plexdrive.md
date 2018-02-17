@@ -22,7 +22,7 @@ _Note: If your server has < 16GB of RAM, give [[this|FAQ#server-ram-is-being-max
 1. Copy the link on the screen  and paste it in your host computer's internet browser. Login with your Google account, if asked, and click `Allow`. You will copy the `authorization code` from your browser, paste it at the prompt, and press `enter`.
 
 
-   Note 1: You must use the same Google account as the one you are planning to use for Google Drive (see [[Prerequisites|Prerequisites#4-google-drive-account]]).
+   Note 1: You must use the same Google account as the one you are planning to use for Google Drive (see [[Prerequisites| First-Time-Install: Prerequisites#4-google-drive-account]]).
 
    Note 2: If you keep getting the prompt for the authorization code or any other type of err, you might have used an incorrect Client ID/Secret. Remove the `config.json` and `token.json` files from `/opt/plexdrive/` and retry setup.
 
@@ -68,4 +68,4 @@ _Note: If your server has < 16GB of RAM, give [[this|FAQ#server-ram-is-being-max
 
 1. After the cache is built (see [[log|Logs#plexdrive]]), all your media files (on the server and on Google Drive - combined) will show up in `/mnt/unionfs/Media/`.
 
-   If your media files are not showing up, then either something went wrong during the setup of Plexdrive (i.e. this page) or your media is not located in the correct folder in Google Drive (see [[Prerequisites|Prerequisites#4-google-drive-account]] and [[Paths|Paths#google-drive-paths]]).
+   If your media files are not showing up, then either something went wrong during the setup of Plexdrive (i.e. this page) or your media is not located in the correct folder in Google Drive (see [[Prerequisites| First-Time-Install: Prerequisites#4-google-drive-account]] and [[Paths|Paths#google-drive-paths]]).
