@@ -23,7 +23,7 @@ _Last updated on Jan 20, 2018._
     1. [[First-Time-Install: Radarr]]
     1. [[First-Time-Install: Plex]]
     1. [[First-Time-Install: PlexPy]]
-    1. [[Plex Requests]]
+    1. [[First-Time-Install: Plex Requests]]
     1. [[First-Time-Install: Portainer]]
     1. [[First-Time-Install: Organizr]]
 
