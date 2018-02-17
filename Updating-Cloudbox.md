@@ -46,7 +46,7 @@ Steps to update Cloudbox are below.
 
       4. Edit settings.yml 
 
-          You will need to edit this new [[settings.yml| First Time Install: Configuring Settings]] file and replace the default variables with the ones from your saved one (`~/settings.yml`). 
+          You will need to edit this new [[settings.yml|First Time Install: Configuring Settings]] file and replace the default variables with the ones from your saved one (`~/settings.yml`). 
 
           Note: Do not just replace/overwrite the settings.yml file with your backed up one, as this error typically indicates the default settings.yml has been modified (e.g. new variables have been added).
 
@@ -89,7 +89,7 @@ Steps to update Cloudbox are below.
   
       4. Edit settings.yml 
 
-          Compare your previous settings.yml file with the new one. If there are any changes (e.g. new variables added), you will need to edit the [[settings.yml| Configuring Settings]] and bring your previous info over. 
+          Compare your previous settings.yml file with the new one. If there are any changes (e.g. new variables added), you will need to edit the [[settings.yml|First Time Install: Configuring Settings]] and bring your previous info over. 
 
           Note: Resetting the git clone will not reset your config files (e.g. `/opt`); it will merely update the Cloudbox installer files located in `~/cloudbox`.
 
@@ -100,7 +100,7 @@ Steps to update Cloudbox are below.
    ```
 
 
-3. You can now run the Cloudbox installer with your preferred [[tag|Installing-Cloudbox]]. Your existing data will remain intact and you will not be asked for a Plex Claim Token if you've already setup Plex.
+3. You can now run the Cloudbox installer with your preferred [[tag|First Time Install: Installing-Cloudbox]]. Your existing data will remain intact and you will not be asked for a Plex Claim Token if you've already setup Plex.
 
    ```bash
    sudo ansible-playbook cloudbox.yml --tags full
