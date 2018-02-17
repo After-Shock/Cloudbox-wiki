@@ -155,7 +155,7 @@ After adding in your favorite [[indexers| First-Time-Install: Prerequisites#6-pr
 
    1. API Path: `/api`
 
-   1. API Key: [[Your NZB Hydra API Key|NZBHydra#api-key]]
+   1. API Key: [[Your NZB Hydra API Key|First-Time-Install: NZBHydra#api-key]]
 
    1. Additional Parameters: _Leave Blank_
 
@@ -165,7 +165,7 @@ After adding in your favorite [[indexers| First-Time-Install: Prerequisites#6-pr
 
 1. Click "Save" to add NZBHydra.
 
-Note: The "Test" will keep failing until you add an indexer in [[First-Time-Install: NZBHydra]].
+Note: The "Test" will keep failing until you add an indexer in [[NZBHydra|First-Time-Install: NZBHydra]].
 
 ### Jackett
 
