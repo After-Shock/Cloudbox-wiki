@@ -46,7 +46,7 @@ Steps to update Cloudbox are below.
 
       4. Edit settings.yml 
 
-          You will need to edit this new [[settings.yml| Configuring Settings]] file and replace the default variables with the ones from your saved one (`~/settings.yml`). 
+          You will need to edit this new [[settings.yml| First Time Install: Configuring Settings]] file and replace the default variables with the ones from your saved one (`~/settings.yml`). 
 
           Note: Do not just replace/overwrite the settings.yml file with your backed up one, as this error typically indicates the default settings.yml has been modified (e.g. new variables have been added).
 
