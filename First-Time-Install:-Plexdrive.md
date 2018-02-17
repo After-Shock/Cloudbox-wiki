@@ -52,6 +52,8 @@ _Note: If your server has < 16GB of RAM, give [[this|FAQ#server-ram-is-being-max
 
     You should see it as being `Active: active (running)`.
 
+   ![](https://i.imgur.com/HFihFVO.png)
+
     ```bash
    plexdrive.service - Plexdrive
    Loaded: loaded (/etc/systemd/system/plexdrive.service; enabled; vendor preset: enabled)
