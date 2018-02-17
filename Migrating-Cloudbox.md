@@ -69,7 +69,9 @@ Listed below are some scenarios and steps to follow for them.
 
 1. Run the Cloudbox [[Installer|Installing Cloudbox]].
 
+1. Misc Tips:
 
+   - Update Plex Autoscan URL in Sonarr and Radarr. 
 
 ### Keep Cloudbox on the Same Server but Change the Domain Name
 
@@ -88,6 +90,12 @@ Listed below are some scenarios and steps to follow for them.
    ```
 
 1. Run the Cloudbox [[Installer|Installing Cloudbox]].
+
+1. Misc Tips:
+
+   - Update Plex Autoscan URL in Sonarr and Radarr. 
+
+
 
 ---
 
