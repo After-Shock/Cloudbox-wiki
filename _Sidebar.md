@@ -40,7 +40,7 @@
 
 ### More Information ###
 - [[UnionFS Cleaner]]
-- [[Cloudbox Addons]] (work in progress)
+- [[Cloudbox Tools]] (work in progress)
 - [[Backup and Restore]]
 - [[Pushover]]
 - [[Updating Cloudbox]]
