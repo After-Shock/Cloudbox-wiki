@@ -224,7 +224,7 @@ Set your Movie Paths in [[Radarr|First-Time-Install: Radarr#8-adding-the-movies-
 
 ### 7. Change Root Paths in Plex Requests
 
-Set the default "Root save directory for movies" on the Radarr setup page of [[Plex Requests|Plex-Requests#3-settings"Root save directory for movies"]] (e.g. `/movies/3D`).
+Set the default "Root save directory for movies" on the Radarr setup page of [[Plex Requests|First Time Install: Plex-Requests#3-settings"Root save directory for movies"]] (e.g. `/movies/3D`).
 
 ***
 
@@ -443,4 +443,4 @@ Set your Movie Paths in [[Radarr|First-Time-Install: Radarr#8-adding-the-movies-
 
 ### 7. Change Root Paths in Plex Requests
 
-Set the default "Root save directory for movies" on the Radarr setup page of [[Plex Requests|Plex-Requests#3-settings"Root save directory for movies"]] (e.g. `/mnt/unionfs/Media/Movies-3D`).
+Set the default "Root save directory for movies" on the Radarr setup page of [[Plex Requests|First Time Install: Plex-Requests#3-settings"Root save directory for movies"]] (e.g. `/mnt/unionfs/Media/Movies-3D`).
