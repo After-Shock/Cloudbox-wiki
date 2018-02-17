@@ -162,7 +162,7 @@ After adding in your favorite [[indexers| First-Time-Install: Prerequisites#6-pr
 
 1. Click "Save" to add NZB Hydra.
 
-Note: The "Test" will keep failing until you add an indexer in [[First-Time-Install: NZBHydra]].
+Note: The "Test" will keep failing until you add an indexer in [[NZBHydra|First-Time-Install: NZBHydra]].
 
 ### Jackett
 
