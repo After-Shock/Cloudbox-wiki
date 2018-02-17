@@ -9,7 +9,7 @@
 - rclone sftp mount for feeder local files
 - plexrequests path change on customizing plex libraries page. 
 - rutorrent page
-
+- tautulli images for plexpy. 
 
 CB
 
