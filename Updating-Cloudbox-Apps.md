@@ -1,4 +1,4 @@
-The info below will show you how to update your Cloudbox apps (to update your entire Cloudbox, see [[Updating Cloudbox]].)
+The info below will show you how to update your Cloudbox apps (to update your entire Cloudbox, see [[Updating Cloudbox]]).
 
 
 ## Update to a newer version
