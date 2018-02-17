@@ -57,6 +57,6 @@
 
     ![](https://i.imgur.com/Z1Vfi8U.png)
 
-1. On the "Restart" screen, click `Restart`.
+1. On the "Restart" popup window, click `Restart`.
 
     ![](https://i.imgur.com/rqV7Gci.png)
