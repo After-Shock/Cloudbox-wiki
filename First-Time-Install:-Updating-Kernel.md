@@ -2,7 +2,7 @@ Before Cloudbox can be installed, the Ubuntu kernel needs to be updated to 4.10-
 
 - You can use Cloudbox to update the kernel (see below) or you could do this manually via `sudo apt install linux-generic-hwe-16.04` + `sudo reboot`.
 
-- See the following links if you using the following servers: [[Scaleway|FAQ#if-you-are-using-a-scaleway-server]], [[OVH|FAQ#if-you-are-using-an-ovh-server]].
+- You'll need to update the kernel a different way if you are using: [[Scaleway|FAQ#if-you-are-using-a-scaleway-server]] or [[OVH|FAQ#if-you-are-using-an-ovh-server]].
 
 - If your kernel is already updated, you may skip this page.
 
