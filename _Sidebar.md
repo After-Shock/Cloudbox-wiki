@@ -11,10 +11,10 @@
 
 ### First Time Install ###
 1. [[Prerequisites|First Time Install: Prerequisites]]
-1. [[Downloading Cloudbox]]
-1. [[Updating Kernel]]
-1. [[Configuring Settings]]
-1. [[Installing Cloudbox]]
+1. [[First Time Install: Downloading Cloudbox]]
+1. [[First Time Install: Updating Kernel]]
+1. [[First Time Install: Configuring Settings]]
+1. [[First Time Install: Installing Cloudbox]]
 1. Application Setup
     1. [[First-Time-Install: Rclone]]
     1. [[First-Time-Install: Plexdrive]]
