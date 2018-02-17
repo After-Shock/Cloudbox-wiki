@@ -79,9 +79,9 @@ _Tip: [[My file naming preferences|https://github.com/desimaniac/docs/blob/maste
 
    1. Port: `6789`
 
-   1. Username:  [[Your NZBGet Username[[NZBGet | First-Time-Install: NZBGet]]
+   1. Username:  [[Your NZBGet Username|First-Time-Install: NZBGet]]
 
-   1. Password:  [[Your NZBGet Password[[NZBGet | First-Time-Install: NZBGet]]
+   1. Password:  [[Your NZBGet Password| First-Time-Install: NZBGet]]
 
    1. Category: `radarr`
 
@@ -152,7 +152,7 @@ After adding in your favorite [[indexers| First-Time-Install: Prerequisites#6-pr
 
    1. URL: `http://nzbhydra:5075`
 
-   1. API Key: [[Your NZB Hydra API Key|NZB-Hydra#api-key]]
+   1. API Key: [[Your NZB Hydra API Key|First-Time-Install: NZB-Hydra#api-key]]
 
    1. Additional Parameters: _Leave Blank_
 
@@ -248,7 +248,7 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
    1. On Rename:`No`
 
-   1. URL: [[Your Plex Autoscan URL|Plex-Autoscan#3-obtaining-the-plex-autoscan-url]]
+   1. URL: [[Your Plex Autoscan URL|First-Time-Install: Plex-Autoscan#3-obtaining-the-plex-autoscan-url]]
 
    1. Method:`POST`
 
