@@ -26,7 +26,7 @@
     1. [[Sonarr | First-Time-Install: Sonarr]]
     1. [[Radarr | First-Time-Install: Radarr]]
     1. [[Plex | First-Time-Install: Plex]]
-    1. [[PlexPy | First-Time-Install: PlexPy]]
+    1. [[PlexPy | First-Time-Install:-PlexPy-(Tautulli)]]
     1. [[Plex Requests | First-Time-Install: Plex Requests]]
     1. [[Portainer | First-Time-Install: Portainer]]
     1. [[Organizr | First-Time-Install: Organizr]]
