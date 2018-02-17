@@ -111,7 +111,7 @@ The following guide will help you setup Organizer. If you would like an alternat
 
     - Set "NZBGet URL": `http://nzbget:6789`
 
-    - For "Username" / "Password": fill in your NZBGet login (see [[NZBGetFirst-Time-Install: NZBGet#2-setup]])
+    - For "Username" / "Password": fill in your NZBGet login (see [[NZBGet|First-Time-Install: NZBGet#2-setup]])
 
     - Click "SAVE".
 
