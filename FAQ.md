@@ -87,7 +87,7 @@ ARM is not supported.
 
 1. You can now start the server.
 
-1. You can skip [[updating the kernel|Updating Kernel]].
+1. You can skip [[updating the kernel|First Time Install: Updating Kernel]].
 
 Reference: https://www.scaleway.com/docs/bootscript-and-how-to-use-it/
 
@@ -353,16 +353,16 @@ Example:
 An exception occurred during task execution. To see the full traceback, use -vvv. The error was: AttributeError: 'module' object has no attribute 'Cryptography_HAS_SSL_ST'
 ```
 
-This seems to occur on certain VM systems. 
+This seems to occur on certain VM systems.
 
-To fix it the issue, run the following command: 
+To fix it the issue, run the following command:
 
 ```
 sudo easy_install pyOpenSSL
 
 ```
 
-Rerun the [Install Prerequisites](Downloading-Cloudbox#2-install-prerequisites) command and retry Cloudbox Install.. 
+Rerun the [Install Prerequisites](Downloading-Cloudbox#2-install-prerequisites) command and retry Cloudbox Install..
 
 
 ## Error while fetching server API version
@@ -437,7 +437,7 @@ Retry install.
 
 Issue: Docker apps stop loading and/or docker commands (e.g. `docker --version`) hang.
 
-One reason this can happen is if docker-ce was recently updated. 
+One reason this can happen is if docker-ce was recently updated.
 
 To fix this:
 
@@ -551,7 +551,7 @@ Challenge validation has failed, see error log.
 
 ## Error 502
 
-Due to a recent change with the Suitarr image, the ports for the five Suitarr containers (i.e. Sonarr, Radarr, Jackett, NZBGet, and NZBHydra) have also changed. 
+Due to a recent change with the Suitarr image, the ports for the five Suitarr containers (i.e. Sonarr, Radarr, Jackett, NZBGet, and NZBHydra) have also changed.
 
 If your docker images haven't been updated yet, you can preemptively avoid any Error 502 issues by going in to each of these apps settings pages and changing the ports to 8989, 7878, 9117, 6789, 5075, respectively, and then update all five of these docker containers with the --tags update-xxxxx command (see the page on the wiki).
 
@@ -565,9 +565,9 @@ If the Suitarr docker image has been updated (e.g. Cloudbox update) and now you 
 
 After the above edits, restart the docker containers (`docker restart sonarr radarr jackett nzbget nzbhydra`).
 
-The pages for these containers should now load. 
+The pages for these containers should now load.
 
-Note: You will also need to edit the ports for (1) Jackett, NZBGet, and NZBHydra in Sonarr/Radarr settings, (2) NZBGet port in NZBHydra settings, (3) Radarr and Sonarr ports in Plex Requests settings, and (4) Radarr, Sonarr, and NZBGet in Organizr settings. 
+Note: You will also need to edit the ports for (1) Jackett, NZBGet, and NZBHydra in Sonarr/Radarr settings, (2) NZBGet port in NZBHydra settings, (3) Radarr and Sonarr ports in Plex Requests settings, and (4) Radarr, Sonarr, and NZBGet in Organizr settings.
 
 
 
@@ -656,13 +656,13 @@ You may resolve this by either
 
  - Installing Cloudbox again
 
-   - Remove Plex Container (it may show "Error response from daemon: No such container" if not created yet): 
+   - Remove Plex Container (it may show "Error response from daemon: No such container" if not created yet):
 
      ```
      sudo docker rm -f plex
      ```
 
-   - Remove the Plex folder: 
+   - Remove the Plex folder:
 
      ```
      sudo rm -rf /opt/plex
@@ -677,13 +677,13 @@ You may resolve this by either
 
  - Using SSH Tunneling to log into Plex and set your credentials
 
-   - On your host PC (replace `<user>` with your user name and `<yourserveripaddress>` with your serveripaddress - no arrows): 
+   - On your host PC (replace `<user>` with your user name and `<yourserveripaddress>` with your serveripaddress - no arrows):
 
      ```
      ssh <user>@<yourserveripaddress> -L 32400:0.0.0.0:32400 -N
      ```
 
-     This will just hang there without any message. That is normal. 
+     This will just hang there without any message. That is normal.
 
    - In a browser, go to http://localhost:32400/web.
 
@@ -765,7 +765,7 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
 
 ## Update WebTools
 
-1. Remove your current WebTools.bundle folder. 
+1. Remove your current WebTools.bundle folder.
 
    ```
    rm -rf "/opt/plex/Library/Application Support/Plex Media Server/Plug-ins/WebTools.bundle"
@@ -850,7 +850,7 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
 ERROR - PLEX [10490]: Unexpected response status_code for empty trash request: 401
 ```
 
-You need to generate another token and re-add that back into the config. See [[Plex Autoscan]].
+You need to generate another token and re-add that back into the config. See [[Plex Autoscan | First-Time-Install: Plex Autoscan]].
 
 
 
@@ -895,7 +895,7 @@ Fix:
 
 Every time Sonarr or Radarr downloads a new file, or upgrades a previous one, a request is sent to Plex via Plex Autoscan to scan the movie folder or TV season path and look for changes. Since Sonarr and Radarr delete previous files on upgrades, the scan will cause the new media to show up in your Plex Library, however, the deleted files would be missing, and instead, marked as "unavailable" (i.e. trash icon). When the control file is present and the option in the Plex Autoscan config is enabled (default), Plex Autoscan will empty the trash for you, thereby, removing the deleted media from the library.
 
-If your Google Drive ever disconnected during a Plex scan of your media, Plex would mark the missing files as unavailable and emptying the trash would cause them to be removed out of the library. To avoid this from happening, Plex Autoscan checks for a control file in the unionfs path (i.e. `/mnt/unionfs/mounted.bin)` before running any empty trash commands. The control file is just a blank file that resides on the root folder of Google Drive and let's Plex Autoscan know that your Google Drive is mounted. 
+If your Google Drive ever disconnected during a Plex scan of your media, Plex would mark the missing files as unavailable and emptying the trash would cause them to be removed out of the library. To avoid this from happening, Plex Autoscan checks for a control file in the unionfs path (i.e. `/mnt/unionfs/mounted.bin)` before running any empty trash commands. The control file is just a blank file that resides on the root folder of Google Drive and let's Plex Autoscan know that your Google Drive is mounted.
 
 Once Google Drive is remounted, all the files marked unavailable in Plex will be playable again and Plex Autoscan will resume its emptying trash duties post-scan.
 
@@ -966,7 +966,7 @@ You may do this 2 ways:
 
   * Stop and remove the container: `docker stop rutorrent && docker rm rutorrent`
 
-  * Edit the settings.yml file with the new password: see [[Configuring Settings]]
+  * Edit the settings.yml file with the new password: see [[Configuring Settings | First Time Install: Configuring Settings]]
   * Install the new ruTorrent container: `cd ~/ && sudo ansible-playbook cloudbox.yml --tags update-rutorrent`
 
 - Change the password for the current ruTorrent container

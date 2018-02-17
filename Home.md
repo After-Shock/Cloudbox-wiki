@@ -12,26 +12,26 @@ _Last updated on Jan 20, 2018._
 1. [[Configuring Settings | First Time Install: Configuring Settings]]
 1. [[Installing Cloudbox | First Time Install: Installing Cloudbox]]
 1. Application Setup
-    1. [[Rclone | First-Time-Install: Rclone]]
+    1. [[Rclone | First-Time-Install: Rclone | First-Time-Install: Rclone]]
     1. [[Plexdrive | First-Time-Install: Plexdrive]]
     1. [[NZBGet | First-Time-Install: NZBGet]]
     1. [[ruTorrent | First-Time-Install: ruTorrent]]
     1. [[NZBHydra | First-Time-Install: NZBHydra]]
     1. [[Jackett | First-Time-Install: Jackett]]
-    1. [[First-Time-Install: Plex Autoscan]]
-    1. [[First-Time-Install: Sonarr]]
-    1. [[First-Time-Install: Radarr]]
-    1. [[First-Time-Install: Plex]]
-    1. [[First-Time-Install: PlexPy]]
-    1. [[First-Time-Install: Plex Requests]]
-    1. [[First-Time-Install: Portainer]]
-    1. [[First-Time-Install: Organizr]]
+    1. [[Plex Autoscan | First-Time-Install: Plex Autoscan]]
+    1. [[Sonarr | First-Time-Install: Sonarr]]
+    1. [Radarr | [First-Time-Install: Radarr]]
+    1. [[Plex | First-Time-Install: Plex]]
+    1. [[PlexPy | First-Time-Install: PlexPy]]
+    1. [[Plex Requests | First-Time-Install: Plex Requests]]
+    1. [[Portainer | First-Time-Install: Portainer]]
+    1. [[Organizr | First-Time-Install: Organizr]]
 
 ### Advanced Configuration ###
-- [[Customizing Plex Libraries]] 
+- [[Customizing Plex Libraries]]
 
 ### More Information ###
-- [[UnionFS Cleaner]] 
+- [[UnionFS Cleaner]]
 - [[Cloudbox Addons]] (work in progress)
 - [[Backup and Restore]]
 - [[Pushover]]
@@ -43,7 +43,7 @@ _Last updated on Jan 20, 2018._
 - [[Revoking SSL Certificates]]
 
 
-### Optional Docker containers 
+### Optional Docker containers
 (work in progress = container is working; doc needs work)
 - [[Resilio Sync]] (work in progress)
 - Nextcloud (coming soon)

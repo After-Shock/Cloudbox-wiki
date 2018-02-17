@@ -48,8 +48,8 @@ Enter setup by clicking on "Config" at the top.
        - Host: `nzbget`
        - Port: `6789`
        - Use SSL: `OFF`
-       - Username: [[Your NZBGet Username|NZBGet]]
-       - Password: [[Your NZBGet Password|NZBGet]]
+       - Username: [[Your NZBGet Username[[NZBGet | First-Time-Install: NZBGet]]
+       - Password: [[Your NZBGet Password[[NZBGet | First-Time-Install: NZBGet]]
        - Default category: _Leave Blank_ (`No category` doesn't work too well)
        - NZB access type: `Redirect to indexer`
        - NZB adding type: `Upload NZB` (works better than `Send link`) 
@@ -58,4 +58,4 @@ Enter setup by clicking on "Config" at the top.
 
 ## API Key
 
-To find the NZBHydra API Key, go to "Config" --> "Main". This will be used later in [[Sonarr|Sonarr#nzbhydra]] and [[Radarr|Radarr#nzb-hydra]].
+To find the NZBHydra API Key, go to "Config" --> "Main". This will be used later in [[Sonarr|First-Time-Install: Sonarr#nzbhydra]] and [[Radarr|First-Time-Install: Radarr#nzb-hydra]].

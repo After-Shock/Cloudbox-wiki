@@ -80,9 +80,9 @@
 
    1. Port: `6789`
 
-   1. Username:  [[Your NZBGet Username|NZBGet]]
+   1. Username:  [[Your NZBGet Username[[NZBGet | First-Time-Install: NZBGet]]
 
-   1. Password:  [[Your NZBGet Password|NZBGet]]
+   1. Password:  [[Your NZBGet Password[[NZBGet | First-Time-Install: NZBGet]]
 
    1. Category: `sonarr`
 
@@ -165,7 +165,7 @@ After adding in your favorite [[indexers|Prerequisites#6-preferred-downloading-m
 
 1. Click "Save" to add NZBHydra.
 
-Note: The "Test" will keep failing until you add an indexer in [[NZBHydra]].
+Note: The "Test" will keep failing until you add an indexer in [[First-Time-Install: NZBHydra]].
 
 ### Jackett
 
@@ -185,11 +185,11 @@ Note: Each Indexer will need to be added separately.
 
    1. Enable Search: _Your Preference_
 
-   1. URL: [[Indexer's Torznab Feed|Jackett#3-adding-indexers-to-sonarrradarr]]
+   1. URL: [[Indexer's Torznab Feed|First-Time-Install: Jackett#3-adding-indexers-to-sonarrradarr]]
 
    1. API Path: `/api`
 
-   1. API Key: [[Your Jackett API Key|Jackett#3-adding-indexers-to-sonarrradarr]]
+   1. API Key: [[Your Jackett API Key|First-Time-Install: Jackett#3-adding-indexers-to-sonarrradarr]]
 
    1. Additional Parameters: _Leave Blank_
 
@@ -278,6 +278,6 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
 ## 9. Retrieving the API Key
 
-This is used during the setup of [[Plex Requests]] and [[Organizr]]. 
+This is used during the setup of [[Plex Requests | First-Time-Install: Plex Requests]] and [[Organizr | First-Time-Install: Organizr]]. 
 
 * Go to "Settings" -> "General" -> "Security" -> "API Key".

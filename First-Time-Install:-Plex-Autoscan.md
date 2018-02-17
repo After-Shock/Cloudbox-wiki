@@ -51,7 +51,7 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
 
 ## 3. Obtaining the Plex Autoscan URL
 
-The Plex Autoscan URL is needed during the setup of [[Sonarr|Sonarr#7-plex-autoscan]] and [[Radarr|Radarr#7-plex-autoscan]].
+The Plex Autoscan URL is needed during the setup of [[Sonarr|First-Time-Install: Sonarr#7-plex-autoscan]] and [[Radarr|First-Time-Install: Radarr#7-plex-autoscan]].
 
 
 To get your Plex Autoscan URL, run the following command:

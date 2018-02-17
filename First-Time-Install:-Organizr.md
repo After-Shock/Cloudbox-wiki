@@ -91,7 +91,7 @@ The following guide will help you setup Organizer. If you would like an alternat
 
     - Set "Sonarr URL": `http://sonarr:8989`
 
-    - Set "Sonarr API Key": [[Your Sonarr API Key|Sonarr#9-retrieving-the-api-key]]
+    - Set "Sonarr API Key": [[Your Sonarr API Key|First-Time-Install: Sonarr#9-retrieving-the-api-key]]
 
     - Click "SAVE".
 
@@ -101,7 +101,7 @@ The following guide will help you setup Organizer. If you would like an alternat
 
     - Set "Radarr URL": `http://radarr:7878`
 
-    - Set "Radarr API Key": [[Your Radarr API Key|Radarr#9-retrieving-the-api-key]]
+    - Set "Radarr API Key": [[Your Radarr API Key|First-Time-Install: Radarr#9-retrieving-the-api-key]]
 
     - Click "SAVE".
 
@@ -111,7 +111,7 @@ The following guide will help you setup Organizer. If you would like an alternat
 
     - Set "NZBGet URL": `http://nzbget:6789`
 
-    - For "Username" / "Password": fill in your NZBGet login (see [[NZBGet|NZBGet#2-setup]])
+    - For "Username" / "Password": fill in your NZBGet login (see [[NZBGetFirst-Time-Install: NZBGet#2-setup]])
 
     - Click "SAVE".
 

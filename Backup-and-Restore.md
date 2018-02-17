@@ -84,7 +84,7 @@ This is handy for times when you just need to make an immediate backup of your s
 
      - Note: If both `use_rclone` and `use_rsync`are set to `true`, backups will be made to both locations, but only Rclone will be used to retrieve the backup file during restore (i.e. Rclone will take priority over Rsync during restores).
 
-   Note: See the [[Configuring Settings]] wiki page for further details on all the settings listed above. 
+   Note: See the [[Configuring Settings | First Time Install: Configuring Settings]] wiki page for further details on all the settings listed above. 
 
 
 3. Run the backup command
@@ -126,7 +126,7 @@ There are 2 ways to set this up:
    - `pushover_app_token` and `pushover_user_key` if you wish to receive [[Pushover]] notifications during backup tasks.
 
 
-   Note: See the [[Configuring Settings]] wiki page for further details on all the settings listed above. 
+   Note: See the [[Configuring Settings | First Time Install: Configuring Settings]] wiki page for further details on all the settings listed above. 
 
 
 1. Run a Manual Backup Once
@@ -190,7 +190,7 @@ We will assume you are restoring to a new / clean server.
 
      - Note: If both `use_rclone` and `use_rsync`are set to `true`, backups will be made to both locations, but only Rclone will be used to retrieve the backup file during restore (i.e. Rclone will take priority over Rsync during restores).
 
-   Note: See the [[Configuring Settings]] wiki page for further details on all the settings listed above. 
+   Note: See the [[Configuring Settings | First Time Install: Configuring Settings]] wiki page for further details on all the settings listed above. 
 
 1. Upload a copy of your rclone.conf file into `~/cloudbox/`. 
 
@@ -207,6 +207,6 @@ We will assume you are restoring to a new / clean server.
    Note: You may use your previous settings.yml file (`/opt/settings.yml`) as a point of reference to update your new one. However, if all the variables are the same (i.e. no new or modified variables), you may just replace it with your previous one (`cp /opt/settings.yml ~/cloudbox/`).
 
 
-1. [[Install Cloudbox|Installing Cloudbox]].
+1. [[Install Cloudbox| First Time Install: Installing Cloudbox]].
 
 After install, everything will be as it was at the time of backup.

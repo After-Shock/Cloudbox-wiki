@@ -19,7 +19,7 @@ Listed below are some scenarios and steps to follow for them.
    rm -rf /opt/nginx-proxy
    ```
 
-1. Run the Cloudbox [[Installer|Installing Cloudbox]].
+1. Run the Cloudbox [[Installer| First Time Install: Installing Cloudbox]].
 
 
 
@@ -44,7 +44,7 @@ Listed below are some scenarios and steps to follow for them.
    rm -rf /opt/nginx-proxy
    ```
 
-1. Run the Cloudbox [[Installer|Installing Cloudbox]].
+1. Run the Cloudbox [[Installer| First Time Install: Installing Cloudbox]].
 
 
 ### Move Cloudbox to Another Server and Change the Domain Name
@@ -67,7 +67,7 @@ Listed below are some scenarios and steps to follow for them.
    rm -rf /opt/nginx-proxy
    ```
 
-1. Run the Cloudbox [[Installer|Installing Cloudbox]].
+1. Run the Cloudbox [[Installer| First Time Install: Installing Cloudbox]].
 
 1. Misc Tips:
 
@@ -89,7 +89,7 @@ Listed below are some scenarios and steps to follow for them.
    rm -rf /opt/nginx-proxy
    ```
 
-1. Run the Cloudbox [[Installer|Installing Cloudbox]].
+1. Run the Cloudbox [[Installer| First Time Install: Installing Cloudbox]].
 
 1. Misc Tips:
 

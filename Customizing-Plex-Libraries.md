@@ -96,7 +96,7 @@ In our example, we will create the following folders: `/Media/Movies/3D`, `/Medi
 
 ### 2. Add Libraries to Plex
 
-You will add each of these folders as separate libraries within Plex (see [[example|Plex#adding-the-movie-library]]). You may name these libraries as whatever you want. The folders will be located in the `/data/Movies` folder.
+You will add each of these folders as separate libraries within Plex (see [[example|First-Time-Install: Plex#adding-the-movie-library]]). You may name these libraries as whatever you want. The folders will be located in the `/data/Movies` folder.
 
 In our example, this will be: `/data/Movies/3D`, `/data/Movies/4K`, `/data/Movies/Foreign`, `/data/Movies/Hollywood`, and `/data/Movies/Kids`.
 
@@ -220,7 +220,7 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
 
 ### 6. Change Root Paths in Radarr
 
-Set your Movie Paths in [[Radarr|Radarr#8-adding-the-movies-path]] to reflect the new sub-dirs (e.g. `/movies/3D`).
+Set your Movie Paths in [[Radarr|First-Time-Install: Radarr#8-adding-the-movies-path]] to reflect the new sub-dirs (e.g. `/movies/3D`).
 
 ### 7. Change Root Paths in Plex Requests
 
@@ -267,7 +267,7 @@ In our example, we will create the following folders: `/Media/Movies-3D`, `/Medi
 
 ### 2. Add Libraries to Plex
 
-You will add each of these folders as separate libraries within Plex (see [[example|Plex#adding-the-movie-library]]). You may name these libraries as whatever you want. The folders will be located in the `/data` folder.
+You will add each of these folders as separate libraries within Plex (see [[example|First-Time-Install: Plex#adding-the-movie-library]]). You may name these libraries as whatever you want. The folders will be located in the `/data` folder.
 
 In our example, this will be: `/data/Movies-3D`, `/data/Movies-4K`, `/data/Movies-Foreign`, `/data/Movies-Hollywood`, and `/data/Movies-Kids`.
 
@@ -438,7 +438,7 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
 
 ### 6. Change Root Paths in Radarr
 
-Set your Movie Paths in [[Radarr|Radarr#8-adding-the-movies-path]] to reflect the new sub-dirs (e.g. `/mnt/unionfs/Media/Movies-3D`).
+Set your Movie Paths in [[Radarr|First-Time-Install: Radarr#8-adding-the-movies-path]] to reflect the new sub-dirs (e.g. `/mnt/unionfs/Media/Movies-3D`).
 
 
 ### 7. Change Root Paths in Plex Requests
