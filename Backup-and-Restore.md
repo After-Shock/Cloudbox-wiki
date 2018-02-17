@@ -170,9 +170,9 @@ There are 2 ways to set this up:
 
 We will assume you are restoring to a new / clean server. 
 
-1. [[Download Cloudbox|Downloading Cloudbox]] (all steps within).
+1. [[Download Cloudbox|First Time Install: Downloading Cloudbox]] (all steps within).
 
-1. [[Update the kernel|Updating-Kernel]].
+1. [[Update the kernel|First Time Install: Updating-Kernel]].
 
 1. Set the following in your [[settings.yml|First Time Install: Configuring Settings]] file (the bare minimum for a restore):
 
