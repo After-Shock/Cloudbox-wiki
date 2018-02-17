@@ -12,44 +12,51 @@
 
 ## 2. Setup Wizard
 
-1. First time you go to the PlexPy page, you will be presented with the "PlexPy Setup Wizard". Click `Next`.
+1. First time you go to the PlexPy site, you will be presented with the "Tautulli Setup Wizard". Click `Next`.
 
-    ![ ](http://i.imgur.com/NhRj5jH.png)
+    ![ ](https://i.imgur.com/LZPpfLL.png)
 
-1. On the "Plex Authentication" screen, sign in with your Plex username and password, and click `Authenticate`. When you see the "Authentication successful." message, click `Next`.
+1. On the "Plex Authentication" page, sign in with your Plex username and password, and click `Authenticate`. When you see the "Authentication successful." message, click `Next`.
 
-    ![](http://i.imgur.com/XFvHyV2.png)
+    ![](https://i.imgur.com/8DKkiAy.png)
 
-1. On the "Plex Media Server" screen, fill in `plex` for "Plex IP or Hostname" and `32400` for "Port Number". Click `Verify`. When you see the "Server found!" message, click `Next`.
+1. On the "Plex Media Server" page, set the following:
 
-    ![](http://i.imgur.com/wnGDojV.png)
+   - "Plex IP or Hostname": `plex`
+   - "Port Number": `32400`
+   - "Use SSL": disabled
+   - "Remote Server": disabled 
 
-1. On the Monitoring screen, select your preferences (default is OK and can be changed later) and click `Next`.
+   Click `Verify`. When you see the "Server found!" message, click `Next`.
 
-    ![](http://i.imgur.com/ZSDv1T5.png)
+    ![](https://i.imgur.com/0vxUURW.png)
 
-1. On the Notifications screen, select your preferences (default is OK; can be changed later) and click `Next`.
+1. On the "Activity Logging" page, select your preferences (default is OK) and click `Next`.
 
-    ![](http://i.imgur.com/uoP4bH1.png)
+    ![](https://i.imgur.com/XUOpcc8.png)
 
-1. On the Database Import screen, click `Finish` to complete the setup.
+1. On the "Notifications" page, simply click `Next`.
 
-    ![](http://i.imgur.com/jvPQ6pY.png)
+    ![](https://i.imgur.com/C58KgyJ.png)
+
+1. On the "Database Import" page, click `Finish` to complete the setup.
+
+    ![](https://i.imgur.com/4Rc5eaE.png)
 
 ## 3. Settings
 
 1. Once the PlexPy page comes up, go to "Settings".
 
-    ![](http://i.imgur.com/HUV857f.png)
+    ![](https://i.imgur.com/wKukbLR.png)
 
-1. Click "Access Control" on the left. Set a "HTTP Username" and "HTTP Password, but don't click `Save` yet.  
+1. Click "Web Interface" on the left. Fill in "HTTP Username" and "HTTP Password (this will be the login for your PlexPy site), but don't click `Save` yet.  
 
-    ![](http://i.imgur.com/adV4EiZ.png)
+    ![](https://i.imgur.com/iX6G2ca.png)
 
-1. Click "Plex Media Server" on the left. Under "Plex Logs" - "Logs Folder", type in `/logs`. Now you can click `Save`.
+1. Click "Plex Media Server" on the left. Click "Show Advanced" at the top. Under "Logs Folder", type in `/logs`. Now you can click `Save`.
 
-    ![](http://i.imgur.com/jK2EPXn.png)
+    ![](https://i.imgur.com/Z1Vfi8U.png)
 
 1. On the "Restart" screen, click `Restart`.
 
-    ![](http://i.imgur.com/2peJh7k.png)
+    ![](https://i.imgur.com/rqV7Gci.png)
