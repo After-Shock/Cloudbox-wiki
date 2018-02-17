@@ -16,7 +16,7 @@
 1. [[Configuring Settings]]
 1. [[Installing Cloudbox]]
 1. Application Setup
-    1. [[First-Time-Install:-Rclone]]
+    1. [[First-Time-Install: Rclone]]
     1. [[Plexdrive]]
     1. [[NZBGet]]
     1. [[NZBHydra]]
