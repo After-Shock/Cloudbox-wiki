@@ -100,7 +100,7 @@ Steps to update Cloudbox are below.
    ```
 
 
-3. You can now run the Cloudbox installer with your preferred [[tag|First Time Install: Installing-Cloudbox]]. Your existing data (UnionFS Cleaner, Plex Autoscan, App configs, etc) will remain intact and you will not be asked for a Plex Claim Token if you've already setup Plex.
+3. You can now run the Cloudbox installer with your preferred [[tag|First Time Install: Installing-Cloudbox]]. Your existing data (i.e. UnionFS Cleaner, Plex Autoscan, App configs, etc) will remain intact and you will not be asked for a Plex Claim Token if you've already setup Plex.
 
    ```bash
    sudo ansible-playbook cloudbox.yml --tags full
