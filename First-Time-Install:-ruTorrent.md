@@ -11,7 +11,7 @@ ruTorrent comes setup out of the box with the login settings (username and ruTor
 
   - _Note: If you need to change the password after installing Cloudbox, see the [[FAQ#to-change-your-rutorrent-password-after-installation]]._
 
-The setup for Sonarr and Radarr are done on their respective wiki pages (i.e. [[Sonarr#rutorrent|First-Time-Install:-Sonarr#rutorrent]] and [[Radarr#rutorrent|First-Time-Install:-Radarr#rutorrent]]).
+The setup for Sonarr and Radarr are done on their respective wiki pages (i.e. [[Sonarr#ruTorrent|First-Time-Install:-Sonarr#rutorrent]] and [[Radarr#ruTorrent|First-Time-Install:-Radarr#rutorrent]]).
 
 ## 3. Enable AutoUnpack
 
