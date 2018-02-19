@@ -48,14 +48,50 @@ nativefier appname.domainname.com
 
 ### Some Useful Options
 
-- Give it a name: `--name "App Name"`
-- Add Basic HTTP Authentication (replace `<yourusername>` and `<yourpassword>` with your login info - no arrows): `--basic-auth-username <yourusername> --basic-auth-password <yourpassword>`
-  - Note: If you plan to use this, set your apps to use HTTP Authentication as well (e.g. Sonarr, Radarr, NZBGet, NZB Hydra, and PlexPy).
-- Disable dev tools: `--disable-dev-tools`
-- Force a specific icon with `--icon "path/to/icon"`, where the path/to/icon can be a local file or online path.
-- Force a zoom at start: Example `--zoom=<zoomlevel>` (example: `--zoom=0.8`). 
-  - You can also change the zooms with `ctrl` + `+` and `ctrl` +  `-` (replace with `command` in macOS).
-- In macOS, to completely quit out of the app when you close the window: `--fast-quit`
+- Give it a name:
+
+  ```
+  --name "App Name"
+  ```
+- Add Basic HTTP Authentication (replace `<yourusername>` and `<yourpassword>` with your login info - no arrows): 
+
+  ```
+  --basic-auth-username <yourusername> --basic-auth-password <yourpassword>
+  ```
+  
+  * Note: If you plan to use this, set your apps to use HTTP Authentication as well (e.g. Sonarr, Radarr, NZBGet, NZBHydra, and PlexPy).
+
+- Disable dev tools: 
+
+  ```
+  --disable-dev-tools
+  ```
+
+- Force a specific icon (`path/to/icon` can be a local file path or a URL)
+
+  ```
+  --icon "path/to/icon"
+  ```
+
+- Force a zoom at start: 
+
+  ```
+  --zoom=<zoomlevel>
+  ```
+
+  Example:
+  ```
+  --zoom=0.8
+  ```
+
+  - Note: You can temporarily change the zoom levels with `ctrl` + `+` and `ctrl` +  `-` in Windows or `command` + `+` and `command` +  `-` in macOS. 
+
+
+- In macOS, to completely quit out of the app when you close the window: 
+
+  ```
+  --fast-quit
+  ```
 
 ### Some examples you can use:
 
