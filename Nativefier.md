@@ -102,7 +102,7 @@ nativefier --name "PlexPy" "https://plexpy.domain.com/home"
 nativefier --name "Jackett" "https://jackett.domain.com/Admin/Dashboard"
 nativefier --name "Plex Requests" "https://plexrequests.domain.com"
 nativefier --name "NZBGet" "https://nzbget.domain.com"
-nativefier --name "NZB Hydra" "https://nzbhydra.domain.com"
+nativefier --name "NZBHydra" "https://nzbhydra.domain.com"
 nativefier --name "ruTorrent" "https://rutorrent.domain.com"
 
 ```
