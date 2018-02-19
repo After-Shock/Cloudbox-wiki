@@ -44,7 +44,7 @@ Cloudox comes with some useful command line tools and scripts. Some are meant to
 
 
 
-## Torrent Cleanup
+## Torrent Cleanup Script
 
 TorrentCLeanup.py has been explained in the Sonarr section, but in a nutshell, sonarr/radarr launches this script if you set it up, and it will scan the folder of the file that was imported, if rars exist, delete the file that was imported. this is useful for torrent sites that allow rars, as it will only leave you with the imported file (before its uploaded to google) and just the rars for seeding, instead of also leaving the extracted file. 
 
