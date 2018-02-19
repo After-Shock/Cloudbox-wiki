@@ -84,7 +84,7 @@ nativefier appname.domainname.com
   --zoom=0.8
   ```
 
-  - Note: You can temporarily change the zoom levels with `ctrl` + `+` and `ctrl` +  `-` in Windows or `command` + `+` and `command` +  `-` in macOS. 
+  - Note: You can temporarily change the zoom levels with `ctrl` `+` and `ctrl` `-` in Windows or `command` `+` and `command` `-` in macOS. 
 
 
 - In macOS, to completely quit out of the app when you close the window: 
