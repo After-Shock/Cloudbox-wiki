@@ -199,7 +199,7 @@ Note: Each Indexer will need to be added separately.
 
 ## 6. Torrent Cleanup Script
 
-This custom script, will cleanup torrents from ruTorrent that were auto-extracted, but still being seeded. So if it detects that .rar files are in the folder that Radarr just imported from, it will delete the imported video file(s), leaving just the .rar files for seeding.
+This custom script, will cleanup torrents from ruTorrent that were auto-extracted, but still being seeded. So if the script detects that .rar/.zip files are in the folder that Sonarr just imported from, it will delete the imported video file(s), leaving just the .rar/.zip files for seeding.
 
 1. Click "Settings" -> "Connect".
 
