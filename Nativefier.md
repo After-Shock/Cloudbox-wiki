@@ -73,5 +73,5 @@ nativefier --name "ruTorrent" "https://rutorrent.domain.com"
 
 ## 3. Move the Nativefier App 
 
-Copy the app (e.g.  `.app` in MacOS, `.exe` in Windows) to your desktop or the applications location (i.e. `Applications` in MacOS, Start Menu in Windows)
+Copy the app (e.g.  `.app` in MacOS, `.exe` in Windows) to your desktop or the applications location (i.e. Applications folder in MacOS, Start Menu in Windows)
 
