@@ -15,7 +15,9 @@ The setup for Sonarr and Radarr are done on their respective wiki pages (i.e. [[
 
 ## 3. Enable AutoUnpack
 
-This will unpack 
+AutoUnpack is a plugin that will automatically unrar/unzip torrent data. 
+
+_This will allow Sonarr and Radarr to import the media files that would otherwise be ignored. After Sonarr and Radarr import the media files, [[Torrent Cleanup Script|Cloudbox-Tools#torrent-cleanup-script]] will then delete the extracted media files and ruTorrent will continue to seed the torrents (until they are either removed manually or automatically via ruTorrent's Ratio Group rules)._
 
 1. Open "Settings" by clicking the gear icon ![](https://github.com/Novik/ruTorrent/wiki/images/icon06settings.png) at the top
 
