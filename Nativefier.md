@@ -23,7 +23,7 @@ The following steps will guide you through setting up Nativefier on your PC:
 
    1. For macOS, install [Xcode](https://developer.apple.com/xcode) and [ImageMagick](https://www.imagemagick.org/script/download.php) <a href="#note1" id="note1ref"><sup>[1]</sup></a>
 
-      - _Note: This is only needed for automatic website icon to app icon conversion. If you want to skip installing Xcode and ImageMagick, but still want to be able to customize the application icon, you can do so by; first, finding a transparent png of the application (e.g. google image search `transparent png <appname>), and then, following directions on this <a href="https://support.apple.com/en-us/HT201737">page</a>_.
+      - _Note: This is only needed for automatic website icon to app icon conversion. If you want to skip installing Xcode and ImageMagick, but still want to be able to customize the application icon, you can do so by; first, finding a transparent png of the application (e.g. google image search `transparent png <appname>`), and then, following directions on this <a href="https://support.apple.com/en-us/HT201737">page</a>_.
 
    1. Install Nativefier with this command:
 
