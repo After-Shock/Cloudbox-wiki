@@ -59,7 +59,7 @@ nativefier appname.domainname.com
   --basic-auth-username yourusername --basic-auth-password yourpassword
   ```
   
-  Note: If you plan to use this, set your apps to use HTTP Authentication vs login/form type (e.g. Sonarr, Radarr, NZBGet, NZBHydra, and PlexPy).
+  Note: If you plan to use this, set your apps to use HTTP Authentication (i.e. Basic or Browser popup) vs login/form type (e.g. Sonarr, Radarr, NZBGet, NZBHydra, and PlexPy).
 
 - Disable dev tools: 
 
