@@ -51,7 +51,7 @@ nativefier appname.domainname.com
 - Give it a name: `--name "App Name"`
 - Add Basic HTTP Authentication: `--basic-auth-username <yourusername> --basic-auth-password <yourpassword>`
   - Note: If you plan to use this, set your apps to use HTTP Authentication as well (e.g. Sonarr, Radarr, NZBGet, NZB Hydra, and PlexPy).
-- Disable dev tools: `--disable-dev-tools `
+- Disable dev tools: `--disable-dev-tools`
 - Force a specific icon with `--icon "path/to/icon"`, where the path/to/icon can be a local file or online path.
 - Force a zoom at start: Example `--zoom=<zoomlevel>` (example: `--zoom=0.8`). 
   - You can also change the zooms with `ctrl` + `+` and `ctrl` +  `-` (replace with `command` in macOS).
@@ -70,6 +70,15 @@ nativefier --name "NZB Hydra" "https://nzbhydra.domain.com"
 nativefier --name "ruTorrent" "https://rutorrent.domain.com"
 
 ```
+
+### Example for MacOS (after enabling HTTP authentication)
+
+
+```
+nativefier --name "Sonarr" --basic-auth-username myusername --basic-auth-password mypassword --fast-quit --disable-dev-tools "https://sonarr.domain.com"
+```
+
+
 
 ## 3. Move the Nativefier App 
 
