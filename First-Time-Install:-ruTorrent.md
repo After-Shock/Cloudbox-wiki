@@ -15,7 +15,9 @@ The setup for Sonarr and Radarr are done on their respective wiki pages (i.e. [[
 
 ## 3. Enable AutoUnpack
 
-1. Open "Settings" (click gear icon at the top) 
+This will unpack 
+
+1. Open "Settings" by clicking the gear icon ![](https://github.com/Novik/ruTorrent/wiki/images/icon06settings.png) at the top
 
 1. Go to "Unpack" on the left. 
 
