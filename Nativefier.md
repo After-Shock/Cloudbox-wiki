@@ -71,13 +71,19 @@ nativefier --name "ruTorrent" "https://rutorrent.domain.com"
 
 ```
 
-### Example for MacOS (after enabling HTTP authentication)
+### Example for MacOS with HTTP authentication enabled
 
 
 ```
 nativefier --name "Sonarr" --basic-auth-username myusername --basic-auth-password mypassword --fast-quit --disable-dev-tools "https://sonarr.domain.com"
 ```
 
+### Example for Windows with HTTP authentication enabled
+
+
+```
+nativefier --name "Sonarr" --basic-auth-username myusername --basic-auth-password mypassword --disable-dev-tools "https://sonarr.domain.com"
+```
 
 
 ## 3. Move the Nativefier App 
