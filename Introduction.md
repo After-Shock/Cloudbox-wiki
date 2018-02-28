@@ -48,7 +48,6 @@ WORK IN PROGRESS
 # How does Cloudbox function ?
 
 
-![](http://i.imgur.com/xVR28pn.png)
 
 
 `Sonarr` will acquire your favorite TV Shows and `Radarr` your favorite movies, by utilizing either Torrents (i.e `ruTorrent` and/or Usenet (i.e. `NZBGet`). `UnionFS Cleaner` will eventually move your media will to Google Drive, under a folder called `/Media`. `Plexdrive` will mount your Google Drive on to the server, so that your media server application (i.e. `Plex`, `Emby`) will be able to play it back. 
@@ -56,5 +55,8 @@ WORK IN PROGRESS
 > If you want to use Torrents, it is recommended you be a member of a private tracker vs using public ones. If you want to to use Usenet, you will need to purchase Usenet provider service (or multiple services) and also be a member of a Usenet indexer site. 
 
 > Some of the applications above can be replaced by your favorites. 
+
+
+![](http://i.imgur.com/xVR28pn.png)
 
 
