@@ -44,7 +44,7 @@ _Last updated on Feb 28, 2018._
 
 
 ### Optional Docker containers
-(work in progress = container is working; doc needs work)
+("work in progress" = apps work, but need documentation)
 - [[Resilio Sync]] (work in progress)
 - Nextcloud (coming soon)
 - [[Ombi]] (work in progress)
