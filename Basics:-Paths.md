@@ -70,7 +70,7 @@ _Note: For more info, see the [[UnionFS Cleaner]] page._
 
 The Dockerized app (e.g. Plex) will "see" the **Docker Path**, but that path will actually be the **Host Path** on the server. 
 
-By default, NZBGet and ruTorrent downloads are stored in `~/downloads` on the server (i.e **Host Path**), however, this can be changed to point elsewhere (e.g. a second hard drive) by editing the [[settings.yml|Configuring-Settings]] file. But regardless of the download location chosen, the **Docker Path** will always be the same.
+By default, NZBGet and ruTorrent downloads are stored in `~/downloads` on the server (i.e **Host Path**), however, this can be changed to point elsewhere (e.g. a second hard drive) by editing the [[settings.yml|First Time Install: Configuring-Settings]] file. But regardless of the download location chosen, the **Docker Path** will always be the same.
 
 _Note: It is advised to leave at least 100GB free on `/opt` for the storage of Docker data_.
 
