@@ -1,5 +1,5 @@
 
-| What's Installed                                                |    Full     |   Feeder    |    Plex     |
+| What's Installed                                                |    `full`   |   `feeder`  |    `plex`   |
 |:--------------------------------------------------------------- |:-----------:|:-----------:|:-----------:|
 | [Docker][627bd283]                                              | ![Yes][yes] | ![Yes][yes] | ![Yes][yes] |
 | [Plex][10952c53] ([docker][d369f92b])                           | ![Yes][yes] |             | ![Yes][yes] |
