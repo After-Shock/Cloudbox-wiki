@@ -5,7 +5,7 @@
 ### Basics ###
 1. [[Introduction | Basics: Introduction]]
 1. [[Paths| Basics: Paths]]
-1. [[Accessing Cloudbox Apps]]
+1. [[Accessing Cloudbox Apps |Basics: Accessing Cloudbox Apps]]
 
 ***
 
