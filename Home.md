@@ -1,7 +1,7 @@
-_Last updated on Jan 20, 2018._
+_Last updated on Feb 28, 2018._
 
 ### Basics ###
-1. [[Introduction]] (work in progress)
+1. [[Introduction]]
 1. [[Paths]]
 1. [[Accessing Cloudbox Apps]]
 
