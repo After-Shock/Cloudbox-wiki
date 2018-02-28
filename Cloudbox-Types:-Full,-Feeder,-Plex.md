@@ -1,4 +1,4 @@
-## Cloudbox Install Types
+## Cloudbox Install Types (e.g. Tags)
 
 | What's Installed                                                |    Full     |   Feeder    |    Plex     |
 |:--------------------------------------------------------------- |:-----------:|:-----------:|:-----------:|
