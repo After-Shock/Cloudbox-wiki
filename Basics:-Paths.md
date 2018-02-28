@@ -5,7 +5,7 @@ It is recommended to assign all your disk space to `/`, as all of your imported 
 
 Note 1: **ALL** folders/paths mentioned below, and elsewhere on the wiki, are **CASE SENSITIVE** (e.g. Google Drive: `Media` not `media`, `Movies` not `movies`, `TV` not `tv`; Plex Requests: `/logs` not `/Logs`, etc). This is important or else apps like Plex, Sonarr, and Radarr would not be able find your media files.
 
-Note 2: This wiki uses `~/` interchangeably with `/home/<username>/` (defined as `/home/{{user}}/` in [[settings.yml|Configuring-Settings]]}. So if your user name was `seed`, your `~/` path would be the same as `/home/seed/`.
+Note 2: This wiki uses `~/` interchangeably with `/home/<username>/` (defined as `/home/{{user}}/` in [[settings.yml|First Time Install: Configuring-Settings]]}. So if your user name was `seed`, your `~/` path would be the same as `/home/seed/`.
 
 ## Google Drive Paths
 
