@@ -2,6 +2,7 @@ _Last updated on Feb 28, 2018._
 
 ### Basics ###
 1. [[Introduction | Basics: Introduction]]
+1. [[Cloudbox Install Types (i.e. Tags)| Basics: Cloudbox Install Types (i.e. Tags)]]
 1. [[Paths| Basics: Paths]]
 1. [[Accessing Cloudbox Apps |Basics: Accessing Cloudbox Apps]]
 
