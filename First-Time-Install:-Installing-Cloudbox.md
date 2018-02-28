@@ -5,9 +5,9 @@
     cd ~/cloudbox
     ```
 
-2. Decide on what type of Cloudbox you want: `full`,`feeder`, or `plex` (see [[here|Basics: Cloudbox Install Types (i.e. Tags)]]. For most cases, this will be `full`. 
+2. Decide on what type of Cloudbox you want: `full`,`feeder`, or `plex` (see [[here|Basics: Cloudbox Install Types (i.e. Tags)]]). For most cases, this will be `full`. 
 
-3. Run the following command, with the preferred option from #2 (`--tags "option"`). Quotes are not required.
+3. Run the following command, with the preferred option from #2 after `--tags`. 
      
    ```bash
    sudo ansible-playbook cloudbox.yml --tags full
