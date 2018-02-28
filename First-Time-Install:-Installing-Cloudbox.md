@@ -10,7 +10,7 @@
 3. Run the following command, with the preferred option from #2 after `--tags`. 
      
    ```bash
-   sudo ansible-playbook cloudbox.yml --tags full
+   sudo ansible-playbook cloudbox.yml --tags "full"
    ```
 
    This will start the Cloudbox install.
