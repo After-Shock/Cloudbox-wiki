@@ -602,7 +602,7 @@ sudo chmod -R 0755 ~/.config/rclone/
 ### Make sure your files are in the correct Google Drive paths.
 
 
-See [[Paths]] and [[First-Time-Install:-Prerequisites#4-google-drive-account]]. Remember folder names mentioned throughout the site are **CASE SENSITIVE**.
+See [[Basics: Paths]] and [[First-Time-Install:-Prerequisites#4-google-drive-account]]. Remember folder names mentioned throughout the site are **CASE SENSITIVE**.
 
 
 ### Check on status
