@@ -1,17 +1,50 @@
 WORK IN PROGRESS
 
 
-# What is Cloudbox ?
+# What is Cloudbox?
 
-Cloudbox is an [Ansible](https://www.ansible.com/how-ansible-works) playbook based project that automates the deployment of a [docker](https://www.docker.com/what-container)-based cloud media server stack. Primary functions are: the automatic acquisition of media, storing that media on the cloud, and the ability to play your media from anywhere. 
+- Cloudbox is an [Ansible](https://www.ansible.com/how-ansible-works) playbook based project that automates the deployment of a [docker](https://www.docker.com/what-container)-based cloud media server stack. Primary functions are: the automatic acquisition of media, storing that media on the cloud, and the ability to play your media from anywhere. 
 
+
+# Why use Cloudbox? 
+
+## Fast Deployment
+
+- Have a system running within minutes with minimal input. 
+
+## Docker-Based Applications
+
+- Docker containers keep your apps isolated from each other - no more conflicts between apps. 
+
+- Docker containers keep your system tidy since none on of the apps' files (executables and dependencies) are stored outside of the container. 
+
+- Quickly install and uninstall apps. 
+
+- Configuration files for all key applications are conveniently stored in /opt, which makes backup so easy. Easily pack up your server and move to another one with Cloudbox's built-in Backups feature. 
+
+
+## Cloud Storage Powered by Google Drive
+
+- Unlimited Storage with Google Drive (Gsuites). 
+
+ 
+## Can Choose Your Preferred Media Server Application
+
+- You can decide whether to use Plex or Emby.
+
+## Custom Server Deployment
+
+- You can make your Cloudbox a Fullbox (i.e. both a downloading and sharing machine), or if you want to have a dual server solution, a Feederbox (i.e. downloading only) and Plexbox/Embybox (i.e. sharing media).
+
+## Secure
+
+- Secure HTTPS with Let's Encrypt SSL certificates
 
 
 # How does Cloudbox function ?
 
-First 
 
-It is designed for use with a Google Drive unlimited account for long term storage of your media, which can then be streamed via Plex along with any temporary local content that is awaiting being uploaded.
+Cloudbox utilizes  designed for use with a Google Drive unlimited account for long term storage of your media, which can then be streamed via Plex along with any temporary local content that is awaiting being uploaded.
 
 One of the key advantages to using Cloudbox is the fact that all the key applications are containerized in Docker containers. This gives you the ability to perform backups. These backups will include all your settings/metadata associated with them (e.g. sonarr/radarr/plex librarys+images+watched status). This will allow you to then deploy your existing setup simply via restoring the backup file then running the cloudbox installer again, and everything is how it was at the time of backup. 
 
