@@ -3,7 +3,7 @@
 ***
 
 ### Basics ###
-1. [[Introduction]] (work in progress)
+1. [[Introduction]]
 1. [[Paths]]
 1. [[Accessing Cloudbox Apps]]
 
