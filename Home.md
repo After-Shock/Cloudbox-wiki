@@ -3,7 +3,7 @@ _Last updated on Feb 28, 2018._
 ### Basics ###
 1. [[Introduction | Basics: Introduction]]
 1. [[Paths| Basics: Paths]]
-1. [[Accessing Cloudbox Apps]]
+1. [[Accessing Cloudbox Apps |Basics: Accessing Cloudbox Apps]]
 
 ### First Time Install ###
 1. [[Prerequisites | First-Time-Install: Prerequisites]]
