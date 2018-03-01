@@ -1,16 +1,14 @@
 ## [[Home]] ##
 
-***
 
-## Basics ##
+# Basics #
 - [[Introduction | Basics: Introduction]]
 - [[Cloudbox Install Types| Basics: Cloudbox Install Types]]
 - [[Paths| Basics: Paths]]
 - [[Accessing Cloudbox Apps |Basics: Accessing Cloudbox Apps]]
 
-***
 
-## First Time Install ##
+# First Time Install #
 
 
 ### Full Cloudbox ###
