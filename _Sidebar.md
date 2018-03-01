@@ -3,10 +3,10 @@
 ***
 
 ## Basics ##
-1. [[Introduction | Basics: Introduction]]
-1. [[Cloudbox Install Types| Basics: Cloudbox Install Types]]
-1. [[Paths| Basics: Paths]]
-1. [[Accessing Cloudbox Apps |Basics: Accessing Cloudbox Apps]]
+- [[Introduction | Basics: Introduction]]
+- [[Cloudbox Install Types| Basics: Cloudbox Install Types]]
+- [[Paths| Basics: Paths]]
+- [[Accessing Cloudbox Apps |Basics: Accessing Cloudbox Apps]]
 
 ***
 
