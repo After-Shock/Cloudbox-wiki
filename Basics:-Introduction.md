@@ -5,15 +5,15 @@
 
 # Why use Cloudbox? 
 
-## Custom Domains
+### Custom Domains
 
 - Have your server setup own your own domain (e.g. app.domain.com).
 
-## Fast Deployment
+### Fast Deployment
 
 - Have a system running within minutes with minimal input. 
 
-## Docker-Based Applications
+### Docker-Based Applications
 
 - Docker containers keep your apps isolated from each other - no more conflicts between apps. 
 
@@ -24,20 +24,20 @@
 - Configuration files for all key applications are conveniently stored in /opt, which makes backup so easy. Easily pack up your server and move to another one with Cloudbox's built-in Backups feature. 
 
 
-## Cloud Storage Powered by Google Drive
+### Cloud Storage Powered by Google Drive
 
 - Unlimited Storage with Google Drive (Gsuites). 
 
  
-## Can Choose Your Preferred Media Server Application
+### Can Choose Your Preferred Media Server Application
 
 - You can decide whether to use Plex or Emby.
 
-## Custom Server Deployment
+### Custom Server Deployment
 
 - You can make your Cloudbox a Fullbox (i.e. both a downloading and sharing machine), or if you want to have a dual server solution, a Feederbox (i.e. downloading only) and Plexbox/Embybox (i.e. sharing media).
 
-## Secure
+### Secure
 
 - Cloudbox uses secure HTTPS powered by Let's Encrypt SSL certificates.
 
