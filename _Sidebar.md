@@ -10,7 +10,7 @@
 
 ***
 
-## First Time Install - Full Cloudbox ##
+## First Time Install ##
 
 
 ### Full Cloudbox ###
