@@ -6,7 +6,7 @@ _Last updated on Feb 28, 2018._
 1. [[Paths| Basics: Paths]]
 1. [[Accessing Cloudbox Apps |Basics: Accessing Cloudbox Apps]]
 
-### First Time Install ###
+### First Time Install (full) ###
 1. [[Prerequisites | First-Time-Install: Prerequisites]]
 1. [[Downloading Cloudbox | First Time Install: Downloading Cloudbox]]
 1. [[Updating Kernel | First Time Install: Updating Kernel]]
