@@ -11,7 +11,7 @@
 # First Time Install #
 
 
-### Full Cloudbox ###
+## Full Cloudbox ##
 1. [[Prerequisites | First-Time-Install: Prerequisites]]
 1. [[Downloading Cloudbox | First Time Install: Downloading Cloudbox]]
 1. [[Updating Kernel | First Time Install: Updating Kernel]]
@@ -33,9 +33,8 @@
     1. [[Portainer | First-Time-Install: Portainer]]
     1. [[Organizr | First-Time-Install: Organizr]]
 
-***
 
-### Advanced Configuration ###
+## Advanced Configuration ##
 - [[Customizing Plex Libraries]]
 
 ***
