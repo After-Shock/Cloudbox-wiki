@@ -1,14 +1,14 @@
 _Last updated on Feb 28, 2018._
 
-## Basics ##
+# Basics #
 1. [[Introduction | Basics: Introduction]]
 1. [[Cloudbox Install Types| Basics: Cloudbox Install Types]]
 1. [[Paths| Basics: Paths]]
 1. [[Accessing Cloudbox Apps |Basics: Accessing Cloudbox Apps]]
 
-## First Time Install ##
+# First Time Install #
 
-### Full Cloudbox ###
+## Full Cloudbox ##
 1. [[Prerequisites | First-Time-Install: Prerequisites]]
 1. [[Downloading Cloudbox | First Time Install: Downloading Cloudbox]]
 1. [[Updating Kernel | First Time Install: Updating Kernel]]
@@ -30,10 +30,10 @@ _Last updated on Feb 28, 2018._
     1. [[Portainer | First-Time-Install: Portainer]]
     1. [[Organizr | First-Time-Install: Organizr]]
 
-### Advanced Configuration ###
+# Advanced Configuration #
 - [[Customizing Plex Libraries]]
 
-### More Information ###
+# More Information #
 - [[UnionFS Cleaner]]
 - [[Cloudbox Tools]] (work in progress)
 - [[Backup and Restore]]
@@ -46,14 +46,14 @@ _Last updated on Feb 28, 2018._
 - [[Revoking SSL Certificates]]
 
 
-### Optional Docker containers
+# Optional Docker containers
 ("work in progress" = apps work, but need documentation)
 - [[Resilio Sync]] (work in progress)
 - Nextcloud (coming soon)
 - [[Ombi]] (work in progress)
 - [[Emby]] (work in progress)
 
-### Misc Guides
+# Misc Guides
 - [[Nativefier]] (Create desktop apps for Cloudbox)
 - [How to enable iGPU for Hetzner servers](https://github.com/desimaniac/docs/blob/master/enable_igpu_on_hetzner.md) (to enable hardware accelerated transcoding in Plex/Emby)
 - [[Setup Plex CDN with Cloudflare|Cloudflare]]
@@ -62,11 +62,11 @@ _Last updated on Feb 28, 2018._
 
 
 
-### Troubleshooting ###
+# Troubleshooting #
 - [[FAQ]]
 - [[Logs]]
 
-### Community ###
+# Community #
 - [Website](https://www.cloudbox.rocks)
 - [Reddit](https://reddit.com/r/Cloudbox)
 - [Discord](https://discord.gg/xmNYmSJ)
