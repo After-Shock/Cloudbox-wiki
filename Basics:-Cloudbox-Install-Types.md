@@ -23,7 +23,7 @@
 | [Watchtower][a98faaaf]                                          | ![Yes][yes] | ![Yes][yes] | ![Yes][yes] |
 | Misc tools and server tweaks (e.g. kernel, motd, mc, ngrok)     | ![Yes][yes] | ![Yes][yes] | ![Yes][yes] |
 
-  [no]:https://raw.githubusercontent.com/Cloudbox/Assets/images/wiki/cross-mark.png
+  [no]:https://github.com/Cloudbox/Assets/blob/master/images/wiki/check-mark.png
   [yes]:https://raw.githubusercontent.com/Cloudbox/Assets/images/wiki/check-mark.png
 
   [627bd283]: https://www.docker.com "Docker"
