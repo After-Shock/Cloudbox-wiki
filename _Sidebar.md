@@ -62,7 +62,7 @@
 
 ## Misc Guides ##
 - [[Nativefier]]
-- [How to enable iGPU for Hetzner.com servers](https://github.com/desimaniac/docs/blob/master/enable_igpu_on_hetzner.md)
+- [How to enable iGPU for Hetzner.com servers](https://github.com/desimaniac/docs/blob/master/enable_igpu_on_hetzner.md)  (to enable hardware accelerated transcoding in Plex/Emby)
 - [[Setup Plex CDN with Cloudflare|Cloudflare]]
   - [[Cloudflare via Script]]
   - [[Cloudflare Manually]]
