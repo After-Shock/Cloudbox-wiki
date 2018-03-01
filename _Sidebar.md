@@ -10,7 +10,7 @@
 
 ***
 
-### First Time Install (`full`) ###
+### First Time, Full Cloudbox Install ###
 1. [[Prerequisites | First-Time-Install: Prerequisites]]
 1. [[Downloading Cloudbox | First Time Install: Downloading Cloudbox]]
 1. [[Updating Kernel | First Time Install: Updating Kernel]]
