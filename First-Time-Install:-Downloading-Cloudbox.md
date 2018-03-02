@@ -46,7 +46,7 @@ _Note: If you decide to change your username after Cloudbox install, you will ne
 
 
 
-## 2. Install Required Dependencies  ####
+## 2. Install Dependencies  ####
 
 Run the following command:
 
