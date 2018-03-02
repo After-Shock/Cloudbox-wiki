@@ -12,11 +12,11 @@
 
 ## 1. Presumptions
 
-Cloudbox assumes you have a basic understanding of Linux, Docker containers, BitTorrent, and Usenet, and are also familiar with Sonarr, Radarr, NZBGet, rTorrent/ruTorrent, and Plex. 
+Cloudbox assumes you have a basic understanding of Linux, Docker containers, BitTorrent, and Usenet, and are also familiar with Sonarr, Radarr, NZBGet, rTorrent/ruTorrent, and Plex.
 
-The guides in this wiki are only meant to setup Cloudbox specific settings into the various apps that are installed with Cloudbox (e.g. Sonarr, Radarr, Plex, etc) and are not meant to be a full setup for, or an introduction to, the workings of these apps. 
+The guides in this wiki are only meant to setup Cloudbox specific settings into the various apps that are installed with Cloudbox (e.g. Sonarr, Radarr, Plex, etc) and are not meant to be a full setup for, or an introduction to, the workings of these apps.
 
-If you wish to learn more about them, you can easily find a ton of guides for them online (e.g. [HTPC Guides](https://www.htpcguides.com), YouTube, etc). 
+If you wish to learn more about them, you can easily find a ton of guides for them online (e.g. [HTPC Guides](https://www.htpcguides.com), YouTube, etc).
 
 
 ## 2. Dedicated Server
@@ -30,7 +30,7 @@ _Note: If you are using a Scaleway server, read [[this|FAQ#if-you-are-using-a-sc
 ```
 Tips:
 - If you have multiple hard drives on the server (eg. 2 x 4 TB), put them in RAID 0 to maximize space and speed, and enable weekly backups in Cloudbox.
-- Remove any /home or /data partitions. 
+- Remove any /home or /data partitions.
 - Put all your space on /.
 - Leave ample space in /boot (e.g. 1GB-4GB)
 
@@ -50,18 +50,18 @@ Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Basic
 
    _Note 1: Make sure there is also an A Record for the bare domain (e.g. `@` for host). This should be there by default. If not, then add it in._
 
-   _Note 2: If you do not want to use a wildcard entry, you can create an A record for all the subdomains instead (see [below](Prerequisites#ii-free-domain-name-via-freenomcom))._
+   _Note 2: If you do not want to use a wildcard entry, you can create an A record for all the subdomains instead (see [below](Basics: Prerequisites#ii-free-domain-name-via-freenomcom))._
 
    _Note 3: If you have a separate Plex and Feeder setup, you will need to create A Records for both IP addresses (Plex and Feeder boxes) and set them to their respective subdomains._
 
-    
+
    Example: For Namecheap.com, go to Domain List > Manage > Advanced DNS > Add New Record > A Record > `*` for Host > Server IP for Value.
 
    ![](http://i.imgur.com/I7h5jSs.png)
 
 ### ii. Free Domain Name (via freenom.com)
 
-**Update:** Freenom has pushed an update to their site which has broken the ability to register new domain names. See above on how to get a paid domain name. 
+**Update:** Freenom has pushed an update to their site which has broken the ability to register new domain names. See above on how to get a paid domain name.
 
 1. Visit http://www.freenom.com, create a free account, and find a domain name to register.
 2. Go to "Services" > "My Domains" > "Manage Domain" > "Manage Freenom DNS".
@@ -104,12 +104,12 @@ Media will be stored in `Movies` and `TV` folders, all within a `Media` folder i
 
 If you have media in other folders, simply move them into these folders via the [Google Drive website](https://www.google.com/drive/).
 
-Note: All the paths/folders mentioned are **CASE SENSITIVE** (see  [[Basics: Paths]]). 
+Note: All the paths/folders mentioned are **CASE SENSITIVE** (see  [[Basics: Paths]]).
 
 
 ## 5. Plex Account
 
-You'll need a Plex account. 
+You'll need a Plex account.
 
 If you don't already have one, please visit https://www.plex.tv to create a free account.
 
@@ -117,16 +117,16 @@ If you don't already have one, please visit https://www.plex.tv to create a free
 
 ## 6. Preferred Downloading Method
 
-To use Cloudbox, you will need to choose which method you will use to download your media with. It can either be [Usenet, Torrents, or both](https://www.htpcguides.com/comparing-usenet-vs-torrents/). 
+To use Cloudbox, you will need to choose which method you will use to download your media with. It can either be [Usenet, Torrents, or both](https://www.htpcguides.com/comparing-usenet-vs-torrents/).
 
 ### i. Usenet
 
-If you plan on using [Usenet](https://www.reddit.com/r/usenet/wiki/faq#wiki_usenet_faq) (i.e. Newsgroups) with Cloudbox, you'll need 2 things: a [Usenet provider](https://www.reddit.com/r/usenet/wiki/providers) and a [Usenet indexer](https://www.reddit.com/r/usenet/wiki/indexers). We recommend you have multiple indexers (and even multiple providers) to better your chances at finding and downloading media. 
+If you plan on using [Usenet](https://www.reddit.com/r/usenet/wiki/faq#wiki_usenet_faq) (i.e. Newsgroups) with Cloudbox, you'll need 2 things: a [Usenet provider](https://www.reddit.com/r/usenet/wiki/providers) and a [Usenet indexer](https://www.reddit.com/r/usenet/wiki/indexers). We recommend you have multiple indexers (and even multiple providers) to better your chances at finding and downloading media.
 
 
 ### ii. BitTorrent
 
-If you plan on using torrents with Cloudbox, we recommend you have access to a [private torrent tracker](https://www.reddit.com/r/trackers/wiki/getting_into_private_trackers) as most servers don't allow public ones. However, if you still want to use public torrent trackers with Cloudbox, you are free to do so. 
+If you plan on using torrents with Cloudbox, we recommend you have access to a [private torrent tracker](https://www.reddit.com/r/trackers/wiki/getting_into_private_trackers) as most servers don't allow public ones. However, if you still want to use public torrent trackers with Cloudbox, you are free to do so.
 
 
 

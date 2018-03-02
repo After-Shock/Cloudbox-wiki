@@ -40,7 +40,7 @@ Under "Jackett Configuration":
 
 Under "Configured Indexers":
 
-1. Click "Add Indexer" to add your favorite indexers (i.e. [[torrent trackers| First-Time-Install: Prerequisites#6-preferred-downloading-method]]). 
+1. Click "Add Indexer" to add your favorite indexers (i.e. [[torrent trackers| Basics: Prerequisites#6-preferred-downloading-method]]). 
 
 1. When adding indexers into [[Sonarr|First-Time-Install: Sonarr#jackett]]/[[Radarr|First-Time-Install: Radarr#jackett]], you will need: 
 

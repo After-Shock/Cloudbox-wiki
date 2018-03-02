@@ -133,7 +133,7 @@
 
 ## 5. Indexers
 
-After adding in your favorite [[indexers| First-Time-Install: Prerequisites#6-preferred-downloading-method]], you may add the following ...
+After adding in your favorite [[indexers| Basics: Prerequisites#6-preferred-downloading-method]], you may add the following ...
 
 ### NZBHydra
 

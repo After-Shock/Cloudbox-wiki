@@ -16,7 +16,7 @@ NZBGet is a very efficient, cross-platform usenet downloader.
 
     1. Click "Save" and then "Reload".
 
-1. Add your [[news servers| First-Time-Install: Prerequisites#i-usenet]].
+1. Add your [[news servers| Basics: Prerequisites#i-usenet]].
 
 1. Download paths have already been specified, no need to change those.
 

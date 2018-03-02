@@ -21,7 +21,7 @@ Rclone is used by [[UnionFS Cleaner]] and [[Backup|Backup-and-Restore]] to uploa
 
 1. Copy the link the screen shows and paste it in your browser on the host computer. Login with your Google account, if asked, and click `Allow`. You will copy the `verification code` from your browser, paste it at the prompt, and press `enter`.     
 
-   _Note: You must use the same Google account as the Google Drive one you intend to use (see [[Prerequisites| First-Time-Install: Prerequisites#4-google-drive-account]])._
+   _Note: You must use the same Google account as the Google Drive one you intend to use (see [[Prerequisites| Basics: Prerequisites#4-google-drive-account]])._
 
 1. Type `y` to confirm it is ok and press `enter`. 
 
