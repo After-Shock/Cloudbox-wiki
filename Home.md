@@ -1,15 +1,15 @@
 _Last updated on Feb 28, 2018._
 
 ## Basics ##
-1. [[Introduction | Basics: Introduction]]
-1. [[Cloudbox Install Types| Basics: Cloudbox Install Types]]
-1. [[Paths| Basics: Paths]]
-1. [[Accessing Cloudbox Apps |Basics: Accessing Cloudbox Apps]]
+- [[Introduction | Basics: Introduction]]
+- [[Prerequisites | Basics: Prerequisites]]
+- [[Cloudbox Install Types| Basics: Cloudbox Install Types]]
+- [[Paths| Basics: Paths]]
+- [[Accessing Cloudbox Apps |Basics: Accessing Cloudbox Apps]]
 
 ## First Time Install ##
 
 ### Full Cloudbox ###
-1. [[Prerequisites | First-Time-Install: Prerequisites]]
 1. [[Downloading Cloudbox | First Time Install: Downloading Cloudbox]]
 1. [[Updating Kernel | First Time Install: Updating Kernel]]
 1. [[Configuring Settings | First Time Install: Configuring Settings]]
