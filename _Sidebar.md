@@ -3,6 +3,7 @@
 
 ## Basics ##
 - [[Introduction | Basics: Introduction]]
+- [[Prerequisites | Basics: Prerequisites]]
 - [[Cloudbox Install Types| Basics: Cloudbox Install Types]]
 - [[Paths| Basics: Paths]]
 - [[Accessing Cloudbox Apps |Basics: Accessing Cloudbox Apps]]
@@ -12,7 +13,6 @@
 
 
 ### Full Cloudbox ###
-1. [[Prerequisites | First-Time-Install: Prerequisites]]
 1. [[Downloading Cloudbox | First Time Install: Downloading Cloudbox]]
 1. [[Updating Kernel | First Time Install: Updating Kernel]]
 1. [[Configuring Settings | First Time Install: Configuring Settings]]
