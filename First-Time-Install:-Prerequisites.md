@@ -29,9 +29,10 @@ _Note: If you are using a Scaleway server, read [[this|FAQ#if-you-are-using-a-sc
 
 ```
 Tips:
-- If you have multiple hard drives on the server (eg. 2 x 4 TB), put them in RAID 0 to maximize space and speed, and enable weekly backups in Cloudbox. 
-- Put all your space on / (not /home).
-- Leave ample space in /boot (e.g. 500MB - 1GB)
+- If you have multiple hard drives on the server (eg. 2 x 4 TB), put them in RAID 0 to maximize space and speed, and enable weekly backups in Cloudbox.
+- Remove any /home or /data partitions. 
+- Put all your space on /.
+- Leave ample space in /boot (e.g. 1GB-4GB)
 
 ```
 
