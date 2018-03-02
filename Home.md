@@ -1,11 +1,11 @@
-_Last updated on Feb 28, 2018._
+_Last updated on Mar 2, 2018._
 
 ## Basics ##
-- [[Introduction | Basics: Introduction]]
-- [[Prerequisites | Basics: Prerequisites]]
-- [[Cloudbox Install Types| Basics: Cloudbox Install Types]]
-- [[Paths| Basics: Paths]]
-- [[Accessing Cloudbox Apps |Basics: Accessing Cloudbox Apps]]
+1. [[Introduction | Basics: Introduction]]
+1. [[Prerequisites | Basics: Prerequisites]]
+1. [[Cloudbox Install Types| Basics: Cloudbox Install Types]]
+1. [[Paths| Basics: Paths]]
+1. [[Accessing Cloudbox Apps |Basics: Accessing Cloudbox Apps]]
 
 ## First Time Install ##
 
