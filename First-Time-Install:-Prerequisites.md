@@ -37,7 +37,7 @@ Tips:
 
 ## 3. Domain Name
 
-Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Accessing Cloudbox Apps]]). To set this app follow the below instructions.
+Cloudbox apps will be accessed via https://appname._yourdomain.com_ (see [[Basics: Accessing Cloudbox Apps]]). To set this app follow the below instructions.
 
 ### i. Paid Domain Name (recommended)
 1. Get a domain name from any domain name registry (e.g. Namecheap.com, Godaddy.com, Namesilo.com, etc).
