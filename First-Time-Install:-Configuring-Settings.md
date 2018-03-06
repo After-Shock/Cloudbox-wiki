@@ -20,8 +20,6 @@
   plex:
     tag: public
     transcodes: "/home/{{user}}/transcodes"
-  plex_autoscan:
-    ip: "0.0.0.0"
   rclone:
     version: 1.38
   unionfs_cleaner:
