@@ -22,4 +22,4 @@ NZBGet is a very efficient, cross-platform usenet downloader.
 
 ## 3. Addons
 
-If you want to use scripts, place them in `/opt/scripts/nzb` on your server, as this is where NZBGet will load scripts from.
+If you want to use scripts, place them in `/opt/scripts/nzb` on your server. This will be accessed from within NZBGet from `/scripts`. 
