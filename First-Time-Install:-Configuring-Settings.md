@@ -81,15 +81,6 @@ To see the information below in a nice-looking table, click [[here|https://pste.
 
     - Note: **DO NOT** use /tmp or /dev/shm as a transcode location. On reboots, /tmp and /dev/shm are cleared and this causes docker to recreate the folder as root, causing the plex transcoder to crash. See this comment from a Plex employee: [https://forums.plex.tv/discussion/comment/1502936/#Comment_1502936](https://forums.plex.tv/discussion/comment/1502936/#Comment_1502936).
 
-- `plex_autoscan`
-
-  - `ip`: Server IP that Plex Autoscan will listen on. In the `Full` Cloudbox setup, this will be `0.0.0.0`. Default is `0.0.0.0`. 
-
-    - Note 1: 0.0.0.0 is for local machines, because containers can not communicate with local host via 127.0.0.1.
-    
-    - Note 2: If you have a separate Plex and Feeder setup, this will be the IP of the server where Plex is installed.
-
-
 - `rclone`:
 
   - `version`: Rclone version. Default listed version is the most currently, stable version. Default is `1.38`.
