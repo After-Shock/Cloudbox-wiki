@@ -967,7 +967,7 @@ You may do this 2 ways:
   * Stop and remove the container: `docker stop rutorrent && docker rm rutorrent`
 
   * Edit the settings.yml file with the new password: see [[Configuring Settings | First Time Install: Configuring Settings]]
-  * Install the new ruTorrent container: `cd ~/ && sudo ansible-playbook cloudbox.yml --tags update-rutorrent`
+  * Install the new ruTorrent container: `cd ~/cloudbox && sudo ansible-playbook cloudbox.yml --tags update-rutorrent`
 
 - Change the password for the current ruTorrent container
 
