@@ -362,7 +362,7 @@ sudo easy_install pyOpenSSL
 
 ```
 
-Rerun the [Install Prerequisites](Downloading-Cloudbox#2-install-prerequisites) command and retry Cloudbox Install..
+Rerun the [Install Prerequisites](First Time Install: Downloading-Cloudbox#2-install-prerequisites) command and retry Cloudbox Install..
 
 
 ## Error while fetching server API version
@@ -602,7 +602,7 @@ sudo chmod -R 0755 ~/.config/rclone/
 ### Make sure your files are in the correct Google Drive paths.
 
 
-See [[Basics: Paths]] and [[First-Time-Install:-Prerequisites#4-google-drive-account]]. Remember folder names mentioned throughout the site are **CASE SENSITIVE**.
+See [[Basics: Paths]] and [[Basics: Prerequisites#4-google-drive-account]]. Remember folder names mentioned throughout the site are **CASE SENSITIVE**.
 
 
 ### Check on status
