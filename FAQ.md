@@ -966,7 +966,10 @@ You may do this 2 ways:
 
   * Stop and remove the container: `docker stop rutorrent && docker rm rutorrent`
 
+  * Remove the ruTorrent folder: `sudo rm -rf /opt/rutorrent`
+
   * Edit the settings.yml file with the new password: see [[Configuring Settings | First Time Install: Configuring Settings]]
+
   * Install the new ruTorrent container: `cd ~/cloudbox && sudo ansible-playbook cloudbox.yml --tags update-rutorrent`
 
 - Change the password for the current ruTorrent container
@@ -974,8 +977,13 @@ You may do this 2 ways:
   * Stop the container: `docker stop rutorrent`
 
   * Go into the folder where .htpasswd resides: `cd /opt/rutorrent/nginx`
+
   * Rename the old .htpasswd: `mv .htpasswd .htpasswd.bak`
+
   * Generate a new .htpasswd (where `USER` is your username and `PASSWORD` is the new password): `printf "USER:$(openssl passwd -1 PASSWORD)\n" >> .htpasswd`
+
   * And verify that `/opt/rutorrent/nginx/nginx.conf` has `auth_basic "Restricted Content";` and `auth_basic_user_file /config/nginx/.htpasswd;` inside all location references. See image below.
+
   * ![  ](https://i.imgur.com/VyyijSP.png)
+
   * Start the container: `docker start rutorrent`
