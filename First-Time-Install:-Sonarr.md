@@ -227,6 +227,8 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
    1. Arguments:`sonarr`
 
 
+<!-- https://i.imgur.com/hqzE0KR.png -->
+
 1. The settings will look like this:
 
     ![Sonarr Torrent Cleanup Script CloudBox](http://i.imgur.com/nNkMLdB.png)
