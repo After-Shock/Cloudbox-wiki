@@ -226,6 +226,7 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
     ![Radarr Torrent Cleanup Script CloudBox](http://i.imgur.com/PUNAGed.png)
 
+<!--  https://i.imgur.com/WL8Wym4.png -->
 
 1. Click "Save" to add the Torrent Cleanup script.
 
