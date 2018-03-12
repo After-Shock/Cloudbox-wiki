@@ -1,7 +1,7 @@
 
 ##  1. User account setup  ### 
 
-Choose one of the following:
+Choose **ONE** of the following:
 
 ### - Create a new user account `seed` (recommended)
 
