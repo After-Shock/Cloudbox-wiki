@@ -26,7 +26,7 @@ _Note: If you wish to move your Cloudbox to another server, see [[Migrating Clou
 <br />
 
 
-| Things That Are Backed-up | Backed-up From            | Restored To              |
+| Things That Are Backed Up | Backed Up From            | Restored To              |
 |:------------------------- |:------------------------- |:------------------------ |
 | Plex                      | `/opt/plex/`              | `/opt/plex/`             |
 | PlexPy                    | `/opt/plexpy/`            | `/opt/plexpy/`           |
