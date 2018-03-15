@@ -42,7 +42,7 @@ Steps to update the kernel manually:
    
    This may take a while to complete.
 
-4. Once the kernel update is done, the server will need to be rebooted:
+1. Once the kernel update is done, the server will need to be rebooted:
 
     ```bash
     sudo reboot
