@@ -21,7 +21,7 @@ Steps to update the kernel via Cloudbox:
     ```bash
     sudo ansible-playbook cloudbox.yml --tags kernel
     ```
-   This may take a while to complete.
+   _Note: This may take a while to complete._
 
 1. Once the kernel update is done, the server will reboot automatically. If it doesn't, run the following command:
 
@@ -40,7 +40,7 @@ Steps to update the kernel manually:
     sudo apt install linux-generic-hwe-16.04
     ```
    
-   This may take a while to complete.
+   _Note: This may take a while to complete._
 
 1. Once the kernel update is done, the server will need to be rebooted:
 
