@@ -199,7 +199,7 @@ We will assume you are restoring to a new / clean server.
 1. Run the restore command (in `~/cloudbox`).
 
    ```bash
-   sudo ansible-playbook cloudbox.yml --tag restore
+   sudo ansible-playbook cloudbox.yml --tags restore
    ```
 
 1. Configure the rest of your [[settings.yml|First Time Install: Configuring Settings]]. 
