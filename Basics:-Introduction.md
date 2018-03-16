@@ -44,10 +44,15 @@
 
 # How does Cloudbox function ?
 
+`Plexdrive` will mount your Google Drive on to the server. 
 
+`UnionFS` will merge thus mounted Google Drive folder with a local folder, and this will be accessible by the media server application (e.g. Plex). 
 
+`Sonarr` will acquire your favorite TV Shows and `Radarr` your favorite movies, by utilizing either Torrents (i.e `ruTorrent` and/or Usenet (i.e. `NZBGet`). After each download completes and is imported, a request is sent to _Plex Autoscan_. 
 
-`Sonarr` will acquire your favorite TV Shows and `Radarr` your favorite movies, by utilizing either Torrents (i.e `ruTorrent` and/or Usenet (i.e. `NZBGet`). `UnionFS Cleaner` will eventually move your media will to Google Drive, under a folder called `/Media`. `Plexdrive` will mount your Google Drive on to the server, so that your media server application (i.e. `Plex`, `Emby`) will be able to play it back. 
+`Plex Auto Scan` will send a request to Plex to scan the TV Shows's season folder (from Sonarr) or the movie folder (from Radarr). This makes the media appear in Plex quicker than a full library scan would have done and all the while avoiding Goofle API bans. 
+
+`UnionFS Cleaner` will eventually move the local media, that was downloaded by Sonarr/Radarr, to Google Drive, under a folder called `/Media`. The media will still be accessible by Plex via UnionFS/Plexdrive. 
 
 > If you want to use Torrents, it is recommended you be a member of a private tracker vs using public ones. If you want to to use Usenet, you will need to purchase Usenet provider service (or multiple services) and also be a member of a Usenet indexer site. 
 
@@ -55,5 +60,4 @@
 
 
 ![](http://i.imgur.com/xVR28pn.png)
-
 
