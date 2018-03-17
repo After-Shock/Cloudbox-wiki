@@ -50,7 +50,7 @@
 
 `Sonarr` will acquire your favorite TV Shows and `Radarr` your favorite movies, by utilizing either Torrents (i.e `ruTorrent` and/or Usenet (i.e. `NZBGet`). After each download completes and is imported, a request is sent to _Plex Autoscan_. 
 
-`Plex Auto Scan` will send a request to Plex to scan the TV Shows's season folder (from Sonarr) or the movie folder (from Radarr). This makes the media appear in Plex quicker than a full library scan would have done and all the while avoiding Goofle API bans. 
+`Plex Auto Scan` will, in turn,  send a request to Plex to scan for the newly downloaded TV Show episode or Movie, by just scanning just the season or the movie folders, respectively. This makes the media appear in Plex quicker than a full library scan would have done and all the while avoiding Google API bans. 
 
 `UnionFS Cleaner` will eventually move the local media, that was downloaded by Sonarr/Radarr, to Google Drive, under a folder called `/Media`. The media will still be accessible by Plex via UnionFS/Plexdrive. 
 
