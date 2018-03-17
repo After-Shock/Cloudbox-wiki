@@ -13,6 +13,7 @@
 
 
 ### Full Cloudbox ###
+1. [[User Account Setup | First-Time-Install:-User-Account-Setup]]
 1. [[Downloading Cloudbox | First Time Install: Downloading Cloudbox]]
 1. [[Updating Kernel | First Time Install: Updating Kernel]]
 1. [[Configuring Settings | First Time Install: Configuring Settings]]
