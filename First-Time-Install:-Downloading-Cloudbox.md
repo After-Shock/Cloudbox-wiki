@@ -12,7 +12,7 @@ sudo apt-get update && sudo apt-get install -y git python-pip python3-pip python
 _Note: Cloudbox uses Ansible v2.3.1.0 because it is the current stable version (v2.3.2.0 has a [[bug|https://github.com/ansible/ansible/issues/27960]] where `docker_container state=stopped` causes the container to be removed)._
 
 
-## 1. Download Cloudbox ### 
+## 2. Download Cloudbox ### 
 
 
 
