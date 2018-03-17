@@ -48,15 +48,12 @@
 
 `UnionFS` will merge thus mounted Google Drive folder with a local folder, and this will be accessible by the media server application (e.g. Plex). 
 
-`Sonarr` will download your favorite TV Shows. `Radarr` will download favorite movies. Both do this by utilizing either Usenet (via `NZBGet`) and/or Torrents (via `ruTorrent`).<sup name="a1">[\[1\]](#f1) </sup><sup name="a2">[\[2\]](#f2)</sup> These downloads are stored on your server's `/mnt/local/Media/` folder. After a download completes, Sonarr / Radarr send out a request to _Plex Autoscan_. 
+`Sonarr` will download your favorite TV Shows. `Radarr` will download favorite movies. Both do this by utilizing either Usenet (via `NZBGet`) and/or Torrents (via `ruTorrent`).<sup name="a1">[\[1\]](#f1) </sup><sup name="a2">[\[2\]](#f2)</sup> Sonarr / Radarr will move these downloads to your server's `/mnt/local/Media/` folder and send a notification to _Plex Autoscan_. 
 
-`Plex Auto Scan` will, in turn,  send a request to Plex to scan for the newly downloaded TV Show episode or Movie, by just scanning just the season or the movie folders, respectively. This makes the media appear in Plex quicker than a full library scan would have done and all the while avoiding Google API bans. 
+`Plex Auto Scan`, in turn, will tell Plex to scan for the newly downloaded TV Show or Movie, by just scanning just the season / movie folders. This will (1), make the media appear in Plex sooner than what a full library scan would have been able to do, and (2), reduce the chances of Google API bans. 
 
 `UnionFS Cleaner` will eventually move the local media, that was downloaded by Sonarr / Radarr, to Google Drive, under a folder called `/Media`. The media will still be accessible by Plex via UnionFS/Plexdrive. 
 
-> If you want to use Torrents, it is recommended you be a member of a private tracker vs using public ones. If you want to to use Usenet, you will need to purchase Usenet provider service (or multiple services) and also be a member of a Usenet indexer site. 
-
-> Some of the applications above can be replaced by similar apps. 
 
 
 ![](http://i.imgur.com/xVR28pn.png)
@@ -67,6 +64,6 @@
 
 ***
 
-<sup><b name="f1">[1](#a1)</b> Cloudbox install will try to remove all the docker containers before installing, but it's better to remove them manually, beforehand. </sup>
+<sup><b name="f1">[1](#a1)</b> Some of the applications above can be replaced by similar apps. </sup>
 
-<sup><b name="f2">[2](#a2)</b> If you need to keep other non-Cloudbox containers, you may just remove the nginx-proxy container, instead, before re-running Cloudbox. </sup>
+<sup><b name="f2">[2](#a2)</b> If you want to use Torrents, it is recommended you be a member of a private tracker vs using public ones. If you want to to use Usenet, you will need to purchase Usenet provider service (or multiple services) and also be a member of a Usenet indexer site. </sup>
