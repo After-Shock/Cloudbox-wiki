@@ -48,11 +48,11 @@
 
 `UnionFS` will merge thus mounted Google Drive folder with a local folder, and this will be accessible by the media server application (e.g. Plex). 
 
-`Sonarr` will acquire your favorite TV Shows and `Radarr` your favorite movies, by utilizing either Torrents (i.e `ruTorrent` and/or Usenet (i.e. `NZBGet`). After each download completes and is imported, a request is sent to _Plex Autoscan_. 
+`Sonarr` will download your favorite TV Shows. `Radarr` will download favorite movies. Both do this by utilizing either Usenet (via `NZBGet`) and/or Torrents (via `ruTorrent`).<sup name="a1">[\[1\]](#f1) </sup><sup name="a2">[\[2\]](#f2)</sup> These downloads are stored on your server's `/mnt/local/Media/` folder. After a download completes, Sonarr / Radarr send out a request to _Plex Autoscan_. 
 
 `Plex Auto Scan` will, in turn,  send a request to Plex to scan for the newly downloaded TV Show episode or Movie, by just scanning just the season or the movie folders, respectively. This makes the media appear in Plex quicker than a full library scan would have done and all the while avoiding Google API bans. 
 
-`UnionFS Cleaner` will eventually move the local media, that was downloaded by Sonarr/Radarr, to Google Drive, under a folder called `/Media`. The media will still be accessible by Plex via UnionFS/Plexdrive. 
+`UnionFS Cleaner` will eventually move the local media, that was downloaded by Sonarr / Radarr, to Google Drive, under a folder called `/Media`. The media will still be accessible by Plex via UnionFS/Plexdrive. 
 
 > If you want to use Torrents, it is recommended you be a member of a private tracker vs using public ones. If you want to to use Usenet, you will need to purchase Usenet provider service (or multiple services) and also be a member of a Usenet indexer site. 
 
@@ -61,3 +61,12 @@
 
 ![](http://i.imgur.com/xVR28pn.png)
 
+
+
+
+
+***
+
+<sup><b name="f1">[1](#a1)</b> Cloudbox install will try to remove all the docker containers before installing, but it's better to remove them manually, beforehand. </sup>
+
+<sup><b name="f2">[2](#a2)</b> If you need to keep other non-Cloudbox containers, you may just remove the nginx-proxy container, instead, before re-running Cloudbox. </sup>
