@@ -48,7 +48,9 @@
 
 `UnionFS` will merge thus mounted Google Drive folder with a local folder, and this will be accessible by the media server application (e.g. Plex). 
 
-`Sonarr` will download your favorite TV Shows. `Radarr` will download favorite movies. Both do this by utilizing either Usenet (via `NZBGet`) and/or Torrents (via `ruTorrent`).<sup name="a1">[\[1\]](#f1) </sup><sup name="a2">[\[2\]](#f2)</sup> Sonarr / Radarr will move these downloads to your server's `/mnt/local/Media/` folder and send a notification to _Plex Autoscan_. 
+`Sonarr` will download your favorite TV Shows. `Radarr` will download favorite movies. Both do this by utilizing either Usenet (via `NZBGet`) and/or Torrents (via `ruTorrent`).<sup name="a1">[\[1\]](#f1) </sup><sup name="a2">[\[2\]](#f2)</sup> 
+
+Sonarr / Radarr will move these downloads to your server's `/mnt/local/Media/` folder and send a notification to _Plex Autoscan_. 
 
 `Plex Auto Scan`, in turn, will tell Plex to scan for the newly downloaded TV Show or Movie, by just scanning just the season / movie folders. This will (1), make the media appear in Plex sooner than what a full library scan would have been able to do, and (2), reduce the chances of Google API bans. 
 
