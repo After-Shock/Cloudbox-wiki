@@ -1,4 +1,4 @@
-## 1. User Account Setup
+## 1. Setup
 
 Choose **ONE** of the following:
 
