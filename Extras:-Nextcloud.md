@@ -8,7 +8,7 @@ Nextcloud is a free, open-source, self-hosted file sharing solution, that functi
 
 ### 1. Add a Subdomain for Nextcloud
 
- - See [[Adding a Subdomain | Extras: Adding a Subdomain]] on how to add `nextcloud` to your DNS provider.
+ - See [[Adding a Subdomain | Extras: Adding a Subdomain]] on how to add the subdomain `nextcloud` to your DNS provider.
 
 ### 2. Set a Password for MariaDB
 
