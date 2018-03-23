@@ -47,7 +47,7 @@ _Last updated on Mar 17, 2018._
 - [[Revoking SSL Certificates]]
 
 
-## Optional Docker containers ##
+## Extras ##
 ("work in progress" = apps work, but need documentation)
 - [[Resilio Sync]] (work in progress)
 - Nextcloud (coming soon)
