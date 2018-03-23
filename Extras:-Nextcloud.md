@@ -85,7 +85,7 @@ Run the following commands:
 
 1. Enable `External storage support`. Type in your admin password to confirm. 
 
-   ![](https://i.imgur.com/4EDdx1S.png)
+   ![](https://i.imgur.com/2nKCBVt.png)
 
 1. Click the icon at the top right and select "Settings". 
 
@@ -93,7 +93,7 @@ Run the following commands:
 
 1. Click "External storages" under "Administration".
 
-   ![](https://i.imgur.com/ZLfbCxb.png)
+   ![](https://i.imgur.com/Gi7Lhxe.png)
 
 1. For each folder you want to add, set the following: 
 
@@ -109,4 +109,4 @@ Run the following commands:
 
    1. Press the checkmark to save. 
 
-   ![](https://i.imgur.com/5VABRyh.png)
+   ![](https://i.imgur.com/YCLJm5w.png)
