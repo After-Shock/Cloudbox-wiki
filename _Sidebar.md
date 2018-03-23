@@ -54,12 +54,13 @@
 
 
 ## Extras ##
-- Resilio Sync (coming soon)
-- Nextcloud (coming soon)
-- Ombi (coming soon)
-- Emby (coming soon)
-- NZBHydra2 (coming soon)
-
+- [[Adding a Subdomain | Extras: Adding a Subdomain]] (required for most containers). 
+#### Work in Progress: ####
+Apps work; but no documentation. 
+- [[Resilio Sync | Extras: Resilio Sync]]
+- [[Nextcloud | Extras: Nextcloud]]
+- [[Ombi | Extras: Ombi]]
+- [[Emby | Extras: Emby]]
 
 ## Misc Guides ##
 - [[Nativefier]]
