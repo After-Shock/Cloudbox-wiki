@@ -48,7 +48,8 @@ _Last updated on Mar 17, 2018._
 
 
 ## Extras ##
-("work in progress" = apps work, but need documentation)
+### Work in Progress ##
+Apps work; but no documentation. 
 - [[Extras: Resilio Sync]] (work in progress)
 - [[Extras: Nextcloud]] (work in progress)
 - [[Extras: Ombi]] (work in progress)
