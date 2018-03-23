@@ -1,4 +1,3 @@
-# Adding a Subdomain
 
 ## Cloudflare:
 
