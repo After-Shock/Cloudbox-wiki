@@ -97,7 +97,7 @@ Run the following commands:
 
 1. For each folder you want to add, set the following: 
 
-   1. Folder name: folder name. 
+   1. Folder name: your preference. 
 
    1. External storage: `local`. 
 
