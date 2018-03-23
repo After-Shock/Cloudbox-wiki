@@ -48,12 +48,12 @@ _Last updated on Mar 17, 2018._
 
 
 ## Extras ##
-### Work in Progress ##
+#### Work in Progress ####
 Apps work; but no documentation. 
-- [[Extras: Resilio Sync]] (work in progress)
-- [[Extras: Nextcloud]] (work in progress)
-- [[Extras: Ombi]] (work in progress)
-- [[Extras: Emby]] (work in progress)
+- [[Extras: Resilio Sync]]
+- [[Extras: Nextcloud]]
+- [[Extras: Ombi]]
+- [[Extras: Emby]]
 
 ## Misc Guides ##
 - [[Nativefier]] (Create desktop apps for Cloudbox)
