@@ -56,7 +56,6 @@ _Last updated on Mar 17, 2018._
 
 ## Misc Guides ##
 - [[Nativefier]] (Create desktop apps for Cloudbox)
-- [How to enable iGPU for Hetzner servers](https://github.com/desimaniac/docs/blob/master/enable_igpu_on_hetzner.md) (to enable hardware accelerated transcoding in Plex/Emby)
 - [[Setup Plex CDN with Cloudflare|Cloudflare]]
   - [[Cloudflare via Script]]
   - [[Cloudflare Manually]]
@@ -71,3 +70,7 @@ _Last updated on Mar 17, 2018._
 - [Website](https://www.cloudbox.rocks)
 - [Reddit](https://reddit.com/r/Cloudbox)
 - [Discord](https://discord.gg/xmNYmSJ)
+
+
+## External Links ##
+- [How to enable iGPU for Hetzner.com servers](https://github.com/desimaniac/docs/blob/master/enable_igpu_on_hetzner.md)  (to enable hardware accelerated transcoding in Plex/Emby)
