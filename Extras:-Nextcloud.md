@@ -51,7 +51,7 @@ Run the following commands:
 
    - Database user: `root`
 
-   - Database password: `password321`. 
+   - Database password: `password321`
 
    - Database name: `nextcloud`
 
