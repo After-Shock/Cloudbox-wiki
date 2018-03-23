@@ -10,22 +10,8 @@ Nextcloud is a free, open-source, self-hosted file sharing solution, that functi
 
  - See [[Adding a Subdomain | Extras: Adding a Subdomain]] on how to add the subdomain `nextcloud` to your DNS provider.
 
-### 2. Set a Password for MariaDB
 
-1. Run the following command: 
-
-   ```
-   nano ~/cloudbox/roles/nextcloud/tasks/main.yml
-   ```
-1. Set `MYSQL_ROOT_PASSWORD:` to a password of your choosing.
-
-   Example:
-   ```yaml
-   MYSQL_ROOT_PASSWORD: "password321"
-   ```
-1. `Ctrl-x`, `y`, and `enter` to save.
-
-### 3. Install Nextcloud and MariaDB
+### 2. Install Nextcloud and MariaDB
 
 Run the following commands: 
 
@@ -34,7 +20,7 @@ Run the following commands:
  sudo ansible-playbook cloudbox.yml --tags install-nextcloud  
  ```
 
-### 4. Setup Wizard
+### 3. Setup Wizard
 
 1. Visit https://nextcloud._yourdomain.com_
 
@@ -65,7 +51,7 @@ Run the following commands:
 
    - Database user: `root`
 
-   - Database password: your [[MYSQL_ROOT_PASSWORD | Extras: Nextcloud#2-set-a-password-for-mariadb]]. 
+   - Database password: `password321`. 
 
    - Database name: `nextcloud`
 
@@ -77,7 +63,7 @@ Run the following commands:
 
 6. You will now be logged into Nextcloud.
 
-### 5. Add Folder(s)
+### 4. Add Folder(s)
 
 1. Click the icon at the top right and select "Apps". 
 
