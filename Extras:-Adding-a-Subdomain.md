@@ -2,7 +2,7 @@
 
 ## Cloudflare:
 
-If you are using CloudFlare as your domain's DNS provider, you will need to add the subdomain on their [[website|https://cloudflare.com]]. 
+If you are using CloudFlare as your domain's DNS provider, you will need to add the subdomain to your domain profile on their [[site|https://cloudflare.com]]. 
 
 ## Other Domain Hosting Sites:
 
