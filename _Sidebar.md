@@ -54,9 +54,8 @@
 
 
 ## Extras ##
-- [[Adding a Subdomain | Extras: Adding a Subdomain]] (required for most containers). 
+- [[Adding a Subdomain | Extras: Adding a Subdomain]]
 #### Work in Progress: ####
-Apps work; but no documentation. 
 - [[Resilio Sync | Extras: Resilio Sync]]
 - [[Nextcloud | Extras: Nextcloud]]
 - [[Ombi | Extras: Ombi]]
