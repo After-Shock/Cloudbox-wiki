@@ -25,7 +25,7 @@ Nextcloud is a free, open-source, self-hosted file sharing solution, that functi
    ```
 1. `Ctrl-x`, `y`, and `enter` to save.
 
-### 3. Install Nextcloud
+### 3. Install Nextcloud and MariaDB
 
 Run the following commands: 
 
