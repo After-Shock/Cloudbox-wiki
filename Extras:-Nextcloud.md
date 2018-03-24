@@ -13,12 +13,12 @@ Nextcloud is a free, open-source, self-hosted file sharing solution, that functi
 
 ### 2. Install Nextcloud and MariaDB
 
-Run the following commands: 
+  - Run the following commands: 
 
- ```bash
- cd ~/cloudbox/
- sudo ansible-playbook cloudbox.yml --tags install-nextcloud  
- ```
+    ```bash
+    cd ~/cloudbox/
+    sudo ansible-playbook cloudbox.yml --tags install-nextcloud  
+    ```
 
 ### 3. Setup Wizard
 
