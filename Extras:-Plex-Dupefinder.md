@@ -1,4 +1,4 @@
-Plex Dupefinder (by l3uddz) is a script that finds duplicate versions of media (TV episodes and movies) in your Plex Library and tells Plex to remove the lowest quality versions (based on a scoring algorithm), either automatically or interactively (ie with a prompt on each find), leaving you with one high quality media file. 
+Plex Dupefinder (by l3uddz) is a script that finds duplicate versions of media (TV episodes and movies) in your Plex Library and tells Plex to remove the lowest quality versions (based on a scoring algorithm), either automatically or interactively (i.e. with a prompt on each find), leaving you with one high quality media file. 
 
 The scoring is based on: `codec_scores` (configurable), `bitrate`, `duration`, `width/height`, `audio channels`, and `file size`. 
 
