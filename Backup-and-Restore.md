@@ -15,7 +15,7 @@
 
 # Intro
 
-Backup and Restore is an integral part of Cloudbox, this is what makes it so great! Everything related to installed applications is backed-up. 
+Backup and Restore is an integral part of Cloudbox, this is what makes it so great! Everything related to installed applications is backed up. 
 
 _Note: Torrent Seeding content, anything in `/mnt/`, `/home/`, or anywhere else other than the `/opt/` folder, will **NOT** be backed up (media files are moved to Google Drive via [[UnionFS Cleaner]], anyway)._
 
