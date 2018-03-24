@@ -55,6 +55,7 @@ _Last updated: Mar 24, 2018._
 
 #### Work in Progress: ####
 Apps work; but no documentation. 
+- [[Plex Dupefinder | Extras: Plex Dupefinder]]
 - [[Ombi | Extras: Ombi]]
 - [[Emby | Extras: Emby]]
 
