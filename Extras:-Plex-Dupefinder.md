@@ -19,7 +19,7 @@ The scoring is based on: `codec_scores` (configurable), `bitrate`, `duration`, `
 
 ### 1. Obtain a Plex Access Token
 
- - See the [[Plex Token]] page.
+ - See [[Plex Token]].
 
 ### 2. Add the Plex Access Token into Plex Dupefinder config
 
