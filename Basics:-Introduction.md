@@ -52,7 +52,7 @@
 
 Sonarr / Radarr will move these downloads to your server's `/mnt/local/Media/` folder and send a notification to _Plex Autoscan_. 
 
-`Plex AutoScan`, in turn, will tell Plex to scan for the newly downloaded TV Show or Movie, by only scanning the season / movie folders. This will (1), make the media appear in Plex sooner than what a full library scan would have been able to do, and (2), reduce the chances of Google API bans. 
+`[Plex AutoScan](https://github.com/l3uddz/plex_autoscan/)`, in turn, will tell Plex to scan for the newly downloaded TV Show or Movie, by only scanning the season / movie folders. This will (1), make the media appear in Plex sooner than what a full library scan would have been able to do, and (2), reduce the chances of Google API bans. 
 
 `UnionFS Cleaner` will eventually move the local media, that was downloaded by Sonarr / Radarr, to Google Drive, under a folder called `/Media`. The media will still be accessible by Plex via UnionFS/Plexdrive. 
 
