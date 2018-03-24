@@ -48,13 +48,13 @@
 
 `UnionFS` will merge thus mounted Google Drive folder with a local folder, and this will be accessible by the media server application (e.g. Plex). 
 
-`[Sonarr](https://sonarr.tv/)` will download your favorite TV Shows. `[Radarr](https://radarr.video/)` will download favorite movies. Both do this by utilizing either Usenet (via `NZBGet`) and/or Torrents (via `ruTorrent`).<sup name="a1">[\[1\]](#f1) </sup><sup name="a2">[\[2\]](#f2)</sup> 
+[Sonarr](https://sonarr.tv/) will download your favorite TV Shows. [Radarr](https://radarr.video/` will download favorite movies. Both do this by utilizing either Usenet (via [NZBGet](https://nzbget.net/)) and/or Torrents (via [ruTorrent](https://github.com/Novik/ruTorrent)).<sup name="a1">[\[1\]](#f1) </sup><sup name="a2">[\[2\]](#f2)</sup> 
 
 Sonarr / Radarr will move these downloads to your server's `/mnt/local/Media/` folder and send a notification to _Plex Autoscan_. 
 
-`[Plex AutoScan](https://github.com/l3uddz/plex_autoscan/)`, in turn, will tell Plex to scan for the newly downloaded TV Show or Movie, by only scanning the season / movie folders. This will (1), make the media appear in Plex sooner than what a full library scan would have been able to do, and (2), reduce the chances of Google API bans. 
+[Plex AutoScan](https://github.com/l3uddz/plex_autoscan/), in turn, will tell Plex to scan for the newly downloaded TV Show or Movie, by only scanning the season / movie folders. This will (1), make the media appear in Plex sooner than what a full library scan would have been able to do, and (2), reduce the chances of Google API bans. 
 
-`[UnionFS Cleaner](https://github.com/l3uddz/unionfs_cleaner/)` will eventually move the local media, that was downloaded by Sonarr / Radarr, to Google Drive, under a folder called `/Media`. The media will still be accessible by Plex via UnionFS/Plexdrive. 
+[UnionFS Cleaner](https://github.com/l3uddz/unionfs_cleaner/) will eventually move the local media, that was downloaded by Sonarr / Radarr, to Google Drive, under a folder called `/Media`. The media will still be accessible by Plex via UnionFS/Plexdrive. 
 
 
 
