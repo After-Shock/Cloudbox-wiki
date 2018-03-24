@@ -14,12 +14,12 @@
 
 ### 2. Install Resilio Sync
 
-Run the following commands: 
+- Run the following commands: 
 
- ```bash
- cd ~/cloudbox/
- sudo ansible-playbook cloudbox.yml --tags install-resilio  
- ```
+  ```bash
+  cd ~/cloudbox/
+  sudo ansible-playbook cloudbox.yml --tags install-resilio
+  ```
 
 ### 3. Setup Wizard
 
