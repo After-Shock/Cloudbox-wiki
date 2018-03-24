@@ -37,7 +37,7 @@
 
 1. Click "Continue".
 
-  ![](https://i.imgur.com/klEIhGQ.png)
+   ![](https://i.imgur.com/klEIhGQ.png)
 
 1. Next screen will ask to choose a product. This will be "Sync Home" for most users. Click the product that applies to you. 
 
