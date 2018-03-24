@@ -29,4 +29,6 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
   
     _Note: If you get an error here, see the [[FAQ|FAQ#fix-permission-issues-with-plex-logs]] on how to fix permissions._
 
-1. The list here shows your section IDs in the format of `SECTION ID: LIBRARY NAME`. Note: Your section IDs may be different as it is based on the order you added them in Plex.
+1. The list here shows your section IDs in the format of `SECTION ID: LIBRARY NAME`. 
+
+    Note: Your section IDs may be different as it is based on the order you added them in Plex.
