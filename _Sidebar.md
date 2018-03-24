@@ -40,6 +40,8 @@
 
 
 ## More Information ##
+- [[Plex Token]]
+- [[Plex Library Section IDs]]
 - [[UnionFS Cleaner]]
 - [[Cloudbox Tools]] (work in progress)
 - [[Backup and Restore]]
@@ -50,8 +52,7 @@
 - [[Useful Docker Commands]]
 - [[Migrating Cloudbox]]
 - [[Revoking SSL Certificates]]
-- [[Plex Token]]
-- [[Plex Library Section IDs]]
+
 
 ## Extras ##
 - [[Adding a Subdomain | Extras: Adding a Subdomain]]
