@@ -1,4 +1,4 @@
-# Retrieving your Plex Library Section IDs
+This guide will take you through retrieving your Plex Library Section IDs.
 
 _Note: If you have a separate Plex and Feeder setup, this will be done on the server where Plex is installed._
 
