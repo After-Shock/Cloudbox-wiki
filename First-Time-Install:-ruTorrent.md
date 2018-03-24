@@ -31,4 +31,4 @@ To enable AutoUnpack:
 
 1. Click "OK". 
 
-![](https://i.imgur.com/YzkJRyf.png)
+   ![](https://i.imgur.com/YzkJRyf.png)
