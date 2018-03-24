@@ -8,7 +8,15 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
     /opt/plex_autoscan/scan.py sections
     ```
 
-1. Your screen will now show something similar to this:
+1. For simple libraries, your section IDs may look like this: 
+
+    ```
+    1: Movies
+    2: TV
+    ```
+
+
+1. For more advanced libraries, your section IDs may look like this: 
 
     ```
     1: 3D
