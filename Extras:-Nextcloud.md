@@ -63,7 +63,7 @@ Run the following commands:
 
 6. You will now be logged into Nextcloud.
 
-### 4. Add Folder(s)
+### 4. Adding Folder(s)
 
 1. Click the icon at the top right and select "Apps". 
 
