@@ -38,4 +38,4 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
      6: TV
      ```
 
-     _Note: Your Plex Library Section IDs will be different as it is based on the order you added them in Plex._
+   _Note: Your Plex Library Section IDs will be different as it is based on the order you added them in Plex._
