@@ -1,4 +1,4 @@
-_Last updated on Mar 23, 2018._
+_Last updated on Mar 24, 2018._
 
 ## Basics ##
 1. [[Introduction | Basics: Introduction]]
@@ -50,6 +50,7 @@ _Last updated on Mar 23, 2018._
 ## Extras ##
 - [[Adding a Subdomain | Extras: Adding a Subdomain]] (required for most containers). 
 - [[Nextcloud | Extras: Nextcloud]]
+- [[Resilio Sync | Extras: Resilio Sync]]
 
 
 #### Work in Progress: ####
