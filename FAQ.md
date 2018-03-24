@@ -47,7 +47,6 @@
 	- [Plex Autoscan log shows error during empty trash request](#plex-autoscan-log-shows-error-during-empty-trash-request)
 	- [Plex Autoscan error with metadata item id](#plex-autoscan-error-with-metadata-item-id)
 	- [Purpose of a Control File in Plex Autoscan](#purpose-of-a-control-file-in-plex-autoscan)
-	- [Temporary fix for Radarr not working with Plex Autoscan](#temporary-fix-for-radarr-not-working-with-plex-autoscan)
 - [UnionFS Cleaner](#unionfs-cleaner)
 - [Sonarr and Radarr](#sonarr-and-radarr)
 	- [If you are importing your previous Sonarr and Radarr database..](#if-you-are-importing-your-previous-sonarr-and-radarr-database)
@@ -892,42 +891,6 @@ If your Google Drive ever disconnected during a Plex scan of your media, Plex wo
 Once Google Drive is remounted, all the files marked unavailable in Plex will be playable again and Plex Autoscan will resume its emptying trash duties post-scan.
 
 To learn more about Plex Autoscan, see https://github.com/l3uddz/plex_autoscan.
-
-
-
-
-## Temporary fix for Radarr not working with Plex Autoscan
-
-Update: This has been fixed in newer versions of Radarr and Plex Autoscan. To update them, see [[Updating Cloudbox Apps]].
-
-
-~~Currently, Radarr broke the webhook feature that allows Plex Autoscan to work properly. We've created a workaround to get it working until Radarr fixes it.~~
-
-~~1. First, we will temporarily disable the Plex Autoscan connection: Radarr -> Settings -> Connect -> Plex Autoscan -> set all options to `No` -> click "Save".~~   
-
-~~1. Create a new custom script: '+' -> Custom Script.~~
-
-~~1. Add the following:~~
-
-  ~~1. Name: Plex Autoscan fix~~
-
-  ~~1. On Grab: `No`~~
-
-  ~~1. On Download: `Yes`~~
-
-  ~~1. On Upgrade:  `Yes`~~
-
-  ~~1. On Rename:`No`~~
-
-  ~~1. Path: `/scripts/plex_autoscan/radarr2autoscan.sh`~~
-
-
-~~1. The settings will look like this:~~
-
-~~https://i.imgur.com/KZOu3zD.png~~
-
-~~1. Click "Save".~~
-
 
 
 
