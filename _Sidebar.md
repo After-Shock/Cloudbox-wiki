@@ -50,7 +50,7 @@
 - [[Useful Docker Commands]]
 - [[Migrating Cloudbox]]
 - [[Revoking SSL Certificates]]
-
+- [[Plex Token]]
 
 
 ## Extras ##
