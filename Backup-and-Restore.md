@@ -17,7 +17,7 @@
 
 Backup and Restore is an integral part of Cloudbox, this is what makes it so great! Everything related to installed applications is backed-up. 
 
-_Note: Torrent Seeding content, anything in `/mnt/local/`, `/home/<user>/`, or anywhere else other than the `/opt/` folder, is **NOT** backed up. Media files should have been uploaded to Google Drive via [[UnionFS Cleaner]], anyway._
+_Note: Torrent Seeding content, anything in `/mnt/`, `/home/`, or anywhere else other than the `/opt/` folder, does **NOT** get backed up (media files are moved to Google Drive via [[UnionFS Cleaner]], anyway)._
 
 **Cloudbox Backup** creates a backup .tar file of the entire `/opt` folder, which includes all settings and configuration files for the Docker apps installed with Cloudbox, and uploads it to your Google Drive or Rsync remote. Backup can be ran manually for an immediate backup or scheduled to run periodically.
 
