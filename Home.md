@@ -35,6 +35,8 @@ _Last updated: Mar 24, 2018._
 - [[Customizing Plex Libraries]]
 
 ## More Information ##
+- [[Plex Token]]
+- [[Plex Library Section IDs]]
 - [[UnionFS Cleaner]]
 - [[Cloudbox Tools]] (work in progress)
 - [[Backup and Restore]]
