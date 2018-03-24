@@ -15,7 +15,6 @@
 	- [Why does Cloudbox not support encryption data on Google Drive?](#why-does-cloudbox-not-support-encryption-data-on-google-drive)
 	- [Does Cloudbox support any other cloud storage provider other than Google Drive?](#does-cloudbox-support-any-other-cloud-storage-provider-other-than-google-drive)
 - [Cloudbox Installer](#cloudbox-installer)
-	- [What are the server tweaks that were mentioned on the README.md page?](#what-are-the-server-tweaks-that-were-mentioned-on-the-readmemd-page)
 	- [If you cloned the script as USER1 but installed as USER2](#if-you-cloned-the-script-as-user1-but-installed-as-user2)
 	- [Unrar module fails to install during the Common Role step](#unrar-module-fails-to-install-during-the-common-role-step)
 	- [Misc SSL Errors During Install](##misc-ssl-errors-during-install)
@@ -305,13 +304,6 @@ Note: You may be able to modify Cloudbox to use another cloud storage provider (
 
 
 # Cloudbox Installer
-
-
-
-## What are the server tweaks that were mentioned on the README.md page?
-
-See https://github.com/Cloudbox/Cloudbox/blob/master/roles/system/tasks/main.yml
-
 
 
 ## If you cloned the script as USER1 but installed as USER2
