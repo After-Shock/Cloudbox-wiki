@@ -3,8 +3,9 @@ Plex Autoscan comes preset with a default configuration as related to Cloudbox. 
 _Note: If you would like to learn more about what Plex Autoscan does and all the options available, see https://github.com/l3uddz/plex_autoscan._
 
 
-## 1. Retrieve a Plex Access Token
+## 1. Obtain a Plex Access Token
 
+ - See the [[Plex Token]] page.
 
 ## 2. Add the Plex Access Token into Plex Autoscan
 
