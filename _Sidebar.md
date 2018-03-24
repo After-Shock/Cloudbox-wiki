@@ -56,9 +56,9 @@
 ## Extras ##
 - [[Adding a Subdomain | Extras: Adding a Subdomain]]
 - [[Nextcloud | Extras: Nextcloud]]
+- [[Resilio Sync | Extras: Resilio Sync]]
 
 #### Work in Progress: ####
-- [[Resilio Sync | Extras: Resilio Sync]]
 - [[Ombi | Extras: Ombi]]
 - [[Emby | Extras: Emby]]
 
