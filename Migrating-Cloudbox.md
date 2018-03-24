@@ -13,11 +13,6 @@ Listed below are some scenarios and steps to follow for them.
 
 1. Point the DNS to your new server. 
 
-1. Delete the previous SSL certificate files: 
-   
-   ```
-   rm -rf /opt/nginx-proxy
-   ```
 
 1. Run the Cloudbox [[Installer| First Time Install: Installing Cloudbox]].
 
