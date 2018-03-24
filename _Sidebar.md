@@ -51,7 +51,7 @@
 - [[Migrating Cloudbox]]
 - [[Revoking SSL Certificates]]
 - [[Plex Token]]
-- [[Plex Section IDs]]
+- [[Plex Library Section IDs]]
 
 ## Extras ##
 - [[Adding a Subdomain | Extras: Adding a Subdomain]]
