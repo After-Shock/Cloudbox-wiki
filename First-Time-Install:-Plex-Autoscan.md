@@ -1,4 +1,4 @@
-Plex Autoscan (by [l3uddz](https://github.com/l3uddz/plex_autoscan/) is a script to assist that updates Plex libraries with Sonarr and Radarr imports, by only scanning the folder that has been imported, instead of the entire library section, thereby avoiding Google API bans. 
+Plex Autoscan (by [l3uddz](https://github.com/l3uddz/plex_autoscan/)) is a script to assist that updates Plex libraries with Sonarr and Radarr imports, by only scanning the folder that has been imported, instead of the entire library section, thereby avoiding Google API bans. 
 
 Plex Autoscan comes configured out of the box (as related to Cloudbox). However, there a few things that need to be set by you. 
 
