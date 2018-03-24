@@ -50,16 +50,6 @@ _Note: If you wish to move your Cloudbox to another server, see [[Migrating Clou
 | Rclone config             | `~/cloudbox/rclone.conf`  | `/opt/rclone/rclone.conf`| 
 
 
-<br />
-
-
-Things that are not backed-up:
-* home folder (i.e. `~/` or `/home/`)
-* ruTorrent downloads folder (i.e. all your seeding content).
-* NZBGet downloads folder (i.e. content that has not been moved by Sonarr/Radarr).
-
-<br />
-
 # Backup
 
 ## Manual Backup
