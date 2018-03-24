@@ -48,7 +48,7 @@ If during the first time setup of CB, you switched the order of Plex libraries (
  - See the [[Plex Token]] page.
 
 
-### 4. Modify Plex Dupefinder config
+#### 2. Modify Plex Dupefinder config
 
 _Note: If you have a separate Plex and Feeder setup, this will be done on the server where Plex is installed._
 
@@ -58,6 +58,11 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
     nano /opt/plex_dupefinder/config.json
     ```
 
+
+
+
+ ---
+## Ignore below ##
 
 1. Scroll down to the `PLEX_SECTION_PATH_MAPPINGS` section.
 
