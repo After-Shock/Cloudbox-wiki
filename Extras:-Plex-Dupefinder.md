@@ -16,31 +16,66 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
   sudo ansible-playbook cloudbox.yml --tags install-plex_dupefinder
   ```
 
-## 2. Add a Plex Token
+## 2. Plex Dupefinder Config
 
-### 1. Obtain a Plex Access Token
+### 1. Editing config.json
 
- - See [[Plex Token]].
+- Run the following command: 
 
-### 2. Add the Plex Access Token into Plex Dupefinder config
+   ```bash
+   nano /opt/plex_dupefinder/config.json
+   ```
+
+ - Note: Make sure all edits are within quotes (`"`) and there is a comma (`,`) after it (all except the last one).
 
 
-   1. On the server's shell, run the following command:
+### 2. Set Autodelete option
 
-      ```
-      nano /opt/plex_dupefinder/config.json
-      ```
+- Under `"AUTO_DELETE"`, set your desired option.
 
-   1. Add the Plex Access Token to `"PLEX_TOKEN":` so that it now appears as `"PLEX_TOKEN": "xxxxxxxxxxxxxx",`.
+  -  `"AUTO_DELETE": false,` - Default. Plex Dupefinder will give you a prompt 
+
+### 2. Add Plex Libraries
+
+1. Get all the names of your Plex Libraries you want to search de-dupe. 
+
+   ![](https://i.imgur.com/JFRTD1m.png)
+
+1. Under `"PLEX_SECTIONS"`, type in your library names and specify `1` for movies or `2` for TV shows. 
+
+   - For basic libraries, it will look like this: 
+
+     ```json
+     "PLEX_SECTIONS": {
+       "Movies": 1,
+       "TV": 2
+     },
+     ```
+
+   - For more advanced libraries (e.g. [[Customizing Plex Libraries]]), it will look like this: 
+
+     ```json
+     "PLEX_SECTIONS": {
+        "3D": 1,
+        "4K": 1,
+        "Foreign": 1,
+        "Hollywood": 1,
+        "Kids": 1,
+        "TV": 2
+     },
+     ```
+
+### 3. Add Plex Token
+
+1. Obtain a Plex Access Token: See [[Plex Token]].
+
+2. Add the Plex Access Token to `"PLEX_TOKEN"` so that it now appears as `"PLEX_TOKEN": "xxxxxxxxxxxxxx",`.
 
       - Note: Make sure it is within the quotes (`"`) and there is a comma (`,`) after it.
 
-   1. `Ctrl-x`, `y`, and `enter` to save.
 
 
-## 2. Configure Plex Sections
 
-If during the first time setup of CB, you switched the order of Plex libraries (i.e TV first then Movies) or you added multiple libraries into Plex, after, you will need to get the Plex section IDs and replace them in the Plex Dupefinder config.
 
 
 #### 1. Retrieve Plex Section IDs and Library Names
@@ -57,12 +92,6 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
     ```
     nano /opt/plex_dupefinder/config.json
     ```
-
-
-
-
- ---
-## Ignore below ##
 
 1. Scroll down to the `PLEX_SECTION_PATH_MAPPINGS` section.
 
