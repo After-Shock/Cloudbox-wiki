@@ -43,15 +43,15 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
 
       - Keep just one: `ID of item to keep`
 
-      ```
-      Initialized
-      Finding dupes...
-      Found 58 dupes for section 'Movies'
-      Which media item do you wish to keep for b'Silverado'
-      	ID: 23523 - Score: 142244 - INFO: {'id': 23523, 'video_codec': 'h264', 'score': 142244, 'file': [b'/data/Movies/Movies/Silverado (1985)/Silverado.1985.1080p.BluRay.x264-BLADE.mkv'], 'audio_channels': 6, 'video_duration': 61381, 'video_resolution': '1080', 'show_key': '/library/metadata/22256', 'video_width': 1920, 'video_bitrate': 15274, 'video_height': 800, 'audio_codec': 'ac3', 'multipart': False, 'file_size': 117189341}
-      	ID: 271700 - Score: 9417944 - INFO: {'id': 271700, 'video_codec': 'h264', 'score': 9417944, 'file': [b'/data/Movies/Movies/Silverado (1985)/Silverado.1985.1080p.BluRay.x264-CINEFILE.mkv'], 'audio_channels': 6, 'video_duration': 7956960, 'video_resolution': '1080', 'show_key': '/library/metadata/22256', 'video_width': 1920, 'video_bitrate': 9442, 'video_height': 800, 'audio_codec': 'ac3', 'multipart': False, 'file_size': 9390825514}
-      Enter ID of item to keep (0 = skip):
-      ```
+    ```
+    Initialized
+    Finding dupes...
+    Found 58 dupes for section 'Movies'
+    Which media item do you wish to keep for b'Silverado'
+    	ID: 23523 - Score: 142244 - INFO: {'id': 23523, 'video_codec': 'h264', 'score': 142244, 'file': [b'/data/Movies/Movies/Silverado (1985)/Silverado.1985.1080p.BluRay.x264-BLADE.mkv'], 'audio_channels': 6, 'video_duration': 61381, 'video_resolution': '1080', 'show_key': '/library/metadata/22256', 'video_width': 1920, 'video_bitrate': 15274, 'video_height': 800, 'audio_codec': 'ac3', 'multipart': False, 'file_size': 117189341}
+    	ID: 271700 - Score: 9417944 - INFO: {'id': 271700, 'video_codec': 'h264', 'score': 9417944, 'file': [b'/data/Movies/Movies/Silverado (1985)/Silverado.1985.1080p.BluRay.x264-CINEFILE.mkv'], 'audio_channels': 6, 'video_duration': 7956960, 'video_resolution': '1080', 'show_key': '/library/metadata/22256', 'video_width': 1920, 'video_bitrate': 9442, 'video_height': 800, 'audio_codec': 'ac3', 'multipart': False, 'file_size': 9390825514}
+    Enter ID of item to keep (0 = skip):
+    ```
 
 
 ### 2. Add Plex Libraries
