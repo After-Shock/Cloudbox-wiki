@@ -23,7 +23,7 @@ Listed below are some scenarios and steps to follow for them.
 
 1. Create a [backup](Backup-and-Restore#manual-backup) of your Cloudbox server. 
 
-1. [[Revoke|Revoking SSL Certificates]] your domain's SSL keys.<sup name="a1">[\[1\]](#f1) </sup>
+1. [[Revoke|Revoking SSL Certificates]] your domain's SSL certificates.<sup name="a1">[\[1\]](#f1) </sup>
 
 1. [Restore](Backup-and-Restore#restore) Cloudbox to the new server (skip step #7). 
 
@@ -46,7 +46,7 @@ Listed below are some scenarios and steps to follow for them.
 
 1. Create a [backup](Backup-and-Restore#manual-backup) of your current Cloudbox server. 
 
-1. [[Revoke|Revoking SSL Certificates]] your domain's SSL keys.<sup name="a1">[\[1\]](#f1) </sup>
+1. [[Revoke|Revoking SSL Certificates]] your domain's SSL certificates.<sup name="a1">[\[1\]](#f1) </sup>
 
 1. [Restore](Backup-and-Restore#restore) Cloudbox to the new server (skip step #7). 
 
@@ -72,7 +72,7 @@ Listed below are some scenarios and steps to follow for them.
 
 1. Create a [backup](Backup-and-Restore#manual-backup) of your current Cloudbox server (Optional, but recommended). 
 
-1. [[Revoke|Revoking SSL Certificates]] your domain's SSL keys.<sup name="a1">[\[1\]](#f1) </sup>
+1. [[Revoke|Revoking SSL Certificates]] your domain's SSL certificates.<sup name="a1">[\[1\]](#f1) </sup>
 
 1. Register your new domain name (if you haven't already) and point the DNS to your server. 
 
