@@ -44,7 +44,7 @@
 
 # How does Cloudbox function ?
 
-`[Plexdrive](https://github.com/dweidenfeld/plexdrive)` will mount your Google Drive on to the server. 
+[Plexdrive](https://github.com/dweidenfeld/plexdrive) will mount your Google Drive on to the server. 
 
 `UnionFS` will merge thus mounted Google Drive folder with a local folder, and this will be accessible by the media server application (e.g. Plex). 
 
