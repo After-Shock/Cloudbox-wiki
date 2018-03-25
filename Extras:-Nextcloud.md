@@ -6,7 +6,7 @@ Nextcloud is a free, open-source, self-hosted file sharing solution, that functi
 
 ## 2. First Time Setup
 
-### 1. Add a Subdomain for Nextcloud
+### 1. Add Subdomain for Nextcloud
 
  - See [[Adding a Subdomain | Extras: Adding a Subdomain]] on how to add the subdomain `nextcloud` to your DNS provider.
 
