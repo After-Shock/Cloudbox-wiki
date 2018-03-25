@@ -34,5 +34,5 @@ Rclone is used by [[UnionFS Cleaner]] and [[Backup|Backup-and-Restore]] to uploa
 
 1. Rename the Google Drive remote to what you have specified in [[settings.yml|First Time Install: Configuring Settings]] (default is `google` in lowercase). 
 
-1. Copy this file into `/opt/rclone/`.
+1. Copy this file into `~/.config/rclone/`.
 
