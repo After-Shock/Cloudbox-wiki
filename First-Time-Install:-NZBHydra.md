@@ -19,7 +19,7 @@ _Note: By default, Cloudbox will install NZBHydra1. Once NZBHydra2 is out of bet
 
 <pre>
 Personally, I add all my indexers in to NZBHydra but I don't connect it with 
-Sonarr or Radarr. Instead, I add all my indexers again into Sonarr and Radarr, as 
+Sonarr or Radarr. Instead, I add all my indexers into Sonarr and Radarr, as 
 well, and use NZBHydra as a separate tool to see what's available online and, if 
 need be, to send it directly to NZBGet.
 </pre>
