@@ -114,7 +114,7 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
 
 ## 2. Run Plex Dupefinder
 
-- Simply run the following command, anywhere: 
+- Simply run the following command: 
 
   ```
   plexdupes
