@@ -35,7 +35,7 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
 
   - `"AUTO_DELETE": true,`  - Plex Dupefinder will run in automatic mode.
 
-  - `"AUTO_DELETE": false,` - Default. Plex Dupefinder will run in interactive mode.
+  - `"AUTO_DELETE": false,` -  Plex Dupefinder will run in interactive mode. (Default)
 
     - Options: 
 
