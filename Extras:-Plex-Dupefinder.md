@@ -18,7 +18,7 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
 
 ## 2. Plex Dupefinder Config
 
-### 1. Editing config.json
+### 1. Edit config.json
 
 - Run the following command: 
 
@@ -29,7 +29,7 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
  - Note: Make sure all edits are within quotes (`"`) and there is a comma (`,`) after it (all except the last one).
 
 
-### 2. Set Autodelete option
+### 2. Auto Delete
 
 - Under `AUTO_DELETE`, set your desired option.
 
@@ -54,7 +54,7 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
     ```
 
 
-### 2. Add Plex Libraries
+### 2. Plex Libraries
 
 1. Get all the names of your Plex Libraries you want to search de-dupe. 
 
@@ -86,7 +86,7 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
      },
      ```
 
-### 3. Add Plex Token
+### 3. Plex Token
 
 1. Obtain a Plex Access Token: See [[Plex Token]].
 
@@ -94,11 +94,11 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
 
       - Note: Make sure it is within the quotes (`"`) and there is a comma (`,`) after it.
 
-### 4. Set Scoring (optional)
+### 4. Scoring (Optional)
 
 - You can set `CODEC_SCORES` to your preference.
 
-### 5. Skip List (optional)
+### 5. Skip List (Optional)
 
 - You can use `SKIP_LIST` to skip certain paths. 
 
@@ -108,11 +108,11 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
   "SKIP_LIST": ["/4K-Movies/"]
   ```
 
-### 6. Saving config.json
+### 6. Save config.json
 
 - `Ctrl-x`, `y`, and `enter` to save.
 
-## 2. Running Plex Dupefinder
+## 2. Run Plex Dupefinder
 
 - Simply run the following command, anywhere: 
 
