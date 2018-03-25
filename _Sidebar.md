@@ -58,7 +58,7 @@
 - [[Adding a Subdomain | Extras: Adding a Subdomain]]
 - [[Nextcloud | Extras: Nextcloud]]
 - [[Resilio Sync | Extras: Resilio Sync]]
-- [[Plex Dupefinder | Extras: Plex Dupefinder]]
+- [[Plex Dupefinder | Extras: Plex Dupefinder]] (develop branch)
 
 
 #### Work in Progress: ####
