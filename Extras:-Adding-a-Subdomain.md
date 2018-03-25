@@ -1,5 +1,5 @@
 
-# Cloudflare:
+# Cloudflare
 
 If you are using CloudFlare as your domain's DNS provider, you will need to add the subdomain to your domain profile via their [[website|https://cloudflare.com]]. 
 
