@@ -46,7 +46,7 @@
 
 [Plexdrive](https://github.com/dweidenfeld/plexdrive) will mount your Google Drive on to the server. 
 
-UnionFS will merge thus mounted Google Drive folder with a local folder, and this will be accessible by the media server application (e.g. Plex). 
+UnionFS will merge the mounted Google Drive folder with your server's local folder, and this will be accessible by the media server application (e.g. Plex). 
 
 [Sonarr](https://sonarr.tv/) will download your favorite TV Shows. [Radarr](https://radarr.video/) will download favorite movies. Both do this by utilizing either Usenet (via [NZBGet](https://nzbget.net/)) and/or Torrents (via [ruTorrent](https://github.com/Novik/ruTorrent)).<sup name="a1">[\[1\]](#f1) </sup><sup name="a2">[\[2\]](#f2)</sup> 
 
