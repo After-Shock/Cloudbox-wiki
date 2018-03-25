@@ -1,6 +1,6 @@
 # What is Cloudbox?
 
-- Cloudbox is an [Ansible](https://www.ansible.com/how-ansible-works) playbook based project that automates the deployment of a [docker](https://www.docker.com/what-container)-based cloud media server stack. Primary functions are: the automatic acquisition of media, storing that media on the cloud, and the ability to play your media from anywhere. 
+- [Cloudbox](https://www.cloudbox.rocks) is an [Ansible](https://www.ansible.com/how-ansible-works) playbook based project that automates the deployment of a [docker](https://www.docker.com/what-container)-based cloud media server stack. Primary functions are: the automatic acquisition of media, storing that media on the cloud, and the ability to play your media from anywhere. 
 
 
 # Why use Cloudbox? 
