@@ -108,7 +108,14 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
   "SKIP_LIST": ["/4K-Movies/"]
   ```
 
-
 ### 6. Saving config.json
 
 - `Ctrl-x`, `y`, and `enter` to save.
+
+## 2. Running Plex Dupefinder
+
+- Simply run the following command, anywhere: 
+
+  ```
+  plexdupes
+  ```
