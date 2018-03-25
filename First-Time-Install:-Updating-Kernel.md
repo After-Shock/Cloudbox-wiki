@@ -8,7 +8,7 @@ _Note: You'll need to update the kernel a different way if you are using: [[Scal
 
 ---
 
-## To update the kernel via Cloudbox:
+## Update Kernel via Cloudbox:
 
 1. Run the following command:
 
@@ -31,7 +31,7 @@ _Note: You'll need to update the kernel a different way if you are using: [[Scal
 
 ---
 
-## To update the kernel manually:
+## Update Kernel Manually:
 
 
 1. Run the following command:
