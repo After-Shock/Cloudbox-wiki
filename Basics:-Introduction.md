@@ -57,6 +57,7 @@ Sonarr / Radarr will move these downloads to your server's `/mnt/local/Media/` f
 [UnionFS Cleaner](https://github.com/l3uddz/unionfs_cleaner/) will eventually move the local media, that was downloaded by Sonarr / Radarr, to Google Drive, under a folder called `/Media`. The media will still be accessible by Plex via UnionFS/Plexdrive. 
 
 
+Crude drawing:
 
 ![](http://i.imgur.com/xVR28pn.png)
 
