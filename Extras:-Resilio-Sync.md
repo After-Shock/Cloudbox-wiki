@@ -7,7 +7,7 @@
 
 ## 2. First Time Setup
 
-### 1. Add a Subdomain for Resilio Sync
+### 1. Add Subdomain for Resilio Sync
 
  - See [[Adding a Subdomain | Extras: Adding a Subdomain]] on how to add the subdomain `resilio` to your DNS provider.
 
