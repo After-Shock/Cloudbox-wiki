@@ -353,7 +353,7 @@ sudo easy_install pyOpenSSL
 
 ```
 
-Rerun the [Install Prerequisites](First Time Install: Downloading Cloudbox#2-install-prerequisites) command and retry Cloudbox Install..
+Rerun the [Install Dependencies](First-Time-Install%3A-Downloading-Cloudbox#1-install-dependencies) command and retry Cloudbox Install..
 
 
 ## Error while fetching server API version
