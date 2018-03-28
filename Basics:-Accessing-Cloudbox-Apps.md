@@ -20,7 +20,9 @@ Cloudbox apps will be accessed via appname._yourdomain.com_ (see table below).
 \* Use http://_youripaddress_:33400 if that does not work. 
 
 
-_Note: After the initial setup, it will take a a while for the SSL certificates to propagate. A side effect of this will be that certain domains were redirect to other apps (e.g. sonarr.yourdomain.com -> nzbget.yourdomain.com). Just give it a bit of time and this will correct itself. If you are still having issues, see the [[FAQ|FAQ#nginx-proxy]]._
+_Note 1: After the initial setup, it will take a a while for the SSL certificates to propagate. A side effect of this will be that certain domains were redirect to other apps (e.g. sonarr.yourdomain.com -> nzbget.yourdomain.com). Just give it a bit of time and this will correct itself._
+
+_Note 2: If pages don't load at all, make sure you did everything in the [[prerequisites | Basics: Prerequisites]] page (e.g. domain / DNS setup) and also checkout the [[FAQ|FAQ#nginx-proxy]]._
 
 ## Additional Apps
 
