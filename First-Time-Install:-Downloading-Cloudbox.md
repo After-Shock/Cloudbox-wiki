@@ -13,7 +13,7 @@ curl -s https://raw.githubusercontent.com/Cloudbox/Cloudbox/develop/roles/script
 or
 
 ```bash
-wget -qO- -https://raw.githubusercontent.com/Cloudbox/Cloudbox/develop/roles/scripts/files/install_dependencies.sh  | bash
+wget -qO- -https://raw.githubusercontent.com/Cloudbox/Cloudbox/develop/roles/scripts/files/install_dependencies.sh | bash
 ```
 
 
