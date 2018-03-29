@@ -3,7 +3,8 @@
 
 ## 1. Install Dependencies  ####
 
-Run the following command:
+
+### Latest Commands
 
 ```bash
 curl -s https://raw.githubusercontent.com/Cloudbox/Cloudbox/develop/roles/scripts/files/install_dependencies.sh | sudo sh
@@ -14,6 +15,17 @@ or
 
 ```bash
 wget -qO- https://raw.githubusercontent.com/Cloudbox/Cloudbox/develop/roles/scripts/files/install_dependencies.sh | sudo sh
+```
+
+### Previous Commands (one line by line)
+
+```bash
+sudo apt-get update
+sudo apt-get install -y git python-pip python3-pip python-setuptools python3-setuptools
+sudo easy_install -U pip
+sudo easy_install3 -U pip
+sudo python -m pip install ansible==2.3.1.0 requests
+sudo python3 -m pip install requests
 ```
 
 
