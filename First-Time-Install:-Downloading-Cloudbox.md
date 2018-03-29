@@ -17,7 +17,7 @@ curl -s https://raw.githubusercontent.com/Cloudbox/Cloudbox/develop/roles/script
 wget -qO- https://raw.githubusercontent.com/Cloudbox/Cloudbox/develop/roles/scripts/files/install_dependencies.sh | sudo sh
 ```
 
-### Previous Commands (one line by line)
+### Previous Commands (run them line-by-line)
 
 ```bash
 sudo apt-get update
