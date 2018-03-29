@@ -67,7 +67,7 @@
 
 1. Set the following:
    - "Empty trash automatically after every scan": `disabled`
-   - "Allow media deletion": `disabled`
+   - "Allow media deletion": `enabled`
    - "Generate video preview thumbnails": `never`
    - "Generate chapter thumbnails": `never`
 
