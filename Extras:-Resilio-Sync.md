@@ -64,7 +64,7 @@
 
 1. On the next screen, click `mounted_folders` to expand it 
 
-   _Note: Do not use `sync` as this folder will only be used to save config files._
+   _Note: Do not use the `sync` folder (`/mnt/sync/` path) as this folder will only be used to save config files._
 
    ![](https://i.imgur.com/FUI8hA8.png)
 
