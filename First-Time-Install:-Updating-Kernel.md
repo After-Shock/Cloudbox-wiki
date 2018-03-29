@@ -37,7 +37,7 @@ _Note: You'll need to update the kernel a different way if you are using: [[Scal
 1. Run the following command:
 
     ```bash
-    sudo apt install linux-generic-hwe-16.04
+    sudo apt-get upgrade linux-generic-hwe-16.04
     ```
    
    _Note: This may take a while to complete._
