@@ -112,7 +112,19 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
 
 - `Ctrl-x`, `y`, and `enter` to save.
 
-## 2. Run Plex Dupefinder
+## 3. Set "Allow media deletion" in Plex
+
+1. Click the Settings icon (top right) -> "Server" (top) -> "Library" (left).
+
+1. Set the following:
+   - "Allow media deletion": `enabled`
+
+1. Click "SAVE CHANGES".
+
+    ![](http://i.imgur.com/D82n8vh.png)
+
+
+## 3. Run Plex Dupefinder
 
 - Simply run the following command: 
 
