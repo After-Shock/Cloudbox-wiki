@@ -181,7 +181,14 @@ _Note: For Feederbox/Plexbox setups, you can install this in either._
   "SKIP_LIST": ["/4K-Movies/"]
   ```
 
-### 9. Save config.json
+### 9. Filesize Scoring (Optional)
+
+- `"SCORE_FILESIZE": true` will add more points to the overall core based on how large the file actually is. ]
+
+-  Note: In some situations (i.e. a bad encode with a large size), this may be something you want to turn it off (`false`). However, the default settings (i.e. `true`) should be sufficient for most. 
+
+
+### 10. Save config.json
 
 - `Ctrl-x`, `y`, and `enter` to save.
 
