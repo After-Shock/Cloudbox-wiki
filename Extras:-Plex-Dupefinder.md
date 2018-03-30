@@ -5,7 +5,7 @@ _Note: For Feederbox/Plexbox setups, you can install this in either._
 
 The scoring is based on: non-configurable and configurable parameters.
 
-  - Non-configurable parameters are: _bitrate_, _duration_, _resolution_ (i.e. `height` + `width`), and _audio channel_, 
+  - Non-configurable parameters are: _bitrate_, _duration_, _resolution_ (i.e. _height_ + _width_), and _audio channel_, 
 
   - Configurable parameters are: _codec scores_, _filename scores_, and _file size_ (can only toggle on or off).
 
