@@ -118,7 +118,7 @@ _Note: For Feederbox/Plexbox setups, you can install this in either._
 
 ### 5. Plex Library Sections
 
-1. Go to Plex and get all the names of your Plex Libraries you want to search de-dupe. 
+1. Go to Plex and get all the names of your Plex Libraries you want to find duplicates in.
 
    - Example Library:
    
@@ -126,7 +126,16 @@ _Note: For Feederbox/Plexbox setups, you can install this in either._
 
 1. Under `PLEX_SECTIONS`, type in your library names and specify `1` for movies or `2` for TV shows. 
 
-   - For basic libraries, it will look like this: 
+   - Format: 
+
+     ```json
+     "PLEX_SECTIONS": {
+       "LIBRARY_NAME_1": #,
+       "LIBRARY_NAME_2": #
+     },
+     ```
+
+   - For basic libraries, this will look like: 
 
      ```json
      "PLEX_SECTIONS": {
@@ -135,7 +144,7 @@ _Note: For Feederbox/Plexbox setups, you can install this in either._
      },
      ```
 
-   - For more advanced libraries (e.g. [[Customizing Plex Libraries]]), it will look like this: 
+   - For more advanced libraries (e.g. [[Customizing Plex Libraries]]), this will look like: 
 
      ```json
      "PLEX_SECTIONS": {
