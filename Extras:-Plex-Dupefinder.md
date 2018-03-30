@@ -29,7 +29,7 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
  - Note: Make sure all edits are within quotes (`"`) and there is a comma (`,`) after it (all except the last one).
 
 
-### 2. Auto Delete
+### 2. AUTO_DELETE
 
 - Under `AUTO_DELETE`, set your desired option.
 
@@ -54,7 +54,7 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
     ```
 
 
-### 2. Plex Libraries
+### 3. PLEX_SECTIONS
 
 1. Get all the names of your Plex Libraries you want to search de-dupe. 
 
@@ -86,7 +86,7 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
      },
      ```
 
-### 3. Plex Token
+### 4. PLEX_TOKEN
 
 1. Obtain a Plex Access Token: See [[Plex Token]].
 
