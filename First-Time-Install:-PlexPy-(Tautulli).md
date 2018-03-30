@@ -55,7 +55,7 @@
 
 1. Click "Plex Media Server" on the left. Click "Show Advanced" at the top. Under "Logs Folder", type in `/logs`. Now you can click `Save`.
 
-    ![](https://i.imgur.com/Z1Vfi8U.png)
+    ![](https://i.imgur.com/FwBlxyn.png)
 
 1. On the "Restart" popup window, click `Restart`.
 
