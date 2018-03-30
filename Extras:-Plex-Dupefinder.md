@@ -148,9 +148,9 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
      },
      ```
 
-### 6. Plex Server URL (pre-filled)
+### 6. Plex Server URL
 
-- Will be pre-filled with your Plex server's URL. 
+- Pre-filled with your Plex server's URL. 
 
 ### 7. Plex Token
 
