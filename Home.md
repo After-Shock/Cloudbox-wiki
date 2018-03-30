@@ -53,13 +53,13 @@ _Last updated: Mar 30, 2018._
 - [[Adding a Subdomain | Extras: Adding a Subdomain]] (required for most containers). 
 - [[Nextcloud | Extras: Nextcloud]]
 - [[Resilio Sync | Extras: Resilio Sync]]
-- [[Plex Dupefinder | Extras: Plex Dupefinder]] (develop branch)
+- [[Plex Dupefinder | Extras: Plex Dupefinder]] (`develop` branch)
 
 
 #### Docs: Work in Progress ####
 - Ombi
 - Emby
-- Radarr4K
+- Radarr4K (`develop` branch)
 
 ## Misc Guides ##
 - [[Nativefier]] (Create desktop apps for Cloudbox)
