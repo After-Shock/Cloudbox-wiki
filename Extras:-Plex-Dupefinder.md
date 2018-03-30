@@ -9,7 +9,7 @@ The scoring is based on: non-configurable and configurable parameters.
 
   - Configurable parameters are: _codec scores_, _filename scores_, and _file size_ (can only toggle on or off).
 
-  - Note: _bitrate_, _duration_, _resolution_, _audio channel_, _codec scores_, and _file size_ are 
+  - Note: _bitrate_, _duration_, _resolution_, _audio channel_, _codec scores_, and _file size_ are taken from the metadata Plex was able to find.
 
 ---
 
