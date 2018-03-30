@@ -61,9 +61,10 @@
 - [[Plex Dupefinder | Extras: Plex Dupefinder]] (develop branch)
 
 
-#### Work in Progress: ####
-- [[Ombi | Extras: Ombi]]
-- [[Emby | Extras: Emby]]
+#### Docs: Work in Progress ####
+- Ombi
+- Emby
+- Radarr4K
 
 ## Misc Guides ##
 - [[Nativefier]]
