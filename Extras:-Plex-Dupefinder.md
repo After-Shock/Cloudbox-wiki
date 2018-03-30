@@ -78,7 +78,7 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
  - Note: Make sure all edits are within quotes (`"`) and there is a comma (`,`) after it (all except the last one).
 
 
-### 2. AUTO_DELETE
+### 2. Auto Delete
 
 - Under `AUTO_DELETE`, set your desired option.
 
@@ -102,8 +102,12 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
     Enter ID of item to keep (0 = skip):
     ```
 
+### 3. Codec Scoring (Optional)
 
-### 3. PLEX_SECTIONS
+- You can set `CODEC_SCORES` to your preference. However, default settings should be sufficient in most cases. 
+
+
+### 4. Plex Library Sections
 
 1. Get all the names of your Plex Libraries you want to search de-dupe. 
 
@@ -135,7 +139,7 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
      },
      ```
 
-### 4. PLEX_TOKEN
+### 5. Plex Token
 
 1. Obtain a Plex Access Token: See [[Plex Token]].
 
@@ -143,11 +147,9 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
 
       - Note: Make sure it is within the quotes (`"`) and there is a comma (`,`) after it.
 
-### 4. Scoring (Optional)
 
-- You can set `CODEC_SCORES` to your preference.
 
-### 5. Skip List (Optional)
+### 6. Skip List (Optional)
 
 - You can use `SKIP_LIST` to skip certain paths. 
 
