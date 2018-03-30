@@ -118,7 +118,7 @@ _Note: For Feederbox/Plexbox setups, you can install this in either._
 
 ### 5. Plex Library Sections
 
-1. Get all the names of your Plex Libraries you want to search de-dupe. 
+1. Go to Plex and get all the names of your Plex Libraries you want to search de-dupe. 
 
    - Example Library:
    
@@ -178,7 +178,7 @@ _Note: For Feederbox/Plexbox setups, you can install this in either._
 
 ## 3. Set "Allow media deletion" in Plex
 
-1. Click the Settings icon (top right) -> "Server" (top) -> "Library" (left).
+1. In Plex, click the Settings icon (top right) -> "Server" (top) -> "Library" (left).
 
 1. Set the following:
    - "Allow media deletion": `enabled`
