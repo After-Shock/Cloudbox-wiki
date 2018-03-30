@@ -7,6 +7,7 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
 
 # First Time Setup
 
+
 ## 1. Install Plex Dupefinder
 
 - Run the following commands: 
@@ -17,6 +18,54 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
   ```
 
 ## 2. Plex Dupefinder Config
+
+### Sample
+
+```json
+{
+  "AUTO_DELETE": false,
+  "CODEC_SCORES": {
+    "Unknown": 0,
+    "aac": 1000,
+    "ac3": 1000,
+    "dca": 2000,
+    "dca-ma": 4000,
+    "eac3": 1250,
+    "flac": 2500,
+    "mp2": 500,
+    "mp3": 1000,
+    "pcm": 2500,
+    "truehd": 4500,
+    "wmapro": 200
+  },
+  "FILENAME_SCORES": {
+    "*Remux*": 20000,
+    "*1080p*BluRay*": 15000,
+    "*720p*BluRay*": 10000,
+    "*WEB*NTB*": 5000,
+    "*WEB*VISUM*": 5000,
+    "*WEB*KINGS*": 5000,
+    "*WEB*CasStudio*": 5000,
+    "*WEB*SiGMA*": 5000,
+    "*WEB*QOQ*": 5000,
+    "*WEB*TROLLHD*": 2500,
+    "*WEB*TBS*": -1000,
+    "*HDTV*": -1000,
+    "*dvd*": -1000,
+    "*.avi": -1000,
+    "*.ts": -1000,
+    "*.vob": -5000
+  },
+  "PLEX_SECTIONS": {
+    "Movies": 1,
+    "TV": 2
+  },
+  "PLEX_SERVER": "https://plex.domain.com",
+  "PLEX_TOKEN": "",
+  "SKIP_LIST": [],
+  "SCORE_FILESIZE": true
+}
+```
 
 ### 1. Edit config.json
 
