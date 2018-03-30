@@ -128,7 +128,7 @@ _Note: For Feederbox/Plexbox setups, you can install this in either._
 
    - Format: 
 
-     ```json
+     ```
      "PLEX_SECTIONS": {
        "LIBRARY_NAME_1": #,
        "LIBRARY_NAME_2": #
