@@ -1,6 +1,10 @@
 [Plex Dupefinder](https://github.com/l3uddz/plex_dupefinder/) (by [l3uddz](https://github.com/l3uddz/)) is a script that finds duplicate versions of media (TV episodes and movies) in your Plex Library and tells Plex to remove the lowest quality versions (based on a scoring algorithm), either automatically or interactively (i.e. with a prompt on each find), leaving you with one high quality media file. 
 
-The scoring is based on: `codec_scores` (configurable), `bitrate`, `duration`, `resolution`, `audio channels`, and `file size`. 
+The scoring is based on: non-configurable and configurable parameters.
+
+  - Non-configurable parameters are: _bitrate_, _duration_, _resolution_, _audio channel_, and _file size_. 
+
+  - Configurable parameters are: _codec scores_ and _filename scores_.
 
 _Note: For Feederbox/Plexbox setups, all the commands below will be done on the Plexbox._
 
