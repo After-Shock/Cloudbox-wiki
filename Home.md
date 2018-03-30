@@ -56,10 +56,10 @@ _Last updated: Mar 29, 2018._
 - [[Plex Dupefinder | Extras: Plex Dupefinder]] (develop branch)
 
 
-#### Work in Progress: ####
-Apps work; but no documentation. 
-- [[Ombi | Extras: Ombi]]
-- [[Emby | Extras: Emby]]
+#### Docs: Work in Progress ####
+- Ombi
+- Emby
+- Radarr4K
 
 ## Misc Guides ##
 - [[Nativefier]] (Create desktop apps for Cloudbox)
