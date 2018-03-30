@@ -108,7 +108,7 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
 
 ### 3. Codec Scoring (Optional)
 
-- You can set `CODEC_SCORES` to your preference. However, default settings should be sufficient in most cases. 
+- You can set `CODEC_SCORES` to your preference. However, default settings should be sufficient for most. 
 
 
 ### 4. Plex Library Sections
