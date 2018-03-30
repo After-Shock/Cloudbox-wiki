@@ -6,7 +6,7 @@ The scoring is based on: non-configurable and configurable parameters.
 
   - Configurable parameters are: _codec scores_ and _filename scores_.
 
-_Note: For Feederbox/Plexbox setups, all the commands below will be done on the Plexbox._
+_Note: For Feederbox/Plexbox setups, you can install this in either._ 
 
 
 # First Time Setup
