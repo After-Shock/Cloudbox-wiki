@@ -23,7 +23,7 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
 
 ## 2. Plex Dupefinder Config
 
-### Sample
+### Sample:
 
 ```json
 {
@@ -111,7 +111,12 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
 - You can set `CODEC_SCORES` to your preference. However, default settings should be sufficient for most. 
 
 
-### 4. Plex Library Sections
+### 4. Filename Scoring (Optional)
+
+- You can set `FILENAME_SCORES` to your preference. However, default settings should be sufficient for most. 
+
+
+### 5. Plex Library Sections
 
 1. Get all the names of your Plex Libraries you want to search de-dupe. 
 
@@ -143,7 +148,11 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
      },
      ```
 
-### 5. Plex Token
+### 6. Plex Server URL
+
+- Will be pre-filled with your Plex server's URL. 
+
+### 7. Plex Token
 
 1. Obtain a Plex Access Token: See [[Plex Token]].
 
@@ -153,9 +162,9 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
 
 
 
-### 6. Skip List (Optional)
+### 8. Skip List (Optional)
 
-- You can use `SKIP_LIST` to skip certain paths. 
+- You can use `SKIP_LIST` to skip certain folders. 
 
 - Example:
 
@@ -163,7 +172,7 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
   "SKIP_LIST": ["/4K-Movies/"]
   ```
 
-### 6. Save config.json
+### 9. Save config.json
 
 - `Ctrl-x`, `y`, and `enter` to save.
 
@@ -179,7 +188,7 @@ _Note: For Feederbox/Plexbox setups, all the commands below will be done on the 
     ![](http://i.imgur.com/D82n8vh.png)
 
 
-## 3. Run Plex Dupefinder
+## 4. Run Plex Dupefinder
 
 - Simply run the following command: 
 
