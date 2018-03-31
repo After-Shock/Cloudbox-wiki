@@ -177,12 +177,12 @@ The scoring is based on: non-configurable and configurable parameters.
 
 ### 8. Skip List (Optional)
 
-- You can use `SKIP_LIST` to skip certain folders. 
+- In Auto Delete mode, any folders listed in `SKIP_LIST` will be ignored.
 
 - Example:
 
   ```json
-  "SKIP_LIST": ["/4K-Movies/"]
+  "SKIP_LIST": ["/Movies4K/"]
   ```
 
 ### 9. Filesize Scoring (Optional)
