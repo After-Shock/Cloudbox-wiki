@@ -127,16 +127,18 @@ The scoring is based on: non-configurable and configurable parameters.
 
       - Skip (i.e. keep both): `0`
 
-      - Keep just one: `ID of item to keep`
+      - Choose the best one (and delete the rest): `b`
 
+      - Select the item to keep (and delete the rest): `#` (e.g. `1`).
+ 
     ```
     Initialized
     Finding dupes...
-    Found 58 dupes for section 'Movies'
-    Which media item do you wish to keep for b'Silverado'
-    	ID: 23523 - Score: 142244 - INFO: {'id': 23523, 'video_codec': 'h264', 'score': 142244, 'file': [b'/data/Movies/Movies/Silverado (1985)/Silverado.1985.1080p.BluRay.x264-BLADE.mkv'], 'audio_channels': 6, 'video_duration': 61381, 'video_resolution': '1080', 'show_key': '/library/metadata/22256', 'video_width': 1920, 'video_bitrate': 15274, 'video_height': 800, 'audio_codec': 'ac3', 'multipart': False, 'file_size': 117189341}
-    	ID: 271700 - Score: 9417944 - INFO: {'id': 271700, 'video_codec': 'h264', 'score': 9417944, 'file': [b'/data/Movies/Movies/Silverado (1985)/Silverado.1985.1080p.BluRay.x264-CINEFILE.mkv'], 'audio_channels': 6, 'video_duration': 7956960, 'video_resolution': '1080', 'show_key': '/library/metadata/22256', 'video_width': 1920, 'video_bitrate': 9442, 'video_height': 800, 'audio_codec': 'ac3', 'multipart': False, 'file_size': 9390825514}
-    Enter ID of item to keep (0 = skip):
+    Found 92 dupes for section 'TV Shows'
+    Which media item do you wish to keep for b'The Daily Show - 23x34 - Bob Odenkirk'
+	    1) ID: 381200 - Score: 47792 - INFO: {'video_duration': 1389551, 'score': 47792, 'file': [b'/data/TV/TV Shows/The Daily Show/Season 23/The.Daily.Show.2017.12.12.Bob.Odenkirk.1080p.WEB.h264-TBS.mkv'], 'show_key': '/library/metadata/224763', 'audio_channels': 2, 'video_resolution': '1080', 'multipart': False, 'video_bitrate': 4057, 'video_height': 1080, 'video_codec': 'h264', 'audio_codec': 'aac', 'video_width': 1920, 'file_size': 704682697, 'id': 381200}
+	    2) ID: 390098 - Score: 2836 - INFO: {'video_duration': 0, 'score': 2836, 'file': [b'/data/TV/TV Shows/The Daily Show/Season 23/The.Daily.Show.2017.12.12.Bob.Odenkirk.720p.WEB.x264-TBS.mkv'], 'show_key': '/library/metadata/224763', 'audio_channels': 0, 'video_resolution': 'Unknown', 'multipart': False, 'video_bitrate': 0, 'video_height': 0, 'video_codec': 'Unknown', 'audio_codec': 'Unknown', 'video_width': 0, 'file_size': 383687716, 'id': 390098}
+    Choose item to keep (0 = skip | b = best):
     ```
 
 
