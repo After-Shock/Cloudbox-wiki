@@ -44,4 +44,9 @@ _Note: If you decide to change your username after Cloudbox install, you will ne
 
 ## 2. SSH Access
 
-From now on, you will log into your server via the above account (e.g. `ssh seed@serveripaddress`). 
+From now on, you will log into your server via the above account.
+
+Example:
+```bash
+ssh seed@serveripaddress
+```
