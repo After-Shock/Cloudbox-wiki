@@ -56,7 +56,7 @@ _Last updated: Mar 31, 2018._
 - [[Plex Dupefinder | Extras: Plex Dupefinder]] (`develop` branch)
 
 
-#### Docs: Work in Progress ####
+#### Docs coming soon ####
 - Ombi
 - Emby
 - Radarr4K (`develop` branch)
