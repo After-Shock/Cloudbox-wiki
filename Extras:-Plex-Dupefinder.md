@@ -215,16 +215,16 @@ The scoring is based on: non-configurable and configurable parameters.
   "SKIP_LIST": ["/Movies4K/"]
   ```
 
-### 2. Video Codec Scores (Optional)
+### 10. Video Codec Scores (Optional)
 
 - You can set `VIDEO_CODEC_SCORES` to your preference. However, default settings should be sufficient for most. 
 
-### 2. Video Resolution Scoring (Optional)
+### 11. Video Resolution Scoring (Optional)
 
 - You can set `VIDEO_RESOLUTION_SCORES` to your preference. However, default settings should be sufficient for most. 
 
 
-### 10. Save config.json
+### 12. Save config.json
 
 - `Ctrl-x`, `y`, and `enter` to save.
 
