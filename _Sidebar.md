@@ -65,6 +65,8 @@
 - Ombi
 - Emby
 - Radarr4K (`develop` branch)
+- Heimdall (`develop` branch)
+
 
 ## Misc Guides ##
 - [[Nativefier]]
