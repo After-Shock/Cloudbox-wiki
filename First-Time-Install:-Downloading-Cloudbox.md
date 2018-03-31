@@ -4,17 +4,17 @@
 ## 1. Install Dependencies  ####
 
 
-### Latest Commands
+### Latest Commands (these work better for fresh installs)
 
 ```bash
-curl -s https://raw.githubusercontent.com/Cloudbox/Cloudbox/develop/roles/scripts/files/install_dependencies.sh | sudo sh
+curl -s https://cloudbox.rocks/install_dependencies.sh | sudo sh
 
 ```
 
   or
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/Cloudbox/Cloudbox/develop/roles/scripts/files/install_dependencies.sh | sudo sh
+wget -qO- https://cloudbox.rocks/install_dependencies.sh | sudo sh
 ```
 
 ### Previous Commands (run them line-by-line)
