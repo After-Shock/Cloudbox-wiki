@@ -60,6 +60,8 @@ _Last updated: Mar 31, 2018._
 - Ombi
 - Emby
 - Radarr4K (`develop` branch)
+- Heimdall (`develop` branch)
+
 
 ## Misc Guides ##
 - [[Nativefier]] (Create desktop apps for Cloudbox)
