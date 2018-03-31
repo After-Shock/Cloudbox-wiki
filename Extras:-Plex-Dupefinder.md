@@ -31,9 +31,7 @@ The scoring is based on: non-configurable and configurable parameters.
 
 ```json
 {
-  "AUTO_DELETE": false,
-  "CODEC_SCORES": {
-    "Unknown": 0,
+  "AUDIO_CODEC_SCORES": {
     "aac": 1000,
     "ac3": 1000,
     "dca": 2000,
@@ -44,8 +42,10 @@ The scoring is based on: non-configurable and configurable parameters.
     "mp3": 1000,
     "pcm": 2500,
     "truehd": 4500,
-    "wmapro": 200
+    "wmapro": 200,
+    "Unknown": 0
   },
+  "AUTO_DELETE": false,
   "FILENAME_SCORES": {
     "*Remux*": 20000,
     "*1080p*BluRay*": 15000,
@@ -68,11 +68,36 @@ The scoring is based on: non-configurable and configurable parameters.
     "Movies": 1,
     "TV": 2
   },
-  "PLEX_SERVER": "https://plex.domain.com",
+  "PLEX_SERVER": "https://plex.yourdomain.com",
   "PLEX_TOKEN": "",
+  "SCORE_FILESIZE": true,
   "SKIP_LIST": [],
-  "SCORE_FILESIZE": true
+  "VIDEO_CODEC_SCORES": {
+    "h264": 10000,
+    "h265": 5000,
+    "hevc": 5000,
+    "mpeg1video": 250,
+    "mpeg2video": 250,
+    "mpeg4": 500,
+    "msmpeg4": 100,
+    "msmpeg4v2": 100,
+    "msmpeg4v3": 100,
+    "vc1": 3000,
+    "vp9": 1000,
+    "wmv2": 250,
+    "wmv3": 250,
+    "Unknown": 0
+  },
+  "VIDEO_RESOLUTION_SCORES": {
+    "4k": 20000,
+    "1080": 10000,
+    "720": 5000,
+    "480": 3000,
+    "sd": 1000,
+    "Unknown": 0
+  }
 }
+
 ```
 
 ### 1. Edit config.json
@@ -85,8 +110,12 @@ The scoring is based on: non-configurable and configurable parameters.
 
  - Note: Make sure all edits are within quotes (`"`) and there is a comma (`,`) after it (all except the last one).
 
+### 2. Audio Codec Scores (Optional)
 
-### 2. Auto Delete
+- You can set `AUDIO_CODEC_SCORES` to your preference. However, default settings should be sufficient for most. 
+
+
+### 3. Auto Delete
 
 - Under `AUTO_DELETE`, set your desired option.
 
@@ -110,12 +139,8 @@ The scoring is based on: non-configurable and configurable parameters.
     Enter ID of item to keep (0 = skip):
     ```
 
-### 3. Codec Scoring (Optional)
 
-- You can set `CODEC_SCORES` to your preference. However, default settings should be sufficient for most. 
-
-
-### 4. Filename Scoring (Optional)
+### 4. Filename Scores (Optional)
 
 - You can set `FILENAME_SCORES` to your preference. However, default settings should be sufficient for most. 
 
@@ -173,11 +198,16 @@ The scoring is based on: non-configurable and configurable parameters.
 
       - Note: Make sure it is within the quotes (`"`) and there is a comma (`,`) after it.
 
+### 8. Filesize Scores (Optional)
+
+- `"SCORE_FILESIZE": true` will add more points to the overall core based on how large the file actually is. ]
+
+-  Note: In some situations (i.e. a bad encode with a large size), this may be something you want to turn it off (`false`). However, the default settings (i.e. `true`) should be sufficient for most. 
 
 
-### 8. Skip List (Optional)
+### 9. Skip List (Optional)
 
-- In Auto Delete mode, any folders listed in `SKIP_LIST` will be ignored.
+- In Auto Delete mode, any file paths matching the patterns (i.e folders), listed in `SKIP_LIST`, will be ignored.
 
 - Example:
 
@@ -185,11 +215,13 @@ The scoring is based on: non-configurable and configurable parameters.
   "SKIP_LIST": ["/Movies4K/"]
   ```
 
-### 9. Filesize Scoring (Optional)
+### 2. Video Codec Scores (Optional)
 
-- `"SCORE_FILESIZE": true` will add more points to the overall core based on how large the file actually is. ]
+- You can set `VIDEO_CODEC_SCORES` to your preference. However, default settings should be sufficient for most. 
 
--  Note: In some situations (i.e. a bad encode with a large size), this may be something you want to turn it off (`false`). However, the default settings (i.e. `true`) should be sufficient for most. 
+### 2. Video Resolution Scoring (Optional)
+
+- You can set `VIDEO_RESOLUTION_SCORES` to your preference. However, default settings should be sufficient for most. 
 
 
 ### 10. Save config.json
