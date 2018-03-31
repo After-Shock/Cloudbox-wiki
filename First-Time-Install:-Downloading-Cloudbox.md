@@ -22,10 +22,10 @@ wget -qO- https://cloudbox.rocks/install_dependencies.sh | sudo sh
 ```bash
 sudo apt-get update
 sudo apt-get install -y git python-pip python3-pip python-setuptools python3-setuptools
-sudo easy_install -U pip
 sudo easy_install3 -U pip
-sudo python -m pip install ansible==2.3.1.0 requests
+sudo easy_install -U pip
 sudo python3 -m pip install requests
+sudo python -m pip install ansible==2.3.1.0 requests
 ```
 
 
