@@ -204,7 +204,7 @@ The scoring is based on: non-configurable and configurable parameters.
 
 - `"SCORE_FILESIZE": true` will add more points to the overall core based on how large the file actually is. ]
 
--  Note: In some situations (i.e. a bad encode with a large size), this may be something you want to turn it off (`false`). However, the default settings (i.e. `true`) should be sufficient for most. 
+-  Note: In some situations (e.g. a bad encode resulting in a large size), this may be something you want to turn it off (`false`). However, the default settings (i.e. `true`) should be sufficient for most. 
 
 
 ### 9. Skip List (Optional)
