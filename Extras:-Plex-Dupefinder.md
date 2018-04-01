@@ -202,7 +202,7 @@ The scoring is based on: non-configurable and configurable parameters.
 
 ### 8. Filesize Scores (Optional)
 
-- `"SCORE_FILESIZE": true` will add more points to the overall score based on how large the file actually is. ]
+- `"SCORE_FILESIZE": true` will add more points to the overall score based on the actual file size. ]
 
 -  Note: In some situations (e.g. a bad encode resulting in a large size), this may be something you want to turn it off (`false`). However, the default settings (i.e. `true`) should be sufficient for most. 
 
