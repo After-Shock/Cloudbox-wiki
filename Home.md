@@ -60,7 +60,7 @@ _Last updated: Mar 31, 2018._
 - Ombi
 - Emby
 - Radarr4K (`develop` branch)
-- Heimdall (`develop` branch)
+- [[ Heimdall | Extras: Heimdall ]] (`develop` branch)
 
 
 ## Misc Guides ##
