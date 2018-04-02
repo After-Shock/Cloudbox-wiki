@@ -21,7 +21,7 @@ Run the following commands:
  sudo ansible-playbook cloudbox.yml --tags install-heimdall  
  ```
 
-### 3. Setup a login
+### 3. Setup a Login
 
 By default, Heimdall is installed without a password. 
 
