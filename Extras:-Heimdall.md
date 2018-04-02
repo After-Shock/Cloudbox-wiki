@@ -82,9 +82,9 @@ Have a lot of stuff? Want to organize each service? The _tags_ work much like a 
 
    ![](https://i.imgur.com/gxtblyb.png)
 
-### Settings
+### 5. Settings
 
-- In the _settings_ menu you can find the options to update, change the background, and even add a search engine to it.
+In the _settings_ menu you can find the options to update, change the background, and even add a search engine to it.
 
   ![](https://i.imgur.com/tFyp4Br.png)
 
