@@ -1,4 +1,4 @@
-[Heimdall](https://heimdall.site/) is a dashboard for all your web applications and any other links you like to add. Can be set as your browser's start page, with the ability to include a search bar using either Google, Bing or DuckDuckGo. See [here](https://github.com/linuxserver/Heimdall#about) for a preview. 
+[Heimdall](https://heimdall.site/) is a dashboard for all your web applications and any other links you like to add. It can be set as your browser's start page, with the ability to include a search bar using either Google, Bing or DuckDuckGo. See [here](https://github.com/linuxserver/Heimdall#about) for a preview. 
 
 ## 1. Accessing Heimdall
 
