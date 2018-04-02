@@ -54,7 +54,7 @@ _Last updated: Mar 31, 2018._
 - [[Nextcloud | Extras: Nextcloud]]
 - [[Resilio Sync | Extras: Resilio Sync]]
 - [[Plex Dupefinder | Extras: Plex Dupefinder]] (`develop` branch)
-- [[ Heimdall | Extras: Heimdall ]] (`develop` branch)
+- [[ Heimdall | Extras: Heimdall ]] (`develop` branch) (Captain-Nacl)
 
 #### Docs coming soon for ... ####
 - Ombi
