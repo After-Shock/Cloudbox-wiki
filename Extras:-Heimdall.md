@@ -1,66 +1,94 @@
+[Heimdall](https://heimdall.site/) is a dashboard for all your web applications and any other links you like to add. Can be set as your browser's start page, with the ability to include a search bar using either Google, Bing or DuckDuckGo. See [here](https://github.com/linuxserver/Heimdall) for a video preview. 
+
 ## 1. Accessing Heimdall
-* To access Heimdall, visit https://heimdall.yourdomain.com
 
-## 2. Setup
-There is nothing to do as far as getting Heimdall running. 
+To access Heimdall, visit https://heimdall._yourdomain.com_
 
-By default it is installed without a password, which may not be need by many users. However, if you would like to set a login you can do so with the following command.
 
-`docker exec -it heimdall htpasswd -c /config/nginx/.htpasswd username`
+## 2. First Time Setup
 
-Replacing _username_ with your desired name. Then you will be prompted for a password and once again to confirm.
+### 1. Add Subdomain for Nextcloud
+
+See [[Adding a Subdomain | Extras: Adding a Subdomain]] on how to add the subdomain `heimdall` to your DNS provider.
+
+
+### 2. Install Heimdall
+
+Run the following commands: 
+
+ ```bash
+ cd ~/cloudbox/
+ sudo ansible-playbook cloudbox.yml --tags install-heimdall  
+ ```
+
+### 3. Add Password
+
+By default it is installed without a password. 
+
+To set up a login, run the following command:
+
+```
+docker exec -it heimdall htpasswd -c /config/nginx/.htpasswd username
+```
+
+Replacing _username_ with your desired name. You will then be prompted for a password. 
 
 ## 3. Customizing
-You are not limited to just the applications on your server with Heimdall. You can use it anything, such as a homepage with all your bookmarks and search engine.
 
-### Adding Items
-You can add items to Heimdall by clicking the _items_ tab follow by the _add_ button.
+You are not limited to just the applications on your server with Heimdall. You can use it for anything, including  all your bookmarks and your favorite search engine.
 
-![](https://i.imgur.com/0c5jFEx.png)
+### 1. Adding Items
 
-![](https://i.imgur.com/3OLPW88.png)
+1. You can add items to Heimdall by clicking the _items_ tab follow by the _add_ button.
 
-Many of the applications that you may use have logos and hex colors filled in. You are able to change these if needed, however, not all of your applications will have these and you will have to do it manually.
+   ![](https://i.imgur.com/0c5jFEx.png)
 
-![](https://i.imgur.com/pydRkW7.png)
+   ![](https://i.imgur.com/3OLPW88.png)
 
-In the picture above, you will see a spot to login at the bottom. This is not used for every application and some will require a API key to grant access. This allows you to have a quick glance at the service, pictured below.
+2. Many of the applications that you may use have logos and hex colors filled in. You are able to change these if needed, however, not all of your applications will have these and you will have to do it manually.
 
-![](https://i.imgur.com/1Mkwze1.png)
+   ![](https://i.imgur.com/pydRkW7.png)
 
-### Organizing
-Clicking this _switch_ allows you reorganize your tabs. This is very helpful after adding a whole bunch, in no certain order.
+3. In the picture above, you will see a spot to login at the bottom. This is not used for every application as some will require just an API key. This allows you to have a quick glance at the service, pictured below.
 
-![](https://i.imgur.com/mxNEvpp.png)
+   ![](https://i.imgur.com/1Mkwze1.png)
 
-You now be able to drag and drop. You will also see a _pin_ tab, which will disappear when you exit out.
+### 2. Organizing
 
-![](https://i.imgur.com/o9dB7us.png)
+1. Clicking this _switch_ allows you reorganize your tabs. This is very helpful after adding a whole bunch, in no certain order.
 
-This allows you to add and remove items very fast, while saving them for later.
+   ![](https://i.imgur.com/mxNEvpp.png)
 
-### Refreshing
-If for any reason your tabs are not showing current information you can refresh with the _refresh_ button.
+2. You now be able to drag and drop. You will also see a _pin_ tab, which will disappear when you exit out.
 
-![](https://i.imgur.com/Ctm2nyq.png)
+   ![](https://i.imgur.com/o9dB7us.png)
 
-### Tags
-Have a lot of stuff? Want to organize each service? The _tag_ system is pretty much a folder, where you can place items inside. You can also stack them on top of each other - _you have have a lot of stuff_.
+3. This allows you to add and remove items very fast, while saving them for later.
 
-![](https://i.imgur.com/hsLOlXk.png)
+4. If for any reason your tabs are not showing current information you can refresh with the _refresh_ button.
 
-Just add a tag like you would a normal application. Then you can assign applications to the tag when setting up or editing them.
+   ![](https://i.imgur.com/Ctm2nyq.png)
 
-The tag is seen with a tag symbol on the right. 
+### 4. Tags
 
-![](https://i.imgur.com/gxtblyb.png)
+Have a lot of stuff? Want to organize each service? The _tags_ work much like a folder, where you can place items inside. You can even stack them on top of each other. 
+
+
+1. Just add a tag like you would a normal application. Then you can assign applications to the tag when setting up or editing them.
+
+   ![](https://i.imgur.com/hsLOlXk.png)
+
+2. The tag is seen with a tag symbol on the right. 
+
+   ![](https://i.imgur.com/gxtblyb.png)
 
 ### Settings
-In the _settings_ menu you can find the options to update, change the background, and even add a search engine to it.
 
-![](https://i.imgur.com/tFyp4Br.png)
+- In the _settings_ menu you can find the options to update, change the background, and even add a search engine to it.
 
-![](https://i.imgur.com/C7hLmrd.png)
+  ![](https://i.imgur.com/tFyp4Br.png)
+
+  ![](https://i.imgur.com/C7hLmrd.png)
 
 ## 4. Supported Applications
 You can add your own applications to Heimdall, but below are the predefined ones. There are two different types. _Foundation_ apps are your basic applications without any api access. _Enhanced_ apps can have additional information to provide a quick glance at them.
