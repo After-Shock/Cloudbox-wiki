@@ -7,7 +7,7 @@ To access Heimdall, visit https://heimdall._yourdomain.com_
 
 ## 2. First Time Setup
 
-### 1. Add Subdomain for Nextcloud
+### 1. Add Subdomain for Heimdall
 
 See [[Adding a Subdomain | Extras: Adding a Subdomain]] on how to add the subdomain `heimdall` to your DNS provider.
 
@@ -23,7 +23,7 @@ Run the following commands:
 
 ### 3. Add Password
 
-By default it is installed without a password. 
+By default, Heimdall is installed without a password. 
 
 To set up a login, run the following command:
 
