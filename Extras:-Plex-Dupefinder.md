@@ -1,5 +1,16 @@
 [Plex Dupefinder](https://github.com/l3uddz/plex_dupefinder/) (by [l3uddz](https://github.com/l3uddz/)) is a script that finds duplicate versions of media (TV episodes and movies) in your Plex Library and tells Plex to remove the lowest quality versions (based on a scoring algorithm), either automatically or interactively (i.e. with a prompt on each find), leaving you with one high quality media file. 
 
+
+    Initialized
+    Finding dupes...
+    Found 92 dupes for section 'TV Shows'
+    Which media item do you wish to keep for b'The Daily Show - 23x34 - Bob Odenkirk'
+	    1) ID: 381200 - Score: 47792 - INFO: {'video_duration': 1389551, 'score': 47792, 'file': [b'/data/TV/TV Shows/The Daily Show/Season 23/The.Daily.Show.2017.12.12.Bob.Odenkirk.1080p.WEB.h264-TBS.mkv'], 'show_key': '/library/metadata/224763', 'audio_channels': 2, 'video_resolution': '1080', 'multipart': False, 'video_bitrate': 4057, 'video_height': 1080, 'video_codec': 'h264', 'audio_codec': 'aac', 'video_width': 1920, 'file_size': 704682697, 'id': 381200}
+	    2) ID: 390098 - Score: 2836 - INFO: {'video_duration': 0, 'score': 2836, 'file': [b'/data/TV/TV Shows/The Daily Show/Season 23/The.Daily.Show.2017.12.12.Bob.Odenkirk.720p.WEB.x264-TBS.mkv'], 'show_key': '/library/metadata/224763', 'audio_channels': 0, 'video_resolution': 'Unknown', 'multipart': False, 'video_bitrate': 0, 'video_height': 0, 'video_codec': 'Unknown', 'audio_codec': 'Unknown', 'video_width': 0, 'file_size': 383687716, 'id': 390098}
+    Choose item to keep (0 = skip | b = best):
+
+
+
 _Note: For Feederbox/Plexbox setups, this can be install in either system._ 
 
 
@@ -131,15 +142,7 @@ The scoring is based on: non-configurable and configurable parameters.
 
       - Select the item to keep (and delete the rest): `#` (e.g. `1`).
  
-    ```
-    Initialized
-    Finding dupes...
-    Found 92 dupes for section 'TV Shows'
-    Which media item do you wish to keep for b'The Daily Show - 23x34 - Bob Odenkirk'
-	    1) ID: 381200 - Score: 47792 - INFO: {'video_duration': 1389551, 'score': 47792, 'file': [b'/data/TV/TV Shows/The Daily Show/Season 23/The.Daily.Show.2017.12.12.Bob.Odenkirk.1080p.WEB.h264-TBS.mkv'], 'show_key': '/library/metadata/224763', 'audio_channels': 2, 'video_resolution': '1080', 'multipart': False, 'video_bitrate': 4057, 'video_height': 1080, 'video_codec': 'h264', 'audio_codec': 'aac', 'video_width': 1920, 'file_size': 704682697, 'id': 381200}
-	    2) ID: 390098 - Score: 2836 - INFO: {'video_duration': 0, 'score': 2836, 'file': [b'/data/TV/TV Shows/The Daily Show/Season 23/The.Daily.Show.2017.12.12.Bob.Odenkirk.720p.WEB.x264-TBS.mkv'], 'show_key': '/library/metadata/224763', 'audio_channels': 0, 'video_resolution': 'Unknown', 'multipart': False, 'video_bitrate': 0, 'video_height': 0, 'video_codec': 'Unknown', 'audio_codec': 'Unknown', 'video_width': 0, 'file_size': 383687716, 'id': 390098}
-    Choose item to keep (0 = skip | b = best):
-    ```
+
 
 
 ### 4. Filename Scores (Optional)
