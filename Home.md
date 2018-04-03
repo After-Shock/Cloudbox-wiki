@@ -60,7 +60,7 @@ _Last updated: April 2, 2018._
 - Ombi
 - Emby
 - Radarr4K (`develop` branch)
-
+- [[ Traktarr | Extras: Traktarr ]] (`develop` branch)
 
 
 ## Misc Guides ##
