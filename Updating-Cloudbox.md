@@ -106,7 +106,7 @@ Steps to update Cloudbox are below.
    sudo ansible-playbook cloudbox.yml --tags full
    ```
 
-4. Reboot {_you should always perform a reboot after installing Cloudbox_).
+4. Reboot (_you should always perform a reboot after installing Cloudbox_).
 
    ```bash
    sudo reboot
