@@ -595,7 +595,14 @@ docker restart sonarr radarr jackett nzbget nzbhydra
 
 The pages for these containers should now load.
 
-Note: You will also need to edit the ports for (1) Jackett, NZBGet, and NZBHydra in Sonarr/Radarr settings, (2) NZBGet port in NZBHydra settings, (3) Radarr and Sonarr ports in Plex Requests settings, and (4) Radarr, Sonarr, and NZBGet in Organizr settings.
+Note: 
+You will also need to edit the ports for:
+ 
+1. Jackett, NZBGet, and NZBHydra in Sonarr/Radarr settings
+
+1. NZBGet port in NZBHydra settings
+1. Radarr and Sonarr ports in Plex Requests settings
+1. Radarr, Sonarr, and NZBGet in Organizr settings.
 
 
 
