@@ -546,15 +546,52 @@ Due to a recent change with the Suitarr image, the ports for the five Suitarr co
 
 If your docker images haven't been updated yet, you can preemptively avoid any Error 502 issues by going in to each of these apps settings pages and changing the ports to 8989, 7878, 9117, 6789, 5075, respectively, and then update all five of these docker containers with the --tags update-xxxxx command (see [here](Updating-Cloudbox-Apps#rebuild-the-docker-containers)).
 
-If the Suitarr docker image has been updated (e.g. Cloudbox update) and now you are getting Error 502s, you will need to edit the config files in the /opt/ folder and manually put in these ports (see below).
+If the Suitarr docker image has been updated (e.g. Cloudbox update) and now you are getting Error 502s, you will need to edit the config files in the /opt/ folder and manually put in these ports. 
 
-`/opt/sonarr/config.xml`  -->     `<Port>8989</Port>` <br />
-`/opt/radarr/config.xml`  -->     `<Port>7878</Port>` <br />
-`/opt/jackett/Jackett/ServerConfig.json`  -->  `"Port": 9117,` <br />
-`/opt/nzbget/nzbget.conf `  -->  `ControlPort=6789` <br />
-`/opt/nzbhydra/nzbhydra.cfg` --> under `"main" {` --> `"port": 5075,` <br />
+##### `/opt/sonarr/config.xml` 
 
-After the above edits, restart the docker containers (`docker restart sonarr radarr jackett nzbget nzbhydra`).
+```
+<Port>8989</Port>
+``` 
+
+
+##### `/opt/radarr/config.xml` 
+
+```
+<Port>7878</Port>
+```
+
+
+##### `/opt/jackett/Jackett/ServerConfig.json`
+
+```
+"Port": 9117,
+```
+
+
+##### `/opt/nzbget/nzbget.conf `
+
+```
+ControlPort=6789
+```
+
+##### `/opt/nzbhydra/nzbhydra.cfg` 
+
+Under:
+```
+"main" {
+```
+
+Edit:
+```
+"port": 5075,
+```
+
+After the above edits, restart the docker containers: 
+
+```
+docker restart sonarr radarr jackett nzbget nzbhydra
+```
 
 The pages for these containers should now load.
 
