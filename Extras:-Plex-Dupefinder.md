@@ -158,7 +158,7 @@ The scoring is based on: non-configurable and configurable parameters.
    
      ![](https://i.imgur.com/JFRTD1m.png)
 
-1. Under `PLEX_SECTIONS`, type in the Plex *Library Name* (exactly) and specify the *Library Type* (_not section IDs_): `1` for movies or `2` for TV shows. 
+1. Under `PLEX_SECTIONS`, type in the Plex *Library Name* (exactly) and specify the *Library Type* (_not the Section ID_): `1` for movies or `2` for TV shows. 
 
    - Format: 
 
