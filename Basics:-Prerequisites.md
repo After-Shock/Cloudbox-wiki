@@ -31,7 +31,7 @@ _Note: If you are using a Scaleway server, read [[this|FAQ#if-you-are-using-a-sc
 >- If you have multiple hard drives on the server (eg. 2 x 4 TB), put them in RAID 0 to maximize space and speed, and enable weekly backups in Cloudbox.
 >- Remove any `/home` or `/data` partitions.
 >- Put all your space on `/`.
->- Leave ample space in `/boot` (e.g. 1GB-4GB)
+>- Leave ample space in `/boot` (e.g. 4GB)
 >- See example here: https://i.imgur.com/2upULsG.png
 
 ## 3. Domain Name
