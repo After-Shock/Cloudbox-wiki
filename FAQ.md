@@ -548,61 +548,60 @@ If your docker images haven't been updated yet, you can preemptively avoid any E
 
 If the Suitarr docker image has been updated (e.g. Cloudbox update) and now you are getting Error 502s, you will need to edit the config files in the /opt/ folder and manually put in these ports. 
 
-##### `/opt/sonarr/config.xml` 
+1. `/opt/sonarr/config.xml`
 
-```
-<Port>8989</Port>
-``` 
-
-
-##### `/opt/radarr/config.xml` 
-
-```
-<Port>7878</Port>
-```
+   ```
+   <Port>8989</Port>
+   ``` 
 
 
-##### `/opt/jackett/Jackett/ServerConfig.json`
+1. `/opt/radarr/config.xml` 
 
-```
-"Port": 9117,
-```
+   ```
+   <Port>7878</Port>
+   ```
 
 
-##### `/opt/nzbget/nzbget.conf `
+1. `/opt/jackett/Jackett/ServerConfig.json`
 
-```
-ControlPort=6789
-```
+   ```
+   "Port": 9117,
+   ```
 
-##### `/opt/nzbhydra/nzbhydra.cfg` 
 
-Under:
-```
-"main" {
-```
+1. `/opt/nzbget/nzbget.conf `
 
-Edit:
-```
-"port": 5075,
-```
+   ```
+   ControlPort=6789
+   ```
 
-After the above edits, restart the docker containers: 
+1. `/opt/nzbhydra/nzbhydra.cfg` 
 
-```
-docker restart sonarr radarr jackett nzbget nzbhydra
-```
+   Under:
+   ```
+   "main" {
+   ```
 
-The pages for these containers should now load.
+   Edit:
+   ```
+   "port": 5075,
+   ```
 
-Note: 
-You will also need to edit the ports for:
+1. After the above edits, restart the docker containers: 
+
+   ```
+   docker restart sonarr radarr jackett nzbget nzbhydra
+   ```
+
+1. The apps above will now load OK, however, you will still to edit the ports within the app settings:
  
-1. Jackett, NZBGet, and NZBHydra in Sonarr/Radarr settings
+   1. Jackett, NZBGet, and NZBHydra in Sonarr/Radarr settings
 
-1. NZBGet port in NZBHydra settings
-1. Radarr and Sonarr ports in Plex Requests settings
-1. Radarr, Sonarr, and NZBGet in Organizr settings.
+   1. NZBGet port in NZBHydra settings
+
+   1. Radarr and Sonarr ports in Plex Requests settings
+
+   1. Radarr, Sonarr, and NZBGet in Organizr settings.
 
 
 
