@@ -595,11 +595,11 @@ If the Suitarr docker image has been updated (e.g. Cloudbox update) and now you 
 
 1. The apps above will now load OK, however, you will still to edit the ports within the app settings:
  
-   1. Jackett, NZBGet, and NZBHydra in Sonarr/Radarr settings
+   1. Jackett, NZBGet, and NZBHydra in Sonarr/Radarr settings.
 
-   1. NZBGet port in NZBHydra settings
+   1. NZBGet port in NZBHydra settings.
 
-   1. Radarr and Sonarr ports in Plex Requests settings
+   1. Radarr and Sonarr ports in Plex Requests settings.
 
    1. Radarr, Sonarr, and NZBGet in Organizr settings.
 
