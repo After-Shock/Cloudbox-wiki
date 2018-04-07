@@ -14,6 +14,7 @@ Run the following commands line by line:
 sudo useradd -m seed
 sudo usermod -aG sudo seed
 sudo passwd seed
+sudo chsh -s /bin/bash seed
 su seed
 ```
 
@@ -27,6 +28,7 @@ Run the following commands line by line:
 sudo useradd -m <username>
 sudo usermod -aG sudo <groupname>
 sudo passwd <username>
+sudo chsh -s /bin/bash <username>
 su <username>
 ```
 
