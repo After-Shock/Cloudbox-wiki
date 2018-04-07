@@ -140,7 +140,7 @@ The scoring is based on: non-configurable and configurable parameters.
 
       - Choose the best one (and delete the rest): `b`
 
-      - Select the item to keep (and delete the rest): `#` (e.g. `1`).
+      - Select the item to keep (and delete the rest): `#` (i.e. `1`, `2`, `3`, etc).
  
 
 
