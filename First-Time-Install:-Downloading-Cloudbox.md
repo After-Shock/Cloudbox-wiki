@@ -29,6 +29,8 @@ sudo python -m pip install ansible==2.3.1.0 requests
 ```
 
 
+_Note: If the install seems to be stuck, see this[fix](FAQ#apt-get-gets-stuck-at-0-because-of-ipv6), and retry install._
+
 ## 2. Download Cloudbox ### 
 
 
