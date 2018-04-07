@@ -407,7 +407,28 @@ sudo service docker start
 
 ## apt-get Gets Stuck at 0% Because of IPv6
 
+Example:
 ```
+Get:65 http://mirror.hetzner.de/ubuntu/packages xenial-updates/multiverse amd64 Packages [16.2 kB]
+Get:66 http://mirror.hetzner.de/ubuntu/packages xenial-updates/multiverse i386 Packages [15.3 kB]
+Get:67 http://mirror.hetzner.de/ubuntu/packages xenial-updates/multiverse Translation-en [8,076 B]
+Get:68 http://mirror.hetzner.de/ubuntu/security xenial-security/main amd64 Packages [472 kB]
+Get:69 http://mirror.hetzner.de/ubuntu/security xenial-security/main i386 Packages [424 kB]
+Get:70 http://mirror.hetzner.de/ubuntu/security xenial-security/main Translation-en [204 kB]
+Get:71 http://mirror.hetzner.de/ubuntu/security xenial-security/restricted amd64 Packages [7,224 B]
+Get:72 http://mirror.hetzner.de/ubuntu/security xenial-security/restricted i386 Packages [7,224 B]
+Get:73 http://mirror.hetzner.de/ubuntu/security xenial-security/restricted Translation-en [2,152 B]
+Get:74 http://mirror.hetzner.de/ubuntu/security xenial-security/universe amd64 Packages [340 kB]
+Get:75 http://mirror.hetzner.de/ubuntu/security xenial-security/universe i386 Packages [297 kB]
+Get:76 http://mirror.hetzner.de/ubuntu/security xenial-security/universe Translation-en [127 kB]
+Get:77 http://mirror.hetzner.de/ubuntu/security xenial-security/multiverse amd64 Packages [3,208 B]
+Get:78 http://mirror.hetzner.de/ubuntu/security xenial-security/multiverse i386 Packages [3,376 B]
+Get:79 http://mirror.hetzner.de/ubuntu/security xenial-security/multiverse Translation-en [1,408 B]
+0% [Connecting to security.ubuntu.com (2001:67c:1360:8001::21)]
+```
+
+Run this command:
+``` bash
 echo 'Acquire::ForceIPv4 "true";' | sudo tee /etc/apt/apt.conf.d/99force-ipv4
 ```
 
