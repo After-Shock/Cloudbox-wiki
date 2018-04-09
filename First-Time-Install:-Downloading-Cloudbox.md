@@ -26,4 +26,4 @@ wget -qO- https://cloudbox.rocks/install_dependencies.sh | sudo sh
 git clone http://github.com/cloudbox/cloudbox ~/cloudbox && cd ~/cloudbox
  ```
 
-_Note: If you use the URL shown on the GitHub page, which is capitalized, and do not specify the path to clone to, the folder created will be capitalized as well (i.e. `~/Cloudbox/`). To fix this, simply rename it to lowercase `cloudbox` via `mv ~/Cloudbox ~/cloudbox`._
+_Note: If you `git clone` with the URL shown on the GitHub page, the folder created will be capitalized (i.e. `~/Cloudbox/`). To fix this, simply rename it to lowercase `cloudbox` via `mv ~/Cloudbox ~/cloudbox`._
