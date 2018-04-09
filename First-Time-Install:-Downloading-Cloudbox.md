@@ -4,7 +4,7 @@
 ## 1. Install Dependencies  ####
 
 
-### Latest Commands (these work better for fresh installs)
+
 
 ```bash
 curl -s https://cloudbox.rocks/install_dependencies.sh | sudo sh
