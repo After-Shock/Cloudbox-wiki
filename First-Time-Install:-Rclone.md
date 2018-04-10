@@ -89,12 +89,12 @@ Rclone is used by [[UnionFS Cleaner]] and [[Backup|Backup-and-Restore]] to uploa
    ```
    (no)
 
-1. `Yes this is OK`
+1. Confirm Remote is OK:
 
    ```
    y
    ```
-   (yes)
+   (Yes this is OK)
 
 1. `Rclone Config Menu:`
 
