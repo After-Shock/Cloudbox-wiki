@@ -80,7 +80,7 @@ Rclone is used by [[UnionFS Cleaner]] and [[Backup|Backup-and-Restore]] to uploa
 
 1. `Enter verification code>`
 
-   `verification code` from above. 
+   Paste the `verification code` from above. 
 
 1. `Configure this as a team drive?`
 
