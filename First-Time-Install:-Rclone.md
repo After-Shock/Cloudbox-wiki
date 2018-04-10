@@ -30,7 +30,7 @@ Rclone is used by [[UnionFS Cleaner]] and [[Backup|Backup-and-Restore]] to uploa
    drive
    ```
 
-   _Note: You could also type in the number for Google Drive._ 
+   _Note: You can also type in the number for Google Drive._ 
 
 1. Create a [[Google Drive API Client ID and Client Secret]] for Rclone.
 
