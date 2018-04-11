@@ -16,7 +16,7 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
    - The script output will show your Plex Library Section IDs in the format of:
     
       ```
-      SECTION ID: LIBRARY NAME
+      SECTION ID #: LIBRARY NAME
       ```
 
    - For simple libraries, your section IDs may look like this: 
