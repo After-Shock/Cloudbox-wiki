@@ -47,14 +47,14 @@ _Note: If you have a separate Plex and Feeder setup, this will be done on the se
 
 
 ```
-cd ~/
-touch mounted.bin
-rclone -v move mounted.bin google:
+rclone touch google:/mounted.bin
 ```
 
 _Note 1: If your Rclone remote config has a different name for Google Drive, replace `google:` with yours._
 
-_Note 2: For explanation on the purpose of the control file, see the [[FAQ|FAQ#purpose-of-a-control-file-in-plex-autoscan]]_.
+_Note 2: Above command requires Rclone version 1.39 or higher._
+
+_Note 3: For explanation on the purpose of the control file, see the [[FAQ|FAQ#purpose-of-a-control-file-in-plex-autoscan]]_.
 
 
 
