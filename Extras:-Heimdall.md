@@ -28,10 +28,10 @@ By default, Heimdall is installed without a password.
 To set up a login, run the following command:
 
 ```
-docker exec -it heimdall htpasswd -c /config/nginx/.htpasswd username
+htpasswd -c /opt/nginx-proxy/htpasswd/heimdall.yourdomain.com USERNAME
 ```
 
-Replacing _username_ with your desired name. You will then be prompted for a password. 
+Replacing _USERNAME_ with your desired username. You will then be prompted for a password. 
 
 ## 3. Customizing
 
