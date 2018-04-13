@@ -1006,3 +1006,26 @@ You may do this 2 ways:
   * ![  ](https://i.imgur.com/VyyijSP.png)
 
   * Start the container: `docker start rutorrent`
+
+
+# Nextcloud
+
+
+
+## Backup/Restore DB
+
+DB data is stored in /opt/mariadb and backedup along with Cloudbox Backup. 
+
+However, you can separately make a backup of the DB into a single `nextcloud_backup.sql` file, by running the following command. 
+
+```
+docker exec mariadb /usr/bin/mysqldump -u root --password=password321 nextcloud  > nextcloud_backup.sql
+
+```
+
+And restoring it back:
+
+```
+cat nextcloud_backup.sql | docker exec -i mariadb /usr/bin/mysql -u root --password=password321 nextcloud
+
+```
