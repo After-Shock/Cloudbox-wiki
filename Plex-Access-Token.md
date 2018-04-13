@@ -1,4 +1,4 @@
-The following guide will take you through obtaining a Plex Token for your Plex account.
+The following guide will take you through obtaining a Plex Access Token for your Plex account.
 
 
 There are a few different ways to do this. Any of these will do. 
