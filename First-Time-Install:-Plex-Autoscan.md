@@ -36,7 +36,7 @@ To get your Plex Autoscan URL, run the following command:
  /opt/scripts/plex_autoscan/plex_autoscan_url.sh
  ```
 
-This will be in the format of:
+(old script) This will be in the format of:
 
 ```
 http://server_ip:plex_autoscan_port/plex_autoscan_pass
