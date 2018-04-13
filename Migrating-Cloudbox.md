@@ -46,7 +46,7 @@ Listed below are some scenarios and steps to follow for them.
 
 1. Misc Tips:
 
-   - Update Plex Autoscan URL in Sonarr and Radarr (if the Plex Autoscan URL had the IP address in it). 
+   - Update Plex Autoscan URL in Sonarr and Radarr. 
 
 ### Keep Cloudbox on the Same Server but Change the Domain Name
 
