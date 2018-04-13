@@ -40,6 +40,8 @@ This will be in the format of:
 
 ```
 http://server_ip:plex_autoscan_port/plex_autoscan_pass
+
+eg. http://1.2.3.4:3468/aiG7Uwie9iodTTlaisahcieNaeVonu6I
 ```
 
 (New script uses `http://plex.domain.com:plex_autoscan_port/plex_autoscan_pass` format). 
