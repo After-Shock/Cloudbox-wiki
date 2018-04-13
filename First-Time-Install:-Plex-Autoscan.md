@@ -7,7 +7,7 @@ _Note: If you would like to learn more about what Plex Autoscan does and all the
 
 ## 1. Obtain a Plex Access Token
 
- - See the [[Plex Token]] page.
+ - See the [[Plex Access Token]] page.
 
 ## 2. Add the Plex Access Token into Plex Autoscan
 
