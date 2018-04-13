@@ -52,6 +52,9 @@
 	- [If you are importing your previous Sonarr and Radarr database..](#if-you-are-importing-your-previous-sonarr-and-radarr-database)
 - [ruTorrent](#rutorrent)
 	- [To change your ruTorrent password after installation](#to-change-your-rutorrent-password-after-installation)
+- [Nextcloud](#nextcloud)
+	- [Backup/Restore DB](#backup-restore-db)
+
 
 <!-- /TOC -->
 
