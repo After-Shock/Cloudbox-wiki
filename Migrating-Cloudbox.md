@@ -13,13 +13,15 @@ Listed below are some scenarios and steps to follow for them.
 
 1. Point the DNS to your new server. 
 
-
 1. Run the Cloudbox [[Installer| First Time Install: Installing Cloudbox]].
 
+1. Misc Tips:
+
+   - Update Plex Autoscan URL in Sonarr and Radarr (if you Plex URL had the IP address in it). 
 
 
 
-### Copy Cloudbox to Another Server and Change the Domain Name
+### Duplicate Cloudbox to Another Server and Change the Domain Name
 
 1. Create a [backup](Backup-and-Restore#manual-backup) of your Cloudbox server. 
 
@@ -66,7 +68,7 @@ Listed below are some scenarios and steps to follow for them.
 
 1. Misc Tips:
 
-   - Update Plex Autoscan URL in Sonarr and Radarr. 
+   - Update Plex Autoscan URL in Sonarr and Radarr (if you Plex URL had the IP address in it). 
 
 ### Keep Cloudbox on the Same Server but Change the Domain Name
 
@@ -88,7 +90,7 @@ Listed below are some scenarios and steps to follow for them.
 
 1. Misc Tips:
 
-   - Update Plex Autoscan URL in Sonarr and Radarr. 
+   - Update Plex Autoscan URL in Sonarr and Radarr (if you Plex URL had the IP address in it). 
 
 
 
