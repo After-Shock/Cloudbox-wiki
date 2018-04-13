@@ -53,7 +53,7 @@
 - [ruTorrent](#rutorrent)
 	- [To change your ruTorrent password after installation](#to-change-your-rutorrent-password-after-installation)
 - [Nextcloud](#nextcloud)
-	- [Backup/Restore DB](#backup-restore-db)
+	- [Backup/Restore DB](#backuprestore-db)
 
 
 <!-- /TOC -->
