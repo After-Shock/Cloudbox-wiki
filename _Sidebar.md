@@ -40,7 +40,7 @@
 
 
 ## More Information ##
-- [[Plex Token]]
+- [[Plex Access Token]]
 - [[Plex Library Section IDs]]
 - [[UnionFS Cleaner]]
 - [[Cloudbox Tools]] (work in progress)
