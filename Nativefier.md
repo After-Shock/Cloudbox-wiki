@@ -1,3 +1,17 @@
+
+
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:1 -->
+
+- [Intro](#intro)
+- [Native](#native)
+- [Docker](#docker)
+
+
+<!-- /TOC -->
+
+# Intro
+
+
 [Nativefier](https://github.com/jiahaog/nativefier#nativefier) is a cross-platform, Electron application (built on Chromium and Node.js), that allows you to turn any website into a native OS app. This way you can easily "open" and "close" your Cloudbox apps without the memory footprint of a typical internet browser. You can even use this to replace [[Organizr | First-Time-Install: Organizr]]. 
 
 
@@ -13,8 +27,11 @@ Screenshots (macOS):
 
 
 
-The following steps will guide you through setting up Nativefier on your PC:
 
+
+# Native
+
+The following steps will guide you through setting up Nativefier on your PC to generate apps. 
 
 ## 1. Setup Nativefier
 
@@ -127,4 +144,10 @@ nativefier --name "Sonarr" --basic-auth-username myusername --basic-auth-passwor
 ## 3. Move the Nativefier App 
 
 Copy the app (e.g.  `.app` in MacOS, `.exe` in Windows) to your desktop or the applications location (i.e. Applications folder in MacOS, Start Menu in Windows)
+
+
+# Docker
+
+The following steps will guide you through setting up Nativefier on your server via docker and using that to generate the app for your PC. 
+
 
