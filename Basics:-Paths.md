@@ -52,7 +52,7 @@ mnt
 |:---------------------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | <pre>/mnt/local/Media/</pre>     | <pre> Location of media stored on the server. Sonarr/Radarr imports will go here.   </pre>                                                                                                                         |
 | <pre>/mnt/plexdrive/Media/</pre> | <pre> Location of media stored on Google Drive (mounted by Plexdrive) </pre>                                                                                                  |
-| <pre>/mnt/unionfs/Media/</pre>   | <pre> Combined folder of local media (/mnt/local/Media/) and online media (/mnt/plexdrive/Media/). <br /><br /> This is the folder that Plex, Sonarr, and Radarr read when scanning for media.</pre> |
+| <pre>/mnt/unionfs/Media/</pre>   | <pre> Combined folder of local media ("/mnt/local/Media/") and online media ("/mnt/plexdrive/Media/"). <br /><br /> This is the folder that Plex, Sonarr, and Radarr read when scanning for media.</pre> |
 
 _Note: Make sure `/mnt/local/` has enough space to store the imported media (before it is able to move it to Google Drive; see [below](#unionfs-cleaner))._
 
@@ -87,7 +87,7 @@ _Note: It is advised to leave at least 100GB free on `/opt` for the storage of D
 
 | Docker Path            | Host Path                         | Purpose                                                                 |
 |:---------------------- |:--------------------------------- |:----------------------------------------------------------------------- |
-| <pre>/tv/</pre>                  | <pre>/mnt/unionfs/Media/TV/</pre>           | <pre> Sonarr will import to /tv which is actually /mnt/unionfs/Media/TV/  on host system </pre> |
+| <pre>/tv/</pre>                  | <pre>/mnt/unionfs/Media/TV/</pre>           | <pre> Sonarr will import to "/tv/", which is actually "/mnt/unionfs/Media/TV/" on host system </pre> |
 | <pre>/downloads/rutorrent/</pre> | <pre>/mnt/local/downloads/rutorrent/ (default) </pre> | <pre> ruTorrent download folder as set in settings.yml </pre>                       |
 | <pre>/downloads/nzbget/</pre>    | <pre>/mnt/local/downloads/nzbget/ (default)   </pre> | <pre> NZBGet download folder as set in settings.yml </pre>                          |
 
@@ -97,7 +97,7 @@ _Note: It is advised to leave at least 100GB free on `/opt` for the storage of D
 
 | Docker Path            | Host Path                         | Purpose                                                                     |
 |:---------------------- |:--------------------------------- |:--------------------------------------------------------------------------- |
-| <pre>/movies/</pre>              | <pre>/mnt/unionfs/Media/Movies/</pre>       | <pre> Radarr will import to /movies which is actually /mnt/unionfs/Media/Movies/ on host system </pre> |
+| <pre>/movies/</pre>              | <pre>/mnt/unionfs/Media/Movies/</pre>       | <pre> Radarr will import to "/movies/", which is actually "/mnt/unionfs/Media/Movies/" on host system </pre> |
 | <pre>/downloads/rutorrent/</pre> | <pre>/mnt/local/downloads/rutorrent/ (default) </pre> | <pre> ruTorrent download folder as set in settings.yml  </pre>                          |
 | <pre>/downloads/nzbget/</pre>    | <pre>/mnt/local/downloads/nzbget/ (default) </pre>   | <pre> NZBGet download folder as set in settings.yml </pre>                               |
 
