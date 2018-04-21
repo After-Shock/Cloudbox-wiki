@@ -18,7 +18,7 @@ There are a few different ways to do this. Any of these will do.
 1. Using a Bookmarklet <a href="#note2" id="note2ref"><sup>[2]</sup></a> 
 
 
-   1. Go [[here|https://github.com/jacobwgillespie/plex-token-bookmarklet]] and drag the bookmarklet into the bookmarks bar of your browser. 
+   1. Go [[here|https://jacobwgillespie.github.io/plex-token-bookmarklet/]] and drag the bookmarklet into the bookmarks bar of your browser. 
 
       -  You can also create a bookmark and paste in the following address:
 
