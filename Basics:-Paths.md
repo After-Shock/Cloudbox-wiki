@@ -52,7 +52,7 @@ mnt
 |:---------------------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | <pre>/mnt/local/Media/</pre>     | <pre> Location of media stored on the server. Sonarr/Radarr imports will go here.   </pre>                                                                                                                         |
 | <pre>/mnt/plexdrive/Media/</pre> | <pre> Location of media stored on Google Drive (mounted by Plexdrive) </pre>                                                                                                  |
-| <pre>/mnt/unionfs/Media/</pre>   | <pre> Combined folder of local media (/mnt/local/Media/) and online media (/mnt/plexdrive/Media). <br /><br /> This is the folder that Plex, Sonarr, and Radarr read when scanning for media.</pre> |
+| <pre>/mnt/unionfs/Media/</pre>   | <pre> Combined folder of local media (/mnt/local/Media/) and online media (/mnt/plexdrive/Media/). <br /><br /> This is the folder that Plex, Sonarr, and Radarr read when scanning for media.</pre> |
 
 _Note: Make sure `/mnt/local/` has enough space to store the imported media (before it is able to move it to Google Drive; see [below](#unionfs-cleaner))._
 
