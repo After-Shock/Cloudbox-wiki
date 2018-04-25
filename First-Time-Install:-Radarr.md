@@ -50,14 +50,33 @@
 
 1. Enable "Replace Illegal Characters".
 
+1. Colon Replacement Format: `Replace with Space Dash`.
+
 1. Set your preferred naming format.
+
+
+   ```
+   Plex Naming Standard
+   --------------------
+
+   Standard Movie Format:
+   {Movie Title}
+
+
+   Movie Folder Format:
+   {Movie Title} ({Release Year})
+
+
+
+   Desimaniac Naming Standard
+   --------------------
+   https://github.com/desimaniac/docs/blob/master/my_sonarr_and_radarr_naming_preferences.md
+
+   ```
 
 1. Disable "Analyse video files".
 
 1. Click "Save".
-
-_Tip: [[My file naming preferences|https://github.com/desimaniac/docs/blob/master/my_sonarr_and_radarr_naming_preferences.md]], for whoever is interested._
-
 
 ## 4. Download Clients
 
