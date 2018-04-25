@@ -69,7 +69,7 @@
 
 
    Desimaniac Naming Standard
-   --------------------
+   --------------------------
    https://github.com/desimaniac/docs/blob/master/my_sonarr_and_radarr_naming_preferences.md
 
    ```
