@@ -68,6 +68,7 @@ The scoring is based on: non-configurable and configurable parameters.
     "*WEB*SiGMA*": 5000,
     "*WEB*QOQ*": 5000,
     "*WEB*TROLLHD*": 2500,
+    "*PROPER*": 1000,
     "*WEB*TBS*": -1000,
     "*HDTV*": -1000,
     "*dvd*": -1000,
