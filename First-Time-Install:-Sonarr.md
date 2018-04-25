@@ -51,7 +51,30 @@
 
 1. Set your preferred naming format.
 
-   _Tip: [[My file naming preferences|https://github.com/desimaniac/docs/blob/master/my_sonarr_and_radarr_naming_preferences.md]], for whoever is interested._
+```
+Plex Naming Standard
+--------------------
+
+Standard Episode Format:
+{Series Title} - s{season:00}e{episode:00} - {Episode Title}
+
+Anime Episode Format:
+{Series Title} - s{season:00}e{episode:00} - {Episode Title}
+
+Daily Episode Format:
+{Series Title} - {Air-Date} - {Episode Title}
+
+Season Folder Format:
+Season {season:00}
+
+Multi-Episode Style:
+Prefixed Range
+
+Plex Naming Standard
+--------------------
+https://github.com/desimaniac/docs/blob/master/my_sonarr_and_radarr_naming_preferences.md
+
+```
 
 1. Disable "Analyse video files".
 
