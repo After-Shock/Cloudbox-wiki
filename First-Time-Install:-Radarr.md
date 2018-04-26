@@ -52,32 +52,30 @@
 
 1. Colon Replacement Format: `Replace with Space Dash`.
 
-1. Set your preferred naming format.
+1. Set your preferred naming format (you can use the ones mentioned below). 
 
-
-   ```
-   Plex Naming Standard
-   --------------------
-   https://support.plex.tv/articles/200381023-naming-movie-files/
-
-   Example: Guardians of the Galaxy (2014).mkv
-
-   Standard Movie Format:
-   {Movie Title}
-
-
-   Movie Folder Format:
-   {Movie Title} ({Release Year})
-
-
-
-   Desimaniac's Naming Style
-   -------------------------
-   https://github.com/desimaniac/docs/blob/master/my_sonarr_and_radarr_naming_preferences.md
-
-   Example: Guardians.of.the.Galaxy.2014.1080p.BluRay.x264-SPARKS.mkv
-   ```
-
+   >   ### Plex's Naming Style
+   >
+   >   https://support.plex.tv/articles/200381023-naming-movie-files/
+   >
+   >   Example: <br /> 
+   >   Guardians of the Galaxy (2014).mkv
+   >
+   >   Standard Movie Format: <br />
+   >   {Movie Title}
+   >
+   >   Movie Folder Format: <br />
+   >   {Movie Title} ({Release Year})
+   >
+   >
+   >
+   >   ### Desimaniac's Naming Style
+   >   
+   >   https://github.com/desimaniac/docs/blob/master/my_sonarr_and_radarr_naming_preferences.md
+   >
+   >   Example: <br /> 
+   >   Guardians.of.the.Galaxy.2014.1080p.BluRay.x264-SPARKS.mkv
+   
 1. Disable "Analyse video files".
 
 1. Click "Save".
