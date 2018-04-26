@@ -49,39 +49,40 @@
 
 1. Enable "Replace Illegal Characters".
 
-1. Set your preferred naming format.
+1. Set your preferred naming format (you can use the ones mentioned below). 
 
-   ```
-   Plex Naming Standard
-   --------------------
-   https://support.plex.tv/articles/200220687-naming-series-season-based-tv-shows/
+   >   ### Plex's Naming Style
+   >
+   >   https://support.plex.tv/articles/200220687-naming-series-season-based-tv-shows/
+   >
+   >   Example: <br /> 
+   >   Gotham - s01e01 - Pilot.mkv
+   >
+   >   Standard Episode Format: <br />
+   >   {Series Title} - s{season:00}e{episode:00} - {Episode Title}
+   >
+   >   Anime Episode Format: <br />
+   >   {Series Title} - s{season:00}e{episode:00} - {Episode Title}
+   >
+   >   Daily Episode Format: <br />
+   >   {Series Title} - {Air-Date} - {Episode Title}
+   >
+   >   Season Folder Format: <br />
+   >   Season {season:00}
+   >
+   >   Multi-Episode Style: <br />
+   >   Prefixed Range
+   >
+   >
+   >
+   >   ### Desimaniac's Naming Style
+   >   
+   >   https://github.com/desimaniac/docs/blob/master/my_sonarr_and_radarr_naming_preferences.md
+   >
+   >   Example:  <br />
+   >   Gotham.S01E01.Pilot.1080p.BluRay.x264-DEMAND.mkv
+   
 
-   Example: Gotham - s01e01 - Pilot.mkv
-
-   Standard Episode Format:
-   {Series Title} - s{season:00}e{episode:00} - {Episode Title}
-
-   Anime Episode Format:
-   {Series Title} - s{season:00}e{episode:00} - {Episode Title}
-
-   Daily Episode Format:
-   {Series Title} - {Air-Date} - {Episode Title}
-
-   Season Folder Format:
-   Season {season:00}
-
-   Multi-Episode Style:
-   Prefixed Range
-
-
-
-   Desimaniac's Naming Style
-   -------------------------
-   https://github.com/desimaniac/docs/blob/master/my_sonarr_and_radarr_naming_preferences.md
-
-   Example: Gotham.S01E01.Pilot.1080p.BluRay.x264-DEMAND.mkv
-
-   ```
 
 1. Disable "Analyse video files".
 
