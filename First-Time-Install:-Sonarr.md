@@ -56,7 +56,7 @@
    --------------------
    https://support.plex.tv/articles/200220687-naming-series-season-based-tv-shows/
 
-   Example: Gotham s01e01 - Pilot.mkv
+   Example: Gotham - s01e01 - Pilot.mkv
 
    Standard Episode Format:
    {Series Title} - s{season:00}e{episode:00} - {Episode Title}
