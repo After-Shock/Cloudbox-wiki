@@ -76,7 +76,7 @@
 
 
    Desimaniac's Naming Standard
-   --------------------------
+   ----------------------------
    https://github.com/desimaniac/docs/blob/master/my_sonarr_and_radarr_naming_preferences.md
 
    Example: Gotham.S01E01.Pilot.1080p.BluRay.x264-DEMAND.mkv
