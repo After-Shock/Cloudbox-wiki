@@ -58,6 +58,9 @@
    ```
    Plex Naming Standard
    --------------------
+   https://support.plex.tv/articles/200381023-naming-movie-files/
+
+   Example: Guardians of the Galaxy (2014).mkv
 
    Standard Movie Format:
    {Movie Title}
@@ -68,10 +71,11 @@
 
 
 
-   Desimaniac Naming Standard
-   --------------------------
+   Desimaniac's Naming Style
+   -------------------------
    https://github.com/desimaniac/docs/blob/master/my_sonarr_and_radarr_naming_preferences.md
 
+   Example: Guardians.of.the.Galaxy.2014.1080p.BluRay.x264-SPARKS.mkv
    ```
 
 1. Disable "Analyse video files".
