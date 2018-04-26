@@ -54,6 +54,9 @@
    ```
    Plex Naming Standard
    --------------------
+   https://support.plex.tv/articles/200220687-naming-series-season-based-tv-shows/
+
+   Example: Gotham s01e01 - Pilot.mkv
 
    Standard Episode Format:
    {Series Title} - s{season:00}e{episode:00} - {Episode Title}
@@ -72,9 +75,11 @@
 
 
 
-   Desimaniac Naming Standard
+   Desimaniac's Naming Standard
    --------------------------
    https://github.com/desimaniac/docs/blob/master/my_sonarr_and_radarr_naming_preferences.md
+
+   Example: Gotham.S01E01.Pilot.1080p.BluRay.x264-DEMAND.mkv
 
    ```
 
