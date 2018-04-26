@@ -56,7 +56,7 @@
    >   https://support.plex.tv/articles/200220687-naming-series-season-based-tv-shows/
    >
    >   Example: <br /> 
-   >   Gotham - s01e01 - Pilot.mkv
+   >   /Gotham/Season 01/Gotham - s01e01 - Pilot.mkv
    >
    >   Standard Episode Format: <br />
    >   {Series Title} - s{season:00}e{episode:00} - {Episode Title}
@@ -80,7 +80,7 @@
    >   https://github.com/desimaniac/docs/blob/master/my_sonarr_and_radarr_naming_preferences.md
    >
    >   Example:  <br />
-   >   Gotham.S01E01.Pilot.1080p.BluRay.x264-DEMAND.mkv
+   >   /Gotham/Season 01/Gotham.S01E01.Pilot.1080p.BluRay.x264-DEMAND.mkv
    
 
 
