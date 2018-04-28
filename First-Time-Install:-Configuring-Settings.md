@@ -44,7 +44,7 @@ backup:
 
 ## 3. Options in Settings
 
-To see the information below in a nice-looking table, click [[here|https://pste.eu/p/4Ycx.html]].
+To see the information below in a nice-looking table, click [[here|https://pste.eu/p/4Ycx.html]]. (not working right now)
 
 
 ---
@@ -58,12 +58,17 @@ To see the information below in a nice-looking table, click [[here|https://pste.
 
 - `domain`: Your domain name. To be used to access your Cloudbox server. If you don't have one, see [[Prerequisites| Basics: Prerequisites#3-domain-name]].
 
-- `email`: Your e-mail address. This is used to get SSL certificates.
+- `email`: Your e-mail address.
 
-  - Note: This requires a valid e-mail address or else the certificates will fail.
+  - This email will be used to register the Let's Encrypt SSL certifications. You will get certification expiration notices to this e-mail address. 
+
+  - This email is also used for Cloudflare authentication (i.e. use this email in your Cloudflare account).
+
+- `cloudflare_api_token`: By filling this out, you will allow Cloudbox to register the subdomains to Cloudflare DNS (CDN/proxy off). By leaving it blank, all Cloudflare related functions will be ignored. 
+
 - `nzbget`
 
-    - `downloads`: Path for NZBGet downloads. Default is `"/home/{{user}}/downloads/nzbget"`. 
+    - `downloads`: Path for NZBGet downloads. Default is `/mnt/local/downloads/nzbget`. 
 
 - `rutorrent`:
 
@@ -71,7 +76,7 @@ To see the information below in a nice-looking table, click [[here|https://pste.
 
       - Note: Password **must** be in alpha or alphanumeric characters (but not only numeric ones). No special characters. 
 
-    - `downloads`: Path for ruTorrent downloads. Default is `"/home/{{user}}/downloads/rutorrent"`. 
+    - `downloads`: Path for ruTorrent downloads. Default is `/mnt/local/downloads/rutorrent`. 
 
 - `plex`:
 
@@ -108,6 +113,8 @@ To see the information below in a nice-looking table, click [[here|https://pste.
   - `rclone_dest`: Path for cloud (i.e Google Drive) backups. Only the two most recent copies are kept. Default is `google:/Backups`.
 
     - Note: Ensure the path does NOT have a trailing slash ( / ) or else backup "could" fail (i.e. `/sample/path`, not `/sample/path/`).
+
+  - `keep_local_copy`: Option to save local copies of the backup file in `tar_dest` after backup is complete. Default is `true`. 
 
   - `use_rsync`: Option to enable/disable rsync backups. Options are `true` or `false`. Default is `false`.
 
