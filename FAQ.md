@@ -351,6 +351,8 @@ u'tmux', u'apache2-utils']) => {"changed": false, "item": ["unrar", "unzip",
       ```
   1. `Ctrl-x`, `y`, and `enter` to save.
 
+  1. Retry setup. 
+
 
 ## Misc SSL Errors during Install
 
