@@ -24,7 +24,12 @@ _Note: If your server has < 16GB of RAM, give [[this|FAQ#server-ram-is-being-max
 
    Note 1: You must use the same Google account as the one you are planning to use for Google Drive (see [[Prerequisites| Basics: Prerequisites#4-google-drive-account]]).
 
-   Note 2: If you keep getting the prompt for the authorization code or any other type of err, you might have used an incorrect Client ID/Secret. Remove the `config.json` and `token.json` files from `/opt/plexdrive/` and retry setup.
+   Note 2: If you keep getting the prompt for the authorization code or any other type of error, you might have used an incorrect Client ID/Secret. Remove the `config.json` and `token.json` files from `/opt/plexdrive/` and retry setup.
+
+   - ```
+     rm /opt/plexdrive/config.json
+     rm /opt/plexdrive/token.json
+     ```
 
 
    ![](https://i.imgur.com/CJzgkhn.png)
