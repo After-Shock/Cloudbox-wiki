@@ -322,9 +322,17 @@ sudo rm -rf /home/USER1/cloudbox
 
 ## "No package matching 'unrar' is available" 
 
-```
-failed: [localhost] (item=[u'unrar', u'unzip', u'p7zip', u'curl', u'sqlite3', u'vnstat', u'tree', u'lsof', u'man-db', u'ksmtuned', u'git', u'pwgen', u'rsync', u'logrotate', u'htop', u'iotop', u'nload', u'fail2ban', u'ufw', u'ncdu', u'mc', u'speedtest-cli', u'nethogs', u'nodejs-legacy', u'npm', u'glances', u'screen', u'tmux', u'apache2-utils']) => {"changed": false, "item": ["unrar", "unzip", "p7zip", "curl", "sqlite3", "vnstat", "tree", "lsof", "man-db", "ksmtuned", "git", "pwgen", "rsync", "logrotate", "htop", "iotop", "nload", "fail2ban", "ufw", "ncdu", "mc", "speedtest-cli", "nethogs", "nodejs-legacy", "npm", "glances", "screen", "tmux", "apache2-utils"], "msg": "No package matching 'unrar' is available"}
-```
+<pre>
+failed: [localhost] (item=[u'unrar', u'unzip', u'p7zip', u'curl', u'sqlite3', u'vnstat', 
+u'tree', u'lsof', u'man-db', u'ksmtuned', u'git', u'pwgen', u'rsync', u'logrotate', 
+u'htop', u'iotop', u'nload', u'fail2ban', u'ufw', u'ncdu', u'mc', u'speedtest-cli', 
+u'nethogs', u'nodejs-legacy', u'npm', u'glances', u'screen', u'tmux', u'apache2-utils'])
+ => {"changed": false, "item": ["unrar", "unzip", "p7zip", "curl", "sqlite3", "vnstat", 
+"tree", "lsof", "man-db", "ksmtuned", "git", "pwgen", "rsync", "logrotate", "htop", 
+"iotop", "nload", "fail2ban", "ufw", "ncdu", "mc", "speedtest-cli", "nethogs", 
+"nodejs-legacy", "npm", "glances", "screen", "tmux", "apache2-utils"], 
+"msg": "No package matching 'unrar' is available"}
+</pre>
 
   1. Edit the Common Task role:
 
