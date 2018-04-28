@@ -16,7 +16,7 @@
 	- [Does Cloudbox support any other cloud storage provider other than Google Drive?](#does-cloudbox-support-any-other-cloud-storage-provider-other-than-google-drive)
 - [Cloudbox Installer](#cloudbox-installer)
 	- [If you cloned the script as USER1 but installed as USER2](#if-you-cloned-the-script-as-user1-but-installed-as-user2)
-	- [Unrar module fails to install during the Common Role step](#unrar-module-fails-to-install-during-the-common-role-step)
+	- ["No package matching 'unrar' is available" ](#no-package-matching-unrar-is-available)
 	- [Misc SSL Errors During Install](#misc-ssl-errors-during-install)
 	- [Error while fetching server API version](#error-while-fetching-server-api-version)
 	- [403 Client Error: Forbidden: endpoint with name \<container name\> already exists in network \<network name\>](#403-client-error-forbidden-endpoint-with-name-container-name-already-exists-in-network-network-name)
