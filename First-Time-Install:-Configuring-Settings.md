@@ -64,7 +64,7 @@ To see the information below in a nice-looking table, click [[here|https://pste.
 
   - This email is also used for Cloudflare authentication (i.e. use this email in your Cloudflare account).
 
-- `cloudflare_api_token`: By filling this out, you will allow Cloudbox to register the subdomains to Cloudflare DNS (CDN/proxy off). By leaving it blank, all Cloudflare related functions will be ignored. 
+- `cloudflare_api_token`: By filling this out, you will allow Cloudbox to register the subdomains to Cloudflare DNS (CDN/proxy off), on your behalf, automatically. By leaving it blank, all Cloudflare related functions will be ignored. 
 
 - `nzbget`
 
