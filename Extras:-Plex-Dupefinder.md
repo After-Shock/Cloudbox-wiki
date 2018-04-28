@@ -199,7 +199,7 @@ The scoring is based on: non-configurable and configurable parameters.
 
 ### 7. Plex Token
 
-1. Obtain a Plex Access Token: See [[Plex Token]].
+1. Obtain a Plex Access Token: See [[Plex Access Token]].
 
 2. Add the Plex Access Token to `"PLEX_TOKEN"` so that it now appears as `"PLEX_TOKEN": "xxxxxxxxxxxxxx",`.
 
