@@ -33,6 +33,8 @@ _Note 1: Cloudbox has only been tested to work on on an AMD64 (ie 64 bit Intel a
 
 _Note 2: If you are using a Scaleway server, read [[this|FAQ#if-you-are-using-a-scaleway-server]]._
 
+_Note 3: If you are setting this up on a home server, make sure you open the relevant [[ports]] (eg `80`, `443`, etc) in your firewall/[router](https://portforward.com/router.htm), before installing Cloudbox._
+
 
 >Tips:
 >- If you have multiple hard drives on the server (eg. 2 x 4 TB), put them in RAID 0 to maximize space and speed, and enable weekly backups in Cloudbox.
