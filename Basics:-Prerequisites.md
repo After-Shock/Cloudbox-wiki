@@ -38,7 +38,7 @@ _Note 3: If you are setting this up on a home server, make sure you open the rel
 
 >Tips:
 >- If you have multiple hard drives on the server (eg. 2 x 4 TB), put them in RAID 0 to maximize space and speed, and enable weekly backups in Cloudbox.
->- Remove any `/home` or `/data` partitions and put all available space on `/`.
+>- Remove `/home` and `/data` partitions, and put all available space on `/`.
 >- Leave ample space in `/boot` (e.g. 4GB)
 >- See example here: https://i.imgur.com/2upULsG.png
 
