@@ -86,9 +86,9 @@ ARM is not supported.
 
    ![](https://i.imgur.com/8cfqjnR.png)
 
-1. You can now start the server.
+1. Start the server.
 
-1. You can skip [[updating the kernel|First Time Install: Updating Kernel]].
+1. You can now skip [[updating the kernel|First Time Install: Updating Kernel]].
 
 Reference: https://www.scaleway.com/docs/bootscript-and-how-to-use-it/
 
