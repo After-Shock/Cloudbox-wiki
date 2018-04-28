@@ -25,8 +25,8 @@ Which media item do you wish to keep for b'SEAL Team - 01x06 - The Spinning Whee
 
   choice  score        id  file                                                                                                        size     duration    bitrate     resolution          codecs
 --------  -------  ------  ----------------------------------------------------------------------------------------------------------  -------  ----------  ----------  ------------------  --------------------
-       1  107,850  338475  ['/data/TV/TV Shows/Seal Team/Season 01/SEAL.Team.S01E06.The.Spinning.Wheel.1080p.WEB.h264-NTB.mkv']        3.38 GB  00:43:47    10.78 Mbps  1080 (1920 x 1080)  h264, eac3 x 6
-       2  13,115   405635  ['/data/TV/TV Shows/Seal Team/Season 01/SEAL.Team.S01E06.The.Spinning.Wheel.720p.HDTV.x264-DIMENSION.mkv']  1.31 GB  00:00:00    0 Kbps      Unknown (0 x 0)     Unknown, Unknown x 0
+       1  107,850  338475  ['/data/TV/Seal Team/Season 01/SEAL.Team.S01E06.The.Spinning.Wheel.1080p.WEB.h264-NTB.mkv']                 3.38 GB  00:43:47    10.78 Mbps  1080 (1920 x 1080)  h264, eac3 x 6
+       2  13,115   405635  ['/data/TV/Seal Team/Season 01/SEAL.Team.S01E06.The.Spinning.Wheel.720p.HDTV.x264-DIMENSION.mkv']           1.31 GB  00:00:00    0 Kbps      Unknown (0 x 0)     Unknown, Unknown x 0
 
 Choose item to keep (0 = skip | b = best):
 
