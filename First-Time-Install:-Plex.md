@@ -129,6 +129,7 @@
 2. Set the following:
     - "Update all libraries during maintenance": `disabled`
     - "Upgrade media analysis during maintenance": `disabled`
+    - "Perform extensive media analysis during maintenance": `disabled`
 
 3. Click "SAVE CHANGES".
 
