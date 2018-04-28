@@ -110,7 +110,7 @@ Media will be stored in `Movies` and `TV` folders, all within a `Media` folder i
 
 If you have media in other folders, simply move them into these folders via the [Google Drive website](https://www.google.com/drive/).
 
-Note: All the paths/folders mentioned are **CASE SENSITIVE** (see  [[Basics: Paths]]).
+Note: All the paths/folders mentioned here and elsewhere, are **CASE SENSITIVE** (see  [[Basics: Paths]]).
 
 
 ## 5. Plex Account
