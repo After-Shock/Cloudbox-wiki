@@ -21,9 +21,14 @@ If you wish to learn more about them, you can easily find a ton of guides for th
 
 ## 2. Dedicated Server
 
-Get a server hosting company (e.g. Hetzner, online.net, kimsufi) with [Ubuntu Server 16.04 LTS (AMD64)](http://releases.ubuntu.com/xenial/) installed. 
+Get a server hosting company (e.g. Hetzner, online.net, kimsufi, etc) with [Ubuntu Server 16.04 LTS (AMD64)](http://releases.ubuntu.com/xenial/) installed. 
 
-_Note 1: Cloudbox has only been tested to work on on an AMD64 (ie 64 bit Intel and AMD machines). ARM based hardware is not supported._
+- When installing the server yourself, select `Install Ubuntu Server with the HWE kernel`. 
+
+  ![](https://i.imgur.com/nBCsD9E.png)
+
+
+_Note 1: Cloudbox has only been tested to work on on an AMD64 (ie 64 bit Intel and AMD machines). ARM based hardware is not currently supported._
 
 
 _Note 2: If you are using a Scaleway server, read [[this|FAQ#if-you-are-using-a-scaleway-server]]._
