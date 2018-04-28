@@ -21,7 +21,7 @@ If you wish to learn more about them, you can easily find a ton of guides for th
 
 ## 2. Dedicated Server
 
-Get a server hosting company (e.g. Hetzner, online.net, kimsufi, etc) with [Ubuntu Server 16.04 LTS (AMD64)](http://releases.ubuntu.com/xenial/) installed. 
+Get a server hosting company (e.g. Hetzner, kimsufi, OVH, Wholesaleinternet, etc) with [Ubuntu Server 16.04 LTS (AMD64)](http://releases.ubuntu.com/xenial/) installed. 
 
 - When installing the server yourself, select `Install Ubuntu Server with the HWE kernel`. 
 
