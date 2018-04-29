@@ -1,6 +1,8 @@
 ## 1. Editing Settings ##
 
   ```bash
+    cd ~/cloudbox/
+    cp ~/cloudbox/settings.yml.default ~/cloudbox/settings.yml
     nano ~/cloudbox/settings.yml
   ```
 
