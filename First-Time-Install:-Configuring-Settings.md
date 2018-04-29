@@ -1,10 +1,10 @@
 ## 1. Editing Settings ##
 
-  ```bash
-    cd ~/cloudbox/
-    cp settings.yml.default settings.yml
-    nano settings.yml
-  ```
+```bash
+cd ~/cloudbox/
+cp settings.yml.default settings.yml
+nano settings.yml
+```
 
 ## 2. Overview of Settings ## 
 
