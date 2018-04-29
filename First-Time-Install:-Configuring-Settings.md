@@ -2,8 +2,8 @@
 
   ```bash
     cd ~/cloudbox/
-    cp ~/cloudbox/settings.yml.default ~/cloudbox/settings.yml
-    nano ~/cloudbox/settings.yml
+    cp settings.yml.default settings.yml
+    nano settings.yml
   ```
 
 ## 2. Overview of Settings ## 
