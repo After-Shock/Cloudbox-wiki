@@ -8,6 +8,8 @@ nano settings.yml
 
 ## 2. Overview of Settings ## 
 
+`settings.yml.default`:
+
 ```yaml
 ---
 user: seed
