@@ -28,7 +28,7 @@
     ![Plex Claim Token Shown](http://i.imgur.com/ubnNg3I.png)
 
 
-6. You must now reboot.
+6. You must now reboot (this is important):
     ```bash
     sudo reboot
      ```
