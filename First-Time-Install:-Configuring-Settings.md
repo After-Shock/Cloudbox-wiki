@@ -59,15 +59,15 @@ To see the information below in a nice-looking table, click [[here|https://pste.
 
   - Note 1: Password **must** be in alphanumeric characters. No special characters. 
 
-  - Note 2: You can leave it as empty quotes (`""`) if an account already exists.
+  - Note 2: You can leave it as empty quotes (`""`) if the account already exists.
 
 - `domain`: Domain name for the Cloudbox server. If you don't have one, see [[Prerequisites| Basics: Prerequisites#3-domain-name]].
 
-- `email`: Your e-mail address.
+- `email`: E-mail address.
 
-  - This email will be used to register the Let's Encrypt SSL certifications. You will get certification expiration notices to this e-mail address. 
+  - This email will be used to register the Let's Encrypt SSL certificates and where you will receive certificate expiration notices.
 
-  - This email is also used for Cloudflare authentication (i.e. use this email in your Cloudflare account).
+  - This email is also used for Cloudflare authentication (i.e. use this email for your Cloudflare account).
 
 - `cloudflare_api_token`: By filling this out, you will allow Cloudbox to register the subdomains to Cloudflare DNS on your behalf, automatically. By leaving it blank, all Cloudflare related functions will be ignored. 
 
@@ -149,4 +149,5 @@ To see the information below in a nice-looking table, click [[here|https://pste.
 ## 3. Saving Settings ## 
 
 - `Ctrl-x`, `y`, and `enter` to save.
+
 
