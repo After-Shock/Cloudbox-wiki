@@ -53,13 +53,15 @@ To see the information below in a nice-looking table, click [[here|https://pste.
 ---
 
 
-- `user`: User account for Cloudbox. If user account with this name does not already exist, it will be created for you. Default is `seed`. This parameter is required.
+- `user`: User account for the server. If user account with this name does not already exist, it will be created for you. Default is `seed`. This parameter is required.
 
-- `passwd`: Password for new account. You can leave it as empty quotes (`""`) if an account was already created. 
+- `passwd`: Password for the user account. This parameter is required.
 
-  - Note: Password **must** be in alphanumeric characters. No special characters. 
+  - Note 1: Password **must** be in alphanumeric characters. No special characters. 
 
-- `domain`: Your domain name. To be used to access your Cloudbox server. If you don't have one, see [[Prerequisites| Basics: Prerequisites#3-domain-name]].
+  - Note 2: You can leave it as empty quotes (`""`) if an account already exists.
+
+- `domain`: Domain name for the Cloudbox server. If you don't have one, see [[Prerequisites| Basics: Prerequisites#3-domain-name]].
 
 - `email`: Your e-mail address.
 
