@@ -70,7 +70,7 @@ To see the information below in a nice-looking table, click [[here|https://pste.
 
 - `cloudflare_api_token`: By filling this out, you will allow Cloudbox to register the subdomains to Cloudflare DNS on your behalf, automatically. By leaving it blank, all Cloudflare related functions will be ignored. 
 
-   - Note: CDN/Proxy settings will be left off. 
+   - Note: CDN/Proxy settings will be left off. You may chose to turn them on if you like.
 
 - `nzbget`
 
