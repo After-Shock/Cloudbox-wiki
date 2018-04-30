@@ -2,7 +2,7 @@
 
 - [Intro](#intro)
 - [Scenario 1](#scenario-1) (recommended; somewhat user-friendly)
-- [Scenario 2](#scenario-2) (not recommended; a bit more complicated)
+- [Scenario 2](#scenario-2) (not recommended; a bit more complicated; requires modifying Radarr/Sonarr root paths)
 
 <!-- /TOC -->
 
