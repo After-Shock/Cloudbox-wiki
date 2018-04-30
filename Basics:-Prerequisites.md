@@ -31,6 +31,11 @@ _Note 2: If you are using a Scaleway server, read [[this|FAQ#if-you-are-using-a-
 
 _Note 3: If you are setting this up on a home server, make sure you open the relevant [[ports]] (eg `80`, `443`, etc) in your [router](https://portforward.com/router.htm)/firewall, before installing Cloudbox._
 
+>Tips:
+>- If you have multiple hard drives on the server (eg. 2 x 4 TB), put them in RAID 0 to maximize space and speed, and enable weekly backups in Cloudbox.
+>- Remove `/home` and `/data` partitions, and set all available space on `/`.
+>- Leave ample space in `/boot` (e.g. 4GB)
+>- See example here: https://i.imgur.com/2upULsG.png
 
 - When installing the server yourself, select `Install Ubuntu Server with the HWE kernel`. 
 
@@ -42,11 +47,7 @@ _Note 3: If you are setting this up on a home server, make sure you open the rel
 
 
 
->Tips:
->- If you have multiple hard drives on the server (eg. 2 x 4 TB), put them in RAID 0 to maximize space and speed, and enable weekly backups in Cloudbox.
->- Remove `/home` and `/data` partitions, and set all available space on `/`.
->- Leave ample space in `/boot` (e.g. 4GB)
->- See example here: https://i.imgur.com/2upULsG.png
+
 
 ## 3. Domain Name
 
