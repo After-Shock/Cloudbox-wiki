@@ -27,6 +27,9 @@ Get a server hosting company (e.g. Hetzner, kimsufi, OVH, Wholesaleinternet, etc
 
   ![](https://i.imgur.com/nBCsD9E.png)
 
+- Example from Hetzner: 
+
+  ![](https://i.imgur.com/DcZAAWM.png)
 
 _Note 1: Cloudbox has only been tested to work on on an AMD64 (ie 64 bit Intel and AMD machines). ARM based hardware is not currently supported._
 
