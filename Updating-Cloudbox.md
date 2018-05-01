@@ -1,4 +1,4 @@
-Updating Cloudbox is not required, but if you may do so to keep your Cloudbox up-to-date with new additions/changes etc. 
+If you want to keep your Cloudbox up-to-date with new additions/changes etc, then follow the guide below. 
 
 _Note 1: You will not lose your config files (e.g. Plex/Sonarr/Radarr libraries, etc) as that is stored in `/opt`, but it is still prudent to have a recent [[backup | Backup and Restore#backup]], anyway._ 
 
@@ -7,106 +7,49 @@ _Note 2: You will not lose any custom/extra Docker containers you have installed
 Steps to update Cloudbox are below.
 
 
-1. Pull the latest changes:
+1. Pull the latest changes (your `settings.yml` file will remain intact).
 
    ```bash
-   cd ~/cloudbox
-   git pull
+   cd ~/cloudbox && git pull
    ```
 
-   - If it says only the `settings.yml` file has been modified, like... 
+1. If you get any errors during `git pull`, you will need to reset the Cloudbox git folder (i.e. `~/cloudbox/`). 
 
-
-      ```
-      error: Your local changes to the following files would be overwritten by merge:
-          settings.yml
-      Please, commit your changes or stash them before you can merge.
-      ```
-
-      You'll need to do the following: 
-      
-      1. Make a backup of the settings.yml file
-
-          ```
-          cp settings.yml ~/
-          ```
-
-      2. Delete the old settings.yml file
-
-          ```
-          rm settings.yml
-          ```
-
-      3. Pull the latest changes
-
-          ```
-          git pull
-          ```
-      
-
-      4. Edit settings.yml 
-
-          You will need to edit this new [[settings.yml|First Time Install: Configuring Settings]] file and replace the default variables with the ones from your saved one (`~/settings.yml`). 
-
-          Note: Do not just replace/overwrite the settings.yml file with your backed up one, as this error typically indicates the default settings.yml has been modified (e.g. new variables have been added).
-
-    - If it says a lot of files have been modified, like... 
-
-      ```
-      error: Your local changes to the following files would be overwritten by merge:
-          .github/cloudbox-animated.gif
-          README.md
-          cloudbox.yml
-          docs/CHANGELOG.md
-          roles/radarr/tasks/main.yml
-          roles/restore/tasks/main.yml
-          roles/rutorrent/tasks/main.yml
-          roles/scripts/tasks/main.yml
-          roles/sonarr/tasks/main.yml
-          settings.yml
-      Please, commit your changes or stash them before you can merge.
-      ```
-
-      You'll need to do the following: 
-      
-      1. Make a backup of the settings.yml file
-
-          ```
-          cp settings.yml ~/
-          ```
-
-      2. Reset the git folder
-
-          ```
-          git reset --hard origin/master
-          ```
-
-      3. Pull the latest changes
-
-          ```
-          git pull
-          ```
-  
-      4. Edit settings.yml 
-
-          Compare your previous settings.yml file with the new one. If there are any changes (e.g. new variables added), you will need to edit the [[settings.yml|First Time Install: Configuring Settings]] and bring your previous info over. 
-
-          Note: Resetting the git clone will not reset your config files (e.g. `/opt`); it will merely update the Cloudbox installer files located in `~/cloudbox`.
-
-2. (Optional) If you want to check out the Develop branch, follow these steps:
-
-   ```
-   git checkout develop
+   If you are on the `develop` branch:
+   ```bash
+   git reset --hard origin/master
    ```
 
+   If you are on the `develop` branch:
+   ```bash
+   git reset --hard origin/develop
+   ```
 
-3. You can now run the Cloudbox installer with your preferred [[tag|First Time Install: Installing-Cloudbox]]. Your existing data (i.e. UnionFS Cleaner, Plex Autoscan, App configs, etc) will remain intact and you will not be asked for a Plex Claim Token if you've already setup Plex.
+1. Run the Cloudbox installer with your preferred [[tag|First Time Install: Installing-Cloudbox]]. 
+
+   Note: Your existing data (i.e. UnionFS Cleaner, Plex Autoscan, App configs, etc) will remain intact and you will not be asked for a Plex Claim Token if you've already setup Plex.
 
    ```bash
    sudo ansible-playbook cloudbox.yml --tags full
    ```
+   
+1. If new variables (e.g. new features) are to be added to your `settings.yml file`, you will get a message before Cloudbox (prematurely) exists:
 
-4. Reboot (_you should always perform a reboot after installing Cloudbox_).
+   ```
+   TASK [settings : Check 'settings-updater.py' run status for new settings] **********************************************************************************************************************************************************
+   Tuesday 01 May 2018  14:54:42 +0200 (0:00:00.019)       0:00:03.900 ***********
+   fatal: [localhost]: FAILED! => {"changed": false, "failed": true, "msg": "The script 'settings_updater.py' added new settings. Check `settings-updater.log` for details of new setting names added."}
+          to retry, use: --limit @/home/seed/cloudbox/cloudbox.retry
+
+   PLAY RECAP *************************************************************************************************************************************************************************************************************************
+   localhost                  : ok=8    changed=1    unreachable=0    failed=1
+   ```
+
+1. Take a look at your `settings.yml` file and/or the `settings_updater.log` log file to see what was added. 
+
+1. After making any necessary changes to your `settings.yml` file, re-run the Cloudbox installer.
+
+1. Reboot when the install completes.
 
    ```bash
    sudo reboot
