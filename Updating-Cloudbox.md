@@ -4,8 +4,7 @@ _Note 1: You will not lose your config files (e.g. Plex/Sonarr/Radarr libraries,
 
 _Note 2: You will not lose any custom/extra Docker containers you have installed (though they may be stopped and require starting manually), since running/updating Cloudbox only updates Cloudbox related apps and docker containers._
 
-Steps to update Cloudbox are below.
-
+Steps to update Cloudbox are as follows:
 
 1. Pull the latest changes (your `settings.yml` file will remain intact).
 
