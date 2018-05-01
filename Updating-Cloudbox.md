@@ -15,7 +15,7 @@ Steps to update Cloudbox are below.
 
 1. If you get any errors during `git pull`, you will need to reset the Cloudbox git folder (i.e. `~/cloudbox/`). 
 
-   If you are on the `develop` branch:
+   If you are on the `master` branch (default):
    ```bash
    git reset --hard origin/master
    ```
