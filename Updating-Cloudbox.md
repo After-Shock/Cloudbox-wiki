@@ -12,6 +12,7 @@ Steps to update Cloudbox are as follows:
    ```bash
    cd ~/cloudbox && git pull
    ```
+   _Note: your `settings.yml` file will remain intact._ 
 
 1. If you get any errors during `git pull`, you will need to reset the Cloudbox git folder (i.e. `~/cloudbox/`).
 
