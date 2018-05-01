@@ -25,7 +25,7 @@ Steps to update Cloudbox are below.
    git reset --hard origin/develop
    ```
 
-1. Run the Cloudbox installer with your preferred [[tag|First Time Install: Installing-Cloudbox]]. 
+1. Run the Cloudbox installer with your preferred [["tag"|First Time Install: Installing-Cloudbox]]. 
 
    Note: Your existing data (i.e. UnionFS Cleaner, Plex Autoscan, App configs, etc) will remain intact and you will not be asked for a Plex Claim Token if you've already setup Plex.
 
