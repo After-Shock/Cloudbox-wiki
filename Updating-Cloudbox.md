@@ -15,8 +15,6 @@ Steps to update Cloudbox are as follows:
 
 1. If you get any errors during `git pull`, you will need to reset the Cloudbox git folder (i.e. `~/cloudbox/`).
 
-   _Note: your `settings.yml` file will remain intact)._ 
-
    If you are on the `master` branch (default):
    ```bash
    git reset --hard origin/master
@@ -26,6 +24,8 @@ Steps to update Cloudbox are as follows:
    ```bash
    git reset --hard origin/develop
    ```
+   
+   _Note: your `settings.yml` file will remain intact._ 
 
 1. Run the Cloudbox installer with your preferred [["tag"|First Time Install: Installing-Cloudbox]]. 
 
