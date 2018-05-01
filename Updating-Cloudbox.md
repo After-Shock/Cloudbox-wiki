@@ -4,6 +4,8 @@ _Note 1: You will not lose your config files (e.g. Plex/Sonarr/Radarr libraries,
 
 _Note 2: You will not lose any custom/extra Docker containers you have installed (though they may be stopped and require starting manually), since running/updating Cloudbox only updates Cloudbox related apps and docker containers._
 
+_Note 3: your `settings.yml` file will remain intact._ 
+
 
 Steps to update Cloudbox are as follows:
 
@@ -12,7 +14,6 @@ Steps to update Cloudbox are as follows:
    ```bash
    cd ~/cloudbox && git pull
    ```
-   _Note: your `settings.yml` file will remain intact._ 
 
 1. If you get any errors during `git pull`, you will need to reset the Cloudbox git folder (i.e. `~/cloudbox/`).
 
@@ -25,8 +26,6 @@ Steps to update Cloudbox are as follows:
    ```bash
    git reset --hard origin/develop
    ```
-   
-   _Note: your `settings.yml` file will remain intact._ 
 
 1. Run the Cloudbox installer with your preferred [["tag"|First Time Install: Installing-Cloudbox]]. 
 
