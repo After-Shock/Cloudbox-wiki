@@ -57,7 +57,7 @@ _Note: If you decide to change your username after Cloudbox install, you will ne
 
 ## 3. SSH Access
 
-From now on, you will log into your server with the above account (not `root`).
+From now on, you will log into your server with the above account (not with root).
 
 Example:
 ```bash
