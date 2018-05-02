@@ -1,8 +1,11 @@
-## 1. Setup
+## 1. Forward 
 
-_We recommend that you **NOT** use root to login and setup Cloudbox. Definitely **DO NOT** mix and match with 2 different accounts (i.e. setup some parts in root and others in a non-root account), doing so will break apps from functioning._ <br/>
+We recommend that you **NOT** use root to login and setup Cloudbox. Definitely **DO NOT** mix and match with 2 different accounts (i.e. setup some parts in root and others in a non-root account), doing so will break apps from functioning.<br/>
 
 **_TLDR: Do not use root acount to setup Cloudbox._**
+
+## 2. Setup
+
 
 Choose **ONE** of the following:
 
@@ -52,7 +55,7 @@ Set `user` in [[settings.yml|First Time Install: Configuring Settings]] to your 
 _Note: If you decide to change your username after Cloudbox install, you will need to update the service.d files with your new username/group, see [[FAQ|FAQ#error-process-xxxxx-execstopbinfusermount--uz-mntplexdrive-codeexited-status217user]]._
 
 
-## 2. SSH Access
+## 3. SSH Access
 
 From now on, you will log into your server via the above account.
 
