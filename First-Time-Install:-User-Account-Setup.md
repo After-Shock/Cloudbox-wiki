@@ -61,5 +61,7 @@ From now on, you will log into your server with the above account (not with root
 
 Example:
 ```bash
-ssh seed@serveripaddress
+ssh user@serveripaddress
 ```
+
+_Note: Eventually, the server IP address will/can be replaced with cloudbox.domain.com._
