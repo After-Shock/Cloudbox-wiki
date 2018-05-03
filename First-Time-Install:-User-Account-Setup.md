@@ -1,6 +1,6 @@
 ## 1. Forward 
 
-We recommend that you **NOT** use root to login and setup Cloudbox. And definitely **DO NOT** mix and match with 2 different accounts (i.e. setup some parts in root and others in a non-root account), doing so will break apps from functioning.<br/>
+We recommend that you **NOT** use root to login and setup Cloudbox. And definitely **DO NOT** mix and match with 2 different accounts (i.e. setup some parts in root and others in a non-root account), doing so will prevent apps from functioning, properly.<br/>
 
 **_TLDR: Do not use root acount to setup Cloudbox._**
 
