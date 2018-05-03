@@ -64,4 +64,4 @@ Example:
 ssh user@serveripaddress
 ```
 
-_Note: Eventually, the server IP address will/can be replaced with cloudbox.domain.com._
+_Eventually, the server IP address can be replaced with cloudbox.domain.com._
