@@ -1,4 +1,4 @@
-[Plexdrive](https://github.com/dweidenfeld/plexdrive) (by Dominik Weidenfeld) is an app that mounts your Google Drive on to your server. It works better than others mounting solutions because it caches the stream data in RAM, which also helps prevent potential Google Drive bans. 
+[Plexdrive](https://github.com/dweidenfeld/plexdrive) (by Dominik Weidenfeld) is an app that mounts Google Drive on a server. It works better than others mounting solutions because it caches the stream data for smooth playback of media and and prevention Google Drive API bans. 
 
 _Note: If your server has < 16GB of RAM, give [[this|FAQ#server-ram-is-being-maxed-out]] a read after finishing the steps below._
 
