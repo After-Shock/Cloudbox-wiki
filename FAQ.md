@@ -139,7 +139,7 @@ id `whoami`
 You'll see a line like the following:
 
 ```
-uid=1000(yourusername) gid=1001(yourgroup) groups=1001(yourgroup)
+uid=XXXX(yourusername) gid=XXXX(yourgroup) groups=XXXX(yourgroup)
 ```
 
 
