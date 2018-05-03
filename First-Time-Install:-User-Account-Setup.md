@@ -39,7 +39,7 @@ sudo chsh -s /bin/bash <username>
 su <username>
 ```
 
-Set `user` in [[settings.yml|First Time Install: Configuring Settings]] to your username and replace all mentions of `seed:seed` in the wiki with your `username:groupname`.
+Set `user` in [[settings.yml|First Time Install: Configuring Settings]] to your username.
 
 _Note: If you decide to change your username after Cloudbox install, you will need to update the service.d files with your new username/group, see [[FAQ|FAQ#error-process-xxxxx-execstopbinfusermount--uz-mntplexdrive-codeexited-status217user]]._
 
