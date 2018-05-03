@@ -193,7 +193,7 @@ If no updates, stop anyway.
 
 #### Make Plex scan a specific folder
 
-You'll need to the [[Plex Library Section IDs]]. 
+You'll need to get the [[Plex Library Section IDs]]. 
 
 
 Replace `<section ID>` and `<movie or tv show path>` in the following command:
