@@ -79,7 +79,7 @@
    >   https://github.com/desimaniac/docs/blob/master/my_sonarr_and_radarr_naming_preferences.md
    >
    >   Example:  <br />
-   >   /Gotham/Season 01/Gotham.S01E01.Pilot.1080p.BluRay.x264-DEMAND.mkv
+   >   /Gotham/Season 01/Gotham.S01E01.1080p.BluRay.x264-DEMAND.mkv
    
 
 
