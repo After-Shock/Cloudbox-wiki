@@ -65,8 +65,8 @@
 #### Docs coming soon for ... ####
 - Ombi
 - Emby
-- Radarr4K (`develop` branch)
-- Heimdall (`develop` branch)
+- Radarr4K 
+- Heimdall
 
 
 ## Misc Guides ##
