@@ -53,8 +53,8 @@ _Last updated: May 1, 2018._
 - [[Adding a Subdomain | Extras: Adding a Subdomain]] (required for most containers)
 - [[Nextcloud | Extras: Nextcloud]]
 - [[Resilio Sync | Extras: Resilio Sync]]
-- [[Plex Dupefinder | Extras: Plex Dupefinder]] (`develop` branch)
-- [[ Heimdall | Extras: Heimdall ]] (`develop` branch) (submitted by _Captain-NaCl_)
+- [[Plex Dupefinder | Extras: Plex Dupefinder]] 
+- [[ Heimdall | Extras: Heimdall ]] (submitted by _Captain-NaCl_)
 
 #### Docs coming soon for ... ####
 - Ombi
