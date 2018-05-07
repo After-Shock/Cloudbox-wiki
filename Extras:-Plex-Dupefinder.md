@@ -31,6 +31,13 @@ Which media item do you wish to keep for b'SEAL Team - 01x06 - The Spinning Whee
 Choose item to keep (0 = skip | b = best):
 
 ```
+[![asciicast](https://asciinema.org/a/180157.png)](https://asciinema.org/a/180157)
+
+
+<script src="https://asciinema.org/a/180157.js" id="asciicast-180157" async></script>
+
+https://asciinema.org/a/180157
+
 
 _Note: For Feederbox/Plexbox setups, this can be install in either system._ 
 
