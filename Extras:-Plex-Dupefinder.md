@@ -31,12 +31,7 @@ Which media item do you wish to keep for b'SEAL Team - 01x06 - The Spinning Whee
 Choose item to keep (0 = skip | b = best):
 
 ```
-[![asciicast](https://asciinema.org/a/180157.png)](https://asciinema.org/a/180157)
 
-
-<script src="https://asciinema.org/a/180157.js" id="asciicast-180157" async></script>
-
-https://asciinema.org/a/180157
 
 
 _Note: For Feederbox/Plexbox setups, this can be install in either system._ 
@@ -51,6 +46,10 @@ The scoring is based on: non-configurable and configurable parameters.
   - Note: bitrate, duration, height, width, audio channel, audio and video codecs, video resolutions (e.g. SD, 480p, 720p, 1080p, 4K, etc), and file sizes are all taken from the metadata Plex retrieves during media analysis.
 
 ---
+# Demo 
+
+[![asciicast](https://asciinema.org/a/180157.png)](https://asciinema.org/a/180157)
+
 
 # First Time Setup
 
