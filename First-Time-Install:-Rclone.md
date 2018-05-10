@@ -1,4 +1,6 @@
-Rclone is used by [[UnionFS Cleaner]] and [[Backup|Backup-and-Restore]] to upload your media and backup, respectively. 
+[Rclone](https://rclone.org) (by Nick Craig-Wood) is "rsync for the cloud". Basically, it is used to transfer data to or from a variety of supported cloud storage providers (eg Google Drive). 
+
+Rclone is used by [[UnionFS Cleaner]] and [[Backup|Backup-and-Restore]] to upload media and backup Cloudbox, respectively. 
 
 
 ## New Rclone Setup
