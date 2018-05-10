@@ -12,7 +12,7 @@
 ## Intro
 
 
-[NZBHydra](https://github.com/theotherp/nzbhydra) (by @theotherp) is a meta search tool for NZB indexers. It provides easy access to a number of NZB indexers. You can search all your indexers from one place and use it as indexer source for tools like Sonarr or CouchPotato.
+[NZBHydra](https://github.com/theotherp/nzbhydra) (by TheOtherP) is a meta search tool for NZB indexers. It provides easy access to a number of NZB indexers. You can search all your indexers from one place and use it as indexer source for tools like Sonarr or CouchPotato.
 
 
 ![](https://i.imgur.com/FZnV0Ru.png)
