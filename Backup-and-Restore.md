@@ -41,13 +41,13 @@ _Note: If you wish to move your Cloudbox to another server, see [[Migrating Clou
 | Jackett                   | `/opt/jackett/`           | `/opt/jackett/`          |
 | Portainer                 | `/opt/portainer/`         | `/opt/portainer/`        |
 | Organizr                  | `/opt/organizr/`          | `/opt/organizr/`         |
-| Nginx config              | `/opt/nginx/`             | `/opt/nginx/`            |
-| SSL Certificates          | `/opt/nginx-proxy/`       | `/opt/nginx-proxy/`      |
+| Nginx Proxy               | `/opt/nginx-proxy/`       | `/opt/nginx-proxy/`      |
+| Let's Encrypt SSL Certificates | `/opt/nginx-proxy/`  | `/opt/nginx-proxy/`      |
 | Plex Autoscan             | `/opt/plex_autoscan/`     | `/opt/plex_autoscan/`    |
 | Unionfs Cleaner           | `/opt/unionfs_cleaner/`   | `/opt/unionfs_cleaner/`  |
-| Systemd Service           | `/etc/systemd/system/`    | `/opt/systemd/`          |
-| Cloudbox settings         | `~/cloudbox/settings.yml` | `/opt/settings.yml`      |
-| Rclone config             | `~/cloudbox/rclone.conf`  | `/opt/rclone/rclone.conf`| 
+| Systemd Service           | `/etc/systemd/system/`    |                          |
+| Cloudbox settings         | `~/cloudbox/settings.yml` |                          |
+| Rclone config             | `~/cloudbox/rclone.conf`  | `~/.config/rclone/rclone.conf`| 
 
 
 # Backup
