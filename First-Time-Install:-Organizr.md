@@ -1,20 +1,24 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:1 -->
 
-1. [Accessing Organizr](#1-accessing-organizr)
-2. [Initial Setup](#2-initial-setup)
-3. [Settings](#3-settings)
+1. [Intro](#1-intro)
+2. [Accessing Organizr](#2-accessing-organizr)
+3. [Initial Setup](#3-initial-setup)
+4. [Settings](#4-settings)
 	- [Tabs](#tabs)
 	- [Homepage](#homepage)
 
 <!-- /TOC -->
 ---
+## 1. Intro
+
+[Organizr](https://organizr.app/) (by _causefx_) is a web-based server apps organizer, that allows you to manage various tools and programs with tabs within Organizr. Also supports user management, allowing for non admin users or guests to access certain web-pages via Organizr, even if it is behind HTTP authentication. 
 
 
-## 1. Accessing Organizr
+## 2. Accessing Organizr
 
 - To access Organizr, visit https://organizr._yourdomain_.com
 
-## 2. Initial Setup
+## 3. Initial Setup
 
 1. First time you go to the Organizr page, you will be presented with a "DATABASE PATH" screen. Leave "Database Location" as `/config/www` and set the "Timezone" to where you reside. Click "SAVE LOCATION".
 
@@ -25,7 +29,7 @@
     ![Create Admin](https://i.imgur.com/O20Swhy.png)
 
 
-## 3. Settings
+## 4. Settings
 
 1. You will now be taken to the main Organizr Page.
 
