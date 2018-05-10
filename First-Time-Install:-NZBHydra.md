@@ -14,15 +14,17 @@
 
 [NZBHydra](https://github.com/theotherp/nzbhydra) (by @theotherp) is a meta search tool for NZB indexers. It provides easy access to a number of NZB indexers. You can search all your indexers from one place and use it as indexer source for tools like Sonarr or CouchPotato.
 
+
+![](https://i.imgur.com/FZnV0Ru.png)
+
+
 _Note: By default, Cloudbox will install NZBHydra1. Once NZBHydra2 is out of beta, it will be replaced the current one (you may still install NZBHydra2, if you decide)._ 
 
-
-<pre>
-Personally, I add all my indexers in to NZBHydra but I don't connect it with 
-Sonarr or Radarr. Instead, I add all my indexers into Sonarr and Radarr, as 
-well, and use NZBHydra as a separate tool to see what's available online and, if 
-need be, to send it directly to NZBGet.
-</pre>
+> Desimaniac's tips:
+> Personally, I add all my indexers in to NZBHydra but I don't connect it with 
+> Sonarr or Radarr. Instead, I add all my indexers into Sonarr and Radarr, as 
+> well, and use NZBHydra as a separate tool to see what's available online and, if 
+> need be, to send it directly to NZBGet.
 
 
 ## URL
