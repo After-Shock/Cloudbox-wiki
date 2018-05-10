@@ -24,9 +24,9 @@
 - Configuration files for all key applications are conveniently stored in /opt, which makes backup so easy. Easily pack up your server and move to another one with Cloudbox's built-in Backups feature. 
 
 
-### Cloud Storage Powered by Google Drive
+### Cloud Storage
 
-- Unlimited Storage with Google Drive (Gsuites). 
+- Store media on cloud storage to save on local drive space. 
 
  
 ### Can Choose Your Preferred Media Server Application
