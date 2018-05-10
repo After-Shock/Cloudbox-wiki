@@ -1,16 +1,24 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:1 -->
 
+1. [Intro](#1-accessing-plexpy)
 1. [Accessing PlexPy](#1-accessing-plexpy)
 2. [Setup Wizard](#2-setup-wizard)
 3. [Settings](#3-settings)
 
 <!-- /TOC -->
 ---
-## 1. Accessing PlexPy
+## 1. Intro
+
+[PlexPy](http://tautulli.com/) (Tautulli), by JonnyWong16, is a web-based application runs alongside the Plex Media Server to monitor activity and track various statistics (eg most watched media). 
+
+![](https://i.imgur.com/cyHtbaK.jpg)
+
+
+## 2. Accessing PlexPy
 
 - To access PlexPy, visit https://plexpy._yourdomain_.com
 
-## 2. Setup Wizard
+## 3. Setup Wizard
 
 1. First time you go to the PlexPy site, you will be presented with the "Tautulli Setup Wizard". Click `Next`.
 
@@ -43,7 +51,7 @@
 
     ![](https://i.imgur.com/4Rc5eaE.png)
 
-## 3. Settings
+## 4. Settings
 
 1. Once the PlexPy page comes up, go to "Settings".
 
