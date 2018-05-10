@@ -42,7 +42,7 @@ _Note: If you wish to move your Cloudbox to another server, see [[Migrating Clou
 | Portainer                 | `/opt/portainer/`         | `/opt/portainer/`        |
 | Organizr                  | `/opt/organizr/`          | `/opt/organizr/`         |
 | Nginx Proxy               | `/opt/nginx-proxy/`       | `/opt/nginx-proxy/`      |
-| Let's Encrypt SSL Certificates | `/opt/nginx-proxy/`  | `/opt/nginx-proxy/`      |
+| SSL Certificates | `/opt/nginx-proxy/`  | `/opt/nginx-proxy/`      |
 | Plex Autoscan             | `/opt/plex_autoscan/`     | `/opt/plex_autoscan/`    |
 | Unionfs Cleaner           | `/opt/unionfs_cleaner/`   | `/opt/unionfs_cleaner/`  |
 | Systemd Service           | `/etc/systemd/system/`    |                          |
