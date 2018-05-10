@@ -2,7 +2,7 @@ You can use this guide to keep your Cloudbox up-to-date with new additions/chang
 
 ## A Few Points
 
- - You will not lose your config files (e.g. Plex/Sonarr/Radarr libraries, etc) as that is stored in `/opt`, but it is still prudent to have a recent [[backup | Backup and Restore#backup]], anyway.
+ - You will not lose your existing data (e.g. Plex/Sonarr/Radarr libraries, configs, etc) as that is stored in `/opt`, but it is still prudent to have a recent [[backup | Backup and Restore#backup]], anyway.
 
  - You will not lose any custom/extra Docker containers you have installed since only Cloudbox related apps and Docker containers are rebuilt. 
 
@@ -31,7 +31,6 @@ You can use this guide to keep your Cloudbox up-to-date with new additions/chang
 
 1. Run the Cloudbox installer with your preferred [["tag"|First Time Install: Installing-Cloudbox]]. 
 
-   _Note: Your existing data (i.e. UnionFS Cleaner, Plex Autoscan, App configs, etc) will remain intact and you will not be asked for a Plex Claim Token if you've already setup Plex._
 
    ```bash
    sudo ansible-playbook cloudbox.yml --tags full
