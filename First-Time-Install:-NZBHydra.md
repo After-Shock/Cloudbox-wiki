@@ -12,9 +12,9 @@
 ## Intro
 
 
->NZBHydra is a meta search for NZB indexers. It provides easy access to a number of raw and newznab based >indexers. You can search all your indexers from one place and use it as indexer source for tools like Sonarr or >CouchPotato.
+[NZBHydra](https://github.com/theotherp/nzbhydra) (by @theotherp) is a meta search tool for NZB indexers. It provides easy access to a number of NZB indexers. You can search all your indexers from one place and use it as indexer source for tools like Sonarr or CouchPotato.
 
-_Note: By default, Cloudbox will install NZBHydra1. Once NZBHydra2 is out of beta, it will be replaced the current one (you may install NZBHydra2 later, if you decide)._ 
+_Note: By default, Cloudbox will install NZBHydra1. Once NZBHydra2 is out of beta, it will be replaced the current one (you may still install NZBHydra2, if you decide)._ 
 
 
 <pre>
