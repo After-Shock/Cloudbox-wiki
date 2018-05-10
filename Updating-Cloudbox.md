@@ -36,21 +36,23 @@ You can use this guide to keep your Cloudbox up-to-date with new additions/chang
    sudo ansible-playbook cloudbox.yml --tags full
    ```
    
-1. If new variables (e.g. new features) are to be added to your `settings.yml file`, you will get a message before Cloudbox (prematurely) exists:
+1. If new variables were added to the `settings.yml` file...
 
-   ```
-   TASK [settings : Check 'settings-updater.py' run status for new settings] **********************************************************************************************************************************************************
-   Tuesday 01 May 2018  14:54:42 +0200 (0:00:00.019)       0:00:03.900 ***********
-   fatal: [localhost]: FAILED! => {"changed": false, "failed": true, "msg": "The script 'settings_updater.py' added new settings. Check `settings-updater.log` for details of new setting names added."}
-          to retry, use: --limit @/home/seed/cloudbox/cloudbox.retry
+   1. You will get the following message before Cloudbox exists:
 
-   PLAY RECAP *************************************************************************************************************************************************************************************************************************
-   localhost                  : ok=8    changed=1    unreachable=0    failed=1
-   ```
+      ```
+      TASK [settings : Check 'settings-updater.py' run status for new settings] **********************************************************************************************************************************************************
+      Tuesday 01 May 2018  14:54:42 +0200 (0:00:00.019)       0:00:03.900 ***********
+      fatal: [localhost]: FAILED! => {"changed": false, "failed": true, "msg": "The script 'settings_updater.py' added new settings. Check `settings-updater.log` for details of new setting names added."}
+             to retry, use: --limit @/home/seed/cloudbox/cloudbox.retry
 
-1. Take a look at your `settings.yml` file and/or the `settings_updater.log` log file to see what was added. 
+      PLAY RECAP *************************************************************************************************************************************************************************************************************************
+      localhost                  : ok=8    changed=1    unreachable=0    failed=1
+      ```
 
-1. After making any necessary changes to your `settings.yml` file, re-run the Cloudbox installer.
+   1. Take a look at your `settings.yml` file and/or the `settings_updater.log` log file to see what was added. 
+
+   1. After making any necessary changes to your `settings.yml` file, re-run the Cloudbox installer (Step #3).
 
 1. Reboot when the install completes.
 
