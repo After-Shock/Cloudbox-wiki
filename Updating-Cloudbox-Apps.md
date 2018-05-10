@@ -38,19 +38,19 @@ Alternatively, you can rebuild the docker container, outright.  This is particul
 Run the following commands in `~/cloudbox/`.
 
 
-| Cloudbox Docker-based Apps  | How to rebuild                                                  |
+| Cloudbox Docker-based Apps  | How to rebuild (`sudo ansible-playbook cloudbox.yml --tags `)                                                 |
 |:--------------------------- |:--------------------------------------------------------------- |
-| Plex                        | `sudo ansible-playbook cloudbox.yml --tags update-plex`         |
-| PlexPy                      | `sudo ansible-playbook cloudbox.yml --tags update-plexpy`       |
-| Sonarr                      | `sudo ansible-playbook cloudbox.yml --tags update-sonarr`       |
-| Radarr                      | `sudo ansible-playbook cloudbox.yml --tags update-radarr`       |
-| NZBGet                      | `sudo ansible-playbook cloudbox.yml --tags update-nzbget`       |
-| ruTorrent                   | `sudo ansible-playbook cloudbox.yml --tags update-rutorrent`    | 
-| Jackett                     | `sudo ansible-playbook cloudbox.yml --tags update-jackett`      |
-| NZB Hydra                   | `sudo ansible-playbook cloudbox.yml --tags update-nzbhydra`     |
-| Plex Requests - Meteor      | `sudo ansible-playbook cloudbox.yml --tags update-plexrequests` |
-| Organizr                    | `sudo ansible-playbook cloudbox.yml --tags update-organizr`     |
-| Portainer                   | `sudo ansible-playbook cloudbox.yml --tags update-portainer`    |
-| Watchtower                  | `sudo ansible-playbook cloudbox.yml --tags update-watchtower`   |
-| Nginx-Proxy and Letsencrypt | `sudo ansible-playbook cloudbox.yml --tags update-nginx`        |
+| Plex                        | `update-plex`         |
+| PlexPy                      | `update-plexpy`       |
+| Sonarr                      | `update-sonarr`       |
+| Radarr                      | `update-radarr`       |
+| NZBGet                      | `update-nzbget`       |
+| ruTorrent                   | `update-rutorrent`    | 
+| Jackett                     | `update-jackett`      |
+| NZB Hydra                   | `update-nzbhydra`     |
+| Plex Requests - Meteor      | `update-plexrequests` |
+| Organizr                    | `update-organizr`     |
+| Portainer                   | `update-portainer`    |
+| Watchtower                  | `update-watchtower`   |
+| Nginx-Proxy and Letsencrypt | `update-nginx`        |
 
