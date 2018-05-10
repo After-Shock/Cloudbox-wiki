@@ -25,7 +25,7 @@ The scoring is based on: non-configurable and configurable parameters.
 
 ## 1. Install Plex Dupefinder
 
-- Run the following commands: 
+Run the following commands: 
 
   ```bash
   cd ~/cloudbox/
