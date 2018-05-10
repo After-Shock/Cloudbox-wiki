@@ -3,40 +3,6 @@
 ![](https://i.imgur.com/d1sDNlE.png)
 
 
-```
-       _                 _                   __ _           _
- _ __ | | _____  __   __| |_   _ _ __   ___ / _(_)_ __   __| | ___ _ __
-| '_ \| |/ _ \ \/ /  / _` | | | | '_ \ / _ \ |_| | '_ \ / _` |/ _ \ '__|
-| |_) | |  __/>  <  | (_| | |_| | |_) |  __/  _| | | | | (_| |  __/ |
-| .__/|_|\___/_/\_\  \__,_|\__,_| .__/ \___|_| |_|_| |_|\__,_|\___|_|
-|_|                             |_|
-
-#########################################################################
-# Author:   l3uddz                                                      #
-# URL:      https://github.com/l3uddz/plex_dupefinder                   #
-# --                                                                    #
-# Part of the Cloudbox project: https://cloudbox.rocks                  #
-#########################################################################
-# GNU General Public License v3.0                                       #
-#########################################################################
-
-Initialized
-Finding dupes...
-Found 92 dupes for section 'TV Shows'
-
-Which media item do you wish to keep for b'SEAL Team - 01x06 - The Spinning Wheel' ?
-
-  choice  score        id  file                                                                                                        size     duration    bitrate     resolution          codecs
---------  -------  ------  ----------------------------------------------------------------------------------------------------------  -------  ----------  ----------  ------------------  --------------------
-       1  107,850  338475  ['/data/TV/Seal Team/Season 01/SEAL.Team.S01E06.The.Spinning.Wheel.1080p.WEB.h264-NTB.mkv']                 3.38 GB  00:43:47    10.78 Mbps  1080 (1920 x 1080)  h264, eac3 x 6
-       2  13,115   405635  ['/data/TV/Seal Team/Season 01/SEAL.Team.S01E06.The.Spinning.Wheel.720p.HDTV.x264-DIMENSION.mkv']           1.31 GB  00:43:47    3.64 Mbps   720 (1280 x 720)    h264, ac3 x 2
-
-Choose item to keep (0 = skip | b = best):
-
-```
-
-
-
 _Note: For Feederbox/Plexbox setups, this can be install in either system._ 
 
 
