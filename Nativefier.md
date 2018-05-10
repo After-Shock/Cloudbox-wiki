@@ -12,7 +12,7 @@
 # Intro
 
 
-[Nativefier](https://github.com/jiahaog/nativefier#nativefier) is a cross-platform, Electron application (built on Chromium and Node.js), that allows you to turn any website into a native OS app. This way you can easily "open" and "close" your Cloudbox apps without the memory footprint of a typical internet browser. You can even use this to replace [[Organizr | First-Time-Install: Organizr]]. 
+[Nativefier](https://github.com/jiahaog/nativefier#nativefier) is a cross-platform, Electron application (built on Chromium and Node.js), that allows you to turn any website into a native OS app. This way you can easily "open" and "close" your Cloudbox apps without the memory footprint of a typical internet browser. 
 
 
 
