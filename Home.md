@@ -76,7 +76,7 @@ _Last updated: May 10, 2018._
 - [[Logs]]
 
 ## Community ##
-- [Website](https://www.cloudbox.rocks)
+- [Website](https://cloudbox.rocks)
 - [Reddit](https://reddit.com/r/Cloudbox)
 - [Discord](https://discord.gg/xmNYmSJ)
 
