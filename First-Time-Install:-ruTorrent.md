@@ -8,7 +8,7 @@
 
 ## 2. Basics
 
-ruTorrent comes setup out of the box with the login settings (username and ruTorrent password) you set in [[settings.yml|first-time-install: configuring-settings]].
+ruTorrent comes setup out of the box with the login settings you set in [[settings.yml|first-time-install: configuring-settings]].
 
   - _Note: If you need to change the password after installing Cloudbox, see the [[FAQ#to-change-your-rutorrent-password-after-installation]]._
 
