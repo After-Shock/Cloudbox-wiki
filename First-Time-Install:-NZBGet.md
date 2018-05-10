@@ -1,4 +1,6 @@
-NZBGet is a very efficient, cross-platform usenet downloader.
+[NZBGet](https://nzbget.net/) (by Andrey Prygunkov aka hugbug) is a very efficient, cross-platform usenet downloader.
+
+![](https://nzbget.net/images/Web-Interface-01-Downloads.png)
 
 ## 1. Accessing NZBGet
 
