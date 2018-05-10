@@ -48,7 +48,7 @@ http://server_ip:plex_autoscan_port/plex_autoscan_pass
 eg. http://plex.domain.com:3468/aiG7Uwie9iodTTlaisahcieNaeVonu6I
 ```
 
-_Note 1: The script will not always show plex.domain.com if it doesn't match the server IP (e.g. if behind CDN)._
+_Note 1: The url will not use _plex.domain.com_ if the IP address it points to does not match the server's IP address (e.g. if behind CDN)._
 
 
 
