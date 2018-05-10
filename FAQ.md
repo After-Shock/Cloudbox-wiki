@@ -559,7 +559,7 @@ ACME server returned an error: urn:acme:error:rateLimited :: There were too many
 
 You're limited to 20 new certificates, per registered domain, per week.
 
-See https://letsencrypt.org/docs/rate-limits/ for more info.
+Visit https://letsencrypt.org/docs/rate-limits/ for more info.
 
 
 ## CA marked some of the authorizations as invalid
@@ -971,7 +971,7 @@ If your Google Drive ever disconnected during a Plex scan of your media, Plex wo
 
 Once Google Drive is remounted, all the files marked unavailable in Plex will be playable again and Plex Autoscan will resume its emptying trash duties post-scan.
 
-To learn more about Plex Autoscan, see https://github.com/l3uddz/plex_autoscan.
+To learn more about Plex Autoscan, visit https://github.com/l3uddz/plex_autoscan.
 
 
 
