@@ -1,8 +1,14 @@
-## 1. Accessing Portainer
+## 1. Intro
 
-- To access Portainer, visit  https://portainer._yourdomain.com_
+[Portainer](https://portainer.io/) is an open-source lightweight management UI which allows you to easily manage your Docker containers, images, networks and volumes.
 
-## 2. First Time Setup
+![](https://i.imgur.com/viJzDV7.jpg)
+
+## 2. Accessing Portainer
+
+To access Portainer, visit  https://portainer._yourdomain.com_
+
+## 3. First Time Setup
 
 1. The first time you go to the Portainer page, you will be presented with the message "Please specify a password for the admin user account". Fill in your preferred admin password. Click `Validate`.
 
