@@ -45,9 +45,9 @@ _Note: If you wish to move your Cloudbox to another server, see [[Migrating Clou
 | SSL Certificates | `/opt/nginx-proxy/`  | `/opt/nginx-proxy/`      |
 | Plex Autoscan             | `/opt/plex_autoscan/`     | `/opt/plex_autoscan/`    |
 | Unionfs Cleaner           | `/opt/unionfs_cleaner/`   | `/opt/unionfs_cleaner/`  |
-| Systemd Service           | `/etc/systemd/system/`    |                          |
+| Systemd Service           | `/etc/systemd/system/`    | `/opt//opt/systemd-backup/`                         |
 | Cloudbox settings         | `~/cloudbox/settings.yml` |                          |
-| Rclone config             | `~/cloudbox/rclone.conf`  | `~/.config/rclone/rclone.conf`| 
+| Rclone config             | `~/.config/rclone/rclone.conf`  | `~/.config/rclone/rclone.conf`| 
 
 
 # Backup
