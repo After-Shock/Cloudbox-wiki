@@ -11,7 +11,7 @@
 ---
 ## 1. Intro
 
-[Organizr](https://organizr.app/) (by _causefx_) is a web-based server apps organizer, that allows you to manage various tools and programs with tabs within Organizr. Also supports user management, allowing for non admin users or guests to access certain web-pages via Organizr, even if it is behind HTTP authentication. 
+[Organizr](https://organizr.app/) (by CauseFX) is a web-based, HTPC server organizer, that allows you to manage various tools and programs with tabs within Organizr. Also supports user management, allowing for non admin users or guests to access certain web-pages via Organizr, even if it is behind HTTP authentication. 
 
 
 ## 2. Accessing Organizr
