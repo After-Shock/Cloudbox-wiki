@@ -2,7 +2,7 @@
 
 Plex Autoscan comes configured out of the box (as related to Cloudbox). However, there a few things that need to be set by you. 
 
-_Note: If you would like to learn more about what Plex Autoscan does and all the options available, see https://github.com/l3uddz/plex_autoscan._
+If you would like to learn more about what Plex Autoscan does and all the options available, visit https://github.com/l3uddz/plex_autoscan.
 
 
 ## 1. Obtain a Plex Access Token
@@ -69,7 +69,7 @@ _Note 2: Above command requires Rclone version 1.39 or higher._
 _Note 3: For explanation on the purpose of the control file, see the [[FAQ|FAQ#purpose-of-a-control-file-in-plex-autoscan]]_.
 
 
-
+## 5. Scan your Plex Libraries once. 
 
 ---
 
