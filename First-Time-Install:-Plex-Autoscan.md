@@ -48,11 +48,11 @@ http://server_ip:plex_autoscan_port/plex_autoscan_pass
 eg. http://plex.domain.com:3468/aiG7Uwie9iodTTlaisahcieNaeVonu6I
 ```
 
-_Note: The script will not always show plex.domain.com if it doesn't match the server IP (e.g. if behind CDN)._
+_Note 1: The script will not always show plex.domain.com if it doesn't match the server IP (e.g. if behind CDN)._
 
 
 
-_Note: If you have a separate Plex and Feeder setup, this will be done on the server where Plex is installed._
+_Note 2: If you have a separate Plex and Feeder setup, this will be done on the server where Plex is installed._
 
 
 ## 4. Upload a Blank Control File to Google Drive
