@@ -267,7 +267,7 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
    1. On Upgrade:  `Yes`
 
-   1. On Rename:`No`
+   1. On Rename: `Yes`
 
    1. URL: [[Your Plex Autoscan URL|First-Time-Install: Plex-Autoscan#3-obtaining-the-plex-autoscan-url]]
 
@@ -279,7 +279,7 @@ This custom script, will cleanup torrents from ruTorrent that were auto-extracte
 
 1. The settings will look like this:
 
-    ![Radarr Plex Autoscan](https://i.imgur.com/niiQNPe.png)
+    ![Radarr Plex Autoscan](https://i.imgur.com/x8th9pQ.png)
 
 
 1. Click "Save" to add Plex Autoscan.
