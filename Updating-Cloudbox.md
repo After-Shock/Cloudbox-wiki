@@ -1,13 +1,15 @@
-If you want to keep your Cloudbox up-to-date with new additions/changes etc, then follow the guide below. 
+You can use this guide to keep your Cloudbox up-to-date with new additions/changes etc.
 
-_Note 1: You will not lose your config files (e.g. Plex/Sonarr/Radarr libraries, etc) as that is stored in `/opt`, but it is still prudent to have a recent [[backup | Backup and Restore#backup]], anyway._ 
+A few points:
 
-_Note 2: You will not lose any custom/extra Docker containers you have installed (though they may be stopped and require starting manually), since running/updating Cloudbox only updates Cloudbox related apps and docker containers._
+ - You will not lose your config files (e.g. Plex/Sonarr/Radarr libraries, etc) as that is stored in `/opt`, but it is still prudent to have a recent [[backup | Backup and Restore#backup]], anyway.
 
-_Note 3: your `settings.yml` file will remain intact._ 
+ - You will not lose any custom/extra Docker containers you have installed since only Cloudbox related apps and Docker containers are rebuilt. 
+
+- Your `settings.yml` file will remain intact.
 
 
-Steps to update Cloudbox are as follows:
+
 
 1. Pull the latest changes.
 
