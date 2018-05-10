@@ -44,9 +44,9 @@
 
 # How does Cloudbox function ?
 
-[Plexdrive](https://github.com/dweidenfeld/plexdrive) will mount your Google Drive on to the server. 
+[Rclone](https://rclone.org/) or [Plexdrive](https://github.com/dweidenfeld/plexdrive) will mount your cloud storage provider (e.g. Google Drive) on to the server. 
 
-UnionFS will merge the mounted Google Drive folder with your server's local folder, and this will be accessible by the media server application (e.g. Plex). 
+UnionFS will merge this mounted cloud storage path, with your server's local folder, and this will be accessible by the media server application (e.g. Plex). 
 
 [Sonarr](https://sonarr.tv/) will download your favorite TV Shows. [Radarr](https://radarr.video/) will download favorite movies. Both do this by utilizing either Usenet (via [NZBGet](https://nzbget.net/)) and/or Torrents (via [ruTorrent](https://github.com/Novik/ruTorrent)).<sup name="a1">[\[1\]](#f1) </sup><sup name="a2">[\[2\]](#f2)</sup> 
 
@@ -54,7 +54,7 @@ Sonarr / Radarr will move these downloads to your server's `/mnt/local/Media/` f
 
 [Plex AutoScan](https://github.com/l3uddz/plex_autoscan/), in turn, will tell Plex to scan for the newly downloaded TV Show or Movie, by only scanning the season / movie folders. This will (1), make the media appear in Plex sooner than what a full library scan would have been able to do, and (2), reduce the chances of Cloud Storage API bans. 
 
-[UnionFS Cleaner](https://github.com/l3uddz/unionfs_cleaner/) will eventually move the local media, that was downloaded by Sonarr / Radarr, to Google Drive, under a folder called `/Media`. The media will still be accessible by Plex via UnionFS/Plexdrive. 
+[UnionFS Cleaner](https://github.com/l3uddz/unionfs_cleaner/) will eventually move the local media, that was downloaded by Sonarr / Radarr, to the cloud, under a folder called `/Media`. The media will still be accessible by Plex via UnionFS/Plexdrive/Rclone. 
 
 
 
