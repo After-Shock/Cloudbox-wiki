@@ -59,8 +59,6 @@ To see the information below in a nice-looking table, click [[here|https://pste.
 
   - Note 1: Password **must** be in alphanumeric characters. No special characters. 
 
-  - Note 2: You can leave it as empty quotes (`""`) if the account already exists.
-
 - `domain`: Domain name for the Cloudbox server. If you don't have one, see [[Prerequisites| Basics: Prerequisites#3-domain-name]].
 
 - `email`: E-mail address.
