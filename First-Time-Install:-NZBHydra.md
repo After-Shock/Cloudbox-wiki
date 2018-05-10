@@ -3,7 +3,7 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:1 -->
 
 - [Intro](#intro)
-- [URL](#URL)
+- [URL](#url)
 - [Setup](#setup)
 - [API](#api-key)
 
