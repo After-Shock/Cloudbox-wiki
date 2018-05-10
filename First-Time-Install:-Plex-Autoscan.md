@@ -43,7 +43,7 @@ http://subdomain.domain.com:plex_autoscan_port/plex_autoscan_pass
 
 or
 
-http://server_ip:plex_autoscan_port/plex_autoscan_pass
+http://server_ip_address:plex_autoscan_port/plex_autoscan_pass
 
 eg. http://plex.domain.com:3468/aiG7Uwie9iodTTlaisahcieNaeVonu6I
 ```
