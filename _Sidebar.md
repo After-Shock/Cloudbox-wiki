@@ -66,7 +66,6 @@
 - Ombi
 - Emby
 - Radarr4K 
-- Heimdall
 
 
 ## Misc Guides ##
