@@ -16,7 +16,7 @@
 
 ## 2. Accessing PlexPy
 
-- To access PlexPy, visit https://plexpy._yourdomain_.com
+To access PlexPy, visit https://plexpy._yourdomain_.com
 
 ## 3. Setup Wizard
 
