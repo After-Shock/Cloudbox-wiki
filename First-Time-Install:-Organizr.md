@@ -68,7 +68,7 @@
     ![Tab Settings](https://i.imgur.com/UgVZrAN.png)
 
 
-  - Note: If Sonarr or Radarr are lagging too much, you may set it to a specific page in each. (e.g. Sonarr: https://sonarr.yourdomain.com/calendar ; Radarr: https://radarr.yourdomain.com/activity/history)
+  - Note: If Sonarr or Radarr are lagging a lot, you may set it to a specific page in each. (e.g. Sonarr: https://sonarr.yourdomain.com/calendar ; Radarr: https://radarr.yourdomain.com/activity/history)
 
 
 ### Homepage
