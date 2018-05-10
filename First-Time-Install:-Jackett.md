@@ -1,4 +1,7 @@
-Jackett lets you use a bunch of additional torrent providers with programs such as Sonarr and Radarr. You can also use it as a meta search tool to find torrents, yourself. 
+[Jackett](https://github.com/Jackett/Jackett) (based on the original work of Matthew Little aka zone117x) is a web-based app that acts like a proxy server, directing search queries from download clients (eg Sonarr) to torrent tracker sites and sending the results back. Download clients can also use Jackett to fetch RSS feeds from tracker sites. Finally, it can be used as a meta search tool to find torrents, right from within the app.
+
+
+![](https://i.imgur.com/kgRrhEo.png)
 
 ## 1. Accessing Jackett
 
