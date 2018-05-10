@@ -35,11 +35,11 @@ _Note: We prefer `docker stop/start <container>` vs `docker restart <container>`
 
 Alternatively, you can rebuild the docker container, outright.  This is particularly useful if you have made certain modifications to the Ansible role and need it to run without having to reinstall Cloudbox. 
 
-Run the following commands in `~/cloudbox/`.
+Run the following commands in `~/cloudbox/`, and will start with `sudo ansible-playbook cloudbox.yml --tags `.
 
 
-| Cloudbox Docker-based Apps  | How to rebuild (`sudo ansible-playbook cloudbox.yml --tags `)                                                 |
-|:--------------------------- |:--------------------------------------------------------------- |
+| Cloudbox Docker-based Apps  | How to rebuild                                                 |
+|:--------------------------- |--------------------------------------------------------------- |
 | Plex                        | `update-plex`         |
 | PlexPy                      | `update-plexpy`       |
 | Sonarr                      | `update-sonarr`       |
