@@ -146,7 +146,7 @@ nativefier --name "Sonarr" --basic-auth-username myusername --basic-auth-passwor
 Copy the app (e.g.  `.app` in MacOS, `.exe` in Windows) to your desktop or the applications location (i.e. Applications folder in MacOS, Start Menu in Windows)
 
 
-# Docker
+# Docker (coming soon)
 
 The following steps will guide you through setting up Nativefier on your server via docker and using that to generate the app for your PC. 
 
