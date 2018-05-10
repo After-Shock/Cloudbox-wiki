@@ -1,6 +1,6 @@
 You can use this guide to keep your Cloudbox up-to-date with new additions/changes etc.
 
-A few points:
+## A Few Points
 
  - You will not lose your config files (e.g. Plex/Sonarr/Radarr libraries, etc) as that is stored in `/opt`, but it is still prudent to have a recent [[backup | Backup and Restore#backup]], anyway.
 
@@ -9,7 +9,7 @@ A few points:
 - Your `settings.yml` file will remain intact.
 
 
-
+## How to Update Cloudbox
 
 1. Pull the latest changes.
 
