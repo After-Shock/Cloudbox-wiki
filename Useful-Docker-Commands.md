@@ -1,3 +1,5 @@
+# Docker Commands
+
 ### Stop all docker containers
 
 ```
@@ -35,7 +37,7 @@ docker rm -f $(docker ps -a -q)
 /opt/scripts/docker/restart_containers.sh
 ```
 
-### Docker Logs
+# Docker Logs
 
 Find the container name: `docker ps -a`
 
@@ -49,6 +51,8 @@ Live log (from the last 10 lines of the log):
 ```
 docker logs --follow --tail 10 <container_name>
 ```
+
+# Removing Docker Containers
 
 ### Don't want a certain docker container?
 
@@ -68,7 +72,7 @@ Via Portainer:
 
 
 
-### Add your own Docker container
+# Add your own Docker container
 
 
 Add these into the docker run/create command:
@@ -188,6 +192,7 @@ docker run -d \
     <docker-hub-user>/<repo-name>
 ```
 
+# Misc 
 
 ### Watchtower
 
