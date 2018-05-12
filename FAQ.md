@@ -651,11 +651,6 @@ If the Suitarr docker image has been updated (e.g. Cloudbox update) and now you 
 
 Replace `user` and `group` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid)).
 
-```
-sudo chown -R user:group /opt/rclone
-sudo chmod -R 0755 /opt/rclone
-
-```
 
 ```
 sudo chown -R user:group ~/.config/rclone/
