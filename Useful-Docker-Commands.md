@@ -1,37 +1,36 @@
 # Docker Commands
 
-### Stop all docker containers
+#### Stop all docker containers
 
 ```
 docker stop $(docker ps -a -q)
 ```
 
-### Start all docker containers
+#### Start all docker containers
 
 ```
 docker start $(docker ps -a -q)
 ```
 
-### Start all but one container (e.g. All docker containers except Watchtower)
+#### Start all but one container (e.g. All docker containers except Watchtower)
 
 ```
 docker start  $(comm -13 <(docker ps -a -q --filter="name=watchtower" | sort) <(docker ps -a -q | sort))
 ```
 
-### Remove all docker containers - once they are stopped (be careful)
+#### Remove all docker containers - once they are stopped (be careful)
 
 ```
 docker rm $(docker ps -a -q)
 ```
 
-### Forcefully, Remove all docker containers  (be careful)
+#### Forcefully, Remove all docker containers  (be careful)
 
 ```
 docker rm -f $(docker ps -a -q)
 ```
 
-
-### Restart only the running containers
+#### Restart only the running containers
 
 ```
 /opt/scripts/docker/restart_containers.sh
