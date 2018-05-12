@@ -54,9 +54,7 @@ docker logs --follow --tail 10 <container_name>
 
 # Removing Docker Containers
 
-### Don't want a certain docker container?
-
-You can remove it with the follow steps.
+Don't want a certain docker container? You can remove it with the follow steps.
 
 _Note: Certain docker containers are essential to Cloudbox  (e.g. nginx-proxy, letsencrypt)._
 
