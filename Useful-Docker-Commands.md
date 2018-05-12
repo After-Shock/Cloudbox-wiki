@@ -48,7 +48,12 @@ docker logs -follow <container_name>
 
 Live log (from the last 10 lines of the log):
 ```
-docker logs --follow --tail 10 <container_name>
+docker logs --follow --tail 100 <container_name>
+```
+
+Live log (from the last 10 lines of the log) - abbreviated:
+```
+docker logs -f --tail 100 <container_name>
 ```
 
 # Removing Docker Containers
