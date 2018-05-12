@@ -94,7 +94,7 @@ Notes:
 ```
 
 
-- Basics:
+- **Basics:**
   - `--name=<name>`
   - `--restart=always`
     - To have it startup automatically.
@@ -102,7 +102,7 @@ Notes:
     - To set the docker container's timezone to your host timezone.
   - `-e PUID=<your_user_ID> -e PGID=<your_group_ID>`
     - Replace `<user>` and `<group>` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid)).
-- Mount Paths:
+- **Mount Paths:**
 
   Mount paths are in the format of `path/on/host:path/within/container`. You may change the path on host (left side), but not the path set for the container, internally (right side). 
 
@@ -122,11 +122,11 @@ Notes:
       - Set ownership: `sudo chown -R <user>:<group> /mnt/downloads/<name>`
         - Replace `<user>` and `<group>` to match yours' (see [here](FAQ#find-your-user-id-uid-and-group-id-gid))
       - Set permissions: `sudo chmod -R g+s /mnt/downloads/<name>`
-- Network (these are important): 
+- **Network (these are important):** 
   - `--network=cloudbox `
   - `--network-alias=<name> `   (aliases are shortcuts to communicate across dockers)
   - Note: Leave these out if your docker run command requires `--net=host`.
-- Ports:
+- **Ports:**
 
   Ports are in the format of `host_port:container_port`. 
 
@@ -136,7 +136,8 @@ Notes:
     - `-p 127.0.0.1:<host_port>:<container_webadmin_port>` 
   - For all other ports:
     - `-p <host_port>:<container_other_ports>`
-- Nginx Proxy Stuff:
+
+- **Nginx Proxy Stuff:**
   - `-e VIRTUAL_PORT=<container_webpage_port>` (same port as the one mentioned above)
   - `-e VIRTUAL_HOST=<name>.<yourdomain>`
   - `-e LETSENCRYPT_HOST=<name>.<yourdomain>`
