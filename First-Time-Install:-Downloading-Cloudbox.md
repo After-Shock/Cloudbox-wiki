@@ -7,14 +7,14 @@
 
 
 ```bash
-curl -s https://cloudbox.rocks/install_dependencies.sh | sudo sh
+curl -s https://cloudbox.rocks/install_dependencies.sh | sudo -H sh
 
 ```
 
   or
 
 ```bash
-wget -qO- https://cloudbox.rocks/install_dependencies.sh | sudo sh
+wget -qO- https://cloudbox.rocks/install_dependencies.sh | sudo -H sh
 ```
 
 
