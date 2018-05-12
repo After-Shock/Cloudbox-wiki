@@ -79,6 +79,10 @@ Via Portainer:
 
 Add these into the docker run/create command:
 
+
+
+## Details
+
 ```
 Notes: 
 - Replace all <tags> with your info.
@@ -88,6 +92,7 @@ Notes:
 - You can break a command into multiple lines with a backslash '\'
  at the end of all the lines except the last one.
 ```
+
 
 - Basics:
   - `--name=<name>`
@@ -137,8 +142,7 @@ Notes:
   - `-e LETSENCRYPT_HOST=<name>.<yourdomain>`
   - `-e LETSENCRYPT_EMAIL=<your@email.com>`  #This should be a real email address.
 
-
-Here are some examples: 
+## Examples
 
 
 ```
@@ -173,7 +177,10 @@ docker run -d \
 	nextcloud
 ```
 
-Here is a blanked template (containers will not always use `/config`)
+
+## Blank Template
+
+Here is a blanked template (containers will not always use `/config`).
 
 ```
 docker run -d \
