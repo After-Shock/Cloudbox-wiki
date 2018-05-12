@@ -154,7 +154,7 @@ There are 2 ways to set this up:
    Example: 
 
    ```bash
-   @weekly /usr/local/bin/ansible-playbook /home/seed/cloudbox/cloudbox.yml --tags backup
+   @weekly PATH='/usr/bin:/bin:/usr/local/bin' /usr/local/bin/ansible-playbook /home/seed/cloudbox/cloudbox.yml --tags backup >> /home/seed/logs/cloudbox_backup-`date +\%Y-\%m-\%d_\%H-\%M-\%S`.log 2>&1
    ```
 
 
