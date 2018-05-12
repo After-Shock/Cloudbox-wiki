@@ -149,9 +149,10 @@ There are 2 ways to set this up:
 
 2. Add your cron task. 
 
-   Note: You must use the full Ansible path (i.e. `/usr/local/bin/ansible-playbook /home/seed/cloudbox/cloudbox.yml --tags backup`).
+   Note: You must use specify PATH variable and the full Ansible path (eg. 
+   `PATH='/usr/bin:/bin:/usr/local/bin' /usr/local/bin/ansible-playbook /home/seed/cloudbox/cloudbox.yml --tags backup` )
 
-   Example: 
+   Example of a cron task: 
 
    ```
    @weekly PATH='/usr/bin:/bin:/usr/local/bin' /usr/local/bin/ansible-playbook /home/seed/cloudbox/cloudbox.yml --tags backup >> /home/seed/logs/cloudbox_backup-`date +\%Y-\%m-\%d_\%H-\%M-\%S`.log 2>&1
