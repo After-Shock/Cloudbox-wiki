@@ -147,16 +147,21 @@ There are 2 ways to set this up:
    sudo crontab -e
    ```
 
-2. Add your cron task. 
+2. To add in your cron task, you must use specify PATH variable and the full Ansible path (eg. 
+   `PATH='/usr/bin:/bin:/usr/local/bin' /usr/local/bin/ansible-playbook /home/seed/cloudbox/cloudbox.yml --tags backup`).
 
-   Note: You must use specify PATH variable and the full Ansible path (eg. 
-   `PATH='/usr/bin:/bin:/usr/local/bin' /usr/local/bin/ansible-playbook /home/seed/cloudbox/cloudbox.yml --tags backup` )
-
-   Example of a cron task: 
+   Examples:
 
    ```
    @weekly PATH='/usr/bin:/bin:/usr/local/bin' /usr/local/bin/ansible-playbook /home/seed/cloudbox/cloudbox.yml --tags backup >> /home/seed/logs/cloudbox_backup-`date +\%Y-\%m-\%d_\%H-\%M-\%S`.log 2>&1
    ```
+
+   ```
+   0 6 * * * PATH='/usr/bin:/bin:/usr/local/bin' /usr/local/bin/ansible-playbook /home/seed/cloudbox/cloudbox.yml --tags backup >> /home/seed/logs/cloudbox_backup-`date +\%Y-\%m-\%d_\%H-\%M-\%S`.log 2>&1
+   ```
+
+
+   **Note**: If you modify the one that Ansible creates, you must remove the comment header (`#Ansible: Backup Cloudbox`), or else Ansible will reset it back to what `settings.yml` is set to. 
 
 
 # Restore
