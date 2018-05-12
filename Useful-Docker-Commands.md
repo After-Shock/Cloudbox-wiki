@@ -117,19 +117,19 @@ Notes:
   - Note: Leave these out if your docker run command requires `--net=host`.
 - Ports:
 
-  Ports are in the format of `host_port:port_within_container`. 
+  Ports are in the format of `host_port:container_port`. 
 
   Usually, you will want those two ports to match. However, since a host can only use one port number at a time, if you to create multiple containers of the same app (e.g. Radarr and Radarr4k), then you will need to change the host port (left side) to something else, but you will always leave the container port (right side) as is.
 
   - For the main port (i.e. the web admin page that nginx-proxy will redirect 80/443 to; example: 32400 for Plex):
-    - `-p 127.0.0.1:<host_port>:<container_web_port>` 
+    - `-p 127.0.0.1:<host_port>:<container_webadmin_port>` 
   - For all other ports:
     - `-p <host_port>:<container_other_ports>`
 - Nginx Proxy Stuff:
-  - `-e VIRTUAL_PORT=<container_web_port>` (same port as the one mentioned above)
+  - `-e VIRTUAL_PORT=<container_webpage_port>` (same port as the one mentioned above)
   - `-e VIRTUAL_HOST=<name>.<yourdomain>`
   - `-e LETSENCRYPT_HOST=<name>.<yourdomain>`
-  - `-e LETSENCRYPT_EMAIL=<your@email.com>` 
+  - `-e LETSENCRYPT_EMAIL=<your@email.com>`  #This should be a real email address.
 
 
 Here are some examples: 
@@ -167,7 +167,25 @@ docker run -d \
 	nextcloud
 ```
 
+Here is a blanked template (containers will not always use `/config`)
 
+```
+docker run -d \
+    --name <name> \
+    --restart=always \
+    --network=cloudbox \
+    --network-alias=<name> \
+    -p 127.0.0.1:<host_port>:<container_webadmin_port> \
+    -p <host_port2>:<container_misc_port1> \
+    -p <host_port3>:<container_misc_port2> \
+    -v /opt/<name>/:/config \
+    -v /mnt/:/mnt/ \
+    -e VIRTUAL_PORT=<container_webadmin_port> \
+    -e VIRTUAL_HOST=<name>.yourdomain \
+    -e LETSENCRYPT_HOST=<name>.yourdomain \
+    -e LETSENCRYPT_EMAIL=<your@email.com> \
+    <docker-hub-user>/<repo-name>
+```
 
 
 ### Watchtower
