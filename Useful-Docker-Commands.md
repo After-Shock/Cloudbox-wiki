@@ -173,6 +173,7 @@ Here is a blanked template (containers will not always use `/config`)
 docker run -d \
     --name <name> \
     --restart=always \
+    -e PGID=1000 -e PUID=1000  \
     --network=cloudbox \
     --network-alias=<name> \
     -p 127.0.0.1:<host_port>:<container_webadmin_port> \
