@@ -7,18 +7,18 @@
 
 
 ```bash
-curl -s https://cloudbox.rocks/install_dependencies.sh | sudo sh -s 2.3.1
+curl -s https://cloudbox.rocks/install_dependencies.sh | sudo sh
 
 ```
 
   or
 
 ```bash
-wget -qO- https://cloudbox.rocks/install_dependencies.sh | sudo sh -s 2.3.1
+wget -qO- https://cloudbox.rocks/install_dependencies.sh | sudo sh
 ```
 
 
-_Note: To install Ansible version 2.3.1, instead of 2.5.0, add `-s 2.3.1` at the end (added back for now)._
+_Note: To install Ansible version 2.3.1, instead of 2.5.0, add `-s 2.3.1` at the end._
 
 ## 2. Download Cloudbox ### 
 
