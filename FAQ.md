@@ -968,7 +968,7 @@ Once Google Drive is remounted, all the files marked unavailable in Plex will be
 
 To learn more about Plex Autoscan, visit https://github.com/l3uddz/plex_autoscan.
 
-TLDR: Plex Autoscan will remove deleted files off Plex without it. 
+TLDR: Plex Autoscan will not remove deleted files out of Plex without it. 
 
 # UnionFS Cleaner
 
