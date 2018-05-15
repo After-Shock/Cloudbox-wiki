@@ -18,7 +18,7 @@ wget -qO- https://cloudbox.rocks/install_dependencies.sh | sudo -H sh
 ```
 
 
-_Note: To install Ansible version 2.3.1, instead of 2.5.0, add `-s 2.3.1` at the end._
+_Note: Script will install Ansible v2.5.2. To install Ansible v2.3.1, instead, add `-s 2.3.1` at the end._
 
 ## 2. Download Cloudbox ### 
 
