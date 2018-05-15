@@ -66,7 +66,7 @@ _Note 1: If your Rclone remote config has a different name for Google Drive, rep
 
 _Note 2: Above command requires Rclone version 1.39 or higher._
 
-_Note 3: For explanation on the purpose of the control file, see the [[FAQ|FAQ#purpose-of-a-control-file-in-plex-autoscan]]_.
+_Note 3: For explanation on the purpose of the control file, see the [[FAQ|FAQ#purpose-of-a-control-file-in-plex-autoscan]], but the basic gist is that Plex Autoscan will not remove deleted files off Plex without it._
 
 
 
