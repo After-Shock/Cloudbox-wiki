@@ -53,9 +53,8 @@
 
    ![](https://i.imgur.com/SRFQNEP.png)
 
-## 3. Misc
 
-### 1. Adding Folder(s)
+## 3. Adding Folder(s)
 
 1. Click the `+` at the top left and select the folder type.
 
