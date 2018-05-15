@@ -61,7 +61,7 @@ To access PlexPy, visit https://plexpy._yourdomain_.com
 
     ![](https://i.imgur.com/iX6G2ca.png)
 
-1. Click "Plex Media Server" on the left. Click "Show Advanced" at the top. Under "Logs Folder", type in `/logs`. Now you can click `Save`.
+1. Click "Plex Media Server" on the left. Click "Show Advanced" at the top. Under "Logs Folder", type in `/logs`. Now you can click `Save`. Also verify 'Use SSL' and 'Remote Server` are unchecked. 
 
     ![](https://i.imgur.com/Z1Vfi8U.png)
 
