@@ -91,7 +91,7 @@ Find the Media Server menu and select `Plex`.  Enter your Plex username and pass
 
     - Click `Get Quality Profiles` and choose your preferred "Download quality profile for Radarr".
 
-    - Click `Get Root Folders` and choose your preferred Root Folder, most cases it's simply `/movies`. 
+    - Click `Get Root Folders` and choose your preferred Root Folder, most cases it's simply `/Movies`. 
     
     - Select the desired "Default Minimun Availability"
 
