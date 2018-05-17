@@ -2,14 +2,14 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:1 -->
 
 1. [Accessing Ombi](#1-accessing-ombi)
-2. [Initial Ombi Setup](#2-account-setup)
+2. [Initial Setup](#2-initial-setup)
 3. [Settings](#3-settings)
 
 <!-- /TOC -->
 ---
 ## 1. Accessing Ombi
 
-- To access Ombi, visit https://ombi._yourdomain_.com
+ - To access Ombi, visit https://ombi._yourdomain_.com
 
 
 ## 2. Initial Setup
@@ -34,18 +34,12 @@
 
     ![](https://i.imgur.com/e7dkVAd.png)
     
-    
-    
-
-1. You will now see "Create an Account" prompt. Fill in your preferred `Email` and `Password` and click the `Register` button. This will be the Admin account for Plex Requests.
-
-    ![](https://i.imgur.com/2axV0sW.png)
-
+        
 ## 3. Settings
 
-1. You will now be taken to the "General" settings page. You may select whatever options you like here. Click `Update Settings` to save changes.
+1. Once logged in, find the `Settings` menu button in the upper right corner and click it. now be taken to the "General" settings page. You may select whatever options you like here. Click `Update Settings` to save changes.
 
-    ![ ](https://i.imgur.com/02AlzFO.png)
+    ![](https://i.imgur.com/zw5K5z3.png)
 
 1. On the "Authentication" settings page
 
@@ -55,7 +49,7 @@
 
     - Click `Update Settings` to save changes.
 
-    ![ ](https://i.imgur.com/vd35F5e.png)
+    ![](https://i.imgur.com/vd35F5e.png)
 
     ![](https://i.imgur.com/gLucVsz.png)
 
