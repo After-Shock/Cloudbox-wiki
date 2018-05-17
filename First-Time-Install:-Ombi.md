@@ -4,6 +4,9 @@
 1. [Accessing Ombi](#1-accessing-ombi)
 2. [Initial Setup](#2-initial-setup)
 3. [Settings](#3-settings)
+4. [Plex Settings](#4-plex-settings)
+5. [Radarr Settings](#5-radarr-settings)
+6. [Sonarr Settings](#6-sonarr-settings)
 
 <!-- /TOC -->
 ---
@@ -41,20 +44,23 @@
 
     ![](https://i.imgur.com/zw5K5z3.png)
 
-1. On the "Authentication" settings page
+1. On the "Configuration" settings page, find the Authentication section.
 
-    - It is advised to have both `Enable user authentication` and `Require users to login with their passwords` enabled (at the very least `Enable user authentication` enabled).
+    - It is advised to have both `Enable Plex OAuth` and leave `Allow users to login without a password` disabled.
+    ![](https://i.imgur.com/XHXc1Wx.png)
+    
 
-    - To have your Plex Authorization token automatically retrieved, fill in your `Plex Username` and `Plex Password` and click the `Get Token` button. When this is successful, you will get the "Successfully got token!" message and the `Plex authorization token` textbox will be filled in.
+## 4. Plex Settings
+Find the Media Server menu and select `Plex`.  Enter your Plex username and password, then his the `Load Servers` button.  This will scan for all of the Plex servers associated with the credentials you entered. Use the `Servers` button to hightlight the server you wish to configure Ombi with. While doing this will fill in the local hostname or IP section, it's best practice to use the dynamic name of `plex` in the Hostname field as seen in the image:
 
-    - Click `Update Settings` to save changes.
-
-    ![](https://i.imgur.com/vd35F5e.png)
-
-    ![](https://i.imgur.com/gLucVsz.png)
+    ![](https://i.imgur.com/RUZW88d.png)
+    
+1.  Hit the `Submit` button and then `Test Connectivity` button to verify Ombi is able to connect to your Plex instance.
 
 
-1. On the "Radarr" settings page:
+## 5. Radarr Settings
+
+1. Under Movies menu section you will find the "Radarr" settings page:
 
    _Note: There are some slight differences in the settings for Feeder / Plex setups. See notes below._ 
 
@@ -79,19 +85,23 @@
        - _For Feeder / Plex setup, set it to `enabled`._
 
 
-    - Click `Update Settings`.
+    - Click `Submit`.
 
-    - Click `Test Radarr server`. The button will update to show "Success!".
+    - Click `Test Connectivity`. A fly in notification in the upper right corner will show "Successfully connected to Radarr!".
 
-    - Click `Get Profiles` and choose your preferred "Download quality profile for Radarr".
+    - Click `Get Quality Profiles` and choose your preferred "Download quality profile for Radarr".
 
-    - "Root save directory for movies": `/movies`.
+    - Click `Get Root Folders` and choose your preferred Root Folder, most cases it's simply `/movies`. 
+    
+    - Select the desired "Default Minimun Availability"
 
-    - Click `Update Settings`.
+    - Click `Submit`.
 
-    ![](https://i.imgur.com/YKEPArN.png)
+     ![](https://i.imgur.com/J7MTPaz.png)
+    
+## 6. Sonarr Settings
 
-1. On the "Sonarr" settings page:
+1. Under TV menu section you will find the "Sonarr" settings page:
 
    _Note: There are some slight differences in the settings for Feeder / Plex setups. See notes below._ 
 
@@ -112,18 +122,20 @@
        - _For Feeder / Plex setup, set it to `enabled`._
 
 
-    - Click `Update Settings`.
+    - Click `Submit`.
 
-    - Click `Test Sonarr server`. The button will update to show "Success!".
+    - Click `Test Connectivity`. A fly in notification in the upper right corner will show "Successfully connected to Sonarr!".
 
-    - Click `Get Profiles` and choose your preferred "Download quality profile".
+    - Click `Get Quality Profiles` and choose your preferred "Download quality profile".
 
-    - "Root save directory for TV shows": `/tv`.
-
-    - Click `Update Settings`.
+    - Click `Get Root Folders` and choose your preferred Root Folder, most cases it's `/tv` for TV shows. 
+    
+    - Enable season folders if you wish. 
+   
+    - Click `Submitt`.
 
     _Note: If you have a separate Plex and Feeder setup, this will be done on the server where Plex is installed.
 
-    ![](https://i.imgur.com/fqnAyI5.png)
+    ![](https://i.imgur.com/HXYBT5K.png)
 
-1. Click `Sign Out` to exit Settings.
+
